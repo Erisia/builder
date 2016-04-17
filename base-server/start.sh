@@ -33,6 +33,7 @@ done
 
 exec java -d64 -server -Xmn512m -Xms1g -Xmx10g \
   -Djava.net.preferIPv4Stack=true \
+  -Dfastcraft.asm.permissive=true \
   -XX:+AggressiveOpts \
   -XX:+UseG1GC \
   -XX:+DisableExplicitGC -XX:MaxGCPauseMillis=150 -XX:SurvivorRatio=8 \
