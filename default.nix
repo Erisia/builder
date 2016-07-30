@@ -59,9 +59,9 @@ let
     };
 
     TickProfiler = mkMod {
-      name = "TickProfiler-1.7.10-jenkins-30";
+      name = "TickProfiler-1.7.10-jenkins-31";
       src = fetchurl {
-        url = https://jenkins.nallar.me/job/TickProfiler/branch/1.7.10/lastSuccessfulBuild/artifact/build/libs/TickProfiler-1.7.10.jenkins.30.jar;
+        url = https://jenkins.nallar.me/job/TickProfiler/branch/1.7.10/lastSuccessfulBuild/artifact/build/libs/TickProfiler-1.7.10.jenkins.31.jar;
         sha256 = "1b23jl3xf354nm7x9dmyr9wgj444v26xy6c8v69vxzv0bmayh49q";
       };
       side = "SERVER";
