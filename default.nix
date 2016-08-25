@@ -166,7 +166,7 @@ rec {
         isDefault = true;
       };
       morpheus = {
-        side = "SERVER"
+        side = "SERVER";
       };
     };
   };
@@ -246,8 +246,8 @@ rec {
     };
     
     morpheus = fetchCurse {
-      name = "morpheus"
-      target = "Morpheus-1.7.10-1.6.21.jar"
+      name = "morpheus";
+      target = "Morpheus-1.7.10-1.6.21.jar";
     };
     
     # Books.
