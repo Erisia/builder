@@ -167,7 +167,7 @@ rec {
       };
       morpheus = {
         side = "SERVER"
-      }
+      };
     };
   };
 
