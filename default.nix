@@ -315,6 +315,8 @@ rec {
       # Enable OpenBlocks graves
       ''sed -i -e "s/B:grave=false/B:grave=true/" OpenBlocks.cfg''
       ''sed -i -e "s/B:destructiveGraves=false/B:destructiveGraves=true/" OpenBlocks.cfg''
+      # Surpress COFH Deathspam.
+      ''sed -i "cofh/core/common.cfg" -e 's/B:EnableGenericDeathMessage=true/B:EnableGenericDeathMessage=false/' ''
       # So many client configs.
       ''find . | grep -i client | xargs rm''
     ];
