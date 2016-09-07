@@ -328,9 +328,6 @@ rec {
       ''sed -i "cofh/core/common.cfg" -e 's/B:EnableGenericDeathMessage=true/B:EnableGenericDeathMessage=false/' ''
       # Remove heat blocks; fix CC pylon rebuilding
       ''sed -i "railcraft/blocks.cfg" -e 's/B:residual.heat=true/B:residual.heat=false/' ''
-      # CC Stuff
-      ''sed -i "Reika/ChromatiCraft.cfg" -e 's/B:"Always Respawn EnderDragon"=false/B:"Always Respawn EnderDragon"=true/' ''
-      ''sed -i "Reika/ChromatiCraft.cfg" -e 's/Use vanilla keybind system for ability selection GUI"=false/Use vanilla keybind system for ability selection GUI"=true/' ''
       # So many client configs.
       ''find . | grep -i client | xargs rm''
     ];
