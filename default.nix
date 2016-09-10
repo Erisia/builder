@@ -242,6 +242,12 @@ rec {
       ''sed -i "railcraft/blocks.cfg" -e 's/B:residual.heat=true/B:residual.heat=false/' ''
       # So many client configs.
       ''find . | grep -i client | xargs rm''
+      # Chunkloaders do not need fuel
+      ''sed -i immibis.cfg -e s/B:chunkloader.useFuel=true/B:chunkloader.useFuel=false/''
+      ''sed -i railcraft/railcraft.cfg -e "s/S:passive.fuel=minecraft:ender_pearl=12/S:passive.fuel=/" ''
+      ''sed -i railcraft/railcraft.cfg -e "s/S:personal.fuel=minecraft:ender_pearl=12/S:personal.fuel=/" ''
+      ''sed -i railcraft/railcraft.cfg -e "s/S:world.fuel=minecraft:ender_pearl=12/S:world.fuel=/" ''
+      
     ];
   };
 
