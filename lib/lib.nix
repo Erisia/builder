@@ -71,7 +71,7 @@ rec {
 
     inherit extraDirs configPatches;
 
-    buildInputs = [ rsync zip ];
+    buildInputs = [ rsync zip perl ];
 
     builder = mkBuilder ''
       mkdir $out

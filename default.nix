@@ -281,7 +281,8 @@ rec {
       ''sed -i railcraft/railcraft.cfg -e "s/S:passive.fuel=minecraft:ender_pearl=12/S:passive.fuel=/" ''
       ''sed -i railcraft/railcraft.cfg -e "s/S:personal.fuel=minecraft:ender_pearl=12/S:personal.fuel=/" ''
       ''sed -i railcraft/railcraft.cfg -e "s/S:world.fuel=minecraft:ender_pearl=12/S:world.fuel=/" ''
-      
+      # Enable TE Activator - as no other block except OC robots can properly left click
+      ''perl -i -pe "BEGIN{undef $/;} s/(Activator .*?B:Recipe.Enable=)false/\$1true/smg" cofh/thermalexpansion/common.cfg''
     ];
   };
 
