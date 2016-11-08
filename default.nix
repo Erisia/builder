@@ -175,6 +175,9 @@ rec {
         required = false;
         isDefault = true;
       };
+      CoFHTweaks = {
+        required = false;
+      };
     };
   };
 

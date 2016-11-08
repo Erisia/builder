@@ -35,4 +35,10 @@
     url = "https://minecraft.curseforge.com/projects/controlling/files/2328181/download";
     md5 = "8589f6fa0a0f8f0b69fe88f9aa518e7f";
   }
+  {
+    name = "CoFHTweaks-_1.7.10_1.1.3B3-94.jar";
+    filename = "CoFHTweaks-[1.7.10]1.1.3B3-94.jar";
+    url = "https://minecraft.curseforge.com/projects/cofhtweaks/files/2320134/download";
+    md5 = "30710ffb1c9bf405592f3bd823ab3ef6";
+  }
 ]
