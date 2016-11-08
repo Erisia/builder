@@ -18,10 +18,10 @@
     md5 = "28e3263921a43b2b816998e1cdd76784";
   }
   {
-    name = "DynamicLights-1.7.10.jar";
-    filename = "DynamicLights-1.7.10.jar";
-    url = "https://minecraft.curseforge.com/projects/dynamic-lights/files/2231444/download";
-    md5 = "8840330ed22e14467063f73e2aa8ca04";
+    name = "Dynamic_Lights_for_MC1.7.10_v1.3.9a";
+    filename = "Dynamic Lights for MC1.7.10 v1.3.9a.jar";
+    url = "https://minecraft.curseforge.com/projects/dynamic-lights/files/2337326/download";
+    md5 = "6917483ad2df091d871d0a68c343eaa1";
   }
   {
     name = "SoundFilters-0.8_for_1.7.X.jar";

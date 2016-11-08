@@ -162,10 +162,10 @@
     md5 = "e63cda211516c31144e9746ffc667663";
   }
   {
-    name = "Decocraft-2.3.3_1.7.10.jar";
-    filename = "Decocraft-2.3.3_1.7.10.jar";
-    url = "https://minecraft.curseforge.com/projects/decocraft2/files/2319068/download";
-    md5 = "ae337eeb694dee4bab5ce074420bd0b8";
+    name = "Decocraft-2.3.5_1.7.10.jar";
+    filename = "Decocraft-2.3.5_1.7.10.jar";
+    url = "https://minecraft.curseforge.com/projects/decocraft2/files/2342380/download";
+    md5 = "52a1f24226f6fd4191ffa03e5c4a12a3";
   }
   {
     name = "WAILAPlugins-MC1.7.10-0.2.0-23.jar";
@@ -258,10 +258,10 @@
     md5 = "02f81c0c4a350fed8c8e2eb526cf09ad";
   }
   {
-    name = "IronBackpacks-1.7.10-1.2.19.jar";
-    filename = "IronBackpacks-1.7.10-1.2.19.jar";
-    url = "https://minecraft.curseforge.com/projects/iron-backpacks/files/2335077/download";
-    md5 = "3ed8f819bea985251a08010820f41c81";
+    name = "IronBackpacks-1.7.10-1.2.20.jar";
+    filename = "IronBackpacks-1.7.10-1.2.20.jar";
+    url = "https://minecraft.curseforge.com/projects/iron-backpacks/files/2339301/download";
+    md5 = "a7e20c4ced02e078db2f35b71796aca5";
   }
   {
     name = "JavaChecker_v2.0__Shading_";
