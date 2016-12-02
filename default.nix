@@ -239,6 +239,7 @@ rec {
     # And in order, if it matters.
     # TODO: Write something that understands what it's doing.
     configPatches = [
+		''sed -i minecolonies.cfg -e 's/workingRangeTownHall=100/workingRangeTownHall=50/' ''
     ];
   };
 
