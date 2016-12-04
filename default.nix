@@ -147,7 +147,7 @@ rec {
     modConfig = {
       tickProfilerOneTen = {
         side = "SERVER";
-      }
+      };
       journeymap = {
         required = false;
         isDefault = true;
