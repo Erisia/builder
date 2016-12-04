@@ -60,6 +60,15 @@ let
       };
       side = "SERVER";
     };
+    
+    TickProfilerOneTen = mkMod {
+      name = "TickProfiler-1.10.2.jenkins.10";
+      src = fetchurl {
+        url = https://jenkins.nallar.me/job/TickProfiler/branch/1.10.2/10/artifact/build/libs/TickProfiler-1.10.2.jenkins.10.jar;
+        sha256 = "d667851dcf321b2800414da662a6935abb6dfa33d64e969d8a9017cc72969c54";
+      };
+      side = "SERVER";
+    };
 
     Shaders = mkMod {
       name = "ShadersMod-2.3.31";
@@ -136,6 +145,9 @@ rec {
     }).pack;
 
     modConfig = {
+      tickProfilerOneTen = {
+        side = "SERVER";
+      }
       journeymap = {
         required = false;
         isDefault = true;
