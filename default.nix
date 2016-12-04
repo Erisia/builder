@@ -145,6 +145,7 @@ rec {
     }).pack;
 
     modConfig = {
+    
       tickProfilerOneTen = {
         side = "SERVER";
       };
