@@ -213,6 +213,16 @@ rec {
       required = false;
       isDefault = true;
    };
+	Soundphysics = mkMod {
+	  name = "Soundphysics-mc.1.10.2-v1.0.0";
+	  src = fetchurl {
+	    url = https://beefyserv.bloxgaming.com/bloxgate/soundphysics-mc1.10.2-v1.0.0.jar;
+		sha256 = "1001kai3qjz6w4swp98ibh8xvai1jgsl66lslq0z5i69pv246gj3";
+	  };
+	  side = "CLIENT";
+	  required = false;
+	  isDefault = true;
+	};
   };
 
   direwolf-server = mkServer rec {
@@ -240,6 +250,12 @@ rec {
         sha256 = "1v58lhch9g4jm8mlmwb2dnr16gasa1zw1l82lyfsk7s0cqxp8gyj";
         stripRoot = false;
        })
+	   (fetchzip {
+	     url = https://beefyserv.bloxgaming.com/bloxgate/se-soundfix-v0.1.zip;
+		 sha256 = "15r153b9jbvjl8bwnfhqlisy2l65mxc336yhpypyi11r2h8zfd30";
+		 stripRoot = false;
+	   })
+	   
        ./base-dw20
     ];
 
