@@ -86,4 +86,18 @@
     "side" = "client";
     "md5" = "ce65914f0dc2e027d0aba17adc6c03eb";
   };
+  "thaumcraft-nei-plugin" = {
+    "src" = "https://minecraft.curseforge.com/projects/thaumcraft-nei-plugin/files/2241913/download";
+    "version" = "1.7.10-1.7a";
+    "title" = "Thaumcraft NEI Plugin";
+    "projectID" = 225095;
+    "required" = true;
+    "filename" = "thaumcraftneiplugin-1.7.10-1.7a.jar";
+    "dependencies" = [];
+    "encoded" = "thaumcraftneiplugin-1.7.10-1.7a.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/thaumcraft-nei-plugin";
+    "type" = "remote";
+    "side" = "client";
+    "md5" = "f71559fa64c1996b03e796b660914637";
+  };
 }

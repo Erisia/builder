@@ -1,5 +1,5 @@
 # Mods added via manifest
-## manifests/BR-Extras.json:
+## manifests\BR-Extras.json:
 - [AnimationAPI](https://minecraft.curseforge.com/projects/animationapi): 1.7.10-1.2.4
 - [Ars Magica 2](https://minecraft.curseforge.com/projects/ars-magica-2): 1.7.10_AM2-1.4.0.009
 - [Climate Control/Geographicraft](https://minecraft.curseforge.com/projects/climate-control-geographicraft): 0.8.2
@@ -18,7 +18,7 @@
 - [Streams](https://minecraft.curseforge.com/projects/streams): 0.2
 - [Thaumcraft Node Tracker](https://minecraft.curseforge.com/projects/thaumcraft-node-tracker): 1.7.10-1.1.2
 
-## manifests/cosmetic.json:
+## manifests\cosmetic.json:
 - [AmbientSounds](https://minecraft.curseforge.com/projects/ambientsounds): None
 ```diff
 - Not found
@@ -29,8 +29,9 @@
 - [Real Time Clock](https://minecraft.curseforge.com/projects/real-time-clock): 1.7.10-0.2
 - [Sound Filters](https://minecraft.curseforge.com/projects/sound-filters): 0.8_for_1.7.X
 - [SoundCap](https://minecraft.curseforge.com/projects/soundcap): 1.0
+- [Thaumcraft NEI Plugin](https://minecraft.curseforge.com/projects/thaumcraft-nei-plugin): 1.7.10-1.7a
 
-## manifests/tools.json:
+## manifests\tools.json:
 - [HelpFixer](https://minecraft.curseforge.com/projects/helpfixer): 1.0.7
 - [Inventory Tweaks](https://minecraft.curseforge.com/projects/inventory-tweaks): 1.59-dev-152
 - [JourneyMap](https://minecraft.curseforge.com/projects/journeymap-32274): 1.7.10-5.1.4p2-unlimited

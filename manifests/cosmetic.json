@@ -19,5 +19,9 @@
         "side": "client"
     },
     "garden-stuff": {},
-    "decocraft2": {}
+    "decocraft2": {},
+	"thaumcraft-nei-plugin": {
+		"side": "client",
+		"required": true
+	}
 }
