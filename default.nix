@@ -254,7 +254,7 @@ rec {
       # Enables the crafting of world anchors.
       ''sed -i railcraft/railcraft.cfg -e "s/B:craftable=false/B:craftable=true/" ''
       #Enable the ExU Magnum Torch.
-      ''sed -i ExtraUtilities.cfg -e "s/B:MagnumTorchEnabled=true/" ''
+      ''sed -i ExtraUtilities.cfg -e "s/B:MagnumTorchEnabled=false/B:MagnumTorchEnabled=true" ''
     ];
   };
 
