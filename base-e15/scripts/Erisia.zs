@@ -69,3 +69,7 @@ mods.botania.ElvenTrade.addRecipe(<dimdoors:Rift Signature>,
 
 // Plates.
 mods.gregtech.PlateBender.addRecipe(<Eln:Eln.sharedItem:7691>, <Eln:Eln.sharedItem:519>, 600, 40);
+
+//Allow conversion from Greg's Blue Topaz Blocks to AM2's Blue Topaz Blocks to fix some broken recipes and rituals.
+recipes.addShapeless(<arsmagica2:vinteumOre:7>, [<gregtech:gt.blockgem1:4>]);
+
