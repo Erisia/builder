@@ -253,6 +253,8 @@ rec {
       ''sed -i railcraft/railcraft.cfg -e "s/S:world.fuel=minecraft:ender_pearl=12/S:world.fuel=/" ''
       # Enables the crafting of world anchors.
       ''sed -i railcraft/railcraft.cfg -e "s/B:craftable=false/B:craftable=true/" ''
+      #Enable the ExU Magnum Torch.
+      ''sed -i ExtraUtilities.cfg -e "s/B:MagnumTorchEnabled=false/B:MagnumTorchEnabled=true/" ''
     ];
   };
 
