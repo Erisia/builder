@@ -227,6 +227,8 @@ rec {
     # And in order, if it matters.
     # TODO: Write something that understands what it's doing.
     configPatches = [
+      # Turn off most of the Gregtech explosion (brain-)damage.
+      ''sed -i GregTech/GregTech.cfg -e s/B:machines_explosion_damage=true/B:machines_explosion_damage=false/''
       # No creeper griefing plz.
       ''sed -i CodeChickenCore.cfg -e s/environmentallyFriendlyCreepers=false/environmentallyFriendlyCreepers=true/''
       # Enable splash screen.
