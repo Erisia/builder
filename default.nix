@@ -217,6 +217,10 @@ rec {
         url = https://madoka.brage.info/baughn/BeyondReality-resources.zip;
         sha256 = "1059swym5n8695y0qvhv2ninx2qg4sx3mmvcp71lys4hipb034i6";
       })
+      (fetchzip {
+        url = https://madoka.brage.info/mods/littleMaidSounds.zip;
+        sha256 = "13wqs41ws4acj7hy657msa7i7l2apad7qvc7lc05fc8qgzi8d6a3";
+      })
       (br.getDir "hats")
       (br.getDir "scripts")
       (br.getDir "mods/1.7.10")
