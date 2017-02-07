@@ -130,6 +130,7 @@
     "encoded" = "PerfectSpawn-1.1.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/perfect-spawn";
     "type" = "remote";
+    "side" = "server";
     "md5" = "eb2fada9ee62167611a833d3d71d95d3";
   };
   "realistic-terrain-generation" = {

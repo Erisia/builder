@@ -13,7 +13,9 @@
     },
     "cooking-for-blockheads": {},
     "eirairc": {},
-    "perfect-spawn": {},
+    "perfect-spawn": {
+        "side": "server"
+    },
     "controlling": {
         "side": "client"
     },
