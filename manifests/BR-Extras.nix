@@ -73,28 +73,28 @@
     "md5" = "03fdd71777fd346d4b8bae1ce8b68963";
   };
   "farseek" = {
-    "src" = "https://minecraft.curseforge.com/projects/farseek/files/2281555/download";
-    "version" = "1.0.11";
+    "src" = "https://minecraft.curseforge.com/projects/farseek/files/2377895/download";
+    "version" = "1.1";
     "title" = "Farseek";
     "projectID" = 229708;
-    "filename" = "Farseek-1.0.11.jar";
+    "filename" = "Farseek-1.1.jar";
     "dependencies" = [];
-    "encoded" = "Farseek-1.0.11.jar";
+    "encoded" = "Farseek-1.1.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/farseek";
     "type" = "remote";
-    "md5" = "e6deb2987bc0c8feb3de9edd87d89745";
+    "md5" = "797fa8ab4f5f8ccd6b2487e75cc79ce4";
   };
   "growing-trees" = {
-    "src" = "https://minecraft.curseforge.com/projects/growing-trees/files/2341934/download";
-    "version" = "1.7.10-0.4.5";
+    "src" = "https://minecraft.curseforge.com/projects/growing-trees/files/2378478/download";
+    "version" = "1.7.10-0.4.7";
     "title" = "Growing Trees";
     "projectID" = 252818;
-    "filename" = "GrowingTrees-1.7.10-0.4.5.jar";
+    "filename" = "GrowingTrees-1.7.10-0.4.7.jar";
     "dependencies" = [];
-    "encoded" = "GrowingTrees-1.7.10-0.4.5.jar";
+    "encoded" = "GrowingTrees-1.7.10-0.4.7.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/growing-trees";
     "type" = "remote";
-    "md5" = "95a9781a4419868239eca12537351f2b";
+    "md5" = "a31ca202a07e5dba64ade2a2ebfb6612";
   };
   "iron-backpacks" = {
     "src" = "https://minecraft.curseforge.com/projects/iron-backpacks/files/2339301/download";
@@ -120,6 +120,18 @@
     "type" = "remote";
     "md5" = "dd91e34daaa9be33bfa522d7a058c549";
   };
+  "littlemaidmobx" = {
+    "src" = "https://minecraft.curseforge.com/projects/littlemaidmobx/files/2273490/download";
+    "version" = "1.7.x_0.1.1";
+    "title" = "littleMaidMobX";
+    "projectID" = 221976;
+    "filename" = "littleMaidMobX-1.7.x_0.1.1.jar";
+    "dependencies" = [];
+    "encoded" = "littleMaidMobX-1.7.x_0.1.1.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/littlemaidmobx";
+    "type" = "remote";
+    "md5" = "34fe69f878409d5473ec2b11cbfa7e62";
+  };
   "perfect-spawn" = {
     "src" = "https://minecraft.curseforge.com/projects/perfect-spawn/files/2212916/download";
     "version" = "1.1";
@@ -133,16 +145,16 @@
     "md5" = "eb2fada9ee62167611a833d3d71d95d3";
   };
   "realistic-terrain-generation" = {
-    "src" = "https://minecraft.curseforge.com/projects/realistic-terrain-generation/files/2349800/download";
-    "version" = "1.7.10-1.1.1.3";
+    "src" = "https://minecraft.curseforge.com/projects/realistic-terrain-generation/files/2377937/download";
+    "version" = "1.7.10-1.1.1.4-prerelease.1";
     "title" = "Realistic Terrain Generation";
     "projectID" = 237989;
-    "filename" = "RTG-1.7.10-1.1.1.3.jar";
+    "filename" = "RTG-1.7.10-1.1.1.4-prerelease.1.jar";
     "dependencies" = [];
-    "encoded" = "RTG-1.7.10-1.1.1.3.jar";
+    "encoded" = "RTG-1.7.10-1.1.1.4-prerelease.1.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/realistic-terrain-generation";
     "type" = "remote";
-    "md5" = "c09d1a2f991675a1e3fef3955fab74d7";
+    "md5" = "63741bdb943ca760fec9695ed7317219";
   };
   "recurrent-complex" = {
     "src" = "https://minecraft.curseforge.com/projects/recurrent-complex/files/2339621/download";

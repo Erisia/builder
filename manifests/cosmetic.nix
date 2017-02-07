@@ -8,19 +8,19 @@
     "side" = "client";
   };
   "applecore" = {
-    "src" = "https://minecraft.curseforge.com/projects/applecore/files/2305594/download";
-    "version" = "1.7.10-1.3.2";
+    "src" = "https://minecraft.curseforge.com/projects/applecore/files/2378379/download";
+    "version" = "1.7.10-1.3.8";
     "title" = "AppleCore";
     "projectID" = 224472;
     "required" = false;
-    "filename" = "AppleCore-mc1.7.10-1.3.2.jar";
+    "filename" = "AppleCore-mc1.7.10-1.3.8.jar";
     "dependencies" = [];
-    "encoded" = "AppleCore-mc1.7.10-1.3.2.jar";
+    "encoded" = "AppleCore-mc1.7.10-1.3.8.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/applecore";
     "type" = "remote";
     "side" = "client";
     "isDefault" = true;
-    "md5" = "d7b176f01a0e1492c9b9deff9e19d186";
+    "md5" = "4462aec66e18737d8cf7c8935edf8928";
   };
   "better-foliage" = {
     "src" = "https://minecraft.curseforge.com/projects/better-foliage/files/2322543/download";
