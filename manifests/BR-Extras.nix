@@ -120,6 +120,18 @@
     "type" = "remote";
     "md5" = "dd91e34daaa9be33bfa522d7a058c549";
   };
+  "littlemaidmobx" = {
+    "src" = "https://minecraft.curseforge.com/projects/littlemaidmobx/files/2273490/download";
+    "version" = "1.7.x_0.1.1";
+    "title" = "littleMaidMobX";
+    "projectID" = 221976;
+    "filename" = "littleMaidMobX-1.7.x_0.1.1.jar";
+    "dependencies" = [];
+    "encoded" = "littleMaidMobX-1.7.x_0.1.1.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/littlemaidmobx";
+    "type" = "remote";
+    "md5" = "34fe69f878409d5473ec2b11cbfa7e62";
+  };
   "perfect-spawn" = {
     "src" = "https://minecraft.curseforge.com/projects/perfect-spawn/files/2212916/download";
     "version" = "1.1";
