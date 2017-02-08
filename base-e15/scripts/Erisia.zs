@@ -4,9 +4,16 @@ val copperCable = <ore:craftingWireCopper>;
 val tinCable = <ore:craftingWireTin>;
 val quartz = <ore:craftingQuartz>;
 val redstone = <minecraft:redstone>;
-
 val basicChip = <Eln:Eln.sharedItem:7680>;
 val mvCable = <Eln:Eln.SixNode:2056>;
+
+//Maids
+val sugar = <minecraft:sugar>;
+val cake = <minecraft:cake>;
+val chocolate = <minecraft:dye:3>;
+val egg = <minecraft:egg>;
+val slime = <minecraft:slime_ball>;
+
 
 // Remove the tree-tap.
 recipes.remove(<Eln:Eln.SixNode:7424>);
@@ -72,4 +79,10 @@ mods.gregtech.PlateBender.addRecipe(<Eln:Eln.sharedItem:7691>, <Eln:Eln.sharedIt
 
 //Allow conversion from Greg's Blue Topaz Blocks to AM2's Blue Topaz Blocks to fix some broken recipes and rituals.
 recipes.addShapeless(<arsmagica2:vinteumOre:7>, [<gregtech:gt.blockgem1:4>]);
+
+//Makes maid spawn eggs craftable.
+recipes.remove(<lmmx:spawn_lmmx_egg>);
+mods.botania.RuneAltar.addRecipe(<lmmx:spawn_lmmx_egg>, [<sugar>, <cake>, <chocolate>, <egg> <slime>], 1000);
+
+
 
