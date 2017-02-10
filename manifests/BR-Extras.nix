@@ -23,6 +23,18 @@
     "type" = "remote";
     "md5" = "1e4b8c84cda22fd093c5e921374578e9";
   };
+  "baubles" = {
+    "src" = "https://minecraft.curseforge.com/projects/baubles/files/2224857/download";
+    "version" = "1.7.10-1.0.1.10";
+    "title" = "Baubles";
+    "projectID" = 227083;
+    "filename" = "Baubles-1.7.10-1.0.1.10.jar";
+    "dependencies" = [];
+    "encoded" = "Baubles-1.7.10-1.0.1.10.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/baubles";
+    "type" = "remote";
+    "md5" = "0e711d6535970f62d4964edaa26f4623";
+  };
   "climate-control-geographicraft" = {
     "src" = "https://minecraft.curseforge.com/projects/climate-control-geographicraft/files/2359685/download";
     "version" = "0.8.2";
@@ -84,17 +96,29 @@
     "type" = "remote";
     "md5" = "797fa8ab4f5f8ccd6b2487e75cc79ce4";
   };
+  "forbidden-magic" = {
+    "src" = "https://minecraft.curseforge.com/projects/forbidden-magic/files/2303822/download";
+    "version" = "1.7.10-0.575";
+    "title" = "Forbidden Magic";
+    "projectID" = 224237;
+    "filename" = "Forbidden Magic-1.7.10-0.575.jar";
+    "dependencies" = [223628];
+    "encoded" = "Forbidden%20Magic-1.7.10-0.575.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/forbidden-magic";
+    "type" = "remote";
+    "md5" = "8572280652bb3c84da2915570021f42d";
+  };
   "growing-trees" = {
-    "src" = "https://minecraft.curseforge.com/projects/growing-trees/files/2341934/download";
-    "version" = "1.7.10-0.4.5";
+    "src" = "https://minecraft.curseforge.com/projects/growing-trees/files/2378478/download";
+    "version" = "1.7.10-0.4.7";
     "title" = "Growing Trees";
     "projectID" = 252818;
-    "filename" = "GrowingTrees-1.7.10-0.4.5.jar";
+    "filename" = "GrowingTrees-1.7.10-0.4.7.jar";
     "dependencies" = [];
-    "encoded" = "GrowingTrees-1.7.10-0.4.5.jar";
+    "encoded" = "GrowingTrees-1.7.10-0.4.7.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/growing-trees";
     "type" = "remote";
-    "md5" = "95a9781a4419868239eca12537351f2b";
+    "md5" = "a31ca202a07e5dba64ade2a2ebfb6612";
   };
   "iron-backpacks" = {
     "src" = "https://minecraft.curseforge.com/projects/iron-backpacks/files/2339301/download";
@@ -134,16 +158,16 @@
     "md5" = "eb2fada9ee62167611a833d3d71d95d3";
   };
   "realistic-terrain-generation" = {
-    "src" = "https://minecraft.curseforge.com/projects/realistic-terrain-generation/files/2349800/download";
-    "version" = "1.7.10-1.1.1.3";
+    "src" = "https://minecraft.curseforge.com/projects/realistic-terrain-generation/files/2377937/download";
+    "version" = "1.7.10-1.1.1.4-prerelease.1";
     "title" = "Realistic Terrain Generation";
     "projectID" = 237989;
-    "filename" = "RTG-1.7.10-1.1.1.3.jar";
+    "filename" = "RTG-1.7.10-1.1.1.4-prerelease.1.jar";
     "dependencies" = [];
-    "encoded" = "RTG-1.7.10-1.1.1.3.jar";
+    "encoded" = "RTG-1.7.10-1.1.1.4-prerelease.1.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/realistic-terrain-generation";
     "type" = "remote";
-    "md5" = "c09d1a2f991675a1e3fef3955fab74d7";
+    "md5" = "63741bdb943ca760fec9695ed7317219";
   };
   "recurrent-complex" = {
     "src" = "https://minecraft.curseforge.com/projects/recurrent-complex/files/2339621/download";
@@ -180,6 +204,18 @@
     "projectPage" = "https://minecraft.curseforge.com/projects/streams";
     "type" = "remote";
     "md5" = "4aefeee9e2c22a11b6f6c8b76ab7a267";
+  };
+  "thaumcraft" = {
+    "src" = "https://minecraft.curseforge.com/projects/thaumcraft/files/2227552/download";
+    "version" = "1.7.10-4.2.3.5";
+    "title" = "Thaumcraft";
+    "projectID" = 223628;
+    "filename" = "Thaumcraft-1.7.10-4.2.3.5.jar";
+    "dependencies" = [227083];
+    "encoded" = "Thaumcraft-1.7.10-4.2.3.5.jar";
+    "projectPage" = "https://minecraft.curseforge.com/projects/thaumcraft";
+    "type" = "remote";
+    "md5" = "17f2e60dabd4961c9a3a2dad3ad6528a";
   };
   "thaumcraft-node-tracker" = {
     "src" = "https://minecraft.curseforge.com/projects/thaumcraft-node-tracker/files/2247224/download";

@@ -2,19 +2,22 @@
 ## manifests/BR-Extras.json:
 - [AnimationAPI](https://minecraft.curseforge.com/projects/animationapi): 1.7.10-1.2.4
 - [Ars Magica 2](https://minecraft.curseforge.com/projects/ars-magica-2): 1.7.10_AM2-1.4.0.009
+- [Baubles](https://minecraft.curseforge.com/projects/baubles): 1.7.10-1.0.1.10
 - [Climate Control/Geographicraft](https://minecraft.curseforge.com/projects/climate-control-geographicraft): 0.8.2
 - [Controlling](https://minecraft.curseforge.com/projects/controlling): 1.7.10-1.0.0
 - [Cooking for Blockheads](https://minecraft.curseforge.com/projects/cooking-for-blockheads): 1.7.10-1.0.140
 - [EiraIRC](https://minecraft.curseforge.com/projects/eirairc): 1.7.10-2.9.402
 - [Farseek](https://minecraft.curseforge.com/projects/farseek): 1.1
-- [Growing Trees](https://minecraft.curseforge.com/projects/growing-trees): 1.7.10-0.4.5
+- [Forbidden Magic](https://minecraft.curseforge.com/projects/forbidden-magic): 1.7.10-0.575
+- [Growing Trees](https://minecraft.curseforge.com/projects/growing-trees): 1.7.10-0.4.7
 - [Iron Backpacks](https://minecraft.curseforge.com/projects/iron-backpacks): 1.7.10-1.2.20
 - [IvToolkit](https://minecraft.curseforge.com/projects/ivtoolkit): 1.2.1
 - [Perfect Spawn](https://minecraft.curseforge.com/projects/perfect-spawn): 1.1
-- [Realistic Terrain Generation](https://minecraft.curseforge.com/projects/realistic-terrain-generation): 1.7.10-1.1.1.3
+- [Realistic Terrain Generation](https://minecraft.curseforge.com/projects/realistic-terrain-generation): 1.7.10-1.1.1.4-prerelease.1
 - [Recurrent Complex](https://minecraft.curseforge.com/projects/recurrent-complex): 0.9.7.1.1
 - [Roguelike Dungeons](https://minecraft.curseforge.com/projects/roguelike-dungeons): 1.7.10-1.5.0b
 - [Streams](https://minecraft.curseforge.com/projects/streams): 0.2
+- [Thaumcraft](https://minecraft.curseforge.com/projects/thaumcraft): 1.7.10-4.2.3.5
 - [Thaumcraft Node Tracker](https://minecraft.curseforge.com/projects/thaumcraft-node-tracker): 1.7.10-1.1.2
 
 ## manifests/cosmetic.json:

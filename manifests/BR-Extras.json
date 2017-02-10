@@ -23,5 +23,6 @@
         "side": "client",
         "required": false
     },
-    "iron-backpacks": {}
+    "iron-backpacks": {},
+    "forbidden-magic": {}
 }
