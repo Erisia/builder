@@ -4,6 +4,8 @@ val copperCable = <ore:craftingWireCopper>;
 val tinCable = <ore:craftingWireTin>;
 val quartz = <ore:craftingQuartz>;
 val redstone = <minecraft:redstone>;
+val glassPane = <minecraft:glass_pane>;
+val ingotSilicon = <ore:ingotSilicon>;
 
 val basicChip = <Eln:Eln.sharedItem:7680>;
 val mvCable = <Eln:Eln.SixNode:2056>;
@@ -35,6 +37,14 @@ recipes.addShaped(<Eln:eln.EnergyConverterElnToOtherMVUBlock>,
   [[iron, iron, iron],
    [mvCable, basicChip, <ore:ingotIron>],
    [iron, iron, iron]]);
+   
+// Fix 200V led bulbs
+val ledBulb200 = <Eln:Eln.sharedItem:294>;
+recipes.remove(ledBulb200);
+recipes.addShaped(ledBulb200,
+  [[glassPane,glassPane,glassPane],
+   [ingotSilicon,ingotSilicon,ingotSilicon],
+   [null,mvCable,null]]);
 
 // Alternate, non-tungsten alloy dust recipes.
 val alloyDust = <Eln:Eln.sharedItem:9>;
