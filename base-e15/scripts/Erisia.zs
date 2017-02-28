@@ -83,12 +83,3 @@ mods.gregtech.PlateBender.addRecipe(<Eln:Eln.sharedItem:7691>, <Eln:Eln.sharedIt
 //Allow conversion from Greg's Blue Topaz Blocks to AM2's Blue Topaz Blocks to fix some broken recipes and rituals.
 recipes.addShapeless(<arsmagica2:vinteumOre:7>, [<gregtech:gt.blockgem1:4>]);
 
-// Fuck off, Greg.
-recipes.addShaped(<minecraft:tnt>, [
-  [<minecraft:sand>, <minecraft:gunpowder>, <minecraft:sand>],
-  [<minecraft:gunpowder>, <minecraft:sand>, <minecraft:gunpowder>],
-  [<minecraft:sand>, <minecraft:gunpowder>, <minecraft:sand>]]);
-recipes.addShaped(<minecraft:glass_bottle>, [
-  [null, null, null],
-  [<minecraft:glass>, null, <minecraft:glass>],
-  [<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]]);
