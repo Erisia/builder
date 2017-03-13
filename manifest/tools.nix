@@ -149,17 +149,17 @@
     "md5" = "01de64452ce15fd30aa6e3b8e5425fd1";
   };
   "thump" = {
-    "src" = "https://minecraft.curseforge.com/projects/thump/files/2388726/download";
-    "version" = "1.10.2-4.3.0.4";
+    "src" = "https://minecraft.curseforge.com/projects/thump/files/2391715/download";
+    "version" = "1.10.2-4.3.0.3";
     "title" = "Thump";
     "projectID" = 231124;
     "required" = false;
-    "filename" = "Thump-1.10.2-4.3.0.4.jar";
+    "filename" = "Thump-1.10.2-4.3.0.3.jar";
     "dependencies" = [];
-    "encoded" = "Thump-1.10.2-4.3.0.4.jar";
+    "encoded" = "Thump-1.10.2-4.3.0.3.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/thump";
     "type" = "remote";
-    "md5" = "38ec426ba4419f93fe86b96439db5749";
+    "md5" = "2fd6e4babedde91f341d6bf6b3e17019";
   };
   "tick-profiler" = {
     "src" = ../bundled/TickProfiler-1.10.2.jenkins.31.jar;
@@ -168,6 +168,6 @@
     "encoded" = "TickProfiler-1.10.2.jenkins.31.jar";
     "type" = "local";
     "side" = "server";
-    "md5" = "63f14ff7ebbb06800f69bb3e7b4d953b";
+    "md5" = "2cada886301b5f038aad3c78750aa079";
   };
 }

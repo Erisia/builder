@@ -322,18 +322,18 @@
     "md5" = "5d045b92565e6902d754675373617c5f";
   };
   "238222" = {
-    "src" = "https://minecraft.curseforge.com/projects/just-enough-items-jei/files/2386844/download";
-    "version" = "1.10.2-3.14.7.415";
+    "src" = "https://minecraft.curseforge.com/projects/just-enough-items-jei/files/2390097/download";
+    "version" = "1.10.2-3.14.7.416";
     "title" = "Just Enough Items (JEI)";
     "projectID" = 238222;
     "required" = true;
-    "filename" = "jei_1.10.2-3.14.7.415.jar";
+    "filename" = "jei_1.10.2-3.14.7.416.jar";
     "dependencies" = [];
-    "encoded" = "jei_1.10.2-3.14.7.415.jar";
+    "encoded" = "jei_1.10.2-3.14.7.416.jar";
     "projectPage" = "https://minecraft.curseforge.com/projects/just-enough-items-jei";
     "fileID" = 2349441;
     "type" = "remote";
-    "md5" = "ee0d1b4604820b064779bae7dfcb47eb";
+    "md5" = "d197db4087256754e9d891ccac931e02";
   };
   "238372" = {
     "src" = "https://minecraft.curseforge.com/projects/neat/files/2327663/download";

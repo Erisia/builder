@@ -5,7 +5,7 @@ with import ./lib/lib.nix;
 with import ./lib/sprocket;
 
 let protonPack = unpackZip "proton-packfile" manifest/Proton-1.0.9.zip {};
-    sf3Pack = unpackZip "sf3-packfile" manifest/Skyfactory-3.0.6.zip {
+    sf3Pack = unpackZip "sf3-packfile" manifest/Skyfactory-3.0.8.zip {
       exclude = ["overrides/mods/foamfix-0.5.3-anarchy.jar"];
     };
     resources = runLocally "resources-1.10" {
@@ -55,7 +55,7 @@ rec {
     # These are all the mods we'd like to include in this pack.
     # (Not yet, they're not.)
     manifests = [
-      ./manifest/Skyfactory-3.0.6.nix
+      ./manifest/Skyfactory-3.0.8.nix
       ./manifest/tools.nix
       ./manifest/Skyfactory-extras.nix
     ];
