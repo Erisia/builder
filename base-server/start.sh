@@ -84,6 +84,7 @@ fi
 java -d64 -server -Xmx4000m \
   "$@" \
   -Djava.net.preferIPv4Stack=true \
+  -Dfastcraft.asm.permissive=true \
   -XX:+AggressiveOpts \
   -XX:+UseG1GC \
   -XX:+UnlockExperimentalVMOptions \
