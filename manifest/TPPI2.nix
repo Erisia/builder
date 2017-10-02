@@ -235,13 +235,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "BloodMagic-1.7.10-1.3.3-17.jar";
+      "filename" = "BloodMagic-1.7.10-1.3.3-17-patched.jar";
       "maturity" = "release";
-      "encoded" = "BloodMagic-1.7.10-1.3.3-17.jar";
-      "page" = "https://minecraft.curseforge.com/projects/blood-magic/files/2264826";
-      "src" = "https://minecraft.curseforge.com/projects/blood-magic/files/2264826/download";
+      "encoded" = "BloodMagic-1.7.10-1.3.3-17-patched.jar";
+      "page" = "https://github.com/calmofthestorm/BloodMagic/blob/binary/build/libs/BloodMagic-1.7.10-1.3.3-17-patched.jar";
+      "src" = "https://github.com/calmofthestorm/BloodMagic/blob/binary/build/libs/BloodMagic-1.7.10-1.3.3-17-patched.jar?raw=true";
       "type" = "remote";
-      "md5" = "c4ced843754969a693afd574886a58bd";
+      "md5" = "f0c4558408e8bf412f74d98c86e2e41e";
     };
     "botania" = {
       "title" = "Botania";
