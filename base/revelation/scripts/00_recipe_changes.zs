@@ -3,6 +3,9 @@
 
 print("Initializing 'recipe_changes.zs'...");
 
+#Iridium conversion between TE and IC2.
+recipes.addShapeless(<ic2:misc_resource:1>), [<thermalfoundation:wrench>, <thermalfoundation:material:135>]);
+
 #Remove ChunkLoaders (use FTBU to manage chunkloading)
 recipes.remove(<ic2:te:82>);
 recipes.remove(<opencomputers:upgrade:4>);
@@ -97,3 +100,4 @@ recipes.remove(<advancedrocketry:seat>);
 recipes.addShaped(<advancedrocketry:seat>, [[null, <ore:blockWool>, null], [null, <ore:blockWool>, null], [null, <ore:blockWool>, <ore:blockWool>]]);
 
 print("Initialized 'recipe_changes.zs'");
+
