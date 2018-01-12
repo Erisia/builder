@@ -11,3 +11,6 @@ recipes.addShaped(miner,
   [[scaffolding, light, scaffolding],
    [scaffolding, dynamo, scaffolding],
    [heavy, drill, heavy]]);
+   
+#Iridium conversion between TE and IC2.
+recipes.addShapeless(<ic2:misc_resource:1>), [<thermalfoundation:wrench>, <thermalfoundation:material:135>]);
