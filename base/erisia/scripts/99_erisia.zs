@@ -13,4 +13,4 @@ recipes.addShaped(miner,
    [heavy, drill, heavy]]);
    
 //Iridium conversion between TE and IC2.
-recipes.addShapeless(<ic2:misc_resource:1>, [<thermalfoundation:wrench>, <thermalfoundation:material:135>]);
+recipes.addShapeless(<ic2:misc_resource:2>, [<ore:nuggetIridium>]);
