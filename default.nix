@@ -61,7 +61,7 @@ rec {
     ];
     blacklist = [
     ];
-  }
+  };
 
   e21 = {
     name = "erisia21";

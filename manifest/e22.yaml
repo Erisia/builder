@@ -1,4 +1,8 @@
 mods:
+# Adding missing prerequisites
+- name: "forge-multi-part"
+# General additions
+- name: "aroma1997s-dimensional-world"
 
 imports:
 - "unabridged.yaml"
