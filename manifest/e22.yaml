@@ -1,8 +1,74 @@
 mods:
 # Adding missing prerequisites
 - name: "forge-multi-part"
+
 # General additions
 - name: "aroma1997s-dimensional-world"
+- name: "grappling-hook-mod"
+- name: "pams-harvestcraft"
+- name: "minechem"
+- name: "antique-atlas"
+- name: "darkcore"
+- name: "tardis-mod"
+
+# Reika mods
+#- name: "dragonapi"
+#- name: "chromaticraft"
+#- name: "rotarycraft"
+#- name: "usefultnt"
+#- name: "electricraft"
+
+# Useful mods we usually want
+- name: "not-enough-wands"
+- name: "nofov"
+  side: "client"
+  required: false
+#Already in
+#- name: "mouse-tweaks"
+#  side: "client"
+- name: "better-placement"
+  side: "client"
+  required: false
+  default: true
+- name: "Ding"
+  side: "client"
+
+#Already in
+#- name: "notenoughkeys"
+#  side: "client"
+#  required: false
+- name: "fullscreen-windowed-borderless-for-minecraft"
+  side: "client"
+  required: false
+
+
+# Server management type mods:
+- name: "chunkpurge"
+  side: "server"
+#- name: "worldedit"
+- name: "signal-catcher"
+  side: "server"
+- name: "dynmapforge"
+  side: "server"
+- name: "prometheus-integration"
+  side: "server"
+
+# Tool mods:
+- name: "morpheus"
+- name: "just-enough-calculation"
+#- name: "helpfixer"
+- name: "schematica"
+#Already in
+#- name: "reauth"
+#  side: "client"
+- name: "chunkpregenerator"
+- name: "gotta-go-fast"
+- name: "tickprofiler"
+  required: false
+- name: "eirairc"
+
+
+
 
 imports:
 - "unabridged.yaml"
