@@ -263,6 +263,7 @@ object Curse {
     }
 
     fun filterVersion(minecraft: String) = when (minecraft) {
+        "1.7" -> "filter-game-version=2020709689%3A4449"
         "1.7.10" -> "filter-game-version=2020709689%3A4449"
         "1.8.9" -> "filter-game-version=2020709689%3A5806"
         "1.9" -> "filter-game-version=2020709689%3A5946"
