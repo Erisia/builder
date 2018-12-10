@@ -1,0 +1,17 @@
+{"data":
+	[
+        {
+            "seed":"minecraft:carrot",
+            "block":"minecraft:carrots"
+        },
+        {
+            "seed":"minecraft:potato",
+            "block":"minecraft:potatoes"
+        },
+        {
+            "seed":"minecraft:nether_wart",
+            "block":"minecraft:nether_wart",
+            "meta":3
+        }
+	]
+}

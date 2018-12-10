@@ -1,0 +1,15 @@
+{"data":
+	[
+		{
+            "name": "charcoalCactus",
+            "burnTime": 800
+        },
+        {
+            "name": "fuelCokeCactus",
+            "burnTime": 1600
+        },
+		{
+            "name": "sparkpowder"
+        }
+	]
+}
