@@ -92,7 +92,12 @@ mods:
 - name: "thaumcraft"
 - name: "thermalexpansion"
 - name: "trashslot"
+# Tropicraft from curse downloads as a ZIP, so unpacked it into repo
 - name: "tropicraft"
+  title: "Wireless Crafting Terminal"
+  curse: false
+  files:
+  - src: "../third_party/1.7.10/tropicraft-6.0.5.jar"
 - name: "waila"
 - name: "waterproof"
 - name: "witchery"
