@@ -40,7 +40,7 @@ rec {
     screenName = "e22";
     description = "Erisia #22: Ovilis uniusque Pastoris coccineam";
     ram = "20000m";
-    port = 25565;
+    port = 25566;
     forge = {
       major = "1.7.10";
       minor = "10.13.4.1614";

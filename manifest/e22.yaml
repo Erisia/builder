@@ -12,11 +12,10 @@ mods:
 - name: "tardis-mod"
 
 # Reika mods
-#- name: "dragonapi"
-#- name: "chromaticraft"
-#- name: "rotarycraft"
-#- name: "usefultnt"
-#- name: "electricraft"
+- name: "dragonapi"
+- name: "chromaticraft"
+- name: "rotarycraft"
+- name: "reactorcraft"
 
 # Useful mods we usually want
 - name: "not-enough-wands"

@@ -25,6 +25,7 @@ mods:
 - name: "coroutil"
 - name: "customthings"
 - name: "eiramoticons"
+  side: "server"
 - name: "enderio"
 - name: "endercore"
 - name: "endertech"
@@ -182,7 +183,8 @@ mods:
   side: "client"
   required: "false"
 - name: "thaumic-energistics"
-- name: "thaumic-infusion"
+# Disabled due to conflict with DragonAPI (ASM)
+#- name: "thaumic-infusion"
 - name: "thaumic-tinkerer"
 - name: "thermal-casting"
 - name: "thermal-dynamics"
