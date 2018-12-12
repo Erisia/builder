@@ -92,6 +92,22 @@
       "type" = "remote";
       "md5" = "ca8570dde131f2d7ef5291b08437248a";
     };
+    "animationapi" = {
+      "title" = "AnimationAPI";
+      "name" = "animationapi";
+      "id" = 77191;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "AnimationAPI-1.7.10-1.2.4.jar";
+      "maturity" = "release";
+      "encoded" = "AnimationAPI-1.7.10-1.2.4.jar";
+      "page" = "https://minecraft.curseforge.com/projects/animationapi/files/2221721";
+      "src" = "https://minecraft.curseforge.com/projects/animationapi/files/2221721/download";
+      "type" = "remote";
+      "md5" = "7ec0b391e527461196e86f4e4974f560";
+    };
     "another-one-bites-the-dust" = {
       "title" = "Another One Bites the Dust";
       "name" = "another-one-bites-the-dust";
@@ -248,6 +264,22 @@
       "src" = "https://minecraft.curseforge.com/projects/aroma1997s-dimensional-world/files/2219018/download";
       "type" = "remote";
       "md5" = "756e446bbcb0e045ed1907d7f56c91ae";
+    };
+    "ars-magica-2" = {
+      "title" = "Ars Magica 2";
+      "name" = "ars-magica-2";
+      "id" = 67313;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "1.7.10_AM2-1.4.0.009.jar";
+      "maturity" = "release";
+      "encoded" = "1.7.10_AM2-1.4.0.009.jar";
+      "page" = "https://minecraft.curseforge.com/projects/ars-magica-2/files/2280862";
+      "src" = "https://minecraft.curseforge.com/projects/ars-magica-2/files/2280862/download";
+      "type" = "remote";
+      "md5" = "1e4b8c84cda22fd093c5e921374578e9";
     };
     "automagy" = {
       "title" = "Automagy";

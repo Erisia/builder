@@ -253,6 +253,8 @@ mods:
 #- name: "AsieLib"
 #- name: "Flamingo"
 #- name: "Starminer"
+- name: "ars-magica-2"
+- name: "animationapi"
 
 
   
