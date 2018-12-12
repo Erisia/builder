@@ -1,6 +1,6 @@
 {
   "version" = "1.7.10";
-  "imports" = ["unabridged.yaml"];
+  "imports" = ["unabridged.yaml" "tools-1.7.10.yaml" "pinned-1.7.10.yaml"];
   "mods" = {
     "advanced-generators" = {
       "title" = "Advanced Generators";
@@ -65,6 +65,16 @@
       "src" = "https://minecraft.curseforge.com/projects/agricraft/files/2284130/download";
       "type" = "remote";
       "md5" = "12103c50b42df790479492781326928d";
+    };
+    "akashic-tome" = {
+      "title" = "Akashic Tome";
+      "name" = "akashic-tome";
+      "id" = 250577;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["autoreglib"];
+      "type" = "missing";
     };
     "ancient-trees" = {
       "title" = "Ancient Trees";
@@ -133,18 +143,15 @@
     "applied-energistics-2" = {
       "title" = "Applied Energistics 2";
       "name" = "applied-energistics-2";
-      "id" = 223794;
       "side" = "both";
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "appliedenergistics2-rv3-beta-6.jar";
-      "maturity" = "beta";
-      "encoded" = "appliedenergistics2-rv3-beta-6.jar";
-      "page" = "https://minecraft.curseforge.com/projects/applied-energistics-2/files/2296430";
-      "src" = "https://minecraft.curseforge.com/projects/applied-energistics-2/files/2296430/download";
-      "type" = "remote";
-      "md5" = "0a555df010345a27e0956a3f05517510";
+      "filename" = "appliedenergistics2-rv2-stable-10.jar";
+      "encoded" = "appliedenergistics2-rv2-stable-10.jar";
+      "src" = ../third_party/1.7.10/appliedenergistics2-rv2-stable-10.jar;
+      "type" = "local";
+      "md5" = "f7a60fa036240da11da4a739c5c4137d";
     };
     "aquaculture" = {
       "title" = "Aquaculture";
@@ -258,6 +265,16 @@
       "type" = "remote";
       "md5" = "0d1b46683a9c69a59368406b7db4671f";
     };
+    "autoreglib" = {
+      "title" = "AutoRegLib";
+      "name" = "autoreglib";
+      "id" = 250363;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "type" = "missing";
+    };
     "back-in-slime-slime-blocks-for-1-7" = {
       "title" = "Back in Slime - Slime Blocks for 1.7";
       "name" = "back-in-slime-slime-blocks-for-1-7";
@@ -305,6 +322,22 @@
       "src" = "https://minecraft.curseforge.com/projects/bdlib/files/2269259/download";
       "type" = "remote";
       "md5" = "e446121e3e94b77d1c610ceed0fd3f68";
+    };
+    "better-foliage" = {
+      "title" = "Better Foliage";
+      "name" = "better-foliage";
+      "id" = 228529;
+      "side" = "client";
+      "required" = false;
+      "default" = false;
+      "deps" = ["shadowfacts-forgelin"];
+      "filename" = "BetterFoliage-MC1.7.10-2.0.17.jar";
+      "maturity" = "release";
+      "encoded" = "BetterFoliage-MC1.7.10-2.0.17.jar";
+      "page" = "https://minecraft.curseforge.com/projects/better-foliage/files/2500869";
+      "src" = "https://minecraft.curseforge.com/projects/better-foliage/files/2500869/download";
+      "type" = "remote";
+      "md5" = "5fb19402d629422302c2d22a4d1dc5ef";
     };
     "better-placement" = {
       "title" = "Better Placement";
@@ -837,7 +870,7 @@
       "name" = "custom-main-menu";
       "id" = 226406;
       "side" = "client";
-      "required" = true;
+      "required" = false;
       "default" = true;
       "deps" = [];
       "filename" = "CustomMainMenu-MC1.7.10-1.9.2.jar";
@@ -1460,16 +1493,6 @@
       "type" = "remote";
       "md5" = "edbaa2684bad49474d2d3cd073fc5007";
     };
-    "gotta-go-fast" = {
-      "title" = "Gotta Go Fast";
-      "name" = "gotta-go-fast";
-      "id" = 282064;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "type" = "missing";
-    };
     "grappling-hook-mod" = {
       "title" = "Grappling Hook Mod";
       "name" = "grappling-hook-mod";
@@ -1858,6 +1881,16 @@
       "type" = "remote";
       "md5" = "4676ece1e1b28d97602a5e21a20e3e3c";
     };
+    "just-enough-resources-jer" = {
+      "title" = "Just Enough Resources (JER)";
+      "name" = "just-enough-resources-jer";
+      "id" = 240630;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["jei"];
+      "type" = "missing";
+    };
     "kore-sample" = {
       "title" = "Kore Sample";
       "name" = "kore-sample";
@@ -2134,7 +2167,7 @@
       "title" = "Morpheus";
       "name" = "morpheus";
       "id" = 69118;
-      "side" = "both";
+      "side" = "server";
       "required" = true;
       "default" = true;
       "deps" = [];
@@ -2994,8 +3027,8 @@
       "title" = "Schematica";
       "name" = "schematica";
       "id" = 225603;
-      "side" = "both";
-      "required" = true;
+      "side" = "client";
+      "required" = false;
       "default" = true;
       "deps" = ["lunatriuscore"];
       "filename" = "Schematica-1.7.10-1.7.6.131-universal.jar";
@@ -3020,7 +3053,7 @@
       "title" = "Signal-Catcher";
       "name" = "signal-catcher";
       "id" = 268347;
-      "side" = "server";
+      "side" = "both";
       "required" = true;
       "default" = true;
       "deps" = [];
@@ -3323,18 +3356,15 @@
     "thaumic-energistics" = {
       "title" = "Thaumic Energistics";
       "name" = "thaumic-energistics";
-      "id" = 223666;
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["applied-energistics-2" "thaumcraft"];
-      "filename" = "thaumicenergistics-1.1.3.0.jar";
-      "maturity" = "release";
-      "encoded" = "thaumicenergistics-1.1.3.0.jar";
-      "page" = "https://minecraft.curseforge.com/projects/thaumic-energistics/files/2563527";
-      "src" = "https://minecraft.curseforge.com/projects/thaumic-energistics/files/2563527/download";
-      "type" = "remote";
-      "md5" = "b248a32d6d273661526405606a18c920";
+      "deps" = [];
+      "filename" = "thaumicenergistics-1.0.0.5-RV2.jar";
+      "encoded" = "thaumicenergistics-1.0.0.5-RV2.jar";
+      "src" = ../third_party/1.7.10/thaumicenergistics-1.0.0.5-RV2.jar;
+      "type" = "local";
+      "md5" = "fcfee9e84088cacec7f257beacdd0c39";
     };
     "thaumic-horizons" = {
       "title" = "Thaumic Horizons";
@@ -3480,16 +3510,6 @@
       "type" = "remote";
       "md5" = "d8178b20a554d3a0f3d0f374769acd02";
     };
-    "tickprofiler" = {
-      "title" = "TickProfiler";
-      "name" = "tickprofiler";
-      "id" = 270330;
-      "side" = "both";
-      "required" = false;
-      "default" = true;
-      "deps" = [];
-      "type" = "missing";
-    };
     "tinker-i-o" = {
       "title" = "Tinker I/O";
       "name" = "tinker-i-o";
@@ -3553,6 +3573,16 @@
       "src" = "https://minecraft.curseforge.com/projects/tis-3d/files/2588365/download";
       "type" = "remote";
       "md5" = "a116360ba28a698b84ad2e7973c81779";
+    };
+    "tool-belt" = {
+      "title" = "Tool Belt";
+      "name" = "tool-belt";
+      "id" = 260262;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "type" = "missing";
     };
     "translocators" = {
       "title" = "Translocators";
@@ -3701,18 +3731,15 @@
     "wireless-crafting-terminal" = {
       "title" = "Wireless Crafting Terminal";
       "name" = "wireless-crafting-terminal";
-      "id" = 244559;
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["applied-energistics-2" "p455w0rds-library"];
-      "filename" = "WirelessCraftingTerminal-1.7.10-rv3-1.8.7.9b.jar";
-      "maturity" = "beta";
-      "encoded" = "WirelessCraftingTerminal-1.7.10-rv3-1.8.7.9b.jar";
-      "page" = "https://minecraft.curseforge.com/projects/wireless-crafting-terminal/files/2460354";
-      "src" = "https://minecraft.curseforge.com/projects/wireless-crafting-terminal/files/2460354/download";
-      "type" = "remote";
-      "md5" = "1575c913ebfb056db1b739e81ea3e7e6";
+      "deps" = [];
+      "filename" = "WirelessCraftingTerminal-1.7.10-rv2-1.8.7b.jar";
+      "encoded" = "WirelessCraftingTerminal-1.7.10-rv2-1.8.7b.jar";
+      "src" = ../third_party/1.7.10/WirelessCraftingTerminal-1.7.10-rv2-1.8.7b.jar;
+      "type" = "local";
+      "md5" = "992217608b04f63dc80ced5750b776c8";
     };
     "wireless-redstone-cbe" = {
       "title" = "Wireless Redstone CBE";

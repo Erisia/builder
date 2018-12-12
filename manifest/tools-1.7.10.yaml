@@ -1,0 +1,58 @@
+mods:
+- name: "chunkpurge"
+  side: "server"
+- name: "better-placement"
+  side: "client"
+  required: false
+  default: true
+- name: "morpheus"
+- name: "better-foliage"
+  side: "client"
+  required: false
+  default: false
+- name: "journeymap"
+  side: "client"
+  required: false
+  default: false
+- name: "mouse-tweaks"
+  side: "client"
+- name: "worldedit"
+- name: "just-enough-resources-jer"
+- name: "Ding"
+  side: "client"
+- name: "notenoughkeys"
+  side: "client"
+  required: false
+
+# Just for 1.10 and on.
+#- name: "thump"
+#  required: false
+# - name: "tickprofiler"
+#   side: "server"
+#   curse: false
+#   files:
+#   - src: "../third_party/1.7.10/TickProfiler-1.7.10.jenkins.37.jar"
+- name: "dynmapforge"
+  side: "server"
+- name: "fullscreen-windowed-borderless-for-minecraft"
+  side: "client"
+  required: false
+
+# Get that guy to update curse!
+#- name: "chunkgen"
+#  side: "server"
+  
+# Incompatible with DragonAPI
+# - name: "loading-profiler"
+
+- name: "helpfixer"
+- name: "schematica"
+  side: "client"
+  required: false
+- name: "reauth"
+  side: "client"
+- name: "just-enough-calculation"
+- name: "akashic-tome"
+- name: "tool-belt"
+- name: "signal-catcher"
+

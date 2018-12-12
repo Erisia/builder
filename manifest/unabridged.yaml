@@ -118,10 +118,12 @@ mods:
   side: "client"
   required: "false"
 - name: "ae2-stuff"
-- name: "wireless-crafting-terminal"
+#Moving to AE2 Rev2 version
+#- name: "wireless-crafting-terminal"
 - name: "ancient-trees"
 - name: "another-one-bites-the-dust"
-- name: "applied-energistics-2"
+# Moving to specific version due to CrC crash https://github.com/ReikaKalseki/Reika_Mods_Issues/issues/659
+#- name: "applied-energistics-2"
 - name: "arcane-arteries"
 - name: "davincis-vessels"
 - name: "big-doors"
@@ -136,6 +138,7 @@ mods:
 - name: "crafting-tweaks"
 - name: "custom-main-menu"
   side: "client"
+  required: "false"
 - name: "decocraft2"
 - name: "ender-io-addons"
 - name: "ender-storage"
@@ -182,7 +185,8 @@ mods:
 - name: "thaumcraft-nei-plugin"
   side: "client"
   required: "false"
-- name: "thaumic-energistics"
+# Moving to specific version due to CrC crash https://github.com/ReikaKalseki/Reika_Mods_Issues/issues/659
+#- name: "thaumic-energistics"
 # Disabled due to conflict with DragonAPI (ASM)
 #- name: "thaumic-infusion"
 - name: "thaumic-tinkerer"
@@ -246,3 +250,6 @@ mods:
 #- name: "ffs-fancy-fluid-storage"
 #- name: "roguelike-dungeons"
 #- name: "the-twilight-forest"
+
+imports:
+- "pinned-1.7.10.yaml"

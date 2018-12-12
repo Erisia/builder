@@ -1,0 +1,17 @@
+mods:
+- name: "applied-energistics-2"
+  title: "Applied Energistics 2"
+  curse: false
+  files:
+  - src: "../third_party/1.7.10/appliedenergistics2-rv2-stable-10.jar"
+- name: "thaumic-energistics"
+  title: "Thaumic Energistics"
+  curse: false
+  files:
+  - src: "../third_party/1.7.10/thaumicenergistics-1.0.0.5-RV2.jar"
+- name: "wireless-crafting-terminal"
+  title: "Wireless Crafting Terminal"
+  curse: false
+  files:
+  - src: "../third_party/1.7.10/WirelessCraftingTerminal-1.7.10-rv2-1.8.7b.jar"
+
