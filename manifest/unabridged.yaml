@@ -103,6 +103,7 @@ mods:
 - name: "witchery"
 - name: "ztones"
 - name: "eirairc"
+  side: "server"
 - name: "fognerf"
 - name: "journeymap"
   side: "client"
