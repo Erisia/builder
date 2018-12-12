@@ -55,6 +55,9 @@ rec {
     ];
     extraClientDirs = [
       ./base/client
+	  ./base/unabridged/oresources
+	  ./base/unabridged/armourersWorkshop
+	  ./base/unabridged/TCSchematics
     ];
     manifests = [
       ./manifest/e22.nix
