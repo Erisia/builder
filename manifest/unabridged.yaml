@@ -138,7 +138,13 @@ mods:
 - name: "blood-magic"
 - name: "blue-power"
 - name: "item-search"
+#- name: "bugfix-mod"
+# Using patched version that fixes an SSP crash when breaking any block
 - name: "bugfix-mod"
+  title: "BugPatch"
+  curse: false
+  files:
+  - src: "../third_party/1.7.10/[1.7.10]bugpatch-universal-3.0.0.jar"
 - name: "carpenters-blocks"
 - name: "compact-machines"
 - name: "crafting-tweaks"
