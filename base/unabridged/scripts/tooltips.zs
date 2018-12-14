@@ -27,7 +27,7 @@
 <BiblioCraft:item.seatBack5>.addTooltip(format.aqua("Alternate versions can be crafted with any wood from Vanilla."));
 
 // Remain In Motion
-<JAKJ_RedstoneInMotion:tile.JAKJ_RedstoneInMotion_CarriageDrive>.addTooltip(format.aqua("Made by toggling stationary mode in Carriage Motor GUI.")); 
+//<JAKJ_RedstoneInMotion:tile.JAKJ_RedstoneInMotion_CarriageDrive>.addTooltip(format.aqua("Made by toggling stationary mode in Carriage Motor GUI.")); 
 
 // Storage Drawers
 <StorageDrawers:fullDrawers1>.addTooltip(format.aqua("Alternate versions can be crafted with any wood from vanilla,")); 
