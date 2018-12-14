@@ -263,11 +263,11 @@ mods:
   curse: false
   files:
   - src: "../third_party/1.7.10/Starminer1710-0.9.9.jar"
-#- name: "Artifacts"
-#  title: "Artifacts"
-#  curse: false
-#  files:
-#  - src: "../third_party/1.7.10/Artifacts-1.1.3.jar"
+- name: "Artifacts"
+  title: "Artifacts"
+  curse: false
+  files:
+  - src: "../third_party/1.7.10/Artifacts-1.1.3.jar"
 
 - name: "iron-backpacks"
 - name: "ars-magica-2"
