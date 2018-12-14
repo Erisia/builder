@@ -36,5 +36,5 @@ recipes.addShapeless(<BiomesOPlenty:bopBucket>.withTag({Fluid: {FluidName: "pois
 recipes.addShapeless(<BinnieCore:containerBucket:65>, [<BiomesOPlenty:bopBucket>.withTag({Fluid: {FluidName: "poison", Amount: 1000}})]);
 
 // Gas Nozzle -- Greg's Lighting
-recipes.remove(<GregsLighting:gasNozzle>);
-recipes.addShaped(<GregsLighting:gasNozzle> * 2, [[<minecraft:lever>], [<ore:ingotIron>]]);
+//recipes.remove(<GregsLighting:gasNozzle>);
+//recipes.addShaped(<GregsLighting:gasNozzle> * 2, [[<minecraft:lever>], [<ore:ingotIron>]]);

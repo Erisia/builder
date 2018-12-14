@@ -56,19 +56,19 @@ mods.forestry.Squeezer.addRecipe(<liquid:poison> * 200, <minecraft:glass_bottle>
 mods.forestry.Squeezer.addRecipe(<liquid:poison> * 200, <minecraft:glass_bottle> % 10,[<minecraft:potion:8260>], 20);
 
 mods.forestry.Squeezer.addRecipe(<liquid:poison> * 50, <Forestry:mulch> % 5,[<BiomesOPlenty:foliage:7>], 20);
-mods.forestry.Squeezer.addRecipe(<liquid:poison> * 10, <Forestry:mulch> % 5,[<plantmegapack:flowerColumbine>], 20);
-mods.forestry.Squeezer.addRecipe(<liquid:poison> * 10, <Forestry:mulch> % 5,[<plantmegapack:flowerColumbine:1>], 20);
-mods.forestry.Squeezer.addRecipe(<liquid:poison> * 10, <Forestry:mulch> % 5,[<plantmegapack:flowerColumbine:2>], 20);
-mods.forestry.Squeezer.addRecipe(<liquid:poison> * 10, <Forestry:mulch> % 5,[<plantmegapack:flowerColumbine:3>], 20);
-mods.forestry.Squeezer.addRecipe(<liquid:poison> * 10, <Forestry:mulch> % 5,[<plantmegapack:flowerColumbine:4>], 20);
-mods.forestry.Squeezer.addRecipe(<liquid:poison> * 10, <Forestry:mulch> % 5,[<plantmegapack:flowerMezereon>], 20);
-mods.forestry.Squeezer.addRecipe(<liquid:poison> * 10, <Forestry:mulch> % 5,[<plantmegapack:forestBloodroot>], 20);
-mods.forestry.Squeezer.addRecipe(<liquid:poison> * 10, <Forestry:mulch> % 5,[<plantmegapack:forestLilyoftheValley>], 20);
-mods.forestry.Squeezer.addRecipe(<liquid:poison> * 10, <Forestry:mulch> % 1,[<plantmegapack:fungusDeathCap>], 20);
-mods.forestry.Squeezer.addRecipe(<liquid:poison> * 10, <Forestry:mulch> % 1,[<plantmegapack:fungusWoollyGomphus>], 20);
-mods.forestry.Squeezer.addRecipe(<liquid:poison> * 10, <Forestry:mulch> % 5,[<plantmegapack:leafyStingingNettle>], 20);
-mods.forestry.Squeezer.addRecipe(<liquid:poison> * 10, <Forestry:mulch> % 5,[<plantmegapack:shrubDwarfElder>], 20);
-mods.forestry.Squeezer.addRecipe(<liquid:poison> * 10, <Forestry:mulch> % 5,[<plantmegapack:shrubSpicebush>], 20);
+//mods.forestry.Squeezer.addRecipe(<liquid:poison> * 10, <Forestry:mulch> % 5,[<plantmegapack:flowerColumbine>], 20);
+//mods.forestry.Squeezer.addRecipe(<liquid:poison> * 10, <Forestry:mulch> % 5,[<plantmegapack:flowerColumbine:1>], 20);
+//mods.forestry.Squeezer.addRecipe(<liquid:poison> * 10, <Forestry:mulch> % 5,[<plantmegapack:flowerColumbine:2>], 20);
+//mods.forestry.Squeezer.addRecipe(<liquid:poison> * 10, <Forestry:mulch> % 5,[<plantmegapack:flowerColumbine:3>], 20);
+//mods.forestry.Squeezer.addRecipe(<liquid:poison> * 10, <Forestry:mulch> % 5,[<plantmegapack:flowerColumbine:4>], 20);
+//mods.forestry.Squeezer.addRecipe(<liquid:poison> * 10, <Forestry:mulch> % 5,[<plantmegapack:flowerMezereon>], 20);
+//mods.forestry.Squeezer.addRecipe(<liquid:poison> * 10, <Forestry:mulch> % 5,[<plantmegapack:forestBloodroot>], 20);
+//mods.forestry.Squeezer.addRecipe(<liquid:poison> * 10, <Forestry:mulch> % 5,[<plantmegapack:forestLilyoftheValley>], 20);
+//mods.forestry.Squeezer.addRecipe(<liquid:poison> * 10, <Forestry:mulch> % 1,[<plantmegapack:fungusDeathCap>], 20);
+//mods.forestry.Squeezer.addRecipe(<liquid:poison> * 10, <Forestry:mulch> % 1,[<plantmegapack:fungusWoollyGomphus>], 20);
+//mods.forestry.Squeezer.addRecipe(<liquid:poison> * 10, <Forestry:mulch> % 5,[<plantmegapack:leafyStingingNettle>], 20);
+//mods.forestry.Squeezer.addRecipe(<liquid:poison> * 10, <Forestry:mulch> % 5,[<plantmegapack:shrubDwarfElder>], 20);
+//mods.forestry.Squeezer.addRecipe(<liquid:poison> * 10, <Forestry:mulch> % 5,[<plantmegapack:shrubSpicebush>], 20);
 
 //Poison extract Jar Filling
 mods.thermalexpansion.Transposer.addFillRecipe(2000, <BiomesOPlenty:jarEmpty>, <BiomesOPlenty:jarFilled:1>, <liquid:poison> * 40);
@@ -78,7 +78,7 @@ mods.thermalexpansion.Transposer.addExtractRecipe(2000, <BiomesOPlenty:jarFilled
 recipes.addShaped(<BiomesOPlenty:dartBlower>, [[<tropicraft:bambooStick>, null, <tropicraft:bambooStick>], [<tropicraft:bambooStick>, null, <tropicraft:bambooStick>], [<tropicraft:bambooStick>, null, <tropicraft:bambooStick>]]);
 
 //Crafting Darts with Bamboo, feathers, and a knife
-recipes.addShaped(<BiomesOPlenty:dart> * 3, [[<tropicraft:bambooStick>, null], [<tropicraft:bambooStick>, <cfm:ItemKnife>.anyDamage().transformDamage(6)], [<minecraft:feather>, null]]);
+//recipes.addShaped(<BiomesOPlenty:dart> * 3, [[<tropicraft:bambooStick>, null], [<tropicraft:bambooStick>, <cfm:ItemKnife>.anyDamage().transformDamage(6)], [<minecraft:feather>, null]]);
 
 //Adding Berries to oredict
 <ore:foodBerries>.add(<BiomesOPlenty:food:0>);

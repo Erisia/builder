@@ -17,8 +17,8 @@
 
 //Crafting Aether food with other mods
 //Blueberry Lollipop
-recipes.addShapeless(<aether:blueberryLollipop>, [<plantmegapack:berriesBlue>, <minecraft:sugar>, <ore:stickWood>]);
-<plantmegapack:berriesBlue>.addTooltip(format.darkGray("Crafting: ") + format.blue("Blueberry Lollipop"));
+//recipes.addShapeless(<aether:blueberryLollipop>, [<plantmegapack:berriesBlue>, <minecraft:sugar>, <ore:stickWood>]);
+//<plantmegapack:berriesBlue>.addTooltip(format.darkGray("Crafting: ") + format.blue("Blueberry Lollipop"));
 recipes.addShapeless(<aether:blueberryLollipop>, [<ExtraTrees:food:45>, <minecraft:sugar>, <ore:stickWood>]);
 //Orange Lollipop
 recipes.removeShapeless(<aether:orangeLollipop>);
@@ -30,7 +30,7 @@ recipes.addShapeless(<aether:jellyPumpkin>, [<ore:cropOrange>, <ore:foodJelly>, 
 
 //Crafing Plant Mega Pack food with Aether's blueberries
 //Muffin
-recipes.addShapeless(<plantmegapack:foodBlueberryMuffin> * 6, [<aether:blueBerry>, <aether:blueBerry>, <minecraft:bread>]);
-recipes.addShapeless(<plantmegapack:foodBlueberryMuffin> * 6, [<aether:blueBerry>, <aether:blueBerry>, <plantmegapack:foodCornBread>]);
+//recipes.addShapeless(<plantmegapack:foodBlueberryMuffin> * 6, [<aether:blueBerry>, <aether:blueBerry>, <minecraft:bread>]);
+//recipes.addShapeless(<plantmegapack:foodBlueberryMuffin> * 6, [<aether:blueBerry>, <aether:blueBerry>, <plantmegapack:foodCornBread>]);
 //Slushie
-recipes.addShaped(<plantmegapack:foodBlueberrySlushie>,  [[<aether:blueBerry>, <aether:blueBerry>, <aether:blueBerry>], [<minecraft:sugar>, <ore:bucketMilk>, <minecraft:sugar>], [null, <minecraft:glass_bottle>, null]]);
+//recipes.addShaped(<plantmegapack:foodBlueberrySlushie>,  [[<aether:blueBerry>, <aether:blueBerry>, <aether:blueBerry>], [<minecraft:sugar>, <ore:bucketMilk>, <minecraft:sugar>], [null, <minecraft:glass_bottle>, null]]);
