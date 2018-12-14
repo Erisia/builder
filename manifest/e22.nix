@@ -2,6 +2,45 @@
   "version" = "1.7.10";
   "imports" = ["unabridged.yaml" "tools-1.7.10.yaml" "pinned-1.7.10.yaml"];
   "mods" = {
+    "Artifacts" = {
+      "title" = "Artifacts";
+      "name" = "Artifacts";
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Artifacts-1.1.3.jar";
+      "encoded" = "Artifacts-1.1.3.jar";
+      "src" = ../third_party/1.7.10/Artifacts-1.1.3.jar;
+      "type" = "local";
+      "md5" = "5b5145473340e003c3ab9a3ff9bc11c3";
+    };
+    "AsieLib" = {
+      "title" = "AsieLib";
+      "name" = "AsieLib";
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "AsieLib-1.7.10-0.4.8.jar";
+      "encoded" = "AsieLib-1.7.10-0.4.8.jar";
+      "src" = ../third_party/1.7.10/AsieLib-1.7.10-0.4.8.jar;
+      "type" = "local";
+      "md5" = "8764d6b5cdbb0363be74f47a64305245";
+    };
+    "Starminer" = {
+      "title" = "Starminer";
+      "name" = "Starminer";
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Starminer1710-0.9.9.jar";
+      "encoded" = "Starminer1710-0.9.9.jar";
+      "src" = ../third_party/1.7.10/Starminer1710-0.9.9.jar;
+      "type" = "local";
+      "md5" = "c98bd8296b7c5b8ea522b7dcb717b46e";
+    };
     "advanced-generators" = {
       "title" = "Advanced Generators";
       "name" = "advanced-generators";
@@ -563,21 +602,18 @@
       "type" = "remote";
       "md5" = "e77344bda12bd0b91e01dfbb00a653f0";
     };
-    "bugpatch" = {
+    "bugfix-mod" = {
       "title" = "BugPatch";
-      "name" = "bugpatch";
-      "id" = 291430;
+      "name" = "bugfix-mod";
       "side" = "both";
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "[1.7.10]BugPatch-universal-3.0.0.jar";
-      "maturity" = "release";
-      "encoded" = "%5B1.7.10%5DBugPatch-universal-3.0.0.jar";
-      "page" = "https://minecraft.curseforge.com/projects/bugpatch/files/2548235";
-      "src" = "https://minecraft.curseforge.com/projects/bugpatch/files/2548235/download";
-      "type" = "remote";
-      "md5" = "c5ed97ac7684165ec1b249a5239809ea";
+      "filename" = "bugpatch-universal-3.0.0.jar";
+      "encoded" = "bugpatch-universal-3.0.0.jar";
+      "src" = ../third_party/1.7.10/bugpatch-universal-3.0.0.jar;
+      "type" = "local";
+      "md5" = "bf67815e82937e72426d43e945e1d3ac";
     };
     "buildcraft" = {
       "title" = "Buildcraft";
@@ -848,6 +884,19 @@
       "src" = "https://minecraft.curseforge.com/projects/compact-machines/files/2268575/download";
       "type" = "remote";
       "md5" = "02a553145402059c0b350d82e4d47a14";
+    };
+    "computronics" = {
+      "title" = "Computronics";
+      "name" = "computronics";
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Computronics-1.7.10-1.6.5.jar";
+      "encoded" = "Computronics-1.7.10-1.6.5.jar";
+      "src" = ../third_party/1.7.10/Computronics-1.7.10-1.6.5.jar;
+      "type" = "local";
+      "md5" = "d0718f614a0eb078d43712225624acf6";
     };
     "coroutil" = {
       "title" = "CoroUtil";

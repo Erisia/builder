@@ -35,13 +35,19 @@ retrieve the mod page.
 
 Requires nix package manager and a unix environment (You can also use nixos!) of your choice to run it in.
 
-1. Clone down this repository
+1. Clone this repository
 1. Create a directory to house the server
-1. Navigate into it and run `../update_and_start.sh` Choose the server you intend to build
-1. Assuming all this succeeds, you can safely a text editor like atom or vscode to edit the files under manifest and base in the builder folder.  These files are the ones that influence what mods the server is running as well as the configs that get deployed to the client. See Updating Manifests for how to actually update a manifest once you've made changes in it.
+1. Navigate into it and run `../path/to/repository/update_and_start.sh` Choose the server you intend to build
+1. Assuming all this succeeds, you can use any text editor to edit the files under manifest and base in the builder folder.  These files are the ones that influence what mods the server is running as well as the configs that get deployed to the client.
+
+   Changing the manifest will not automatically change the running mods. See `Updating Manifests` for how to do that, and how to update mods to newer versions.
 
 Once you've updated with cursetool and tried your changes with `update_and_start.sh` you can push your changes back up to the repo (use a branch or a fork please) and open a pull request against master.  At that point an admin can pull your changes into the server.
 
+## Useful tips
+
+* Dynmap quickly creates gigabytes of rendered map tiles. You might want to disable it while debugging.
+* You aren't limited to running only the server. To test a new client configuration, look at the `ServerPackLocal` stance at the bottom of default.nix.
 
 # License
 

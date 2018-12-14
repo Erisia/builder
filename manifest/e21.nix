@@ -1699,19 +1699,20 @@
       "md5" = "e2cd9d3d5ad2078062c91f9c33fd215c";
     };
     "matteroverdrive" = {
-      "title" = "Matter Overdrive";
+      "title" = "MatterOverdrive: Legacy Edition";
       "name" = "matteroverdrive";
-      "id" = 229694;
+      "id" = 308192;
       "side" = "both";
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "MatterOverdrive-1.12.2-0.6.0.176-universal.jar";
-      "encoded" = "MatterOverdrive-1.12.2-0.6.0.176-universal.jar";
-      "page" = "https://minecraft.curseforge.com/projects/229694/files/2574418";
-      "src" = "https://minecraft.curseforge.com/projects/matteroverdrive/files/2574418/download";
+      "filename" = "MatterOverdrive-1.12.2-0.6.2.207-universal.jar";
+      "maturity" = "release";
+      "encoded" = "MatterOverdrive-1.12.2-0.6.2.207-universal.jar";
+      "page" = "https://minecraft.curseforge.com/projects/matteroverdrive/files/2646471";
+      "src" = "https://minecraft.curseforge.com/projects/matteroverdrive/files/2646471/download";
       "type" = "remote";
-      "md5" = "59fba4c73e5a94e4e08e7f6448cf200b";
+      "md5" = "dffe6bdccc3d3bc53a17e85270a8c2fa";
     };
     "mcjtylib" = {
       "title" = "McJtyLib";

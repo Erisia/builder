@@ -24,6 +24,15 @@ let resources_12 = runLocally "resources-1.12" {
      mkdir -p $out/resourcepacks
      ln -s $ozocraft $out/resourcepacks/OzoCraft.zip
    '';
+   resources_7 = runLocally "resources-1.7" {
+     erisia = fetchurl {
+       url = https://madoka.brage.info/baughn/erisia-pack.zip;
+       sha256 = "17hy9hf948xkj3wgkr1q2q8qr2cqgkvy7d0zii89vrzai9xw0aif";
+     };
+   } ''
+     mkdir -p $out/resourcepacks
+     ln -s $erisia $out/resourcepacks/erisia-pack.zip
+   '';
 in
 
 rec {
@@ -54,10 +63,11 @@ rec {
       ./base/server
     ];
     extraClientDirs = [
+      resources_7
       ./base/client
-	  ./base/unabridged/oresources
-	  ./base/unabridged/armourersWorkshop
-	  ./base/unabridged/TCSchematics
+      ./base/unabridged/oresources
+      ./base/unabridged/armourersWorkshop
+      ./base/unabridged/TCSchematics
     ];
     manifests = [
       ./manifest/e22.nix
