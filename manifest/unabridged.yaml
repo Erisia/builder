@@ -248,13 +248,30 @@ mods:
   required: "false"
 - name: "player-api"
 - name: "realistic-terrain-generation"
-# Added via base/unabirdged/mods/
-#- name: "computronics"
-#- name: "AsieLib"
-#- name: "Flamingo"
-#- name: "Starminer"
+- name: "computronics"
+  title: "Computronics"
+  curse: false
+  files:
+  - src: "../third_party/1.7.10/Computronics-1.7.10-1.6.5.jar"
+- name: "AsieLib"
+  title: "AsieLib"
+  curse: false
+  files:
+  - src: "../third_party/1.7.10/AsieLib-1.7.10-0.4.8.jar"
+- name: "Starminer"
+  title: "Starminer"
+  curse: false
+  files:
+  - src: "../third_party/1.7.10/Starminer1710-0.9.9.jar"
+#- name: "Artifacts"
+#  title: "Artifacts"
+#  curse: false
+#  files:
+#  - src: "../third_party/1.7.10/Artifacts-1.1.3.jar"
 
-
+- name: "iron-backpacks"
+- name: "ars-magica-2"
+- name: "animationapi"
   
 # Removed mods
 #- name: "hunger-overhaul"

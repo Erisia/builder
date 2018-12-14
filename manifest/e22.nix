@@ -2,6 +2,32 @@
   "version" = "1.7.10";
   "imports" = ["unabridged.yaml" "tools-1.7.10.yaml" "pinned-1.7.10.yaml"];
   "mods" = {
+    "AsieLib" = {
+      "title" = "AsieLib";
+      "name" = "AsieLib";
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "AsieLib-1.7.10-0.4.8.jar";
+      "encoded" = "AsieLib-1.7.10-0.4.8.jar";
+      "src" = ../third_party/1.7.10/AsieLib-1.7.10-0.4.8.jar;
+      "type" = "local";
+      "md5" = "8764d6b5cdbb0363be74f47a64305245";
+    };
+    "Starminer" = {
+      "title" = "Starminer";
+      "name" = "Starminer";
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Starminer1710-0.9.9.jar";
+      "encoded" = "Starminer1710-0.9.9.jar";
+      "src" = ../third_party/1.7.10/Starminer1710-0.9.9.jar;
+      "type" = "local";
+      "md5" = "c98bd8296b7c5b8ea522b7dcb717b46e";
+    };
     "advanced-generators" = {
       "title" = "Advanced Generators";
       "name" = "advanced-generators";
@@ -91,6 +117,22 @@
       "src" = "https://minecraft.curseforge.com/projects/ancient-trees/files/2261983/download";
       "type" = "remote";
       "md5" = "ca8570dde131f2d7ef5291b08437248a";
+    };
+    "animationapi" = {
+      "title" = "AnimationAPI";
+      "name" = "animationapi";
+      "id" = 77191;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "AnimationAPI-1.7.10-1.2.4.jar";
+      "maturity" = "release";
+      "encoded" = "AnimationAPI-1.7.10-1.2.4.jar";
+      "page" = "https://minecraft.curseforge.com/projects/animationapi/files/2221721";
+      "src" = "https://minecraft.curseforge.com/projects/animationapi/files/2221721/download";
+      "type" = "remote";
+      "md5" = "7ec0b391e527461196e86f4e4974f560";
     };
     "another-one-bites-the-dust" = {
       "title" = "Another One Bites the Dust";
@@ -248,6 +290,22 @@
       "src" = "https://minecraft.curseforge.com/projects/aroma1997s-dimensional-world/files/2219018/download";
       "type" = "remote";
       "md5" = "756e446bbcb0e045ed1907d7f56c91ae";
+    };
+    "ars-magica-2" = {
+      "title" = "Ars Magica 2";
+      "name" = "ars-magica-2";
+      "id" = 67313;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "1.7.10_AM2-1.4.0.009.jar";
+      "maturity" = "release";
+      "encoded" = "1.7.10_AM2-1.4.0.009.jar";
+      "page" = "https://minecraft.curseforge.com/projects/ars-magica-2/files/2280862";
+      "src" = "https://minecraft.curseforge.com/projects/ars-magica-2/files/2280862/download";
+      "type" = "remote";
+      "md5" = "1e4b8c84cda22fd093c5e921374578e9";
     };
     "automagy" = {
       "title" = "Automagy";
@@ -816,6 +874,19 @@
       "src" = "https://minecraft.curseforge.com/projects/compact-machines/files/2268575/download";
       "type" = "remote";
       "md5" = "02a553145402059c0b350d82e4d47a14";
+    };
+    "computronics" = {
+      "title" = "Computronics";
+      "name" = "computronics";
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Computronics-1.7.10-1.6.5.jar";
+      "encoded" = "Computronics-1.7.10-1.6.5.jar";
+      "src" = ../third_party/1.7.10/Computronics-1.7.10-1.6.5.jar;
+      "type" = "local";
+      "md5" = "d0718f614a0eb078d43712225624acf6";
     };
     "coroutil" = {
       "title" = "CoroUtil";
