@@ -23,11 +23,24 @@ mods:
 - name: "notenoughkeys"
   side: "client"
   required: false
+- name: "tickprofiler"
+- name: "opis"
+  required: false
+  default: false
+- name: "dynamic-surroundings"
+  side: "client"
+  required: false
+- name: "sound-filters"
+  side: "client"
+  required: "false"
+- name: "damage-indicators-mod"
+  side: "client"
+  required: false
+
 
 # Just for 1.10 and on.
 #- name: "thump"
 #  required: false
-# - name: "tickprofiler"
 #   side: "server"
 #   curse: false
 #   files:

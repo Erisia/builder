@@ -978,6 +978,16 @@
       "type" = "remote";
       "md5" = "87fe5ade98944a8deec9fee5f964b5d4";
     };
+    "damage-indicators-mod" = {
+      "title" = "Damage Indicators Mod";
+      "name" = "damage-indicators-mod";
+      "id" = 59489;
+      "side" = "client";
+      "required" = false;
+      "default" = true;
+      "deps" = [];
+      "type" = "missing";
+    };
     "darkcore" = {
       "title" = "Darkcore";
       "name" = "darkcore";
@@ -1074,6 +1084,22 @@
       "type" = "remote";
       "md5" = "93c74d8ce8b63bdaca6bcd124575e7ca";
     };
+    "dynamic-surroundings" = {
+      "title" = "Dynamic Surroundings";
+      "name" = "dynamic-surroundings";
+      "id" = 238891;
+      "side" = "client";
+      "required" = false;
+      "default" = true;
+      "deps" = [];
+      "filename" = "DynamicSurroundings-1.7.10-1.0.6.4.jar";
+      "maturity" = "release";
+      "encoded" = "DynamicSurroundings-1.7.10-1.0.6.4.jar";
+      "page" = "https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2642381";
+      "src" = "https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2642381/download";
+      "type" = "remote";
+      "md5" = "0524c4d2004e1a6c2300015c195ef09e";
+    };
     "dynmapforge" = {
       "title" = "DynmapForge";
       "name" = "dynmapforge";
@@ -1133,7 +1159,7 @@
       "encoded" = "ElectricalAge-1.14.2.jar";
       "src" = ../third_party/1.7.10/ElectricalAge-1.14.2.jar;
       "type" = "local";
-      "md5" = "f463bc377de7ceddd7c40e0c3ddb14ca";
+      "md5" = "1af53dd0a866f76d4963dc01962f7736";
     };
     "ender-io" = {
       "title" = "Ender IO";
@@ -2225,6 +2251,22 @@
       "type" = "remote";
       "md5" = "e7672892b5b2387b59b7e0fe3a603d1e";
     };
+    "mobiuscore" = {
+      "title" = "MobiusCore";
+      "name" = "mobiuscore";
+      "id" = 76734;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "MobiusCore-1.2.5_1.7.10.jar";
+      "maturity" = "release";
+      "encoded" = "MobiusCore-1.2.5_1.7.10.jar";
+      "page" = "https://minecraft.curseforge.com/projects/mobiuscore/files/2232516";
+      "src" = "https://minecraft.curseforge.com/projects/mobiuscore/files/2232516/download";
+      "type" = "remote";
+      "md5" = "29990acae6a30d35057380222be87294";
+    };
     "modtweaker" = {
       "title" = "ModTweaker";
       "name" = "modtweaker";
@@ -2606,6 +2648,22 @@
       "src" = "https://minecraft.curseforge.com/projects/opentransport/files/2344711/download";
       "type" = "remote";
       "md5" = "69297adde4b249fb811e0e6f8e229f49";
+    };
+    "opis" = {
+      "title" = "Opis";
+      "name" = "opis";
+      "id" = 73832;
+      "side" = "both";
+      "required" = false;
+      "default" = false;
+      "deps" = ["mobiuscore"];
+      "filename" = "Opis-1.2.5_1.7.10.jar";
+      "maturity" = "release";
+      "encoded" = "Opis-1.2.5_1.7.10.jar";
+      "page" = "https://minecraft.curseforge.com/projects/opis/files/2232520";
+      "src" = "https://minecraft.curseforge.com/projects/opis/files/2232520/download";
+      "type" = "remote";
+      "md5" = "82e98ab306d952f3371a514333c226b4";
     };
     "p455w0rds-library" = {
       "title" = "p455w0rd's Library";
@@ -3603,6 +3661,16 @@
       "src" = "https://minecraft.curseforge.com/projects/tic-tooltips/files/2246472/download";
       "type" = "remote";
       "md5" = "d8178b20a554d3a0f3d0f374769acd02";
+    };
+    "tickprofiler" = {
+      "title" = "TickProfiler";
+      "name" = "tickprofiler";
+      "id" = 270330;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "type" = "missing";
     };
     "tinker-i-o" = {
       "title" = "Tinker I/O";
