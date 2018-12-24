@@ -1,5 +1,5 @@
-/* Custom Things
-   Tweaks and Alterations */
+// Custom Things
+// Tweaks and Alterations 
    
 furnace.addRecipe(<minecraft:iron_ingot>, <customthings:block0>, 0.5);
 furnace.addRecipe(<minecraft:gold_ingot>, <customthings:block0:1>, 0.5);

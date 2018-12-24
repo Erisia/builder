@@ -1,5 +1,5 @@
-/* Archimedes' Ships
-   Tweaks and Alterations */
+// Archimedes' Ships
+//   Tweaks and Alterations //
    
 val balloon = <ArchimedesShipsPlus:balloon:*>;
 

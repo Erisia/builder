@@ -1,5 +1,5 @@
-/* Binnie's Mods
-   Tweaks and Alterations */
+// Binnie's Mods
+//   Tweaks and Alterations 
 
 //Adding Berries to oredict
 <ore:foodBerries>.add(<ExtraTrees:food:34>);

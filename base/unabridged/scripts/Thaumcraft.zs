@@ -1,5 +1,5 @@
-/* Thaumcraft
-   Tweaks and Alterations */
+// Thaumcraft
+// Tweaks and Alterations 
 
 // AOBD
 mods.thaumcraft.Research.moveResearch("PUREORE", "ALCHEMY", -7, 8);

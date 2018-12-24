@@ -1,5 +1,5 @@
-/* Railcraft
-   Tweaks and Alterations */
+// Railcraft
+// Tweaks and Alterations 
 
 // Cactus to Cactus Charcoal
 //mods.railcraft.CokeOven.addRecipe(<minecraft:cactus>, false, false, <Quadrum:charcoalCactus>, <liquid:creosote> * 30, 100);

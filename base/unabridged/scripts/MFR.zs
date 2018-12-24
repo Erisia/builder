@@ -1,5 +1,5 @@
-/* Minefactory Reloaded
-   Tweaks and Alterations */
+// Minefactory Reloaded
+// Tweaks and Alterations 
 
 import mods.mfr.Harvester;
 import mods.mfr.Planter;

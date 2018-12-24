@@ -1,5 +1,5 @@
-/*Galaxy Space
-   Tweaks and Alterations*/
+//Galaxy Space
+// Tweaks and Alterations
 
 //Ferrous to Nickel block fix https://github.com/elytra/Unabridged/issues/585
    

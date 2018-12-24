@@ -1,5 +1,5 @@
-/* Vanilla
-   Tweaks and Alterations */
+// Vanilla
+// Tweaks and Alterations 
 
 // Grass
 recipes.addShapeless(<minecraft:grass> * 4, [<minecraft:water_bucket>.transformReplace(<minecraft:bucket>), <minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>, <minecraft:tallgrass:1>, <minecraft:tallgrass:1>, <minecraft:tallgrass:1>, <minecraft:tallgrass:1>]);

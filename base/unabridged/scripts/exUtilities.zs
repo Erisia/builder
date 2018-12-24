@@ -1,5 +1,5 @@
-/* Extra Utilities
-   Tweaks and Alterations */
+// Extra Utilities
+// Tweaks and Alterations 
    
 // Solar Generator
 recipes.remove(<ExtraUtilities:generator:7>);

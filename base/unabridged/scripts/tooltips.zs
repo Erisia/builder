@@ -1,4 +1,4 @@
-/* Tooltips */
+// Tooltips 
 
 // BiblioCraft
 <BiblioCraft:BiblioPaneler>.addTooltip(format.aqua("Alternate versions can be crafted with any wood from Vanilla."));

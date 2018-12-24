@@ -1,5 +1,5 @@
-/* Biomes O Plenty
-   Tweaks and Alterations */
+// Biomes O Plenty
+//   Tweaks and Alterations
 
 //Remove ash as a burnable fuel
 furnace.setFuel(<BiomesOPlenty:misc:1>, 0);

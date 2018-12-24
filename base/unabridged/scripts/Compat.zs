@@ -1,5 +1,5 @@
-/* General Mod Compatibility
-   Tweaks and Alterations */
+// General Mod Compatibility
+// Tweaks and Alterations 
    
 // Silicon Unification -- Project Red; Galacticraft; EnderIO
 <ore:itemSilicon>.addAll(<ore:silicon>);

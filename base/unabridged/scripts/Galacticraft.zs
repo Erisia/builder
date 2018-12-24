@@ -1,5 +1,5 @@
-/* Galacticraft
-   Tweaks and Alterations */
+// Galacticraft
+// Tweaks and Alterations 
 
 // Desh in oredict
 //val oreDesh = <ore:oreDesh>;

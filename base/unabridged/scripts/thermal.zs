@@ -1,5 +1,5 @@
-/* Thermal _________
-   Tweaks and Alterations */
+// Thermal _________
+// Tweaks and Alterations 
    
 // Dynamics
 recipes.addShapeless(<ThermalDynamics:ThermalDynamics_32:6>.withTag({DenseType: 1 as byte}), [<ThermalDynamics:ThermalDynamics_32:6>, <ore:dustLead>]);

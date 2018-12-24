@@ -1,5 +1,5 @@
-/* Extra Thaumcraft
-   Aspects */
+// Extra Thaumcraft
+// Aspects 
 
 // Botania
 mods.thaumcraft.Aspects.set(<Botania:flower:*>, "praecantatio 2, herba 1, sensus 1, victus 1");

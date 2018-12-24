@@ -1,5 +1,5 @@
-/* Mekanism
-   Tweaks and Alterations */
+// Mekanism
+// Tweaks and Alterations 
 
 // Steel
 <ore:axeSteel>.add(<MekanismTools:SteelAxe>);

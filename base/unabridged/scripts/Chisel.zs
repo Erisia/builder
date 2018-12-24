@@ -1,5 +1,5 @@
-/* Chisel
-   Tweaks and Alterations */
+// Chisel
+// Tweaks and Alterations 
 
 // Stones
 recipes.addShapeless(<chisel:andesite> * 2, [<chisel:diorite>, <minecraft:cobblestone>]);

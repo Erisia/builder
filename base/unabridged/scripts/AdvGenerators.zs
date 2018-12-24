@@ -1,5 +1,4 @@
-/* Advanced Generators
-   Tweaks and Alterations */
+// Advanced Generators Tweaks and Alterations
 
 // Iron Frame
 recipes.remove(<advgenerators:IronFrame>);

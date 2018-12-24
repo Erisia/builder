@@ -1,5 +1,5 @@
-/* Ztones
-   Tweaks and Alterations */
+// Ztones
+// Tweaks and Alterations 
    
 // Remove recipes
 recipes.remove(<Ztones:tile.agonBlock:*>);

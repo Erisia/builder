@@ -1,5 +1,4 @@
-/* Aether
-   Tweaks and Alterations */
+// Aether Tweaks and Alterations
 
 //Adding Berries to oredict
 <ore:foodBerries>.add(<aether:blueBerry>);

@@ -1,5 +1,5 @@
-/* Tinkers' Construct
-   Tweaks and Alterations */
+// Tinkers' Construct
+// Tweaks and Alterations 
 
 // Stone Rod fix
 <ore:rodStone>.add(<TConstruct:toolRod:1>);

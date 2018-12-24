@@ -1,5 +1,5 @@
-/* Tropicraft
-   Tweaks and Alterations */
+// Tropicraft
+// Tweaks and Alterations 
 
 //Oredicting Oranges
 <ore:cropOrange>.add(<tropicraft:orange>);

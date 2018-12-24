@@ -1,5 +1,5 @@
-/* Agricraft
-   Tweaks and Alterations */
+// Agricraft
+//   Tweaks and Alterations 
 
 
 import mods.agricraft.SeedMutation;

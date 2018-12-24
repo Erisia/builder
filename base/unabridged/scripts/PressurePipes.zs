@@ -1,5 +1,5 @@
-/* Pressure Pipes
-   Tweaks and Alterations */
+// Pressure Pipes
+// Tweaks and Alterations 
 
 // High Pressure Pipe
 recipes.remove(<pressure:Pipe>);
