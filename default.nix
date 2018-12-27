@@ -38,7 +38,6 @@ in
 rec {
 
   packs = {
-    e21 = buildPack e21;
     e22 = buildPack e22;
     incognito = buildPack farmingValley;
   };
