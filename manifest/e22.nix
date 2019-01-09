@@ -3802,7 +3802,7 @@
       "name" = "trashslot";
       "id" = 235577;
       "side" = "both";
-      "required" = true;
+      "required" = false;
       "default" = true;
       "deps" = [];
       "filename" = "trashslot-mc1.7.10-1.0.31.jar";
