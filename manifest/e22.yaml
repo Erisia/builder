@@ -39,7 +39,7 @@ mods:
   curse: false
   files:
   - src: "../third_party/1.7.10/ElectricalAge-dev.jar"
-
+- name: "qcraft"
 
 imports:
 - "unabridged.yaml"

@@ -4096,5 +4096,21 @@
       "type" = "remote";
       "md5" = "af1178d84ab8b3b22a21e3a3a18b627f";
     };
+    "qcraft" = {
+      "title" = "qCraft";
+      "name" = "qcraft";
+      "id" = 242974;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "qCraft-1.7.10-1.2.2.jar";
+      "maturity" = "release";
+      "encoded" = "qCraft-1.7.10-1.2.2.jar";
+      "page" = "https://minecraft.curseforge.com/projects/qcraft/files/2332516";
+      "src" = "https://minecraft.curseforge.com/projects/qcraft/files/2332516/download";
+      "type" = "remote";
+      "md5" = "00c2a623d819390447caca956f412bbb";
+    };
   };
 }
