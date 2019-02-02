@@ -1,0 +1,22 @@
+[
+  {
+    "address": "irc.rizon.net",
+    "nick": "Elncognito",
+    "bot": {
+      "quitMessage": "Charging the grid transformer."
+    },
+    "theme": {
+      "ircNameColor": "c",
+      "ircOpNameColor": "6",
+      "ircVoiceNameColor": "9",
+      "ircPrivateNameColor": "8",
+      "ircNoticeTextColor": "8",
+      "emoteTextColor": "8"
+    },
+    "channels": [
+      {
+        "name": "#erisia"
+      }
+    ]
+  }
+]

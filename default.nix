@@ -38,6 +38,7 @@ in
 rec {
 
   packs = {
+    e22-leisurely = buildPack e22-leisurely;
     e22 = buildPack e22;
     elncognito = buildPack elncognito;
   };
@@ -67,6 +68,14 @@ rec {
     ];
     blacklist = [
     ];
+  };
+
+
+  e22-leisurely = e22 // {
+    screenName = "e22lei";
+    port = 25567;
+    description = "Erisia #22 Take it slow server: Ovilis uniusque Pastoris coccineam";
+    extraDirs = e22.extraDirs ++ [ ./base/e22-lei ];
   };
 
   e22 = {
