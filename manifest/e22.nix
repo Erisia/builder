@@ -761,13 +761,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "Chunk Pregenerator V1.7.10-1.9.2.jar";
+      "filename" = "Chunk Pregenerator V1.7.10-2.0.jar";
       "maturity" = "release";
-      "encoded" = "Chunk%20Pregenerator%20V1.7.10-1.9.2.jar";
-      "page" = "https://minecraft.curseforge.com/projects/chunkpregenerator/files/2631704";
-      "src" = "https://minecraft.curseforge.com/projects/chunkpregenerator/files/2631704/download";
+      "encoded" = "Chunk%20Pregenerator%20V1.7.10-2.0.jar";
+      "page" = "https://minecraft.curseforge.com/projects/chunkpregenerator/files/2668217";
+      "src" = "https://minecraft.curseforge.com/projects/chunkpregenerator/files/2668217/download";
       "type" = "remote";
-      "md5" = "653e1d38389e61a3ecaace5af21ee230";
+      "md5" = "f7d91422b5fd58aeafc875c7e701dda1";
     };
     "chunkpurge" = {
       "title" = "ChunkPurge";
@@ -873,7 +873,7 @@
       "title" = "CoFHTweaks";
       "name" = "cofhtweaks";
       "id" = 230020;
-      "side" = "both";
+      "side" = "server";
       "required" = true;
       "default" = true;
       "deps" = [];
@@ -1175,7 +1175,7 @@
       "encoded" = "ElectricalAge-dev.jar";
       "src" = ../third_party/1.7.10/ElectricalAge-dev.jar;
       "type" = "local";
-      "md5" = "7aa415c1264c5cc0e6b150954c095650";
+      "md5" = "3e392542c3b4b86740361d32d24b566f";
     };
     "electricraft" = {
       "title" = "ElectriCraft";
@@ -1380,7 +1380,7 @@
       "md5" = "e66dc4b8d6164e75615dfabf1f8dc5a4";
     };
     "fabric" = {
-      "title" = "Fabric";
+      "title" = "Fabric (API)";
       "name" = "fabric";
       "id" = 306612;
       "side" = "both";
@@ -1404,6 +1404,22 @@
       "src" = "https://minecraft.curseforge.com/projects/fancygrass/files/2224424/download";
       "type" = "remote";
       "md5" = "6f338afe9ac9ed2547201e2a817d6329";
+    };
+    "fastcraft" = {
+      "title" = "FastCraft";
+      "name" = "fastcraft";
+      "id" = 242677;
+      "side" = "client";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "fastcraft-1.25.jar";
+      "maturity" = "release";
+      "encoded" = "fastcraft-1.25.jar";
+      "page" = "https://minecraft.curseforge.com/projects/fastcraft/files/2522249";
+      "src" = "https://minecraft.curseforge.com/projects/fastcraft/files/2522249/download";
+      "type" = "remote";
+      "md5" = "44c7c6828ac38026f443804827955345";
     };
     "flatsigns" = {
       "title" = "FlatSigns";
@@ -2916,6 +2932,22 @@
       "deps" = [];
       "type" = "missing";
     };
+    "qcraft" = {
+      "title" = "qCraft";
+      "name" = "qcraft";
+      "id" = 242974;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "qCraft-1.7.10-1.2.2.jar";
+      "maturity" = "release";
+      "encoded" = "qCraft-1.7.10-1.2.2.jar";
+      "page" = "https://minecraft.curseforge.com/projects/qcraft/files/2332516";
+      "src" = "https://minecraft.curseforge.com/projects/qcraft/files/2332516/download";
+      "type" = "remote";
+      "md5" = "00c2a623d819390447caca956f412bbb";
+    };
     "qmunitylib" = {
       "title" = "QmunityLib";
       "name" = "qmunitylib";
@@ -4095,22 +4127,6 @@
       "src" = "https://minecraft.curseforge.com/projects/zyins-hud/files/2221572/download";
       "type" = "remote";
       "md5" = "af1178d84ab8b3b22a21e3a3a18b627f";
-    };
-    "qcraft" = {
-      "title" = "qCraft";
-      "name" = "qcraft";
-      "id" = 242974;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "filename" = "qCraft-1.7.10-1.2.2.jar";
-      "maturity" = "release";
-      "encoded" = "qCraft-1.7.10-1.2.2.jar";
-      "page" = "https://minecraft.curseforge.com/projects/qcraft/files/2332516";
-      "src" = "https://minecraft.curseforge.com/projects/qcraft/files/2332516/download";
-      "type" = "remote";
-      "md5" = "00c2a623d819390447caca956f412bbb";
     };
   };
 }

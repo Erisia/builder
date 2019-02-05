@@ -30,8 +30,12 @@ mods:
 - name: "endercore"
 - name: "endertech"
 - name: "extratic"
-#- name: "fastcraft"
+# Bacause actually playable minecraft (compatible with Optifine)
+- name: "fastcraft"
+  side: "client"
+# Because mod AI improvements and impact to TPS
 - name: "cofhtweaks"
+  side: "server"
 - name: "flatsigns"
 - name: "forestry"
 - name: "foxlib"
