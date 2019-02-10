@@ -1719,38 +1719,6 @@
       "type" = "remote";
       "md5" = "513bbcc2ccf47d4ac35e8a6d4389ea5e";
     };
-    "hat-stand" = {
-      "title" = "Hat Stand";
-      "name" = "hat-stand";
-      "id" = 229076;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = ["hats" "ichunutil"];
-      "filename" = "HatStand-4.0.0.jar";
-      "maturity" = "release";
-      "encoded" = "HatStand-4.0.0.jar";
-      "page" = "https://minecraft.curseforge.com/projects/hat-stand/files/2232181";
-      "src" = "https://minecraft.curseforge.com/projects/hat-stand/files/2232181/download";
-      "type" = "remote";
-      "md5" = "6d668669276027a99973b73e0677fc87";
-    };
-    "hats" = {
-      "title" = "Hats";
-      "name" = "hats";
-      "id" = 229073;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = ["ichunutil"];
-      "filename" = "Hats-4.0.1.jar";
-      "maturity" = "release";
-      "encoded" = "Hats-4.0.1.jar";
-      "page" = "https://minecraft.curseforge.com/projects/hats/files/2232170";
-      "src" = "https://minecraft.curseforge.com/projects/hats/files/2232170/download";
-      "type" = "remote";
-      "md5" = "029d5d60ff3c3c1873a4770f9b702a89";
-    };
     "helpfixer" = {
       "title" = "HelpFixer";
       "name" = "helpfixer";
@@ -2603,13 +2571,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "OpenComputers-MC1.7.10-1.7.3.1258-universal.jar";
+      "filename" = "OpenComputers-MC1.7.10-1.7.4.1265-universal.jar";
       "maturity" = "release";
-      "encoded" = "OpenComputers-MC1.7.10-1.7.3.1258-universal.jar";
-      "page" = "https://minecraft.curseforge.com/projects/opencomputers/files/2638672";
-      "src" = "https://minecraft.curseforge.com/projects/opencomputers/files/2638672/download";
+      "encoded" = "OpenComputers-MC1.7.10-1.7.4.1265-universal.jar";
+      "page" = "https://minecraft.curseforge.com/projects/opencomputers/files/2670109";
+      "src" = "https://minecraft.curseforge.com/projects/opencomputers/files/2670109/download";
       "type" = "remote";
-      "md5" = "4d48fa5da9e55d465c0770513c8c52b7";
+      "md5" = "6112cc151d1fa484075a9c28475cfd0c";
     };
     "openeye" = {
       "title" = "OpenEye";
