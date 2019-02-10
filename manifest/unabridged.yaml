@@ -44,7 +44,7 @@ mods:
 - name: "gendustry"
 - name: "guide-api"
 - name: "gilded-games-util"
-- name: "hats"
+#- name: "hats"
 - name: "hatstand"
 - name: "helpfixer"
 - name: "ibench"
