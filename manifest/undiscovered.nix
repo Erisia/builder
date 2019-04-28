@@ -1954,12 +1954,12 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "lostcities-1.12-2.0.5.jar";
-      "encoded" = "lostcities-1.12-2.0.5.jar";
-      "page" = "https://minecraft.curseforge.com/projects/269024/files/2534917";
-      "src" = "https://minecraft.curseforge.com/projects/the-lost-cities/files/2534917/download";
+      "filename" = "lostcities-1.12-2.0.18.jar";
+      "encoded" = "lostcities-1.12-2.0.18.jar";
+      "page" = "https://minecraft.curseforge.com/projects/269024/files/2704400";
+      "src" = "https://minecraft.curseforge.com/projects/the-lost-cities/files/2704400/download";
       "type" = "remote";
-      "md5" = "52846febae03a1341cdafd6f65e4841c";
+      "md5" = "7347af2c81810ac49c7fe60f96a68309";
     };
     "the-one-probe" = {
       "title" = "The One Probe";

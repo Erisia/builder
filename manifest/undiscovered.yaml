@@ -778,12 +778,12 @@ mods:
   id: 269024
   title: "The Lost Cities"
   files:
-  - name: "lostcities-1.12-2.0.5.jar"
-    id: 2534917
+  - name: "lostcities-1.12-2.0.18.jar"
+    id: 2704400
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/269024/files/2534917"
-    src: "https://minecraft.curseforge.com/projects/the-lost-cities/files/2534917/download"
-    md5: "52846febae03a1341cdafd6f65e4841c"
+    filePageUrl: "https://minecraft.curseforge.com/projects/269024/files/2704400"
+    src: "https://minecraft.curseforge.com/projects/the-lost-cities/files/2704400/download"
+    md5: "7347af2c81810ac49c7fe60f96a68309"
   side: "both"
   deps: []
   required: true
