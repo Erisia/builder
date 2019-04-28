@@ -1056,12 +1056,12 @@ mods:
   id: 267602
   title: "ConnectedTexturesMod"
   files:
-  - name: "CTM-MC1.12-0.2.3.12.jar"
-    id: 2519601
+  - name: "CTM-MC1.12.2-0.3.3.22.jar"
+    id: 2642375
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/267602/files/2519601"
-    src: "https://minecraft.curseforge.com/projects/ctm/files/2519601/download"
-    md5: "f67d95bb874571c2b77517654593b23f"
+    filePageUrl: "https://minecraft.curseforge.com/projects/267602/files/2642375"
+    src: "https://minecraft.curseforge.com/projects/ctm/files/2642375/download"
+    md5: "086cd9da4b8c50a9e483c7b580a9c4d8"
   side: "both"
   deps: []
   required: true
@@ -1672,12 +1672,12 @@ mods:
   id: 242998
   title: "Silent Lib"
   files:
-  - name: "SilentLib-1.12-2.2.16-97.jar"
-    id: 2511191
+  - name: "SilentLib-1.12.2-3.0.13+167.jar"
+    id: 2675924
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/242998/files/2511191"
-    src: "https://minecraft.curseforge.com/projects/silent-lib/files/2511191/download"
-    md5: "658c555c075cc137fbc4d533885b01b7"
+    filePageUrl: "https://minecraft.curseforge.com/projects/242998/files/2675924"
+    src: "https://minecraft.curseforge.com/projects/silent-lib/files/2675924/download"
+    md5: "226e4977e83fec1fd88963ce7a98fb16"
   side: "both"
   deps: []
   required: true
@@ -1687,12 +1687,12 @@ mods:
   id: 220311
   title: "Silent's Gems"
   files:
-  - name: "SilentsGems-1.12-2.6.9b-265.jar"
-    id: 2536401
+  - name: "SilentsGems-1.12.2-2.8.17+319.jar"
+    id: 2703594
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/220311/files/2536401"
-    src: "https://minecraft.curseforge.com/projects/silents-gems/files/2536401/download"
-    md5: "f2ead3e0cfc5b77056a1e63c6c5cd7d6"
+    filePageUrl: "https://minecraft.curseforge.com/projects/220311/files/2703594"
+    src: "https://minecraft.curseforge.com/projects/silents-gems/files/2703594/download"
+    md5: "30d1a7cde6594251064dc99eb09437e4"
   side: "both"
   deps:
   - "silent-lib"
@@ -1801,12 +1801,12 @@ mods:
   id: 229218
   title: "ExtraCells2"
   files:
-  - name: "ExtraCells-1.12.2-2.5.11a48.jar"
-    id: 2521550
+  - name: "ExtraCells-1.12.2-2.6.2a.jar"
+    id: 2653854
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/229218/files/2521550"
-    src: "https://minecraft.curseforge.com/projects/extracells2/files/2521550/download"
-    md5: "d199003daad50dc2bc47cfbed4c710ec"
+    filePageUrl: "https://minecraft.curseforge.com/projects/229218/files/2653854"
+    src: "https://minecraft.curseforge.com/projects/extracells2/files/2653854/download"
+    md5: "d289ffbb9f618e524ece8a2c944498e0"
   side: "both"
   deps:
   - "applied-energistics-2"
