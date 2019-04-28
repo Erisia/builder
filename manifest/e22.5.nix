@@ -163,13 +163,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "base-1.12.2-3.12.0.jar";
+      "filename" = "base-1.12.2-3.12.1.jar";
       "maturity" = "release";
-      "encoded" = "base-1.12.2-3.12.0.jar";
-      "page" = "https://minecraft.curseforge.com/projects/base/files/2680109";
-      "src" = "https://minecraft.curseforge.com/projects/base/files/2680109/download";
+      "encoded" = "base-1.12.2-3.12.1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/base/files/2702845";
+      "src" = "https://minecraft.curseforge.com/projects/base/files/2702845/download";
       "type" = "remote";
-      "md5" = "092c73b9e6c36d382722403127c607a1";
+      "md5" = "87eefdb293f0aa67163e0a7708fdf34d";
     };
     "baubles" = {
       "title" = "Baubles";
@@ -669,12 +669,12 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "CTM-MC1.12-0.2.3.12.jar";
-      "encoded" = "CTM-MC1.12-0.2.3.12.jar";
-      "page" = "https://minecraft.curseforge.com/projects/267602/files/2519601";
-      "src" = "https://minecraft.curseforge.com/projects/ctm/files/2519601/download";
+      "filename" = "CTM-MC1.12.2-0.3.3.22.jar";
+      "encoded" = "CTM-MC1.12.2-0.3.3.22.jar";
+      "page" = "https://minecraft.curseforge.com/projects/267602/files/2642375";
+      "src" = "https://minecraft.curseforge.com/projects/ctm/files/2642375/download";
       "type" = "remote";
-      "md5" = "f67d95bb874571c2b77517654593b23f";
+      "md5" = "086cd9da4b8c50a9e483c7b580a9c4d8";
     };
     "cucumber" = {
       "title" = "Cucumber Library";
@@ -984,12 +984,12 @@
       "required" = true;
       "default" = true;
       "deps" = ["applied-energistics-2"];
-      "filename" = "ExtraCells-1.12.2-2.5.11a48.jar";
-      "encoded" = "ExtraCells-1.12.2-2.5.11a48.jar";
-      "page" = "https://minecraft.curseforge.com/projects/229218/files/2521550";
-      "src" = "https://minecraft.curseforge.com/projects/extracells2/files/2521550/download";
+      "filename" = "ExtraCells-1.12.2-2.6.2a.jar";
+      "encoded" = "ExtraCells-1.12.2-2.6.2a.jar";
+      "page" = "https://minecraft.curseforge.com/projects/229218/files/2653854";
+      "src" = "https://minecraft.curseforge.com/projects/extracells2/files/2653854/download";
       "type" = "remote";
-      "md5" = "d199003daad50dc2bc47cfbed4c710ec";
+      "md5" = "d289ffbb9f618e524ece8a2c944498e0";
     };
     "extreme-reactors" = {
       "title" = "Extreme Reactors";
@@ -1386,13 +1386,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "jei_1.12.2-4.15.0.277.jar";
+      "filename" = "jei_1.12.2-4.15.0.278.jar";
       "maturity" = "beta";
-      "encoded" = "jei_1.12.2-4.15.0.277.jar";
-      "page" = "https://minecraft.curseforge.com/projects/jei/files/2699252";
-      "src" = "https://minecraft.curseforge.com/projects/jei/files/2699252/download";
+      "encoded" = "jei_1.12.2-4.15.0.278.jar";
+      "page" = "https://minecraft.curseforge.com/projects/jei/files/2702121";
+      "src" = "https://minecraft.curseforge.com/projects/jei/files/2702121/download";
       "type" = "remote";
-      "md5" = "0cd616c7ef53ae32141ffd68d23a0a90";
+      "md5" = "3e777b8d94f7fc902f910e4a6c84fc2b";
     };
     "jei-bees" = {
       "title" = "JEI Bees";
@@ -1495,13 +1495,13 @@
       "required" = false;
       "default" = false;
       "deps" = [];
-      "filename" = "LagGoggles-FORGE-1.12.2-4.1.jar";
+      "filename" = "LagGoggles-FORGE-1.12.2-4.3-HOTFIX.jar";
       "maturity" = "release";
-      "encoded" = "LagGoggles-FORGE-1.12.2-4.1.jar";
-      "page" = "https://minecraft.curseforge.com/projects/laggoggles/files/2536205";
-      "src" = "https://minecraft.curseforge.com/projects/laggoggles/files/2536205/download";
+      "encoded" = "LagGoggles-FORGE-1.12.2-4.3-HOTFIX.jar";
+      "page" = "https://minecraft.curseforge.com/projects/laggoggles/files/2702823";
+      "src" = "https://minecraft.curseforge.com/projects/laggoggles/files/2702823/download";
       "type" = "remote";
-      "md5" = "508e3da28e01551d9e140eaf033c18af";
+      "md5" = "15b08bf027a155650e550cf1073e12fd";
     };
     "lapis-stays-in-the-enchanting-table" = {
       "title" = "Lapis Stays in the Enchanting Table";
@@ -2221,12 +2221,12 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "SilentLib-1.12-2.2.16-97.jar";
-      "encoded" = "SilentLib-1.12-2.2.16-97.jar";
-      "page" = "https://minecraft.curseforge.com/projects/242998/files/2511191";
-      "src" = "https://minecraft.curseforge.com/projects/silent-lib/files/2511191/download";
+      "filename" = "SilentLib-1.12.2-3.0.13+167.jar";
+      "encoded" = "SilentLib-1.12.2-3.0.13%2B167.jar";
+      "page" = "https://minecraft.curseforge.com/projects/242998/files/2675924";
+      "src" = "https://minecraft.curseforge.com/projects/silent-lib/files/2675924/download";
       "type" = "remote";
-      "md5" = "658c555c075cc137fbc4d533885b01b7";
+      "md5" = "226e4977e83fec1fd88963ce7a98fb16";
     };
     "silents-gems" = {
       "title" = "Silent's Gems";
@@ -2236,12 +2236,12 @@
       "required" = true;
       "default" = true;
       "deps" = ["silent-lib"];
-      "filename" = "SilentsGems-1.12-2.6.9b-265.jar";
-      "encoded" = "SilentsGems-1.12-2.6.9b-265.jar";
-      "page" = "https://minecraft.curseforge.com/projects/220311/files/2536401";
-      "src" = "https://minecraft.curseforge.com/projects/silents-gems/files/2536401/download";
+      "filename" = "SilentsGems-1.12.2-2.8.17+319.jar";
+      "encoded" = "SilentsGems-1.12.2-2.8.17%2B319.jar";
+      "page" = "https://minecraft.curseforge.com/projects/220311/files/2703594";
+      "src" = "https://minecraft.curseforge.com/projects/silents-gems/files/2703594/download";
       "type" = "remote";
-      "md5" = "f2ead3e0cfc5b77056a1e63c6c5cd7d6";
+      "md5" = "30d1a7cde6594251064dc99eb09437e4";
     };
     "simpleharvest" = {
       "title" = "SimpleHarvest";
