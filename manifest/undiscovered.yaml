@@ -933,12 +933,12 @@ mods:
   id: 241721
   title: "Astral Sorcery"
   files:
-  - name: "astralsorcery-1.12.2-1.8.5.jar"
-    id: 2523583
+  - name: "astralsorcery-1.12.2-1.10.17.jar"
+    id: 2701235
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/241721/files/2523583"
-    src: "https://minecraft.curseforge.com/projects/astral-sorcery/files/2523583/download"
-    md5: "02b34f756360bc768f4f405d3e16b361"
+    filePageUrl: "https://minecraft.curseforge.com/projects/241721/files/2701235"
+    src: "https://minecraft.curseforge.com/projects/astral-sorcery/files/2701235/download"
+    md5: "71b89c9d39f8f4db4c48909f3dc4ba46"
   side: "both"
   deps:
   - "baubles"
@@ -1121,12 +1121,12 @@ mods:
   id: 225561
   title: "Extra Utilities"
   files:
-  - name: "extrautils2-1.12-1.7.4.jar"
-    id: 2531075
+  - name: "extrautils2-1.12-1.9.9.jar"
+    id: 2678374
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/225561/files/2531075"
-    src: "https://minecraft.curseforge.com/projects/extra-utilities/files/2531075/download"
-    md5: "c5d9e3ecfd76a1f72f2585566079687d"
+    filePageUrl: "https://minecraft.curseforge.com/projects/225561/files/2678374"
+    src: "https://minecraft.curseforge.com/projects/extra-utilities/files/2678374/download"
+    md5: "1ea591619e6d5204bf077214868772ef"
   side: "both"
   deps: []
   required: true

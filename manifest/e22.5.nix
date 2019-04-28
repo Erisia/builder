@@ -118,12 +118,12 @@
       "required" = true;
       "default" = true;
       "deps" = ["baubles"];
-      "filename" = "astralsorcery-1.12.2-1.8.5.jar";
-      "encoded" = "astralsorcery-1.12.2-1.8.5.jar";
-      "page" = "https://minecraft.curseforge.com/projects/241721/files/2523583";
-      "src" = "https://minecraft.curseforge.com/projects/astral-sorcery/files/2523583/download";
+      "filename" = "astralsorcery-1.12.2-1.10.17.jar";
+      "encoded" = "astralsorcery-1.12.2-1.10.17.jar";
+      "page" = "https://minecraft.curseforge.com/projects/241721/files/2701235";
+      "src" = "https://minecraft.curseforge.com/projects/astral-sorcery/files/2701235/download";
       "type" = "remote";
-      "md5" = "02b34f756360bc768f4f405d3e16b361";
+      "md5" = "71b89c9d39f8f4db4c48909f3dc4ba46";
     };
     "autoreglib" = {
       "title" = "AutoRegLib";
@@ -969,12 +969,12 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "extrautils2-1.12-1.7.4.jar";
-      "encoded" = "extrautils2-1.12-1.7.4.jar";
-      "page" = "https://minecraft.curseforge.com/projects/225561/files/2531075";
-      "src" = "https://minecraft.curseforge.com/projects/extra-utilities/files/2531075/download";
+      "filename" = "extrautils2-1.12-1.9.9.jar";
+      "encoded" = "extrautils2-1.12-1.9.9.jar";
+      "page" = "https://minecraft.curseforge.com/projects/225561/files/2678374";
+      "src" = "https://minecraft.curseforge.com/projects/extra-utilities/files/2678374/download";
       "type" = "remote";
-      "md5" = "c5d9e3ecfd76a1f72f2585566079687d";
+      "md5" = "1ea591619e6d5204bf077214868772ef";
     };
     "extracells2" = {
       "title" = "ExtraCells2";
