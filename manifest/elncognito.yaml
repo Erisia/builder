@@ -108,6 +108,7 @@ mods:
 - name: "inventory-tweaks"
   required: false
 - name: "minetweaker3"
+- name: "chickenchunks"
 
 imports:
 - "tools-elncognito.yaml"

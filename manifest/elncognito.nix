@@ -320,6 +320,22 @@
       "deps" = [];
       "type" = "missing";
     };
+    "chickenchunks" = {
+      "title" = "ChickenChunks";
+      "name" = "chickenchunks";
+      "id" = 229316;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["codechickencore"];
+      "filename" = "ChickenChunks-1.7.10-1.3.4.19-universal.jar";
+      "maturity" = "release";
+      "encoded" = "ChickenChunks-1.7.10-1.3.4.19-universal.jar";
+      "page" = "https://minecraft.curseforge.com/projects/chickenchunks/files/2233250";
+      "src" = "https://minecraft.curseforge.com/projects/chickenchunks/files/2233250/download";
+      "type" = "remote";
+      "md5" = "5592eda79bd2b52adf1d4bdceaa59b73";
+    };
     "chisel" = {
       "title" = "Chisel";
       "name" = "chisel";
@@ -453,7 +469,13 @@
       "required" = false;
       "default" = true;
       "deps" = [];
-      "type" = "missing";
+      "filename" = "[1.7.10]DamageIndicatorsMod-3.3.2.jar";
+      "maturity" = "release";
+      "encoded" = "%5B1.7.10%5DDamageIndicatorsMod-3.3.2.jar";
+      "page" = "https://minecraft.curseforge.com/projects/damage-indicators-mod/files/2692129";
+      "src" = "https://minecraft.curseforge.com/projects/damage-indicators-mod/files/2692129/download";
+      "type" = "remote";
+      "md5" = "977ecf787685d114ace82f498552dd36";
     };
     "darkcore" = {
       "title" = "Darkcore";
@@ -640,16 +662,6 @@
       "src" = "https://minecraft.curseforge.com/projects/extra-utilities/files/2264383/download";
       "type" = "remote";
       "md5" = "0b1848ece3f6e1370e6caa8124c1480d";
-    };
-    "fabric" = {
-      "title" = "Fabric (API)";
-      "name" = "fabric";
-      "id" = 306612;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "type" = "missing";
     };
     "farseek" = {
       "title" = "Farseek";
@@ -1465,7 +1477,7 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["fabric"];
+      "deps" = [];
       "filename" = "TIS-3D-MC1.7.10-1.4.0.78.jar";
       "maturity" = "release";
       "encoded" = "TIS-3D-MC1.7.10-1.4.0.78.jar";
