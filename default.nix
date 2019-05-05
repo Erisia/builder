@@ -60,6 +60,7 @@ rec {
     ];
     extraServerDirs = [
       ./base/server
+      ./base/e22.5
     ];
     extraClientDirs = [
       resources_12
