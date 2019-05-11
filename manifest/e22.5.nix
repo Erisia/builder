@@ -797,6 +797,22 @@
       "type" = "remote";
       "md5" = "27342535d5f14279edb725a19bc5a4ca";
     };
+    "devotion-irc" = {
+      "title" = "Devotion IRC";
+      "name" = "devotion-irc";
+      "id" = 266510;
+      "side" = "server";
+      "required" = false;
+      "default" = true;
+      "deps" = [];
+      "filename" = "eirairc-mc1.12.2-5.0.5.jar";
+      "maturity" = "release";
+      "encoded" = "eirairc-mc1.12.2-5.0.5.jar";
+      "page" = "https://minecraft.curseforge.com/projects/devotion-irc/files/2529604";
+      "src" = "https://minecraft.curseforge.com/projects/devotion-irc/files/2529604/download";
+      "type" = "remote";
+      "md5" = "b6cdc93a347311f2aecccc744913f52d";
+    };
     "diet-hoppers" = {
       "title" = "Diet Hoppers";
       "name" = "diet-hoppers";
@@ -1354,13 +1370,14 @@
       "required" = true;
       "default" = true;
       "deps" = ["wrapup"];
-      "filename" = "JAOPCA-1.12.2-2.2.8.102.jar";
+      "filename" = "JAOPCA-1.12.2-2.2.8.101.jar";
       "maturity" = "release";
-      "encoded" = "JAOPCA-1.12.2-2.2.8.102.jar";
-      "page" = "https://minecraft.curseforge.com/projects/jaopca/files/2708834";
-      "src" = "https://minecraft.curseforge.com/projects/jaopca/files/2708834/download";
+      "encoded" = "JAOPCA-1.12.2-2.2.8.101.jar";
+      "page" = "https://minecraft.curseforge.com/projects/jaopca/files/2695109";
+      "src" = "https://minecraft.curseforge.com/projects/jaopca/files/2695109/download";
       "type" = "remote";
-      "md5" = "a3a3acede18f1aa810f5ef6bd3f84d5d";
+      "md5" = "6d98989e27b03093778bd1f053992297";
+
     };
     "jei" = {
       "title" = "Just Enough Items (JEI)";
@@ -2456,22 +2473,6 @@
       "src" = "https://minecraft.curseforge.com/projects/thermalexpansion/files/2669257/download";
       "type" = "remote";
       "md5" = "3007785edb021cedf51610119066d23a";
-    };
-    "thump" = {
-      "title" = "Thump";
-      "name" = "thump";
-      "id" = 231124;
-      "side" = "both";
-      "required" = false;
-      "default" = true;
-      "deps" = [];
-      "filename" = "Thump-1.12-4.7.0.2.jar";
-      "maturity" = "beta";
-      "encoded" = "Thump-1.12-4.7.0.2.jar";
-      "page" = "https://minecraft.curseforge.com/projects/thump/files/2434680";
-      "src" = "https://minecraft.curseforge.com/projects/thump/files/2434680/download";
-      "type" = "remote";
-      "md5" = "739c824cf4158d16ab7610921e8ee35d";
     };
     "tickprofiler" = {
       "title" = "TickProfiler";

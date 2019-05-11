@@ -108,8 +108,11 @@ mods:
   required: false
   default: false
 # IRC
-- name: "thump"
+#- name: "thump"
+#  required: false
+- name: "devotion-irc"
   required: false
+  side: "server"
 - name: "vanillafix"
   side: "client"
   required: false
