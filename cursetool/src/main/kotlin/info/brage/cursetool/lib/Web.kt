@@ -154,7 +154,7 @@ object Browser {
  * Represents the Curse website itself.
  */
 object Curse {
-    private val site = "https://minecraft.curseforge.com"
+    private val site = "https://www.curseforge.com/minecraft"
 
     /**
      * Fills in mod-info from Curse.
@@ -163,7 +163,7 @@ object Curse {
         if (!info.curse) return info
 
         check(info.name != null || info.id != null)
-        val modUrl = "${site}/projects/${info.name ?: info.id.toString()}"
+        val modUrl = "${site}/mc-mods/${info.name ?: info.id.toString()}"
         val soup = async(CommonPool) { Browser.soup(modUrl) }
         val error = { "Failed to parse ${info.name}, at $modUrl" }
         val name = async(CommonPool) {
@@ -224,7 +224,7 @@ object Curse {
                     }
         }
         val deps = async(CommonPool) {
-            val depsUrl = "$site/projects/${name.await()}/relations/dependencies?filter-related-dependencies=3"
+            val depsUrl = "$site/mc-mods/${name.await()}/relations/dependencies?filter-related-dependencies=3"
             Browser.soup(depsUrl)
                     .getElementsByClass("project-list-item")
                     .map {
@@ -274,7 +274,7 @@ object Curse {
     }
 
     suspend fun getFileInfo(projectID: Int, fileId: Int): FileInfo {
-        val projectUrl = Browser.getRedirect("${site}/projects/${projectID}")
+        val projectUrl = Browser.getRedirect("${site}/mc-mods/${projectID}")
         val url = "${projectUrl}/files/${fileId}"
 	try {
           val page = Browser.soup(url)
