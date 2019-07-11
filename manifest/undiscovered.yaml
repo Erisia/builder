@@ -80,7 +80,7 @@ mods:
   - name: "Baubles-1.12-1.5.2.jar"
     id: 2518667
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/227083/files/2518667"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/baubles/files/2518667"
     src: "https://minecraft.curseforge.com/projects/baubles/files/2518667/download"
     md5: "944dec4ef3fbfd4d498d94a7047af201"
   side: "both"
@@ -221,7 +221,7 @@ mods:
   - name: "DarkUtils-1.12.2-1.8.195.jar"
     id: 2535632
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/242195/files/2535632"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/dark-utilities/files/2535632"
     src: "https://minecraft.curseforge.com/projects/dark-utilities/files/2535632/download"
     md5: "5825f31428443daeae47b0968e1bf2e3"
   side: "both"
@@ -446,7 +446,7 @@ mods:
   - name: "journeymap-1.12.2-5.5.2.jar"
     id: 2498312
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/32274/files/2498312"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/journeymap/files/2498312"
     src: "https://minecraft.curseforge.com/projects/journeymap/files/2498312/download"
     md5: "b743562dac1b5334c20ac87b54c0b518"
   side: "both"
@@ -589,16 +589,16 @@ mods:
   default: true
   curse: true
 - name: "psi"
+  side: "both"
   id: 241665
   title: "Psi"
   files:
   - name: "Psi-r1.1-59.jar"
     id: 2499167
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/241665/files/2499167"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/psi/files/2499167"
     src: "https://minecraft.curseforge.com/projects/psi/files/2499167/download"
     md5: "92aec994592bfcad6f09c810a2e9efb8"
-  side: "both"
   deps:
   - "autoreglib"
   required: true
@@ -734,7 +734,7 @@ mods:
   - name: "StevesCarts-1.12.2-2.4.18.92.jar"
     id: 2539158
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/253462/files/2539158"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/steves-carts-reborn/files/2539158"
     src: "https://minecraft.curseforge.com/projects/steves-carts-reborn/files/2539158/download"
     md5: "1f288760d92aced1dc7eb89497d68b61"
   side: "both"
@@ -982,7 +982,7 @@ mods:
   - name: "moreoverlays-1.13-mc1.12.1.jar"
     id: 2495438
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/243478/files/2495438"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/more-overlays/files/2495438"
     src: "https://minecraft.curseforge.com/projects/more-overlays/files/2495438/download"
     md5: "3cc08d8c99db412c904389bce6e12cd3"
   side: "both"
@@ -1074,7 +1074,7 @@ mods:
   - name: "Chisel-MC1.12.2-0.2.0.31.jar"
     id: 2535884
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/235279/files/2535884"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/chisel/files/2535884"
     src: "https://minecraft.curseforge.com/projects/chisel/files/2535884/download"
     md5: "853c56bd014423e424ecef6db2c1efb1"
   side: "both"
@@ -1424,7 +1424,7 @@ mods:
   - name: "MekanismGenerators-1.12.2-9.4.10.345.jar"
     id: 2558685
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/268566/files/2558685"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/mekanism-generators/files/2558685"
     src: "https://minecraft.curseforge.com/projects/mekanism-generators/files/2558685/download"
     md5: "c974a8f81f98b51113f6a663fcd40ba9"
   side: "both"
@@ -1546,7 +1546,7 @@ mods:
   - name: "BetterQuesting-2.5.236.jar"
     id: 2467353
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/238856/files/2467353"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/better-questing/files/2467353"
     src: "https://minecraft.curseforge.com/projects/better-questing/files/2467353/download"
     md5: "1c215f7592e4eedb860d87ce467fbf58"
   side: "both"
@@ -1561,7 +1561,7 @@ mods:
   - name: "StandardExpansion-2.4.134.jar"
     id: 2467361
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/238857/files/2467361"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/better-questing-standard-expansion/files/2467361"
     src: "https://minecraft.curseforge.com/projects/better-questing-standard-expansion/files/2467361/download"
     md5: "2332f867004d5d337d44d4e3c79fbd77"
   side: "both"
@@ -1622,7 +1622,7 @@ mods:
   - name: "Mekanism-1.12.2-9.4.10.345.jar"
     id: 2558683
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/268560/files/2558683"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/mekanism/files/2558683"
     src: "https://minecraft.curseforge.com/projects/mekanism/files/2558683/download"
     md5: "238e100a61f60c9d4f3293d337c541c3"
   side: "both"

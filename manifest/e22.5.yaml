@@ -107,6 +107,10 @@ mods:
 - name: "laggoggles"
   required: false
   default: false
+- name: "scannable"
+- name: "ore-excavation"
+- name: "effortless-building"
+- name: "grappling-hook-mod"
 # IRC
 #- name: "thump"
 #  required: false
