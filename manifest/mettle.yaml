@@ -8,8 +8,7 @@ mods:
   - name: "eirairc-mc1.12.2-5.0.5.jar"
     id: 2529604
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/266510/files/2529604"
-    src: "https://minecraft.curseforge.com/projects/waystones/files/2529604/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/devotion-irc/files/2529604"
     md5: "b6cdc93a347311f2aecccc744913f52d"
   side: "both"
   deps: []
@@ -23,8 +22,7 @@ mods:
   - name: "notenoughroofs-1.12.2-0.8.0.1.jar"
     id: 2720847
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/290421/files/2720847"
-    src: "https://minecraft.curseforge.com/projects/not-enough-roofs/files/2720847/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/not-enough-roofs/files/2720847"
     md5: "b235135e200d5f3bd566858c93c3538b"
   side: "both"
   deps: []
@@ -38,8 +36,7 @@ mods:
   - name: "Botania r1.10-361.jar"
     id: 2698039
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/225643/files/2698039"
-    src: "https://minecraft.curseforge.com/projects/botania/files/2698039/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/botania/files/2698039"
     md5: "0bf110280f77f3dd5ac2ccd4fb839d6a"
   side: "both"
   deps:
@@ -54,8 +51,7 @@ mods:
   - name: "Waystones_1.12.2-4.0.67.jar"
     id: 2624701
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/245755/files/2624701"
-    src: "https://minecraft.curseforge.com/projects/waystones/files/2624701/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/waystones/files/2624701"
     md5: "c0e79051072dcc3aacad71be1f31f7c4"
   side: "both"
   deps: []
@@ -69,8 +65,7 @@ mods:
   - name: "mysticallib-1.12.2-1.2.1.jar"
     id: 2716711
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/277064/files/2716711"
-    src: "https://minecraft.curseforge.com/projects/mysticallib/files/2716711/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/mysticallib/files/2716711"
     md5: "f48f542cbc8a01daa7a295129e528be3"
   side: "both"
   deps: []
@@ -84,8 +79,7 @@ mods:
   - name: "Ding-1.12.1-1.0.1.jar"
     id: 2476271
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/231275/files/2476271"
-    src: "https://minecraft.curseforge.com/projects/ding/files/2476271/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/ding/files/2476271"
     md5: "5b15173c1a4d3a48afa382857a1c0faa"
   side: "both"
   deps: []
@@ -99,8 +93,7 @@ mods:
   - name: "IntegratedTunnels-1.12.2-1.6.9.jar"
     id: 2718592
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/251389/files/2718592"
-    src: "https://minecraft.curseforge.com/projects/integrated-tunnels/files/2718592/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/integrated-tunnels/files/2718592"
     md5: "508d17fa8a95525fe1355f8f1a83cc55"
   side: "both"
   deps:
@@ -116,8 +109,7 @@ mods:
   - name: "noRecipeBook_v1.2.2formc1.12.2.jar"
     id: 2568865
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/284904/files/2568865"
-    src: "https://minecraft.curseforge.com/projects/no-recipe-book/files/2568865/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/no-recipe-book/files/2568865"
     md5: "c4fa33c05a45db33c5dd0fa6bec82c61"
   side: "both"
   deps: []
@@ -131,8 +123,7 @@ mods:
   - name: "jeiintegration_1.12.2-1.5.1.36.jar"
     id: 2491927
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/265917/files/2491927"
-    src: "https://minecraft.curseforge.com/projects/jei-integration/files/2491927/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/jei-integration/files/2491927"
     md5: "de73cdc5de95a2685e50d90f01c03a50"
   side: "both"
   deps:
@@ -147,8 +138,7 @@ mods:
   - name: "ThaumicInventoryScanning_1.12.2-2.0.10.jar"
     id: 2559089
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/238003/files/2559089"
-    src: "https://minecraft.curseforge.com/projects/thaumcraft-inventory-scanning/files/2559089/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/thaumcraft-inventory-scanning/files/2559089"
     md5: "06a0c80b784a340e1f9a91e104edb644"
   side: "both"
   deps:
@@ -163,8 +153,7 @@ mods:
   - name: "Apotheosis-1.12.2-1.10.2.jar"
     id: 2716536
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/313970/files/2716536"
-    src: "https://minecraft.curseforge.com/projects/apotheosis/files/2716536/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/apotheosis/files/2716536"
     md5: "2468e5ea1766cace2cc86ce7cc55a999"
   side: "both"
   deps:
@@ -179,8 +168,7 @@ mods:
   - name: "NoFov-MC1.12-1.0.1.jar"
     id: 2432421
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/227965/files/2432421"
-    src: "https://minecraft.curseforge.com/projects/nofov/files/2432421/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/nofov/files/2432421"
     md5: "f97c4fbf422b513b0103eedca7a31a0e"
   side: "both"
   deps: []
@@ -194,8 +182,7 @@ mods:
   - name: "DynamicTreesTC-1.12.2-1.4.1e.jar"
     id: 2650353
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/292752/files/2650353"
-    src: "https://minecraft.curseforge.com/projects/dttc/files/2650353/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/dttc/files/2650353"
     md5: "bd74494da3d140867482d4b4550151f5"
   side: "both"
   deps:
@@ -211,8 +198,7 @@ mods:
   - name: "FTBQuests-1.6.1.161.jar"
     id: 2727720
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/289412/files/2727720"
-    src: "https://minecraft.curseforge.com/projects/ftb-quests/files/2727720/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/ftb-quests/files/2727720"
     md5: "1add49440c22b7fde5a96d5d04e9346d"
   side: "both"
   deps:
@@ -228,8 +214,7 @@ mods:
   - name: "WitherSkeletonTweaks-1.12.2-2.6.3.jar"
     id: 2661187
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/255902/files/2661187"
-    src: "https://minecraft.curseforge.com/projects/wither-skeleton-tweaks/files/2661187/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/wither-skeleton-tweaks/files/2661187"
     md5: "fc9704894e659cb46798a195136387d9"
   side: "both"
   deps:
@@ -244,8 +229,7 @@ mods:
   - name: "TechReborn-1.12.2-2.21.2.960-universal.jar"
     id: 2688490
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/233564/files/2688490"
-    src: "https://minecraft.curseforge.com/projects/techreborn/files/2688490/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/techreborn/files/2688490"
     md5: "ca557133fb7b60e6108f367ad1c9c653"
   side: "both"
   deps:
@@ -260,8 +244,7 @@ mods:
   - name: "rftools-1.12-7.71.jar"
     id: 2707388
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/224641/files/2707388"
-    src: "https://minecraft.curseforge.com/projects/rftools/files/2707388/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/rftools/files/2707388"
     md5: "ef83816ac55bb6df097e390213f72652"
   side: "both"
   deps:
@@ -276,8 +259,7 @@ mods:
   - name: "bdlib-1.14.3.12-mc1.12.2.jar"
     id: 2518031
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/70496/files/2518031"
-    src: "https://minecraft.curseforge.com/projects/bdlib/files/2518031/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/bdlib/files/2518031"
     md5: "d2b8ba08414ac12737eb5ecbf92a19d9"
   side: "both"
   deps: []
@@ -291,8 +273,7 @@ mods:
   - name: "dropt-1.12.2-1.15.0.jar"
     id: 2726381
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/284973/files/2726381"
-    src: "https://minecraft.curseforge.com/projects/dropt/files/2726381/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/dropt/files/2726381"
     md5: "844b8de4630945ca565b9ca29cb08e80"
   side: "both"
   deps:
@@ -307,8 +288,7 @@ mods:
   - name: "base-1.12.2-3.13.0.jar"
     id: 2722575
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/246996/files/2722575"
-    src: "https://minecraft.curseforge.com/projects/base/files/2722575/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/base/files/2722575"
     md5: "caae1ceb2cbcdc7bd7a6acf078788faf"
   side: "both"
   deps: []
@@ -322,8 +302,7 @@ mods:
   - name: "CommonCapabilities-1.12.2-2.4.1.jar"
     id: 2716477
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/247007/files/2716477"
-    src: "https://minecraft.curseforge.com/projects/common-capabilities/files/2716477/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/common-capabilities/files/2716477"
     md5: "db8f9146d19ba3354f93655d01f1788d"
   side: "both"
   deps:
@@ -338,8 +317,7 @@ mods:
   - name: "AutoRegLib-1.3-30.jar"
     id: 2715657
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/250363/files/2715657"
-    src: "https://minecraft.curseforge.com/projects/autoreglib/files/2715657/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/autoreglib/files/2715657"
     md5: "258f95bdbe57ab68bea2405a2bcb713a"
   side: "both"
   deps: []
@@ -353,8 +331,7 @@ mods:
   - name: "CraftTweaker2-1.12-4.1.19.jar"
     id: 2724129
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/239197/files/2724129"
-    src: "https://minecraft.curseforge.com/projects/crafttweaker/files/2724129/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/crafttweaker/files/2724129"
     md5: "513ae1c980c23ef7be081ad151618320"
   side: "both"
   deps: []
@@ -368,8 +345,7 @@ mods:
   - name: "platforms-1.12.0-1.4.6.jar"
     id: 2616061
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/244786/files/2616061"
-    src: "https://minecraft.curseforge.com/projects/platforms/files/2616061/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/platforms/files/2616061"
     md5: "275771862b695668c709396e5338c4b8"
   side: "both"
   deps:
@@ -384,8 +360,7 @@ mods:
   - name: "immersivepetroleum-1.12.2-1.1.9.jar"
     id: 2544919
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/268250/files/2544919"
-    src: "https://minecraft.curseforge.com/projects/immersive-petroleum/files/2544919/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/immersive-petroleum/files/2544919"
     md5: "57ba127778e579d10d705f9f8359d2e0"
   side: "both"
   deps:
@@ -400,8 +375,7 @@ mods:
   - name: "Controlling-3.0.6.jar"
     id: 2522248
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/250398/files/2522248"
-    src: "https://minecraft.curseforge.com/projects/controlling/files/2522248/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/controlling/files/2522248"
     md5: "0d9a0429c72bc1c06358f1166bdd8c59"
   side: "both"
   deps: []
@@ -415,8 +389,7 @@ mods:
   - name: "StorageDrawersExtras-1.12-3.1.0.jar"
     id: 2443623
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/254879/files/2443623"
-    src: "https://minecraft.curseforge.com/projects/storage-drawers-extras/files/2443623/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/storage-drawers-extras/files/2443623"
     md5: "972063ce9ceb8df9af49e73858e557fa"
   side: "both"
   deps:
@@ -432,8 +405,7 @@ mods:
   - name: "EnchantmentDescriptions-1.12.2-1.1.15.jar"
     id: 2689502
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/250419/files/2689502"
-    src: "https://minecraft.curseforge.com/projects/enchantment-descriptions/files/2689502/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions/files/2689502"
     md5: "ff5d71e5f96ffb1ef1f996af48da2c6c"
   side: "both"
   deps: []
@@ -447,8 +419,7 @@ mods:
   - name: "CD4017BE_lib-1.12.2-6.4.5.jar"
     id: 2726048
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/229208/files/2726048"
-    src: "https://minecraft.curseforge.com/projects/cd4017be-library/files/2726048/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/cd4017be-library/files/2726048"
     md5: "6960cbef6fbca9c60484a3282df9e75b"
   side: "both"
   deps: []
@@ -462,8 +433,7 @@ mods:
   - name: "Thaumcraft-1.12.2-6.1.BETA26.jar"
     id: 2629023
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/223628/files/2629023"
-    src: "https://minecraft.curseforge.com/projects/thaumcraft/files/2629023/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/thaumcraft/files/2629023"
     md5: "3b13783ccaafb5d5b9ce8cb85e87fff6"
   side: "both"
   deps:
@@ -478,8 +448,7 @@ mods:
   - name: "PrettyBeaches_1.12.2-1.0.4.jar"
     id: 2620514
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/290659/files/2620514"
-    src: "https://minecraft.curseforge.com/projects/pretty-beaches/files/2620514/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/pretty-beaches/files/2620514"
     md5: "6b97b044dbe5dc9ed96ed55b1cd24e9d"
   side: "both"
   deps: []
@@ -493,8 +462,7 @@ mods:
   - name: "shetiphiancore-1.12.0-3.5.9.jar"
     id: 2661618
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/71738/files/2661618"
-    src: "https://minecraft.curseforge.com/projects/shetiphiancore/files/2661618/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/shetiphiancore/files/2661618"
     md5: "0b44614578a9b52f1b5a75e312fdcf23"
   side: "both"
   deps: []
@@ -508,8 +476,7 @@ mods:
   - name: "diethopper-1.1.jar"
     id: 2482543
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/278385/files/2482543"
-    src: "https://minecraft.curseforge.com/projects/diet-hoppers/files/2482543/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/diet-hoppers/files/2482543"
     md5: "1d616cb7b25de3ae44f06e26d18bd07e"
   side: "both"
   deps: []
@@ -523,8 +490,7 @@ mods:
   - name: "topaddons-1.12.2-1.10.1.jar"
     id: 2642149
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/247111/files/2642149"
-    src: "https://minecraft.curseforge.com/projects/top-addons/files/2642149/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/top-addons/files/2642149"
     md5: "3d03fbf48de38837244144afec54ec47"
   side: "both"
   deps:
@@ -539,8 +505,7 @@ mods:
   - name: "RedstoneArsenal-1.12.2-2.6.3.18-universal.jar"
     id: 2715786
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/70631/files/2715786"
-    src: "https://minecraft.curseforge.com/projects/redstone-arsenal/files/2715786/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/redstone-arsenal/files/2715786"
     md5: "3bbe81cebe761061b8d16f6c981e30b4"
   side: "both"
   deps:
@@ -555,8 +520,7 @@ mods:
   - name: "ContentTweaker-1.12.2-4.9.1.jar"
     id: 2652853
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/237065/files/2652853"
-    src: "https://minecraft.curseforge.com/projects/contenttweaker/files/2652853/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/contenttweaker/files/2652853"
     md5: "a36b092d9ed0900b7143f4a14a12fba8"
   side: "both"
   deps:
@@ -572,8 +536,7 @@ mods:
   - name: "ItemFilters-1.0.3.12.jar"
     id: 2699980
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/309674/files/2699980"
-    src: "https://minecraft.curseforge.com/projects/item-filters/files/2699980/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/item-filters/files/2699980"
     md5: "9d15a21d3f89354c9611f81215b66eb1"
   side: "both"
   deps: []
@@ -587,8 +550,7 @@ mods:
   - name: "CookingForBlockheads_1.12.2-6.4.70.jar"
     id: 2696150
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/231484/files/2696150"
-    src: "https://minecraft.curseforge.com/projects/cooking-for-blockheads/files/2696150/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/cooking-for-blockheads/files/2696150"
     md5: "942d63804263b04516eb49ddba125e59"
   side: "both"
   deps: []
@@ -602,8 +564,7 @@ mods:
   - name: "thaumicenergistics-2.2.2.jar"
     id: 2705585
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/223666/files/2705585"
-    src: "https://minecraft.curseforge.com/projects/thaumic-energistics/files/2705585/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/thaumic-energistics/files/2705585"
     md5: "49fda2565d2d0b7ab44a8d0184920d33"
   side: "both"
   deps:
@@ -619,8 +580,7 @@ mods:
   - name: "Mystical Mechanics-0.10.jar"
     id: 2723313
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/300742/files/2723313"
-    src: "https://minecraft.curseforge.com/projects/mysticalmechanics/files/2723313/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/mysticalmechanics/files/2723313"
     md5: "12f2a257e36c97df44b9eda8d5dc2a9f"
   side: "both"
   deps: []
@@ -634,8 +594,7 @@ mods:
   - name: "BloodMagic-1.12.2-2.4.1-103.jar"
     id: 2713291
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/224791/files/2713291"
-    src: "https://minecraft.curseforge.com/projects/blood-magic/files/2713291/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/blood-magic/files/2713291"
     md5: "7c8f42c7b20770097dcc961c72787f94"
   side: "both"
   deps: []
@@ -649,8 +608,7 @@ mods:
   - name: "JustEnoughEnergistics-1.12.2-1.0.7.jar"
     id: 2726897
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/310812/files/2726897"
-    src: "https://minecraft.curseforge.com/projects/just-enough-energistics-jee/files/2726897/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/just-enough-energistics-jee/files/2726897"
     md5: "d4e3b8bad7e42e1d0baed63dd32538af"
   side: "both"
   deps:
@@ -666,8 +624,7 @@ mods:
   - name: "EnchantingTable-1.12-1.1.3.jar"
     id: 2553810
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/263905/files/2553810"
-    src: "https://minecraft.curseforge.com/projects/lapis-stays-in-the-enchanting-table/files/2553810/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/lapis-stays-in-the-enchanting-table/files/2553810"
     md5: "fbfd70a18d887fd9bc08dd25ff91d61a"
   side: "both"
   deps: []
@@ -681,8 +638,7 @@ mods:
   - name: "IronBackpacks-1.12.2-3.0.8-12.jar"
     id: 2564573
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/227049/files/2564573"
-    src: "https://minecraft.curseforge.com/projects/iron-backpacks/files/2564573/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/iron-backpacks/files/2564573"
     md5: "9fd50b1827b711704c69789aa94ac2ca"
   side: "both"
   deps: []
@@ -696,8 +652,7 @@ mods:
   - name: "jei_1.12.2-4.15.0.281.jar"
     id: 2724420
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/238222/files/2724420"
-    src: "https://minecraft.curseforge.com/projects/jei/files/2724420/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/jei/files/2724420"
     md5: "6885a6000720917fccdce83aa48e9f5e"
   side: "both"
   deps: []
@@ -711,8 +666,7 @@ mods:
   - name: "EmbersRekindled-1.13-hotfix2.jar"
     id: 2697221
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/300777/files/2697221"
-    src: "https://minecraft.curseforge.com/projects/embers-rekindled/files/2697221/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/embers-rekindled/files/2697221"
     md5: "4710702cd0ad48461b15c169589d3dbc"
   side: "both"
   deps: []
@@ -726,8 +680,7 @@ mods:
   - name: "HardcoreDarkness-MC1.12.2-2.0.jar"
     id: 2499443
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/225957/files/2499443"
-    src: "https://minecraft.curseforge.com/projects/hardcore-darkness/files/2499443/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/hardcore-darkness/files/2499443"
     md5: "f4bdcba26a2f6d3dff66856e47ebbecc"
   side: "both"
   deps: []
@@ -741,8 +694,7 @@ mods:
   - name: "Baubles-1.12-1.5.2.jar"
     id: 2518667
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/227083/files/2518667"
-    src: "https://minecraft.curseforge.com/projects/baubles/files/2518667/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/baubles/files/2518667"
     md5: "944dec4ef3fbfd4d498d94a7047af201"
   side: "both"
   deps: []
@@ -756,8 +708,7 @@ mods:
   - name: "SereneSeasons-1.12.2-1.2.16-universal.jar"
     id: 2710586
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/291874/files/2710586"
-    src: "https://minecraft.curseforge.com/projects/serene-seasons/files/2710586/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/serene-seasons/files/2710586"
     md5: "5095c0fe6b3f941417cf0fd62da15719"
   side: "both"
   deps: []
@@ -771,8 +722,7 @@ mods:
   - name: "rustic-1.1.0.jar"
     id: 2670073
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/256141/files/2670073"
-    src: "https://minecraft.curseforge.com/projects/rustic/files/2670073/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/rustic/files/2670073"
     md5: "06fc80e3f9ab85e988ccd725a3ab74af"
   side: "both"
   deps: []
@@ -786,8 +736,7 @@ mods:
   - name: "foamfix-0.10.5-1.12.2.jar"
     id: 2695388
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/278494/files/2695388"
-    src: "https://minecraft.curseforge.com/projects/foamfix-for-minecraft/files/2695388/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/foamfix-for-minecraft/files/2695388"
     md5: "ec2829750206833af9ee098c5ddb8e32"
   side: "both"
   deps: []
@@ -801,8 +750,7 @@ mods:
   - name: "FTBLib-5.4.3.117.jar"
     id: 2726535
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/237167/files/2726535"
-    src: "https://minecraft.curseforge.com/projects/ftblib/files/2726535/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/ftblib/files/2726535"
     md5: "ef226689ca15a8cf1eb667270800c4ef"
   side: "both"
   deps: []
@@ -825,8 +773,7 @@ mods:
   - name: "AkashicTome-1.2-12.jar"
     id: 2648656
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/250577/files/2648656"
-    src: "https://minecraft.curseforge.com/projects/akashic-tome/files/2648656/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/akashic-tome/files/2648656"
     md5: "b753c7ce93ad8768e3ba3a9f35d16bee"
   side: "both"
   deps:
@@ -843,8 +790,7 @@ mods:
   - name: "DynamicTrees-1.12.2-0.9.5.jar"
     id: 2702424
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/252818/files/2702424"
-    src: "https://minecraft.curseforge.com/projects/dynamictrees/files/2702424/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/dynamictrees/files/2702424"
     md5: "1123cea33e73c815bc4b261ca168cdd7"
   side: "both"
   deps: []
@@ -858,8 +804,7 @@ mods:
   - name: "ChickenChunks-1.12.2-2.4.1.73-universal.jar"
     id: 2594241
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/243883/files/2594241"
-    src: "https://minecraft.curseforge.com/projects/chicken-chunks-1-8/files/2594241/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/chicken-chunks-1-8/files/2594241"
     md5: "c930adfeaa59c7d846b440e11a101d97"
   side: "both"
   deps:
@@ -874,8 +819,7 @@ mods:
   - name: "MCMultiPart-2.5.3.jar"
     id: 2615930
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/239431/files/2615930"
-    src: "https://minecraft.curseforge.com/projects/mcmultipart/files/2615930/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/mcmultipart/files/2615930"
     md5: "47987d111d6f1e48403bc3cbb23f5503"
   side: "both"
   deps: []
@@ -889,8 +833,7 @@ mods:
   - name: "appliedenergistics2-rv6-stable-6.jar"
     id: 2652453
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/223794/files/2652453"
-    src: "https://minecraft.curseforge.com/projects/applied-energistics-2/files/2652453/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2/files/2652453"
     md5: "9c7b1b142d9676cec4f92b7e07ac3cd9"
   side: "both"
   deps: []
@@ -904,8 +847,7 @@ mods:
   - name: "World-Stripper-1.6.0-1.12.2.jar"
     id: 2635454
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/250603/files/2635454"
-    src: "https://minecraft.curseforge.com/projects/world-stripper/files/2635454/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/world-stripper/files/2635454"
     md5: "440ad06d9b4d89a3ff793c510299b4fc"
   side: "both"
   deps: []
@@ -919,8 +861,7 @@ mods:
   - name: "Chameleon-1.12-4.1.3.jar"
     id: 2450900
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/230497/files/2450900"
-    src: "https://minecraft.curseforge.com/projects/chameleon/files/2450900/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/chameleon/files/2450900"
     md5: "e42efa8f4fd42d2918128a826b740e98"
   side: "both"
   deps: []
@@ -934,8 +875,7 @@ mods:
   - name: "jeibees-0.9.0.5-mc1.12.2.jar"
     id: 2490058
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/248370/files/2490058"
-    src: "https://minecraft.curseforge.com/projects/jei-bees/files/2490058/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/jei-bees/files/2490058"
     md5: "a4fef0a3bb6d401eb236b3fe3e1a4846"
   side: "both"
   deps:
@@ -951,8 +891,7 @@ mods:
   - name: "ForgeMultipart-1.12.2-2.6.1.81-universal.jar"
     id: 2661099
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/258426/files/2661099"
-    src: "https://minecraft.curseforge.com/projects/forge-multipart-cbe/files/2661099/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/forge-multipart-cbe/files/2661099"
     md5: "c28c8fc458803154aca235be22dd3102"
   side: "both"
   deps:
@@ -967,8 +906,7 @@ mods:
   - name: "NaturesCompass-1.12.2-1.5.1.jar"
     id: 2513221
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/252848/files/2513221"
-    src: "https://minecraft.curseforge.com/projects/natures-compass/files/2513221/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/natures-compass/files/2513221"
     md5: "8a1c19eb3a656ba4a577ba9864399540"
   side: "both"
   deps: []
@@ -982,8 +920,7 @@ mods:
   - name: "CyclopsCore-1.12.2-1.3.0.jar"
     id: 2714091
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/232758/files/2714091"
-    src: "https://minecraft.curseforge.com/projects/cyclops-core/files/2714091/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/cyclops-core/files/2714091"
     md5: "058ef3c94f72f1bf9db9a042bac22afa"
   side: "both"
   deps: []
@@ -997,8 +934,7 @@ mods:
   - name: "CodeChickenLib-1.12.2-3.2.2.353-universal.jar"
     id: 2618630
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/242818/files/2618630"
-    src: "https://minecraft.curseforge.com/projects/codechicken-lib-1-8/files/2618630/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8/files/2618630"
     md5: "f8b4843eccafb2213512ba9be17bfad2"
   side: "both"
   deps: []
@@ -1012,8 +948,7 @@ mods:
   - name: "astralsorcery-1.12.2-1.10.19.jar"
     id: 2716590
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/241721/files/2716590"
-    src: "https://minecraft.curseforge.com/projects/astral-sorcery/files/2716590/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/astral-sorcery/files/2716590"
     md5: "a46a48be36ce03360ca3e0addc1ebc51"
   side: "both"
   deps:
@@ -1028,8 +963,7 @@ mods:
   - name: "StorageDrawers-1.12.2-5.3.8.jar"
     id: 2642386
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/223852/files/2642386"
-    src: "https://minecraft.curseforge.com/projects/storage-drawers/files/2642386/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/storage-drawers/files/2642386"
     md5: "ab008fc9f41cd9e215b4c8d5d7e5be6e"
   side: "both"
   deps:
@@ -1044,8 +978,7 @@ mods:
   - name: "Durability Show-1.12-5.0.0.jar"
     id: 2432683
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/226099/files/2432683"
-    src: "https://minecraft.curseforge.com/projects/durability-show/files/2432683/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/durability-show/files/2432683"
     md5: "6fe7441676fe6c19a61704abd46210b2"
   side: "both"
   deps: []
@@ -1059,8 +992,7 @@ mods:
   - name: "RedstoneFlux-1.12-2.1.0.6-universal.jar"
     id: 2623090
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/270789/files/2623090"
-    src: "https://minecraft.curseforge.com/projects/redstone-flux/files/2623090/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/redstone-flux/files/2623090"
     md5: "f00530b437c41a189dbf8a85d0ac40b6"
   side: "both"
   deps: []
@@ -1074,8 +1006,7 @@ mods:
   - name: "Forgelin-1.8.2.jar"
     id: 2640952
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/248453/files/2640952"
-    src: "https://minecraft.curseforge.com/projects/shadowfacts-forgelin/files/2640952/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/shadowfacts-forgelin/files/2640952"
     md5: "59035365f7af35f599d1c4baade64d8b"
   side: "both"
   deps: []
@@ -1089,8 +1020,7 @@ mods:
   - name: "BetterBuildersWands-1.12.2-0.13.2.271+5997513.jar"
     id: 2691084
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/238403/files/2691084"
-    src: "https://minecraft.curseforge.com/projects/better-builders-wands/files/2691084/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/better-builders-wands/files/2691084"
     md5: "fb4283f63a9129ef4611cc92e36de18d"
   side: "both"
   deps: []
@@ -1104,8 +1034,7 @@ mods:
   - name: "immersivetech-1.12-1.3.10.jar"
     id: 2568579
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/274159/files/2568579"
-    src: "https://minecraft.curseforge.com/projects/immersive-tech/files/2568579/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/immersive-tech/files/2568579"
     md5: "3be088e1e5b1bea50f04cdfb4082a528"
   side: "both"
   deps: []
@@ -1119,8 +1048,7 @@ mods:
   - name: "CosmeticArmorReworked-1.12.2-v4a.jar"
     id: 2697672
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/237307/files/2697672"
-    src: "https://minecraft.curseforge.com/projects/cosmetic-armor-reworked/files/2697672/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-reworked/files/2697672"
     md5: "354e19dfed4d68bc6abff1072147962e"
   side: "both"
   deps: []
@@ -1134,8 +1062,7 @@ mods:
   - name: "RedstoneControl-1.12.2-0.0.8.jar"
     id: 2725582
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/319994/files/2725582"
-    src: "https://minecraft.curseforge.com/projects/redstone-control/files/2725582/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/redstone-control/files/2725582"
     md5: "b4f34e849e4d473e1101f789820b62c0"
   side: "both"
   deps:
@@ -1150,8 +1077,7 @@ mods:
   - name: "forestry_1.12.2-5.8.2.387.jar"
     id: 2684780
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/59751/files/2684780"
-    src: "https://minecraft.curseforge.com/projects/forestry/files/2684780/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/forestry/files/2684780"
     md5: "367a01e7ff21262fa3dfc71e8fbd7332"
   side: "both"
   deps: []
@@ -1165,8 +1091,7 @@ mods:
   - name: "EnderStorage-1.12.2-2.4.5.135-universal.jar"
     id: 2594243
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/245174/files/2594243"
-    src: "https://minecraft.curseforge.com/projects/ender-storage-1-8/files/2594243/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/ender-storage-1-8/files/2594243"
     md5: "d7d6b1991449110cfa7b1844b5811f75"
   side: "both"
   deps:
@@ -1181,8 +1106,7 @@ mods:
   - name: "p455w0rdslib-1.12.2-2.2.151.jar"
     id: 2726877
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/255232/files/2726877"
-    src: "https://minecraft.curseforge.com/projects/p455w0rds-library/files/2726877/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/p455w0rds-library/files/2726877"
     md5: "40a846858743ff74ef6365b85eac558c"
   side: "both"
   deps: []
@@ -1196,8 +1120,7 @@ mods:
   - name: "harvestersnight-1.12.2-1.1.0.jar"
     id: 2654937
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/304393/files/2654937"
-    src: "https://minecraft.curseforge.com/projects/harvesters-night/files/2654937/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/harvesters-night/files/2654937"
     md5: "a4179d8145fa419d57bbc2308f7cdd07"
   side: "both"
   deps: []
@@ -1211,8 +1134,7 @@ mods:
   - name: "theoneprobe-1.12-1.4.28.jar"
     id: 2667280
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/245211/files/2667280"
-    src: "https://minecraft.curseforge.com/projects/the-one-probe/files/2667280/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/the-one-probe/files/2667280"
     md5: "63849a13a822b3b56308245eb8074a7e"
   side: "both"
   deps: []
@@ -1226,8 +1148,7 @@ mods:
   - name: "ThermalFoundation-1.12.2-2.6.2.26-universal.jar"
     id: 2669258
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/222880/files/2669258"
-    src: "https://minecraft.curseforge.com/projects/thermal-foundation/files/2669258/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/thermal-foundation/files/2669258"
     md5: "ceb3a8950a7ab555a0f3617bbc375673"
   side: "both"
   deps:
@@ -1243,8 +1164,7 @@ mods:
   - name: "dttraverse-1.5.jar"
     id: 2655869
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/296604/files/2655869"
-    src: "https://minecraft.curseforge.com/projects/dynamic-trees-traverse-compat/files/2655869/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/dynamic-trees-traverse-compat/files/2655869"
     md5: "7755a54d4c682e43a1f5171a94e6c0ab"
   side: "both"
   deps: []
@@ -1258,8 +1178,7 @@ mods:
   - name: "WanionLib-1.12.2-2.2.jar"
     id: 2651482
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/253043/files/2651482"
-    src: "https://minecraft.curseforge.com/projects/wanionlib/files/2651482/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/wanionlib/files/2651482"
     md5: "da46d9a391cb6ac4d3bd453db2158e58"
   side: "both"
   deps: []
@@ -1273,8 +1192,7 @@ mods:
   - name: "RealBench-1.12.2-1.3.3.jar"
     id: 2505261
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/237414/files/2505261"
-    src: "https://minecraft.curseforge.com/projects/realbench/files/2505261/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/realbench/files/2505261"
     md5: "9f26fffad6c89e644ac56335cac8bcc5"
   side: "both"
   deps: []
@@ -1288,8 +1206,7 @@ mods:
   - name: "pyrotech-1.12.2-1.0.9.jar"
     id: 2726573
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/306676/files/2727448"
-    src: "https://minecraft.curseforge.com/projects/pyrotech/files/2727448/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/pyrotech/files/2727448"
     md5: "22c3717050df1ebfb5b84f2f0907ce77"
   side: "both"
   deps:
@@ -1305,8 +1222,7 @@ mods:
   - name: "IntegratedDynamics-1.12.2-1.0.14.jar"
     id: 2718584
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/236307/files/2718584"
-    src: "https://minecraft.curseforge.com/projects/integrated-dynamics/files/2718584/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/integrated-dynamics/files/2718584"
     md5: "3503686630f0203844d050b3bdd2f0cb"
   side: "both"
   deps:
@@ -1322,8 +1238,7 @@ mods:
   - name: "KleeSlabs_1.12.2-5.4.11.jar"
     id: 2611981
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/241895/files/2611981"
-    src: "https://minecraft.curseforge.com/projects/kleeslabs/files/2611981/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/kleeslabs/files/2611981"
     md5: "d611987d10deaa18c27bc46046116533"
   side: "both"
   deps: []
@@ -1337,8 +1252,7 @@ mods:
   - name: "ElevatorMod-1.12.2-1.3.10.jar"
     id: 2704779
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/250832/files/2704779"
-    src: "https://minecraft.curseforge.com/projects/openblocks-elevator/files/2704779/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/openblocks-elevator/files/2704779"
     md5: "118a0c1535f07f374b505e8d7da4941f"
   side: "both"
   deps: []
@@ -1352,8 +1266,7 @@ mods:
   - name: "Harvest-1.12-1.2.7-20.jar"
     id: 2645984
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/240783/files/2645984"
-    src: "https://minecraft.curseforge.com/projects/simpleharvest/files/2645984/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/simpleharvest/files/2645984"
     md5: "8814b7b1f198b8f8c798bd8c81f59b3c"
   side: "both"
   deps: []
@@ -1367,8 +1280,7 @@ mods:
   - name: "gravestone-1.10.2.jar"
     id: 2608278
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/238551/files/2608278"
-    src: "https://minecraft.curseforge.com/projects/gravestone-mod/files/2608278/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/gravestone-mod/files/2608278"
     md5: "c6499e99f1a7bccff8cb2e6c0cc28eeb"
   side: "both"
   deps: []
@@ -1382,8 +1294,7 @@ mods:
   - name: "OreLib-1.12.2-3.5.2.2.jar"
     id: 2664386
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/307806/files/2664386"
-    src: "https://minecraft.curseforge.com/projects/orelib/files/2664386/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/orelib/files/2664386"
     md5: "d4a01946d05fb29e18a505c000007e0c"
   side: "both"
   deps: []
@@ -1397,8 +1308,7 @@ mods:
   - name: "athenaeum-1.12.2-1.17.1.jar"
     id: 2724056
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/284350/files/2724056"
-    src: "https://minecraft.curseforge.com/projects/athenaeum/files/2724056/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/athenaeum/files/2724056"
     md5: "cb170239ab7adca1722a8bc009b2e085"
   side: "both"
   deps: []
@@ -1412,8 +1322,7 @@ mods:
   - name: "rangedpumps-0.5.jar"
     id: 2441326
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/247496/files/2441326"
-    src: "https://minecraft.curseforge.com/projects/ranged-pumps/files/2441326/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/ranged-pumps/files/2441326"
     md5: "29512482818fe06791e9af63c611e4b2"
   side: "both"
   deps: []
@@ -1427,8 +1336,7 @@ mods:
   - name: "ElecCore-1.12.2-1.9.452.jar"
     id: 2679741
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/227391/files/2679741"
-    src: "https://minecraft.curseforge.com/projects/eleccore/files/2679741/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/eleccore/files/2679741"
     md5: "314facb5504dc2509db2020b8b5a5308"
   side: "both"
   deps: []
@@ -1442,8 +1350,7 @@ mods:
   - name: "xnet-1.12-1.8.1.jar"
     id: 2705817
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/260912/files/2705817"
-    src: "https://minecraft.curseforge.com/projects/xnet/files/2705817/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/xnet/files/2705817"
     md5: "c59058c4819c0e9ad84870db447b4892"
   side: "both"
   deps:
@@ -1458,8 +1365,7 @@ mods:
   - name: "ThaumicJEI-1.12.2-1.6.0-27.jar"
     id: 2705304
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/285492/files/2705304"
-    src: "https://minecraft.curseforge.com/projects/thaumic-jei/files/2705304/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/thaumic-jei/files/2705304"
     md5: "ac9c39b39b4ea8dc40fe7b8a55d773d1"
   side: "both"
   deps:
@@ -1475,8 +1381,7 @@ mods:
   - name: "Morph-o-Tool-1.2-21.jar"
     id: 2658176
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/245287/files/2658176"
-    src: "https://minecraft.curseforge.com/projects/morph-o-tool/files/2658176/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/morph-o-tool/files/2658176"
     md5: "a56d6a54721acef7fa4863d4efd20638"
   side: "both"
   deps:
@@ -1491,8 +1396,7 @@ mods:
   - name: "flatcoloredblocks-mc1.12-6.8.jar"
     id: 2715827
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/238590/files/2715827"
-    src: "https://minecraft.curseforge.com/projects/flat-colored-blocks/files/2715827/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/flat-colored-blocks/files/2715827"
     md5: "1a9d559c5d183029733e1ddb4b15307b"
   side: "both"
   deps: []
@@ -1506,8 +1410,7 @@ mods:
   - name: "ae2stuff-0.7.0.4-mc1.12.2.jar"
     id: 2491032
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/225194/files/2491032"
-    src: "https://minecraft.curseforge.com/projects/ae2-stuff/files/2491032/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/ae2-stuff/files/2491032"
     md5: "8594b7501c1ecc1bdaaa8ef42b7dbdda"
   side: "both"
   deps:
@@ -1523,8 +1426,7 @@ mods:
   - name: "ThermalDynamics-1.12.2-2.5.4.18-universal.jar"
     id: 2669256
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/227443/files/2669256"
-    src: "https://minecraft.curseforge.com/projects/thermal-dynamics/files/2669256/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/thermal-dynamics/files/2669256"
     md5: "793f1584e11de86146409de72ef80c26"
   side: "both"
   deps:
@@ -1540,8 +1442,7 @@ mods:
   - name: "FastWorkbench-1.12.2-1.7.2.jar"
     id: 2716379
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/288885/files/2716379"
-    src: "https://minecraft.curseforge.com/projects/fastworkbench/files/2716379/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/fastworkbench/files/2716379"
     md5: "2a0e8335926fd413521d2432c91842a9"
   side: "both"
   deps: []
@@ -1555,8 +1456,7 @@ mods:
   - name: "engineers_doors-1.12.2-0.8.0.jar"
     id: 2625854
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/291126/files/2625854"
-    src: "https://minecraft.curseforge.com/projects/engineers-doors/files/2625854/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/engineers-doors/files/2625854"
     md5: "631f58b289270004917bfcb8b1f2bedf"
   side: "both"
   deps:
@@ -1571,8 +1471,7 @@ mods:
   - name: "Patchouli-1.0-19.jar"
     id: 2704883
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/306770/files/2704883"
-    src: "https://minecraft.curseforge.com/projects/patchouli/files/2704883/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/patchouli/files/2704883"
     md5: "05b4c57eb31770ca1c0da6b3a1ed69fa"
   side: "both"
   deps: []
@@ -1586,8 +1485,7 @@ mods:
   - name: "Farseek-1.12-2.3.2.jar"
     id: 2705060
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/229708/files/2705060"
-    src: "https://minecraft.curseforge.com/projects/farseek/files/2705060/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/farseek/files/2705060"
     md5: "6b5feba8259bf925640b9424b8db8847"
   side: "both"
   deps: []
@@ -1601,8 +1499,7 @@ mods:
   - name: "Quark-r1.5-159.jar"
     id: 2724128
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/243121/files/2724128"
-    src: "https://minecraft.curseforge.com/projects/quark/files/2724128/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/quark/files/2724128"
     md5: "38b004a84ed1e59297787b46b1b3af02"
   side: "both"
   deps:
@@ -1617,8 +1514,7 @@ mods:
   - name: "ImmersiveEngineering-0.12-89.jar"
     id: 2676501
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/231951/files/2676501"
-    src: "https://minecraft.curseforge.com/projects/immersive-engineering/files/2676501/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/immersive-engineering/files/2676501"
     md5: "b79a17d68e023e2cab3fcb99fff19f9a"
   side: "both"
   deps: []
@@ -1632,8 +1528,7 @@ mods:
   - name: "CraftingTweaks_1.12.2-8.1.9.jar"
     id: 2562139
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/233071/files/2562139"
-    src: "https://minecraft.curseforge.com/projects/crafting-tweaks/files/2562139/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks/files/2562139"
     md5: "ffd1e2b5c4f244f4a7c6d4ee2e4c2090"
   side: "both"
   deps: []
@@ -1647,8 +1542,7 @@ mods:
   - name: "PackingTape-1.12.2-0.7.6.jar"
     id: 2543435
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/238659/files/2543435"
-    src: "https://minecraft.curseforge.com/projects/packing-tape/files/2543435/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/packing-tape/files/2543435"
     md5: "4c851f38519ed9bb483e8fd67cdfeef9"
   side: "both"
   deps: []
@@ -1662,8 +1556,7 @@ mods:
   - name: "stg-1.12.2-1.2.3.jar"
     id: 2508268
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/264353/files/2508268"
-    src: "https://minecraft.curseforge.com/projects/swingthroughgrass/files/2508268/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/swingthroughgrass/files/2508268"
     md5: "b836648006f1451c65d33f7132eec770"
   side: "both"
   deps: []
@@ -1677,8 +1570,7 @@ mods:
   - name: "blockcraftery-1.12.2-1.3.1.jar"
     id: 2716712
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/278882/files/2716712"
-    src: "https://minecraft.curseforge.com/projects/blockcraftery/files/2716712/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/blockcraftery/files/2716712"
     md5: "03b28232d2a5f6c8d5e202c0f9fbb0b3"
   side: "both"
   deps:
@@ -1693,8 +1585,7 @@ mods:
   - name: "UniDict-1.12.2-2.9.2.jar"
     id: 2652588
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/244258/files/2652588"
-    src: "https://minecraft.curseforge.com/projects/unidict/files/2652588/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/unidict/files/2652588"
     md5: "b1ba004241d86a3e1280c8911c2b4ff2"
   side: "both"
   deps:
@@ -1709,8 +1600,7 @@ mods:
   - name: "thaumictinkerer-1.12.2-5.0-353c71c.jar"
     id: 2596484
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/75598/files/2596484"
-    src: "https://minecraft.curseforge.com/projects/thaumic-tinkerer/files/2596484/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/thaumic-tinkerer/files/2596484"
     md5: "185a3cdfaa25c66ebcbc90fdbfe508dd"
   side: "both"
   deps:
@@ -1726,8 +1616,7 @@ mods:
   - name: "MTLib-3.0.6.jar"
     id: 2684561
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/253211/files/2684561"
-    src: "https://minecraft.curseforge.com/projects/mtlib/files/2684561/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/mtlib/files/2684561"
     md5: "b46748362c046d70b821121331246aa5"
   side: "both"
   deps:
@@ -1742,8 +1631,7 @@ mods:
   - name: "mcjtylib-1.12-3.5.3.jar"
     id: 2714365
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/233105/files/2714365"
-    src: "https://minecraft.curseforge.com/projects/mcjtylib/files/2714365/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/mcjtylib/files/2714365"
     md5: "7712f1205d619e73a85b0af0bc28ad58"
   side: "both"
   deps: []
@@ -1757,8 +1645,7 @@ mods:
   - name: "Streams-1.12-0.4.7.jar"
     id: 2707706
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/229769/files/2707706"
-    src: "https://minecraft.curseforge.com/projects/streams/files/2707706/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/streams/files/2707706"
     md5: "e29c7cd9edbd696ab9a50e590e2f8748"
   side: "both"
   deps:
@@ -1773,8 +1660,7 @@ mods:
   - name: "InitialInventory-3.0.0.jar"
     id: 2465617
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/253230/files/2465617"
-    src: "https://minecraft.curseforge.com/projects/initial-inventory/files/2465617/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/initial-inventory/files/2465617"
     md5: "44a3ebc29fe9531ec290e292d07d7d84"
   side: "both"
   deps:
@@ -1790,8 +1676,7 @@ mods:
   - name: "Traverse-1.12.2-1.6.0-69.jar"
     id: 2613657
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/267769/files/2613657"
-    src: "https://minecraft.curseforge.com/projects/traverse/files/2613657/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/traverse/files/2613657"
     md5: "3cc748cd333cab2e5f8132a89cd40b48"
   side: "both"
   deps: []
@@ -1805,8 +1690,7 @@ mods:
   - name: "InventoryTweaks-1.63.jar"
     id: 2482481
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/223094/files/2482481"
-    src: "https://minecraft.curseforge.com/projects/inventory-tweaks/files/2482481/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/inventory-tweaks/files/2482481"
     md5: "1e2e33e5710394252abc4b014bc3dcbd"
   side: "both"
   deps: []
@@ -1820,8 +1704,7 @@ mods:
   - name: "AppleSkin-mc1.12-1.0.9.jar"
     id: 2496585
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/248787/files/2496585"
-    src: "https://minecraft.curseforge.com/projects/appleskin/files/2496585/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/appleskin/files/2496585"
     md5: "0e0af1e6f80ea2ee7ecfc2f8f44b897b"
   side: "both"
   deps: []
@@ -1835,8 +1718,7 @@ mods:
   - name: "clarity-1.1.jar"
     id: 2507721
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/252145/files/2507721"
-    src: "https://minecraft.curseforge.com/projects/clarity/files/2507721/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/clarity/files/2507721"
     md5: "bb3e3d829aa17414bf3e05a6654d0e21"
   side: "both"
   deps: []
@@ -1850,8 +1732,7 @@ mods:
   - name: "modnametooltip_1.12.2-1.10.0.jar"
     id: 2486868
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/238747/files/2486868"
-    src: "https://minecraft.curseforge.com/projects/mod-name-tooltip/files/2486868/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/mod-name-tooltip/files/2486868"
     md5: "6dda75b858fc93e2d18ccd42585aec03"
   side: "both"
   deps: []
@@ -1865,8 +1746,7 @@ mods:
   - name: "TipTheScales-1.12.2-1.0.3.jar"
     id: 2652628
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/282313/files/2652628"
-    src: "https://minecraft.curseforge.com/projects/tipthescales/files/2652628/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/tipthescales/files/2652628"
     md5: "3cfd22a618d4f9bccc7b7c0b2a78b954"
   side: "both"
   deps: []
@@ -1880,8 +1760,7 @@ mods:
   - name: "brazier-1.1.0.jar"
     id: 2702180
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/319181/files/2702180"
-    src: "https://minecraft.curseforge.com/projects/essentia-brazier/files/2702180/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/essentia-brazier/files/2702180"
     md5: "1241b139661bfe7cfe29861dc9a46c38"
   side: "both"
   deps:
@@ -1896,8 +1775,7 @@ mods:
   - name: "Translocators-1.12.2-2.5.1.77-universal.jar"
     id: 2594249
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/247695/files/2594249"
-    src: "https://minecraft.curseforge.com/projects/translocators-1-8/files/2594249/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/translocators-1-8/files/2594249"
     md5: "c04e6bdd5f61f26e824ac47b97fde260"
   side: "both"
   deps:
@@ -1913,8 +1791,7 @@ mods:
   - name: "betteranimalsplus-1.12.2-6.0.3.jar"
     id: 2726519
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/303557/files/2726519"
-    src: "https://minecraft.curseforge.com/projects/betteranimalsplus/files/2726519/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/betteranimalsplus/files/2726519"
     md5: "337fe004c1570f88a1c9b517555c4e7f"
   side: "both"
   deps: []
@@ -1928,8 +1805,7 @@ mods:
   - name: "thaumicperiphery-0.3.0.jar"
     id: 2624118
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/293505/files/2624118"
-    src: "https://minecraft.curseforge.com/projects/thaumic-periphery/files/2624118/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/thaumic-periphery/files/2624118"
     md5: "c720d47a3a6cf3bce8f8640dce2a5d81"
   side: "both"
   deps:
@@ -1945,8 +1821,7 @@ mods:
   - name: "Numina-1.12.2-1.0.38.jar"
     id: 2715198
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/235440/files/2715198"
-    src: "https://minecraft.curseforge.com/projects/numina/files/2715198/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/numina/files/2715198"
     md5: "741889c9857acd66c7d1de0572eb17c4"
   side: "both"
   deps: []
@@ -1960,8 +1835,7 @@ mods:
   - name: "ModularPowersuits-1.12.2-1.0.41.jar"
     id: 2715213
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/235442/files/2715213"
-    src: "https://minecraft.curseforge.com/projects/modular-powersuits/files/2715213/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/modular-powersuits/files/2715213"
     md5: "0793e3dcfa3e6844f8f17fc980671733"
   side: "both"
   deps: []
@@ -1975,8 +1849,7 @@ mods:
   - name: "WaterControlExtreme-1.0.2.jar"
     id: 2555574
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/277890/files/2555574"
-    src: "https://minecraft.curseforge.com/projects/water-control-extreme/files/2555574/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/water-control-extreme/files/2555574"
     md5: "a9c9b6f187b5712b4cb0c871242bbdeb"
   side: "both"
   deps: []
@@ -1990,8 +1863,7 @@ mods:
   - name: "tc6aspects4jei-0.0.2a.jar"
     id: 2579495
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/295765/files/2579495"
-    src: "https://minecraft.curseforge.com/projects/thaumcraft-6-aspects-for-jei/files/2579495/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/thaumcraft-6-aspects-for-jei/files/2579495"
     md5: "580045bd56e348b30629ccfb376c979a"
   side: "both"
   deps:
@@ -2007,8 +1879,7 @@ mods:
   - name: "demagnetize-1.12.2-1.0.1.jar"
     id: 2657779
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/301356/files/2657779"
-    src: "https://minecraft.curseforge.com/projects/demagnetize/files/2657779/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/demagnetize/files/2657779"
     md5: "1f41e5175485917db2d242320e738e6e"
   side: "both"
   deps: []
@@ -2022,8 +1893,7 @@ mods:
   - name: "Aqueducts-0.3.jar"
     id: 2601743
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/300241/files/2601743"
-    src: "https://minecraft.curseforge.com/projects/aqueducts/files/2601743/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/aqueducts/files/2601743"
     md5: "561b2c3fc5e9aaf2e7071eae6d7fe615"
   side: "both"
   deps: []
@@ -2037,8 +1907,7 @@ mods:
   - name: "ironchest-1.12.2-7.0.69.845.jar"
     id: 2723143
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/228756/files/2723143"
-    src: "https://minecraft.curseforge.com/projects/iron-chests/files/2723143/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/iron-chests/files/2723143"
     md5: "cb4ac16615839333428a9e99f9c20f0f"
   side: "both"
   deps: []
@@ -2052,8 +1921,7 @@ mods:
   - name: "BetterFps-1.4.8.jar"
     id: 2483393
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/229876/files/2483393"
-    src: "https://minecraft.curseforge.com/projects/betterfps/files/2483393/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/betterfps/files/2483393"
     md5: "d36f4d3c0f96e99a9a1ad2e8eeda1fc4"
   side: "both"
   deps: []
@@ -2067,8 +1935,7 @@ mods:
   - name: "reauth-3.6.0.jar"
     id: 2560638
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/237701/files/2560638"
-    src: "https://minecraft.curseforge.com/projects/reauth/files/2560638/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/reauth/files/2560638"
     md5: "6024686e40df10b8739042ea2dce7f1a"
   side: "both"
   deps: []
@@ -2082,8 +1949,7 @@ mods:
   - name: "modtweaker-4.0.17.jar"
     id: 2693544
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/220954/files/2693544"
-    src: "https://minecraft.curseforge.com/projects/modtweaker/files/2693544/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/modtweaker/files/2693544"
     md5: "e1737d87f3506f7913dea5462395cbda"
   side: "both"
   deps:
@@ -2098,8 +1964,7 @@ mods:
   - name: "Clumps-3.1.2.jar"
     id: 2666198
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/256717/files/2666198"
-    src: "https://minecraft.curseforge.com/projects/clumps/files/2666198/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/clumps/files/2666198"
     md5: "e0c4c4f04aeb0e0a48fc7534f9e7d6be"
   side: "both"
   deps: []
@@ -2113,8 +1978,7 @@ mods:
   - name: "colytra-1.12.2-1.2.0.jar"
     id: 2704169
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/280200/files/2704169"
-    src: "https://minecraft.curseforge.com/projects/colytra/files/2704169/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/colytra/files/2704169"
     md5: "4acd4d3c2a273f8a362b78e348827058"
   side: "both"
   deps: []
@@ -2128,8 +1992,7 @@ mods:
   - name: "Guide-API-1.12-2.1.8-63.jar"
     id: 2645992
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/228832/files/2645992"
-    src: "https://minecraft.curseforge.com/projects/guide-api/files/2645992/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/guide-api/files/2645992"
     md5: "117d3d825059fceb0c1d04f8701beb00"
   side: "both"
   deps: []
@@ -2143,8 +2006,7 @@ mods:
   - name: "DynamicSurroundings-1.12.2-3.5.4.3.jar"
     id: 2664392
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/238891/files/2664392"
-    src: "https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2664392/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/dynamic-surroundings/files/2664392"
     md5: "649280d416e51509eedfb1e1004bb5ef"
   side: "both"
   deps:
@@ -2159,8 +2021,7 @@ mods:
   - name: "MagicBees-1.12.2-3.1.10.jar"
     id: 2566282
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/65764/files/2566282"
-    src: "https://minecraft.curseforge.com/projects/magic-bees/files/2566282/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/magic-bees/files/2566282"
     md5: "16b05db9ab13a8411e8a3b7abe69ec77"
   side: "both"
   deps:
@@ -2175,8 +2036,7 @@ mods:
   - name: "chiselsandbits-14.33.jar"
     id: 2720655
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/231095/files/2720655"
-    src: "https://minecraft.curseforge.com/projects/chisels-bits/files/2720655/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/chisels-bits/files/2720655"
     md5: "e056e23559965f2ebabf47aad0fe51a3"
   side: "both"
   deps: []
@@ -2190,8 +2050,7 @@ mods:
   - name: "journeymap-1.12.2-5.5.4.jar"
     id: 2682920
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/32274/files/2682920"
-    src: "https://minecraft.curseforge.com/projects/journeymap/files/2682920/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/journeymap/files/2682920"
     md5: "e8f1ea79b6a51ed9bb3fe1062f8093a0"
   side: "both"
   deps: []
@@ -2205,8 +2064,7 @@ mods:
   - name: "NetherPortalFix_1.12.1-5.3.17.jar"
     id: 2612052
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/241160/files/2612052"
-    src: "https://minecraft.curseforge.com/projects/netherportalfix/files/2612052/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/netherportalfix/files/2612052"
     md5: "97ff3e60aa9725cedbc64f19e179f813"
   side: "both"
   deps: []
@@ -2220,8 +2078,7 @@ mods:
   - name: "CoralReef-2.5-1.12.2.jar"
     id: 2560552
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/248994/files/2560552"
-    src: "https://minecraft.curseforge.com/projects/coralreef/files/2560552/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/coralreef/files/2560552"
     md5: "c6eb6d2f4417b231b88a71633f9ea211"
   side: "both"
   deps: []
@@ -2235,8 +2092,7 @@ mods:
   - name: "BetterWithMods-1.12-2.3.20-1027.jar"
     id: 2650398
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/246760/files/2650398"
-    src: "https://minecraft.curseforge.com/projects/bwm-suite/files/2650398/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/bwm-suite/files/2650398"
     md5: "b8e44cf87c86c0c23180d353ad463c0e"
   side: "both"
   deps:
@@ -2251,8 +2107,7 @@ mods:
   - name: "CoFHCore-1.12.2-4.6.3.27-universal.jar"
     id: 2716100
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/69162/files/2716100"
-    src: "https://minecraft.curseforge.com/projects/cofh-core/files/2716100/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/cofh-core/files/2716100"
     md5: "90efac9c0abffa63c6da1453ceca1d68"
   side: "both"
   deps:
@@ -2267,8 +2122,7 @@ mods:
   - name: "ThermalExpansion-1.12.2-5.5.3.41-universal.jar"
     id: 2669257
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/69163/files/2669257"
-    src: "https://minecraft.curseforge.com/projects/thermal-expansion/files/2669257/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/thermal-expansion/files/2669257"
     md5: "3007785edb021cedf51610119066d23a"
   side: "both"
   deps:
@@ -2284,8 +2138,7 @@ mods:
   - name: "OpenGlider-1.12.1-1.1.0.jar"
     id: 2464501
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/252354/files/2464501"
-    src: "https://minecraft.curseforge.com/projects/open-glider/files/2464501/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/open-glider/files/2464501"
     md5: "057ce598bed8e0414d1b2c7ae863a234"
   side: "both"
   deps: []
@@ -2299,8 +2152,7 @@ mods:
   - name: "Placebo-1.12.2-1.6.0.jar"
     id: 2694382
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/283644/files/2694382"
-    src: "https://minecraft.curseforge.com/projects/placebo/files/2694382/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/placebo/files/2694382"
     md5: "a9ecfa296b2b1203ed5a68ed6c01833a"
   side: "both"
   deps: []
@@ -2314,8 +2166,7 @@ mods:
   - name: "StorageDrawers-Forestry-1.7.10-1.1.2.jar"
     id: 2280532
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/231147/files/2280532"
-    src: "https://minecraft.curseforge.com/projects/storage-drawers-forestry-pack/files/2280532/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/storage-drawers-forestry-pack/files/2280532"
     md5: "d37ab233008bb78c3444b9a297b73190"
   side: "both"
   deps:
@@ -2330,8 +2181,7 @@ mods:
   - name: "comforts-1.12.2-1.4.1.2.jar"
     id: 2705810
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/276951/files/2705810"
-    src: "https://minecraft.curseforge.com/projects/comforts/files/2705810/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/comforts/files/2705810"
     md5: "c67398e16303c222f0c19cf60cb5bd6e"
   side: "both"
   deps: []
@@ -2347,8 +2197,7 @@ mods:
   - name: "deepresonance-1.12-1.8.0.jar"
     id: 2704397
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/233398/files/2704397"
-    src: "https://minecraft.curseforge.com/projects/deep-resonance/files/2704397/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/deep-resonance/files/2704397"
     md5: "0fb0e11896f37e7b28602a052b394528"
   side: "both"
   deps:
@@ -2364,8 +2213,7 @@ mods:
   - name: "The Beneath-1.12.2-1.5.1.jar"
     id: 2704839
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/254629/files/2704839"
-    src: "https://minecraft.curseforge.com/projects/the-beneath/files/2704839/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/the-beneath/files/2704839"
     md5: "c0afd241b39d5a88e74396f338ce8554"
   side: "both"
   deps: []
@@ -2379,8 +2227,7 @@ mods:
   - name: "CoFHWorld-1.12.2-1.3.1.7-universal.jar"
     id: 2715784
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/271384/files/2715784"
-    src: "https://minecraft.curseforge.com/projects/cofh-world/files/2715784/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/cofh-world/files/2715784"
     md5: "c196ade3fe4f33b4d38b4de43326ae2d"
   side: "both"
   deps: []
@@ -2394,8 +2241,7 @@ mods:
   - name: "LootTableTweaker-1.12.2-1.1.14.jar"
     id: 2541554
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/261339/files/2541554"
-    src: "https://minecraft.curseforge.com/projects/loottabletweaker/files/2541554/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/loottabletweaker/files/2541554"
     md5: "663ad7e644727f0fb3c85f672c55efa2"
   side: "both"
   deps:
@@ -2410,8 +2256,7 @@ mods:
   - name: "BetterAdvancements-1.12.2-0.1.0.77.jar"
     id: 2685984
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/272515/files/2685984"
-    src: "https://minecraft.curseforge.com/projects/better-advancements/files/2685984/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/better-advancements/files/2685984"
     md5: "9009a4d080caf4d31e4ef8edba1f90cf"
   side: "both"
   deps: []
@@ -2425,8 +2270,7 @@ mods:
   - name: "moreoverlays-1.14-mc1.12.2.jar"
     id: 2589773
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/243478/files/2589773"
-    src: "https://minecraft.curseforge.com/projects/more-overlays/files/2589773/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/more-overlays/files/2589773"
     md5: "299ef46b09dfe6b9c874b7607c9a1d2d"
   side: "both"
   deps: []
@@ -2440,8 +2284,7 @@ mods:
   - name: "fencejumper-1.12-1.0.5.jar"
     id: 2591087
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/254652/files/2591087"
-    src: "https://minecraft.curseforge.com/projects/fence-jumper/files/2591087/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/fence-jumper/files/2591087"
     md5: "c1b823295baf4c1e27bd2128409a23f9"
   side: "both"
   deps: []
@@ -2455,8 +2298,7 @@ mods:
   - name: "RebornCore-1.12.2-3.13.12.447-universal.jar"
     id: 2697453
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/237903/files/2697453"
-    src: "https://minecraft.curseforge.com/projects/reborncore/files/2697453/download"
+    src: "https://www.curseforge.com/minecraft/mc-mods/reborncore/files/2697453"
     md5: "d96134850c15e2eea962195d00b77550"
   side: "both"
   deps: []
