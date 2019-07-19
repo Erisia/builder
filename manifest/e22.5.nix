@@ -399,6 +399,22 @@
       "type" = "remote";
       "md5" = "134ecd6cd2b047f6eda710c96c847586";
     };
+    "building-gadgets" = {
+      "title" = "Building Gadgets";
+      "name" = "building-gadgets";
+      "id" = 298187;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "BuildingGadgets-2.6.8.jar";
+      "maturity" = "release";
+      "encoded" = "BuildingGadgets-2.6.8.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/building-gadgets/files/2691133";
+      "src" = "https://www.curseforge.com/minecraft/mc-mods/building-gadgets/download/2691133/file";
+      "type" = "remote";
+      "md5" = "e1d1813966f576d0330eee8df1972a27";
+    };
     "calculator" = {
       "title" = "Calculator";
       "name" = "calculator";
@@ -916,6 +932,22 @@
       "src" = "https://www.curseforge.com/minecraft/mc-mods/dynmapforge/download/2722448/file";
       "type" = "remote";
       "md5" = "37a9f95eb8c615286f3c9eabddb61f61";
+    };
+    "effortless-building" = {
+      "title" = "Effortless Building";
+      "name" = "effortless-building";
+      "id" = 302113;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "effortlessbuilding-1.12.2-2.13.jar";
+      "maturity" = "release";
+      "encoded" = "effortlessbuilding-1.12.2-2.13.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/effortless-building/files/2737853";
+      "src" = "https://www.curseforge.com/minecraft/mc-mods/effortless-building/download/2737853/file";
+      "type" = "remote";
+      "md5" = "37549c2b3fce5f1fa144dea12ddc7740";
     };
     "eiramoticons" = {
       "title" = "EiraMoticons";
@@ -1802,6 +1834,22 @@
       "type" = "remote";
       "md5" = "31068c2265e4937093381d7d3bc625b2";
     };
+    "ore-excavation" = {
+      "title" = "Ore Excavation";
+      "name" = "ore-excavation";
+      "id" = 250898;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "OreExcavation-1.4.140.jar";
+      "maturity" = "release";
+      "encoded" = "OreExcavation-1.4.140.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/ore-excavation/files/2701066";
+      "src" = "https://www.curseforge.com/minecraft/mc-mods/ore-excavation/download/2701066/file";
+      "type" = "remote";
+      "md5" = "9c7d660f3a6fb5b0a7bbb9c2891bcfad";
+    };
     "p455w0rds-library" = {
       "title" = "p455w0rd's Library";
       "name" = "p455w0rds-library";
@@ -2118,6 +2166,22 @@
       "src" = ../third_party/1.12.2/sampler-1.73.jar;
       "type" = "local";
       "md5" = "0e114cfbcdcf95d6991f401b2c0318fe";
+    };
+    "scannable" = {
+      "title" = "Scannable";
+      "name" = "scannable";
+      "id" = 266784;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Scannable-MC1.12.2-1.6.3.24.jar";
+      "maturity" = "release";
+      "encoded" = "Scannable-MC1.12.2-1.6.3.24.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/scannable/files/2662364";
+      "src" = "https://www.curseforge.com/minecraft/mc-mods/scannable/download/2662364/file";
+      "type" = "remote";
+      "md5" = "3873d7e7061835bdf06fc83e58de64f0";
     };
     "schematica" = {
       "title" = "Schematica";

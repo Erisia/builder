@@ -110,10 +110,12 @@ mods:
 - name: "laggoggles"
   required: false
   default: false
-#- name: "scannable"
-#- name: "ore-excavation"
-#- name: "effortless-building"
-#- name: "grappling-hook-mod"
+#few laziness mods
+- name: "scannable"
+- name: "ore-excavation"
+- name: "effortless-building"
+- name: "grappling-hook-mod"
+- name: "building-gadgets"
 # IRC
 #- name: "thump"
 #  required: false
