@@ -40,7 +40,7 @@ rec {
   packs = {
     e22-5 = buildPack e22-5;
     elncognito = buildPack elncognito;
-    mettle = buildPack mettle;
+#    mettle = buildPack mettle;
     e23 = buildPack e23;
   };
 

@@ -17,6 +17,8 @@ mods:
 - name: "dragons-radio-mod"
 - name: "garden-stuff"
 - name: "catwalks-4"
+#dependency for decocraft2
+- name: "ptrlib"
 - name: "decocraft2"
 - name: "xtones"
 - name: "unlimited-chisel-works"
@@ -96,6 +98,7 @@ mods:
 - name: "akashic-tome"
 - name: "tool-belt"
 - name: "helpfixer"
+- name: "lunatriuscore"
 - name: "schematica"
   required: false
 - name: "reauth"

@@ -2159,21 +2159,21 @@ mods:
   required: true
   default: true
   curse: true
-- name: "storage-drawers-forestry-pack"
-  id: 231147
-  title: "Storage Drawers: Forestry Pack"
-  files:
-  - name: "StorageDrawers-Forestry-1.7.10-1.1.2.jar"
-    id: 2280532
-    maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/storage-drawers-forestry-pack/files/2280532"
-    md5: "d37ab233008bb78c3444b9a297b73190"
-  side: "both"
-  deps:
-  - "storage-drawers"
-  required: true
-  default: true
-  curse: true
+#- name: "storage-drawers-forestry-pack"
+#  id: 231147
+#  title: "Storage Drawers: Forestry Pack"
+#  files:
+#  - name: "StorageDrawers-Forestry-1.7.10-1.1.2.jar"
+#    id: 2280532
+#    maturity: null
+#    src: "https://www.curseforge.com/minecraft/mc-mods/storage-drawers-forestry-pack/files/2280532"
+#    md5: "d37ab233008bb78c3444b9a297b73190"
+#  side: "both"
+#  deps:
+#  - "storage-drawers"
+#  required: true
+#  default: true
+#  curse: true
 - name: "comforts"
   id: 276951
   title: "Comforts"

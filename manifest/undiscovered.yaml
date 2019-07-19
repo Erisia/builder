@@ -15,7 +15,7 @@ mods:
     id: 2496585
     maturity: null
     src: "https://www.curseforge.com/minecraft/mc-mods/appleskin/files/2496585"
-    src: "https://www.curseforge.com/minecraft/mc-mods/appleskin/files/2496585"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/appleskin/files/2496585"
     md5: "0e0af1e6f80ea2ee7ecfc2f8f44b897b"
   side: "both"
   deps: []
@@ -30,7 +30,7 @@ mods:
     id: 2496777
     maturity: null
     src: "https://www.curseforge.com/minecraft/mc-mods/bad-wither-no-cookie-reloaded/files/2496777"
-    src: "https://www.curseforge.com/minecraft/mc-mods/bad-wither-no-cookie-reloaded/files/2496777"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/bad-wither-no-cookie-reloaded/files/2496777"
     md5: "b50264029ca6b448026a3922f5131975"
   side: "both"
   deps: []
@@ -45,7 +45,7 @@ mods:
     id: 2504151
     maturity: null
     src: "https://www.curseforge.com/minecraft/mc-mods/better-advancements/files/2504151"
-    src: "https://www.curseforge.com/minecraft/mc-mods/better-advancements/files/2504151"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/better-advancements/files/2504151"
     md5: "a16be15706357e59ccb196e59d17e33d"
   side: "both"
   deps: []
@@ -59,8 +59,8 @@ mods:
   - name: "BetterFps-1.4.8.jar"
     id: 2483393
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/229876/files/2483393"
     src: "https://www.curseforge.com/minecraft/mc-mods/betterfps/files/2483393"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/betterfps/files/2483393"
     md5: "d36f4d3c0f96e99a9a1ad2e8eeda1fc4"
   side: "both"
   deps: []
@@ -81,7 +81,7 @@ mods:
     id: 2518667
     maturity: null
     src: "https://www.curseforge.com/minecraft/mc-mods/baubles/files/2518667"
-    src: "https://www.curseforge.com/minecraft/mc-mods/baubles/files/2518667"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/baubles/files/2518667"
     md5: "944dec4ef3fbfd4d498d94a7047af201"
   side: "both"
   deps: []
@@ -95,8 +95,8 @@ mods:
   - name: "Botania r1.10-354.jar"
     id: 2554929
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/225643/files/2554929"
     src: "https://www.curseforge.com/minecraft/mc-mods/botania/files/2554929"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/botania/files/2554929"
     md5: "5118bc6c51a76ba882c1665a77f78031"
   side: "both"
   deps:
@@ -111,8 +111,8 @@ mods:
   - name: "chiselsandbits-14.16.jar"
     id: 2541267
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/231095/files/2541267"
     src: "https://www.curseforge.com/minecraft/mc-mods/chisels-bits/files/2541267"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/chisels-bits/files/2541267"
     md5: "1e170d73dc846bab5bf0c484c44219ba"
   side: "both"
   deps: []
@@ -147,7 +147,7 @@ mods:
     id: 2522248
     maturity: null
     src: "https://www.curseforge.com/minecraft/mc-mods/controlling/files/2522248"
-    src: "https://www.curseforge.com/minecraft/mc-mods/controlling/files/2522248"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/controlling/files/2522248"
     md5: "0d9a0429c72bc1c06358f1166bdd8c59"
   side: "both"
   deps: []
@@ -161,8 +161,8 @@ mods:
   - name: "CookingForBlockheads_1.12.2-6.3.26.jar"
     id: 2543356
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/231484/files/2543356"
     src: "https://www.curseforge.com/minecraft/mc-mods/cooking-for-blockheads/files/2543356"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/cooking-for-blockheads/files/2543356"
     md5: "f2f008d4be93a83f36f3dac54bc87fc6"
   side: "both"
   deps: []
@@ -176,8 +176,8 @@ mods:
   - name: "CraftingTweaks_1.12.1-8.1.6.jar"
     id: 2489633
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/233071/files/2489633"
     src: "https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks/files/2489633"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks/files/2489633"
     md5: "0f0c105f8d14448109024128215d5159"
   side: "both"
   deps: []
@@ -191,8 +191,8 @@ mods:
   - name: "CustomMainMenu-MC1.12.2-2.0.8.jar"
     id: 2482584
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/226406/files/2482584"
     src: "https://www.curseforge.com/minecraft/mc-mods/custom-main-menu/files/2482584"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/custom-main-menu/files/2482584"
     md5: "9b80cdafc4521d124dc87fef9ee3bbcd"
   side: "both"
   deps: []
@@ -206,8 +206,8 @@ mods:
   - name: "Bookshelf-1.12.2-2.3.528.jar"
     id: 2536308
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/228525/files/2536308"
     src: "https://www.curseforge.com/minecraft/mc-mods/bookshelf/files/2536308"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/bookshelf/files/2536308"
     md5: "97ce5d96616f5e37f97a17b92c47db40"
   side: "both"
   deps: []
@@ -222,7 +222,7 @@ mods:
     id: 2535632
     maturity: null
     src: "https://www.curseforge.com/minecraft/mc-mods/dark-utilities/files/2535632"
-    src: "https://www.curseforge.com/minecraft/mc-mods/dark-utilities/files/2535632"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/dark-utilities/files/2535632"
     md5: "5825f31428443daeae47b0968e1bf2e3"
   side: "both"
   deps:
@@ -237,8 +237,8 @@ mods:
   - name: "DefaultOptions_1.12.2-9.2.5.jar"
     id: 2513607
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/232131/files/2513607"
     src: "https://www.curseforge.com/minecraft/mc-mods/default-options/files/2513607"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/default-options/files/2513607"
     md5: "d86d6d99630cdb17a1fe8a2b103d3f92"
   side: "both"
   deps: []
@@ -252,8 +252,8 @@ mods:
   - name: "diethopper-1.1.jar"
     id: 2482543
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/278385/files/2482543"
     src: "https://www.curseforge.com/minecraft/mc-mods/diet-hoppers/files/2482543"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/diet-hoppers/files/2482543"
     md5: "1d616cb7b25de3ae44f06e26d18bd07e"
   side: "both"
   deps: []
@@ -267,8 +267,8 @@ mods:
   - name: "CyclopsCore-1.12.2-0.11.6.jar"
     id: 2563905
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/232758/files/2563905"
     src: "https://www.curseforge.com/minecraft/mc-mods/cyclops-core/files/2563905"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/cyclops-core/files/2563905"
     md5: "10d7e56213a956c62a6c00d92e12b6ab"
   side: "both"
   deps: []
@@ -282,8 +282,8 @@ mods:
   - name: "EvilCraft-1.12.2-0.10.60.jar"
     id: 2578232
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/74610/files/2578232"
     src: "https://www.curseforge.com/minecraft/mc-mods/evilcraft/files/2578232"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/evilcraft/files/2578232"
     md5: "4b16a7a7f25e554a9348c0aed1143ebb"
   side: "both"
   deps:
@@ -298,8 +298,8 @@ mods:
   - name: "cucumber-1.12-1.0.4.jar"
     id: 2520478
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/272335/files/2520478"
     src: "https://www.curseforge.com/minecraft/mc-mods/cucumber/files/2520478"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/cucumber/files/2520478"
     md5: "e9ed509885633fa4128a4f9b182a2b34"
   side: "both"
   deps: []
@@ -313,8 +313,8 @@ mods:
   - name: "extendedcrafting-1.12-1.2.1.jar"
     id: 2532984
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/268387/files/2532984"
     src: "https://www.curseforge.com/minecraft/mc-mods/extended-crafting/files/2532984"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/extended-crafting/files/2532984"
     md5: "0d5feeab9b09aab17b56a805561775a4"
   side: "both"
   deps:
@@ -329,8 +329,8 @@ mods:
   - name: "zerocore-1.12-0.1.1.0.jar"
     id: 2482156
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/247921/files/2482156"
     src: "https://www.curseforge.com/minecraft/mc-mods/zerocore/files/2482156"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/zerocore/files/2482156"
     md5: "d73f9eaf0a1108741a2d398707f7976e"
   side: "both"
   deps: []
@@ -344,8 +344,8 @@ mods:
   - name: "ExtremeReactors-1.12.2-0.4.5.46.jar"
     id: 2525278
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/250277/files/2525278"
     src: "https://www.curseforge.com/minecraft/mc-mods/extreme-reactors/files/2525278"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/extreme-reactors/files/2525278"
     md5: "8a31b1684a525293fe1b58f5812c47a1"
   side: "both"
   deps:
@@ -360,8 +360,8 @@ mods:
   - name: "fencejumper-1.12-1.0.3.jar"
     id: 2529292
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/254652/files/2529292"
     src: "https://www.curseforge.com/minecraft/mc-mods/fence-jumper/files/2529292"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/fence-jumper/files/2529292"
     md5: "cbcbc7836fe9349bff10696dfd1ff7e0"
   side: "both"
   deps: []
@@ -376,7 +376,7 @@ mods:
     id: 2551149
     maturity: null
     src: "https://www.curseforge.com/minecraft/mc-mods/ftblib/files/2551149"
-    src: "https://www.curseforge.com/minecraft/mc-mods/ftblib/files/2551149"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/ftblib/files/2551149"
     md5: "9da01e47a7bea1b8521d7e56ec33a4d6"
   side: "both"
   deps: []
@@ -391,7 +391,7 @@ mods:
     id: 2551349
     maturity: null
     src: "https://www.curseforge.com/minecraft/mc-mods/ftb-utilities/files/2551349"
-    src: "https://www.curseforge.com/minecraft/mc-mods/ftb-utilities/files/2551349"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/ftb-utilities/files/2551349"
     md5: "7db548a8ed87c0db92b04b9b567e144a"
   side: "both"
   deps:
@@ -407,8 +407,8 @@ mods:
   - name: "bdlib-1.14.3.12-mc1.12.2.jar"
     id: 2518031
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/70496/files/2518031"
     src: "https://www.curseforge.com/minecraft/mc-mods/bdlib/files/2518031"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/bdlib/files/2518031"
     md5: "d2b8ba08414ac12737eb5ecbf92a19d9"
   side: "both"
   deps: []
@@ -430,8 +430,8 @@ mods:
   - name: "generators-0.9.20.12-mc1.12.2.jar"
     id: 2516219
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/223622/files/2516219"
     src: "https://www.curseforge.com/minecraft/mc-mods/advanced-generators/files/2516219"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/advanced-generators/files/2516219"
     md5: "7873749b116958f22a3af9d66db06a37"
   side: "both"
   deps:
@@ -447,7 +447,7 @@ mods:
     id: 2498312
     maturity: null
     src: "https://www.curseforge.com/minecraft/mc-mods/journeymap/files/2498312"
-    src: "https://www.curseforge.com/minecraft/mc-mods/journeymap/files/2498312"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/journeymap/files/2498312"
     md5: "b743562dac1b5334c20ac87b54c0b518"
   side: "both"
   deps: []
@@ -461,8 +461,8 @@ mods:
   - name: "InventoryTweaks-1.64-dev.jar"
     id: 2514356
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/223094/files/2514356"
     src: "https://www.curseforge.com/minecraft/mc-mods/inventory-tweaks/files/2514356"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/inventory-tweaks/files/2514356"
     md5: "30791650e1af0293a8fbc26756a0e92f"
   side: "both"
   deps: []
@@ -476,8 +476,8 @@ mods:
   - name: "ironchest-1.12.2-7.0.40.824.jar"
     id: 2533664
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/228756/files/2533664"
     src: "https://www.curseforge.com/minecraft/mc-mods/iron-chests/files/2533664"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/iron-chests/files/2533664"
     md5: "dd941ee283cfc5507ed846a1f52e67be"
   side: "both"
   deps: []
@@ -513,8 +513,8 @@ mods:
   - name: "KleeSlabs_1.12-5.3.2.jar"
     id: 2443462
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/241895/files/2443462"
     src: "https://www.curseforge.com/minecraft/mc-mods/kleeslabs/files/2443462"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/kleeslabs/files/2443462"
     md5: "52acf2a72f87a6a54ad89b1a5f6066a6"
   side: "both"
   deps: []
@@ -534,8 +534,8 @@ mods:
   - name: "modnametooltip_1.12.2-1.10.0.jar"
     id: 2486868
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/238747/files/2486868"
     src: "https://www.curseforge.com/minecraft/mc-mods/mod-name-tooltip/files/2486868"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/mod-name-tooltip/files/2486868"
     md5: "6dda75b858fc93e2d18ccd42585aec03"
   side: "both"
   deps: []
@@ -549,8 +549,8 @@ mods:
   - name: "Morpheus-1.12-3.3.2.jar"
     id: 2432272
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/69118/files/2432272"
     src: "https://www.curseforge.com/minecraft/mc-mods/morpheus/files/2432272"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/morpheus/files/2432272"
     md5: "6beb6c9b45a6526106f728ec35508a0c"
   side: "both"
   deps: []
@@ -565,7 +565,7 @@ mods:
     id: 2490064
     maturity: null
     src: "https://www.curseforge.com/minecraft/mc-mods/pressure-pipes/files/2490064"
-    src: "https://www.curseforge.com/minecraft/mc-mods/pressure-pipes/files/2490064"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/pressure-pipes/files/2490064"
     md5: "7673d46656e8fcc269dea0f56a2e2c34"
   side: "both"
   deps:
@@ -580,8 +580,8 @@ mods:
   - name: "AutoRegLib-1.3-15.jar"
     id: 2497562
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/250363/files/2497562"
     src: "https://www.curseforge.com/minecraft/mc-mods/autoreglib/files/2497562"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/autoreglib/files/2497562"
     md5: "cd28f7419357207a48d6d3e0ee07152a"
   side: "both"
   deps: []
@@ -589,7 +589,6 @@ mods:
   default: true
   curse: true
 - name: "psi"
-  side: "both"
   id: 241665
   title: "Psi"
   files:
@@ -597,8 +596,9 @@ mods:
     id: 2499167
     maturity: null
     src: "https://www.curseforge.com/minecraft/mc-mods/psi/files/2499167"
-    src: "https://www.curseforge.com/minecraft/mc-mods/psi/files/2499167"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/psi/files/2499167"
     md5: "92aec994592bfcad6f09c810a2e9efb8"
+  side: "both"
   deps:
   - "autoreglib"
   required: true
@@ -612,7 +612,7 @@ mods:
     id: 2469364
     maturity: null
     src: "https://www.curseforge.com/minecraft/mc-mods/quick-leaf-decay/files/2469364"
-    src: "https://www.curseforge.com/minecraft/mc-mods/quick-leaf-decay/files/2469364"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/quick-leaf-decay/files/2469364"
     md5: "e8565fac075a2cef2400ea9bd782ce9c"
   side: "both"
   deps: []
@@ -627,7 +627,7 @@ mods:
     id: 2521025
     maturity: null
     src: "https://www.curseforge.com/minecraft/mc-mods/random-things/files/2521025"
-    src: "https://www.curseforge.com/minecraft/mc-mods/random-things/files/2521025"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/random-things/files/2521025"
     md5: "91a7cedd0a5e956430c68b24a262f55b"
   side: "both"
   deps: []
@@ -641,8 +641,8 @@ mods:
   - name: "Reliquary-1.12.2-1.3.4.753.jar"
     id: 2536361
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/241319/files/2536361"
     src: "https://www.curseforge.com/minecraft/mc-mods/reliquary-v1-3/files/2536361"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/reliquary-v1-3/files/2536361"
     md5: "99a893ad8c3a23627d7672cdb90a189f"
   side: "both"
   deps: []
@@ -656,8 +656,8 @@ mods:
   - name: "mcjtylib-1.12-3.0.0.jar"
     id: 2569362
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/233105/files/2569362"
     src: "https://www.curseforge.com/minecraft/mc-mods/mcjtylib/files/2569362"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/mcjtylib/files/2569362"
     md5: "d46adf363f3adf512d07d8624274009e"
   side: "both"
   deps: []
@@ -672,7 +672,7 @@ mods:
     id: 2569381
     maturity: null
     src: "https://www.curseforge.com/minecraft/mc-mods/rftools/files/2569381"
-    src: "https://www.curseforge.com/minecraft/mc-mods/rftools/files/2569381"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/rftools/files/2569381"
     md5: "ea0767291a7fde01064290d568e989b0"
   side: "both"
   deps:
@@ -688,7 +688,7 @@ mods:
     id: 2569383
     maturity: null
     src: "https://www.curseforge.com/minecraft/mc-mods/rftools-dimensions/files/2569383"
-    src: "https://www.curseforge.com/minecraft/mc-mods/rftools-dimensions/files/2569383"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/rftools-dimensions/files/2569383"
     md5: "3b77132f70c3ddc5557c0cc93193f0cf"
   side: "both"
   deps:
@@ -704,8 +704,8 @@ mods:
   - name: "rustic-0.4.10.jar"
     id: 2535889
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/256141/files/2535889"
     src: "https://www.curseforge.com/minecraft/mc-mods/rustic/files/2535889"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/rustic/files/2535889"
     md5: "8aedbe77eebb8309ef12b708d7582f1c"
   side: "both"
   deps: []
@@ -719,8 +719,8 @@ mods:
   - name: "RebornCore-1.12.2-3.6.8.214-universal.jar"
     id: 2533996
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/237903/files/2533996"
     src: "https://www.curseforge.com/minecraft/mc-mods/reborncore/files/2533996"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/reborncore/files/2533996"
     md5: "972095c887c529dadd5e1dc02b334fae"
   side: "both"
   deps: []
@@ -735,7 +735,7 @@ mods:
     id: 2539158
     maturity: null
     src: "https://www.curseforge.com/minecraft/mc-mods/steves-carts-reborn/files/2539158"
-    src: "https://www.curseforge.com/minecraft/mc-mods/steves-carts-reborn/files/2539158"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/steves-carts-reborn/files/2539158"
     md5: "1f288760d92aced1dc7eb89497d68b61"
   side: "both"
   deps:
@@ -750,8 +750,8 @@ mods:
   - name: "Chameleon-1.12-4.1.3.jar"
     id: 2450900
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/230497/files/2450900"
     src: "https://www.curseforge.com/minecraft/mc-mods/chameleon/files/2450900"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/chameleon/files/2450900"
     md5: "e42efa8f4fd42d2918128a826b740e98"
   side: "both"
   deps: []
@@ -765,8 +765,8 @@ mods:
   - name: "StorageDrawers-1.12.2-5.3.5.jar"
     id: 2536306
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/223852/files/2536306"
     src: "https://www.curseforge.com/minecraft/mc-mods/storage-drawers/files/2536306"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/storage-drawers/files/2536306"
     md5: "992c0d50616449bc693cf6f82cac5cee"
   side: "both"
   deps:
@@ -781,8 +781,8 @@ mods:
   - name: "lostcities-1.12-2.0.18.jar"
     id: 2704400
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/269024/files/2704400"
     src: "https://www.curseforge.com/minecraft/mc-mods/the-lost-cities/files/2704400"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/the-lost-cities/files/2704400"
     md5: "7347af2c81810ac49c7fe60f96a68309"
   side: "both"
   deps: []
@@ -796,8 +796,8 @@ mods:
   - name: "theoneprobe-1.12-1.4.22.jar"
     id: 2549097
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/245211/files/2549097"
     src: "https://www.curseforge.com/minecraft/mc-mods/the-one-probe/files/2549097"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/the-one-probe/files/2549097"
     md5: "ec0a77ddc08541135a02ecfe6755d393"
   side: "both"
   deps: []
@@ -859,8 +859,8 @@ mods:
   - name: "topaddons-1.12.2-1.5.0.jar"
     id: 2542777
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/247111/files/2542777"
     src: "https://www.curseforge.com/minecraft/mc-mods/top-addons/files/2542777"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/top-addons/files/2542777"
     md5: "e0731115fa3fa0aee71d96dd59496450"
   side: "both"
   deps:
@@ -875,8 +875,8 @@ mods:
   - name: "Traverse-1.12.1-1.3.1.jar"
     id: 2478137
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/267769/files/2478137"
     src: "https://www.curseforge.com/minecraft/mc-mods/traverse/files/2478137"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/traverse/files/2478137"
     md5: "105f6428f2d4ef9b18e03cd646e3e7ac"
   side: "both"
   deps: []
@@ -890,8 +890,8 @@ mods:
   - name: "World-Stripper-1.5.1-1.12.2.jar"
     id: 2507897
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/250603/files/2507897"
     src: "https://www.curseforge.com/minecraft/mc-mods/world-stripper/files/2507897"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/world-stripper/files/2507897"
     md5: "f358b7ae49573d7ee78faceab0af7b7b"
   side: "both"
   deps: []
@@ -906,7 +906,7 @@ mods:
     id: 2578671
     maturity: null
     src: "https://www.curseforge.com/minecraft/mc-mods/xnet/files/2578671"
-    src: "https://www.curseforge.com/minecraft/mc-mods/xnet/files/2578671"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/xnet/files/2578671"
     md5: "dd71afa62b72683c33c038a4daeeb896"
   side: "both"
   deps:
@@ -921,8 +921,8 @@ mods:
   - name: "tombstone-2.3.2-1.12.jar"
     id: 2522447
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/243707/files/2522447"
     src: "https://www.curseforge.com/minecraft/mc-mods/corail-tombstone/files/2522447"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/corail-tombstone/files/2522447"
     md5: "2131c34a5f4edb4cf6fc77d32bbc4e40"
   side: "both"
   deps: []
@@ -936,8 +936,8 @@ mods:
   - name: "astralsorcery-1.12.2-1.10.17.jar"
     id: 2701235
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/241721/files/2701235"
     src: "https://www.curseforge.com/minecraft/mc-mods/astral-sorcery/files/2701235"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/astral-sorcery/files/2701235"
     md5: "71b89c9d39f8f4db4c48909f3dc4ba46"
   side: "both"
   deps:
@@ -952,8 +952,8 @@ mods:
   - name: "Clumps-3.0.0.jar"
     id: 2458862
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/256717/files/2458862"
     src: "https://www.curseforge.com/minecraft/mc-mods/clumps/files/2458862"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/clumps/files/2458862"
     md5: "9dacb61f79448e2b1707a69e9f3f1bc9"
   side: "both"
   deps: []
@@ -967,8 +967,8 @@ mods:
   - name: "grapplemod-v10-1.12.2.jar"
     id: 2561418
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/238911/files/2561418"
     src: "https://www.curseforge.com/minecraft/mc-mods/grappling-hook-mod/files/2561418"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/grappling-hook-mod/files/2561418"
     md5: "22ed9ff4997dbbfa37eadbe876bad729"
   side: "both"
   deps: []
@@ -983,7 +983,7 @@ mods:
     id: 2495438
     maturity: null
     src: "https://www.curseforge.com/minecraft/mc-mods/more-overlays/files/2495438"
-    src: "https://www.curseforge.com/minecraft/mc-mods/more-overlays/files/2495438"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/more-overlays/files/2495438"
     md5: "3cc08d8c99db412c904389bce6e12cd3"
   side: "both"
   deps: []
@@ -997,8 +997,8 @@ mods:
   - name: "NoMobSpawningOnTrees-1.2.1-mc1.12.jar"
     id: 2436238
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/226779/files/2436238"
     src: "https://www.curseforge.com/minecraft/mc-mods/no-mob-spawning-on-trees/files/2436238"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/no-mob-spawning-on-trees/files/2436238"
     md5: "93bc1b7f7bdad6bb82e79fc190e769d4"
   side: "both"
   deps: []
@@ -1012,8 +1012,8 @@ mods:
   - name: "ElevatorMod-1.12.2-1.4.0.jar"
     id: 2524762
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/250832/files/2524762"
     src: "https://www.curseforge.com/minecraft/mc-mods/openblocks-elevator/files/2524762"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/openblocks-elevator/files/2524762"
     md5: "31068c2265e4937093381d7d3bc625b2"
   side: "both"
   deps: []
@@ -1027,8 +1027,8 @@ mods:
   - name: "StorageDrawersExtras-1.12-3.1.0.jar"
     id: 2443623
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/254879/files/2443623"
     src: "https://www.curseforge.com/minecraft/mc-mods/storage-drawers-extras/files/2443623"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/storage-drawers-extras/files/2443623"
     md5: "972063ce9ceb8df9af49e73858e557fa"
   side: "both"
   deps:
@@ -1044,8 +1044,8 @@ mods:
   - name: "BiblioCraft[v2.4.3][MC1.12.0].jar"
     id: 2456043
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/228027/files/2456043"
     src: "https://www.curseforge.com/minecraft/mc-mods/bibliocraft/files/2456043"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/bibliocraft/files/2456043"
     md5: "a3733a86d30d0a3c0ce585e838ea7db1"
   side: "both"
   deps: []
@@ -1059,8 +1059,8 @@ mods:
   - name: "CTM-MC1.12.2-0.3.3.22.jar"
     id: 2642375
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/267602/files/2642375"
     src: "https://www.curseforge.com/minecraft/mc-mods/ctm/files/2642375"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/ctm/files/2642375"
     md5: "086cd9da4b8c50a9e483c7b580a9c4d8"
   side: "both"
   deps: []
@@ -1075,7 +1075,7 @@ mods:
     id: 2535884
     maturity: null
     src: "https://www.curseforge.com/minecraft/mc-mods/chisel/files/2535884"
-    src: "https://www.curseforge.com/minecraft/mc-mods/chisel/files/2535884"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/chisel/files/2535884"
     md5: "853c56bd014423e424ecef6db2c1efb1"
   side: "both"
   deps: []
@@ -1089,8 +1089,8 @@ mods:
   - name: "BrandonsCore-1.12-2.4.0.152-universal.jar"
     id: 2530025
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/231382/files/2530025"
     src: "https://www.curseforge.com/minecraft/mc-mods/brandons-core/files/2530025"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/brandons-core/files/2530025"
     md5: "134ecd6cd2b047f6eda710c96c847586"
   side: "both"
   deps:
@@ -1106,8 +1106,8 @@ mods:
   - name: "Draconic-Evolution-1.12-2.3.10.284-universal.jar"
     id: 2535360
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/223565/files/2535360"
     src: "https://www.curseforge.com/minecraft/mc-mods/draconic-evolution/files/2535360"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/draconic-evolution/files/2535360"
     md5: "33cace44df89bc8c80e9dfcaa4446388"
   side: "both"
   deps:
@@ -1125,7 +1125,7 @@ mods:
     id: 2678374
     maturity: null
     src: "https://www.curseforge.com/minecraft/mc-mods/extra-utilities/files/2678374"
-    src: "https://www.curseforge.com/minecraft/mc-mods/extra-utilities/files/2678374"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/extra-utilities/files/2678374"
     md5: "1ea591619e6d5204bf077214868772ef"
   side: "both"
   deps: []
@@ -1139,8 +1139,8 @@ mods:
   - name: "ikwid-1.0.2.jar"
     id: 2469710
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/271492/files/2469710"
     src: "https://www.curseforge.com/minecraft/mc-mods/i-know-what-im-doing/files/2469710"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/i-know-what-im-doing/files/2469710"
     md5: "33debbd704840d9bceb170c44f1e3a2d"
   side: "both"
   deps: []
@@ -1167,8 +1167,8 @@ mods:
   - name: "itemzoom_1.12.1-1.10.jar"
     id: 2463740
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/261725/files/2463740"
     src: "https://www.curseforge.com/minecraft/mc-mods/itemzoom/files/2463740"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/itemzoom/files/2463740"
     md5: "720d97f51611a01f84bd102462368abe"
   side: "both"
   deps: []
@@ -1182,8 +1182,8 @@ mods:
   - name: "JEHC-1.12.2-1.4.0.0.jar"
     id: 2534996
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/267939/files/2534996"
     src: "https://www.curseforge.com/minecraft/mc-mods/just-enough-harvestcraft/files/2534996"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/just-enough-harvestcraft/files/2534996"
     md5: "3562108a2b4621cc9512e4d2e8a1f253"
   side: "both"
   deps: []
@@ -1197,8 +1197,8 @@ mods:
   - name: "Forgelin-1.6.0.jar"
     id: 2505090
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/248453/files/2505090"
     src: "https://www.curseforge.com/minecraft/mc-mods/shadowfacts-forgelin/files/2505090"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/shadowfacts-forgelin/files/2505090"
     md5: "a6a1d137f7bbbbe5f89ecb790105f268"
   side: "both"
   deps: []
@@ -1212,8 +1212,8 @@ mods:
   - name: "modelloader-1.0.5.jar"
     id: 2479208
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/277663/files/2479208"
     src: "https://www.curseforge.com/minecraft/mc-mods/modelloader/files/2479208"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/modelloader/files/2479208"
     md5: "9877233d0cd505a3ff1e6831d5219a62"
   side: "both"
   deps: []
@@ -1228,7 +1228,7 @@ mods:
     id: 2556872
     maturity: null
     src: "https://www.curseforge.com/minecraft/mc-mods/magneticraft/files/2556872"
-    src: "https://www.curseforge.com/minecraft/mc-mods/magneticraft/files/2556872"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/magneticraft/files/2556872"
     md5: "78abc16b37a88bcbc9e3ae3ae1446a4c"
   side: "both"
   deps:
@@ -1245,7 +1245,7 @@ mods:
     id: 2496911
     maturity: null
     src: "https://www.curseforge.com/minecraft/mc-mods/mob-grinding-utils/files/2496911"
-    src: "https://www.curseforge.com/minecraft/mc-mods/mob-grinding-utils/files/2496911"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/mob-grinding-utils/files/2496911"
     md5: "7016b438cd5aa6dfd27b354ce53fcf66"
   side: "both"
   deps: []
@@ -1273,8 +1273,8 @@ mods:
   - name: "MouseTweaks-2.8-mc1.12.1.jar"
     id: 2462627
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/60089/files/2462627"
     src: "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks/files/2462627"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks/files/2462627"
     md5: "34343a214952bd0631e7692b1bf6e586"
   side: "both"
   deps: []
@@ -1288,8 +1288,8 @@ mods:
   - name: "OpenGlider-1.12.1-1.1.0.jar"
     id: 2464501
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/252354/files/2464501"
     src: "https://www.curseforge.com/minecraft/mc-mods/open-glider/files/2464501"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/open-glider/files/2464501"
     md5: "057ce598bed8e0414d1b2c7ae863a234"
   side: "both"
   deps: []
@@ -1303,8 +1303,8 @@ mods:
   - name: "ReAuth-3.5.2.jar"
     id: 2491161
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/237701/files/2491161"
     src: "https://www.curseforge.com/minecraft/mc-mods/reauth/files/2491161"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/reauth/files/2491161"
     md5: "5378a69bdd80d8b63ac275bb1d780e3e"
   side: "both"
   deps: []
@@ -1318,8 +1318,8 @@ mods:
   - name: "redstonepaste-mc1.12-1.7.5.jar"
     id: 2477676
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/67508/files/2477676"
     src: "https://www.curseforge.com/minecraft/mc-mods/redstone-paste/files/2477676"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/redstone-paste/files/2477676"
     md5: "891eac2b35d015777858f713b4eeee69"
   side: "both"
   deps: []
@@ -1334,7 +1334,7 @@ mods:
     id: 2549128
     maturity: null
     src: "https://www.curseforge.com/minecraft/mc-mods/ruins-structure-spawning-system/files/2549128"
-    src: "https://www.curseforge.com/minecraft/mc-mods/ruins-structure-spawning-system/files/2549128"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/ruins-structure-spawning-system/files/2549128"
     md5: "f3342c626818be64c9164e66b3499476"
   side: "both"
   deps: []
@@ -1348,8 +1348,8 @@ mods:
   - name: "Harvest-1.12-1.2.6-18.jar"
     id: 2475234
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/240783/files/2475234"
     src: "https://www.curseforge.com/minecraft/mc-mods/simpleharvest/files/2475234"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/simpleharvest/files/2475234"
     md5: "540653c37e350a3f928ba176896e44c5"
   side: "both"
   deps: []
@@ -1363,8 +1363,8 @@ mods:
   - name: "AppleCore-mc1.12.2-3.1.1.jar"
     id: 2530884
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/224472/files/2530884"
     src: "https://www.curseforge.com/minecraft/mc-mods/applecore/files/2530884"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/applecore/files/2530884"
     md5: "b07ddee5ebde78a0f4d8bf770f4c11f8"
   side: "both"
   deps: []
@@ -1378,8 +1378,8 @@ mods:
   - name: "solcarrot-1.12.1-1.2.0.jar"
     id: 2484559
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/277616/files/2484559"
     src: "https://www.curseforge.com/minecraft/mc-mods/spice-of-life-carrot-edition/files/2484559"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/spice-of-life-carrot-edition/files/2484559"
     md5: "7ab67818a2bdad1b84d55e06e262eed1"
   side: "both"
   deps:
@@ -1394,8 +1394,8 @@ mods:
   - name: "WaterStrainer-1.12-3.2.0.jar"
     id: 2460195
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/246939/files/2460195"
     src: "https://www.curseforge.com/minecraft/mc-mods/water-strainer/files/2460195"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/water-strainer/files/2460195"
     md5: "353d23bcd19d23fa13a12b41222475f0"
   side: "both"
   deps: []
@@ -1410,7 +1410,7 @@ mods:
     id: 2531411
     maturity: null
     src: "https://www.curseforge.com/minecraft/mc-mods/xtones/files/2531411"
-    src: "https://www.curseforge.com/minecraft/mc-mods/xtones/files/2531411"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/xtones/files/2531411"
     md5: "a0dda7a3c7aac216e75260d2142cc7f3"
   side: "both"
   deps: []
@@ -1425,7 +1425,7 @@ mods:
     id: 2558685
     maturity: null
     src: "https://www.curseforge.com/minecraft/mc-mods/mekanism-generators/files/2558685"
-    src: "https://www.curseforge.com/minecraft/mc-mods/mekanism-generators/files/2558685"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/mekanism-generators/files/2558685"
     md5: "c974a8f81f98b51113f6a663fcd40ba9"
   side: "both"
   deps:
@@ -1440,8 +1440,8 @@ mods:
   - name: "Pam's HarvestCraft 1.12.2q.jar"
     id: 2533991
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/221857/files/2533991"
     src: "https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft/files/2533991"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft/files/2533991"
     md5: "51cfde19cf8b42906722eefba55632a4"
   side: "both"
   deps: []
@@ -1468,8 +1468,8 @@ mods:
   - name: "sonarcore-1.12.2-5.0.6.jar"
     id: 2536247
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/239418/files/2536247"
     src: "https://www.curseforge.com/minecraft/mc-mods/sonar-core/files/2536247"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/sonar-core/files/2536247"
     md5: "fcd50d4850c8731a404ee9d20f9274cc"
   side: "both"
   deps: []
@@ -1483,8 +1483,8 @@ mods:
   - name: "calculator-1.12.2-5.0.4.jar"
     id: 2536249
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/225104/files/2536249"
     src: "https://www.curseforge.com/minecraft/mc-mods/calculator/files/2536249"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/calculator/files/2536249"
     md5: "65758e2bb2be423f5ed9b6ab70e94130"
   side: "both"
   deps:
@@ -1499,8 +1499,8 @@ mods:
   - name: "Tesla-1.12.2-1.0.63.jar"
     id: 2487959
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/244651/files/2487959"
     src: "https://www.curseforge.com/minecraft/mc-mods/tesla/files/2487959"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/tesla/files/2487959"
     md5: "fa040aadae95494411406859f98959c6"
   side: "both"
   deps: []
@@ -1514,8 +1514,8 @@ mods:
   - name: "tesla-core-lib-1.12-1.0.12.jar"
     id: 2509629
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/254602/files/2509629"
     src: "https://www.curseforge.com/minecraft/mc-mods/tesla-core-lib/files/2509629"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/tesla-core-lib/files/2509629"
     md5: "a81da5764b5a72a50c4f4fb3fdc7293c"
   side: "both"
   deps:
@@ -1528,10 +1528,10 @@ mods:
   title: "Industrial Foregoing"
   files:
   - name: "industrialforegoing-1.12.2-1.8.11-147.jar"
-    id: 2555991
+    id: 2563319
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing/files/2555991"
-    src: "https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing/files/2555991"
+    src: "https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing/files/2563319"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing/files/2563319"
     md5: "d3cad9e841c6722199c16a0b5e9ff8ce"
   side: "both"
   deps:
@@ -1547,7 +1547,7 @@ mods:
     id: 2467353
     maturity: null
     src: "https://www.curseforge.com/minecraft/mc-mods/better-questing/files/2467353"
-    src: "https://www.curseforge.com/minecraft/mc-mods/better-questing/files/2467353"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/better-questing/files/2467353"
     md5: "1c215f7592e4eedb860d87ce467fbf58"
   side: "both"
   deps: []
@@ -1562,7 +1562,7 @@ mods:
     id: 2467361
     maturity: null
     src: "https://www.curseforge.com/minecraft/mc-mods/better-questing-standard-expansion/files/2467361"
-    src: "https://www.curseforge.com/minecraft/mc-mods/better-questing-standard-expansion/files/2467361"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/better-questing-standard-expansion/files/2467361"
     md5: "2332f867004d5d337d44d4e3c79fbd77"
   side: "both"
   deps: []
@@ -1576,8 +1576,8 @@ mods:
   - name: "DefaultWorldGenerator-port-1.12-2.3.jar"
     id: 2499252
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/241140/files/2499252"
     src: "https://www.curseforge.com/minecraft/mc-mods/default-world-generator-port/files/2499252"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/default-world-generator-port/files/2499252"
     md5: "27342535d5f14279edb725a19bc5a4ca"
   side: "both"
   deps: []
@@ -1591,8 +1591,8 @@ mods:
   - name: "scrap-1.4.3.jar"
     id: 2524118
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/281290/files/2524118"
     src: "https://www.curseforge.com/minecraft/mc-mods/scrap/files/2524118"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/scrap/files/2524118"
     md5: "cbe44adca3a2dbdb68310b624acc194a"
   side: "both"
   deps: []
@@ -1606,8 +1606,8 @@ mods:
   - name: "questbook-3.0.0-1.12.jar"
     id: 2484139
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/242106/files/2484139"
     src: "https://www.curseforge.com/minecraft/mc-mods/better-questing-quest-book/files/2484139"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/better-questing-quest-book/files/2484139"
     md5: "1c6c7e403cebef885008a3f3cda897f8"
   side: "both"
   deps:
@@ -1623,7 +1623,7 @@ mods:
     id: 2558683
     maturity: null
     src: "https://www.curseforge.com/minecraft/mc-mods/mekanism/files/2558683"
-    src: "https://www.curseforge.com/minecraft/mc-mods/mekanism/files/2558683"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/mekanism/files/2558683"
     md5: "238e100a61f60c9d4f3293d337c541c3"
   side: "both"
   deps: []
@@ -1638,7 +1638,7 @@ mods:
     id: 2504521
     maturity: null
     src: "https://www.curseforge.com/minecraft/mc-mods/loottweaker/files/2504521"
-    src: "https://www.curseforge.com/minecraft/mc-mods/loottweaker/files/2504521"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/loottweaker/files/2504521"
     md5: "98ebcabf851e70c810a47e8f871f4835"
   side: "both"
   deps:
@@ -1660,8 +1660,8 @@ mods:
   - name: "NaturesCompass-1.12.2-1.5.1.jar"
     id: 2513221
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/252848/files/2513221"
     src: "https://www.curseforge.com/minecraft/mc-mods/natures-compass/files/2513221"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/natures-compass/files/2513221"
     md5: "8a1c19eb3a656ba4a577ba9864399540"
   side: "both"
   deps: []
@@ -1675,8 +1675,8 @@ mods:
   - name: "SilentLib-1.12.2-3.0.13+167.jar"
     id: 2675924
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/242998/files/2675924"
     src: "https://www.curseforge.com/minecraft/mc-mods/silent-lib/files/2675924"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/silent-lib/files/2675924"
     md5: "226e4977e83fec1fd88963ce7a98fb16"
   side: "both"
   deps: []
@@ -1690,8 +1690,8 @@ mods:
   - name: "SilentsGems-1.12.2-2.8.17+319.jar"
     id: 2703594
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/220311/files/2703594"
     src: "https://www.curseforge.com/minecraft/mc-mods/silents-gems/files/2703594"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/silents-gems/files/2703594"
     md5: "30d1a7cde6594251064dc99eb09437e4"
   side: "both"
   deps:
@@ -1706,8 +1706,8 @@ mods:
   - name: "comforts-1.12.2-1.1.0.2.jar"
     id: 2534172
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/276951/files/2534172"
     src: "https://www.curseforge.com/minecraft/mc-mods/comforts/files/2534172"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/comforts/files/2534172"
     md5: "79069da27e181e89f91a55aa2e88323b"
   side: "both"
   deps: []
@@ -1721,8 +1721,8 @@ mods:
   - name: "Placebo-1.12.2-1.2.0.jar"
     id: 2530448
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/283644/files/2530448"
     src: "https://www.curseforge.com/minecraft/mc-mods/placebo/files/2530448"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/placebo/files/2530448"
     md5: "989ba8cf8cf46b09900f776147e079e0"
   side: "both"
   deps: []
@@ -1736,8 +1736,8 @@ mods:
   - name: "Toast Control-1.12.2-1.3.1.jar"
     id: 2530458
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/271740/files/2530458"
     src: "https://www.curseforge.com/minecraft/mc-mods/toast-control/files/2530458"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/toast-control/files/2530458"
     md5: "72c6c707d71ba3c39c3f4a66428aa220"
   side: "both"
   deps:
@@ -1752,8 +1752,8 @@ mods:
   - name: "EnderStorage-1.12.2-2.4.2.126-universal.jar"
     id: 2509842
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/245174/files/2509842"
     src: "https://www.curseforge.com/minecraft/mc-mods/ender-storage-1-8/files/2509842"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/ender-storage-1-8/files/2509842"
     md5: "ffc1d43ab70c751a90b343fdd826ea73"
   side: "both"
   deps:
@@ -1781,8 +1781,8 @@ mods:
   - name: "DankNull-1.12-1.4.33.jar"
     id: 2533602
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/272514/files/2533602"
     src: "https://www.curseforge.com/minecraft/mc-mods/dank-null/files/2533602"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/dank-null/files/2533602"
     md5: "1b74f9110a168e027ae62652a23d7063"
   side: "both"
   deps:
@@ -1804,8 +1804,8 @@ mods:
   - name: "ExtraCells-1.12.2-2.6.2a.jar"
     id: 2653854
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/229218/files/2653854"
     src: "https://www.curseforge.com/minecraft/mc-mods/extracells2/files/2653854"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/extracells2/files/2653854"
     md5: "d289ffbb9f618e524ece8a2c944498e0"
   side: "both"
   deps:
@@ -1820,8 +1820,8 @@ mods:
   - name: "AkashicTome-1.2-10.jar"
     id: 2476494
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/250577/files/2476494"
     src: "https://www.curseforge.com/minecraft/mc-mods/akashic-tome/files/2476494"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/akashic-tome/files/2476494"
     md5: "e5d6f7aa5bfe8987fcecc57dc2dc512b"
   side: "both"
   deps:
@@ -1836,8 +1836,8 @@ mods:
   - name: "FastWorkbench-1.12.2-1.3.2.jar"
     id: 2560485
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/288885/files/2560485"
     src: "https://www.curseforge.com/minecraft/mc-mods/fastworkbench/files/2560485"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/fastworkbench/files/2560485"
     md5: "8b4d814b04c74724abd6967484a03d13"
   side: "both"
   deps: []
@@ -1851,8 +1851,8 @@ mods:
   - name: "packmode-1.12.1-1.1.0.jar"
     id: 2489662
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/278398/files/2489662"
     src: "https://www.curseforge.com/minecraft/mc-mods/packmode/files/2489662"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/packmode/files/2489662"
     md5: "d6a148a2355f58bae05d94aca2cdcf43"
   side: "both"
   deps: []
@@ -1866,8 +1866,8 @@ mods:
   - name: "HungerInPeace-mc1.12-1.0.0.jar"
     id: 2442631
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/224473/files/2442631"
     src: "https://www.curseforge.com/minecraft/mc-mods/hunger-in-peace/files/2442631"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/hunger-in-peace/files/2442631"
     md5: "32ec8362f3d91021c48d92b036bd3c6c"
   side: "both"
   deps:
@@ -1882,8 +1882,8 @@ mods:
   - name: "foamfix-0.9.9.1-1.12.2-anarchy.jar"
     id: 2559212
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/278494/files/2559212"
     src: "https://www.curseforge.com/minecraft/mc-mods/foamfix-for-minecraft/files/2559212"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/foamfix-for-minecraft/files/2559212"
     md5: "7f8f1e58481d9acbb9e32caf8d59058a"
   side: "both"
   deps: []
@@ -1897,8 +1897,8 @@ mods:
   - name: "bedpatch-2.2-1.12.2.jar"
     id: 2532663
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/282963/files/2532663"
     src: "https://www.curseforge.com/minecraft/mc-mods/bed-patch/files/2532663"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/bed-patch/files/2532663"
     md5: "336fea80502d84a94a04791c64f1b071"
   side: "both"
   deps: []
@@ -1912,14 +1912,16 @@ mods:
   - name: "EiraMoticons_1.12-6.3.4.jar"
     id: 2489632
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/230849/files/2489632"
     src: "https://www.curseforge.com/minecraft/mc-mods/eiramoticons/files/2489632"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/eiramoticons/files/2489632"
     md5: "c6582961eab9bbdac66f13aef7741883"
   side: "both"
   deps: []
   required: true
   default: true
   curse: true
+#dependency for wireless-crafting-terminal
+- name: "ae2wtlib"
 - name: "wireless-crafting-terminal"
 - name: "realbench"
   id: 237414
@@ -1928,8 +1930,8 @@ mods:
   - name: "RealBench-1.12.2-1.3.3.jar"
     id: 2505261
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/237414/files/2505261"
     src: "https://www.curseforge.com/minecraft/mc-mods/realbench/files/2505261"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/realbench/files/2505261"
     md5: "9f26fffad6c89e644ac56335cac8bcc5"
   side: "both"
   deps: []
@@ -1943,8 +1945,8 @@ mods:
   - name: "TickProfiler-1.12-0.0.4.jar"
     id: 2536494
     maturity: null
-    src: "https://www.curseforge.com/minecraft/mc-mods/270330/files/2536494"
     src: "https://www.curseforge.com/minecraft/mc-mods/tickprofiler/files/2536494"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/tickprofiler/files/2536494"
     md5: "0ad4903b26054386e040badc580ccb78"
   side: "both"
   deps: []
