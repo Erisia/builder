@@ -47,20 +47,6 @@ mods:
   default: true
   curse: true
 - name: "logistics-pipes"
-  id: 232838
-  title: "Logistics Pipes"
-  files:
-  - name: "logisticspipes-0.10.2.183.jar"
-    id: 2732727
-    maturity: null
-    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/logistics-pipes/files/2732727"
-    src: "https://www.curseforge.com/minecraft/mc-mods/logistics-pipes/download/2732727/file"
-    md5: "0d6f6415450c31736cf0692aa39f959d"
-  side: "both"
-  deps: []
-  required: true
-  default: true
-  curse: true
 - name: "bad-wither-no-cookie-reloaded"
   id: 261251
   title: "Bad Wither No Cookie - Reloaded"
