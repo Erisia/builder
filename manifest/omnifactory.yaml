@@ -1334,7 +1334,7 @@ mods:
   title: "GregTech Community Edition"
   curse: false
   files:
-  - src: "https://github.com/guineawheek/GregTech/releases/download/v1.8.4-fork-armfix/gregtech-1.12.2-1.8.4.419-COVERFIX.jar"
+  - src: "../third_party/1.12.2/gregtech-1.12.2-1.8.4.419exa2.jar"
 - name: "more-cauldrons"
   id: 290545
   title: "More Cauldrons"
@@ -1509,20 +1509,13 @@ mods:
   default: true
   curse: true
 - name: "shadows-of-greg"
-  id: 316751
   title: "Shadows of Greg"
+  curse: false
   files:
-  - name: "Shadows_of_Greg-1.12.2-2.8.0.jar"
-    id: 2723374
-    maturity: null
-    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/shadows-of-greg/files/2723374"
-    src: "https://www.curseforge.com/minecraft/mc-mods/shadows-of-greg/download/2723374/file"
-    md5: "035e8894c11612307d2c7d28f38eae1f"
+  - src: "../third_party/1.12.2/Shadows_of_Greg-1.12.2-2.8.0_fix.jar"
   side: "both"
-  deps: []
   required: true
   default: true
-  curse: true
 - name: "ftb-utilities"
   id: 237102
   title: "FTB Utilities"
