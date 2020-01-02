@@ -1,0 +1,61 @@
+"dependencies": "silentgems",
+	"populate": {       
+	   "silentgem": {
+            "distribution": "fractal",
+            "generator": {
+                "type": "large-vein",
+                "block": [
+                    {
+                        "name": "silentgems:multi_gem_ore_classic",
+                        "metadata": 0,
+                        "weight": 100
+                    }
+                ],
+                "material": "minecraft:stone",
+                "cluster-size": 7
+            },
+            "cluster-count": 5,
+            "chunk-chance": 10,
+            "min-height": 16,
+            "max-height": 50,
+            "vein-height": 10,
+            "vein-diameter": 10,
+            "vertical-density": 7,
+            "horizontal-density": 5,
+            "retrogen": "true",
+			"biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+		"choas": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+							"name": "silentgems:essenceore",
+							"metadata": 0,
+							"weight": 100
+							},	
+				"material": "minecraft:stone",
+				"cluster-size": 3
+			},
+			"cluster-count": 2,
+			"chunk-chance": 12,
+			"min-height": 0,
+			"max-height": 16,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}

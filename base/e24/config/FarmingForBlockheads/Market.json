@@ -1,0 +1,84 @@
+{
+  "defaults": {
+    "__comment": "You can disable defaults by setting these to false. Do *NOT* try to add additional entries here. You can add additional entries in the custom section.",
+    "BiomesOPlenty Saplings": true,
+    "Forestry Saplings": false,
+    "Animal Eggs": false,
+    "Natura Seeds": true,
+    "Vanilla Seeds": true,
+    "Natura Saplings": true,
+    "Vanilla Flowers": false,
+    "Pams Harvestcraft Saplings": true,
+    "Natura Bushes": true,
+    "Vanilla Mushrooms": false,
+    "Natura Nether Bushes": true,
+    "BiomesOPlenty Sacred Oak Sapling": false,
+    "Vanilla Saplings": true,
+    "Bonemeal": true,
+    "Pams Harvestcraft Seeds": true
+  },
+  "defaults payment": {
+    "__comment": "You can define custom payment items for the default entries here.",
+    "BiomesOPlenty Saplings": "1*minecraft:emerald:0",
+    "Forestry Saplings": "2*minecraft:emerald:0",
+    "Animal Eggs": "1*minecraft:emerald:0",
+    "Natura Seeds": "1*minecraft:emerald:0",
+    "Vanilla Seeds": "1*minecraft:emerald:0",
+    "Natura Saplings": "1*minecraft:emerald:0",
+    "Vanilla Flowers": "1*minecraft:emerald:0",
+    "Pams Harvestcraft Saplings": "1*minecraft:emerald:0",
+    "Natura Bushes": "2*minecraft:emerald:0",
+    "Vanilla Mushrooms": "1*minecraft:emerald:0",
+    "Natura Nether Bushes": "3*minecraft:emerald:0",
+    "BiomesOPlenty Sacred Oak Sapling": "1*minecraft:emerald:8",
+    "Vanilla Saplings": "1*minecraft:emerald:0",
+    "Bonemeal": "1*minecraft:emerald:0",
+    "Pams Harvestcraft Seeds": "1*minecraft:emerald:0"
+  },
+  "defaults amount": {
+    "__comment": "You can define custom amounts for the default entries here.",
+    "BiomesOPlenty Saplings": 1,
+    "Forestry Saplings": 1,
+    "Animal Eggs": 1,
+    "Natura Seeds": 1,
+    "Vanilla Seeds": 1,
+    "Natura Saplings": 1,
+    "Vanilla Flowers": 1,
+    "Pams Harvestcraft Saplings": 1,
+    "Natura Bushes": 1,
+    "Vanilla Mushrooms": 1,
+    "Natura Nether Bushes": 1,
+    "BiomesOPlenty Sacred Oak Sapling": 1,
+    "Vanilla Saplings": 1,
+    "Bonemeal": 1,
+    "Pams Harvestcraft Seeds": 1
+  },
+  "defaults blacklist": [
+    "examplemod:example_item"
+  ],
+  "custom entries": {
+    "__comment": "You can define additional items to be sold by the Market here. Defaults can be overridden. Prefix with ! to blacklist instead.",	
+	 "actuallyadditions:item_rice_seed": "2*minecraft:emerald",
+	 "rustic:sapling:1": "2*minecraft:emerald",
+	 "rustic:grape_stem": "2*minecraft:emerald",
+	 "rustic:apple_seeds": "2*minecraft:emerald",
+	 "rustic:tomato_seeds": "2*minecraft:emerald",
+	 "rustic:chili_pepper_seeds": "2*minecraft:emerald",
+	 "integrateddynamics:menril_sapling": "2*minecraft:emerald",
+	 "mysticalworld:aubergine_seed": "2*minecraft:emerald",
+	 "actuallyadditions:item_coffee_seed": "2*minecraft:emerald",
+	 "actuallyadditions:item_canola_seed": "2*minecraft:emerald",
+	 "actuallyadditions:item_flax_seed": "2*minecraft:emerald",
+	 "techreborn:rubber_sapling": "2*minecraft:emerald",
+	 "quark:variant_sapling:1": "2*minecraft:emerald",
+	 "mysticalworld:silkworm_egg": "2*minecraft:emerald",
+	 "roots:wildwood_sapling": "2*minecraft:emerald",
+	 "silentgems:fluffypuffseeds": "2*minecraft:emerald",
+	 "silentgear:flaxseeds": "2*minecraft:emerald",
+	 "immersiveengineering:seed": "2*minecraft:emerald"
+	 
+	 
+
+	
+  }
+}

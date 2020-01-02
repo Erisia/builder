@@ -1,0 +1,24 @@
+	"dependencies": "earthworks",
+	"populate": {
+        "slate": {
+			"distribution": "gaussian",
+			"generator": {
+				"block": "rustic:slate",
+				"material": "minecraft:stone",
+				"cluster-size": 35
+			},
+			"cluster-count": 25,
+			"chunk-chance": 20,
+			"center-height": 13,
+			"spread": 16,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+        }
+	}

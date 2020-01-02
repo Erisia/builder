@@ -1,0 +1,157 @@
+{
+	"populate": {
+	     "Granite_Boulder": {
+            "distribution": "gaussian",
+            "generator": {
+                "type": "boulder",
+                "block": [
+                    {
+                        "name": "minecraft:stone",
+                        "metadata": 1,
+                        "weight": 90
+                    },
+					{
+                        "name": "chisel:granite",
+                        "metadata": 0,
+                        "weight": 10
+                    }
+					
+                ],
+                "material": "minecraft:stone",
+                "cluster-size": 1
+				"diameter": 4,
+				"size-variance": 3,
+				"count": 1,
+				"count-variance": 3,
+            },
+			"cluster-count": 1,
+			"chunk-chance": 200,
+			"center-height": 50,
+			"spread": 5,
+            "retrogen": "true",
+            "biome": {
+                "restriction": "whitelist",
+                "value": [
+                    {
+                        "type": "dictionary",
+                        "entry": "PLAINS"
+                    },
+                    {
+                        "type": "dictionary",
+                        "entry": "FOREST"
+                    }
+                ]
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+	    "SkyStone_Spikes": {
+            "distribution": "uniform",
+            "generator": {
+                "type": "spike",
+                "block": [
+                    {
+                        "name": "appliedenergistics2:sky_stone_block",
+                        "metadata": 0,
+                        "weight": 100
+                    }
+                ],
+                "material": [
+				    {
+                        "name": "minecraft:stone",
+                        "metadata": 0
+                    },
+					{
+                        "name": "minecraft:sand",
+                        "metadata": 0
+                    },
+					{
+                        "name": "minecraft:sandstone",
+                        "metadata": 0
+                    }
+				],
+                "cluster-size": 3
+			    "min-height": 30,
+			    "height-variance": 10,
+			    "size-variance": 10,
+			    "position-variance": 10,
+			    "large-spikes": true,
+			    "min-large-spike-height-gain": 10,
+			    "large-spike-height-variance": 30,
+			    "large-spike-filler-size": 5,
+            },
+			"min-height": 40,
+            "max-height": 70,
+			"cluster-count": 1,
+			"chunk-chance": 200,
+			"spread": 15,
+			"center-height": 65,
+            "retrogen": "true",
+            "biome": {
+                "restriction": "whitelist",
+                "value": [
+                    {
+                        "type": "dictionary",
+                        "entry": "SANDY"
+                    },
+                    {
+                        "type": "dictionary",
+                        "entry": "MESA"
+                    }
+                ]
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "Slate_Plate": {
+            "distribution": "gaussian",
+            "generator": {
+                "type": "plate",
+                "block": [
+                    {
+                        "name": "rustic:slate",
+                        "metadata": 0,
+                        "weight": 90
+                    },
+					{
+                        "name": "minecraft:clay",
+                        "metadata": 0,
+                        "weight": 10
+                    }
+					
+                ],
+                "material": "minecraft:stone",
+                "cluster-size": 5,
+				"radius": 10,
+			    "height": 5,
+			    "slime": true,
+			    "shape": "CIRCLE"
+            },
+			"spread": 10,
+			"cluster-count": 3,
+			"chunk-chance": 120,
+			"center-height": 50,
+			"min-height": 40,
+            "max-height": 65,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        }
+	}
+}
