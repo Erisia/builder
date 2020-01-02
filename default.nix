@@ -41,13 +41,13 @@ rec {
     e22-5 = buildPack e22-5;
     elncognito = buildPack elncognito;
 #    mettle = buildPack mettle;
-    e23 = buildPack e23;
+    e24 = buildPack e24;
   };
 
-  e23 = {
+  e24 = {
     name = "Omnifactory";
-    screenName = "e23";
-    description = "E23: Per Omnis Ad Nullus";
+    screenName = "e24";
+    description = "E24: Aurora Bovialis";
     ram = "12000m";
     port = 25523;
     prometheusPort = 1223;
@@ -56,8 +56,7 @@ rec {
       minor = "14.23.5.2838";
     };
     extraDirs = [
-      ./base/e23
-      ./base/omnifactory
+      ./base/e24
     ];
     extraServerDirs = [
       ./base/server
@@ -67,12 +66,12 @@ rec {
       ./base/client
     ];
     manifests = [
-      ./manifest/e23.nix
+      ./manifest/the_dawn_of_cow.nix
     ];
     blacklist = [
     ];
   };
-  
+
   mettle = {
     name = "mettle";
     screenName = "mettle";
