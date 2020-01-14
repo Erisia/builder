@@ -3,6 +3,12 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
+var ingotIron = <ore:ingotIron>;
+var plateIron = <ore:plateIron>;
+
+//fix missing recipe
+recipes.addShaped(<techreborn:refined_iron_fence> * 4, [[null, null, null],[ingotIron, plateIron, ingotIron], [ingotIron, plateIron, ingotIron]]);
+
 var disabledItems as IIngredient[] = [
 
  <techreborn:ore>, //Tech Reborn:Galena Ore
