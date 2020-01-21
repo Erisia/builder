@@ -15,7 +15,7 @@ mods:
   side: "server"
   id: 254573
 - name: "thump"
-  required: false
+  side: "server"
 - name: "vanillafix"
   side: "client"
   required: false
