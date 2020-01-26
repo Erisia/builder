@@ -94,7 +94,6 @@ mods:
 - name: 'ftb-backups'
 - name: 'ftblib'
 - name: 'ftb-utilities'
-
 - name: 'guide-api'
 - name: 'immersive-cables'
 - name: 'immersive-engineering'
@@ -139,8 +138,10 @@ mods:
 - name: 'mouse-tweaks'
 - name: 'mrtjpcore'
 - name: 'mtlib'
+- name: 'mystical-gears'
 - name: 'mystical-world'
 - name: 'mysticallib'
+- name: 'mysticalmechanics'
 - name: 'natures-compass'
 - name: 'netherex'
 - name: 'netherportalfix'
