@@ -209,6 +209,7 @@ mods:
 - name: 'techreborn'
 - name: 'tesla-core-lib'
 - name: 'tetra'
+- name: 'the-one-probe'
 - name: 'wawla-what-are-we-looking-at'
 - name: 'thermal-dynamics'
 - name: 'thermal-expansion'
