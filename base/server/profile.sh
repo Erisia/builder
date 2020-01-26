@@ -1,7 +1,7 @@
 #!/usr/bin/env nix-shell
 #!nix-shell -i bash -p jdk
 
-set -e
+set -em
 
 cd "$(dirname "$(readlink -f "$0")")"
 ./control.sh check
@@ -16,9 +16,9 @@ java \
 sleep 2
 
 echo
-echo
 echo "============================="
 echo "Profile will be available on https://warmroast.brage.info/"
 echo "============================="
+echo
 
-wait
+fg

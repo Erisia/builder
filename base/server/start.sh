@@ -133,6 +133,7 @@ java -d64 -server -Xmx@ram@ \
   "$@" \
   -Djava.net.preferIPv4Stack=true \
   -Dfml.readTimeout=360 \
+  -Dfml.doNotBackup=true \
   -XX:+AggressiveOpts \
   -XX:+UseTransparentHugePages \
   -XX:+UseG1GC \

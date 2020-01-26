@@ -1,6 +1,8 @@
 version: '1.12.2'
 imports: []
 mods:
+- name: 'onlinepictureframe'
+- name: 'littletiles'
 - name: 'tickprofiler'
 - name: 'helpfixer'
   side: 'server'
