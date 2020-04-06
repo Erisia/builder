@@ -93,6 +93,9 @@ mods:
 - name: 'ftb-utilities'
 - name: 'discordintegration'
 - name: 'chunkpregenerator'
+- name: 'sampler'
+  required: false
+  default: false
 
 # Just enough mods
 - name: 'jei-integration'
