@@ -87,6 +87,7 @@ mods:
 - name: 'crafttweaker'
 - name: 'modtweaker'
 - name: 'buildcraft'
+- name: 'rftools'
 
 # Management
 - name: 'ftblib'
