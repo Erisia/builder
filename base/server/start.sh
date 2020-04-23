@@ -75,12 +75,12 @@ dailyRestart() {
     set +x
     while true; do
       sleep 45
-      if [[ $(date +%R) = 06:00 ]]; then
+      if [[ $(TZ=Europe/Dublin date +%R) = 10:00 ]]; then
         set -x
         ./stop.sh
         exit
       fi
-      if [[ $(date +%R) = 18:00 ]]; then
+      if [[ $(TZ=Europe/Dublin date +%R) = 20:00 ]]; then
         set -x
         ./stop.sh
         exit
