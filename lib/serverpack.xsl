@@ -20,11 +20,23 @@
           <xsl:attribute name='revision'>
             <xsl:value-of select="attr[@name='revision']/string/@value" />
           </xsl:attribute>
-          <Loader type='Forge' loadOrder='0'>
-            <xsl:attribute name='version'>
-              <xsl:value-of select="attr[@name='forgeVersion']/string/@value" />
-            </xsl:attribute>
-          </Loader>
+          <xsl:choose>
+              <xsl:when test="attr[@name='minecraftVersion']/string/@value = '1.7.10'">
+	      <Import>
+	        <xsl:attribute name='url'>
+		  <xsl:value-of select="attr[@name='forgeUrl']/string/@value" />
+		</xsl:attribute>
+		forge
+	      </Import>
+	    </xsl:when>
+	    <xsl:otherwise>
+              <Loader type='Forge' loadOrder='0'>
+	        <xsl:attribute name='version'>
+	          <xsl:value-of select="attr[@name='forgeVersion']/string/@value" />
+	        </xsl:attribute>
+	      </Loader>
+            </xsl:otherwise>
+	  </xsl:choose>
           <xsl:for-each select="attr[@name='mods']/attrs/attr">
             <Module>
               <xsl:attribute name='id'>

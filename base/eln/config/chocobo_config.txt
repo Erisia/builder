@@ -1,0 +1,77 @@
+
+showChocoboNames = true
+chocoboWingFlutter = false
+// hunger not yet active
+hungerEnabled = false
+riderBuffsEnabled = true
+saddledCanWander = false
+
+// The default name height is 2.3 blocks from the ground. You can add height
+// up to 10 blocks by the number given as renderNameHeight.
+renderNameHeight = 0.0
+
+// The value given as livingSoundProbabilitywill determine the Chocobo 'Kweh' frequency.
+// The system will call a method to trigger the living sound and the Chocobo will do a
+// 'Kweh'. The number set with this key will reduce the frequency to this number in 100.
+// Thus if it is set to 50 only every second 'Kweh' will be heared. If set to 1 only 
+// every 100th etc...
+livingSoundProbability = 100
+
+// Mutation rates of planted and grown gysahl greens. There is a gysahlGreenMutationRate permille chance
+// the gysahl plant will mutate into a breeding gysahl. If the plant has mutated into
+// a breeding gysahl, there is a gysahlLoverlyMutationRate permille change of it being a golden Gysahl.
+gysahlGreenMutationRate = 100
+gysahlLoverlyMutationRate = 100
+
+// value between 1 and 999, with 1 for very few wild gysahl and 999 very many.
+gysahlGreenWorldGenerationRate = 16
+
+// Cool down phase between breeding
+breedingDelayFemale = 9000
+breedingDelayMale = 3000
+
+// Chicobos will grow up into Chocobos after growUpDelayStatic plus
+// 0 - growUpDelayRandom ticks.
+growUpDelayStatic = 27000
+growUpDelayRandom = 2000
+
+// Time after which Chicobos and Chocobos will get hungry again (disabled)
+hungerDelayChicobo = 1000
+hungerDelayChocobo = 3000
+
+// Whenever a hurt Chocobo is standing on straw less than penHealCauldronRange blocks away from
+// a filled cauldron, it has apenHealProbability chance every 2 seconds to heal one health point.
+penHealProbability = 20
+penHealCauldronRange = 6
+
+// Whenever or not wild Chocobos will be able to despawn if no player is around
+wildCanDespawn = false
+
+// Whenever or not the Chocopedia can be found in dungeon, jungle and desert pyramid, stronghold and mine chests
+chocopediaInDungeons = true
+
+// add any name of the following list as comma separated values to
+// the spawnBiomeskey, to have Chocobos spawn in the
+// designated biomes. Add the token 'all' to have Chocobos spawn in 
+// all biomes.
+// Possible biome names:
+// Ocean, Plains, Desert, Extreme Hills, Forest, Taiga, Swampland, River, Hell, Sky, FrozenOcean, FrozenRiver, Ice Plains, Ice Mountains, MushroomIsland, MushroomIslandShore, Beach, DesertHills, ForestHills, TaigaHills, Extreme Hills Edge, Jungle, JungleHills, JungleEdge, Deep Ocean, Stone Beach, Cold Beach, Birch Forest, Birch Forest Hills, Roofed Forest, Cold Taiga, Cold Taiga Hills, Mega Taiga, Mega Taiga Hills, Extreme Hills+, Savanna, Savanna Plateau, Mesa, Mesa Plateau F, Mesa Plateau, Storage Cell, Sunflower Plains, Desert M, Extreme Hills M, Flower Forest, Taiga M, Swampland M, Ice Plains Spikes, Jungle M, JungleEdge M, Birch Forest M, Birch Forest Hills M, Roofed Forest M, Cold Taiga M, Mega Spruce Taiga, Mega Spruce Taiga, Extreme Hills+ M, Savanna M, Savanna Plateau M, Mesa (Bryce), Mesa Plateau F M, Mesa Plateau M
+spawnBiomes = Extreme Hills,Extreme Hills Edge,Forest,ForestHills,Jungle,JungleHills,Plains,Swampland,Taiga,TaigaHills,Ice Mountains,Ice Plains,Hell
+
+// A group of spawnGroupMin to spawnGroupMax Yellow Chocobos will spawn with the
+// probability of spawnProbability around every player. There will be no additional
+// spawning if spawnTotalMax wild Chocobos are active in an area with the radius of spawnLimitChunkRadius chunks.
+spawnTimeDelay = 200
+spawnProbability = 2
+spawnGroupMin = 2
+spawnGroupMax = 4
+spawnTotalMax = 3
+spawnLimitChunkRadius = 100
+distanceNextWild = 300
+
+// tamed chocobos have a chance of featherDropChance in 100 to drop a feather every
+// featherDelayRandom/20 to featherDelayRandom/20 plus featherDelayStatic/20 seconds
+// 
+featherDelayRandom = 600
+featherDelayStatic = 600
+featherDropChance = 15

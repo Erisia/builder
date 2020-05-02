@@ -186,6 +186,7 @@ rec {
       serverDesc = pack.description or name;
       serverAddress = hostname + ":" + toString pack.port;
       minecraftVersion = pack.forge.major;
+      forgeUrl = "https://files.mcupdater.com/example/forge.php?mc=${pack.forge.major}&forge=${pack.forge.minor}";
       forgeVersion = "${pack.forge.major}-${pack.forge.minor}";
       configs = lib.mapAttrs (name: config: {
         configId = "config-" + name;

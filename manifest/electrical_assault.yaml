@@ -1,0 +1,123 @@
+version: '1.7.10'
+imports:
+  - 'server_tools_1_7.yaml'
+mods:
+# Decorative (worldgen)
+- name: 'extrabiomesxl'
+- name: 'realistic-terrain-generation'
+- name: 'climate-control-geographicraft'
+- name: 'ruins-structure-spawning-system'
+- name: 'fossils'
+- name: 'netherores'
+- name: 'roguelike-dungeons'
+- name: 'bigtrees'
+- name: 'wtfs-expedition-cavebiomes-ores-trees-and-tweaks'
+- name: 'wtfcore'
+- name: 'wtfs-texturegeneratorlib'
+
+# Decorative (blocks)
+- name: 'chisel'
+- name: 'advanced-chimneys'
+- name: 'decocraft'
+- name: 'forge-multi-part'
+
+# Decorative (entities)
+- name: 'elemental-creepers'
+
+# Decorative (client appearance)
+- name: 'applecore'
+- name: 'blur'
+  required: false
+  side: client
+- name: 'armorstatushud'
+- name: 'baubles'
+- name: 'dynamic-surroundings'
+  required: false
+- name: 'sound-filters'
+  required: false
+  side: client
+- name: 'smart-moving'
+- name: 'player-api'
+- name: 'render-player-api'
+- name: 'smart-render'
+
+# Trolling
+- name: 'deathquotes-death-quotes'
+- name: 'hardcore-darkness'
+- name: 'realistic-torches'
+- name: 'hats'
+
+# Convenience
+- name: 'dynmapforge'
+  side: 'server'
+- name: 'better-builders-wands'
+  maturity: beta
+- name: 'cooking-for-blockheads'
+- name: 'controlling'
+- name: 'bibliocraft'
+- name: 'bibliocraft-bibliowoods-extrabiomesxl-edition'
+- name: 'journeymap'
+  required: false
+  default: false
+- name: 'natures-compass'
+- name: 'antique-atlas'
+- name: 'gravestone-mod'
+- name: 'waystones'
+- name: 'wild-netherwart'
+- name: 'schematica'
+  required: false
+  default: false
+
+# Inventory management
+- name: 'storage-drawers'
+- name: 'storage-drawers-extrabiomesxl-pack'
+- name: 'iron-backpacks'
+- name: 'iron-chests'
+- name: 'ae2-stuff'
+- name: 'applied-energistics-2'
+- name: 'ender-storage'
+- name: 'inventory-tweaks'
+  required: false
+
+# Gameplay-altering mods
+- name: 'crafttweaker'
+- name: 'modtweaker'
+- name: 'another-one-bites-the-dust'
+- name: 'extra-utilities'
+- name: 'flaxbeards-steam-power'
+- name: 'magneticraft'
+- name: 'modular-powersuits'
+- name: 'nomadic-tents'
+- name: 'railcraft'
+- name: 'reliquary'
+- name: 'thermal-dynamics'
+- name: 'thermal-expansion'
+- name: 'thermal-foundation'
+- name: 'tombenpotters-icarus'
+- name: 'witchery'
+
+# Management
+- name: 'ftblib'
+- name: 'ftb-utilities'
+- name: 'discordintegration'
+- name: 'opis'
+  required: false
+  default: false
+- name: 'startinginventory'
+
+# Not enough mods
+- name: 'nei-addons'
+- name: 'nei-integration'
+- name: 'waila'
+- name: 'waila-harvestability'
+- name: 'waila-plugins'
+
+# Misc. dependencies
+- name: 'libsandstone'
+- name: 'legacy-mc-kotlin'
+- name: 'numina'
+
+# Things I might remove.
+- name: 'default-options'
+  side: client
+- name: 'pams-harvestcraft'

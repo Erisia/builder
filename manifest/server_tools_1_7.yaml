@@ -1,0 +1,62 @@
+# This file is for mods we want on basically every server.
+
+version: '1.7.10'
+imports: []
+mods:
+
+# Performance
+- name: 'born-in-a-barn'
+- name: 'fastcraft'
+- name: 'betterfps'
+- name: "chunkpurge"
+  side: "server"
+
+# Fix some random bugs
+- name: 'helpfixer'
+  side: 'server'
+- name: 'netherportalfix'
+- name: 'reauth'
+  side: client
+- name: 'no-mob-spawning-in-trees'
+
+# Server management type mods:
+- name: "worldedit"
+- name: "signal-catcher"
+  side: "server"
+#- name: "dynmapforge"
+#  side: "server"
+- name: "fastworkbench"
+- name: chunkpregenerator
+- name: 'laggoggles'
+- name: 'morpheus'
+
+# client
+- name: 'dynamic-surroundings'
+  side: client
+  required: false
+- name: nofov
+  side: client
+  required: false
+- name: 'better-foliage'
+  side: client
+  required: false
+- name: "mouse-tweaks"
+  side: "client"
+  required: false
+- name: "better-placement"
+  side: "client"
+  required: false
+  default: true
+- name: Ding
+  side: client
+  required: false
+  default: true
+- name: 'ding'
+  side: 'client'
+- name: "notenoughkeys"
+  side: "client"
+  required: false
+- name: "fullscreen-windowed-borderless-for-minecraft"
+  side: "client"
+  required: false
+- name: 'mouse-tweaks'

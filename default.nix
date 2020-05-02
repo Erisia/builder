@@ -27,6 +27,48 @@ rec {
 
   packs = {
     sv = buildPack sv;
+    eln = buildPack eln;
+    squishy = buildPack squishy;
+  };
+
+  squishy = eln // {
+    name = "Sir_Squishalot";
+    description = "Squishy: Rubber";
+    tmuxName = "squishy";
+    port = 25569;
+    prometheusPort = 1226;
+    blacklist = [
+      "dynmapforge"
+    ];
+  };
+
+  eln = {
+    name = "ElectricalAssault";
+    tmuxName = "eln";
+    description = "SV: Electrical Assault";
+    ram = "12000m";
+    port = 25567;
+    prometheusPort = 1225;
+    forge = {
+      major = "1.7.10";
+      minor = "10.13.4.1614";
+    };
+    extraDirs = [
+      ./base/eln
+      ./base/erisia
+    ];
+    extraServerDirs = [
+      ./base/server
+    ];
+    extraClientDirs = [
+      resources_7
+      ./base/client
+    ];
+    manifests = [
+      ./manifest/electrical_assault.nix
+    ];
+    blacklist = [
+    ];
   };
 
   sv = {
