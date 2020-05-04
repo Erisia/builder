@@ -32,7 +32,6 @@ mods:
 - name: 'armorstatushud'
 - name: 'baubles'
 - name: 'dynamic-surroundings'
-  required: false
 - name: 'sound-filters'
   required: false
   side: client
