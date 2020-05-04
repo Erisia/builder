@@ -20,6 +20,7 @@ mods:
 - name: 'advanced-chimneys'
 - name: 'decocraft'
 - name: 'forge-multi-part'
+- name: 'ztones'
 
 # Decorative (entities)
 - name: 'elemental-creepers'
@@ -32,7 +33,6 @@ mods:
 - name: 'armorstatushud'
 - name: 'baubles'
 - name: 'dynamic-surroundings'
-  required: false
 - name: 'sound-filters'
   required: false
   side: client

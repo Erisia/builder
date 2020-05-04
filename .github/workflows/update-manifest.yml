@@ -1,0 +1,34 @@
+name: update-manifest
+
+on:
+  pull_request:
+    branches: [ master, sv ]
+
+jobs:
+  manifest:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: ${{ github.head_ref }}
+    - uses: cachix/install-nix-action@v8
+    - name: Fetch target branch
+      env:
+        BASE: ${{ github['base_ref'] }}
+      run: git fetch --no-tags --prune --depth=1 origin +refs/heads/${BASE}:refs/remotes/origin/${BASE}
+    - name: Update manifest
+      env:
+        BASE: ${{ github['base_ref'] }}
+      run: |
+        for changed in $(git diff-tree --no-commit-id --name-only -r HEAD..refs/remotes/origin/${BASE} ); do
+          echo "Changed file: $changed"
+          if [[ $changed =~ ^manifest/.*\.yaml$ ]]; then
+            echo "Updating $changed"
+            cursetool-rb/run-nix.sh "$changed"
+          fi
+        done
+    - uses: stefanzweifel/git-auto-commit-action@v4.1.6
+      with:
+        commit_message: Automatic manifest update
+        branch: ${{ github.head_ref }}
+        file_pattern: manifest/*.nix
