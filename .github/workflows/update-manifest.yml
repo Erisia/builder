@@ -22,7 +22,7 @@ jobs:
       env:
         BASE: ${{ github['base_ref'] }}
       run: |
-        for changed in $(git diff-tree --no-commit-id --name-only -r ${{ github.sha }}..${BASE} ); do
+        for changed in $(git diff-tree --no-commit-id --name-only -r ${{ github.sha }}..refs/remotes/origin/${BASE} ); do
           echo "Changed file: $changed"
           if "$changed" =~ '^manifest/.*\.yaml'; then
             echo "Updating $changed"
