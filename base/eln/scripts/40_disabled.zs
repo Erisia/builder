@@ -11,6 +11,15 @@ val disabled = [
 // Disabled because of duplication.
   <Magneticraft:electricfurnace>, // Electric Furnace
   <Magneticraft:miner>, // Miner
+  <NuclearCraft:electricFurnaceIdle>, //electric furnace
+  <NuclearCraft:solarPanel>, //solar panel
+  <NuclearCraft:WRTG>, //Weak RTG
+  <NuclearCraft:AmRTG>, //Americum RTG
+  <NuclearCraft:RTG>, //Plutonium RTG
+  <NuclearCraft:CfRTG>, //Californium RTG
+  <NuclearCraft:fuel:139>, //Americum RTG item
+  <NuclearCraft:fuel:46>, //Plutonium RTG item
+  <NuclearCraft:fuel:140>, //Californium RTG item
 // Only Eln gets to produce power.
   <Magneticraft:basic_generator>, // Basic Generator
   <Magneticraft:biomassburner>, // Biomass Burner
