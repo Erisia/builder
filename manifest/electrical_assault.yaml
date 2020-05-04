@@ -20,6 +20,7 @@ mods:
 - name: 'advanced-chimneys'
 - name: 'decocraft'
 - name: 'forge-multi-part'
+- name: 'ztones'
 
 # Decorative (entities)
 - name: 'elemental-creepers'
