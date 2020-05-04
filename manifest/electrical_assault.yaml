@@ -32,7 +32,6 @@ mods:
 - name: 'armorstatushud'
 - name: 'baubles'
 - name: 'dynamic-surroundings'
-  required: false
 - name: 'sound-filters'
   required: false
   side: client
@@ -130,5 +129,4 @@ mods:
   side: server
 - name: 'garden-stuff'
 - name: 'thaumcraft'
-- name: 'thaumic-jei'
 - name: 'littlemaidmobx'
