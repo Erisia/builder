@@ -28,6 +28,7 @@ val disabled = [
   <Railcraft:part.turbine.rotor>, // Turbine Rotor
   <Railcraft:machine.alpha:1>, // Steam Turbine Housing
   <ThermalExpansion:Dynamo>, // Steam Dynamo
+  <NuclearCraft:steamGenerator>,
 // I want you to use lots of power.
   <NuclearCraft:upgradeEnergy>,
   <Mekanism:EnergyUpgrade>
