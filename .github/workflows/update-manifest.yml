@@ -18,6 +18,7 @@ jobs:
       run: |
         git diff-tree --no-commit-id --name-only -r ${{ github.sha }} \
         | while read changed; do
+          echo "Changed file: $changed"
           if "$changed" =~ '^manifest/.*\.yaml'; then
             echo "Updating $changed"
             cursetool-rb/run-nix.sh "$changed"
