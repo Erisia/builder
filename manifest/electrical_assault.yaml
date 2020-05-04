@@ -121,3 +121,13 @@ mods:
 - name: 'default-options'
   side: client
 - name: 'pams-harvestcraft'
+
+# Late additions
+- name: 'openblocks'
+- name: 'nuclearcraft-mod'
+- name: 'mekanism'
+- name: 'cofhtweaks'
+  side: server
+- name: 'garden-stuff'
+- name: 'thaumcraft'
+- name: 'littlemaidmobx'
