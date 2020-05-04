@@ -3,6 +3,15 @@ import mods.nei.NEI;
 
 val disabled = [
 // Disabled for performance reasons.
+  <NuclearCraft:electricFurnaceIdle>, //electric furnace
+  <NuclearCraft:solarPanel>, //solar panel
+  <NuclearCraft:WRTG>, //Weak RTG
+  <NuclearCraft:AmRTG>, //Americum RTG
+  <NuclearCraft:RTG>, //Plutonium RTG
+  <NuclearCraft:CfRTG>, //Californium RTG
+  <NuclearCraft:fuel:139>, //Americum RTG item
+  <NuclearCraft:fuel:46>, //Plutonium RTG item
+  <NuclearCraft:fuel:140>, //Californium RTG item
   <ExtraUtilities:nodeUpgrade>, // Speed Upgrade
   <ExtraUtilities:pipes>, // Transfer Pipe
   <ExtraUtilities:pipes.1>, // Hyper-Rationing Pipe
