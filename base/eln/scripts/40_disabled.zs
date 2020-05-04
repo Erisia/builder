@@ -3,6 +3,14 @@ import mods.nei.NEI;
 
 val disabled = [
 // Disabled for performance reasons.
+  <ExtraUtilities:nodeUpgrade>, // Speed Upgrade
+  <ExtraUtilities:pipes>, // Transfer Pipe
+  <ExtraUtilities:pipes.1>, // Hyper-Rationing Pipe
+  <Railcraft:cart.loco.electric>, // Electric Locomotive
+  <Thaumcraft:blockTube>, // Essentia Tube
+// Disabled because of duplication.
+  <Magneticraft:electricfurnace>, // Electric Furnace
+  <Magneticraft:miner>, // Miner
   <NuclearCraft:electricFurnaceIdle>, //electric furnace
   <NuclearCraft:solarPanel>, //solar panel
   <NuclearCraft:WRTG>, //Weak RTG
@@ -12,14 +20,6 @@ val disabled = [
   <NuclearCraft:fuel:139>, //Americum RTG item
   <NuclearCraft:fuel:46>, //Plutonium RTG item
   <NuclearCraft:fuel:140>, //Californium RTG item
-  <ExtraUtilities:nodeUpgrade>, // Speed Upgrade
-  <ExtraUtilities:pipes>, // Transfer Pipe
-  <ExtraUtilities:pipes.1>, // Hyper-Rationing Pipe
-  <Railcraft:cart.loco.electric>, // Electric Locomotive
-  <Thaumcraft:blockTube>, // Essentia Tube
-// Disabled because of duplication.
-  <Magneticraft:electricfurnace>, // Electric Furnace
-  <Magneticraft:miner>, // Miner
 // Only Eln gets to produce power.
   <Magneticraft:basic_generator>, // Basic Generator
   <Magneticraft:biomassburner>, // Biomass Burner
