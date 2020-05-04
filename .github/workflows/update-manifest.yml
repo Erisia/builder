@@ -1,0 +1,38 @@
+name: update-manifest
+
+on:
+  pull_request:
+    branches: [ master, sv ]
+
+jobs:
+  manifest:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: cachix/install-nix-action@v8
+    - uses: cachix/cachix-action@v6
+      with:
+        name: builder
+        signingKey: '${{ secrets.CACHIX_SIGNING_KEY }}'
+    - name: Update manifest
+      run: |
+        git diff-tree --no-commit-id --name-only -r ${{ github.sha }} \
+        | while read changed; do
+          if "$changed" =~ '^manifest/.*\.yaml'; then
+            echo "Updating $changed"
+            cursetool-rb/run-nix.sh "$changed"
+          fi
+        done
+    - uses: EndBug/add-and-commit@v4
+      with:
+        # The arguments for the `git add` command (see the paragraph below for more info)
+        # Default: '.'
+        add: 'manifest'
+
+        # The message for the commit
+        # Default: 'Commit from GitHub Actions'
+        message: 'Auto: Manifest update'
+
+      env:
+        # This is necessary in order to push a commit to the repo
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
