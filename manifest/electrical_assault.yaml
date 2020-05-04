@@ -131,3 +131,11 @@ mods:
 - name: 'garden-stuff'
 - name: 'thaumcraft'
 - name: 'littlemaidmobx'
+- name: 'thaumcraft-inventory-scanning'
+- name: 'thaumic-tinkerer'
+- name: 'thaumic-exploration'
+- name: 'thaumic-periphery'
+- name: 'thaumic-horizons'
+- name: 'thaumic-nei'
+- name: 'thaumcraft-node-tracker'
+
