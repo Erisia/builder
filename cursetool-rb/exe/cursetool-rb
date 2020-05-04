@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+begin
+  require 'addressable/uri'
+  require 'xdg'
+rescue LoadError => e
+  warn 'Failed to load addressable and/or xdg, pulling dependencies'
+  Gem.install 'addressable'
+  Gem.install 'xdg'
+end
+
+require_relative '../lib/curse_tool'
+
+CurseTool::CLI.build(ARGV[0])
