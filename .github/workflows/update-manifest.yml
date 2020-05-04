@@ -16,8 +16,7 @@ jobs:
         signingKey: '${{ secrets.CACHIX_SIGNING_KEY }}'
     - name: Update manifest
       run: |
-        git diff-tree --no-commit-id --name-only -r ${{ github.sha }} \
-        | while read changed; do
+        for changed in $(git diff-tree --no-commit-id --name-only -r ${{ github.sha }} ); do
           echo "Changed file: $changed"
           if "$changed" =~ '^manifest/.*\.yaml'; then
             echo "Updating $changed"
