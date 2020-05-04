@@ -7,3 +7,14 @@ furnace.addRecipe(rubber*2, resin);
 
 // Liquid coal
 mods.thermalexpansion.Crucible.addRecipe(8000, <Eln:Eln.sharedItem:8>, <liquid:coal> * 100);
+
+//Add dye tag to other coal items
+val blackDye = [
+  <Eln:Eln.sharedItem:8>,
+  <Railcraft:dust:3>,
+  <NuclearCraft:material:3>
+    ] as IItemStack[];
+
+for item in blackDye {
+    <ore:dyeBlack>.add(item);
+}
