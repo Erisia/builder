@@ -1,5 +1,3 @@
-import minetweaker.item.IItemStack;
-
 // Fix the 2x rubber recipe thing.
 val resin = <Eln:Eln.sharedItem:4096>;
 val rubber = <Eln:Eln.sharedItem:4097>;
@@ -15,7 +13,7 @@ val blackDye = [
   <Eln:Eln.sharedItem:8>,
   <Railcraft:dust:3>,
   <NuclearCraft:material:3>
-] as IItemStack[];
+    ] as IItemStack[];
 
 for item in blackDye {
     <ore:dyeBlack>.add(item);
