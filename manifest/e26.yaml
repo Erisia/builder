@@ -2,7 +2,6 @@ version: '1.15.2'
 imports:
   - 'foundry.yaml'
 mods:
-  - name: 'pregenforge'
   - name: 'worldedit'
   - name: 'crash-utilities'
   - name: 'dcintegration'
