@@ -124,6 +124,7 @@ mods:
 - name: tetra
 - name: the-one-probe
 - name: tipthescales
+  required: false
 - name: trample-stopper
 - name: trashslot
 - name: terraforged

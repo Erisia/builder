@@ -6,10 +6,6 @@ mods:
   - name: 'crash-utilities'
   - name: 'dcintegration'
     side: server
-  - name: 'immersive-portals-for-forge'
-    required: false
-    default: false
-    side: client
   - name: travellers-boots
   - name: dynmapforge
     side: server
