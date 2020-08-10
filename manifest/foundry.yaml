@@ -134,4 +134,6 @@ mods:
 - name: waddles
 - name: wither-skeleton-tweaks
 - name: xaeros-world-map
+  side: client
+  required: false
 - name: xp-tome
