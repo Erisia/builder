@@ -63,9 +63,11 @@ impl Server {
                 }
             } else {
                 println!("Could not get playerdata: {:?}", body);
+                return Ok(1.0);
             }
         } else {
             println!("Could not get playerdata: {:?}", request);
+            return Ok(1.0);
         }
         Ok(0.0)
     }
