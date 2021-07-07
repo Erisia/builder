@@ -104,6 +104,23 @@
         "sha256" = "4daf19a04317c5a399d38c2c397ead8cce9a9eb6c09fdb5bd7bd6dec8c911167";
         "size" = 18012255;
     };
+    "anti-mob-griefing" = {
+        "title" = "Anti Mob Griefing";
+        "name" = "anti-mob-griefing";
+        "id" = 449140;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "antimobgriefing-1.16.5-1.0.2.jar";
+        "encoded" = "antimobgriefing-1.16.5-1.0.2.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/anti-mob-griefing";
+        "src" = "https://media.forgecdn.net/files/3257/572/antimobgriefing-1.16.5-1.0.2.jar";
+        "type" = "remote";
+        "md5" = "a129fa27cf28820e465f404f34b8c3a0";
+        "sha256" = "75997d3059a1d453b99ababde94fa08478599d27bf6e1beef56c0bd2b3cc73ae";
+        "size" = 127130;
+    };
     "apotheosis" = {
         "title" = "Apotheosis";
         "name" = "apotheosis";

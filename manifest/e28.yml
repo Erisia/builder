@@ -3,6 +3,8 @@ version: 1.16.5
 imports:
   - 'enigmatica6.yml'
 mods:
+  - name: anti-mob-griefing
+    id: 449140
   - name: immersive-portals-for-forge
     id: 355440
   - name: applied-energistics-2
