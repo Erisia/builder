@@ -33,7 +33,6 @@ mods:
       - id: 3221978
   - name: simple-voice-chat
     id: 416089
-    required: false
     files:
       - id: 3362964
   - name: dcintegration

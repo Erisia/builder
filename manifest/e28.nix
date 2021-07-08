@@ -4359,7 +4359,7 @@
         "name" = "simple-voice-chat";
         "id" = 416089;
         "side" = "both";
-        "required" = false;
+        "required" = true;
         "default" = true;
         "deps" = [];
         "filename" = "voicechat-1.16.5-1.6.2.jar";
