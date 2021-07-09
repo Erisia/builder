@@ -3461,14 +3461,14 @@
         "required" = true;
         "default" = true;
         "deps" = [];
-        "filename" = "occultism-1.16.5-1.5.4.jar";
-        "encoded" = "occultism-1.16.5-1.5.4.jar";
+        "filename" = "occultism-1.16.5-1.5.5.jar";
+        "encoded" = "occultism-1.16.5-1.5.5.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/occultism";
-        "src" = "https://media.forgecdn.net/files/3374/749/occultism-1.16.5-1.5.4.jar";
+        "src" = "https://media.forgecdn.net/files/3377/4/occultism-1.16.5-1.5.5.jar";
         "type" = "remote";
-        "md5" = "fa445ef02b37488beae015b58820697b";
-        "sha256" = "0e27e3d0adccb76f1e2c533a305cf9d5d4814378ce7179445bbe4b785f07e0ea";
-        "size" = 4006442;
+        "md5" = "35e630bd13319df0bff65604103a3045";
+        "sha256" = "46db967a153a96e92b5d273eba66da18a9832b3fbcb99b820d936471e0f27f8a";
+        "size" = 4006654;
     };
     "oh-the-biomes-youll-go" = {
         "title" = "Oh The Biomes You'll Go";
