@@ -3,6 +3,12 @@ version: 1.16.5
 imports:
   - 'enigmatica6.yml'
 mods:
+  - name: scannable
+    id: 266784
+  - name: comforts
+    id: 276951
+  - name: dynamic-view
+    id: 366140
   - name: anti-mob-griefing
     id: 449140
   - name: immersive-portals-for-forge

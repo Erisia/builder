@@ -4252,6 +4252,23 @@
         "sha256" = "872c0dc88eb297e2f04aa71c16860e35f4a019d55742f4582516f215291ee138";
         "size" = 20309;
     };
+    "scannable" = {
+        "title" = "Scannable";
+        "name" = "scannable";
+        "id" = 266784;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "Scannable-MC1.16.5-1.7.3.17.jar";
+        "encoded" = "Scannable-MC1.16.5-1.7.3.17.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/scannable";
+        "src" = "https://media.forgecdn.net/files/3221/64/Scannable-MC1.16.5-1.7.3.17.jar";
+        "type" = "remote";
+        "md5" = "75102af6d8fa8c318b810278f2f27699";
+        "sha256" = "3114b09c33aadb10fa525250fb63de9f25418217b9045dcffa2c3a878ec5bdda";
+        "size" = 366072;
+    };
     "seals" = {
         "title" = "Seals";
         "name" = "seals";
