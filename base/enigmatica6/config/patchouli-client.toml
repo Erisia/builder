@@ -1,7 +1,7 @@
 
 [client]
 	#Set this to true to disable advancement locking for ALL books, making all entries visible at all times. Config Flag: advancements_disabled
-	"Disable Advancement Locking" = false
+	"Disable Advancement Locking" = true
 	#Set this to true to use Shift instead of Ctrl for the inventory quick lookup feature.
 	quickLookupShift = false
 	#Granular list of Book ID's to disable advancement locking for, e.g. [ "botania:lexicon" ]. Config Flags: advancements_disabled_<bookid>
