@@ -3,6 +3,8 @@ version: 1.16.5
 imports:
   - 'enigmatica6.yml'
 mods:
+  - name: in-control
+    id: 257356
   - name: scannable
     id: 266784
   - name: comforts

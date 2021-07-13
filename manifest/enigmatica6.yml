@@ -98,8 +98,6 @@ mods:
       - id: 3364386
   - name: better-biome-blend
     id: 446253
-    files:
-      - id: 3367998
   - name: better-burning
     id: 353434
     files:

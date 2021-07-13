@@ -452,14 +452,14 @@
         "required" = true;
         "default" = true;
         "deps" = [];
-        "filename" = "betterbiomeblend-1.16.4-1.1.6-forge.jar";
-        "encoded" = "betterbiomeblend-1.16.4-1.1.6-forge.jar";
+        "filename" = "betterbiomeblend-1.16.4-1.1.9-forge.jar";
+        "encoded" = "betterbiomeblend-1.16.4-1.1.9-forge.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/better-biome-blend";
-        "src" = "https://media.forgecdn.net/files/3367/998/betterbiomeblend-1.16.4-1.1.6-forge.jar";
+        "src" = "https://media.forgecdn.net/files/3386/517/betterbiomeblend-1.16.4-1.1.9-forge.jar";
         "type" = "remote";
-        "md5" = "e9f2f65f9841246b242e02f757d06ec1";
-        "sha256" = "27767937ccbddc7a7a23920b12388eefa5ed5052154139bf90bd3750cda3378c";
-        "size" = 24788;
+        "md5" = "abe466532837165a79570109bef50726";
+        "sha256" = "5c585ebf212798365322a939959e1d0f7fa1a5b9aa59af9dd5e75c104dde2d45";
+        "size" = 25172;
     };
     "better-burning" = {
         "title" = "Better Burning";
@@ -2296,6 +2296,23 @@
         "md5" = "592ccec3dadb031b700551197165efa9";
         "sha256" = "7ebd15acac005a04ef1fcccfb9f01d65e9310cf5f2a3a6214557e236bb4ae9c1";
         "size" = 360964;
+    };
+    "in-control" = {
+        "title" = "In Control!";
+        "name" = "in-control";
+        "id" = 257356;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "incontrol-1.16-5.1.9.jar";
+        "encoded" = "incontrol-1.16-5.1.9.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/in-control";
+        "src" = "https://media.forgecdn.net/files/3360/637/incontrol-1.16-5.1.9.jar";
+        "type" = "remote";
+        "md5" = "0a507e49138f82c49cf783a9d18163e9";
+        "sha256" = "ae3fbba2b2f556cf2fe676137a637fd5e314cd708e53d6ce690a64a1d79cb9e8";
+        "size" = 170975;
     };
     "industrial-foregoing" = {
         "title" = "Industrial Foregoing";
