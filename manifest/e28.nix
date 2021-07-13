@@ -53,6 +53,23 @@
         "sha256" = "3b5319e8b4dc0eabdb8fc017b220ab6a9026289d2b00951cd7e4278318a5bc2c";
         "size" = 403870;
     };
+    "ai-improvements" = {
+        "title" = "AI Improvements";
+        "name" = "ai-improvements";
+        "id" = 233019;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "AI-Improvements-1.16.2-0.3.0.jar";
+        "encoded" = "AI-Improvements-1.16.2-0.3.0.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/ai-improvements";
+        "src" = "https://media.forgecdn.net/files/3031/978/AI-Improvements-1.16.2-0.3.0.jar";
+        "type" = "remote";
+        "md5" = "2577d7c7f7d61d1ad2600e2eede81570";
+        "sha256" = "47526292ea2f11dd18a8da8863b40ba81a93601f03aa4abcc742ac62ea599c69";
+        "size" = 22152;
+    };
     "aiot-botania" = {
         "title" = "AIOT Botania";
         "name" = "aiot-botania";

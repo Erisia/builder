@@ -3,6 +3,8 @@ version: 1.16.5
 imports:
   - 'enigmatica6.yml'
 mods:
+  - name: ai-improvements
+    id: 233019
   - name: in-control
     id: 257356
   - name: scannable
