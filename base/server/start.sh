@@ -1,5 +1,5 @@
 #!/usr/bin/env nix-shell
-#!nix-shell -i bash -p jre8 rsync tmux
+#!nix-shell -i bash -p jre8 rsync tmux numactl
 
 set -eum
 
@@ -140,6 +140,7 @@ fi
 
 echo $$ > server.pid
 
+numactl -m 0 -N 0 \
 java -d64 -server -Xmx@ram@ \
   "$@" \
   -Djava.net.preferIPv4Stack=true \
