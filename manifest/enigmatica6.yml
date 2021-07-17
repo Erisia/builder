@@ -16,6 +16,8 @@ mods:
       - id: 3353903
   - name: aiot-botania
     id: 294815
+    files:
+      - id: 3377560
   - name: akashic-tome
     id: 250577
     files:
@@ -47,7 +49,7 @@ mods:
   - name: architectury-forge
     id: 419699
     files:
-      - id: 3372758
+      - id: 3385660
   - name: armor-toughness-bar
     id: 313816
     files:
@@ -55,11 +57,11 @@ mods:
   - name: ars-nouveau
     id: 401955
     files:
-      - id: 3371891
+      - id: 3386412
   - name: artifacts
     id: 312353
     files:
-      - id: 3344129
+      - id: 3374317
   - name: astral-sorcery
     id: 241721
     files:
@@ -121,7 +123,7 @@ mods:
   - name: botania
     id: 225643
     files:
-      - id: 3367669
+      - id: 3386883
   - name: botania-additions
     id: 359289
     files:
@@ -165,7 +167,7 @@ mods:
   - name: chisel
     id: 235279
     files:
-      - id: 3367011
+      - id: 3376782
   - name: chisels-bits
     id: 231095
     files:
@@ -209,7 +211,7 @@ mods:
   - name: collective
     id: 342584
     files:
-      - id: 3283885
+      - id: 3376521
   - name: comforts
     id: 276951
     files:
@@ -297,7 +299,7 @@ mods:
   - name: cycle-paintings
     id: 345973
     files:
-      - id: 3237882
+      - id: 3379867
   - name: cyclops-core
     id: 232758
     files:
@@ -333,11 +335,12 @@ mods:
   - name: diet
     id: 443570
     files:
-      - id: 3355562
+      - id: 3375811
   - name: ding
     id: 231275
     files:
       - id: 3222705
+    side: client
   - name: drawers-tooltip
     id: 381605
     files:
@@ -365,7 +368,7 @@ mods:
   - name: emendatus-enigmatica
     id: 399630
     files:
-      - id: 3352409
+      - id: 3376592
   - name: emojiful
     id: 284324
     files:
@@ -381,7 +384,7 @@ mods:
   - name: enigmatic-graves
     id: 496030
     files:
-      - id: 3371502
+      - id: 3378499
   - name: enigmatica-companion-mod
     id: 372372
     files:
@@ -437,7 +440,7 @@ mods:
   - name: ferritecore
     id: 429235
     files:
-      - id: 3272785
+      - id: 3358428
   - name: findme
     id: 291936
     files:
@@ -457,7 +460,7 @@ mods:
   - name: framedblocks
     id: 441647
     files:
-      - id: 3355716
+      - id: 3381744
   - name: ftb-backups-forge
     id: 314904
     files:
@@ -465,7 +468,7 @@ mods:
   - name: ftb-chunks-forge
     id: 314906
     files:
-      - id: 3373847
+      - id: 3379733
   - name: ftb-essentials-forge
     id: 410811
     files:
@@ -477,11 +480,11 @@ mods:
   - name: ftb-quests-forge
     id: 289412
     files:
-      - id: 3373853
+      - id: 3385407
   - name: ftb-ranks-forge
     id: 314905
     files:
-      - id: 3373844
+      - id: 3381473
   - name: ftb-teams-forge
     id: 404468
     files:
@@ -509,11 +512,11 @@ mods:
   - name: immersive-engineering
     id: 231951
     files:
-      - id: 3326143
+      - id: 3377691
   - name: immersive-petroleum
     id: 268250
     files:
-      - id: 3326712
+      - id: 3384353
   - name: immersiveposts
     id: 314645
     files:
@@ -521,15 +524,15 @@ mods:
   - name: industrial-foregoing
     id: 266515
     files:
-      - id: 3346370
+      - id: 3386008
   - name: integrated-crafting
     id: 287357
     files:
-      - id: 3307965
+      - id: 3375996
   - name: integrated-dynamics
     id: 236307
     files:
-      - id: 3365631
+      - id: 3376007
   - name: integrated-nbt
     id: 380998
     files:
@@ -537,7 +540,7 @@ mods:
   - name: integrated-proxy
     id: 487858
     files:
-      - id: 3366333
+      - id: 3385994
   - name: integrated-terminals
     id: 295910
     files:
@@ -545,7 +548,7 @@ mods:
   - name: integrated-tunnels
     id: 251389
     files:
-      - id: 3365635
+      - id: 3376002
   - name: interactio
     id: 359344
     files:
@@ -569,15 +572,15 @@ mods:
   - name: iron-jetpacks
     id: 284497
     files:
-      - id: 3173404
+      - id: 3375360
   - name: item-filters-forge
     id: 309674
     files:
-      - id: 3374092
+      - id: 3376819
   - name: jei
     id: 238222
     files:
-      - id: 3373521
+      - id: 3383214
   - name: journeymap
     id: 32274
     files:
@@ -589,7 +592,7 @@ mods:
   - name: just-enough-calculation
     id: 242223
     files:
-      - id: 3366373
+      - id: 3383426
   - name: just-enough-piglin-bartering
     id: 437558
     files:
@@ -621,7 +624,7 @@ mods:
   - name: kubejs-forge
     id: 238086
     files:
-      - id: 3364266
+      - id: 3384334
   - name: kubejs-immersive-engineering
     id: 421770
     files:
@@ -661,7 +664,7 @@ mods:
   - name: macaws-bridges
     id: 351725
     files:
-      - id: 3182346
+      - id: 3378577
   - name: macaws-doors
     id: 378646
     files:
@@ -694,10 +697,14 @@ mods:
     id: 310494
     files:
       - id: 3055694
+  - name: max-health-fix
+    id: 492246
+    files:
+      - id: 3348634
   - name: mcjtylib
     id: 233105
     files:
-      - id: 3236516
+      - id: 3380980
   - name: meet-your-fight
     id: 409371
     files:
@@ -730,6 +737,10 @@ mods:
     id: 250294
     files:
       - id: 3315175
+  - name: more-crafting-tables-for-forge
+    id: 417365
+    files:
+      - id: 3367220
   - name: more-dragon-eggs
     id: 358700
     files:
@@ -738,6 +749,7 @@ mods:
     id: 391382
     files:
       - id: 3349183
+    side: client
   - name: more-sound-config
     id: 306555
     files:
@@ -761,7 +773,7 @@ mods:
   - name: mythicbotany
     id: 400058
     files:
-      - id: 3336477
+      - id: 3382670
   - name: natures-aura
     id: 306626
     files:
@@ -769,7 +781,7 @@ mods:
   - name: natures-compass
     id: 252848
     files:
-      - id: 3335874
+      - id: 3382150
   - name: natures-starlight
     id: 466739
     files:
@@ -778,6 +790,7 @@ mods:
     id: 238372
     files:
       - id: 3182258
+    side: client
   - name: netherportalfix
     id: 241160
     files:
@@ -789,7 +802,7 @@ mods:
   - name: occultism
     id: 361026
     files:
-      - id: 3377004
+      - id: 3387433
   - name: oh-the-biomes-youll-go
     id: 247560
     files:
@@ -806,6 +819,7 @@ mods:
     id: 358191
     files:
       - id: 3292171
+    side: client
   - name: pane-in-the-glass
     id: 374529
     files:
@@ -841,7 +855,7 @@ mods:
   - name: pneumaticcraft-repressurized
     id: 281849
     files:
-      - id: 3363431
+      - id: 3378481
   - name: polymorph
     id: 388800
     files:
@@ -890,6 +904,7 @@ mods:
     id: 237701
     files:
       - id: 3105779
+    side: client
   - name: redstone-gauges-and-switches
     id: 296686
     files:
@@ -905,7 +920,7 @@ mods:
   - name: repurposed-structures
     id: 368293
     files:
-      - id: 3374303
+      - id: 3386058
   - name: resourceful-bees
     id: 384508
     files:
@@ -917,23 +932,23 @@ mods:
   - name: rftools-base
     id: 326041
     files:
-      - id: 3206945
+      - id: 3380271
   - name: rftools-builder
     id: 347706
     files:
-      - id: 3302323
+      - id: 3380279
   - name: rftools-control
     id: 250763
     files:
-      - id: 3310449
+      - id: 3380280
   - name: rftools-dimensions
     id: 240950
     files:
-      - id: 3310410
+      - id: 3382163
   - name: rftools-power
     id: 290209
     files:
-      - id: 3087309
+      - id: 3380276
   - name: rftools-storage
     id: 350006
     files:
@@ -941,7 +956,7 @@ mods:
   - name: rftools-utility
     id: 342466
     files:
-      - id: 3310447
+      - id: 3380275
   - name: rhino
     id: 416294
     files:
@@ -974,6 +989,10 @@ mods:
     id: 349206
     files:
       - id: 3301978
+  - name: selene
+    id: 499980
+    files:
+      - id: 3382409
   - name: serverconfig-updater
     id: 365281
     files:
@@ -981,7 +1000,7 @@ mods:
   - name: shrink_
     id: 426386
     files:
-      - id: 3352335
+      - id: 3383770
   - name: shutup-experimental-settings
     id: 407174
     files:
@@ -1001,7 +1020,7 @@ mods:
   - name: small-ships
     id: 450659
     files:
-      - id: 3334283
+      - id: 3381331
   - name: sophisticated-backpacks
     id: 422301
     files:
@@ -1037,7 +1056,7 @@ mods:
   - name: supplementaries
     id: 412082
     files:
-      - id: 3367447
+      - id: 3386210
   - name: sushigocrafting
     id: 452500
     files:
@@ -1074,10 +1093,6 @@ mods:
     id: 317792
     files:
       - id: 3089690
-  - name: the-official-enigmatica-resource-pack-16x16
-    id: 390898
-    files:
-      - id: 3248894
   - name: the-one-probe
     id: 245211
     files:
@@ -1126,6 +1141,7 @@ mods:
     id: 271740
     files:
       - id: 3172881
+    side: client
   - name: tome-of-blood
     id: 438240
     files:
@@ -1145,7 +1161,7 @@ mods:
   - name: transport
     id: 292692
     files:
-      - id: 3271777
+      - id: 3386772
   - name: trash-cans
     id: 394535
     files:
@@ -1209,7 +1225,7 @@ mods:
   - name: yungs-api
     id: 421850
     files:
-      - id: 3261121
+      - id: 3386962
   - name: yungs-better-mineshafts-forge
     id: 389665
     files:
