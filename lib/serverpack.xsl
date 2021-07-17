@@ -2,9 +2,9 @@
 <xsl:stylesheet xmlns:xsl='http://www.w3.org/1999/XSL/Transform' version='2.0'>
   <xsl:output method="xml" indent="yes" />
   <xsl:template match='/'>
-    <ServerPack version="3.3">
+    <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
       <xsl:for-each select='/expr/attrs/attr/attrs'>
-        <Server autoConnect="false" mainClass='net.minecraft.launchwrapper.Launch' newsUrl='https://minecraft.sufficientvelocity.com/'>
+	<Server autoConnect="false" launcherType='Vanilla' mainClass="cpw.mods.modlauncher.Launcher" serverClass="net.minecraftforge.server.ServerMain" newsUrl='https://madoka.brage.info/'>
           <xsl:attribute name='version'>
             <xsl:value-of select="attr[@name='minecraftVersion']/string/@value" />
           </xsl:attribute>

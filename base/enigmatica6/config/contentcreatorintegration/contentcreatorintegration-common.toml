@@ -1,0 +1,16 @@
+
+#Full documentation for this mod can be found at: https://content-creator-integration.readthedocs.io
+#This mod is a product of way too many hours of development and testing and is provided free to bridge the gap between content creators and their supporters. Consider donating to the mod author via the CurseForge page!
+[general]
+	#Whitelisted Users. These users will be able to trigger serverside outcomes.
+	whitelistedUsers = []
+	#Converts the list of whitelisted users to be the list of blacklisted users.
+	enableBlacklist = false
+	#Permission level required to use the server commands for CCI
+	#Range: 0 ~ 4
+	commandPermissionLevel = 3
+	#Disallowed Commands. These commands are prevented from being executed by CommandOutcome. EG: To disable "/time set day", add the "time" command to the list. Does not cover for aliases (EG: /tp and /teleport)
+	disallowedCommands = []
+	#Types of log types to write to disk. Putting socket_event in is the only way to see the raw event information (from the log file) as it is not printed to console. Everything else will still be print to console. Client config overrides this on Clients!
+	logTypes = ["cci", "debug", "event", "socket_status", "socket_event"]
+

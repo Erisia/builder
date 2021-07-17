@@ -20,15 +20,53 @@ let resources_12 = runLocally "resources-1.12" {
      mkdir -p $out/resourcepacks
      #ln -s $erisia $out/resourcepacks/erisia-pack.zip
    '';
+   resources_enigmatica6 = runLocally "resources_enigmatica6" {
+     e6 = fetchurl {
+        url = "https://media.forgecdn.net/files/3248/894/ERP-V1.8.zip";
+        sha256 = "1vb8vzm145ng8l58vsqz302anhgqyr0r3392bky57mbyn3mfxkgy";
+     };
+   } ''
+      mkdir -p $out/resourcepacks
+      ln -s $e6 $out/resourcepacks/ERP-V1.8.zip
+   '';
    sprocket = callPackage ./lib/sprocket {};
 in
 
 rec {
 
   packs = {
+    e28 = buildPack e28;
     e27 = buildPack e27;
   };
 
+  e28 = {
+    name = "Enigmatica 6";
+    tmuxName = "e28";
+    description = "E28: Latin Name Goes Here";
+    ram = "9000m";
+    port = 25566;
+    prometheusPort = 1223;
+    forge = {
+      major = "1.16.5";
+      minor = "36.1.32";
+    };
+    extraDirs = [
+      ./base/enigmatica6
+      ./base/erisia
+    ];
+    extraServerDirs = [
+      ./base/server
+    ];
+    extraClientDirs = [
+      resources_enigmatica6
+      ./base/client
+    ];
+    manifests = [
+      ./manifest/e28.nix
+    ];
+    blacklist = [
+    ];
+  };
 
   e27 = {
     name = "MCEternal";

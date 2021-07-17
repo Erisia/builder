@@ -1,0 +1,52 @@
+---
+version: 1.16.5
+imports:
+  - 'enigmatica6.yml'
+mods:
+  - name: ai-improvements
+    id: 233019
+  - name: in-control
+    id: 257356
+  - name: scannable
+    id: 266784
+  - name: comforts
+    id: 276951
+  - name: dynamic-view
+    id: 366140
+  - name: anti-mob-griefing
+    id: 449140
+  - name: immersive-portals-for-forge
+    id: 355440
+  - name: applied-energistics-2
+    id: 223794
+    files:
+      - id: 3354897
+  - name: biggerreactors
+    id: 407780
+    files:
+      - id: 3179858
+  - name: woot
+    id: 244049
+    files:
+      - id: 3311405
+  - name: minecolonies
+    id: 245506
+    files:
+      - id: 3375915
+  - name: structurize
+    id: 298744
+    files:
+      - id: 3371231
+  - name: phosphophyllite
+    id: 412551
+    files:
+      - id: 3221978
+  - name: simple-voice-chat
+    id: 416089
+    files:
+      - id: 3362964
+  - name: dcintegration
+    id: 324952
+    files:
+      - id: 3308615
+    side: server

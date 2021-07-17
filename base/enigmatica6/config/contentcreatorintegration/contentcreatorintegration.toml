@@ -1,0 +1,78 @@
+
+#Full documentation for this mod can be found at: https://content-creator-integration.readthedocs.io
+#This mod is a product of way too many hours of development and testing and is provided free to bridge the gap between content creators and their supporters. Consider donating to the mod author via the CurseForge page!
+[general]
+	#Keeping this on/true makes CCI trigger the first run wizard settings. Turned off by CCI later.
+	firstRun = false
+	#The Minecraft Toast Renderer has a bug where toasts with different heights might overlap. This override fixes it if the renderer is still the default renderer.
+	overrideToastGui = true
+	#Set this if your streamer name is different from your Minecraft name for the $streamer global variable.
+	streamerName = ""
+	#Maximum amount of automatic reconnects before trying giving up.
+	#Range: 0 ~ 20
+	maxAutomaticReconnects = 3
+	#The sockets we use can be unreliable at times. Turn this on to get toasts about their status and other events.
+	enableInformationToasts = true
+	#URLs to pull online configs from. These should link to a raw file of the configuration. These configs will override local configs.
+	onlineConfigs = []
+	#Enable local statistics collection? This information is for your own personal reference. None of it is be sent externally.
+	stats = true
+	#Allow outcomes that require a server to wait until the user connects to a server that allows them to send outcomes? Outcomes are normally discarded otherwise.
+	allowOutcomesRequiringServerWait = true
+	#Maximum size of the event cache. Caching prevents retriggers of events and allows you to play back events in the CCI gui, but takes more memory.
+	#Range: 0 ~ 200
+	maxEventCache = 20
+	#Default profile name. Defaults to "default". If set, will read from that folder within the main CCI directory instead. Change in-game with the editor.
+	defaultProfile = "default"
+	#Types of log types to write to disk. Putting socket_event in is the only way to see the raw event information (from the log file) as it is not printed to console. Everything else will still be print to console.
+	logTypes = ["cci", "debug", "event", "socket_status", "socket_event"]
+
+#Config options for the GUI library powering CCI's Config Editor, Boxes & Stuff
+[boxesAndStuff]
+	#Adjust the scale of the Event Configuration editor. Setting it to 0 makes it follow Minecraft's GUI scale. Set to -1 to do nothing.
+	#Range: -1 ~ 6
+	editorGuiScale = 2
+	#When you select a config in the editor it automatically expands all items with AT MOST this many items.
+	#Range: 0 ~ 100
+	guiListExpand = 2
+	#Renders Boxes & Stuff's GUIs in a Minecraft Style instead. 1 = Vanilla Style, 2 = Texture Pack Style
+	#Range: 0 ~ 2
+	guiMinecraftStyle = 0
+	#How much padding to add to the docked windows
+	#Range: 0 ~ 50
+	guiDockPadding = 0
+	#Number of pixels before Boxes & Stuff thinks you're trying to dock a window
+	#Range: 1 ~ 100
+	guiDockBorder = 8
+	#Speed, in ticks, to register a double click
+	#Range: 1 ~ 100
+	guiDoubleClickSpeed = 10
+	#Number of ticks before showing a tooltip
+	#Range: 0 ~ 60000000
+	guiTooltipCooldown = 20
+
+#Category for socket tokens. These tokens are more likely than not, sensitive information, so be careful who you show these to.
+#
+#REMEMBER to add quotes around your token.
+#
+#If you change these tokens whilst the game is running, please use "/cci" and open the Connections window on the top left to restart the sockets.
+[socket]
+	#Tokens for DonationAlerts. One token per line
+	donationAlertsTokens = []
+	#JWT Tokens for StreamElements. One token per line. To find your JWT token: Go to StreamElements -> Dashboard -> Click on your profile name (top right) -> Show secrets
+	streamElementsTokens = []
+	#Socket Api Tokens for Streamlabs. One token per line. Most likely requires a Streamlabs widget to be open when running. I would recommend the event list widget. To find your socket API token: Go to Streamlabs -> Dashboard -> Settings (in left sidebar) -> API Settings -> API Tokens -> Your Socket API Token
+	streamlabsTokens = []
+	#Twitch channels' chat to listen to. One channel per line.
+	twitchChats = []
+	#If you were given a refresh token when you generated your OAuth Token, you can use this config to store it.
+	pubsubRefreshTokens = []
+	#We need an OAuth token with the following scopes: bits:read, chat:read, channel:moderate, channel:read:hype_train, channel:read:polls, channel:read:predictions, channel:read:redemptions, channel:read:subscriptions. You can generate one from https://twitchtokengenerator.com/ or use this URL: https://twitchtokengenerator.com/quick/jIAulxmVAS
+	pubsubOauthTokens = []
+	#We need a Google API key to connect to YouTube Chat. Obviously only needed for YouTube Chat. Follow the instructions on this page, in the "Before you start" section: https://developers.google.com/youtube/v3/live/getting-started#before-you-start .
+	#
+	#The API Key we need is the one defined in the link in Step 2: Register your application.
+	googleApiKey = ""
+	#YouTube channel IDs' chat to listen to. One channel per line. Whilst we prefer the channel ID, you can use the user ID too. You can find it in your channel's url. youtube.com/channel/<channel id>, or youtube.com/user/<channel id>
+	youtubeChannels = []
+

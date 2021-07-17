@@ -1,0 +1,69 @@
+{
+    "block.minecraft.nether_portal.name": "Nether Portal",
+
+    "block.minecraft.stonecutter": "Stonecutter",
+    "container.stonecutter": "Stonecutter",
+
+    "block.tetra.hammer_head": "Hammer head",
+
+    "curios.identifier.goggles": "Goggles",
+
+    "entity.minecraft.villager.beekeeper": "Beekeeper",
+    "entity.minecraft.villager.immersiveengineering.gunsmith": "Gunsmith",
+    "entity.minecraft.villager.immersiveengineering:outfitter": "Outfitter",
+    "entity.minecraft.villager.immersiveengineering:electrician": "Electrician",
+    "entity.minecraft.villager.immersiveengineering:machinist": "Machinist",
+    "entity.minecraft.villager.immersiveengineering:engineer": "Engineer",
+    "entity.minecraft.villager.pneumaticcraft:mechanic": "Mechanic",
+    "entity.minecraft.villager.advancedperipherals.computer_scientist": "Computer Scientist",
+
+    "entity.projectvibrantjourneys.frog": "Frog",
+
+    "desc.immersiveengineering.info.mineral.abyssalite": "Abyssalite",
+    "desc.immersiveengineering.info.mineral.kimberlite": "Kimberlite",
+    "desc.immersiveengineering.info.mineral.thymarian_fossil_bed": "Thymarian Fossil Bed",
+    "desc.immersiveengineering.info.mineral.prismatic_xyloretinite": "Prismatic Xyloretinite",
+    "desc.immersiveengineering.info.mineral.cloggranite": "Cloggranite",
+    "desc.immersiveengineering.info.mineral.erythrite": "Erythrite",
+    "desc.immersiveengineering.info.mineral.camlannite": "Camlannite",
+    "desc.immersiveengineering.info.mineral.myrddinite": "Myrddinite",
+    "desc.immersiveengineering.info.mineral.vivacious_metamorphic_rock": "Vivacious Metamorphic Rock",
+    "desc.immersiveengineering.info.mineral.arid_metamorphic_rock": "Arid Metamorphic Rock",
+    "desc.immersiveengineering.info.mineral.prismatic_corundum_cluster": "Prismatic Corundum Cluster",
+    "desc.immersiveengineering.info.mineral.horodric_digsite": "Horodric Digsite",
+    "desc.immersiveengineering.info.mineral.naqada": "Naqada",
+
+    "advancements.enigmatica.husbandry.tame_all_animals.title": "Zoology",
+    "advancements.enigmatica.husbandry.tame_all_animals.description": "Tame every animal there is to tame!",
+
+    "block.naturesaura.infused_iron_block": "Infused Sunmetal Block",
+    "item.naturesaura.infused_iron": "Infused Sunmetal Ingot",
+
+    "block.eidolon.candle": "Consecrated Candle",
+    "block.eidolon.candlestick": "Consecrated Candlestick",
+
+    "block.occultism.candle_white": "Profaned Candle",
+    "item.occultism.otherstone_tablet": "Otherstone Slate",
+
+    "item.bloodmagic.demonwillgauge": "Demonic Will Gauge",
+
+    "fluid.undergarden.virulent_mix_source": "Virulent Mix",
+
+    "fluid.bloodmagic.life_essence_fluid": "Life Essence",
+
+    "fluid.kubejs.molten_cobalt_bee": "Molten Cobalt Bee",
+    "fluid.kubejs.molten_aluminum_bee": "Molten Aluminum Bee",
+    "fluid.kubejs.liquid_slimy_bee": "Liquid Slimy Bee",
+    "fluid.kubejs.liquid_skyslime_bee": "Liquid Skyslime Bee",
+    "fluid.kubejs.liquid_ichor_bee": "Liquid Ichor Bee",
+    "fluid.kubejs.liquid_enderslime_bee": "Liquid Enderslime Bee",
+
+    "item.kubejs.molten_cobalt_bee_bucket": "Molten Cobalt Bee Bucket",
+    "item.kubejs.molten_aluminum_bee_bucket": "Molten Aluminum Bee Bucket",
+    "item.kubejs.liquid_slimy_bee_bucket": "Liquid Slimy Bee Bucket",
+    "item.kubejs.liquid_skyslime_bee_bucket": "Liquid Skyslime Bee Bucket",
+    "item.kubejs.liquid_ichor_bee_bucket": "Liquid Ichor Bee Bucket",
+    "item.kubejs.liquid_enderslime_bee_bucket": "Liquid Enderslime Bee Bucket",
+
+    "": ""
+}
