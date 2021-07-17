@@ -1,5 +1,5 @@
 #Enables backups to run automatically.
-auto = false
+auto = true
 #If set to true, no messages will be displayed in chat/status bar.
 silent = false
 #The number of backup files to keep.

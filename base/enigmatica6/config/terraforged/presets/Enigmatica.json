@@ -716,13 +716,13 @@
         "disabled": false
       },
       "tconstruct:earth_slime_island": {
-        "spacing": 80,
+        "spacing": 34,
         "separation": 31,
         "salt": 25988584,
         "disabled": false
       },
       "tconstruct:overworld_slime_island": {
-        "spacing": 72,
+        "spacing": 32,
         "separation": 31,
         "salt": 14357800,
         "disabled": false
@@ -945,8 +945,8 @@
     "riverCount": 20,
     "mainRivers": {
       "bedDepth": 8,
-      "minBankHeight": 5,
-      "maxBankHeight": 10,
+      "minBankHeight": 2,
+      "maxBankHeight": 8,
       "bedWidth": 10,
       "bankWidth": 25,
       "fade": 0.5
@@ -954,7 +954,7 @@
     "branchRivers": {
       "bedDepth": 5,
       "minBankHeight": 1,
-      "maxBankHeight": 7,
+      "maxBankHeight": 6,
       "bedWidth": 6,
       "bankWidth": 16,
       "fade": 0.703

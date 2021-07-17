@@ -4,5 +4,5 @@ versionCheck = true
 splashscreen = true
 defaultConfigPath = "defaultconfigs"
 # max threads for parallel loading : -1 uses Runtime#availableProcessors
-maxThreads = 12
+maxThreads = -1
 
