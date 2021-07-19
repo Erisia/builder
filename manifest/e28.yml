@@ -50,3 +50,6 @@ mods:
     files:
       - id: 3308615
     side: server
+  - name: tagfoods
+    id: 504465
+    required: false
