@@ -12,6 +12,7 @@ onEvent('recipes', event => {
         "middle": {
             "item": "emendatusenigmatica:silicon_gem"
         }
-      }
-    })
+     }
   })
+})
+
