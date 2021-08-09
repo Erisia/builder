@@ -104,3 +104,7 @@ onEvent('recipes', (event) => {
             : event.shapeless(recipe.output, recipe.inputs);
     });
 });
+
+onEvent('item.tags', event => {
+  event.add('appliedenergistics2:dusts/ender', 'emendatusenigmatica:ender_dust')
+})
