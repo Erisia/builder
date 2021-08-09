@@ -1,5 +1,5 @@
 #!/usr/bin/env nix-shell
-#!nix-shell -i bash -p jre8 rsync tmux
+#!nix-shell -i bash -p jre8 rsync tmux numactl
 
 set -eum
 
@@ -140,7 +140,8 @@ fi
 
 echo $$ > server.pid
 
-java -d64 -server -Xmx@ram@ \
+numactl -m 0 -N 0 \
+java -d64 -server -Xms@ram@ -Xmx@ram@ \
   "$@" \
   -Djava.net.preferIPv4Stack=true \
   -Dfml.readTimeout=1800 \
@@ -148,6 +149,7 @@ java -d64 -server -Xmx@ram@ \
   -Dfml.doNotBackup=true \
   -XX:+AggressiveOpts \
   -XX:+UseTransparentHugePages \
+  -XX:+AlwaysPreTouch \
   -XX:+UseG1GC \
   -XX:+UnlockExperimentalVMOptions \
   -XX:G1HeapRegionSize=32M \
