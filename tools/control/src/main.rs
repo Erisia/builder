@@ -178,7 +178,7 @@ impl Server {
                 break;
             }
             delay_for(second).await;
-            if stopping.elapsed() >= second * 20 {
+            if stopping.elapsed() >= second * 60 {
                 println!("Server did not stop. Attempting to kill.");
                 println!("Please manually confirm the state if this fails.");
                 process::Command::new("kill").args(&[format!("{}", self.pid)]).output()?;

@@ -141,7 +141,7 @@ fi
 echo $$ > server.pid
 
 numactl -m 0 -N 0 \
-java -d64 -server -Xmx@ram@ \
+java -d64 -server -Xms@ram@ -Xmx@ram@ \
   "$@" \
   -Djava.net.preferIPv4Stack=true \
   -Dfml.readTimeout=1800 \
@@ -149,6 +149,7 @@ java -d64 -server -Xmx@ram@ \
   -Dfml.doNotBackup=true \
   -XX:+AggressiveOpts \
   -XX:+UseTransparentHugePages \
+  -XX:+AlwaysPreTouch \
   -XX:+UseG1GC \
   -XX:+UnlockExperimentalVMOptions \
   -XX:G1HeapRegionSize=32M \
