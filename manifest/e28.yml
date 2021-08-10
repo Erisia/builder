@@ -50,6 +50,9 @@ mods:
     files:
       - id: 3308615
     side: server
+  - name: tagfoods
+    id: 504465
+    required: false
   - name: observable
     id: 509575
     files:

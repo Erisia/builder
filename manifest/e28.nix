@@ -4745,6 +4745,23 @@
         "sha256" = "6c2d4e6128059a2e748637a162ccc527c0751adbb9c89750c83c4047e63d1d45";
         "size" = 86237;
     };
+    "tagfoods" = {
+        "title" = "TagFoods";
+        "name" = "tagfoods";
+        "id" = 504465;
+        "side" = "both";
+        "required" = false;
+        "default" = true;
+        "deps" = [];
+        "filename" = "tagfoods-1.0.0.jar";
+        "encoded" = "tagfoods-1.0.0.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/tagfoods";
+        "src" = "https://media.forgecdn.net/files/3391/73/tagfoods-1.0.0.jar";
+        "type" = "remote";
+        "md5" = "9b1dc9ddaf924b6e56b1671d70db5863";
+        "sha256" = "80a9d23cb5c1e74788b779cb58594b1262ccfb2bb313637abcbdda7ba5a1a3dc";
+        "size" = 13266;
+    };
     "tamed-summon" = {
         "title" = "Tamed Summon";
         "name" = "tamed-summon";
