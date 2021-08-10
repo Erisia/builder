@@ -584,7 +584,7 @@ mods:
   - name: journeymap
     id: 32274
     files:
-      - id: 3373817
+      - id: 3396700
   - name: just-enough-beacons
     id: 352622
     files:
