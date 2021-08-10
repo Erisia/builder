@@ -469,14 +469,14 @@
         "required" = true;
         "default" = true;
         "deps" = [];
-        "filename" = "betterbiomeblend-1.16.4-1.1.9-forge.jar";
-        "encoded" = "betterbiomeblend-1.16.4-1.1.9-forge.jar";
+        "filename" = "betterbiomeblend-1.16.4-1.2.7-forge.jar";
+        "encoded" = "betterbiomeblend-1.16.4-1.2.7-forge.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/better-biome-blend";
-        "src" = "https://media.forgecdn.net/files/3386/517/betterbiomeblend-1.16.4-1.1.9-forge.jar";
+        "src" = "https://media.forgecdn.net/files/3406/833/betterbiomeblend-1.16.4-1.2.7-forge.jar";
         "type" = "remote";
-        "md5" = "abe466532837165a79570109bef50726";
-        "sha256" = "5c585ebf212798365322a939959e1d0f7fa1a5b9aa59af9dd5e75c104dde2d45";
-        "size" = 25172;
+        "md5" = "dea5729b51c2c05dca7eb6f63bd83d1c";
+        "sha256" = "db6ef3489a99bf5fe7ddadc1a7b8768474dfd653a8a07fa39e7079169624374f";
+        "size" = 32071;
     };
     "better-burning" = {
         "title" = "Better Burning";
@@ -979,14 +979,14 @@
         "required" = true;
         "default" = true;
         "deps" = [];
-        "filename" = "comforts-forge-1.16.5-4.0.1.1.jar";
-        "encoded" = "comforts-forge-1.16.5-4.0.1.1.jar";
+        "filename" = "comforts-forge-1.16.5-4.0.1.2.jar";
+        "encoded" = "comforts-forge-1.16.5-4.0.1.2.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/comforts";
-        "src" = "https://media.forgecdn.net/files/3359/524/comforts-forge-1.16.5-4.0.1.1.jar";
+        "src" = "https://media.forgecdn.net/files/3411/197/comforts-forge-1.16.5-4.0.1.2.jar";
         "type" = "remote";
-        "md5" = "bbbb0b39bd5a7371f4f2e3b65ef98c34";
-        "sha256" = "224bf2c8cd7159b24fa8156f118bf020f068bd82ea06fc18b05af592df8417b9";
-        "size" = 241852;
+        "md5" = "648be48e3bcbd10693280f0ef644e397";
+        "sha256" = "5fc37600f6b52a9bb6a7f835c23f95c92e2ad645bdc01166ae4106985a2a45d7";
+        "size" = 241861;
     };
     "common-capabilities" = {
         "title" = "Common Capabilities";
@@ -2594,14 +2594,14 @@
         "required" = true;
         "default" = true;
         "deps" = [];
-        "filename" = "journeymap-1.16.5-5.7.2beta18.jar";
-        "encoded" = "journeymap-1.16.5-5.7.2beta18.jar";
+        "filename" = "journeymap-1.16.5-5.7.2.jar";
+        "encoded" = "journeymap-1.16.5-5.7.2.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/journeymap";
-        "src" = "https://media.forgecdn.net/files/3373/817/journeymap-1.16.5-5.7.2beta18.jar";
+        "src" = "https://media.forgecdn.net/files/3396/700/journeymap-1.16.5-5.7.2.jar";
         "type" = "remote";
-        "md5" = "2c1f5cada871c5e2a530c5337a01e839";
-        "sha256" = "2fe1c7fe85210c422436d20fc604f3c7d9319b4944b2933e8002d51f057971a7";
-        "size" = 6864744;
+        "md5" = "92dcac2910f9184d5b9ad4063ad6ada3";
+        "sha256" = "02904f42af1e3088a14a078b2a93a95f340814db2f0b7bcc6340153cf5c220e4";
+        "size" = 6867786;
     };
     "just-enough-beacons" = {
         "title" = "Just Enough Beacons";
@@ -3504,6 +3504,23 @@
         "sha256" = "12659a1e4606812286a737b043b1df3eba7e91ec7ac7e488f43e7c9510f32085";
         "size" = 110010;
     };
+    "observable" = {
+        "title" = "Observable";
+        "name" = "observable";
+        "id" = 509575;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "observable-0.1.1-forge.jar";
+        "encoded" = "observable-0.1.1-forge.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/observable";
+        "src" = "https://media.forgecdn.net/files/3413/402/observable-0.1.1-forge.jar";
+        "type" = "remote";
+        "md5" = "6cad1c5f27ba3c856a0c537dcea4874e";
+        "sha256" = "b7ffd27d2cdd53315b16754567b88925f95821059978e2e8fc2f528f3d3f97ad";
+        "size" = 24359071;
+    };
     "observerlib" = {
         "title" = "ObserverLib";
         "name" = "observerlib";
@@ -4328,14 +4345,14 @@
         "required" = true;
         "default" = true;
         "deps" = [];
-        "filename" = "Scannable-MC1.16.5-1.7.3.17.jar";
-        "encoded" = "Scannable-MC1.16.5-1.7.3.17.jar";
+        "filename" = "Scannable-MC1.16.5-Forge-1.7.4+21.jar";
+        "encoded" = "Scannable-MC1.16.5-Forge-1.7.4+21.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/scannable";
-        "src" = "https://media.forgecdn.net/files/3221/64/Scannable-MC1.16.5-1.7.3.17.jar";
+        "src" = "https://media.forgecdn.net/files/3398/418/Scannable-MC1.16.5-Forge-1.7.4%2B21.jar";
         "type" = "remote";
-        "md5" = "75102af6d8fa8c318b810278f2f27699";
-        "sha256" = "3114b09c33aadb10fa525250fb63de9f25418217b9045dcffa2c3a878ec5bdda";
-        "size" = 366072;
+        "md5" = "09013ea6319eb3efc0e3ebc33966c5f1";
+        "sha256" = "214952cb3f306365fb590738befe833938c98fd51c0efb5872001d2c712470cb";
+        "size" = 366005;
     };
     "seals" = {
         "title" = "Seals";

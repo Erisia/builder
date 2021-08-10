@@ -50,3 +50,7 @@ mods:
     files:
       - id: 3308615
     side: server
+  - name: observable
+    id: 509575
+    files:
+      - id: 3413402
