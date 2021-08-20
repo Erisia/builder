@@ -13,11 +13,11 @@
 	"Deep ocean mob max height" = 30
 
 	[mobs.spawns]
-		"Glow Squid spawn weight (oceans)" = 67
-		"Thrasher spawn weight (cold oceans)" = 90
-		"Nautilus spawn weight (warm oceans)" = 51
-		"Lionfish spawn weight (coral reefs)" = 15
-		"Pike spawn weight (rivers)" = 11
+		"Glow Squid spawn weight (oceans)" = 5
+		"Thrasher spawn weight (cold oceans)" = 5
+		"Nautilus spawn weight (warm oceans)" = 5
+		"Lionfish spawn weight (coral reefs)" = 5
+		"Pike spawn weight (rivers)" = 5
 		"Perch spawn weight (swamps)" = 5
 		"Pike spawn weight (swamps)" = 5
 		"Squid spawn weight (swamps)" = 5
