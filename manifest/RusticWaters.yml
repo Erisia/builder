@@ -1,0 +1,686 @@
+---
+version: 1.12.2
+imports: []
+mods:
+  - name: additional-compression
+    id: 255221
+    files:
+      - id: 2680998
+  - name: ae2wtlib
+    id: 304024
+    files:
+      - id: 2830114
+  - name: agricraft
+    id: 225635
+    files:
+      - id: 2609648
+  - name: animales
+    id: 287755
+    files:
+      - id: 2627336
+  - name: applecore
+    id: 224472
+    files:
+      - id: 2679415
+  - name: appleskin
+    id: 248787
+    files:
+      - id: 2496585
+  - name: applied-energistics-2
+    id: 223794
+    files:
+      - id: 2747063
+  - name: armor-underwear-mod
+    id: 310383
+    files:
+      - id: 2660325
+  - name: aroma1997core
+    id: 223735
+    files:
+      - id: 2676866
+  - name: aromabackup
+    id: 225658
+    files:
+      - id: 2586524
+  - name: artisan-worktables
+    id: 284351
+    files:
+      - id: 2830558
+  - name: assisted-progression
+    id: 258250
+    files:
+      - id: 2504505
+  - name: athenaeum
+    id: 284350
+    files:
+      - id: 2780353
+  - name: base
+    id: 246996
+    files:
+      - id: 2722575
+  - name: bed-bugs
+    id: 254508
+    files:
+      - id: 2443328
+  - name: better-diving
+    id: 310303
+    files:
+      - id: 2808462
+  - name: better-questing
+    id: 238856
+    files:
+      - id: 2877468
+  - name: better-questing-quest-book
+    id: 242106
+    files:
+      - id: 2539562
+  - name: better-questing-standard-expansion
+    id: 238857
+    files:
+      - id: 2863771
+  - name: betterfps
+    id: 229876
+    files:
+      - id: 2483393
+  - name: bonsai-trees
+    id: 278993
+    files:
+      - id: 2846217
+  - name: bookshelf
+    id: 228525
+    files:
+      - id: 2836960
+  - name: bookworm
+    id: 302957
+    files:
+      - id: 2776447
+  - name: bspkrscore-updated
+    id: 323993
+    files:
+      - id: 2722821
+  - name: bubble-column-elevator-backport
+    id: 327277
+    files:
+      - id: 2795014
+  - name: building-gadgets
+    id: 298187
+    files:
+      - id: 2887403
+  - name: bullseye
+    id: 247395
+    files:
+      - id: 2644655
+  - name: camera-mod
+    id: 289310
+    files:
+      - id: 2728565
+  - name: capsule
+    id: 235338
+    files:
+      - id: 2826772
+  - name: carrots-lib
+    id: 311327
+    files:
+      - id: 2660247
+  - name: cb-multipart
+    id: 258426
+    files:
+      - id: 2755790
+  - name: chameleon
+    id: 230497
+    files:
+      - id: 2450900
+  - name: chisel
+    id: 235279
+    files:
+      - id: 2813538
+  - name: clarity
+    id: 252145
+    files:
+      - id: 2507721
+  - name: cleanview
+    id: 226889
+    files:
+      - id: 2726661
+  - name: codechicken-lib-1-8
+    id: 242818
+    files:
+      - id: 2779848
+  - name: cofh-core
+    id: 69162
+  - name: cofh-world
+    id: 271384
+    files:
+      - id: 2715784
+  - name: compactdrawers
+    id: 293968
+    files:
+      - id: 2816085
+  - name: contenttweaker
+    id: 237065
+    files:
+      - id: 2652853
+  - name: controlling
+    id: 250398
+    files:
+      - id: 2857064
+  - name: cooking-for-blockheads
+    id: 231484
+    files:
+      - id: 2733516
+  - name: copy-paste
+    id: 262155
+    files:
+      - id: 2494164
+  - name: coralreef
+    id: 248994
+    files:
+      - id: 2560552
+  - name: corpse-complex
+    id: 271605
+    files:
+      - id: 2841144
+  - name: crafttweaker
+    id: 239197
+    files:
+      - id: 2838090
+  - name: ct-watercan
+    id: 280620
+    files:
+      - id: 2826084
+  - name: ctm
+    id: 267602
+    files:
+      - id: 2832564
+  - name: cucumber
+    id: 272335
+    files:
+      - id: 2645867
+  - name: custom-main-menu
+    id: 226406
+    files:
+      - id: 2857869
+  - name: custom-starter-gear
+    id: 253735
+    files:
+      - id: 2514705
+  - name: cxlibrary
+    id: 244023
+    files:
+      - id: 2463886
+  - name: cyclic
+    id: 239286
+    files:
+      - id: 2852262
+  - name: dark-utilities
+    id: 242195
+    files:
+      - id: 2813586
+  - name: default-options
+    id: 232131
+    files:
+      - id: 2624732
+  - name: delivery
+    id: 306540
+    files:
+      - id: 2774818
+  - name: delivery-merchants
+    id: 339350
+    files:
+      - id: 2854820
+  - name: denyblocks
+    id: 282566
+    files:
+      - id: 2546691
+  - name: dropt
+    id: 284973
+    files:
+      - id: 2778545
+  - name: embers-rekindled
+    id: 300777
+    files:
+      - id: 2697221
+  - name: ender-io
+    id: 64578
+    files:
+      - id: 2809869
+  - name: ender-storage-1-8
+    id: 245174
+    files:
+      - id: 2755787
+  - name: endercore
+    id: 231868
+    files:
+      - id: 2809854
+  - name: endertweaker
+    id: 312195
+    files:
+      - id: 2718576
+  - name: environmental-tech
+    id: 245453
+    files:
+      - id: 2691536
+  - name: extended-crafting
+    id: 268387
+    files:
+      - id: 2777071
+  - name: extra-tan
+    id: 294867
+    files:
+      - id: 2800631
+  - name: extreme-reactors
+    id: 250277
+    files:
+      - id: 2722271
+  - name: ezstorage-2
+    id: 245425
+    files:
+      - id: 2530747
+  - name: fluid-funnel
+    id: 290428
+    files:
+      - id: 2543940
+  - name: foamfix-optimization-mod
+    id: 278494
+    files:
+      - id: 2845668
+  - name: fx-control
+    id: 313477
+    files:
+      - id: 2762329
+  - name: gear-swapper
+    id: 236610
+    files:
+      - id: 2704407
+  - name: glacidus
+    id: 286530
+    files:
+      - id: 2695912
+  - name: good-ol-currency
+    id: 254346
+    files:
+      - id: 2736225
+  - name: gottschcore
+    id: 272450
+    files:
+      - id: 2858702
+  - name: guide-api
+    id: 228832
+    files:
+      - id: 2645992
+  - name: harvestwithdispenser
+    id: 281480
+    files:
+      - id: 2723750
+  - name: hearthstone-mod
+    id: 243491
+    files:
+      - id: 2714370
+  - name: hunger-overhaul
+    id: 224476
+    files:
+      - id: 2565122
+  - name: i-know-what-im-doing
+    id: 271492
+    files:
+      - id: 2469710
+  - name: immersive-engineering
+    id: 231951
+    files:
+      - id: 2799143
+  - name: immersive-petroleum
+    id: 268250
+    files:
+      - id: 2544919
+  - name: in-control
+    id: 257356
+    files:
+      - id: 2763309
+  - name: in-time-presence
+    id: 325880
+    files:
+      - id: 2794815
+  - name: infinitylib
+    id: 251396
+    files:
+      - id: 2537265
+  - name: inventory-tweaks
+    id: 223094
+    files:
+      - id: 2482481
+  - name: inworldcrafting
+    id: 311938
+    files:
+      - id: 2683267
+  - name: jei
+    id: 238222
+    files:
+      - id: 2803400
+  - name: journeymap
+    id: 32274
+    files:
+      - id: 2844789
+  - name: just-a-few-fish
+    id: 235261
+    files:
+      - id: 2448283
+  - name: just-enough-dimensions
+    id: 254317
+    files:
+      - id: 2812391
+  - name: just-enough-torches
+    id: 273028
+    files:
+      - id: 2528998
+  - name: lieutenant
+    id: 295303
+    files:
+      - id: 2796815
+  - name: llibrary
+    id: 243298
+    files:
+      - id: 2704186
+  - name: lootbags
+    id: 225946
+    files:
+      - id: 2680883
+  - name: magneticraft
+    id: 224808
+    files:
+      - id: 2807901
+  - name: main-menu-scale
+    id: 310375
+    files:
+      - id: 2683258
+  - name: mantle
+    id: 74924
+    files:
+      - id: 2713386
+  - name: material-changer
+    id: 268643
+    files:
+      - id: 2573789
+  - name: mcjtylib
+    id: 233105
+    files:
+      - id: 2745846
+  - name: minetweaker-recipemaker
+    id: 226294
+    files:
+      - id: 2497436
+  - name: minicoal
+    id: 252291
+    files:
+      - id: 2549326
+  - name: modelloader
+    id: 277663
+    files:
+      - id: 2744735
+  - name: modtweaker
+    id: 220954
+    files:
+      - id: 2693544
+  - name: modular-diversity
+    id: 280506
+    files:
+      - id: 2738135
+  - name: modular-forcefield-system
+    id: 59882
+    files:
+      - id: 2581227
+  - name: modular-machinery
+    id: 270790
+    files:
+      - id: 2713714
+  - name: more-buckets
+    id: 298760
+    files:
+      - id: 2695556
+  - name: more-furnaces
+    id: 78320
+    files:
+      - id: 2627678
+  - name: mouse-tweaks
+    id: 60089
+    files:
+      - id: 2671937
+  - name: mputils
+    id: 244940
+    files:
+      - id: 2685162
+  - name: mtlib
+    id: 253211
+    files:
+      - id: 2684561
+  - name: mysticalmechanics
+    id: 300742
+    files:
+      - id: 2723313
+  - name: natura
+    id: 74120
+    files:
+      - id: 2711439
+  - name: no-nether-portals
+    id: 296057
+    files:
+      - id: 2573063
+  - name: nofov
+    id: 227965
+    files:
+      - id: 2432421
+  - name: not-enough-items-1-8
+    id: 247694
+    files:
+      - id: 2755792
+  - name: not-enough-wands
+    id: 235595
+    files:
+      - id: 2705633
+  - name: nucleus
+    id: 282063
+    files:
+      - id: 2504085
+  - name: ocean-floor-clay-sand-and-dirt
+    id: 231837
+    files:
+      - id: 2730570
+  - name: openblocks
+    id: 228816
+    files:
+      - id: 2699056
+  - name: openmodslib
+    id: 228815
+    files:
+      - id: 2699055
+  - name: overloaded
+    id: 264601
+    files:
+      - id: 2730341
+  - name: p455w0rds-library
+    id: 255232
+    files:
+      - id: 2830265
+  - name: packmode
+    id: 278398
+    files:
+      - id: 2567799
+  - name: pams-harvestcraft
+    id: 221857
+    files:
+      - id: 2771840
+  - name: project-74246
+    id: 74246
+    files:
+      - id: 2767198
+  - name: rats
+    id: 323596
+    files:
+      - id: 2835136
+  - name: reborncore
+    id: 237903
+  - name: redstone-flux
+    id: 270789
+    files:
+      - id: 2623090
+  - name: redstone-lock
+    id: 345342
+    files:
+      - id: 2800997
+  - name: resource-loader
+    id: 226447
+    files:
+      - id: 2477566
+  - name: rocket-squids
+    id: 251774
+    files:
+      - id: 3132074
+  - name: sbm-wooden-shears
+    id: 250880
+    files:
+      - id: 2443174
+  - name: scannable
+    id: 266784
+    files:
+      - id: 2662364
+  - name: shadowfacts-forgelin
+    id: 248453
+    files:
+      - id: 2785465
+  - name: shipwrecks
+    id: 291608
+    files:
+      - id: 2552903
+  - name: simple-sponge
+    id: 269141
+    files:
+      - id: 2677589
+  - name: simple-trophies
+    id: 301310
+    files:
+      - id: 2716718
+  - name: simply-jetpacks-2
+    id: 251792
+    files:
+      - id: 2789696
+  - name: smooth-font
+    id: 285742
+    files:
+      - id: 2775709
+  - name: splashanimation
+    id: 289953
+    files:
+      - id: 2680269
+  - name: stimmedcow-nomorerecipeconflict
+    id: 238123
+    files:
+      - id: 2671230
+  - name: storage-drawers
+    id: 223852
+    files:
+      - id: 2777929
+  - name: the-grand-finale
+    id: 339262
+    files:
+      - id: 2774498
+  - name: the-one-probe
+    id: 245211
+    files:
+      - id: 2667280
+  - name: the-weirding-gadget
+    id: 258914
+    files:
+      - id: 2708729
+  - name: thermal-dynamics
+    id: 227443
+  - name: thermal-expansion
+    id: 69163
+  - name: thermal-foundation
+    id: 222880
+  - name: thermal-innovation
+    id: 291737
+    files:
+      - id: 2920441
+  - name: thicc-entities
+    id: 291991
+    files:
+      - id: 2555453
+  - name: tickprofiler
+    id: 270330
+    files:
+      - id: 2621293
+  - name: tiny-mob-farm
+    id: 311880
+    files:
+      - id: 2681454
+  - name: tips
+    id: 306549
+    files:
+      - id: 2675002
+  - name: tough-as-nails
+    id: 246391
+    files:
+      - id: 2644652
+  - name: tough-expansion
+    id: 257225
+    files:
+      - id: 2556034
+  - name: translocators-1-8
+    id: 247695
+    files:
+      - id: 2755795
+  - name: treasure2
+    id: 289760
+    files:
+      - id: 2858726
+  - name: treecapitator-updated
+    id: 324007
+    files:
+      - id: 2722878
+  - name: twerk-sim-2k16
+    id: 251301
+    files:
+      - id: 2659489
+  - name: twitchspawn
+    id: 273382
+    files:
+      - id: 2853453
+  - name: underwater-rails
+    id: 291481
+    files:
+      - id: 2548236
+  - name: uppers
+    id: 281274
+    files:
+      - id: 2558337
+  - name: valkyrielib
+    id: 245480
+    files:
+      - id: 2691542
+  - name: vanillafix
+    id: 292785
+    files:
+      - id: 2639533
+  - name: water-strainer
+    id: 246939
+    files:
+      - id: 2460195
+  - name: wireless-crafting-terminal
+    id: 244559
+    files:
+      - id: 2830252
+  - name: world-primer
+    id: 258911
+    files:
+      - id: 2788426
+  - name: yoyos
+    id: 262692
+    files:
+      - id: 2764292
+  - name: zerocore
+    id: 247921
+    files:
+      - id: 2670570
+  - name: zoo-wild-animals-rebuild
+    id: 292547
+    files:
+      - id: 2776449
