@@ -43,7 +43,7 @@ rec {
     name = "Enigmatica 6";
     tmuxName = "e28";
     description = "E28: Latin Name Goes Here";
-    ram = "9000m";
+    ram = "18G";
     port = 25566;
     prometheusPort = 1223;
     forge = {

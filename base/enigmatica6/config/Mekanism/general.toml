@@ -5,7 +5,7 @@
 	#Range: > 1
 	maxUpgradeMultiplier = 10
 	#Peak processing rate for the Solar Neutron Activator. Note: It can go higher than this value in some extreme environments.
-	maxSolarNeutronActivatorRate = 64
+	maxSolarNeutronActivatorRate = 10000
 	#Any mod ids added to this list will not be able to have any of their blocks, picked up by the cardboard box. For example: ["mekanism"]
 	cardboardModBlacklist = ["refinedstorage", "tetra", "storagedrawers", "lootr", "extrastorage", "astralsorcery"]
 	#Disable to make the anchor upgrade not do anything.
@@ -36,7 +36,7 @@
 		#Heat capacity of Thermal Evaporation Tower layers (increases amount of energy needed to increase temperature).
 		heatCapacity = 100.0
 		#Temperature to amount produced ratio for Thermal Evaporation Tower.
-		tempMultiplier = 0.8
+		tempMultiplier = 3.2
 		#Thermal Evaporation Tower heat loss per tick.
 		heatDissipation = 0.02
 
