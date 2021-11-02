@@ -1,0 +1,98 @@
+# This file is for mods we want on basically every server.
+
+version: '1.12.2'
+imports: 
+  - 'RusticWaters.yml'
+mods:
+
+# Performance
+- name: 'betterfps'
+  id: 229876
+- name: 'clumps'
+  id: 256717
+- name: 'foamfix-optimization-mod'
+  id: 278494
+- name: 'tickprofiler'
+  id: 270330
+- name: 'phosphor-forge'
+  id: 318255
+  
+
+# Attempt to fix login timeouts
+- name: 'randompatches-forge'
+  required: false
+  default: true
+  id: 285612
+
+# Fix some random bugs
+- name: 'helpfixer'
+  side: 'server'
+  id: 223797
+- name: 'bed-patch'
+  id: 282963
+- name: 'netherportalfix'
+  id: 241160
+- name: 'reauth'
+  side: 'client'
+  required: false
+  default: true
+  id: 237701
+
+# Server management type mods:
+- name: 'worldedit'
+  id: 225608
+- name: 'spark'
+  id: 361579
+#- name: 'dynmapforge'
+#  side: 'server'
+- name: 'prometheus-integration'
+  side: 'server'
+  id: 254573
+- name: 'vanillafix'
+  side: 'client'
+  required: false
+  default: false
+  id: 292785
+- name: 'fastworkbench'
+  id: 288885
+- name: 'chunkpregenerator'
+  id: 267193
+- name: 'laggoggles'
+  id: 283525
+- name: 'tickcentral' # Laggoggles dependency
+  id: 377201
+- name: 'morpheus'
+  id: 69118
+  
+
+# client
+- name: 'dynamic-surroundings'
+  side: 'client'
+  required: false
+  id: 238891
+- name: 'nofov'
+  side: 'client'
+  required: false
+  id: 227965
+- name: 'better-foliage'
+  side: 'client'
+  required: false
+  id: 228529
+- name: 'mouse-tweaks'
+  side: 'client'
+  required: false
+  id: 60089
+- name: 'better-placement'
+  side: 'client'
+  required: false
+  default: true
+  id: 278406
+- name: 'ding'
+  side: 'client'
+  required: false
+  default: true
+  id: 231275
+- name: 'fullscreen-windowed-borderless-for-minecraft'
+  side: 'client'
+  required: false
+  id: 227441
