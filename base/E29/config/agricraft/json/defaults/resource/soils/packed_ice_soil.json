@@ -1,0 +1,18 @@
+{
+  "path": "resource/soils/packed_ice_soil.json",
+  "enabled": true,
+  "id": "packed_ice_soil",
+  "name": "Packed Ice",
+  "varients": [
+    {
+      "item": "minecraft:packed_ice",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
+    }
+  ]
+}

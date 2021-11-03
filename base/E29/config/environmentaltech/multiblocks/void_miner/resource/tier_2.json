@@ -1,0 +1,164 @@
+{
+  "outputs": [
+    {
+      "target": "log",
+      "weight": 3,
+      "id": "contenttweaker:poop_dirt"
+    },
+    {
+      "target": "log",
+      "weight": 5,
+      "id": "redstone_lock:dookie"
+    },
+    {
+      "target": "log",
+      "weight": 5,
+      "id": "minecraft:dye"
+    },
+    {
+      "target": "log",
+      "weight": 1,
+      "id": "redstone_lock:fakeegg"
+    },
+    {
+      "target": "log",
+      "weight": 3,
+      "id": "minecraft:skull:4"
+    },
+    {
+      "target": "log",
+      "weight": 5,
+      "id": "minecraft:glowstone_dust"
+    },
+    {
+      "target": "log",
+      "weight": 5,
+      "id": "minecraft:bone"
+    },
+    {
+      "target": "log",
+      "weight": 5,
+      "id": "minecraft:slime_ball"
+    },
+    {
+      "target": "log",
+      "weight": 5,
+      "id": "minecraft:ender_pearl"
+    },
+    {
+      "target": "log",
+      "weight": 5,
+      "id": "minecraft:blaze_rod"
+    },
+    {
+      "target": "log",
+      "weight": 5,
+      "id": "minecraft:ghast_tear"
+    },
+    {
+      "target": "log",
+      "weight": 5,
+      "id": "minecraft:prismarine_crystals"
+    },
+    {
+      "target": "log",
+      "weight": 5,
+      "id": "minecraft:prismarine_shard"
+    },
+    {
+      "target": "log",
+      "weight": 1,
+      "id": "minecraft:totem_of_undying"
+    },
+    {
+      "target": "log",
+      "weight": 5,
+      "id": "minecraft:rotten_flesh"
+    },
+    {
+      "target": "log",
+      "weight": 5,
+      "id": "minecraft:spider_eye"
+    },
+    {
+      "target": "log",
+      "weight": 5,
+      "id": "minecraft:magma_cream"
+    },
+    {
+      "target": "log",
+      "weight": 5,
+      "id": "bullseye:arrow:3"
+    },
+    {
+      "target": "log",
+      "weight": 5,
+      "id": "bullseye:arrow:5"
+    },
+    {
+      "target": "log",
+      "weight": 5,
+      "id": "bullseye:arrow:6"
+    },
+    {
+      "target": "log",
+      "weight": 5,
+      "id": "bullseye:arrow:7"
+    },
+    {
+      "target": "log",
+      "weight": 5,
+      "id": "bullseye:arrow:8"
+    },
+    {
+      "target": "log",
+      "weight": 5,
+      "id": "bullseye:arrow:9"
+    },
+    {
+      "target": "log",
+      "weight": 5,
+      "id": "bullseye:arrow:10"
+    },
+    {
+      "target": "log",
+      "weight": 1,
+      "id": "ftrsquids:turbotube"
+    },
+    {
+      "target": "log",
+      "weight": 5,
+      "id": "minecraft:snowball"
+    },
+    {
+      "target": "log",
+      "weight": 5,
+      "id": "minecraft:gunpowder"
+    },
+    {
+      "target": "log",
+      "weight": 5,
+      "id": "minecraft:feather"
+    },
+    {
+      "target": "log",
+      "weight": 5,
+      "id": "minecraft:string"
+    },
+    {
+      "target": "log",
+      "weight": 5,
+      "id": "minecraft:redstone"
+    },
+    {
+      "target": "log",
+      "weight": 3,
+      "id": "minecraft:skull:1"
+    },
+    {
+      "target": "log",
+      "weight": 3,
+      "id": "minecraft:skull"
+    }
+  ]
+}

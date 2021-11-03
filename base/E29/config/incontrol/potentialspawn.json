@@ -1,0 +1,97 @@
+[
+    {
+    "dimension": 84,
+    "mobs": [
+      {
+        "mob": "minecraft:ghast",
+        "weight": 8,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "thermalfoundation:blizz",
+        "weight": 8,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "thermalfoundation:basalz",
+        "weight": 8,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+
+    ]
+  },
+  {
+    "dimension": 1,
+    "mobs": [
+           {
+        "mob": "thermalfoundation:basalz",
+        "weight": 8,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "thermalfoundation:blitz",
+        "weight": 8,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+ 
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "minecraft:cow",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },      {
+        "mob": "minecraft:sheep",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },      {
+        "mob": "minecraft:pig",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },      {
+        "mob": "minecraft:chicken",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },      {
+        "mob": "zawa:bottlenosedolphin",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },      {
+        "mob": "zawa:orca",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },      {
+        "mob": "minecraft:squid",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },      {
+        "mob": "ftrsquids:rocketsquid",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },      {
+        "mob": "tfa:tfa_shark",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  }
+
+    ]
+

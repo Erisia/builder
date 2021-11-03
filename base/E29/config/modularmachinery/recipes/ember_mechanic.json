@@ -1,0 +1,18 @@
+{
+    "machine": "ember_mechanic",
+    "registryName": "ember_mechanic_lava",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "lava",
+            "amount": 5
+        },
+                {
+            "type": "mysticalmechanics",
+            "io-type": "output",
+            "level": 120
+        }
+    ]
+}

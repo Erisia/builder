@@ -1,0 +1,30 @@
+{
+    "registryname": "merchant_shipper",
+    "localizedname": "Merchant Shipper",
+    "color": "28670E",
+    "parts":[
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockoutputbus@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "cyclicmagic:wireless_transmitter@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        }
+    ]}

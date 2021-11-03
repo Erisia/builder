@@ -1,0 +1,26 @@
+[
+ {
+   "helditem": "enderio:item_end_steel_pickaxe@3",
+   "block": "redstone_lock:treasureblock",
+   "message": "Use a vanilla pickaxe",
+   "result": "deny"
+ },
+  {
+   "helditem": "enderio:item_end_steel_pickaxe@2",
+   "block": "redstone_lock:treasureblock",
+   "message": "Use a vanilla pickaxe",
+   "result": "deny"
+ },
+  {
+   "helditem": "enderio:item_end_steel_pickaxe@1",
+   "block": "redstone_lock:treasureblock",
+   "message": "Use a vanilla pickaxe",
+   "result": "deny"
+ },
+  {
+   "helditem": "enderio:item_end_steel_pickaxe",
+   "block": "redstone_lock:treasureblock",
+   "message": "Use a vanilla pickaxe",
+   "result": "deny"
+ }
+]

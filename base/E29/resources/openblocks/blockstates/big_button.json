@@ -1,0 +1,34 @@
+{
+    "forge_marker" : 1,
+    "defaults" : {
+        "textures": {
+            "particle": "minecraft:blocks/stone",
+            "all": "openblocks:blocks/bigbutton"
+        },
+        "transform": "forge:default-block"
+    },
+    "variants" : {
+        "inventory" : [{
+            "model": "openblocks:big_button_inventory"
+        }],
+
+        "powered" : {
+            "true": {
+                "model": "openblocks:big_button_active"
+            },
+            "false": {
+                "model": "openblocks:big_button_inactive"
+            }
+        },
+
+        "orientation" : {
+            "xp_yp" : { },
+            "xp_yn" : { "x" : 180 },
+
+            "xp_zn" : { "x" : 90, "y": 0 },
+            "zp_xp" : { "x" : 90, "y" : 90 },
+            "xn_zp" : { "x" : 90, "y": 180 },
+            "zn_xn" : { "x" : 90, "y" : 270 }
+        }
+    }
+}

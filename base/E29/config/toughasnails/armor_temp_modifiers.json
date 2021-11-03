@@ -1,0 +1,52 @@
+[
+  {
+    "names": [
+      "toughasnails:jelled_slime_chestplate",
+      "toughasnails:jelled_slime_leggings",
+      "toughasnails:jelled_slime_boots",
+      "thermalfoundation:armor.plate_electrum;",
+      "thermalfoundation:armor.legs_electrum;",
+      "thermalfoundation:armor.boots_electrum;"
+    ],
+    "modifier": -3
+  },
+    {
+    "names": [
+      "thermalfoundation:armor.helmet_electrum;",
+    ],
+    "modifier": -2
+  },
+  {
+    "names": [
+      "toughasnails:wool_helmet",
+      "toughasnails:wool_chestplate",
+      "toughasnails:wool_leggings",
+      "toughasnails:wool_boots"
+    ],
+    "modifier": 1
+  },
+  {
+    "names": [
+      "better_diving:diving_mask",
+      "better_diving:wetsuit_leggings",
+            "better_diving:reinforced_fins",
+      "better_diving:fins"
+    ],
+    "modifier": 1
+  },
+  {
+    "names": [
+      "better_diving:reinforced_diving_mask",
+      "better_diving:reinforced_wetsuit_leggings",
+      "better_diving:ultra_glide_fins"
+    ],
+    "modifier": 2
+  },
+  {
+    "names": [
+      "better_diving:rebreather",
+      "better_diving:improved_wetsuit_leggings",
+    ],
+    "modifier": 3
+  }
+]

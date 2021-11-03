@@ -1,0 +1,39 @@
+# Example TSL (TwitchSpawn Language) Rule Set
+# Feel free to edit this one, or create your own rule set!
+# For full documentation about TSL Language
+# See https://igoodie.gitbook.io/twitchspawn/
+ 
+# Donation Rules
+DROP modcurrency:banknote 1 1
+ ON Donation
+ WITH amount IN RANGE [0,4.99]
+ 
+DROP modcurrency:banknote 1 2
+ ON Donation
+ WITH amount IN RANGE [5,24.99]
+ 
+EXECUTE %/summon tfa:tfa_crocodile ~ ~ ~%
+ ON Donation
+ WITH amount >= 25
+ 
+DROP modcurrency:banknote 1 1
+ ON Twitch Bits
+ WITH amount IN RANGE [50,499]
+ 
+DROP modcurrency:banknote 1 2
+ ON Twitch Bits
+ WITH amount IN RANGE [500,2499]
+ 
+EXECUTE %/summon tfa:tfa_crocodile ~ ~ ~%
+ ON Twitch Bits
+ WITH amount >= 2500
+ 
+# Host Rules
+DROP modcurrency:banknote 1 1
+ ON Twitch Host
+ WITH viewers >= 2
+ 
+# Raid Rules
+DROP modcurrency:banknote 1 2
+ ON Twitch Raid
+ WITH raiders > 10

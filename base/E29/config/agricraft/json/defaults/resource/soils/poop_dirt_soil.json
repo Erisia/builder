@@ -1,0 +1,18 @@
+{
+  "path": "resource/soils/poop_dirt_soil.json",
+  "enabled": true,
+  "id": "poop_dirt_soil",
+  "name": "Mutation Enabling Soil",
+  "varients": [
+    {
+      "item": "contenttweaker:poop_dirt",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
+    }
+  ]
+}

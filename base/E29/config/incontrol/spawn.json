@@ -1,0 +1,387 @@
+[
+    {
+        "dimension": 0,
+        "mob": "tfa:tfa_shark",  
+    "mincount": 4,
+    "result": "deny"
+  },
+  {
+        "mob": "zawa:sockeyesalmon",  
+    "mincount": 10,
+    "result": "deny"
+  },
+    {
+        "mob": "zawa:pufferfish",  
+    "mincount": 10,
+    "result": "deny"
+  },
+      {
+        "dimension": 4,
+        "hostile": true,  
+    "result": "deny"
+  },
+      {
+        "dimension": 84,
+        "mob": "zawa:orca",  
+    "result": "deny"
+  },
+  {
+        "dimension": 84,
+        "mob": "zawa:bottlenosedolphin",  
+    "result": "deny"
+  },
+  {
+        "dimension": 84,
+        "mob": "zawa:hawksbillseaturtle",  
+    "result": "deny"
+  },
+  {
+        "dimension": 0,
+        "mob": "rats:rat",  
+    "mincount": 6,
+    "result": "deny"
+  },
+  {
+        "dimension": 0,
+        "mob": "jaff:cod",  
+    "mincount": 9,
+    "result": "deny"
+  },
+      {
+        "dimension": 0,
+        "mob": "jaff:pufferfish",  
+    "mincount": 9,
+    "result": "deny"
+  },
+        {
+        "dimension": 0,
+        "mob": "jaff:salmon",  
+    "mincount": 9,
+    "result": "deny"
+  },
+        {
+        "dimension": 0,
+        "mob": "jaff:clownfish",  
+    "mincount": 9,
+    "result": "deny"
+  },
+  {
+    "dimension": 1,
+    "mob": "jaff:cod",  
+    "result": "deny"
+  },
+      {
+    "dimension": 1,
+    "mob": "jaff:pufferfish",  
+    "result": "deny"
+  },
+        {
+    "dimension": 1,
+    "mob": "jaff:salmon",  
+    "result": "deny"
+  },
+        {
+    "dimension": 1,
+    "mob": "jaff:clownfish",  
+    "result": "deny"
+  },
+    {
+    "dimension": -1,
+    "mob": "jaff:cod",  
+    "result": "deny"
+  },
+      {
+    "dimension": -1,
+    "mob": "jaff:pufferfish",  
+    "result": "deny"
+  },
+        {
+    "dimension": -1,
+    "mob": "jaff:salmon",  
+    "result": "deny"
+  },
+        {
+    "dimension": -1,
+    "mob": "jaff:clownfish",  
+    "result": "deny"
+  },
+      {
+    "dimension": -8,
+    "mob": "jaff:cod",  
+    "result": "deny"
+  },
+      {
+    "dimension": -8,
+    "mob": "jaff:pufferfish",  
+    "result": "deny"
+  },
+        {
+    "dimension": -8,
+    "mob": "jaff:salmon",  
+    "result": "deny"
+  },
+        {
+    "dimension": -8,
+    "mob": "jaff:clownfish",  
+    "result": "deny"
+  },
+      {
+        "dimension": 1,
+        "mob": "zawa:orca",  
+    "result": "deny"
+  },
+  {
+        "dimension": 1,
+        "mob": "zawa:bottlenosedolphin",  
+    "result": "deny"
+  },
+  {
+        "dimension": 1,
+        "mob": "zawa:hawksbillseaturtle",  
+    "result": "deny"
+  },
+    {
+        "dimension": -1,
+        "mob": "zawa:orca",  
+    "result": "deny"
+  },
+  {
+        "dimension": -1,
+        "mob": "zawa:bottlenosedolphin",  
+    "result": "deny"
+  },
+  {
+        "dimension": -1,
+        "mob": "zawa:hawksbillseaturtle",  
+    "result": "deny"
+  },
+    {
+        "dimension": 0,
+        "mob": "zawa:orca",  
+    "mincount": 2,
+    "result": "deny"
+  },
+  {
+        "dimension": 0,
+        "mob": "zawa:bottlenosedolphin",  
+    "mincount": 3,
+    "result": "deny"
+  },
+  {
+        "dimension": 0,
+        "mob": "minecraft:squid",  
+    "mincount": 6,
+    "result": "deny"
+  },
+    {
+        "dimension": -8,
+        "mob": "minecraft:squid",  
+    "mincount": 6,
+    "result": "deny"
+  },
+  {
+        "dimension": 0,
+        "mob": "ftrsquids:rocketsquid",  
+    "mincount": 5,
+    "result": "deny"
+  },      {
+        "dimension": 84,
+        "mob": "minecraft:ghast",  
+    "mincount": 3,
+    "result": "deny"
+  },
+  {
+        "dimension": 84,
+        "mob": "thermalfoundation:blizz",  
+    "mincount": 5,
+    "result": "deny"
+  },
+  {
+        "dimension": 84,
+        "mob": "thermalfoundation:basalz",  
+    "mincount": 5,
+    "result": "deny"
+  },
+  {
+        "dimension": 1,
+        "mob": "thermalfoundation:blitz",  
+    "mincount": 4,
+    "result": "deny"
+  },
+  {
+        "dimension": 1,
+        "mob": "thermalfoundation:basalz",  
+    "mincount": 4,
+    "result": "deny"
+  },
+  {
+    "dimension": 0,
+    "mob": "minecraft:cow",
+    "block": "minecraft:mycelium",
+    "maxcount": {
+      "amount": 20,
+      "mod": "minecraft",
+      "hostile": false,
+      "perchunk": true
+    },
+    "result": "allow"
+  },
+  {
+    "dimension": 0,
+    "mob": "minecraft:cow", 
+    "result": "deny"
+  },
+  {
+    "dimension": 0,
+    "mob": "minecraft:sheep",
+    "block": "minecraft:mycelium",
+    "maxcount": {
+      "amount": 20,
+      "mod": "minecraft",
+      "hostile": false,
+      "perchunk": true
+    },
+    "result": "allow"
+  },
+  {
+    "dimension": 0,
+    "mob": "minecraft:sheep",
+    "result": "deny"
+  },
+  {
+    "dimension": 0,
+    "mob": "minecraft:chicken",
+    "block": "minecraft:mycelium",
+    "maxcount": {
+      "amount": 20,
+      "mod": "minecraft",
+      "hostile": false,
+      "perchunk": true
+    },
+    "result": "allow"
+  },
+  {
+    "dimension": 0,
+    "mob": "minecraft:chicken",
+    "result": "deny"
+  },
+  {
+    "dimension": 0,
+    "mob": "minecraft:pig",
+    "block": "minecraft:mycelium",
+    "maxcount": {
+      "amount": 20,
+      "mod": "minecraft",
+      "hostile": false,
+      "perchunk": true
+    },
+    "result": "allow"
+  },
+  {
+    "dimension": 0,
+    "mob": "minecraft:pig",
+    "result": "deny"
+  },
+       {
+        "dimension": 4,
+        "mob": "tfa:tfa_shark",  
+    "mincount": 4,
+    "result": "deny"
+  },
+  {
+        "dimension": 4,
+        "mob": "rats:rat",  
+    "mincount": 6,
+    "result": "deny"
+  },
+  {
+        "dimension": 4,
+        "mob": "jaff:cod",  
+    "mincount": 8,
+    "result": "deny"
+  },
+      {
+        "dimension": 4,
+        "mob": "jaff:pufferfish",  
+    "mincount": 8,
+    "result": "deny"
+  },
+        {
+        "dimension": 4,
+        "mob": "jaff:salmon",  
+    "mincount": 8,
+    "result": "deny"
+  },
+        {
+        "dimension": 4,
+        "mob": "jaff:clownfish",  
+    "mincount": 8,
+    "result": "deny"
+  },
+      {
+        "dimension": 4,
+        "mob": "minecraft:guardian",  
+    "mincount": 3,
+    "result": "deny"
+  },
+  {
+        "dimension": 4,
+        "mob": "minecraft:squid",  
+    "mincount": 15,
+    "result": "deny"
+  },
+  {
+        "dimension": 4,
+        "mob": "ftrsquids:rocketsquid",  
+    "mincount": 10,
+    "result": "deny"
+  },      {
+        "dimension": 4,
+        "mob": "minecraft:ghast",  
+    "mincount": 3,
+    "result": "deny"
+  },
+  {
+        "dimension": 4,
+        "mob": "thermalfoundation:blizz",  
+    "mincount": 5,
+    "result": "deny"
+  },
+  {
+        "dimension": 4,
+        "mob": "thermalfoundation:basalz",  
+    "mincount": 5,
+    "result": "deny"
+  },
+  {
+        "dimension": 4,
+        "mob": "thermalfoundation:blitz",  
+    "mincount": 4,
+    "result": "deny"
+  },
+  {
+        "dimension": 4,
+        "mob": "thermalfoundation:basalz",  
+    "mincount": 4,
+    "result": "deny"
+  },
+  {
+        "dimension": 4,
+        "mob": "zawa:orca",  
+    "mincount": 4,
+    "result": "deny"
+  },
+  {
+        "dimension": 4,
+        "mob": "zawa:bottlenosedolphin",  
+    "mincount": 4,
+    "result": "deny"
+  },
+  {
+        "dimension": 4,
+        "mob": "zawa:hawksbillseaturtle",  
+    "mincount": 4,
+    "result": "deny"
+  }
+]
+

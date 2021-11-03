@@ -1,0 +1,17 @@
+  
+{
+  "name": "coralreef:reef",
+  "mod": "coralreef",
+  "soil": {
+    "name": "coralreef:reef",
+    "data": 0,
+    "ignoreMeta": false
+  },
+
+  "modifiers": {
+    "growTime": 0.75,
+    "dropChance": 1.1
+  },
+
+  "providedTags": [ "dirt", "grass" ]
+}

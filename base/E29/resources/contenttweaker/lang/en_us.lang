@@ -1,0 +1,36 @@
+//Items
+
+item.contenttweaker.wire_solder.name=Solder Wire
+item.contenttweaker.dust_solder.name=Solder Blend
+item.contenttweaker.sheet_rubber.name=Rubber Sheet
+item.contenttweaker.dust_ddg.name=Dried Distillers Grain
+item.contenttweaker.omega_shard.name=Omega Shard
+item.contenttweaker.omega_fragment.name=Omega Fragment
+item.contenttweaker.omega_dust.name=Omega Dust Blend
+item.contenttweaker.omega_flare.name=Omega Flare
+item.contenttweaker.omega_gem.name=Omega Gem
+item.contenttweaker.omega_plate.name=Omega Plate
+item.contenttweaker.infinity_shard.name=Infinity Shard
+item.contenttweaker.infinity_fragment.name=Infinity Fragment
+item.contenttweaker.infinity_dust.name=Infinity Iron Grit
+item.contenttweaker.infinity_flare.name=Infinity Flare
+item.contenttweaker.infinity_gem.name=Infinity Gem
+item.contenttweaker.infinity_plate.name=Infinity Plate
+item.contenttweaker.emptycap.name=Empty Capacitor
+item.contenttweaker.fivehundred_gil.name=500 Gil
+item.contenttweaker.diamond_chunk.name=Diamond Chunk
+item.contenttweaker.emerald_chunk.name=Emerald Chunk
+item.contenttweaker.blank_upgradebase.name=Polymer Sheet
+item.contenttweaker.booly_ingot.name=Booly Bar
+item.contenttweaker.booly_nugget.name=Booly Bit
+item.contenttweaker.booly_pile.name=Booly Byte
+item.contenttweaker.booly_crystal.name=Crystal Matrix
+
+//Blocks
+
+tile.contenttweaker.poop_dirt.name=Enchanted Soil
+
+//Fluids
+
+fluid.glue=Glue
+fluid.solder=Melted Solder

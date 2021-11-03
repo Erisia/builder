@@ -1,0 +1,19 @@
+{
+  "outputs": [
+    {
+      "target": "sapling",
+      "weight": 4,
+      "id": "modcurrency:coin:3"
+    },
+    {
+      "target": "leaves",
+      "weight": 8,
+      "id": "modcurrency:coin:2"
+    },
+    {
+      "target": "flowers",
+      "weight": 65,
+      "id": "modcurrency:coin:1"
+    }
+  ]
+}

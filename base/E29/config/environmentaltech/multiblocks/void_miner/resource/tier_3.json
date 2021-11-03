@@ -1,0 +1,94 @@
+{
+  "outputs": [
+    {
+      "target": "log",
+      "weight": 1,
+      "id": "contenttweaker:booly_pile"
+    },
+    {
+      "target": "log",
+      "weight": 3,
+      "id": "minecraft:skull:4"
+    },
+    {
+      "target": "log",
+      "weight": 8,
+      "id": "minecraft:ender_pearl"
+    },
+    {
+      "target": "log",
+      "weight": 8,
+      "id": "minecraft:blaze_rod"
+    },
+    {
+      "target": "log",
+      "weight": 8,
+      "id": "minecraft:ghast_tear"
+    },
+    {
+      "target": "log",
+      "weight": 8,
+      "id": "minecraft:prismarine_crystals"
+    },
+    {
+      "target": "log",
+      "weight": 8,
+      "id": "minecraft:prismarine_shard"
+    },
+    {
+      "target": "log",
+      "weight": 1,
+      "id": "minecraft:totem_of_undying"
+    },
+    {
+      "target": "log",
+      "weight": 8,
+      "id": "bullseye:arrow:3"
+    },
+    {
+      "target": "log",
+      "weight": 8,
+      "id": "bullseye:arrow:5"
+    },
+    {
+      "target": "log",
+      "weight": 8,
+      "id": "bullseye:arrow:6"
+    },
+    {
+      "target": "log",
+      "weight": 8,
+      "id": "bullseye:arrow:7"
+    },
+    {
+      "target": "log",
+      "weight": 8,
+      "id": "bullseye:arrow:8"
+    },
+    {
+      "target": "log",
+      "weight": 8,
+      "id": "bullseye:arrow:9"
+    },
+    {
+      "target": "log",
+      "weight": 8,
+      "id": "bullseye:arrow:10"
+    },
+    {
+      "target": "log",
+      "weight": 8,
+      "id": "minecraft:redstone"
+    },
+    {
+      "target": "log",
+      "weight": 3,
+      "id": "minecraft:skull:1"
+    },
+    {
+      "target": "log",
+      "weight": 5,
+      "id": "minecraft:skull"
+    }
+  ]
+}

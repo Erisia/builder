@@ -1,0 +1,23 @@
+{
+    "machine": "ember_energy_generator",
+    "registryName": "ember_energy_generator_rf",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "ember",
+            "io-type": "input",
+            "ember": 20.0
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "water",
+            "amount": 200
+        },
+                                {
+            "type": "energy",
+            "io-type": "output",
+            "energyPerTick": 128
+        }
+    ]
+}

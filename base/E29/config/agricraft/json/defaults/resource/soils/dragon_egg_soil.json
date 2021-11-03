@@ -1,0 +1,18 @@
+{
+  "path": "resource/soils/dragon_egg_soil.json",
+  "enabled": true,
+  "id": "dragon_egg_soil",
+  "name": "Dragon Egg",
+  "varients": [
+    {
+      "item": "redstone_lock:fakeegg",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
+    }
+  ]
+}

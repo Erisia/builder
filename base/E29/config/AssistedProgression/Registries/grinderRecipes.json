@@ -1,0 +1,242 @@
+[
+  {
+    "inputItemStack": "oreRedstone",
+    "outputItemStack": "dustRedstone:12"
+  },
+  {
+    "inputItemStack": "oreLapis",
+    "outputItemStack": "gemLapis:8"
+  },
+  {
+    "inputItemStack": "itemBlazeRod:1",
+    "outputItemStack": "dustLava:4"
+  },
+  {
+    "inputItemStack": "cobblestone",
+    "outputItemStack": "sand:2"
+  },
+  {
+    "inputItemStack": "sand",
+    "outputItemStack": "gravel:2"
+  },
+  {
+    "inputItemStack": "bone",
+    "outputItemStack": "dyeWhite:8"
+  },
+  {
+    "inputItemStack": "oreQuartz",
+    "outputItemStack": "gemQuartz:4"
+  },
+  {
+    "inputItemStack": "blockClay:1",
+    "outputItemStack": "clayball:4"
+  },
+  {
+    "inputItemStack": "minecraft:hardened_clay:0:1",
+    "outputItemStack": "ingotBrick:4"
+  },
+  {
+    "inputItemStack": "oreDiamond",
+    "outputItemStack": "gemDiamond:2"
+  },
+  {
+    "inputItemStack": "oreEmerald",
+    "outputItemStack": "gemEmerald:2"
+  },
+  {
+    "inputItemStack": "glowstone",
+    "outputItemStack": "dustGlowstone:4"
+  },
+  {
+    "inputItemStack": "oreCoal",
+    "outputItemStack": "itemCoal:3"
+  },
+  {
+    "inputItemStack": "minecraft:wool:32767:1",
+    "outputItemStack": "itemTieNormal:4"
+  },
+  {
+    "inputItemStack": "blockGlass",
+    "outputItemStack": "sand:1"
+  },
+  {
+    "inputItemStack": "gravel",
+    "outputItemStack": "itemRawFlint:3"
+  },
+  {
+    "inputItemStack": "ingotIron",
+    "outputItemStack": "dustIron:1"
+  },
+  {
+    "inputItemStack": "ingotGold",
+    "outputItemStack": "dustGold:1"
+  },
+  {
+    "inputItemStack": "oreIron",
+    "outputItemStack": "dustIron:2"
+  },
+  {
+    "inputItemStack": "oreGold",
+    "outputItemStack": "dustGold:2"
+  },
+  {
+    "inputItemStack": "oreCopper",
+    "outputItemStack": "dustCopper:2"
+  },
+  {
+    "inputItemStack": "oreTin",
+    "outputItemStack": "dustTin:2"
+  },
+  {
+    "inputItemStack": "oreSilver",
+    "outputItemStack": "dustSilver:2"
+  },
+  {
+    "inputItemStack": "oreLead",
+    "outputItemStack": "dustLead:2"
+  },
+  {
+    "inputItemStack": "oreAluminum",
+    "outputItemStack": "dustAluminum:2"
+  },
+  {
+    "inputItemStack": "oreNickel",
+    "outputItemStack": "dustNickel:2"
+  },
+  {
+    "inputItemStack": "orePlatinum",
+    "outputItemStack": "dustPlatinum:2"
+  },
+  {
+    "inputItemStack": "oreIridium",
+    "outputItemStack": "dustIridium:2"
+  },
+  {
+    "inputItemStack": "oreMithril",
+    "outputItemStack": "dustMithril:2"
+  },
+  {
+    "inputItemStack": "ingotCopper",
+    "outputItemStack": "dustCopper:1"
+  },
+  {
+    "inputItemStack": "ingotTin",
+    "outputItemStack": "dustTin:1"
+  },
+  {
+    "inputItemStack": "ingotSilver",
+    "outputItemStack": "dustSilver:1"
+  },
+  {
+    "inputItemStack": "ingotLead",
+    "outputItemStack": "dustLead:1"
+  },
+  {
+    "inputItemStack": "ingotAluminum",
+    "outputItemStack": "dustAluminum:1"
+  },
+  {
+    "inputItemStack": "ingotNickel",
+    "outputItemStack": "dustNickel:1"
+  },
+  {
+    "inputItemStack": "ingotPlatinum",
+    "outputItemStack": "dustPlatinum:1"
+  },
+  {
+    "inputItemStack": "ingotIridium",
+    "outputItemStack": "dustIridium:1"
+  },
+  {
+    "inputItemStack": "ingotMithril",
+    "outputItemStack": "dustMithril:1"
+  },
+  {
+    "inputItemStack": "ingotSteel",
+    "outputItemStack": "dustSteel:1"
+  },
+  {
+    "inputItemStack": "ingotElectrum",
+    "outputItemStack": "dustElectrum:1"
+  },
+  {
+    "inputItemStack": "ingotInvar",
+    "outputItemStack": "dustInvar:1"
+  },
+  {
+    "inputItemStack": "ingotBronze",
+    "outputItemStack": "dustBronze:1"
+  },
+  {
+    "inputItemStack": "ingotConstantan",
+    "outputItemStack": "dustConstantan:1"
+  },
+  {
+    "inputItemStack": "ingotSignalum",
+    "outputItemStack": "dustSignalum:1"
+  },
+  {
+    "inputItemStack": "ingotLumium",
+    "outputItemStack": "dustLumium:1"
+  },
+  {
+    "inputItemStack": "ingotEnderium",
+    "outputItemStack": "dustEnderium:1"
+  },
+  {
+    "inputItemStack": "oreSulfur",
+    "outputItemStack": "dustSulfur:2"
+  },
+  {
+    "inputItemStack": "oreCertusQuartz",
+    "outputItemStack": "dustCertusQuartz:2"
+  },
+  {
+    "inputItemStack": "ingotUranium",
+    "outputItemStack": "dustUranium:1"
+  },
+  {
+    "inputItemStack": "oreUranium",
+    "outputItemStack": "dustUranium:2"
+  },
+  {
+    "inputItemStack": "ingotHOPGraphite",
+    "outputItemStack": "dustHOPGraphite:1"
+  },
+  {
+    "inputItemStack": "ingotCobalt",
+    "outputItemStack": "dustCobalt:1"
+  },
+  {
+    "inputItemStack": "oreCobalt",
+    "outputItemStack": "dustCobalt:2"
+  },
+  {
+    "inputItemStack": "ingotTungsten",
+    "outputItemStack": "dustTungsten:1"
+  },
+  {
+    "inputItemStack": "oreTungsten",
+    "outputItemStack": "dustTungsten:2"
+  },
+  {
+    "inputItemStack": "ingotAluminium",
+    "outputItemStack": "dustAluminium:1"
+  },
+  {
+    "inputItemStack": "oreAluminium",
+    "outputItemStack": "dustAluminium:2"
+  },
+  {
+    "inputItemStack": "ingotOsmium",
+    "outputItemStack": "dustOsmium:1"
+  },
+  {
+    "inputItemStack": "ingotZinc",
+    "outputItemStack": "dustZinc:1"
+  },
+  {
+    "inputItemStack": "ingotSoularium",
+    "outputItemStack": "dustSoularium:1"
+  }
+]

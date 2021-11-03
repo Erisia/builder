@@ -1,0 +1,14 @@
+[
+	  {
+    "hostile": true,
+    "result": "allow",
+    "fakeplayer": true,
+    "multxp": 0.10
+  },
+  {
+    "hostile": true,
+    "result": "allow",
+    "fakeplayer": false,
+    "multxp": 0.60
+  }
+]

@@ -1,0 +1,58 @@
+{
+    "machine": "ember_ore_factory",
+    "registryName": "ember_ore_factory_sand",
+    "recipeTime": 25,
+    "requirements": [
+        {
+            "type": "ember",
+            "io-type": "input",
+            "ember": 1.0
+        },
+               {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "water",
+            "amount": 10
+        },
+                        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:sand",
+            "amount": 8
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "magneticraft:rocky_chunks",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:slime_ball",
+            "amount": 1,
+            "chance": 0.4
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "magneticraft:rocky_chunks@1",
+            "amount": 3,
+            "chance": 0.80
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "magneticraft:rocky_chunks@3",
+            "amount": 2,
+            "chance": 0.80
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "magneticraft:rocky_chunks@7",
+            "amount": 2,
+            "chance": 0.80
+        }
+    ]
+}

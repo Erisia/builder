@@ -1,0 +1,100 @@
+{
+  "DROP": [
+    {
+      "text": "${actor}",
+      "color": "aqua"
+    },
+    {
+      "text": " gifted you with ",
+      "color": "white"
+    },
+    {
+      "text": "${itemName}x${itemCount}",
+      "color": "gold"
+    }
+  ],
+  "SUMMON": [
+    {
+      "text": "${actor}",
+      "color": "aqua"
+    },
+    {
+      "text": " summoned you a ",
+      "color": "white"
+    },
+    {
+      "text": "${mobName}",
+      "color": "gold"
+    }
+  ],
+  "EXECUTE": [
+    {
+      "text": "${actor}",
+      "color": "aqua"
+    },
+    {
+      "text": " triggered a command for you!",
+      "color": "white"
+    }
+  ],
+  "THROW": [
+    {
+      "text": "${actor}",
+      "color": "aqua"
+    },
+    {
+      "text": " makes you throw something!",
+      "color": "white"
+    }
+  ],
+  "CLEAR": [
+    {
+      "text": "${actor}",
+      "color": "aqua"
+    },
+    {
+      "text": " makes you lose something!",
+      "color": "white"
+    }
+  ],
+  "NOTHING": [
+    {
+      "text": "${actor}",
+      "color": "aqua"
+    },
+    {
+      "text": " triggered no action!",
+      "color": "white"
+    }
+  ],
+  "SHUFFLE": [
+    {
+      "text": "${actor}",
+      "color": "aqua"
+    },
+    {
+      "text": " shuffled stuff around!",
+      "color": "white"
+    }
+  ],
+  "CHANGE": [
+    {
+      "text": "${actor}",
+      "color": "aqua"
+    },
+    {
+      "text": " changed some inventory stuff!",
+      "color": "white"
+    }
+  ],
+  "OS_RUN": [
+    {
+      "text": "${actor}",
+      "color": "aqua"
+    },
+    {
+      "text": " triggered a shell script!",
+      "color": "white"
+    }
+  ]
+}

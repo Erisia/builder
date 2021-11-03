@@ -1,0 +1,68 @@
+{
+	 "minecraft:shears": {
+  "range": 2
+ },
+"thermalfoundation:tool.shears_platinum": {
+	"range": 2
+},
+
+"thermalfoundation:tool.shears_steel": {
+	"range": 2
+},
+
+"thermalfoundation:tool.shears_electrum": {
+	"range": 2
+},
+
+"thermalfoundation:tool.shears_invar": {
+	"range": 2
+},
+
+"thermalfoundation:tool.shears_bronze": {
+	"range": 2
+},
+
+"thermalfoundation:tool.shears_constantan": {
+	"range": 2
+},
+
+"thermalfoundation:tool.shears_copper": {
+	"range": 1
+},
+
+"thermalfoundation:tool.shears_tin": {
+	"range": 1
+},
+
+"thermalfoundation:tool.shears_silver": {
+	"range": 1
+},
+
+"thermalfoundation:tool.shears_lead": {
+	"range": 1
+},
+
+"thermalfoundation:tool.shears_aluminum": {
+	"range": 1
+},
+
+"thermalfoundation:tool.shears_nickel": {
+	"range": 1
+},
+
+"thermalfoundation:tool.shears_wood": {
+	"range": 1
+},
+
+"thermalfoundation:tool.shears_stone": {
+	"range": 1
+},
+
+"thermalfoundation:tool.shears_diamond": {
+	"range": 3
+},
+
+"thermalfoundation:tool.shears_gold": {
+	"range": 1
+}
+}

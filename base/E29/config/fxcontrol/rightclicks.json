@@ -1,0 +1,46 @@
+[
+   {
+    "dimension": 0,
+   "maxheight": 248,
+      "block": "minecraft:farmland",
+   "message": "Crops must be grown at water surface.",
+   "result": "deny"
+ },
+  {
+   "helditem": "minecraft:flint_and_steel",
+   "block": "obsidian",
+   "message": "Nether and End Portals can be found in underwater temples.",
+    "result": "allow"
+ },
+ {
+  "dimension": 0,
+  "maxheight": 248,
+   "helditem": "ore:toolHoe",
+   "block": "ore:dirt",
+   "message": "Crops must be grown at water surface.",
+   "result": "deny"
+ },
+ {
+  "maxheight": 248,
+   "helditem": "ore:toolHoe",
+   "block": "ore:grass",
+   "message": "Crops must be grown at water surface.",
+   "result": "deny"
+ },
+ {
+   "helditem": "buildinggadgets:exchangertool",
+   "block": "redstone_lock:treasureblock",
+   "message": "Stop it!",
+   "result": "deny"
+ },
+  {
+    "block": "lootbags:loot_storage",
+   "message": "This block has been disabled due to exploitation.",
+   "result": "deny"
+ },
+
+  {
+   "block": "redstone_lock:treasureblock",
+   "message": "Break with a pickaxe"
+ }
+]

@@ -1,0 +1,105 @@
+# Creative Tab
+itemGroup.artisanworktables=Arbeitstisch der Handwerker
+
+# Worktables
+tile.artisanworktables.worktable.basic.name=Normaler Arbeitstisch
+tile.artisanworktables.worktable.blacksmith.name=Arbeitstisch des Schmieds
+tile.artisanworktables.worktable.carpenter.name=Arbeitstisch des Zimmermanns
+tile.artisanworktables.worktable.chef.name=Arbeitstisch des Küchenchefs
+tile.artisanworktables.worktable.chemist.name=Arbeitstisch des Chemikers
+tile.artisanworktables.worktable.designer.name=Arbeitstisch des Designers
+tile.artisanworktables.worktable.engineer.name=Arbeitstisch des Ingenieurs
+tile.artisanworktables.worktable.farmer.name=Arbeitstisch des Bauerns
+tile.artisanworktables.worktable.jeweler.name=Arbeitstisch des Juweliers
+tile.artisanworktables.worktable.mage.name=Arbeitstisch des Magiers
+tile.artisanworktables.worktable.mason.name=Arbeitstisch des Steinmetzes
+tile.artisanworktables.worktable.potter.name=Arbeitstisch des Töpfers
+tile.artisanworktables.worktable.scribe.name=Arbeitstisch des Schreibers
+tile.artisanworktables.worktable.tailor.name=Arbeitstisch des Schneiders
+tile.artisanworktables.worktable.tanner.name=Arbeitstisch des Gerbers
+
+# Workstations
+tile.artisanworktables.workstation.basic.name=Normaler Arbeitsplatz
+tile.artisanworktables.workstation.blacksmith.name=Arbeitsplatz des Schmieds
+tile.artisanworktables.workstation.carpenter.name=Arbeitsplatz des Zimmermanns
+tile.artisanworktables.workstation.chef.name=Arbeitsplatz des Küchenchefs
+tile.artisanworktables.workstation.chemist.name=Arbeitsplatz des Chemikers
+tile.artisanworktables.workstation.designer.name=Arbeitsplatz des Designers
+tile.artisanworktables.workstation.engineer.name=Arbeitsplatz des Ingenieurs
+tile.artisanworktables.workstation.farmer.name=Arbeitsplatz des Bauerns
+tile.artisanworktables.workstation.jeweler.name=Arbeitsplatz des Juweliers
+tile.artisanworktables.workstation.mage.name=Arbeitsplatz des Magiers
+tile.artisanworktables.workstation.mason.name=Arbeitsplatz des Steinmetzes
+tile.artisanworktables.workstation.potter.name=Arbeitsplatz des Töpfers
+tile.artisanworktables.workstation.scribe.name=Arbeitsplatz des Schreibers
+tile.artisanworktables.workstation.tailor.name=Arbeitsplatz des Schneiders
+tile.artisanworktables.workstation.tanner.name=Arbeitspaltz des Gerbers
+
+#Workshops
+tile.artisanworktables.workshop.basic.name=Normale Werkstatt
+tile.artisanworktables.workshop.blacksmith.name=Werkstatt des Schmieds
+tile.artisanworktables.workshop.carpenter.name=Werkstatt des Zimmermanns
+tile.artisanworktables.workshop.chef.name=Werkstatt des Küchenchefs
+tile.artisanworktables.workshop.chemist.name=Werkstatt des Chemikers
+tile.artisanworktables.workshop.designer.name=Werkstatt des Designers
+tile.artisanworktables.workshop.engineer.name=Werkstatt des Ingenieurs
+tile.artisanworktables.workshop.farmer.name=Werkstatt des Bauerns
+tile.artisanworktables.workshop.jeweler.name=Werkstatt des Juweliers
+tile.artisanworktables.workshop.mage.name=Werkstatt des Magiers
+tile.artisanworktables.workshop.mason.name=Werkstatt des Steinmetzes
+tile.artisanworktables.workshop.potter.name=Werkstatt des Töpfers
+tile.artisanworktables.workshop.scribe.name=Werkstatt des Schreibers
+tile.artisanworktables.workshop.tailor.name=Werkstatt des Schneiders
+tile.artisanworktables.workshop.tanner.name=Werkstatt des Gerbers
+
+# Toolbox
+tile.artisanworktables.toolbox.name=Werkzeugkasten
+tile.artisanworktables.mechanical_toolbox.name=Mechanischer Werkzeugkasten
+
+# Worktable Tools
+item.artisanworktables.artisans.cutters.name=%s Messer
+item.artisanworktables.artisans.hammer.name=%s Hammer
+item.artisanworktables.artisans.framing.hammer.name=%s Rahmungs Hammer
+item.artisanworktables.artisans.handsaw.name=%s Handsäge
+item.artisanworktables.artisans.beaker.name=%s Becher
+item.artisanworktables.artisans.burner.name=%s Bunsenbrenner
+item.artisanworktables.artisans.driver.name=%s Schraubenschlüssel
+item.artisanworktables.artisans.spanner.name=%s Schraubendrehereinsatz
+item.artisanworktables.artisans.cutter.name=%s Schneidewerkzeug
+item.artisanworktables.artisans.pliers.name=%s Zange
+item.artisanworktables.artisans.athame.name=%s Athame
+item.artisanworktables.artisans.grimoire.name=%s-gebundenes Grimoire
+item.artisanworktables.artisans.chisel.name=%s Meißel
+item.artisanworktables.artisans.trowel.name=%s Kelle
+item.artisanworktables.artisans.compass.name=%s Kompass
+item.artisanworktables.artisans.quill.name=%s Schreibfeder
+item.artisanworktables.artisans.needle.name=%s Nadel
+item.artisanworktables.artisans.shears.name=%s Schere
+item.artisanworktables.artisans.lens.name=%s Linse
+item.artisanworktables.artisans.sifter.name=%s Sieb
+item.artisanworktables.artisans.cutting.board.name=%s Schneidebrett
+item.artisanworktables.artisans.pan.name=%s Pfanne
+item.artisanworktables.artisans.mortar.name=%s Mörtel
+item.artisanworktables.artisans.knife.name=%s Messer
+item.artisanworktables.artisans.punch.name=%s Locher
+item.artisanworktables.artisans.groover.name=%s Glättekelle
+item.artisanworktables.artisans.carver.name=%s Tranchiermesser
+
+# Patterns
+item.artisanworktables.design.pattern.written.name=Mustervorlage
+item.artisanworktables.design.pattern.blank.name=Leere Mustervorlage
+
+# JEI
+jei.artisanworktables.tooltip.shapeless.recipe=Formloses Rezept
+jei.artisanworktables.tooltip.chance=%s%s%% Erfolgschance
+jei.artisanworktables.xp.cost=Erfahrungskosten: %d
+jei.artisanworktables.level.cost=Level Kosten: %d
+jei.artisanworktables.xp.required=Benötigte Erfahrung: %d
+jei.artisanworktables.level.required=Benötigtes Level: %d
+
+# GUI
+gui.artisanworktables.tooltip.fluid.empty=Leer
+gui.artisanworktables.tooltip.fluid.destroy=%sFlüssigkeiten entleeren: %sUMSCHALTTASTE + LINKSKLICK
+
+# Tooltip
+item.artisanworktables.tooltip.durability=Haltbarkeit: %d / %d

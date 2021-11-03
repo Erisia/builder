@@ -1,0 +1,9 @@
+{
+	"name": "night_vision",
+	"potion": "minecraft:night_vision",
+	"amplifier": 0,
+	"minimum": 75,
+	"maximum": 100,
+	"detect": "average",
+	"enabled": true
+}

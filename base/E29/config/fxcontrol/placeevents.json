@@ -1,0 +1,74 @@
+[
+   {
+   "maxheight": 25,
+"block": "minecraft:planks",
+   "message": "Pressure at this depth will not allow this block to stick.",
+   "result": "deny"
+ },
+ {
+   "maxheight": 25,
+   "block": "minecraft:furnace",
+   "message": "Pressure at this depth will not allow this block to stick.",
+   "result": "deny"
+ },
+  {
+   "maxheight": 25,
+   "block": "minecraft:bed",
+   "message": "Pressure at this depth will not allow this block to stick.",
+   "result": "deny"
+ },
+   {
+   "maxheight": 30,
+   "block": "minecraft:wooden_door",
+   "message": "Nah, son.",
+   "result": "deny"
+ },
+    {
+   "maxheight": 30,
+   "block": "minecraft:iron_door",
+   "message": "Nah, son.",
+   "result": "deny"
+ },
+   {
+   "maxheight": 25,
+"block": "artisanworktables:worktable",
+   "message": "Pressure at this depth will not allow this block to stick.",
+   "result": "deny"
+ },
+   {
+   "maxheight": 25,
+      "block": "artisanworktables:workshop",
+   "message": "Pressure at this depth will not allow this block to stick.",
+   "result": "deny"
+ },
+   {
+   "maxheight": 25,
+      "block": "refinedstorage:controller",
+   "message": "Pressure at this depth will not allow this block to stick.",
+   "result": "deny"
+ },
+   {
+   "maxheight": 25,
+      "block": "ezstorage:storage_core",
+   "message": "Pressure at this depth will not allow this block to stick.",
+   "result": "deny"
+ },
+   {
+   "maxheight": 25,
+      "block": "minecraft:crafting_table",
+   "message": "Pressure at this depth will not allow this block to stick.",
+   "result": "deny"
+ },
+    {
+    "dimension": -8,
+   "block": "artisanworktables:workshop",
+   "message": "You can not craft/live in Ratlantis.",
+   "result": "deny"
+ },
+     {
+    "dimension": -8,
+   "block": "minecraft:bed",
+   "message": "You can not live in Ratlantis.",
+   "result": "deny"
+ }
+]

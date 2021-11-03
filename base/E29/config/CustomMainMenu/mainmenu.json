@@ -1,0 +1,180 @@
+{
+    "images":
+    {
+		"black":
+        {
+            "image" : "ccpack:front/bg_menu.png",
+            "posX" : 95,
+            "posY" : -80,
+            "width" : 150,
+            "height" : 1500,
+            "alignment" : "top_left"
+        },
+		"logo":
+        {
+            "image" : "ccpack:front/logo.png",
+            "posX" : 0,
+            "posY" : 0,
+            "width" : 400,
+            "height" : 240,
+            "alignment" : "right_center"
+        }
+	
+	},
+    
+    "buttons":
+    {     
+		"singleplayer":
+        {
+            "text" : "menu.singleplayer",
+			"normalTextColor" : 13408614,
+			"hoverTextColor" : 16766869,
+			"texture" : "ccpack:front/btn.png",
+            "posX" : -100,
+            "posY" : 15,
+            "width" : 196,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },		
+
+		"multiplayer":
+        {
+            "text" : "menu.multiplayer",			
+			"normalTextColor" : 13408614,
+			"hoverTextColor" : 16766869,
+			"texture" : "ccpack:front/btn.png",
+            "posX" : -100,
+            "posY" : 32,
+            "width" : 196,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+               
+		"options":
+        {
+            "text" : "menu.options",
+			"normalTextColor" : 13408614,
+			"hoverTextColor" : 16766869,
+			"texture" : "ccpack:front/btn.png",
+            "posX" : -100,
+            "posY" : 49,
+            "width" : 196,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+                    
+        "quit":
+        {
+            "text" : "menu.quit",
+            "normalTextColor" : 13408614,
+			"hoverTextColor" : 16766869,
+			"texture" : "ccpack:front/btn.png",
+            "posX" : -100,
+            "posY" : 66,
+            "width" : 196,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "center",
+			"hoverText" : "No! Don't leave!",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+		
+        "mods":
+        {
+            "text" : "Mods (#modsloaded#/#modsactive#)",
+
+			"normalTextColor" : 13408614,
+			"hoverTextColor" : 16766869,
+			"texture" : "ccpack:front/btn.png",
+            "posX" : -100,
+            "posY" : 83,
+            "width" : 196,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+        "versionChecker":
+        {
+            "text" : "Version-Checker",
+			"normalTextColor" : 13408614,
+			"hoverTextColor" : 3125670,
+			"texture" : "ccpack:front/btn.png",
+            "posX" : 70,
+            "posY" : 100,
+            "width" : 100,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,			
+			"alignment" : "center",
+            "wrappedButton" : 404
+        }
+	},
+    
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "Forge #forgeversion# for Minecraft #mcversion# - Copyright Mojang AB. Do not distribute!",
+            "posX" : 2,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+        
+		"packTxt":
+        {
+            "text" : "AAIII - 0.0.1a",
+            "posX" : 2,
+            "posY" : -25,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+{
+       
+        "background":
+        {
+            "image" : "",
+            "slideshow":
+            {
+                "images" : ["ccpack:front/bubble1.png","ccpack:front/bubble2.png","ccpack:front/bubble3.png","ccpack:front/bubble4.png","ccpack:front/bubble5.png","ccpack:front/bubble6.png","ccpack:front/bubble7.png","ccpack:front/bubble8.png","ccpack:front/bubble9.png","ccpack:front/bubblea1.png","ccpack:front/bubblea2.png","ccpack:front/bubblea3.png","ccpack:front/bubblea4.png","ccpack:front/bubblea5.png","ccpack:front/bubblea6.png","ccpack:front/bubblea7.png","ccpack:front/bubblea8.png","ccpack:front/bubblea9.png","ccpack:front/bubbleb1.png","ccpack:front/bubbleb3.png","ccpack:front/bubbleb4.png","ccpack:front/bubbleb5.png","ccpack:front/bubbleb6.png","ccpack:front/bubbleb7.png","ccpack:front/bubbleb8.png","ccpack:front/bubbleb9.png","ccpack:front/bubblec1.png","ccpack:front/bubblec2.png","ccpack:front/bubblec3.png","ccpack:front/bubblec4.png","ccpack:front/bubblec5.png","ccpack:front/bubblec6.png","ccpack:front/bubblec7.png","ccpack:front/bubblec8.png","ccpack:front/bubblec9.png","ccpack:front/bubbled1.png","ccpack:front/bubbled2.png","ccpack:front/bubbled3.png","ccpack:front/bubbled4.png","ccpack:front/bubbled5.png","ccpack:front/bubbled6.png","ccpack:front/bubbled7.png","ccpack:front/bubbled8.png","ccpack:front/bubbled9.png"],
+                "displayDuration" : 1.5,
+                "fadeDuration" : 0
+            }
+       }
+    }
+
+}

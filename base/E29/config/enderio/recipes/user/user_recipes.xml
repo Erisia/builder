@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+  <recipe name="Tweak: Stick from Wood" required="false" disabled="true">
+  </recipe>
+ 
+  <recipe name="Tweak: Chest from Wood" required="false" disabled="true">
+  </recipe>
+ 
+  <recipe name="Tweak: Wood Hopper" required="false" disabled="true">
+  </recipe>
+   
+  <recipe name="Gear, Wood" required="true" disabled="true">
+  </recipe>
+ 
+  <recipe name="Gear, ae2 messes things up" required="true" disabled="true">
+  </recipe>
+ 
+  <recipe name="Gear, just to be sure" required="true" disabled="true">
+  </recipe>
+ 
+  <recipe name="Gear, better save than sorry" required="true" disabled="true">
+  </recipe>
+ 
+  <recipe name="Gear, Stone" required="true" disabled="true">
+  </recipe>
+ 
+  <recipe name="Alloy: Energetic Alloy" required="true">
+    <alloying exp="0.7" energy="20000">
+      <input name="dustRedstone"/>
+      <input name="ingotConstructionAlloy"/>
+      <input name="dustGlowstone"/>
+      <output name="ingotEnergeticAlloy"/>
+    </alloying>
+  </recipe>
+ 
+  <recipe name="Alloy: Soularium" required="true">
+    <alloying exp="0.7" energy="20000">
+      <input name="minecraft:soul_sand"/>
+      <input name="ingotGold"/>
+      <input name="contenttweaker:infinity_gem"/>
+      <output name="ingotSoularium"/>
+    </alloying>
+  </recipe>
+ 
+  <recipe name="Alloy: End Steel" required="true">
+    <alloying exp="0.5" energy="60000">
+      <input name="additionalcompression:endstone_compressed"/>
+      <input name="ingotDarkSteel"/>
+      <input name="minecraft:glowstone"/>
+      <output name="ingotEndSteel"/>
+    </alloying>
+  </recipe>
+ 
+</enderio:recipes>

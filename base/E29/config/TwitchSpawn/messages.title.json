@@ -1,0 +1,41 @@
+{
+  "donation": [],
+  "twitch follow": [],
+  "twitch subscription": [],
+  "twitch host": [],
+  "twitch raid": [],
+  "twitch bits": [],
+  "youtube subscription": [],
+  "youtube sponsor": [],
+  "youtube superchat": [],
+  "mixer follow": [],
+  "mixer subscription": [],
+  "mixer host": [],
+  "reflection": [],
+  "twitch subscription gift": [
+    {
+      "text": "${actor}",
+      "color": "aqua"
+    },
+    {
+      "text": " gifted",
+      "color": "white"
+    },
+    {
+      "text": " ${amount_i}",
+      "color": "gold"
+    },
+    {
+      "text": " x ",
+      "color": "white"
+    },
+    {
+      "text": "Tier ${tier}",
+      "color": "gold"
+    },
+    {
+      "text": " subs!",
+      "color": "white"
+    }
+  ]
+}
