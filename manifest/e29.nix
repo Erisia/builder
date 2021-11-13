@@ -1005,6 +1005,23 @@
         "sha256" = "62ef749c6c4acd3b057a9d13e46626910fe4a4b877603d50c82af58a73485d33";
         "size" = 426515;
     };
+    "dcintegration" = {
+        "title" = "Discord Integration Forge";
+        "name" = "dcintegration";
+        "id" = 324952;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "dcintegration-forge-2.3.5-1.12.jar";
+        "encoded" = "dcintegration-forge-2.3.5-1.12.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/dcintegration";
+        "src" = "https://media.forgecdn.net/files/3508/392/dcintegration-forge-2.3.5-1.12.jar";
+        "type" = "remote";
+        "md5" = "b494c7dbcf19ebb7638041d959a76d44";
+        "sha256" = "d10c9e5019ab586a19674e4032e404dbfc80409831600418648d9032cf4f549c";
+        "size" = 15763932;
+    };
     "default-options" = {
         "title" = "Default Options";
         "name" = "default-options";
@@ -1123,6 +1140,23 @@
         "md5" = "77e815ce9c8dd68ecba4eb884d6db4d2";
         "sha256" = "e5c9fbc101dae923a49800761c901831c1f085685c20a229d7dcf98f37d70b85";
         "size" = 15778870;
+    };
+    "dynmapforge" = {
+        "title" = "Dynmap-Forge/Fabric";
+        "name" = "dynmapforge";
+        "id" = 59433;
+        "side" = "server";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "Dynmap-3.2.1-forge-1.12.2.jar";
+        "encoded" = "Dynmap-3.2.1-forge-1.12.2.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/dynmapforge";
+        "src" = "https://media.forgecdn.net/files/3482/731/Dynmap-3.2.1-forge-1.12.2.jar";
+        "type" = "remote";
+        "md5" = "662d03cb996e99d05ac0c3a971b73d49";
+        "sha256" = "265ac38055520984c9704305a7d1ac75b8420f80ea2a7c307d97906afcaba5f5";
+        "size" = 8540204;
     };
     "embers-rekindled" = {
         "title" = "Embers Rekindled";

@@ -43,8 +43,9 @@ mods:
   id: 225608
 - name: 'spark'
   id: 361579
-#- name: 'dynmapforge'
-#  side: 'server'
+- name: 'dynmapforge'
+  side: 'server'
+  id: 59433
 - name: 'prometheus-integration'
   side: 'server'
   id: 254573
@@ -63,6 +64,8 @@ mods:
   id: 377201
 - name: 'morpheus'
   id: 69118
+- name: 'dcintegration'
+  id: 324952
   
 
 # client
