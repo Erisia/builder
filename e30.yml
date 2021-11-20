@@ -1,0 +1,43 @@
+---
+version: 1.16.5
+imports:
+  - 'cab.yml'
+mods:
+  - name: ai-improvements
+    id: 233019
+  - name: scannable
+    id: 266784
+  - name: comforts
+    id: 276951
+  - name: dynamic-view
+    id: 366140
+  - name: anti-mob-griefing
+    id: 449140
+  - name: woot
+    id: 244049
+    files:
+      - id: 3311405
+  - name: structurize
+    id: 298744
+    files:
+      - id: 3371231
+  - name: phosphophyllite
+    id: 412551
+    files:
+      - id: 3221978
+  - name: simple-voice-chat
+    id: 416089
+    files:
+      - id: 3362964
+  - name: dcintegration
+    id: 324952
+    files:
+      - id: 3308615
+    side: server
+  - name: tagfoods
+    id: 504465
+    required: false
+  - name: observable
+    id: 509575
+    files:
+      - id: 3413402

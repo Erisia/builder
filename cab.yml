@@ -1,0 +1,528 @@
+---
+version: 1.16.5
+imports: []
+mods:
+  - name: advanced-rocketry
+    id: 236542
+    files:
+      - id: 3302417
+  - name: ai-improvements
+    id: 233019
+    files:
+      - id: 3031978
+  - name: antique-atlas
+    id: 227795
+    files:
+      - id: 3398190
+  - name: appleskin
+    id: 248787
+    files:
+      - id: 3512372
+  - name: applied-energistics-2
+    id: 223794
+    files:
+      - id: 3502523
+  - name: aquaculture
+    id: 60028
+    files:
+      - id: 3454318
+  - name: archers-paradox
+    id: 353399
+    files:
+      - id: 3407020
+  - name: architects-palette
+    id: 433862
+    files:
+      - id: 3414676
+  - name: architectury-forge
+    id: 419699
+    files:
+      - id: 3500014
+  - name: back-tools
+    id: 229061
+    files:
+      - id: 3224955
+  - name: bad-wither-no-cookie-reloaded
+    id: 261251
+    files:
+      - id: 3430455
+  - name: better-burning
+    id: 353434
+    files:
+      - id: 3332323
+  - name: biomes-o-plenty
+    id: 220318
+    files:
+      - id: 3407189
+  - name: blueprint
+    id: 382216
+    files:
+      - id: 3457851
+  - name: buddycards
+    id: 425991
+    files:
+      - id: 3513453
+  - name: catalogue
+    id: 459701
+    files:
+      - id: 3399554
+  - name: cavebiomeapi
+    id: 441706
+    files:
+      - id: 3441327
+  - name: cb-multipart
+    id: 258426
+    files:
+      - id: 3459903
+  - name: cc-tweaked
+    id: 282001
+    files:
+      - id: 3434680
+  - name: chicken-chunks-1-8
+    id: 243883
+    files:
+      - id: 3502183
+  - name: chisel
+    id: 235279
+    files:
+      - id: 3376782
+  - name: chisels-bits
+    id: 231095
+    files:
+      - id: 3510598
+  - name: chunkpregenerator
+    id: 267193
+    files:
+      - id: 3507658
+  - name: cloth-config-forge
+    id: 348521
+    files:
+      - id: 3311352
+  - name: clumps
+    id: 256717
+    files:
+      - id: 3481298
+  - name: cobblegenrandomizer
+    id: 402256
+    files:
+      - id: 3147020
+  - name: codechicken-lib-1-8
+    id: 242818
+    files:
+      - id: 3456069
+  - name: cofh-core
+    id: 69162
+    files:
+      - id: 3407019
+  - name: configured
+    id: 457570
+    files:
+      - id: 3434071
+  - name: connectivity
+    id: 470193
+    files:
+      - id: 3510357
+  - name: construction-wand
+    id: 399558
+    files:
+      - id: 3499311
+  - name: controlling
+    id: 250398
+    files:
+      - id: 3501319
+  - name: corpse
+    id: 316582
+    files:
+      - id: 3447907
+  - name: cosmetic-armor-reworked
+    id: 237307
+    files:
+      - id: 3398000
+  - name: crafting-tweaks
+    id: 233071
+    files:
+      - id: 3330406
+  - name: crash-utilities
+    id: 371813
+    files:
+      - id: 3400648
+  - name: create
+    id: 328085
+    files:
+      - id: 3499718
+  - name: ctm
+    id: 267602
+    files:
+      - id: 3137659
+  - name: culinary-construct
+    id: 296676
+    files:
+      - id: 3217589
+  - name: curios
+    id: 309927
+    files:
+      - id: 3456953
+  - name: darker-depths
+    id: 460681
+    files:
+      - id: 3458010
+  - name: decorative-blocks
+    id: 362528
+    files:
+      - id: 3166283
+  - name: decorative-blocks-modded-compat
+    id: 421760
+    files:
+      - id: 3311520
+  - name: default-options
+    id: 232131
+    files:
+      - id: 3330403
+  - name: desolation-forge
+    id: 445926
+    files:
+      - id: 3294461
+  - name: dice
+    id: 538587
+    files:
+      - id: 3501362
+  - name: drawerfps
+    id: 480816
+    files:
+      - id: 3426018
+  - name: drink-beer-forge
+    id: 534161
+    files:
+      - id: 3512184
+  - name: dungeon-crawl
+    id: 324973
+    files:
+      - id: 3418221
+  - name: enchanted-book-redesign
+    id: 348076
+    files:
+      - id: 3239927
+  - name: ender-storage-1-8
+    id: 245174
+    files:
+      - id: 3361748
+  - name: endergetic
+    id: 291509
+    files:
+      - id: 3154938
+  - name: exchangers
+    id: 270183
+    files:
+      - id: 3207546
+  - name: exotic-birds
+    id: 242830
+    files:
+      - id: 3444055
+  - name: extended-caves
+    id: 338779
+    files:
+      - id: 3085297
+  - name: fairy-lights
+    id: 233342
+    files:
+      - id: 3216206
+  - name: farmers-delight
+    id: 398521
+    files:
+      - id: 3503844
+  - name: fast-leaf-decay
+    id: 230976
+    files:
+      - id: 3052146
+  - name: fastfurnace-minus-replacement
+    id: 389989
+    files:
+      - id: 3091598
+  - name: fastworkbench
+    id: 288885
+    files:
+      - id: 3245271
+  - name: ferritecore
+    id: 429235
+    files:
+      - id: 3485636
+  - name: flywheel
+    id: 486392
+    files:
+      - id: 3459739
+  - name: forbidden-arcanus
+    id: 309858
+    files:
+      - id: 3338826
+  - name: ftb-chunks-forge
+    id: 314906
+    files:
+      - id: 3509329
+  - name: ftb-library-forge
+    id: 404465
+    files:
+      - id: 3510634
+  - name: ftb-quests-forge
+    id: 289412
+    files:
+      - id: 3498398
+  - name: ftb-teams-forge
+    id: 404468
+    files:
+      - id: 3492657
+  - name: grappling-hook-mod
+    id: 238911
+    files:
+      - id: 3504717
+  - name: gunpowderlib
+    id: 356646
+    files:
+      - id: 3198017
+  - name: hwyla
+    id: 253449
+    files:
+      - id: 3033593
+  - name: ichunutil
+    id: 229060
+    files:
+      - id: 3346209
+  - name: improvedbackpacks
+    id: 270457
+    files:
+      - id: 3509641
+  - name: inventory-sorter
+    id: 240633
+    files:
+      - id: 3077903
+  - name: item-filters-forge
+    id: 309674
+    files:
+      - id: 3376819
+  - name: jei
+    id: 238222
+    files:
+      - id: 3502687
+  - name: kubejs-create
+    id: 429371
+    files:
+      - id: 3407451
+  - name: kubejs-forge
+    id: 238086
+    files:
+      - id: 3498936
+  - name: kubejs-thermal
+    id: 421694
+    files:
+      - id: 3446503
+  - name: libvulpes
+    id: 236541
+    files:
+      - id: 3305524
+  - name: lootr
+    id: 361276
+    files:
+      - id: 3479880
+  - name: mantle
+    id: 74924
+    files:
+      - id: 3482897
+  - name: metal-barrels
+    id: 324985
+    files:
+      - id: 3415449
+  - name: more-minecarts
+    id: 440845
+    files:
+      - id: 3489944
+  - name: more-observers
+    id: 530858
+    files:
+      - id: 3480574
+  - name: morpheus
+    id: 69118
+    files:
+      - id: 3215383
+  - name: mouse-tweaks
+    id: 60089
+    files:
+      - id: 3202662
+  - name: natures-compass
+    id: 252848
+    files:
+      - id: 3382150
+  - name: no-lakes-in-forge
+    id: 432072
+    files:
+      - id: 3152473
+  - name: occultism
+    id: 361026
+    files:
+      - id: 3511736
+  - name: open-loader
+    id: 354339
+    files:
+      - id: 3199872
+  - name: orcinuss-caves
+    id: 492376
+    files:
+      - id: 3436979
+  - name: ore-tweaker
+    id: 242436
+    files:
+      - id: 3439648
+  - name: paintings
+    id: 252042
+    files:
+      - id: 3131044
+  - name: patchouli
+    id: 306770
+    files:
+      - id: 3459118
+  - name: pipez
+    id: 443900
+    files:
+      - id: 3508084
+  - name: placebo
+    id: 283644
+    files:
+      - id: 3437009
+  - name: ponderjs
+    id: 521714
+    files:
+      - id: 3511292
+  - name: portality
+    id: 291493
+    files:
+      - id: 3302511
+  - name: pretty-pipes
+    id: 376737
+    files:
+      - id: 3472990
+  - name: project-red-core
+    id: 228702
+    files:
+      - id: 3459382
+  - name: project-red-illumination
+    id: 229046
+    files:
+      - id: 3459384
+  - name: project-red-integration
+    id: 229045
+    files:
+      - id: 3459383
+  - name: project-red-transmission
+    id: 478939
+    files:
+      - id: 3459386
+  - name: randomium-ore
+    id: 523013
+    files:
+      - id: 3461529
+  - name: raven-coffee
+    id: 469185
+    files:
+      - id: 3453788
+  - name: reliquary-v1-3
+    id: 241319
+    files:
+      - id: 3361285
+  - name: repurposed-structures
+    id: 368293
+    files:
+      - id: 3499509
+  - name: rhino
+    id: 416294
+    files:
+      - id: 3493061
+  - name: rubber-duck
+    id: 522039
+    files:
+      - id: 3474866
+  - name: scorge
+    id: 471286
+    files:
+      - id: 3276638
+  - name: selene
+    id: 499980
+    files:
+      - id: 3488929
+  - name: shutup-experimental-settings
+    id: 407174
+    files:
+      - id: 3188120
+  - name: sound-filters
+    id: 222789
+    files:
+      - id: 3039955
+  - name: spark
+    id: 361579
+    files:
+      - id: 3337641
+  - name: spawner-fix
+    id: 399022
+    files:
+      - id: 3161147
+  - name: storage-drawers
+    id: 223852
+    files:
+      - id: 3402515
+  - name: strawgolem-reborn
+    id: 387580
+    files:
+      - id: 3057272
+  - name: structures-compass
+    id: 491151
+    files:
+      - id: 3404723
+  - name: supplementaries
+    id: 412082
+    files:
+      - id: 3505596
+  - name: the-mighty-architect
+    id: 317792
+    files:
+      - id: 3089690
+  - name: thermal-expansion
+    id: 69163
+    files:
+      - id: 3404884
+  - name: thermal-foundation
+    id: 222880
+    files:
+      - id: 3412300
+  - name: thermal-innovation
+    id: 291737
+    files:
+      - id: 3404886
+  - name: thermal-locomotion
+    id: 406959
+    files:
+      - id: 3404887
+  - name: tinkers-construct
+    id: 74072
+    files:
+      - id: 3482903
+  - name: titanium
+    id: 287342
+    files:
+      - id: 3446253
+  - name: torchmaster
+    id: 254268
+    files:
+      - id: 3433163
+  - name: valhelsia-core
+    id: 416935
+    files:
+      - id: 3490931
+  - name: water-strainer
+    id: 246939
+    files:
+      - id: 3073517
+  - name: worldshape
+    id: 539336
+    files:
+      - id: 3499582
+  - name: xks-decoration
+    id: 497637
+    files:
+      - id: 3406131
