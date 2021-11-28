@@ -96,3 +96,5 @@ mods:
     id: 363820
   - name: light-overlay
     id: 325492
+  - name: ftb-essentials-forge
+    id: 410811
