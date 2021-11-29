@@ -1447,6 +1447,23 @@
         "sha256" = "dfde9dce6fb7d2c7dbdf20f4c1850c73bb76b6c464f766f90d2cf14bc5e6531a";
         "size" = 716542;
     };
+    "ftb-essentials-forge" = {
+        "title" = "FTB Essentials (Forge)";
+        "name" = "ftb-essentials-forge";
+        "id" = 410811;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "ftb-essentials-1605.1.5-build.32.jar";
+        "encoded" = "ftb-essentials-1605.1.5-build.32.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/ftb-essentials-forge";
+        "src" = "https://media.forgecdn.net/files/3510/643/ftb-essentials-1605.1.5-build.32.jar";
+        "type" = "remote";
+        "md5" = "5832979515c2036d8560907d9f96201b";
+        "sha256" = "12146b8e4f075e3c5974c473604e0b96e8f5d2aaf3fc730a4b94c8a9aa7086f5";
+        "size" = 77378;
+    };
     "ftb-library-forge" = {
         "title" = "FTB Library (Forge)";
         "name" = "ftb-library-forge";
