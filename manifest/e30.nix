@@ -10,14 +10,14 @@
         "required" = true;
         "default" = true;
         "deps" = [];
-        "filename" = "abnormals_delight-1.16.5-1.2.0.jar";
-        "encoded" = "abnormals_delight-1.16.5-1.2.0.jar";
+        "filename" = "abnormals_delight-1.16.5-1.2.1.jar";
+        "encoded" = "abnormals_delight-1.16.5-1.2.1.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/abnormals-delight";
-        "src" = "https://media.forgecdn.net/files/3442/748/abnormals_delight-1.16.5-1.2.0.jar";
+        "src" = "https://media.forgecdn.net/files/3549/585/abnormals_delight-1.16.5-1.2.1.jar";
         "type" = "remote";
-        "md5" = "0ebe17509706a5643ad0dd46943282fb";
-        "sha256" = "a049cf4440be178fe35846c9a957f1feb8b7eecad51a6c452b2c6b8be33bb022";
-        "size" = 549400;
+        "md5" = "8bc8a709cbcca5c4c4ac05be4586810e";
+        "sha256" = "a9dcf672bfea5602f377ebfe1415ca23703e3fe3fc4ddb2a14a547f62b989bbe";
+        "size" = 553175;
     };
     "advanced-rocketry" = {
         "title" = "Advanced Rocketry";
@@ -197,14 +197,14 @@
         "required" = true;
         "default" = true;
         "deps" = [];
-        "filename" = "atmospheric-1.16.5-3.1.0.jar";
-        "encoded" = "atmospheric-1.16.5-3.1.0.jar";
+        "filename" = "atmospheric-1.16.5-3.1.1.jar";
+        "encoded" = "atmospheric-1.16.5-3.1.1.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/atmospheric";
-        "src" = "https://media.forgecdn.net/files/3249/309/atmospheric-1.16.5-3.1.0.jar";
+        "src" = "https://media.forgecdn.net/files/3553/332/atmospheric-1.16.5-3.1.1.jar";
         "type" = "remote";
-        "md5" = "76e0db4d2ebbab2007330f4ad387fd9c";
-        "sha256" = "e4448b535fb30479b7ed2e77f4b1d14419e60f3dac4ee4c05b07d35bdf44248c";
-        "size" = 1527658;
+        "md5" = "f5a097bfba731edf6d4871ee88279c2e";
+        "sha256" = "50019e22300c4b065325a863338da5d02f43cf6202fcb43d3d74b1c5a9328139";
+        "size" = 1535248;
     };
     "autoreglib" = {
         "title" = "AutoRegLib";
@@ -231,14 +231,14 @@
         "required" = true;
         "default" = true;
         "deps" = [];
-        "filename" = "autumnity-1.16.5-2.1.1.jar";
-        "encoded" = "autumnity-1.16.5-2.1.1.jar";
+        "filename" = "autumnity-1.16.5-2.1.2.jar";
+        "encoded" = "autumnity-1.16.5-2.1.2.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/autumnity";
-        "src" = "https://media.forgecdn.net/files/3295/700/autumnity-1.16.5-2.1.1.jar";
+        "src" = "https://media.forgecdn.net/files/3553/317/autumnity-1.16.5-2.1.2.jar";
         "type" = "remote";
-        "md5" = "15249d5882dbdf11ba39a7f6274b7a7f";
-        "sha256" = "e327ee68bd485084a6dae00c2dda398447d69e9745fa5717d54925f1b2585104";
-        "size" = 961236;
+        "md5" = "342d6de2fe82383fcba23c6c8cda0ea4";
+        "sha256" = "db09ae32e5fec11b15f4e437447077dac1db4e1c3854eb1366b0907676aed56f";
+        "size" = 978332;
     };
     "back-tools" = {
         "title" = "Back Tools";
@@ -282,14 +282,14 @@
         "required" = true;
         "default" = true;
         "deps" = [];
-        "filename" = "bamboo_blocks-1.16.5-3.0.0.jar";
-        "encoded" = "bamboo_blocks-1.16.5-3.0.0.jar";
+        "filename" = "bamboo_blocks-1.16.5-3.0.1.jar";
+        "encoded" = "bamboo_blocks-1.16.5-3.0.1.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/bamboo-blocks";
-        "src" = "https://media.forgecdn.net/files/3416/596/bamboo_blocks-1.16.5-3.0.0.jar";
+        "src" = "https://media.forgecdn.net/files/3549/78/bamboo_blocks-1.16.5-3.0.1.jar";
         "type" = "remote";
-        "md5" = "74ef0ceffe0ba72f729ee343fcc01b58";
-        "sha256" = "ed06874453568ae1f2dd56b40bb948b57a770f9841ec06697d15da7911fcb9a7";
-        "size" = 436031;
+        "md5" = "e6da0b044c7b86fc2c3c6b39d5579a84";
+        "sha256" = "b91126f953ad6b2357ba4e3674809dcea914c8da94a0f7c73014b31c6c1752ac";
+        "size" = 436480;
     };
     "better-burning" = {
         "title" = "Better Burning";
@@ -401,14 +401,14 @@
         "required" = true;
         "default" = true;
         "deps" = [];
-        "filename" = "buzzier_bees-1.16.5-3.0.1.jar";
-        "encoded" = "buzzier_bees-1.16.5-3.0.1.jar";
+        "filename" = "buzzier_bees-1.16.5-3.0.2.jar";
+        "encoded" = "buzzier_bees-1.16.5-3.0.2.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/buzzier-bees";
-        "src" = "https://media.forgecdn.net/files/3226/433/buzzier_bees-1.16.5-3.0.1.jar";
+        "src" = "https://media.forgecdn.net/files/3553/343/buzzier_bees-1.16.5-3.0.2.jar";
         "type" = "remote";
-        "md5" = "5b6153e47a039aaa5c77c036a4b8bc38";
-        "sha256" = "42121f42b8e7f9a8e94734d04c7d8c46e2cc4ee8da3adda6ce16afa4f5cbd704";
-        "size" = 841753;
+        "md5" = "2d812bcbc537b1323f93022395a3b579";
+        "sha256" = "b9b834c0f7bffe7c2901477dfb30e537ce5afc82f9c117573510a79422976903";
+        "size" = 840630;
     };
     "catalogue" = {
         "title" = "Catalogue";
@@ -1108,7 +1108,7 @@
         "size" = 3542;
     };
     "dynamic-view" = {
-        "title" = "Dynamic View";
+        "title" = "Dynamic View[Forge/Fabric]";
         "name" = "dynamic-view";
         "id" = 366140;
         "side" = "both";
@@ -1285,14 +1285,14 @@
         "required" = true;
         "default" = true;
         "deps" = [];
-        "filename" = "extraboats-1.16.5-2.1.0.jar";
-        "encoded" = "extraboats-1.16.5-2.1.0.jar";
+        "filename" = "extraboats-1.16.5-2.1.1.jar";
+        "encoded" = "extraboats-1.16.5-2.1.1.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/extra-boats";
-        "src" = "https://media.forgecdn.net/files/3175/92/extraboats-1.16.5-2.1.0.jar";
+        "src" = "https://media.forgecdn.net/files/3549/93/extraboats-1.16.5-2.1.1.jar";
         "type" = "remote";
-        "md5" = "f526254f9a233a98833ac4752946d9f4";
-        "sha256" = "7f23191a9fdf8a4aeee1330efbcadf3bda2430032b51fe51eb2f1cd6d42c9ce0";
-        "size" = 538708;
+        "md5" = "c203c6f79be1a2d35d805d2a2b45a639";
+        "sha256" = "74cd433fc741c8efe3d8565b0687ad1148a5eee8a2a07086fb54632709c3f58b";
+        "size" = 542830;
     };
     "fairy-lights" = {
         "title" = "Fairy Lights";
@@ -1795,14 +1795,14 @@
         "required" = true;
         "default" = true;
         "deps" = [];
-        "filename" = "Mantle-1.16.5-1.6.127.jar";
-        "encoded" = "Mantle-1.16.5-1.6.127.jar";
+        "filename" = "Mantle-1.16.5-1.6.147.jar";
+        "encoded" = "Mantle-1.16.5-1.6.147.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/mantle";
-        "src" = "https://media.forgecdn.net/files/3482/897/Mantle-1.16.5-1.6.127.jar";
+        "src" = "https://media.forgecdn.net/files/3551/291/Mantle-1.16.5-1.6.147.jar";
         "type" = "remote";
-        "md5" = "b28587558efe5485acce4ab6c8d7c981";
-        "sha256" = "ebf02ea9e5162daf8b36378e4cd819aebb28e6de5563ebdb9c00edff5db89d2f";
-        "size" = 746595;
+        "md5" = "972d78b9510b9ee77d86811e4b4af876";
+        "sha256" = "444af43438f296bb8414660fd3eb58685dcf686f2346ed76313b3708d65fc3d8";
+        "size" = 777742;
     };
     "metal-barrels" = {
         "title" = "Metal Barrels";
@@ -2084,14 +2084,14 @@
         "required" = true;
         "default" = true;
         "deps" = [];
-        "filename" = "personality-1.16.5-1.0.2.jar";
-        "encoded" = "personality-1.16.5-1.0.2.jar";
+        "filename" = "personality-1.16.5-1.0.3.jar";
+        "encoded" = "personality-1.16.5-1.0.3.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/personality";
-        "src" = "https://media.forgecdn.net/files/3227/802/personality-1.16.5-1.0.2.jar";
+        "src" = "https://media.forgecdn.net/files/3549/549/personality-1.16.5-1.0.3.jar";
         "type" = "remote";
-        "md5" = "91bed64ebf40f36183e5176ce9d56e00";
-        "sha256" = "ec25f4d87f3eca2ef91c602ffb5faf52413677f1ceab777e5ea72ab57f3a053d";
-        "size" = 288116;
+        "md5" = "670a769a27fb13ff36051a532f8baba8";
+        "sha256" = "2ac660f2b189c2527b3619fcdf1243d5e36f67a0d51a063d483b445c3f9616cb";
+        "size" = 288997;
     };
     "phosphophyllite" = {
         "title" = "Phosphophyllite";
@@ -2747,14 +2747,14 @@
         "required" = true;
         "default" = true;
         "deps" = [];
-        "filename" = "TConstruct-1.16.5-3.1.3.271.jar";
-        "encoded" = "TConstruct-1.16.5-3.1.3.271.jar";
+        "filename" = "TConstruct-1.16.5-3.3.0.308.jar";
+        "encoded" = "TConstruct-1.16.5-3.3.0.308.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/tinkers-construct";
-        "src" = "https://media.forgecdn.net/files/3482/903/TConstruct-1.16.5-3.1.3.271.jar";
+        "src" = "https://media.forgecdn.net/files/3551/295/TConstruct-1.16.5-3.3.0.308.jar";
         "type" = "remote";
-        "md5" = "3322f0d3a91452f138b19ba520144179";
-        "sha256" = "18b0c49fc29ef8ce92ad537678c87cbe04c5b99f805494f7f3f615429b3ce1d7";
-        "size" = 10156061;
+        "md5" = "6d8531c62b51a761e7e7de6a6237ffe0";
+        "sha256" = "a06d757b1ab9fe6bfab07623afbe9f3305b5a5920f5c70f0ee150d64f3774342";
+        "size" = 9749355;
     };
     "titanium" = {
         "title" = "Titanium";
