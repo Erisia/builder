@@ -20,8 +20,6 @@ mods:
     id: 276951
   - name: dynamic-view
     id: 366140
-    files:
-      - id: 3358883
   - name: anti-mob-griefing
     id: 449140
   - name: woot
