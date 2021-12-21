@@ -21,7 +21,7 @@ mods:
   - name: applied-energistics-2
     id: 223794
     files:
-      - id: 3502523
+      - id: 3528122
   - name: aquaculture
     id: 60028
     files:
@@ -29,7 +29,7 @@ mods:
   - name: archers-paradox
     id: 353399
     files:
-      - id: 3407020
+      - id: 3554751
   - name: architects-palette
     id: 433862
     files:
@@ -46,6 +46,10 @@ mods:
     id: 261251
     files:
       - id: 3430455
+  - name: better-advancements
+    id: 272515
+    files:
+      - id: 3317873
   - name: better-burning
     id: 353434
     files:
@@ -65,7 +69,7 @@ mods:
   - name: catalogue
     id: 459701
     files:
-      - id: 3399554
+      - id: 3529457
   - name: cavebiomeapi
     id: 441706
     files:
@@ -73,15 +77,11 @@ mods:
   - name: cb-multipart
     id: 258426
     files:
-      - id: 3459903
+      - id: 3529432
   - name: cc-tweaked
     id: 282001
     files:
-      - id: 3434680
-  - name: chicken-chunks-1-8
-    id: 243883
-    files:
-      - id: 3502183
+      - id: 3559365
   - name: chisel
     id: 235279
     files:
@@ -90,6 +90,10 @@ mods:
     id: 231095
     files:
       - id: 3510598
+  - name: chunknogobyebye
+    id: 332695
+    files:
+      - id: 3195333
   - name: chunkpregenerator
     id: 267193
     files:
@@ -97,7 +101,7 @@ mods:
   - name: cloth-config-forge
     id: 348521
     files:
-      - id: 3311352
+      - id: 3521275
   - name: clumps
     id: 256717
     files:
@@ -109,15 +113,15 @@ mods:
   - name: codechicken-lib-1-8
     id: 242818
     files:
-      - id: 3456069
+      - id: 3553742
   - name: cofh-core
     id: 69162
     files:
-      - id: 3407019
+      - id: 3556973
   - name: configured
     id: 457570
     files:
-      - id: 3434071
+      - id: 3546348
   - name: connectivity
     id: 470193
     files:
@@ -125,11 +129,15 @@ mods:
   - name: construction-wand
     id: 399558
     files:
-      - id: 3499311
+      - id: 3562328
   - name: controlling
     id: 250398
     files:
-      - id: 3501319
+      - id: 3531453
+  - name: cookiecore
+    id: 222908
+    files:
+      - id: 3524822
   - name: corpse
     id: 316582
     files:
@@ -137,7 +145,7 @@ mods:
   - name: cosmetic-armor-reworked
     id: 237307
     files:
-      - id: 3398000
+      - id: 3540310
   - name: crafting-tweaks
     id: 233071
     files:
@@ -149,7 +157,7 @@ mods:
   - name: create
     id: 328085
     files:
-      - id: 3499718
+      - id: 3536025
   - name: ctm
     id: 267602
     files:
@@ -181,19 +189,15 @@ mods:
   - name: desolation-forge
     id: 445926
     files:
-      - id: 3294461
+      - id: 3520961
   - name: dice
     id: 538587
     files:
-      - id: 3501362
-  - name: drawerfps
-    id: 480816
-    files:
-      - id: 3426018
+      - id: 3521746
   - name: drink-beer-forge
     id: 534161
     files:
-      - id: 3512184
+      - id: 3521846
   - name: dungeon-crawl
     id: 324973
     files:
@@ -217,7 +221,7 @@ mods:
   - name: exotic-birds
     id: 242830
     files:
-      - id: 3444055
+      - id: 3521872
   - name: extended-caves
     id: 338779
     files:
@@ -229,7 +233,7 @@ mods:
   - name: farmers-delight
     id: 398521
     files:
-      - id: 3503844
+      - id: 3559260
   - name: fast-leaf-decay
     id: 230976
     files:
@@ -249,19 +253,23 @@ mods:
   - name: flywheel
     id: 486392
     files:
-      - id: 3459739
+      - id: 3535459
   - name: forbidden-arcanus
     id: 309858
     files:
-      - id: 3338826
+      - id: 3541860
+  - name: ftb-backups-forge
+    id: 314904
+    files:
+      - id: 3482306
   - name: ftb-chunks-forge
     id: 314906
     files:
-      - id: 3509329
+      - id: 3538223
   - name: ftb-library-forge
     id: 404465
     files:
-      - id: 3510634
+      - id: 3553840
   - name: ftb-quests-forge
     id: 289412
     files:
@@ -269,7 +277,7 @@ mods:
   - name: ftb-teams-forge
     id: 404468
     files:
-      - id: 3492657
+      - id: 3535953
   - name: grappling-hook-mod
     id: 238911
     files:
@@ -278,14 +286,10 @@ mods:
     id: 356646
     files:
       - id: 3198017
-  - name: hwyla
-    id: 253449
-    files:
-      - id: 3033593
   - name: ichunutil
     id: 229060
     files:
-      - id: 3346209
+      - id: 3539371
   - name: improvedbackpacks
     id: 270457
     files:
@@ -298,10 +302,14 @@ mods:
     id: 309674
     files:
       - id: 3376819
+  - name: jade
+    id: 324717
+    files:
+      - id: 3467445
   - name: jei
     id: 238222
     files:
-      - id: 3502687
+      - id: 3530253
   - name: kubejs-create
     id: 429371
     files:
@@ -309,11 +317,11 @@ mods:
   - name: kubejs-forge
     id: 238086
     files:
-      - id: 3498936
+      - id: 3552913
   - name: kubejs-thermal
     id: 421694
     files:
-      - id: 3446503
+      - id: 3555593
   - name: libvulpes
     id: 236541
     files:
@@ -321,11 +329,15 @@ mods:
   - name: lootr
     id: 361276
     files:
-      - id: 3479880
+      - id: 3562133
+  - name: magic-feather
+    id: 284745
+    files:
+      - id: 3224434
   - name: mantle
     id: 74924
     files:
-      - id: 3482897
+      - id: 3551291
   - name: metal-barrels
     id: 324985
     files:
@@ -333,7 +345,7 @@ mods:
   - name: more-minecarts
     id: 440845
     files:
-      - id: 3489944
+      - id: 3524860
   - name: more-observers
     id: 530858
     files:
@@ -357,7 +369,7 @@ mods:
   - name: occultism
     id: 361026
     files:
-      - id: 3511736
+      - id: 3532979
   - name: open-loader
     id: 354339
     files:
@@ -369,7 +381,7 @@ mods:
   - name: ore-tweaker
     id: 242436
     files:
-      - id: 3439648
+      - id: 3520897
   - name: paintings
     id: 252042
     files:
@@ -378,10 +390,14 @@ mods:
     id: 306770
     files:
       - id: 3459118
+  - name: path-to-dirt
+    id: 373323
+    files:
+      - id: 3273985
   - name: pipez
     id: 443900
     files:
-      - id: 3508084
+      - id: 3525428
   - name: placebo
     id: 283644
     files:
@@ -389,11 +405,15 @@ mods:
   - name: ponderjs
     id: 521714
     files:
-      - id: 3511292
+      - id: 3540229
+  - name: portable-stonecutter
+    id: 425973
+    files:
+      - id: 3512385
   - name: portality
     id: 291493
     files:
-      - id: 3302511
+      - id: 3524478
   - name: pretty-pipes
     id: 376737
     files:
@@ -401,23 +421,23 @@ mods:
   - name: project-red-core
     id: 228702
     files:
-      - id: 3459382
+      - id: 3535644
   - name: project-red-illumination
     id: 229046
     files:
-      - id: 3459384
+      - id: 3535646
   - name: project-red-integration
     id: 229045
     files:
-      - id: 3459383
+      - id: 3535645
   - name: project-red-transmission
     id: 478939
     files:
-      - id: 3459386
+      - id: 3535648
   - name: randomium-ore
     id: 523013
     files:
-      - id: 3461529
+      - id: 3532356
   - name: raven-coffee
     id: 469185
     files:
@@ -429,11 +449,11 @@ mods:
   - name: repurposed-structures
     id: 368293
     files:
-      - id: 3499509
+      - id: 3527137
   - name: rhino
     id: 416294
     files:
-      - id: 3493061
+      - id: 3525704
   - name: rubber-duck
     id: 522039
     files:
@@ -445,7 +465,7 @@ mods:
   - name: selene
     id: 499980
     files:
-      - id: 3488929
+      - id: 3517008
   - name: shutup-experimental-settings
     id: 407174
     files:
@@ -477,7 +497,7 @@ mods:
   - name: supplementaries
     id: 412082
     files:
-      - id: 3505596
+      - id: 3544548
   - name: the-mighty-architect
     id: 317792
     files:
@@ -485,27 +505,27 @@ mods:
   - name: thermal-expansion
     id: 69163
     files:
-      - id: 3404884
+      - id: 3556990
   - name: thermal-foundation
     id: 222880
     files:
-      - id: 3412300
+      - id: 3556953
   - name: thermal-innovation
     id: 291737
     files:
-      - id: 3404886
+      - id: 3556270
   - name: thermal-locomotion
     id: 406959
     files:
-      - id: 3404887
+      - id: 3555670
   - name: tinkers-construct
     id: 74072
     files:
-      - id: 3482903
+      - id: 3551295
   - name: titanium
     id: 287342
     files:
-      - id: 3446253
+      - id: 3525770
   - name: torchmaster
     id: 254268
     files:
@@ -513,7 +533,7 @@ mods:
   - name: valhelsia-core
     id: 416935
     files:
-      - id: 3490931
+      - id: 3508441
   - name: water-strainer
     id: 246939
     files:
