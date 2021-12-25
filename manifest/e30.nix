@@ -1846,14 +1846,14 @@
         "required" = true;
         "default" = true;
         "deps" = [];
-        "filename" = "Mantle-1.16.5-1.6.147.jar";
-        "encoded" = "Mantle-1.16.5-1.6.147.jar";
+        "filename" = "Mantle-1.16.5-1.6.152.jar";
+        "encoded" = "Mantle-1.16.5-1.6.152.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/mantle";
-        "src" = "https://media.forgecdn.net/files/3551/291/Mantle-1.16.5-1.6.147.jar";
+        "src" = "https://media.forgecdn.net/files/3576/386/Mantle-1.16.5-1.6.152.jar";
         "type" = "remote";
-        "md5" = "972d78b9510b9ee77d86811e4b4af876";
-        "sha256" = "444af43438f296bb8414660fd3eb58685dcf686f2346ed76313b3708d65fc3d8";
-        "size" = 777742;
+        "md5" = "127852bd3ee3ef698b9dd0f7283475c9";
+        "sha256" = "60247d3ab6cc205d8d4dbbeed6f0d65ea7c2b9ad529db5dac49414f75155a503";
+        "size" = 805040;
     };
     "metal-barrels" = {
         "title" = "Metal Barrels";
@@ -2620,6 +2620,23 @@
         "sha256" = "7675a126cd8d8456b0fed49621a97cebfced7d55d82d6ed6d40b9ae4e8fb8bb7";
         "size" = 60588;
     };
+    "stepup" = {
+        "title" = "StepUp";
+        "name" = "stepup";
+        "id" = 239236;
+        "side" = "client";
+        "required" = false;
+        "default" = true;
+        "deps" = [];
+        "filename" = "StepUp-1.16.4-0.2.0.jar";
+        "encoded" = "StepUp-1.16.4-0.2.0.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/stepup";
+        "src" = "https://media.forgecdn.net/files/3179/485/StepUp-1.16.4-0.2.0.jar";
+        "type" = "remote";
+        "md5" = "dfcac16edec01358c2ea6a5187f9fdca";
+        "sha256" = "ba4b851b2e95479632e0fe993050a0b42e427ace55f5342dfaa84857faf17872";
+        "size" = 64655;
+    };
     "storage-drawers" = {
         "title" = "Storage Drawers";
         "name" = "storage-drawers";
@@ -2832,14 +2849,14 @@
         "required" = true;
         "default" = true;
         "deps" = [];
-        "filename" = "TConstruct-1.16.5-3.3.0.308.jar";
-        "encoded" = "TConstruct-1.16.5-3.3.0.308.jar";
+        "filename" = "TConstruct-1.16.5-3.3.2.324.jar";
+        "encoded" = "TConstruct-1.16.5-3.3.2.324.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/tinkers-construct";
-        "src" = "https://media.forgecdn.net/files/3551/295/TConstruct-1.16.5-3.3.0.308.jar";
+        "src" = "https://media.forgecdn.net/files/3576/393/TConstruct-1.16.5-3.3.2.324.jar";
         "type" = "remote";
-        "md5" = "6d8531c62b51a761e7e7de6a6237ffe0";
-        "sha256" = "a06d757b1ab9fe6bfab07623afbe9f3305b5a5920f5c70f0ee150d64f3774342";
-        "size" = 9749355;
+        "md5" = "62362ea1181bc66adf18c9695dbc7354";
+        "sha256" = "dfeb575ea6e1429265740dfc1771c472f85b1645faf6ae895b2e79efb86dab4f";
+        "size" = 10439123;
     };
     "titanium" = {
         "title" = "Titanium";

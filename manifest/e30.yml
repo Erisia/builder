@@ -3,6 +3,12 @@ version: 1.16.5
 imports:
   - 'createabovebeyond.yml'
 mods:
+  - name: stepup
+    id: 239236
+    side: client
+    required: false
+    files:
+      - id: 3179485
   - name: borderless
     id: 378979
     required: false

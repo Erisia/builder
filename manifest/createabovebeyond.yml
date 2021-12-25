@@ -336,8 +336,8 @@ mods:
       - id: 3224434
   - name: mantle
     id: 74924
-    files:
-      - id: 3551291
+    # files:
+    #   - id: 3551291
   - name: metal-barrels
     id: 324985
     files:
@@ -520,8 +520,8 @@ mods:
       - id: 3555670
   - name: tinkers-construct
     id: 74072
-    files:
-      - id: 3551295
+    # files:
+    #   - id: 3551295
   - name: titanium
     id: 287342
     files:
