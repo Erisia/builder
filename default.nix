@@ -26,10 +26,34 @@ in
 rec {
 
   packs = {
-    e30 = buildPack e30;
-    e29 = buildPack e29;
-    v18 = buildPack v18;
+      e31 = buildPack e31;
+      v18 = buildPack v18;
   };
+
+  e31 = {
+    name ="All of Fabric 5";
+    tmuxName = "e31";
+    description = "e31: Packname TBD";
+    ram = "4G";
+    port = 25566;
+    prometheusPort = 1224;
+    minecraftVersion = "1.18.1";
+    fabric = "0.10.2";
+    extraDirs = [
+    ];
+    extraServerDirs = [
+      ./base/server
+    ];
+    extraClientDirs = [
+      ./base/client
+    ];
+    manifests = [
+      ./manifest/all_of_fabric_5.nix
+    ];
+    blacklist = [
+    ];
+  };
+
 
   v18 = {
     name ="Vanilla 1.18";
@@ -37,11 +61,9 @@ rec {
     description = "V18: Errata Worldheightitus";
     ram = "4G";
     port = 25566;
+    minecraftVersion = "1.18.1";
     prometheusPort = 1224;
-    forge = {
-      major = "1.18.1";
-      minor = "39.0.8";
-    };
+    forge = "39.0.8";
     extraDirs = [
       ./base/erisia
     ];
@@ -57,65 +79,6 @@ rec {
     blacklist = [
     ];
   };
-
-  e30 = {
-    name = "Create";
-    tmuxName = "e30";
-    description = "E30: Modus Burpium";
-    ram = "12G";
-    port = 25565;
-    prometheusPort = 1223;
-    forge = {
-      major = "1.16.5";
-      minor = "36.2.20";
-    };
-    extraDirs = [
-      ./base/erisia
-      ./base/e30
-    ];
-    extraServerDirs = [
-      ./base/server
-    ];
-    extraClientDirs = [
-      ./base/client
-    ];
-    manifests = [
-      ./manifest/e30.nix
-    ];
-    blacklist = [
-    ];
-  };
-
-  e29 = {
-    name = "RusticWaters";
-    tmuxName = "e29";
-    description = "E29: Occulai Abyssi";
-    ram = "12G";
-    port = 25565;
-    prometheusPort = 1223;
-    forge = {
-      major = "1.12.2";
-      minor = "14.23.5.2855";
-    };
-    extraDirs = [
-      ./base/erisia
-      ./base/e29
-      ./third_party/1.12.2
-    ];
-    extraServerDirs = [
-      ./base/server
-    ];
-    extraClientDirs = [
-      resources_12
-      ./base/client
-    ];
-    manifests = [
-      ./manifest/e29.nix
-    ];
-    blacklist = [
-    ];
-  };
-
 
   ServerPack = buildServerPack rec {
     inherit packs;

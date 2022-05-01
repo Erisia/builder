@@ -1,0 +1,1028 @@
+---
+version: 1.18.1
+imports: []
+mods:
+  - name: additional-additions
+    id: 508556
+    files:
+      - id: 3555370
+  - name: adorn
+    id: 320215
+    files:
+      - id: 3638844
+  - name: advancement-plaques-fabric
+    id: 514882
+    files:
+      - id: 3647326
+  - name: advancements-debug
+    id: 422316
+    files:
+      - id: 3345570
+  - name: advancements-enlarger
+    id: 355583
+    files:
+      - id: 3329360
+  - name: adventurez
+    id: 390991
+    files:
+      - id: 3595812
+  - name: ae2things
+    id: 563800
+    files:
+      - id: 3645884
+  - name: animal-feeding-trough
+    id: 445838
+    files:
+      - id: 3580552
+  - name: aof-emotes
+    id: 594146
+    files:
+      - id: 3695302
+  - name: appleskin
+    id: 248787
+    files:
+      - id: 3626708
+  - name: applied-energistics-2
+    id: 223794
+    files:
+      - id: 3646160
+  - name: applied-energistics-2-wireless-terminals
+    id: 459929
+    files:
+      - id: 3711161
+  - name: arcanus
+    id: 517833
+    files:
+      - id: 3625099
+  - name: architects-palette-fabric
+    id: 487364
+    files:
+      - id: 3650186
+  - name: architectury-fabric
+    id: 419697
+    files:
+      - id: 3728612
+  - name: arrp
+    id: 463113
+    files:
+      - id: 3529149
+  - name: artifacts-fabric
+    id: 401236
+    files:
+      - id: 3656320
+  - name: artifality
+    id: 490812
+    files:
+      - id: 3650925
+  - name: attributefix
+    id: 280510
+    files:
+      - id: 3615618
+  - name: auth-me
+    id: 356643
+    files:
+      - id: 3569439
+  - name: auto-config-updated-api
+    id: 373261
+    files:
+      - id: 3668220
+  - name: axolotl-bucket-fix
+    id: 495453
+    files:
+      - id: 3515755
+  - name: balm-fabric
+    id: 500525
+    files:
+      - id: 3658027
+  - name: basic-aiots
+    id: 476080
+    files:
+      - id: 3575523
+  - name: beaconoverhaul
+    id: 430382
+    files:
+      - id: 3561472
+  - name: better-azalea
+    id: 517564
+    files:
+      - id: 3621108
+  - name: better-compatibility-checker
+    id: 551894
+    files:
+      - id: 3679841
+  - name: better-mount-hud
+    id: 475358
+    files:
+      - id: 3637536
+  - name: better-ping-display-fabric
+    id: 406343
+    files:
+      - id: 3565287
+  - name: betterloadingscreen
+    id: 594044
+    files:
+      - id: 3722046
+  - name: bewitchment
+    id: 394915
+    files:
+      - id: 3672524
+  - name: biome-makeover
+    id: 412182
+    files:
+      - id: 3667657
+  - name: bisecthosting-server-integration-menu-fabric
+    id: 585548
+    files:
+      - id: 3684000
+  - name: bits-and-chisels
+    id: 420709
+    files:
+      - id: 3592089
+  - name: blast
+    id: 349938
+    files:
+      - id: 3684852
+  - name: blockus
+    id: 312289
+    files:
+      - id: 3711897
+  - name: boat-container
+    id: 526274
+    files:
+      - id: 3545010
+  - name: bookshelf
+    id: 228525
+    files:
+      - id: 3712012
+  - name: bosses-of-mass-destruction
+    id: 438365
+    files:
+      - id: 3635839
+  - name: botania-fabric
+    id: 421839
+    files:
+      - id: 3664221
+  - name: bountiful-fabric
+    id: 521673
+    files:
+      - id: 3599391
+  - name: bow-infinity-fix
+    id: 224713
+    files:
+      - id: 3546225
+  - name: break-progress
+    id: 416406
+    files:
+      - id: 3133167
+  - name: builtin-servers
+    id: 473131
+    files:
+      - id: 3541403
+  - name: cammies-minecart-tweaks
+    id: 579937
+    files:
+      - id: 3666552
+  - name: cammies-wearable-backpacks
+    id: 443091
+    files:
+      - id: 3661610
+  - name: campanion
+    id: 373138
+    files:
+      - id: 3613521
+  - name: can-i-mine-this-block
+    id: 400929
+    files:
+      - id: 3367227
+  - name: can-you-trash-it
+    id: 564152
+    files:
+      - id: 3598312
+  - name: capybara-fabric
+    id: 549031
+    files:
+      - id: 3591830
+  - name: caracal-mod
+    id: 486505
+    files:
+      - id: 3724177
+  - name: carrier
+    id: 409184
+    files:
+      - id: 3624495
+  - name: catwalks-inc
+    id: 554340
+    files:
+      - id: 3602069
+  - name: chalk-fabric
+    id: 535541
+    files:
+      - id: 3654662
+  - name: cherished-worlds-fabric
+    id: 398502
+    files:
+      - id: 3544922
+  - name: cleancut
+    id: 392805
+    files:
+      - id: 3549604
+  - name: client-tweaks-fabric
+    id: 547692
+    files:
+      - id: 3666466
+  - name: cloth-api
+    id: 317121
+    files:
+      - id: 3612123
+  - name: cloth-config
+    id: 319057
+    files:
+      - id: 3641132
+  - name: clumps
+    id: 256717
+    files:
+      - id: 3616323
+  - name: companion-fabric
+    id: 560280
+    files:
+      - id: 3652584
+  - name: conjuring
+    id: 422310
+    files:
+      - id: 3615193
+  - name: continuity
+    id: 531351
+    files:
+      - id: 3655794
+  - name: controlling
+    id: 250398
+    files:
+      - id: 3648601
+  - name: couplings
+    id: 311120
+    files:
+      - id: 3554499
+  - name: crafting-tweaks-fabric
+    id: 502516
+    files:
+      - id: 3545612
+  - name: crawl
+    id: 314579
+    files:
+      - id: 3621981
+  - name: creeper-overhaul
+    id: 561625
+    files:
+      - id: 3627416
+  - name: crooked-crooks
+    id: 393714
+    files:
+      - id: 3569019
+  - name: croptopia-fabric
+    id: 415438
+    files:
+      - id: 3707654
+  - name: croptopias-chocolaterie
+    id: 560262
+    files:
+      - id: 3652164
+  - name: croptosis
+    id: 437552
+    files:
+      - id: 3570324
+  - name: dank-storage-fabric
+    id: 400619
+    files:
+      - id: 3666483
+  - name: dark-enchanting
+    id: 473553
+    files:
+      - id: 3580315
+  - name: dark-paintings
+    id: 377281
+    files:
+      - id: 3618369
+  - name: dark-utilities
+    id: 242195
+    files:
+      - id: 3707236
+  - name: dawn
+    id: 399309
+    files:
+      - id: 3575028
+  - name: deathlog
+    id: 496150
+    files:
+      - id: 3603579
+  - name: decorative-blocks
+    id: 362528
+    files:
+      - id: 3613618
+  - name: deep-mob-learning-refabricated
+    id: 398614
+    files:
+      - id: 3680143
+  - name: deep-mob-learning-simulacrum
+    id: 508931
+    files:
+      - id: 3680470
+  - name: deepslatecutting
+    id: 504899
+    files:
+      - id: 3648247
+  - name: default-options-fabric
+    id: 547694
+    files:
+      - id: 3630248
+  - name: dimension-fix-some-forge-patches-ported
+    id: 437779
+    files:
+      - id: 3578820
+  - name: dragonloot
+    id: 424480
+    files:
+      - id: 3596055
+  - name: dual-riders
+    id: 435980
+    files:
+      - id: 3576954
+  - name: dusk
+    id: 468908
+    files:
+      - id: 3554400
+  - name: dustrial-decor-fabric
+    id: 592067
+    files:
+      - id: 3695707
+  - name: dwarf-coal-fabric
+    id: 309177
+    files:
+      - id: 3595860
+  - name: dyed
+    id: 577468
+    files:
+      - id: 3669825
+  - name: dynamic-fps
+    id: 335493
+    files:
+      - id: 3606973
+  - name: earthbounds
+    id: 574411
+    files:
+      - id: 3661230
+  - name: ecologics
+    id: 570463
+    files:
+      - id: 3698710
+  - name: eggtab-fabric
+    id: 360449
+    files:
+      - id: 3711184
+  - name: elytra-trinket-fabric
+    id: 397903
+    files:
+      - id: 3567467
+  - name: enchantment-descriptions
+    id: 250419
+    files:
+      - id: 3636900
+  - name: entity-banners
+    id: 470149
+    files:
+      - id: 3541351
+  - name: equipment-compare-fabric
+    id: 541329
+    files:
+      - id: 3723542
+  - name: expanded-storage-fabric
+    id: 317856
+    files:
+      - id: 3666060
+  - name: extra-alchemy
+    id: 247357
+    files:
+      - id: 3595791
+  - name: extra-generators
+    id: 475623
+    files:
+      - id: 3712531
+  - name: extreme-sound-muffler-fabric-official
+    id: 566140
+    files:
+      - id: 3648162
+  - name: fabric-api
+    id: 306612
+    files:
+      - id: 3671143
+  - name: fabric-chisel
+    id: 551763
+    files:
+      - id: 3695148
+  - name: fabric-disable-custom-worlds-advice
+    id: 401978
+    files:
+      - id: 3545078
+  - name: fabric-language-kotlin
+    id: 308769
+    files:
+      - id: 3573712
+  - name: fabric-waystones
+    id: 410902
+    files:
+      - id: 3575744
+  - name: farmers-delight-fabric
+    id: 482834
+    files:
+      - id: 3559302
+  - name: farming-for-blockheads-fabric
+    id: 554586
+    files:
+      - id: 3606206
+  - name: fast-furnace-for-fabric
+    id: 364540
+    files:
+      - id: 3558448
+  - name: feature-nbt-deadlock-be-gone
+    id: 560323
+    files:
+      - id: 3618462
+  - name: ferritecore-fabric
+    id: 459857
+    files:
+      - id: 3652642
+  - name: fix-experience-bug
+    id: 486778
+    files:
+      - id: 3555653
+  - name: floral-flair-fabric
+    id: 549363
+    files:
+      - id: 3682534
+  - name: forge-config-api-port-fabric
+    id: 547434
+    files:
+      - id: 3600918
+  - name: ftb-chunks-fabric
+    id: 472657
+    files:
+      - id: 3627153
+  - name: ftb-library-fabric
+    id: 438495
+    files:
+      - id: 3598889
+  - name: ftb-quests-fabric
+    id: 438496
+    files:
+      - id: 3672857
+  - name: ftb-teams-fabric
+    id: 438497
+    files:
+      - id: 3657258
+  - name: ftb-ultimine-fabric
+    id: 448231
+    files:
+      - id: 3668511
+  - name: gate-of-babylon
+    id: 407500
+    files:
+      - id: 3644733
+  - name: geckolib
+    id: 388172
+    files:
+      - id: 3661790
+  - name: glassential-fabric
+    id: 320778
+    files:
+      - id: 3532014
+  - name: go-fish
+    id: 431135
+    files:
+      - id: 3561290
+  - name: goblin-traders-fabric
+    id: 534373
+    files:
+      - id: 3647948
+  - name: golden-hoppers
+    id: 442268
+    files:
+      - id: 3592002
+  - name: grims-transportables
+    id: 473508
+    files:
+      - id: 3565219
+  - name: guard-villagers-fabric
+    id: 571503
+    files:
+      - id: 3723745
+  - name: guild
+    id: 526011
+    files:
+      - id: 3600139
+  - name: harvest-scythes
+    id: 412225
+    files:
+      - id: 3611454
+  - name: health-overlay-fabric
+    id: 313219
+    files:
+      - id: 3563686
+  - name: hwyla-addon-horse-info
+    id: 390027
+    files:
+      - id: 3568159
+  - name: i-know-what-im-doing
+    id: 271492
+    files:
+      - id: 3561096
+  - name: iceberg-fabric
+    id: 539382
+    files:
+      - id: 3597368
+  - name: impaled
+    id: 478843
+    files:
+      - id: 3724229
+  - name: improved-stations
+    id: 355914
+    files:
+      - id: 3734898
+  - name: incantationem
+    id: 483166
+    files:
+      - id: 3571914
+  - name: indium
+    id: 459496
+    files:
+      - id: 3667666
+  - name: industrial-revolution
+    id: 391708
+    files:
+      - id: 3725959
+  - name: infusion-table
+    id: 531783
+    files:
+      - id: 3566189
+  - name: inmis
+    id: 369254
+    files:
+      - id: 3623328
+  - name: inventory-hud-forge
+    id: 357540
+    files:
+      - id: 3545928
+  - name: inventory-sorting
+    id: 325471
+    files:
+      - id: 3669311
+  - name: irisshaders
+    id: 455508
+    files:
+      - id: 3612857
+  - name: iron-jetpacks-fabric
+    id: 386892
+    files:
+      - id: 3578788
+  - name: item-filters-fabric
+    id: 438500
+    files:
+      - id: 3596361
+  - name: jumpoverfences
+    id: 353641
+    files:
+      - id: 2992917
+  - name: kambrik
+    id: 455585
+    files:
+      - id: 3596570
+  - name: kibe
+    id: 388832
+    files:
+      - id: 3671375
+  - name: kleeslabs-fabric
+    id: 547695
+    files:
+      - id: 3549467
+  - name: kubejs-extras
+    id: 504045
+    files:
+      - id: 3545041
+  - name: kubejs-fabric
+    id: 395864
+    files:
+      - id: 3670981
+  - name: lazydfu
+    id: 433518
+    files:
+      - id: 3209972
+  - name: legendary-tooltips-fabric
+    id: 542478
+    files:
+      - id: 3653163
+  - name: lifts
+    id: 451554
+    files:
+      - id: 3545028
+  - name: light-overlay
+    id: 325492
+    files:
+      - id: 3552777
+  - name: lithium
+    id: 360438
+    files:
+      - id: 3659182
+  - name: login-protection
+    id: 358304
+    files:
+      - id: 3592984
+  - name: lovely-snails
+    id: 499425
+    files:
+      - id: 3546566
+  - name: luminous-wool
+    id: 494014
+    files:
+      - id: 3542944
+  - name: macaws-fences-and-walls
+    id: 453925
+    files:
+      - id: 3648032
+  - name: macaws-paintings
+    id: 438116
+    files:
+      - id: 3645705
+  - name: macaws-trapdoors
+    id: 400933
+    files:
+      - id: 3647012
+  - name: magical-forest
+    id: 383666
+    files:
+      - id: 3632980
+  - name: magitek-mechs
+    id: 534029
+    files:
+      - id: 3621585
+  - name: megane
+    id: 408118
+    files:
+      - id: 3655916
+  - name: mo-colors
+    id: 446767
+    files:
+      - id: 3545623
+  - name: mo-structures
+    id: 378266
+    files:
+      - id: 3567077
+  - name: mob-scarecrows
+    id: 560657
+    files:
+      - id: 3641802
+  - name: modern-industrialization
+    id: 405388
+    files:
+      - id: 3646911
+  - name: modmenu
+    id: 308702
+    files:
+      - id: 3570652
+  - name: more-villagers-fabric
+    id: 486080
+    files:
+      - id: 3606177
+  - name: mouse-tweaks
+    id: 60089
+    files:
+      - id: 3601896
+  - name: mythic-mounts
+    id: 517650
+    files:
+      - id: 3666886
+  - name: natures-compass
+    id: 252848
+    files:
+      - id: 3684912
+  - name: nears
+    id: 482621
+    files:
+      - id: 3578842
+  - name: netherportalfix-fabric
+    id: 547696
+    files:
+      - id: 3549514
+  - name: ninjaphenixs-container-library
+    id: 530668
+    files:
+      - id: 3649305
+  - name: no-angled-brackets
+    id: 435141
+    files:
+      - id: 3578747
+  - name: no-null-processors
+    id: 546841
+    files:
+      - id: 3570785
+  - name: oh-the-biomes-youll-go-fabric
+    id: 391378
+    files:
+      - id: 3669458
+  - name: onastick
+    id: 550544
+    files:
+      - id: 3590716
+  - name: op-items-tab
+    id: 441383
+    files:
+      - id: 3638329
+  - name: open-loader
+    id: 354339
+    files:
+      - id: 3618464
+  - name: overloaded-armor-bar-fabric
+    id: 396300
+    files:
+      - id: 3652537
+  - name: owo-lib
+    id: 532610
+    files:
+      - id: 3646495
+  - name: patchouli-fabric
+    id: 393236
+    files:
+      - id: 3630726
+  - name: pehkui
+    id: 319596
+    files:
+      - id: 3720517
+  - name: phosphor
+    id: 372124
+    files:
+      - id: 3573395
+  - name: pig-pen-cipher
+    id: 396234
+    files:
+      - id: 3668224
+  - name: platforms-fabric
+    id: 536610
+    files:
+      - id: 3672720
+  - name: pling
+    id: 365521
+    files:
+      - id: 3550632
+  - name: plushie-mod
+    id: 544197
+    files:
+      - id: 3699524
+  - name: promenade
+    id: 399648
+    files:
+      - id: 3633936
+  - name: quests-additions-fabric
+    id: 580136
+    files:
+      - id: 3682970
+  - name: quick-shulker
+    id: 362669
+    files:
+      - id: 3614231
+  - name: raised
+    id: 570368
+    files:
+      - id: 3726242
+  - name: rare-ice
+    id: 373774
+    files:
+      - id: 3668131
+  - name: reborncore
+    id: 237903
+    files:
+      - id: 3663042
+  - name: redstone-bits
+    id: 321014
+    files:
+      - id: 3661802
+  - name: replanter
+    id: 480657
+    files:
+      - id: 3543829
+  - name: repurposed-structures-fabric
+    id: 391366
+    files:
+      - id: 3652966
+  - name: respawnable-pets
+    id: 319582
+    files:
+      - id: 3632097
+  - name: rhino
+    id: 416294
+    files:
+      - id: 3722920
+  - name: rightclickharvest-fabric
+    id: 452834
+    files:
+      - id: 3541965
+  - name: roughly-enough-items
+    id: 310111
+    files:
+      - id: 3670493
+  - name: roughly-enough-resources
+    id: 325625
+    files:
+      - id: 3649527
+  - name: runelic
+    id: 393149
+    files:
+      - id: 3626403
+  - name: secret-rooms-fabric
+    id: 359248
+    files:
+      - id: 3644587
+  - name: shetiphiancore-fabric
+    id: 536603
+    files:
+      - id: 3681597
+  - name: show-me-what-you-got
+    id: 564941
+    files:
+      - id: 3596654
+  - name: shulkerboxtooltip
+    id: 315811
+    files:
+      - id: 3549367
+  - name: simple-teleporters-fabric
+    id: 334011
+    files:
+      - id: 3540346
+  - name: slight-gui-modifications
+    id: 380393
+    files:
+      - id: 3630010
+  - name: slimyfloor
+    id: 456996
+    files:
+      - id: 3554951
+  - name: slotlock
+    id: 408366
+    files:
+      - id: 3541401
+  - name: smoother-bedrock
+    id: 403889
+    files:
+      - id: 3652470
+  - name: sodium
+    id: 394468
+    files:
+      - id: 3605309
+  - name: spark
+    id: 361579
+    files:
+      - id: 3644349
+  - name: spectrum
+    id: 556967
+    files:
+      - id: 3724666
+  - name: staff-of-building
+    id: 382694
+    files:
+      - id: 3577332
+  - name: stoneholm
+    id: 460336
+    files:
+      - id: 3631590
+  - name: straw-dummy
+    id: 393392
+    files:
+      - id: 3545764
+  - name: structure-tools
+    id: 536984
+    files:
+      - id: 3600965
+  - name: techreborn
+    id: 233564
+    files:
+      - id: 3663041
+  - name: terrablender-fabric
+    id: 565956
+    files:
+      - id: 3651451
+  - name: terrarian-slimes
+    id: 465336
+    files:
+      - id: 3540934
+  - name: thatched
+    id: 403202
+    files:
+      - id: 3647842
+  - name: the-graveyard-biomes-fabric
+    id: 584511
+    files:
+      - id: 3665455
+  - name: the-graveyard-fabric
+    id: 514468
+    files:
+      - id: 3665490
+  - name: tool-stats
+    id: 377109
+    files:
+      - id: 3668167
+  - name: tooltipfix
+    id: 411557
+    files:
+      - id: 3543273
+  - name: towers-of-the-wild-reworked
+    id: 552655
+    files:
+      - id: 3663023
+  - name: trap-expansion-fabric
+    id: 334018
+    files:
+      - id: 3540177
+  - name: trashslot-fabric-edition
+    id: 547689
+    files:
+      - id: 3658063
+  - name: trinkets-fabric
+    id: 341284
+    files:
+      - id: 3723674
+  - name: twigs
+    id: 496913
+    files:
+      - id: 3597733
+  - name: urns
+    id: 491911
+    files:
+      - id: 3562558
+  - name: vanilla-excavators
+    id: 341772
+    files:
+      - id: 3612783
+  - name: vanilla-hammers
+    id: 317756
+    files:
+      - id: 3575049
+  - name: villager-hats-mod
+    id: 501456
+    files:
+      - id: 3648078
+  - name: visuality
+    id: 521126
+    files:
+      - id: 3651034
+  - name: wireless-networks
+    id: 461316
+    files:
+      - id: 3581836
+  - name: wither-totem
+    id: 349850
+    files:
+      - id: 3537842
+  - name: wmitaf
+    id: 547358
+    files:
+      - id: 3566721
+  - name: wolves-with-armor
+    id: 375969
+    files:
+      - id: 3554382
+  - name: wthit
+    id: 440979
+    files:
+      - id: 3707003
+  - name: xl-packets-fabric
+    id: 390168
+    files:
+      - id: 3527187
+  - name: xp-obelisk
+    id: 510262
+    files:
+      - id: 3642569
+  - name: youre-in-grave-danger
+    id: 544912
+    files:
+      - id: 3675866
+  - name: yungs-api-fabric
+    id: 421649
+    files:
+      - id: 3638215
+  - name: yungs-better-dungeons-fabric
+    id: 525586
+    files:
+      - id: 3659526
+  - name: yungs-better-mineshafts-fabric
+    id: 373591
+    files:
+      - id: 3681402
+  - name: yungs-better-strongholds-fabric
+    id: 480684
+    files:
+      - id: 3650507
+  - name: yungs-bridges-fabric
+    id: 590988
+    files:
+      - id: 3681505
+  - name: yungs-extras-fabric
+    id: 590993
+    files:
+      - id: 3681517

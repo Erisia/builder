@@ -30,7 +30,9 @@ rec {
     serverName ? name,
     port,
     prometheusPort,
-    forge,
+    minecraftVersion,
+    forge ? null,
+    fabric ? null,
     ram ? "4000m",
     manifests ? [],
     blacklist ? [],
@@ -80,7 +82,8 @@ rec {
     ];
 
     ## Server:
-    forgeDir = wrapDir "forge" (fetchForge forge);
+    forgeDir = if forge != null then (wrapDir "forge" (fetchForge forge)) else null;
+    fabricDir = if fabric != null then (wrapDir "fabric" (fetchFabric fabric)) else null;
 
     serverMods = filterManifests {
       side = "server";
@@ -96,6 +99,7 @@ rec {
 
       paths = [
         forgeDir
+        fabricDir
         (wrapDir "mods" serverModsDir)
         (callPackage ../tools/control {})
       ] ++ extraServerDirs ++ extraDirs;
@@ -110,6 +114,23 @@ rec {
       '';
     };
   });
+
+  fetchFabric = version: runLocally "fabric-${version}" {
+    inherit version;
+    url = "https://maven.fabricmc.net/net/fabricmc/fabric-installer/${version}/fabric-installer-${version}.jar";
+    
+    __noChroot = 1;
+    buildInputs = [ jre wget cacert ];
+  } ''
+    mkdir $out
+    cd $out
+    wget -O installer.jar $url
+    java -jar installer.jar server -mcversion 1.18.1 -downloadMinecraft
+    rm installer.jar
+    mv server.jar vanilla.jar
+    mv fabric-server-launch.jar server.jar
+    echo "serverJar=vanilla.jar" > fabric-server-launch.properties
+  '';
 
   fetchForge = { major, minor }: runLocally "forge-${major}-${minor}" {
     inherit major minor;
@@ -184,9 +205,10 @@ rec {
       serverId = name;
       serverDesc = pack.description or name;
       serverAddress = hostname + ":" + toString pack.port;
-      minecraftVersion = pack.forge.major;
-      forgeVersion = "${pack.forge.major}-${pack.forge.minor}";
-	  forgeMinor = pack.forge.minor;
+      minecraftVersion = pack.minecraftVersion;
+      fabricVersion = if pack ? pack.forge then pack.fabric else null;
+      forgeVersion = if pack ? pack.forge then "${pack.minecraftVersion}-${pack.forge.minor}" else null;
+	    forgeMinor = if pack ? pack.forge then pack.forge.minor else null;
       configs = lib.mapAttrs (name: config: {
         configId = "config-" + name;
         url = packUrlBase + "configs/" + urlencode name + ".zip";
