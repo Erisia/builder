@@ -20,17 +20,17 @@
       "required" = true;
       "default" = true;
       "deps" = [ ];
-      "filename" = "AOBD-2.9.2.jar";
+      "filename" = "aobd-2.9.2-eln.jar";
       "maturity" = "release";
-      "encoded" = "AOBD-2.9.2.jar";
+      "encoded" = "aobd-2.9.2-eln.jar";
       "page" =
         "https://www.curseforge.com/minecraft/mc-mods/another-one-bites-the-dust";
-      "src" = "https://media.forgecdn.net/files/2305/237/AOBD-2.9.2.jar";
+      "src" = "https://beefyserv2.bloxgaming.com/bloxgate/e31/aobd-2.9.2-eln.jar";
       "type" = "remote";
-      "md5" = "0864caf4280229154ca7f158502d4bee";
+      "md5" = "c692d90879c51eb09ade31acd32861c0";
       "sha256" =
-        "814be9fcddf80d6b35f13b96bbdacc366ca71656300b26968b190215bde62e0c";
-      "size" = 211318;
+        "37274c37ceaf162c7bf21ad1484db1756e862c77489d5d191bd3ed11f2776784";
+      "size" = 208802;
     };
     "antique-atlas" = {
       "title" = "Antique Atlas";
@@ -863,11 +863,11 @@
       "encoded" = "ElectricalAge-jrddunbr-1.18.3.jar";
       "page" = "https://www.curseforge.com/minecraft/mc-mods/electrical-age";
       "src" =
-        "https://github.com/age-series/ElectricalAge/releases/download/1.18.3-stable2/ElectricalAge-jrddunbr-1.18.3.jar";
+        "https://beefyserv2.bloxgaming.com/bloxgate/e31/ElectricalAge-jrddunbr-1.18.3.jar";
       "type" = "remote";
-      "md5" = "88d4bae690716134566516ccfae11608";
-      "sha256" = "1s64ldsggd6448sfk6m0g2wjiqyrvvgazqkw3609xqk4l5244d5b";
-      "size" = 11202343;
+      "md5" = "353a1a642a3a99b84f8c8f0cb6eb3d43";
+      "sha256" = "e156650a1ff5eae75d0dceec8e770b1555bb773ae7ef0b727c2a114dbe5ada5d";
+      "size" = 11243852;
     };
     "electricraft" = {
       "title" = "ElectriCraft";
