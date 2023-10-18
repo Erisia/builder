@@ -576,6 +576,9 @@ nodes:
         source: modrinth
       - name: farmers-delight-fabric
         source: curse
+      - name: farmers-delight-bytecode-patch
+        source: url
+        location: https://beefyserv2.bloxgaming.com/bloxgate/farmers-delight-fabric-mc1.19-1.19.2-1.3.10.1-bytecode-patch.jar
       - name: slice-and-dice
         source: modrinth
       - name: create-deco-fabric
