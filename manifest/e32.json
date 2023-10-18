@@ -1755,6 +1755,19 @@
     "sha256": "04f29543db58f1066b4e06d534ec27c67d0d73090be1dd3442f9d85cb58eb8d8"
   },
   {
+    "name": "farmers-delight-bytecode-patch",
+    "title": "farmers-delight-bytecode-patch",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "farmers-delight-fabric-mc1.19-1.19.2-1.3.10.1-bytecode-patch.jar",
+    "encoded": "farmers-delight-fabric-mc1.19-1.19.2-1.3.10.1-bytecode-patch.jar",
+    "src": "https://beefyserv2.bloxgaming.com/bloxgate/farmers-delight-fabric-mc1.19-1.19.2-1.3.10.1-bytecode-patch.jar",
+    "size": 2575087,
+    "md5": "551d184b8159af34d89192550f5d8cd3",
+    "sha256": "ee3ef27946d2182b41b3670eeff54020cd6be513683ead4196c5c8ac3c697c4c"
+  },
+  {
     "name": "slice-and-dice",
     "title": "Create Slice & Dice",
     "side": "both",
