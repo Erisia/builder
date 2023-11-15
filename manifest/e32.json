@@ -1552,12 +1552,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "spectrum-1.7.0-deeper-down-alpha22.jar",
-    "encoded": "spectrum-1.7.0-deeper-down-alpha22.jar",
-    "src": "https://cdn.modrinth.com/data/3rc31Hgo/versions/P89w5FO0/spectrum-1.7.0-deeper-down-alpha22.jar",
-    "size": 52302238,
-    "md5": "ef40b019c77d69b630e5b151a00c75bf",
-    "sha256": "babbb623abef4c0a00bcf5e2301ba6938b4c988e8a5791cec777edf0e57cb248"
+    "filename": "spectrum-1.7.0-deeper-down-rc1.jar",
+    "encoded": "spectrum-1.7.0-deeper-down-rc1.jar",
+    "src": "https://cdn.modrinth.com/data/3rc31Hgo/versions/bzruOhRw/spectrum-1.7.0-deeper-down-rc1.jar",
+    "size": 52280541,
+    "md5": "7ed96f26611b6cf6453a48d66a2a139b",
+    "sha256": "e58c8300729aaa30536a0ff10bcab3d006435fa81c30ea7e223a5b67161610aa"
   },
   {
     "name": "spirit-walker",
