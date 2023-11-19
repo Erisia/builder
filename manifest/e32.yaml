@@ -4,6 +4,9 @@ config:
 nodes:
   - id: modlist
     value:
+      - name: erisia-datapack
+        source: url
+        location: https://github.com/Erisia/erisia-datapack/releases/download/v0.0.1/erisia-datapack.jar
       - name: dcintegration
         source: modrinth
         side: server
