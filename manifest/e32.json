@@ -1,5 +1,18 @@
 [
   {
+    "name": "erisia-datapack",
+    "title": "erisia-datapack",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "erisia-datapack.jar",
+    "encoded": "erisia-datapack.jar",
+    "src": "https://github.com/Erisia/erisia-datapack/releases/download/v0.0.1/erisia-datapack.jar",
+    "size": 1171,
+    "md5": "a143fa69d2c14525cfce560ed5a1d5dc",
+    "sha256": "d4c95871e48e3a670d06aa759867ca3fe2ab04939d549c3ddf4068844b079af8"
+  },
+  {
     "name": "dcintegration",
     "title": "Discord Integration",
     "side": "server",
@@ -1032,12 +1045,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "hexgloop-1.19.2-0.0.4-fabric.jar",
-    "encoded": "hexgloop-1.19.2-0.0.4-fabric.jar",
-    "src": "https://cdn.modrinth.com/data/ryfyOhoP/versions/V4MD9QIm/hexgloop-1.19.2-0.0.4-fabric.jar",
-    "size": 20052712,
-    "md5": "5a9ed3cd67c99cec67f12735ff967af4",
-    "sha256": "2b3d9e941e497fc5c52bcbfcb50fb72376324675f3e468b4c657a2b11ee01dff"
+    "filename": "hexgloop-1.19.2-0.1.0-fabric.jar",
+    "encoded": "hexgloop-1.19.2-0.1.0-fabric.jar",
+    "src": "https://cdn.modrinth.com/data/ryfyOhoP/versions/YKqZB4wU/hexgloop-1.19.2-0.1.0-fabric.jar",
+    "size": 20477831,
+    "md5": "d56bf9753fab196be2f7add68f1c22bc",
+    "sha256": "563e63a754ab4c2b221ef489fffd1e4c5ce337e98cd582c5ab470a87709737cf"
   },
   {
     "name": "idwtialsimmoedm",
@@ -1786,12 +1799,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "Terralith_1.19.3_v2.3.11.jar",
-    "encoded": "Terralith_1.19.3_v2.3.11.jar",
-    "src": "https://cdn.modrinth.com/data/8oi3bsk5/versions/UJtMNPNx/Terralith_1.19.3_v2.3.11.jar",
-    "size": 2986952,
-    "md5": "f33c10ff5c566bd3e5d8e9b49c0e64e0",
-    "sha256": "0f732b030811dd2fedaef977aab2fe53b386fc7125544841c9bb0d7db780d7e3"
+    "filename": "Terralith_1.19.3_v2.3.12.jar",
+    "encoded": "Terralith_1.19.3_v2.3.12.jar",
+    "src": "https://cdn.modrinth.com/data/8oi3bsk5/versions/FOe2l0tx/Terralith_1.19.3_v2.3.12.jar",
+    "size": 2990344,
+    "md5": "874142f5a20f0e6ea8fc1d406f4ee58c",
+    "sha256": "4f74497c92b224a12be231b32c50e55db41e6051ebba5d87ce63aad78204b663"
   },
   {
     "name": "connectivity",
@@ -1838,12 +1851,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "mediaworks-fabric-1.19.2-1.0.3.jar",
-    "encoded": "mediaworks-fabric-1.19.2-1.0.3.jar",
-    "src": "https://cdn.modrinth.com/data/2kZJcMa9/versions/NOE1GSRY/mediaworks-fabric-1.19.2-1.0.3.jar",
-    "size": 616447,
-    "md5": "88384f699317cf0efc5055d67c7c03a6",
-    "sha256": "8622107e1b93ee4bb60352306d05698b1de5e19e327c3fd08a4017bd264342e3"
+    "filename": "mediaworks-fabric-1.19.2-1.0.4.jar",
+    "encoded": "mediaworks-fabric-1.19.2-1.0.4.jar",
+    "src": "https://cdn.modrinth.com/data/2kZJcMa9/versions/DtwyjCrg/mediaworks-fabric-1.19.2-1.0.4.jar",
+    "size": 623363,
+    "md5": "2d27f38d10d50600848a6b5c6205456f",
+    "sha256": "81d51390f3980e6a352c838deda992c20652aefb41df4b0b1c68ef5c63599129"
   },
   {
     "name": "spark",
