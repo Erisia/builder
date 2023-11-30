@@ -1045,12 +1045,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "hexgloop-1.19.2-0.1.0-fabric.jar",
-    "encoded": "hexgloop-1.19.2-0.1.0-fabric.jar",
-    "src": "https://cdn.modrinth.com/data/ryfyOhoP/versions/YKqZB4wU/hexgloop-1.19.2-0.1.0-fabric.jar",
-    "size": 20477831,
-    "md5": "d56bf9753fab196be2f7add68f1c22bc",
-    "sha256": "563e63a754ab4c2b221ef489fffd1e4c5ce337e98cd582c5ab470a87709737cf"
+    "filename": "hexgloop-1.19.2-0.1.1-fabric.jar",
+    "encoded": "hexgloop-1.19.2-0.1.1-fabric.jar",
+    "src": "https://cdn.modrinth.com/data/ryfyOhoP/versions/BkYDC1pd/hexgloop-1.19.2-0.1.1-fabric.jar",
+    "size": 20482289,
+    "md5": "2d9334d8c0504896046a5fc7f5636877",
+    "sha256": "bd30e0b581f2a15d95ff158ea543cde59c7fb242fb922e0ef039ce118f427b89"
   },
   {
     "name": "idwtialsimmoedm",
@@ -1565,12 +1565,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "spectrum-1.7.0-deeper-down-rc1.jar",
-    "encoded": "spectrum-1.7.0-deeper-down-rc1.jar",
-    "src": "https://cdn.modrinth.com/data/3rc31Hgo/versions/bzruOhRw/spectrum-1.7.0-deeper-down-rc1.jar",
-    "size": 52280541,
-    "md5": "7ed96f26611b6cf6453a48d66a2a139b",
-    "sha256": "e58c8300729aaa30536a0ff10bcab3d006435fa81c30ea7e223a5b67161610aa"
+    "filename": "spectrum-1.7.0-deeper-down.jar",
+    "encoded": "spectrum-1.7.0-deeper-down.jar",
+    "src": "https://cdn.modrinth.com/data/3rc31Hgo/versions/5O9OsRUh/spectrum-1.7.0-deeper-down.jar",
+    "size": 52278526,
+    "md5": "44786e7e371fa20f89cf20a6cc24e103",
+    "sha256": "1b49dd45a600ff1bab09fe1b5a12a1c725a5c03f644841cd703dfeab826c068f"
   },
   {
     "name": "spirit-walker",

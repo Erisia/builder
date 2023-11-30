@@ -510,7 +510,7 @@ nodes:
       - name: spectrum
         source: modrinth
         id: 3rc31Hgo
-        file_id: bzruOhRw
+        file_id: 5O9OsRUh
       - name: spirit-walker
         source: modrinth
         id: zbX4s3vj
