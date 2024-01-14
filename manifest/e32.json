@@ -2000,5 +2000,18 @@
     "size": 10153650,
     "md5": "98bb0fdfa7d5b18738e07cf63693eb65",
     "sha256": "c0af59a02ffb79e091c3de2a62217aa25fd0b8dbeed2a3cc536c6982620f41db"
+  },
+  {
+    "name": "kubejs-create",
+    "title": "KubeJS Create",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "kubejs-create-fabric-1902.2.4-build.37.jar",
+    "encoded": "kubejs-create-fabric-1902.2.4-build.37.jar",
+    "src": "https://cdn.modrinth.com/data/T38eAZQC/versions/13yE1QX6/kubejs-create-fabric-1902.2.4-build.37.jar",
+    "size": 30971,
+    "md5": "6fbeaec44fc4ef10e2260504917bc5b4",
+    "sha256": "1cb1a8638b7b783f8ab91ceeeaae6685cf85135c422df29eef173895be10488c"
   }
 ]

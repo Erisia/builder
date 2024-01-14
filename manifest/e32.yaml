@@ -623,6 +623,8 @@ nodes:
         source: modrinth
       - name: ae2
         source: modrinth
+      - name: kubejs-create
+        source: modrinth
   - id: resolver
     kind: ModResolver
     input:
