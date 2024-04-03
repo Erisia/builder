@@ -6,24 +6,23 @@ with callPackage ./lib/lib.nix {};
 rec {
 
   packs = {
-    e32 = buildPack e32;
+    e33 = buildPack e33;
   };
-
-  e32 = {
-    name = "E32";
-    tmuxName = "e32";
-    description = "E32: Coloni Catan";
+  
+  e33 = {
+    name = "E33"
+	tmuxName = "e33"
+	description = "E33: Indeterminatum";
     ram = "18G";
     port = 25565;
     prometheusPort = 1224;
-    minecraft = "1.19.2";
-    fabric = {
-      loader = "0.14.22";
-      installer = "0.11.2";
-      yarnBuild = "build.28";
+    minecraft = "1.20.1";
+    forge = {
+      major = "1.20.1";
+	  minor = "47.2.21";
     };
     extraDirs = [
-      ./base/e32
+      ./base/e33
     ];
     extraServerDirs = [
       ./base/server
@@ -31,8 +30,8 @@ rec {
     extraClientDirs = [
       ./base/client
     ];
-    manifest = ./manifest/e32.json;
-  };
+    manifest = ./manifest/e33.json;
+  }
 
   ServerPack = buildServerPack rec {
     inherit packs;
