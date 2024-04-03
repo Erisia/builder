@@ -12,7 +12,7 @@ rec {
   e33 = {
     name = "E33"
 	tmuxName = "e33"
-	description = "E33: Indeterminatum";
+	description = "E33: Pars Una";
     ram = "18G";
     port = 25565;
     prometheusPort = 1224;

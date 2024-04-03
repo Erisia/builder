@@ -4119,5 +4119,44 @@
     "size": 7138304,
     "md5": "852fdc318c2b9b5e0c1904c8929577ad",
     "sha256": "7178c411ada61d5598f766acd49ec76bc64afb00f8a8adf5dc8250bb3e3d2502"
+  },
+  {
+    "name": "survival-island",
+    "title": "Survival island",
+    "side": "server",
+    "required": true,
+    "default": true,
+    "filename": "survivalisland-0.2.3.jar",
+    "encoded": "survivalisland-0.2.3.jar",
+    "src": "https://edge.forgecdn.net/files/4587/177/survivalisland-0.2.3.jar",
+    "size": 63880,
+    "md5": "b04210509d296190a27209abcc426a71",
+    "sha256": "392e397483fbe6a08370f851f7966d56bb9b4e2993f35e28c66985039fac80f3"
+  },
+  {
+    "name": "little-logistics",
+    "title": "Little Logistics",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "littlelogistics-mc1.20.1-v1.20.1.2.jar",
+    "encoded": "littlelogistics-mc1.20.1-v1.20.1.2.jar",
+    "src": "https://edge.forgecdn.net/files/4799/459/littlelogistics-mc1.20.1-v1.20.1.2.jar",
+    "size": 834991,
+    "md5": "4020affb7adaa4554979889291fe3e72",
+    "sha256": "61372feafafb2500c8a19a5678422b7bb913d6fa876a05836620916196ecdf63"
+  },
+  {
+    "name": "little-contraptions",
+    "title": "Little Contraptions",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "littlecontraptions-forge-1.20.1.2.jar",
+    "encoded": "littlecontraptions-forge-1.20.1.2.jar",
+    "src": "https://edge.forgecdn.net/files/4799/458/littlecontraptions-forge-1.20.1.2.jar",
+    "size": 110188,
+    "md5": "0f51df94073655a2651d7e5e1966a4d7",
+    "sha256": "d73ec6a9d281553e57da3c58c57f32f1320df0484c196e5d0282d3717cac1c20"
   }
 ]

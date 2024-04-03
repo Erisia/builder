@@ -1615,6 +1615,22 @@ nodes:
         name: journeymap
         required: true
         source: curse
+      - name: survival-island
+        source: curse
+        id: 364426
+        required: true
+        side: server
+        file_id: 4587177
+      - name: little-logistics
+        source: curse
+        required: true
+        id: 570050
+        file_id: 4799459
+      - name: little-contraptions
+        source: curse
+        required: true
+        id: 594563
+        file_id: 4799458
   - id: resolver
     kind: ModResolver
     input:
