@@ -12,7 +12,9 @@ nodes:
       - file_id: 4763645
         id: 448233
         name: entityculling
-        required: true
+        required: false
+        default: true
+        side: client
         source: curse
       - file_id: 5171755
         id: 575698
@@ -153,6 +155,7 @@ nodes:
         id: 358191
         name: packmenu
         required: true
+        side: client
         source: curse
       - file_id: 4859169
         id: 59613
@@ -183,6 +186,7 @@ nodes:
         id: 318012
         name: defaultsettings
         required: true
+        side: client
         source: curse
       - file_id: 4684054
         id: 399558
@@ -507,7 +511,9 @@ nodes:
       - file_id: 4870168
         id: 495693
         name: farsight
-        required: true
+        required: false
+        default: false
+        side: client
         source: curse
       - file_id: 4932157
         id: 889915
@@ -542,7 +548,9 @@ nodes:
       - file_id: 5108615
         id: 581495
         name: oculus
-        required: true
+        required: false
+        default: true
+        side: client
         source: curse
       - file_id: 4925840
         id: 583345
@@ -847,7 +855,9 @@ nodes:
       - file_id: 5083995
         id: 910506
         name: textrues-embeddium-options
-        required: true
+        required: false
+        default: true
+        side: client
         source: curse
       - file_id: 4578262
         id: 233019
@@ -912,7 +922,9 @@ nodes:
       - file_id: 5090254
         id: 558905
         name: magnesium-extras
-        required: true
+        required: false
+        default: true
+        side: client
         source: curse
       - file_id: 4616683
         id: 609977
@@ -967,7 +979,9 @@ nodes:
       - file_id: 4626780
         id: 261251
         name: bad-wither-no-cookie-reloaded
-        required: true
+        required: false
+        default: true
+        side: client
         source: curse
       - file_id: 4987207
         id: 247007
@@ -1132,7 +1146,9 @@ nodes:
       - file_id: 4811084
         id: 854213
         name: colorful-hearts
-        required: true
+        required: false
+        default: true
+        side: client
         source: curse
       - file_id: 4979403
         id: 511733
@@ -1202,7 +1218,9 @@ nodes:
       - file_id: 4645933
         id: 574123
         name: dark-mode-everywhere
-        required: true
+        required: false
+        default: true
+        side: client
         source: curse
       - file_id: 4591907
         id: 510656
@@ -1267,7 +1285,9 @@ nodes:
       - file_id: 4618813
         id: 231275
         name: ding
-        required: true
+        required: false
+        default: true
+        side: client
         source: curse
       - file_id: 4970705
         id: 626708
@@ -1477,7 +1497,9 @@ nodes:
       - file_id: 5200949
         id: 676136
         name: model-gap-fix
-        required: true
+        required: false
+        default: true
+        side: client
         source: curse
       - file_id: 4617304
         id: 399757
@@ -1512,7 +1534,9 @@ nodes:
       - file_id: 5213196
         id: 908741
         name: embeddium
-        required: true
+        required: false
+        default: true
+        side: client
         source: curse
       - file_id: 5223785
         id: 377897
@@ -1532,7 +1556,9 @@ nodes:
       - file_id: 4680832
         id: 635427
         name: yeetusexperimentus
-        required: true
+        required: false
+        default: false
+        side: client
         source: curse
       - file_id: 5044862
         id: 957920
