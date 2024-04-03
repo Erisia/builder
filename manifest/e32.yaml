@@ -4,6 +4,9 @@ config:
 nodes:
   - id: modlist
     value:
+      - name: erisia-datapack
+        source: url
+        location: https://github.com/Erisia/erisia-datapack/releases/download/v0.0.1/erisia-datapack.jar
       - name: dcintegration
         source: modrinth
         side: server
@@ -67,10 +70,6 @@ nodes:
         source: modrinth
         id: QwxR6Gcd
         file_id: UvBWAMZL
-      - name: extended-drawers
-        source: modrinth
-        id: AhtxbnpG
-        file_id: Yu7dw5fP
       - name: fastload
         source: modrinth
         id: kCpssoSb
@@ -222,10 +221,6 @@ nodes:
         source: modrinth
         id: LUVcqDu1
         file_id: RGpo42dp
-      - name: cave-dweller-fabric
-        source: modrinth
-        id: cChd25Tw
-        file_id: jQ0cjlP5
       - name: chatpatches
         source: modrinth
         id: MOqt4Z5n
@@ -323,9 +318,8 @@ nodes:
         id: aBVJ6Q36
         file_id: NgdFPhMz
       - name: hex-casting
-        source: modrinth
-        id: nTW3yKrm
-        file_id: IbghSN93
+        source: url
+        location: https://github.com/HexxyCraft/HexMod/releases/download/0.10.3d/hexcasting-fabric-1.19.2-0.10.3d.jar
       - name: hexkinetics
         source: modrinth
         id: 8FVr3ohp
@@ -338,6 +332,10 @@ nodes:
         source: modrinth
         id: pim6pG9O
         file_id: vRGtikRV
+      - name: wnboi
+        source: modrinth
+      - name: hexgloop
+        source: modrinth
       - name: idwtialsimmoedm
         source: modrinth
         id: ad89WlWh
@@ -350,10 +348,6 @@ nodes:
         source: modrinth
         id: jkskOO9i
         file_id: yR3VudNR
-      - name: improved-signs
-        source: modrinth
-        id: tEcCNQe7
-        file_id: eXGUTNJu
       - name: indium
         source: modrinth
         id: Orvt0mRa
@@ -516,7 +510,7 @@ nodes:
       - name: spectrum
         source: modrinth
         id: 3rc31Hgo
-        file_id: L5DFvhhu
+        file_id: E2ivC8mh
       - name: spirit-walker
         source: modrinth
         id: zbX4s3vj
@@ -571,10 +565,6 @@ nodes:
         id: mk6pNnsq
         file_id: cgSuov1n
         side: client
-      - name: xxl-packets
-        source: modrinth
-        id: SeCuopwJ
-        file_id: Y9sm9hZa
       - name: yosbr
         source: modrinth
         id: WwbubTsV
@@ -588,6 +578,50 @@ nodes:
       - name: create-deco-fabric
         source: curse
       - name: terralith
+        source: modrinth
+      - name: connectivity
+        source: curse
+      - name: cupboard
+        source: curse
+      - name: lighty
+        source: modrinth
+        file_id: V8vjjQIU
+        side: client
+        required: false
+        default: true
+      - name: mediaworks
+        source: modrinth
+      - name: spark
+        source: modrinth
+        file_id: XhFbpH8f
+        side: both
+        required: false
+      - name: lootr
+        source: modrinth
+        file_id: 94g9xhhk
+      - name: youre-in-grave-danger
+        source: curse
+      - name: death-backup
+        source: modrinth
+        file_id: Phjbsjs2
+      - name: collective # Dependency for death-backup
+        source: modrinth
+        file_id: MTb34BGn
+      - name: ftb-essentials-forge
+        source: curse
+        file_id: 4778939
+        id: 410811
+      - name: ftb-ranks-fabric
+        source: curse
+        file_id: 4781636
+      - name: ftb-library-fabric
+        source: curse
+        file_id: 4661833
+      - name: carpet
+        source: modrinth
+      - name: observable
+        source: modrinth
+      - name: ae2
         source: modrinth
   - id: resolver
     kind: ModResolver

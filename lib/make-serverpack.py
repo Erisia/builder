@@ -251,26 +251,24 @@ def CreatePacksDir(packs_json: dict[str, dict], packs_path: str) -> None:
     
 
 def CreateMCUpdaterBootstrap(base_updater: str, url_base: str, output_path: str):
-    buffer = BytesIO()
-    with open(base_updater, 'rb') as f:
-        buffer.write(f.read())
-    buffer.seek(0)
+    files = {}
+    with zipfile.ZipFile(base_updater, 'r') as z:
+        for info in z.infolist():
+            files[info.filename] = z.read(info.filename)
 
     # Add config.properties
     properties = f'''\
-        bootstrapURL = https://files.mcupdater.com/Bootstrap.xml
-        distribution = Release
-        defaultPack = {url_base}ServerPack.xml
-        customPath =
-        passthroughArgs = -defaultMem 6G
+bootstrapURL = https://files.mcupdater.com/Bootstrap.xml
+distribution = JavaFX-Release
+defaultPack = {url_base}ServerPack.xml
+customPath =
+passthroughArgs = -defaultMem 6G
     '''
-    with zipfile.ZipFile(buffer, 'a') as z:
-        z.writestr('config.properties', properties)
-    
-    # Write to file
-    buffer.seek(0)
-    with open(os.path.join(output_path, 'MCUpdater-Bootstrap.jar'), 'wb') as f:
-        f.write(buffer.read())
+    files['config.properties'] = properties.encode('utf-8')
+
+    with zipfile.ZipFile(f'{output_path}/MCUpdater-Bootstrap.jar', 'x') as z:
+        for filename, data in files.items():
+            z.writestr(filename, data)
 
 
 if __name__ == '__main__':

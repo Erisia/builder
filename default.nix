@@ -13,7 +13,7 @@ rec {
     name = "E32";
     tmuxName = "e32";
     description = "E32: Coloni Catan";
-    ram = "8G";
+    ram = "18G";
     port = 25565;
     prometheusPort = 1224;
     minecraft = "1.19.2";

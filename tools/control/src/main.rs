@@ -24,6 +24,9 @@ enum Command {
     Stop {
         #[structopt(short, default_value = "180")]
         time: u64,
+
+        #[structopt(name = "lazy", help = "Only restart if server has been up this many hours", long)]
+        lazy: Option<u64>,
     },
     Check {},
 }
@@ -116,7 +119,18 @@ impl Server {
     }
 
     // Stop command
-    pub async fn stop(&mut self, grace_period: Duration) -> Result<()> {
+    pub async fn stop(&mut self, grace_period: Duration, lazy: Option<Duration>) -> Result<()> {
+        // Check if we should stop at all.
+        if let Some(lazy) = lazy {
+            // There's no uptime counter, so we have to use the tick counter.
+            // Let's hope it's accurate enough.
+            let tick_count = self.get("minecraft_tick_duration_seconds_count").await?;
+            let uptime = tick_count / 20.0;
+            if uptime < lazy.as_secs_f64() {
+                println!("Server has only been up for {} seconds, not stopping", uptime);
+                return Ok(());
+            }
+        }
         // Build a queue of restart warnings to be emitted in the future.
         let start = Instant::now();
         let second = Duration::from_secs(1);
@@ -203,7 +217,9 @@ async fn main() -> Result<()> {
     )?;
 
     match opts.cmd {
-        Command::Stop { time } => server.stop(Duration::from_secs(time)).await,
+        Command::Stop { time, lazy } => server.stop(Duration::from_secs(time), lazy.map(
+            |lazy| Duration::from_secs(lazy * 3600)
+        )).await,
         Command::Check {} => server.check(),
     }
 }

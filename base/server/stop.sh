@@ -2,4 +2,4 @@
 
 cd "$(dirname "$(readlink -f "$0")")"
 
-exec ./control.sh stop "$@"
+exec ./control.sh stop --lazy 6 "$@"
