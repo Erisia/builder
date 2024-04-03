@@ -1,0 +1,1602 @@
+config:
+  minecraft_version: '1.20.1'
+  modloader: 'forge'
+nodes:
+  - id: modlist
+    value:
+      - file_id: 5152057
+        id: 312353
+        name: artifacts
+        required: true
+        source: curse
+      - file_id: 4763645
+        id: 448233
+        name: entityculling
+        required: true
+        source: curse
+      - file_id: 5171755
+        id: 575698
+        name: ars-creo
+        required: true
+        source: curse
+      - file_id: 5101899
+        id: 400058
+        name: mythicbotany
+        required: true
+        source: curse
+      - file_id: 4731559
+        id: 431430
+        name: flickerfix
+        required: true
+        source: curse
+      - file_id: 5103098
+        id: 633483
+        name: powah-rearchitected
+        required: true
+        source: curse
+      - file_id: 5170315
+        id: 326652
+        name: cupboard
+        required: true
+        source: curse
+      - file_id: 4862132
+        id: 307788
+        name: rs-requestify
+        required: true
+        source: curse
+      - file_id: 5201144
+        id: 499980
+        name: selene
+        required: true
+        source: curse
+      - file_id: 4853031
+        id: 597522
+        name: eccentric-tome
+        required: true
+        source: curse
+      - file_id: 5225775
+        id: 256247
+        name: mystical-agradditions
+        required: true
+        source: curse
+      - file_id: 4911084
+        id: 280510
+        name: attributefix
+        required: true
+        source: curse
+      - file_id: 5140817
+        id: 655608
+        name: create-jetpack
+        required: true
+        source: curse
+      - file_id: 4834332
+        id: 242195
+        name: dark-utilities
+        required: true
+        source: curse
+      - file_id: 5141447
+        id: 231484
+        name: cooking-for-blockheads
+        required: true
+        source: curse
+      - file_id: 5135354
+        id: 525447
+        name: journeymap-integration
+        required: true
+        source: curse
+      - file_id: 4835191
+        id: 328085
+        name: create
+        required: true
+        source: curse
+      - file_id: 5103217
+        id: 301034
+        name: entangled
+        required: true
+        source: curse
+      - file_id: 5224093
+        id: 982512
+        name: ae2-insert-export-card
+        required: true
+        source: curse
+      - file_id: 4839781
+        id: 536160
+        name: universal-grid
+        required: true
+        source: curse
+      - file_id: 4711435
+        id: 475117
+        name: fastsuite
+        required: true
+        source: curse
+      - file_id: 4861833
+        id: 856996
+        name: cristel-lib
+        required: true
+        source: curse
+      - file_id: 5224196
+        id: 892005
+        name: ex-pattern-provider
+        required: true
+        source: curse
+      - file_id: 4765486
+        id: 333396
+        name: angel-ring
+        required: true
+        source: curse
+      - file_id: 5072628
+        id: 335673
+        name: dank-storage
+        required: true
+        source: curse
+      - file_id: 4585754
+        id: 242998
+        name: silent-lib
+        required: true
+        source: curse
+      - file_id: 4625522
+        id: 469301
+        name: villager-tools
+        required: true
+        source: curse
+      - file_id: 5077151
+        id: 391382
+        name: more-overlays-updated
+        required: true
+        source: curse
+      - file_id: 5028413
+        id: 410295
+        name: konkrete
+        required: true
+        source: curse
+      - file_id: 4711349
+        id: 358191
+        name: packmenu
+        required: true
+        source: curse
+      - file_id: 4859169
+        id: 59613
+        name: endertanks
+        required: true
+        source: curse
+      - file_id: 4573946
+        id: 542110
+        name: jumpy-boats
+        required: true
+        source: curse
+      - file_id: 5028746
+        id: 331983
+        name: corail-woodcutter
+        required: true
+        source: curse
+      - file_id: 4711316
+        id: 271740
+        name: toast-control
+        required: true
+        source: curse
+      - file_id: 5140912
+        id: 531761
+        name: balm
+        required: true
+        source: curse
+      - file_id: 5141086
+        id: 318012
+        name: defaultsettings
+        required: true
+        source: curse
+      - file_id: 4684054
+        id: 399558
+        name: construction-wand
+        required: true
+        source: curse
+      - file_id: 4940340
+        id: 247921
+        name: zerocore
+        required: true
+        source: curse
+      - file_id: 5165696
+        id: 441647
+        name: framedblocks
+        required: true
+        source: curse
+      - file_id: 4859168
+        id: 363535
+        name: enderchests
+        required: true
+        source: curse
+      - file_id: 5030334
+        id: 602171
+        name: harvest-with-ease
+        required: true
+        source: curse
+      - file_id: 4970687
+        id: 349447
+        name: ensorcellation
+        required: true
+        source: curse
+      - file_id: 5125668
+        id: 268566
+        name: mekanism-generators
+        required: true
+        source: curse
+      - file_id: 5206732
+        id: 855414
+        name: irons-spells-n-spellbooks
+        required: true
+        source: curse
+      - file_id: 4722415
+        id: 356801
+        name: potionsmaster
+        required: true
+        source: curse
+      - file_id: 5190743
+        id: 633823
+        name: almost-unified
+        required: true
+        source: curse
+      - file_id: 5051242
+        id: 398521
+        name: farmers-delight
+        required: true
+        source: curse
+      - file_id: 4587024
+        id: 417645
+        name: just-enough-professions-jep
+        required: true
+        source: curse
+      - file_id: 4732484
+        id: 270183
+        name: exchangers
+        required: true
+        source: curse
+      - file_id: 5074767
+        id: 626839
+        name: laserio
+        required: true
+        source: curse
+      - file_id: 4863339
+        id: 426386
+        name: shrink_
+        required: true
+        source: curse
+      - file_id: 4836196
+        id: 688231
+        name: create-steam-n-rails
+        required: true
+        source: curse
+      - file_id: 5004952
+        id: 350006
+        name: rftools-storage
+        required: true
+        source: curse
+      - file_id: 5020441
+        id: 714059
+        name: resourceful-config
+        required: true
+        source: curse
+      - file_id: 5206769
+        id: 243121
+        name: quark
+        required: true
+        source: curse
+      - file_id: 4600191
+        id: 237307
+        name: cosmetic-armor-reworked
+        required: true
+        source: curse
+      - file_id: 5225308
+        id: 361026
+        name: occultism
+        required: true
+        source: curse
+      - file_id: 5175956
+        id: 309927
+        name: curios
+        required: true
+        source: curse
+      - file_id: 4747680
+        id: 233105
+        name: mcjtylib
+        required: true
+        source: curse
+      - file_id: 5225873
+        id: 493962
+        name: ae-additions-extra-cells-2-fork
+        required: true
+        source: curse
+      - file_id: 4573148
+        id: 659192
+        name: jcplugin
+        required: true
+        source: curse
+      - file_id: 5068218
+        id: 563928
+        name: terrablender
+        required: true
+        source: curse
+      - file_id: 4864220
+        id: 351748
+        name: mining-gadgets
+        required: true
+        source: curse
+      - file_id: 4749194
+        id: 890755
+        name: just-enough-archaeology
+        required: true
+        source: curse
+      - file_id: 5086735
+        id: 915308
+        name: clean-swing-through-grass
+        required: true
+        source: curse
+      - file_id: 4781802
+        id: 356646
+        name: gunpowderlib
+        required: true
+        source: curse
+      - file_id: 4925609
+        id: 295910
+        name: integrated-terminals
+        required: true
+        source: curse
+      - file_id: 5143956
+        id: 331936
+        name: citadel
+        required: true
+        source: curse
+      - file_id: 5084135
+        id: 228525
+        name: bookshelf
+        required: true
+        source: curse
+      - file_id: 4738952
+        id: 361579
+        name: spark
+        required: true
+        source: curse
+      - file_id: 5188310
+        id: 417802
+        name: gateways-to-eternity
+        required: true
+        source: curse
+      - file_id: 5022065
+        id: 573674
+        name: thermal_extra
+        required: true
+        source: curse
+      - file_id: 5098182
+        id: 283644
+        name: placebo
+        required: true
+        source: curse
+      - file_id: 4794200
+        id: 394140
+        name: simple-magnets
+        required: true
+        source: curse
+      - file_id: 5161049
+        id: 435405
+        name: hyperbox
+        required: true
+        source: curse
+      - file_id: 4990314
+        id: 272335
+        name: cucumber
+        required: true
+        source: curse
+      - file_id: 4637375
+        id: 299045
+        name: mystical-agriculture-tiered-crystals
+        required: true
+        source: curse
+      - file_id: 5225734
+        id: 280441
+        name: mystical-customization
+        required: true
+        source: curse
+      - file_id: 5082975
+        id: 74610
+        name: evilcraft
+        required: true
+        source: curse
+      - file_id: 4902499
+        id: 943086
+        name: refined-polymorphism
+        required: true
+        source: curse
+      - file_id: 5190727
+        id: 342543
+        name: mahou-tsukai
+        required: true
+        source: curse
+      - file_id: 4620069
+        id: 230976
+        name: fast-leaf-decay
+        required: true
+        source: curse
+      - file_id: 5002307
+        id: 225643
+        name: botania
+        required: true
+        source: curse
+      - file_id: 4651164
+        id: 248020
+        name: flux-networks
+        required: true
+        source: curse
+      - file_id: 5206384
+        id: 618298
+        name: sophisticated-core
+        required: true
+        source: curse
+      - file_id: 4987228
+        id: 287357
+        name: integrated-crafting
+        required: true
+        source: curse
+      - file_id: 5125096
+        id: 622112
+        name: mega-cells
+        required: true
+        source: curse
+      - file_id: 5210496
+        id: 314906
+        name: ftb-chunks-forge
+        required: true
+        source: curse
+      - file_id: 4896152
+        id: 410811
+        name: ftb-essentials-forge
+        required: true
+        source: curse
+      - file_id: 5145954
+        id: 945149
+        name: glassential-renewed
+        required: true
+        source: curse
+      - file_id: 4806688
+        id: 238659
+        name: packing-tape
+        required: true
+        source: curse
+      - file_id: 4717497
+        id: 353882
+        name: dimstorage
+        required: true
+        source: curse
+      - file_id: 4944325
+        id: 416294
+        name: rhino
+        required: true
+        source: curse
+      - file_id: 4985146
+        id: 272515
+        name: better-advancements
+        required: true
+        source: curse
+      - file_id: 4772109
+        id: 451682
+        name: no-villager-death-messages
+        required: true
+        source: curse
+      - file_id: 5080957
+        id: 905861
+        name: create-new-age
+        required: true
+        source: curse
+      - file_id: 5153629
+        id: 400514
+        name: easy-villagers
+        required: true
+        source: curse
+      - file_id: 5047814
+        id: 266515
+        name: industrial-foregoing
+        required: true
+        source: curse
+      - file_id: 5101229
+        id: 288885
+        name: fastworkbench
+        required: true
+        source: curse
+      - file_id: 4861934
+        id: 256662
+        name: rebornstorage
+        required: true
+        source: curse
+      - file_id: 4870168
+        id: 495693
+        name: farsight
+        required: true
+        source: curse
+      - file_id: 4932157
+        id: 889915
+        name: ftb-xmod-compat
+        required: true
+        source: curse
+      - file_id: 5190105
+        id: 401955
+        name: ars-nouveau
+        required: true
+        source: curse
+      - file_id: 4971152
+        id: 443900
+        name: pipez
+        required: true
+        source: curse
+      - file_id: 4913943
+        id: 385587
+        name: complementary-unbound
+        required: true
+        source: curse
+      - file_id: 4596807
+        id: 384991
+        name: additional-lights
+        required: true
+        source: curse
+      - file_id: 4714779
+        id: 393149
+        name: runelic
+        required: true
+        source: curse
+      - file_id: 5108615
+        id: 581495
+        name: oculus
+        required: true
+        source: curse
+      - file_id: 4925840
+        id: 583345
+        name: jade-addons
+        required: true
+        source: curse
+      - file_id: 4838266
+        id: 309674
+        name: item-filters
+        required: true
+        source: curse
+      - file_id: 5044937
+        id: 911255
+        name: no-fly-zone
+        required: true
+        source: curse
+      - file_id: 5201363
+        id: 243707
+        name: corail-tombstone
+        required: true
+        source: curse
+      - file_id: 5199286
+        id: 297039
+        name: silent-gear
+        required: true
+        source: curse
+      - file_id: 4973441
+        id: 348521
+        name: cloth-config
+        required: true
+        source: curse
+      - file_id: 4983659
+        id: 351264
+        name: kotlin-for-forge
+        required: true
+        source: curse
+      - file_id: 5210240
+        id: 570073
+        name: resourceful-lib
+        required: true
+        source: curse
+      - file_id: 5077206
+        id: 363363
+        name: extreme-sound-muffler
+        required: true
+        source: curse
+      - file_id: 4970704
+        id: 291737
+        name: thermal-innovation
+        required: true
+        source: curse
+      - file_id: 5085278
+        id: 251389
+        name: integrated-tunnels
+        required: true
+        source: curse
+      - file_id: 5116766
+        id: 635042
+        name: ad-astra
+        required: true
+        source: curse
+      - file_id: 5171872
+        id: 64578
+        name: ender-io
+        required: true
+        source: curse
+      - file_id: 5056687
+        id: 250294
+        name: modular-routers
+        required: true
+        source: curse
+      - file_id: 5167928
+        id: 353928
+        name: botany-pots
+        required: true
+        source: curse
+      - file_id: 4770828
+        id: 248787
+        name: appleskin
+        required: true
+        source: curse
+      - file_id: 4610474
+        id: 634062
+        name: no-chat-reports
+        required: true
+        source: curse
+      - file_id: 5207625
+        id: 412525
+        name: libx
+        required: true
+        source: curse
+      - file_id: 5129294
+        id: 854949
+        name: fusion-connected-textures
+        required: true
+        source: curse
+      - file_id: 4904185
+        id: 610632
+        name: applied-botanics-addon
+        required: true
+        source: curse
+      - file_id: 5189392
+        id: 453746
+        name: tiny-redstone
+        required: true
+        source: curse
+      - file_id: 4997459
+        id: 415438
+        name: croptopia
+        required: true
+        source: curse
+      - file_id: 4939735
+        id: 241160
+        name: netherportalfix
+        required: true
+        source: curse
+      - file_id: 5099752
+        id: 439890
+        name: createaddition
+        required: true
+        source: curse
+      - file_id: 5137938
+        id: 419699
+        name: architectury-api
+        required: true
+        source: curse
+      - file_id: 4586849
+        id: 478559
+        name: measurements
+        required: true
+        source: curse
+      - file_id: 5046069
+        id: 289240
+        name: paragliders
+        required: true
+        source: curse
+      - file_id: 5125669
+        id: 268567
+        name: mekanism-tools
+        required: true
+        source: curse
+      - file_id: 4578649
+        id: 411045
+        name: get-it-together-drops
+        required: true
+        source: curse
+      - file_id: 4677240
+        id: 501590
+        name: additional-lanterns
+        required: true
+        source: curse
+      - file_id: 5209354
+        id: 313970
+        name: apotheosis
+        required: true
+        source: curse
+      - file_id: 5151582
+        id: 968868
+        name: zeta
+        required: true
+        source: curse
+      - file_id: 5067989
+        id: 929559
+        name: utilitarian
+        required: true
+        source: curse
+      - file_id: 4817795
+        id: 254268
+        name: torchmaster
+        required: true
+        source: curse
+      - file_id: 4869749
+        id: 559313
+        name: aeinfinitybooster
+        required: true
+        source: curse
+      - file_id: 5159193
+        id: 316873
+        name: charm-of-undying
+        required: true
+        source: curse
+      - file_id: 5223401
+        id: 463703
+        name: utilitix
+        required: true
+        source: curse
+      - file_id: 4714775
+        id: 396234
+        name: pig-pen-cipher
+        required: true
+        source: curse
+      - file_id: 4779110
+        id: 858542
+        name: searchables
+        required: true
+        source: curse
+      - file_id: 5203597
+        id: 666198
+        name: morejs
+        required: true
+        source: curse
+      - file_id: 5005006
+        id: 386134
+        name: ftb-ultimine-forge
+        required: true
+        source: curse
+      - file_id: 5192381
+        id: 289412
+        name: ftb-quests-forge
+        required: true
+        source: curse
+      - file_id: 4712179
+        id: 394535
+        name: trash-cans
+        required: true
+        source: curse
+      - file_id: 4724762
+        id: 661261
+        name: flib
+        required: true
+        source: curse
+      - file_id: 5217432
+        id: 688768
+        name: create-enchantment-industry
+        required: true
+        source: curse
+      - file_id: 4810975
+        id: 429235
+        name: ferritecore
+        required: true
+        source: curse
+      - file_id: 5080553
+        id: 232758
+        name: cyclops-core
+        required: true
+        source: curse
+      - file_id: 5074609
+        id: 291936
+        name: findme
+        required: true
+        source: curse
+      - file_id: 4742995
+        id: 431203
+        name: makeup-ultra-fast-shader
+        required: true
+        source: curse
+      - file_id: 4605319
+        id: 449655
+        name: voidtotem
+        required: true
+        source: curse
+      - file_id: 4763056
+        id: 659674
+        name: slice-and-dice
+        required: true
+        source: curse
+      - file_id: 4970700
+        id: 69163
+        name: thermal-expansion
+        required: true
+        source: curse
+      - file_id: 5125665
+        id: 268560
+        name: mekanism
+        required: true
+        source: curse
+      - file_id: 5127097
+        id: 411357
+        name: botany-trees
+        required: true
+        source: curse
+      - file_id: 5222177
+        id: 691049
+        name: generatorgalore
+        required: true
+        source: curse
+      - file_id: 4970697
+        id: 271835
+        name: thermal-cultivation
+        required: true
+        source: curse
+      - file_id: 4741017
+        id: 511040
+        name: durability-tooltip
+        required: true
+        source: curse
+      - file_id: 5176343
+        id: 404468
+        name: ftb-teams-forge
+        required: true
+        source: curse
+      - file_id: 4963590
+        id: 306626
+        name: natures-aura
+        required: true
+        source: curse
+      - file_id: 5086320
+        id: 255902
+        name: wither-skeleton-tweaks
+        required: true
+        source: curse
+      - file_id: 5083995
+        id: 910506
+        name: textrues-embeddium-options
+        required: true
+        source: curse
+      - file_id: 4578262
+        id: 233019
+        name: ai-improvements
+        required: true
+        source: curse
+      - file_id: 5170242
+        id: 552574
+        name: hostile-neural-networks
+        required: true
+        source: curse
+      - file_id: 4579966
+        id: 659090
+        name: fuelgoeshere
+        required: true
+        source: curse
+      - file_id: 5151228
+        id: 287342
+        name: titanium
+        required: true
+        source: curse
+      - file_id: 5187036
+        id: 927064
+        name: all-the-wizard-gear
+        required: true
+        source: curse
+      - file_id: 4715408
+        id: 438332
+        name: supermartijn642s-config-lib
+        required: true
+        source: curse
+      - file_id: 4892369
+        id: 364466
+        name: allthemodium
+        required: true
+        source: curse
+      - file_id: 4807511
+        id: 659011
+        name: deeperdarker
+        required: true
+        source: curse
+      - file_id: 4719290
+        id: 688367
+        name: merequester
+        required: true
+        source: curse
+      - file_id: 5104156
+        id: 454382
+        name: cable-tiers
+        required: true
+        source: curse
+      - file_id: 5120096
+        id: 659897
+        name: iris-flywheel-compat
+        required: true
+        source: curse
+      - file_id: 4670879
+        id: 358700
+        name: more-dragon-eggs
+        required: true
+        source: curse
+      - file_id: 5090254
+        id: 558905
+        name: magnesium-extras
+        required: true
+        source: curse
+      - file_id: 4616683
+        id: 609977
+        name: ae2-things-forge
+        required: true
+        source: curse
+      - file_id: 5156306
+        id: 538392
+        name: modonomicon
+        required: true
+        source: curse
+      - file_id: 4671036
+        id: 446870
+        name: rsinfinitybooster
+        required: true
+        source: curse
+      - file_id: 4717006
+        id: 638508
+        name: edivadlib
+        required: true
+        source: curse
+      - file_id: 5203332
+        id: 790626
+        name: modernfix
+        required: true
+        source: curse
+      - file_id: 5048712
+        id: 561470
+        name: ars-elemental
+        required: true
+        source: curse
+      - file_id: 5224921
+        id: 282837
+        name: additional-enchanted-miner
+        required: true
+        source: curse
+      - file_id: 4978177
+        id: 351491
+        name: extra-disks
+        required: true
+        source: curse
+      - file_id: 5068863
+        id: 276951
+        name: comforts
+        required: true
+        source: curse
+      - file_id: 4616702
+        id: 305840
+        name: absent-by-design
+        required: true
+        source: curse
+      - file_id: 4626780
+        id: 261251
+        name: bad-wither-no-cookie-reloaded
+        required: true
+        source: curse
+      - file_id: 4987207
+        id: 247007
+        name: common-capabilities
+        required: true
+        source: curse
+      - file_id: 4581481
+        id: 308989
+        name: caelus
+        required: true
+        source: curse
+      - file_id: 4626171
+        id: 272302
+        name: refined-storage-addons
+        required: true
+        source: curse
+      - file_id: 5222773
+        id: 714958
+        name: ad-astra-giselle-addon
+        required: true
+        source: curse
+      - file_id: 4614555
+        id: 256717
+        name: clumps
+        required: true
+        source: curse
+      - file_id: 4913944
+        id: 627557
+        name: complementary-reimagined
+        required: true
+        source: curse
+      - file_id: 4842281
+        id: 574300
+        name: applied-mekanistics
+        required: true
+        source: curse
+      - file_id: 4979840
+        id: 222880
+        name: thermal-foundation
+        required: true
+        source: curse
+      - file_id: 4576018
+        id: 656551
+        name: blueflame
+        required: true
+        source: curse
+      - file_id: 4641225
+        id: 561885
+        name: just-zoom-forge
+        required: true
+        source: curse
+      - file_id: 4747688
+        id: 290209
+        name: rftools-power
+        required: true
+        source: curse
+      - file_id: 5225711
+        id: 246640
+        name: mystical-agriculture
+        required: true
+        source: curse
+      - file_id: 5225134
+        id: 412082
+        name: supplementaries
+        required: true
+        source: curse
+      - file_id: 5222033
+        id: 388800
+        name: polymorph
+        required: true
+        source: curse
+      - file_id: 4716086
+        id: 371813
+        name: crash-utilities
+        required: true
+        source: curse
+      - file_id: 5168999
+        id: 410168
+        name: extrastorage
+        required: true
+        source: curse
+      - file_id: 5159498
+        id: 237664
+        name: iron-furnaces
+        required: true
+        source: curse
+      - file_id: 5140152
+        id: 368825
+        name: inventory-essentials
+        required: true
+        source: curse
+      - file_id: 4884039
+        id: 358304
+        name: login-protection
+        required: true
+        source: curse
+      - file_id: 5102258
+        id: 454372
+        name: supermartijn642s-core-lib
+        required: true
+        source: curse
+      - file_id: 5118353
+        id: 704113
+        name: botarium
+        required: true
+        source: curse
+      - file_id: 4781105
+        id: 383182
+        name: xnet-gases
+        required: true
+        source: curse
+      - file_id: 4981397
+        id: 661293
+        name: smartbrainlib
+        required: true
+        source: curse
+      - file_id: 4844585
+        id: 243076
+        name: refined-storage
+        required: true
+        source: curse
+      - file_id: 5131447
+        id: 254241
+        name: mob-grinding-utils
+        required: true
+        source: curse
+      - file_id: 4837768
+        id: 250832
+        name: openblocks-elevator
+        required: true
+        source: curse
+      - file_id: 4744787
+        id: 895919
+        name: time-in-a-bottle-forge
+        required: true
+        source: curse
+      - file_id: 4712189
+        id: 252848
+        name: natures-compass
+        required: true
+        source: curse
+      - file_id: 5224778
+        id: 509276
+        name: dyenamics
+        required: true
+        source: curse
+      - file_id: 5002790
+        id: 395620
+        name: item-collectors
+        required: true
+        source: curse
+      - file_id: 5137624
+        id: 904394
+        name: industrial-foregoing-souls
+        required: true
+        source: curse
+      - file_id: 4887614
+        id: 941096
+        name: polymorphic-energistics
+        required: true
+        source: curse
+      - file_id: 4811084
+        id: 854213
+        name: colorful-hearts
+        required: true
+        source: curse
+      - file_id: 4979403
+        id: 511733
+        name: clickable-advancements
+        required: true
+        source: curse
+      - file_id: 4970669
+        id: 69162
+        name: cofh-core
+        required: true
+        source: curse
+      - file_id: 5189548
+        id: 416935
+        name: valhelsia-core
+        required: true
+        source: curse
+      - file_id: 4666082
+        id: 241319
+        name: reliquary-reincarnations
+        required: true
+        source: curse
+      - file_id: 4888575
+        id: 277616
+        name: spice-of-life-carrot-edition
+        required: true
+        source: curse
+      - file_id: 4970706
+        id: 406959
+        name: thermal-locomotion
+        required: true
+        source: curse
+      - file_id: 5200593
+        id: 896746
+        name: amendments
+        required: true
+        source: curse
+      - file_id: 5002550
+        id: 383129
+        name: connected-glass
+        required: true
+        source: curse
+      - file_id: 4889101
+        id: 885449
+        name: epherolib
+        required: true
+        source: curse
+      - file_id: 4938351
+        id: 514045
+        name: allthecompressed
+        required: true
+        source: curse
+      - file_id: 5144161
+        id: 298187
+        name: building-gadgets
+        required: true
+        source: curse
+      - file_id: 5051953
+        id: 404465
+        name: ftb-library-forge
+        required: true
+        source: curse
+      - file_id: 4962610
+        id: 245755
+        name: waystones
+        required: true
+        source: curse
+      - file_id: 4645933
+        id: 574123
+        name: dark-mode-everywhere
+        required: true
+        source: curse
+      - file_id: 4591907
+        id: 510656
+        name: wireless-chargers
+        required: true
+        source: curse
+      - file_id: 5208511
+        id: 679177
+        name: libipn
+        required: true
+        source: curse
+      - file_id: 5057220
+        id: 240630
+        name: just-enough-resources-jer
+        required: true
+        source: curse
+      - file_id: 4786762
+        id: 282947
+        name: baubley-heart-canisters
+        required: true
+        source: curse
+      - file_id: 5221691
+        id: 361276
+        name: lootr
+        required: true
+        source: curse
+      - file_id: 5120836
+        id: 238086
+        name: kubejs
+        required: true
+        source: curse
+      - file_id: 5049032
+        id: 347706
+        name: rftools-builder
+        required: true
+        source: curse
+      - file_id: 4810184
+        id: 320926
+        name: scalable-cats-force
+        required: true
+        source: curse
+      - file_id: 5181098
+        id: 299540
+        name: fastfurnace
+        required: true
+        source: curse
+      - file_id: 4859167
+        id: 71738
+        name: shetiphiancore
+        required: true
+        source: curse
+      - file_id: 5198323
+        id: 309858
+        name: forbidden-arcanus
+        required: true
+        source: curse
+      - file_id: 4938951
+        id: 342466
+        name: rftools-utility
+        required: true
+        source: curse
+      - file_id: 4618813
+        id: 231275
+        name: ding
+        required: true
+        source: curse
+      - file_id: 4970705
+        id: 626708
+        name: thermal-integration
+        required: true
+        source: curse
+      - file_id: 4596742
+        id: 314905
+        name: ftb-ranks-forge
+        required: true
+        source: curse
+      - file_id: 4927315
+        id: 577850
+        name: crafting-on-a-stick
+        required: true
+        source: curse
+      - file_id: 4587214
+        id: 658587
+        name: playeranimator
+        required: true
+        source: curse
+      - file_id: 5077656
+        id: 456956
+        name: chipped
+        required: true
+        source: curse
+      - file_id: 5209064
+        id: 495267
+        name: inventory-profiles-next
+        required: true
+        source: curse
+      - file_id: 4764804
+        id: 220318
+        name: biomes-o-plenty
+        required: true
+        source: curse
+      - file_id: 4764989
+        id: 914018
+        name: notrample
+        required: true
+        source: curse
+      - file_id: 4940344
+        id: 250277
+        name: extreme-reactors
+        required: true
+        source: curse
+      - file_id: 4747681
+        id: 326041
+        name: rftools-base
+        required: true
+        source: curse
+      - file_id: 4580511
+        id: 492574
+        name: my-server-is-compatible
+        required: true
+        source: curse
+      - file_id: 5169765
+        id: 556861
+        name: functional-storage
+        required: true
+        source: curse
+      - file_id: 4646682
+        id: 250398
+        name: controlling
+        required: true
+        source: curse
+      - file_id: 4581167
+        id: 260262
+        name: tool-belt
+        required: true
+        source: curse
+      - file_id: 5072729
+        id: 324717
+        name: jade
+        required: true
+        source: curse
+      - file_id: 5106107
+        id: 431725
+        name: advanced-peripherals
+        required: true
+        source: curse
+      - file_id: 5043473
+        id: 905641
+        name: ars-energistique
+        required: true
+        source: curse
+      - file_id: 5140224
+        id: 233071
+        name: crafting-tweaks
+        required: true
+        source: curse
+      - file_id: 4782978
+        id: 231951
+        name: immersive-engineering
+        required: true
+        source: curse
+      - file_id: 4970691
+        id: 70631
+        name: redstone-arsenal
+        required: true
+        source: curse
+      - file_id: 4970699
+        id: 227443
+        name: thermal-dynamics
+        required: true
+        source: curse
+      - file_id: 5217955
+        id: 459929
+        name: applied-energistics-2-wireless-terminals
+        required: true
+        source: curse
+      - file_id: 5167802
+        id: 319598
+        name: structure-compass
+        required: true
+        source: curse
+      - file_id: 4711367
+        id: 830782
+        name: mob-despawn-timers
+        required: true
+        source: curse
+      - file_id: 5071019
+        id: 227639
+        name: the-twilight-forest
+        required: true
+        source: curse
+      - file_id: 5050858
+        id: 284497
+        name: iron-jetpacks
+        required: true
+        source: curse
+      - file_id: 5210746
+        id: 527361
+        name: domum-ornamentum
+        required: true
+        source: curse
+      - file_id: 5188427
+        id: 388172
+        name: geckolib
+        required: true
+        source: curse
+      - file_id: 5169355
+        id: 223794
+        name: applied-energistics-2
+        required: true
+        source: curse
+      - file_id: 5194760
+        id: 422301
+        name: sophisticated-backpacks
+        required: true
+        source: curse
+      - file_id: 4966125
+        id: 306770
+        name: patchouli
+        required: true
+        source: curse
+      - file_id: 5101366
+        id: 238222
+        name: jei
+        required: true
+        source: curse
+      - file_id: 5058433
+        id: 551586
+        name: lendercataclysm
+        required: true
+        source: curse
+      - file_id: 5204976
+        id: 282001
+        name: cc-tweaked
+        required: true
+        source: curse
+      - file_id: 5080064
+        id: 509575
+        name: observable
+        required: true
+        source: curse
+      - file_id: 4612683
+        id: 365281
+        name: serverconfig-updater
+        required: true
+        source: curse
+      - file_id: 4747693
+        id: 260912
+        name: xnet
+        required: true
+        source: curse
+      - file_id: 4935004
+        id: 518211
+        name: pylons
+        required: true
+        source: curse
+      - file_id: 5176879
+        id: 841890
+        name: athena
+        required: true
+        source: curse
+      - file_id: 4779711
+        id: 224791
+        name: blood-magic
+        required: true
+        source: curse
+      - file_id: 5099629
+        id: 236307
+        name: integrated-dynamics
+        required: true
+        source: curse
+      - file_id: 5200949
+        id: 676136
+        name: model-gap-fix
+        required: true
+        source: curse
+      - file_id: 4617304
+        id: 399757
+        name: charging-gadgets
+        required: true
+        source: curse
+      - file_id: 4844097
+        id: 405593
+        name: ato
+        required: true
+        source: curse
+      - file_id: 4809004
+        id: 377281
+        name: dark-paintings
+        required: true
+        source: curse
+      - file_id: 4807870
+        id: 898746
+        name: just-enough-mekanism-multiblocks
+        required: true
+        source: curse
+      - file_id: 4598379
+        id: 317716
+        name: elytra-slot
+        required: true
+        source: curse
+      - file_id: 5209162
+        id: 898963
+        name: apothic-attributes
+        required: true
+        source: curse
+      - file_id: 5213196
+        id: 908741
+        name: embeddium
+        required: true
+        source: curse
+      - file_id: 5223785
+        id: 377897
+        name: productivebees
+        required: true
+        source: curse
+      - file_id: 5206397
+        id: 619320
+        name: sophisticated-storage
+        required: true
+        source: curse
+      - file_id: 5189868
+        id: 689083
+        name: sgjourney
+        required: true
+        source: curse
+      - file_id: 4680832
+        id: 635427
+        name: yeetusexperimentus
+        required: true
+        source: curse
+      - file_id: 5044862
+        id: 957920
+        name: glodium
+        required: true
+        source: curse
+      - file_id: 5181534
+        id: 470193
+        name: connectivity
+        required: true
+        source: curse
+      - file_id: 4997534
+        id: 622888
+        name: ponder
+        required: true
+        source: curse
+      - file_id: 5117291
+        id: 281849
+        name: pneumaticcraft-repressurized
+        required: true
+        source: curse
+      - file_id: 4832944
+        id: 300331
+        name: simply-light
+        required: true
+        source: curse
+      - file_id: 4749360
+        id: 261924
+        name: farming-for-blockheads
+        required: true
+        source: curse
+      - file_id: 4747691
+        id: 250763
+        name: rftools-control
+        required: true
+        source: curse
+      - file_id: 5210918
+        id: 649832
+        name: create-ore-excavation
+        required: true
+        source: curse
+      - file_id: 4581240
+        id: 60089
+        name: mouse-tweaks
+        required: true
+        source: curse
+      - file_id: 5182191
+        id: 364120
+        name: all-the-tweaks
+        required: true
+        source: curse
+      - file_id: 5211253
+        id: 32274
+        name: journeymap
+        required: true
+        source: curse
+      - file_id: 5123558
+        id: 583228
+        name: simple-backups
+        required: true
+        source: curse
+  - id: resolver
+    kind: ModResolver
+    input:
+      mods: modlist
+  - filename: e33.json
+    source: resolver::json
