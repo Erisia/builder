@@ -1,0 +1,165 @@
+{
+  "modPriorities": [
+    "minecraft",
+    "alltheores",
+    "allthemodium",
+    "kubejs",
+    "gtceu",
+    "thermal",
+    "mekanism",
+    "create",
+    "immersiveengineering",
+    "occultism",
+    "ae2",
+    "ftbic",
+    "chemlib",
+    "biggerreactors",
+    "createaddition",
+    "silentgear",
+    "blue_skies",
+    "botania",
+    "ad_astra",
+    "thermal_extra",
+    "undergarden",
+    "industrialforegoing",
+    "pneaumaticcraft"
+  ],
+  "stoneStrata": [
+    "stone",
+    "nether",
+    "deepslate",
+    "granite",
+    "diorite",
+    "andesite"
+  ],
+  "tags": [
+    "forge:nuggets/{material}",
+    "forge:dusts/{material}",
+    "forge:gears/{material}",
+    "forge:gems/{material}",
+    "forge:ingots/{material}",
+    "forge:raw_materials/{material}",
+    "forge:ores/{material}",
+    "forge:plates/{material}",
+    "forge:rods/{material}",
+    "forge:wires/{material}",
+    "forge:storage_blocks/{material}",
+    "forge:storage_blocks/raw_{material}",
+    "forge:silicon",
+    "forge:rubber",
+    "forge:plastic"
+  ],
+  "materials": [
+    "aeternium",
+    "allthemodium",
+    "aluminum",
+    "amber",
+    "apatite",
+    "aquite",
+    "azure_silver",
+    "bitumen",
+    "brass",
+    "bronze",
+    "calorite",
+    "charcoal",
+    "charoite",
+    "chrome",
+    "cinnabar",
+    "cloggrum",
+    "coal",
+    "coal_coke",
+    "cobalt",
+    "constantan",
+    "copper",
+    "crimson_iron",
+    "desh",
+    "diamond",
+    "dragonsteel",
+    "electrum",
+    "elementium",
+    "emerald",
+    "ender",
+    "enderium",
+    "falsite",
+    "fluorite",
+    "froststeel",
+    "gold",
+    "graphite",
+    "horizonite",
+    "iesnium",
+    "invar",
+    "iridium",
+    "iron",
+    "lapis",
+    "lead",
+    "lumium",
+    "mithril",
+    "netherite",
+    "nickel",
+    "obsidian",
+    "osmium",
+    "ostrum",
+    "peridot",
+    "platinum",
+    "potassium_nitrate",
+    "rose_gold",
+    "ruby",
+    "sapphire",
+    "shellite",
+    "signalum",
+    "silver",
+    "soul_infused",
+    "steel",
+    "sulfur",
+    "tin",
+    "tungsten",
+    "twinite",
+    "unobtainium",
+    "uranium",
+    "ventium",
+    "vibranium",
+    "zinc"
+  ],
+  "priorityOverrides": {},
+  "customTags": {},
+  "tagOwnerships": {
+    "forge:rods/aluminum": [
+      "forge:rods/aluminium"
+    ],
+    "forge:storage_blocks/aluminum": [
+      "forge:storage_blocks/aluminium"
+    ],
+    "forge:raw_materials/aluminum": [
+      "forge:raw_materials/aluminium"
+    ],
+    "forge:ingots/aluminum": [
+      "forge:ingots/aluminium"
+    ],
+    "forge:gears/aluminum": [
+      "forge:gears/aluminium"
+    ],
+    "forge:dusts/aluminum": [
+      "forge:dusts/aluminium"
+    ],
+    "forge:storage_blocks/raw_aluminum": [
+      "forge:storage_blocks/raw_aluminium"
+    ],
+    "forge:plates/aluminum": [
+      "forge:plates/aluminium"
+    ],
+    "forge:plastic": [
+      "pneumaticcraft:plastic_sheets"
+    ]
+  },
+  "itemTagInheritanceMode": "ALLOW",
+  "itemTagInheritance": {},
+  "blockTagInheritanceMode": "ALLOW",
+  "blockTagInheritance": {},
+  "ignoredTags": [],
+  "ignoredItems": [],
+  "ignoredRecipeTypes": [
+    "cucumber:shaped_tag"
+  ],
+  "ignoredRecipes": [],
+  "itemsHidingJeiRei": true
+}
