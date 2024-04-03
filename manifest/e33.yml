@@ -1589,11 +1589,6 @@ nodes:
         name: journeymap
         required: true
         source: curse
-      - file_id: 5123558
-        id: 583228
-        name: simple-backups
-        required: true
-        source: curse
   - id: resolver
     kind: ModResolver
     input:
