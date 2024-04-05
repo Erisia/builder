@@ -10,8 +10,8 @@ rec {
   };
   
   e33 = {
-    name = "E33"
-    tmuxName = "e33"
+    name = "E33";
+    tmuxName = "e33";
     description = "E33: Pars Una";
     ram = "18G";
     port = 25565;
@@ -19,7 +19,7 @@ rec {
     minecraft = "1.20.1";
     forge = {
       major = "1.20.1";
-	  minor = "47.2.21";
+      minor = "47.2.21";
     };
     extraDirs = [
       ./base/e33
@@ -31,7 +31,7 @@ rec {
       ./base/client
     ];
     manifest = ./manifest/e33.json;
-  }
+  };
 
   ServerPack = buildServerPack rec {
     inherit packs;
