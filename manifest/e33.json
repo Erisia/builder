@@ -4184,44 +4184,5 @@
     "size": 11607303,
     "md5": "7db02e6f0c6ddab6aa3ec886246376c5",
     "sha256": "abd7218fb89abdb2ab4a8a1707189832592133a3fdf3e7cfb1e1c6880d7cba9e"
-  },
-  {
-    "name": "valkyrien-skies",
-    "title": "Valkyrien Skies",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "valkyrienskies-120-2.3.0-beta.5.jar",
-    "encoded": "valkyrienskies-120-2.3.0-beta.5.jar",
-    "src": "https://cdn.modrinth.com/data/V5ujR2yw/versions/JmkvaGb4/valkyrienskies-120-2.3.0-beta.5.jar",
-    "size": 13774983,
-    "md5": "edbddf585b74a4c4e505bf8273c69ebe",
-    "sha256": "11c2b59f44336c3a8c124e34b76e57fb42c9cc96147df814778b86e238862f4e"
-  },
-  {
-    "name": "eureka",
-    "title": "Eureka! Ships! for Valkyrien Skies (Forge/Fabric)",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "eureka-1201-1.3.0-beta.4.jar",
-    "encoded": "eureka-1201-1.3.0-beta.4.jar",
-    "src": "https://cdn.modrinth.com/data/EO8aSHxh/versions/bE87wEgk/eureka-1201-1.3.0-beta.4.jar",
-    "size": 522031,
-    "md5": "f3c9c5ded63fe60263a93b63f80d0e08",
-    "sha256": "6bd5142d08d543b27db7120883e8f55e996a0deb3a99c1582a234ba6b613444f"
-  },
-  {
-    "name": "interactive",
-    "title": "Create: Interactive",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "create_interactive-1201-forge-1.0.2-beta.1.jar",
-    "encoded": "create_interactive-1201-forge-1.0.2-beta.1.jar",
-    "src": "https://cdn.modrinth.com/data/MyfCcqiE/versions/yOGq6nz8/create_interactive-1201-forge-1.0.2-beta.1.jar",
-    "size": 634870,
-    "md5": "9837d8d73bb3333bc67f1a2e7d48a8b7",
-    "sha256": "9cad6a263775938319601caf283b26e8c6eb8894cc9b4d5195a6591ee4b7c43a"
   }
 ]
