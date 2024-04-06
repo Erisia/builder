@@ -4158,5 +4158,18 @@
     "size": 110188,
     "md5": "0f51df94073655a2651d7e5e1966a4d7",
     "sha256": "d73ec6a9d281553e57da3c58c57f32f1320df0484c196e5d0282d3717cac1c20"
+  },
+  {
+    "name": "distanthorizons",
+    "title": "Distant Horizons",
+    "side": "client",
+    "required": false,
+    "default": false,
+    "filename": "DistantHorizons-2.0.1-a-1.20.1.jar",
+    "encoded": "DistantHorizons-2.0.1-a-1.20.1.jar",
+    "src": "https://cdn.modrinth.com/data/uCdwusMi/versions/fAVxiMK6/DistantHorizons-2.0.1-a-1.20.1.jar",
+    "size": 16259740,
+    "md5": "b05c1dd9009f911d6977cc78bd0db0ec",
+    "sha256": "10d239eaea4286c493ed8371066d81243960c9c5db754a5e728cddc5b9e9dcea"
   }
 ]
