@@ -1644,21 +1644,6 @@ nodes:
         file_id: 3RtnSlr9
         side: server
         required: true
-      - name: valkyrien-skies
-        source: modrinth
-        id: V5ujR2yw
-        file_id: JmkvaGb4
-        required: true
-      - name: eureka
-        source: modrinth
-        id: EO8aSHxh
-        file_id: bE87wEgk
-        required: true
-      - name: interactive
-        source: modrinth
-        id: MyfCcqiE
-        file_id: yOGq6nz8
-        required: true
   - id: resolver
     kind: ModResolver
     input:
