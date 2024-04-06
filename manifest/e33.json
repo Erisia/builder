@@ -4171,5 +4171,18 @@
     "size": 16259740,
     "md5": "b05c1dd9009f911d6977cc78bd0db0ec",
     "sha256": "10d239eaea4286c493ed8371066d81243960c9c5db754a5e728cddc5b9e9dcea"
+  },
+  {
+    "name": "dynmap",
+    "title": "Dynmap®",
+    "side": "server",
+    "required": true,
+    "default": true,
+    "filename": "Dynmap-3.7-beta-4-forge-1.20.jar",
+    "encoded": "Dynmap-3.7-beta-4-forge-1.20.jar",
+    "src": "https://cdn.modrinth.com/data/fRQREgAc/versions/3RtnSlr9/Dynmap-3.7-beta-4-forge-1.20.jar",
+    "size": 11607303,
+    "md5": "7db02e6f0c6ddab6aa3ec886246376c5",
+    "sha256": "abd7218fb89abdb2ab4a8a1707189832592133a3fdf3e7cfb1e1c6880d7cba9e"
   }
 ]

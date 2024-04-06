@@ -1638,6 +1638,12 @@ nodes:
         default: false
         id: uCdwusMi
         file_id: fAVxiMK6
+      - name: dynmap
+        source: modrinth
+        id: fRQREgAc
+        file_id: 3RtnSlr9
+        side: server
+        required: true
   - id: resolver
     kind: ModResolver
     input:
