@@ -1631,6 +1631,13 @@ nodes:
         required: true
         id: 594563
         file_id: 4799458
+      - name: distanthorizons
+        source: modrinth
+        side: client
+        required: false
+        default: false
+        id: uCdwusMi
+        file_id: fAVxiMK6
   - id: resolver
     kind: ModResolver
     input:
