@@ -9,7 +9,7 @@ pack() {
     EXCLUDE='backups crash-reports dynmap logs stall-reports *.nps *~'
     tar --exclude=backups --exclude=crash-reports --exclude=dynmap \
         --exclude=logs --exclude=stall-reports --exclude='*.nps' \
-        --exclude='*~' --exclude='*.srp' \
+        --exclude='*~' --exclude='*.srp' --exclude="config/Discord-Integration.toml" \
         -c .
 }
 
