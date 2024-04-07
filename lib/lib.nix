@@ -137,12 +137,10 @@ rec {
     wget $url --ca-certificate=${cacert}/etc/ssl/certs/ca-bundle.crt --output-document=fabric-launcher.jar
   '';
 
-  fetchForge = { forge }: runLocally "forge-${minecraft}-${forge}" {
-    inherit minecraft forge;
-
+  fetchForge = { major, minor }: runLocally "forge-${major}-${minor}" {
     url = {
-      "1.7.10" = "https://files.minecraftforge.net/maven/net/minecraftforge/forge/${minecraft}-${forge}-${minecraft}/forge-${minecraft}-${forge}-${minecraft}-installer.jar";
-    }.${major} or "https://files.minecraftforge.net/maven/net/minecraftforge/forge/${minecraft}-${forge}/forge-${minecraft}-${forge}-installer.jar";
+      "1.7.10" = "https://files.minecraftforge.net/maven/net/minecraftforge/forge/${major}-${minor}-${major}/forge-${major}-${minor}-${major}-installer.jar";
+    }.${major} or "https://files.minecraftforge.net/maven/net/minecraftforge/forge/${major}-${minor}/forge-${major}-${minor}-installer.jar";
 
     # The installer needs web access. Since it does, let's download it w/o a
     # hash. We're using HTTPS anyway.
