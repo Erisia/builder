@@ -41,7 +41,7 @@ class Module:
 class Loader:
     type: str
     version: str
-    load_order: Optional[int] = None
+    load_order: int
 
 @dataclass
 class Import:
@@ -150,9 +150,17 @@ def CreateServerPackXML(packs_json: dict, hostname: str, url_base: str, output_p
 
     def MkServer(server_name, server, hostname):
         revision = hashlib.sha256(json.dumps(server).encode('utf-8')).hexdigest()
-        fabric = server["fabric"]
-        imports = [MkFabricImport(server["minecraft"], fabric["loader"], fabric["yarnBuild"])] if fabric is not None else []
-        main_class = "net.fabricmc.loader.launch.knot.KnotClient" if fabric is not None else None
+        if 'fabric' in server:
+            fabric = server["fabric"]
+            imports = [MkFabricImport(server["minecraft"], fabric["loader"], fabric["yarnBuild"])] if fabric is not None else []
+            loader = None
+            main_class = "net.fabricmc.loader.launch.knot.KnotClient" if fabric is not None else None
+        if 'forge' in server:
+            forge = server["forge"]
+            imports = []
+            loader = Loader(type='Forge', version=forge['minor'], load_order=0)
+            main_class = "net.minecraft.launchwrapper.Launch"
+
         server_address = f'{hostname.split(":")[0]}:{server["port"]}'
 
         return Server(
@@ -164,7 +172,7 @@ def CreateServerPackXML(packs_json: dict, hostname: str, url_base: str, output_p
             server_address=server_address,
             auto_connect=False,
             imports=imports,
-            #loader=Loader(type='Forge', version='10.13.4.1614'),
+            loader=loader,
             modules=([MkConfig(f'{url_base}packs/{server_name}/configs', config_name, config) for config_name, config in server['clientConfigs'].items()] 
                      + [MkMod(f'{url_base}packs/{server_name}/mods', mod) for mod in server['clientMods']]),
             main_class=main_class,
@@ -204,7 +212,7 @@ def CreateServerPackXML(packs_json: dict, hostname: str, url_base: str, output_p
             for imp in server.imports:
                 SubElement(server_elem, 'Import', url=imp.url).text = imp.child
             if server.loader:
-                SubElement(server_elem, 'Loader', type=server.loader.type, version=server.loader.version)
+                SubElement(server_elem, 'Loader', type=server.loader.type, version=server.loader.version, loadOrder=str(server.loader.load_order))
             for module in server.modules:
                 type_attrib = {'inRoot': 'true'} if module.in_root else {}
                 module_elem = SubElement(server_elem, 'Module', name=module.name, id=module.id)
