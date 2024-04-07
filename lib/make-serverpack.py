@@ -158,8 +158,8 @@ def CreateServerPackXML(packs_json: dict, hostname: str, url_base: str, output_p
         if 'forge' in server:
             forge = server["forge"]
             imports = []
-            loader = Loader(type='Forge', version=forge['minor'], load_order=0)
-            main_class = "net.minecraft.launchwrapper.Launch"
+            loader = Loader(type='Forge', version=f"{forge['major']}-{forge['minor']}", load_order=0)
+            main_class = "cpw.mods.modlauncher.Launcher"
 
         server_address = f'{hostname.split(":")[0]}:{server["port"]}'
 
