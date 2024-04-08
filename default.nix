@@ -17,9 +17,9 @@ rec {
     port = 25565;
     prometheusPort = 1224;
     minecraft = "1.20.1";
-    forge = {
+    neoforge = {
       major = "1.20.1";
-      minor = "47.2.21";
+      minor = "47.1.104";
     };
     extraDirs = [
       ./base/e33

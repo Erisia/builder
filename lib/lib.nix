@@ -32,6 +32,7 @@ rec {
     minecraft,
     fabric ? null,
     forge ? null,
+    neoforge ? null,
     ram ? "4000m",
     manifest,
     blacklist ? [],
@@ -87,7 +88,7 @@ rec {
         loader = fabric.loader;
         installer = fabric.installer;
       });
-      forgeDir = wrapDir "forge" (fetchForge forge);
+      forgeDir = wrapDir "forge" (if neoforge != null then fetchNeoForge neoforge else fetchForge forge);
     in if fabric != null then fabricDir else forgeDir;
 
     serverMods = filterManifest {
@@ -137,10 +138,15 @@ rec {
     wget $url --ca-certificate=${cacert}/etc/ssl/certs/ca-bundle.crt --output-document=fabric-launcher.jar
   '';
 
-  fetchForge = { major, minor }: runLocally "forge-${major}-${minor}" {
-    url = {
-      "1.7.10" = "https://files.minecraftforge.net/maven/net/minecraftforge/forge/${major}-${minor}-${major}/forge-${major}-${minor}-${major}-installer.jar";
-    }.${major} or "https://files.minecraftforge.net/maven/net/minecraftforge/forge/${major}-${minor}/forge-${major}-${minor}-installer.jar";
+  fetchForgeLike = { type, major, minor }: runLocally "forge-${major}-${minor}" {
+    url =
+      if type == "forge" && major == "1.7.10"
+      then "https://files.minecraftforge.net/maven/net/minecraftforge/forge/${major}-${minor}-${major}/forge-${major}-${minor}-${major}-installer.jar"
+      else if type == "forge"
+      then "https://files.minecraftforge.net/maven/net/minecraftforge/forge/${major}-${minor}/forge-${major}-${minor}-installer.jar"
+      else if type == "neoforge" && major == "1.20.1"
+      then "https://maven.neoforged.net/releases/net/neoforged/forge/${major}-${minor}/forge-${major}-${minor}-installer.jar"
+      else "https://maven.neoforged.net/releases/net/neoforged/neoforge/${minor}/neoforge-${minor}-installer.jar";
 
     # The installer needs web access. Since it does, let's download it w/o a
     # hash. We're using HTTPS anyway.
@@ -158,6 +164,9 @@ rec {
     java -jar $INSTALLER --installServer
     rm -r $INSTALLER mods
   '';
+
+  fetchForge = { major, minor }: fetchForgeLike { inherit major minor; type = "forge"; };
+  fetchNeoForge = { major, minor }: fetchForgeLike { inherit major minor; type = "neoforge"; };
 
   /**
    * Returns a list of mods, of the same format as in the manifest.
