@@ -4184,5 +4184,18 @@
     "size": 11607303,
     "md5": "7db02e6f0c6ddab6aa3ec886246376c5",
     "sha256": "abd7218fb89abdb2ab4a8a1707189832592133a3fdf3e7cfb1e1c6880d7cba9e"
+  },
+  {
+    "name": "biomancy",
+    "title": "Biomancy",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "biomancy-forge-1.20.1-2.4.4.0.jar",
+    "encoded": "biomancy-forge-1.20.1-2.4.4.0.jar",
+    "src": "https://cdn.modrinth.com/data/uAAuyU4M/versions/u9EEqRye/biomancy-forge-1.20.1-2.4.4.0.jar",
+    "size": 4056055,
+    "md5": "d1635854e56cabc43475cfd0947e0a08",
+    "sha256": "be9b8152a8902d31aa469ebe31e4bacb1b784b122a42cea57ece25a74ab1644a"
   }
 ]
