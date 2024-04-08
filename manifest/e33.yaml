@@ -1644,6 +1644,10 @@ nodes:
         file_id: 3RtnSlr9
         side: server
         required: true
+      - name: biomancy
+        source: modrinth
+        id: uAAuyU4M
+        required: true
   - id: resolver
     kind: ModResolver
     input:
