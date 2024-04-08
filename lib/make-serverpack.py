@@ -155,11 +155,14 @@ def CreateServerPackXML(packs_json: dict, hostname: str, url_base: str, output_p
             imports = [MkFabricImport(server["minecraft"], fabric["loader"], fabric["yarnBuild"])] if fabric is not None else []
             loader = None
             main_class = "net.fabricmc.loader.launch.knot.KnotClient" if fabric is not None else None
-        if 'forge' in server:
-            forge = server["forge"]
+        if 'neoforge' in server:
+            forge = server["neoforge"]
             imports = []
-            loader = Loader(type='Forge', version=f"{forge['major']}-{forge['minor']}", load_order=0)
-            main_class = "cpw.mods.modlauncher.Launcher"
+            if forge['major'] == '1.20.1':
+                loader = Loader(type='NeoForge', version=f"{forge['major']}-{forge['minor']}", load_order=0)
+            else:
+                loader = Loader(type='NeoForge', version=forge['minor'], load_order=0)
+            main_class = "cpw.mods.bootstraplauncher.BootstrapLauncher"
 
         server_address = f'{hostname.split(":")[0]}:{server["port"]}'
 
