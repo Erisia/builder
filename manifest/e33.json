@@ -1677,19 +1677,6 @@
     "sha256": "6031d3d29adc1a4d225cac32b906fcee0dc4a8eb53b68900812f61e90ca3d3b9"
   },
   {
-    "name": "croptopia",
-    "title": "Croptopia",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "Croptopia-1.20.1-FORGE-3.0.4.jar",
-    "encoded": "Croptopia-1.20.1-FORGE-3.0.4.jar",
-    "src": "https://edge.forgecdn.net/files/4997/459/Croptopia-1.20.1-FORGE-3.0.4.jar",
-    "size": 2099945,
-    "md5": "c7c4e6f0ff51507ad64544991dfc7454",
-    "sha256": "9725bf9c127760214e6e087130d9660daef1b50905de5b8c060ec49fc095cd53"
-  },
-  {
     "name": "netherportalfix",
     "title": "NetherPortalFix",
     "side": "both",
@@ -2117,19 +2104,6 @@
     "size": 257185,
     "md5": "553345b597e4f7cab5d5b9ee421ef3b3",
     "sha256": "241650776f2aee562015116b627737e204bce363c29feac4760011c814bec31b"
-  },
-  {
-    "name": "thermal-cultivation",
-    "title": "Thermal Cultivation",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "thermal_cultivation-1.20.1-11.0.0.22.jar",
-    "encoded": "thermal_cultivation-1.20.1-11.0.0.22.jar",
-    "src": "https://edge.forgecdn.net/files/4970/697/thermal_cultivation-1.20.1-11.0.0.22.jar",
-    "size": 603538,
-    "md5": "c289dbcd3f8523b4e862382bd9e7d31f",
-    "sha256": "b0efaafe199106e1bb6eb7b7569ce727abe36b65b15d1a1e982dfc642c834c83"
   },
   {
     "name": "durability-tooltip",
