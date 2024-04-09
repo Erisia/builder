@@ -657,11 +657,6 @@ nodes:
         name: tiny-redstone
         required: true
         source: curse
-      - file_id: 4997459
-        id: 415438
-        name: croptopia
-        required: true
-        source: curse
       - file_id: 4939735
         id: 241160
         name: netherportalfix
@@ -825,11 +820,6 @@ nodes:
       - file_id: 5222177
         id: 691049
         name: generatorgalore
-        required: true
-        source: curse
-      - file_id: 4970697
-        id: 271835
-        name: thermal-cultivation
         required: true
         source: curse
       - file_id: 4741017
@@ -1647,6 +1637,14 @@ nodes:
       - name: biomancy
         source: modrinth
         id: uAAuyU4M
+        required: true
+     - name: little-logistics
+        source: curse
+        id: 570050
+        required: true
+      - name: little-contraptions
+        source: modrinth
+        id: 594563
         required: true
   - id: resolver
     kind: ModResolver
