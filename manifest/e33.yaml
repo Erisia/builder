@@ -1638,14 +1638,6 @@ nodes:
         source: modrinth
         id: uAAuyU4M
         required: true
-     - name: little-logistics
-        source: curse
-        id: 570050
-        required: true
-      - name: little-contraptions
-        source: modrinth
-        id: 594563
-        required: true
   - id: resolver
     kind: ModResolver
     input:
