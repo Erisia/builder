@@ -1,5 +1,18 @@
 [
   {
+    "name": "dcintegration",
+    "title": "Discord Integration",
+    "side": "server",
+    "required": true,
+    "default": true,
+    "filename": "dcintegration-forge-3.0.5-1.20.1.jar",
+    "encoded": "dcintegration-forge-3.0.5-1.20.1.jar",
+    "src": "https://cdn.modrinth.com/data/rbJ7eS5V/versions/G06cne25/dcintegration-forge-3.0.5-1.20.1.jar",
+    "size": 15858459,
+    "md5": "aa9df66893b22c70bbb0bb80c24d50f1",
+    "sha256": "5cbd0f8ed0b458ba560e32224fb7293825fde3e1cfd5c99d5305cd2c09c42865"
+  },
+  {
     "name": "artifacts",
     "title": "Artifacts",
     "side": "both",
