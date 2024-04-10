@@ -115,10 +115,10 @@ def CreateServerPackXML(packs_json: dict, hostname: str, url_base: str, output_p
     """
     import hashlib
 
-    def MkConfig(location, config_name, config):
+    def MkConfig(location, config_name, config, id):
         return Module(
             name=f'Config ({config_name})',
-            id=config_name,
+            id=id,
             urls=[URL(link=f'{location}/{config_name}.zip', priority=0)],
             mod_path='config',
             size=config['size'],
@@ -128,11 +128,11 @@ def CreateServerPackXML(packs_json: dict, hostname: str, url_base: str, output_p
             md5=config['md5'],
         )
     
-    def MkMod(location, mod):
+    def MkMod(location, mod, id):
         mod_name = mod['name']
         return Module(
             name=mod['title'],
-            id=mod_name,
+            id=id,
             urls=[URL(link=f'{location}/{mod["encoded"]}', priority=0)],
             mod_path=f"mods/{mod['filename']}",
             size=mod['size'],
@@ -166,6 +166,25 @@ def CreateServerPackXML(packs_json: dict, hostname: str, url_base: str, output_p
 
         server_address = f'{hostname.split(":")[0]}:{server["port"]}'
 
+        # For modules, we need to avoid ID collisions or MCUpdater will quietly fail.
+        modules = {}
+        for mod in server['clientMods']:
+            id = mod['name']
+            iteration = 1
+            while id in modules:
+                id = f'{mod["name"]}-{iteration}'
+                iteration += 1
+            modules[id] = MkMod(f'{url_base}packs/{server_name}/mods', mod, id)
+        for config_name, config in server['clientConfigs'].items():
+            id = config_name
+            iteration = 1
+            while id in modules:
+                id = f'{config_name}-{iteration}'
+                iteration += 1
+            modules[id] = MkConfig(f'{url_base}packs/{server_name}/configs', config_name, config, id)
+        modules = list(modules.values())
+        modules.sort(key=lambda m: m.id)
+
         return Server(
             id=server_name,
             name=server['description'],
@@ -176,8 +195,7 @@ def CreateServerPackXML(packs_json: dict, hostname: str, url_base: str, output_p
             auto_connect=False,
             imports=imports,
             loader=loader,
-            modules=([MkConfig(f'{url_base}packs/{server_name}/configs', config_name, config) for config_name, config in server['clientConfigs'].items()] 
-                     + [MkMod(f'{url_base}packs/{server_name}/mods', mod) for mod in server['clientMods']]),
+            modules=modules,
             main_class=main_class,
         )
 
