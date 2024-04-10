@@ -377,7 +377,7 @@
     "sha256": "e78686b92c3761ec26eb9d3c53efdd3d6ca77981cbd3723995e1163b7103ae0b"
   },
   {
-    "name": "packmenu",
+    "name": "packmenu-mod",
     "title": "PackMenu",
     "side": "client",
     "required": true,
@@ -3159,7 +3159,7 @@
     "sha256": "99ff6f87fad76a94f22b5c482e1e9b63008f9a27c569c80277a37e52112338ae"
   },
   {
-    "name": "kubejs",
+    "name": "kubejs-mod",
     "title": "KubeJS",
     "side": "both",
     "required": true,
