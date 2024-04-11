@@ -1641,6 +1641,11 @@ nodes:
         source: modrinth
         id: uAAuyU4M
         required: true
+      - name: immersive-paintings
+        source: modrinth
+        id: 6txNkua3
+        file_id: dZk1qbHj
+        required: true
   - id: resolver
     kind: ModResolver
     input:

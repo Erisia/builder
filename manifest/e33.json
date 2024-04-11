@@ -390,7 +390,7 @@
     "sha256": "e78686b92c3761ec26eb9d3c53efdd3d6ca77981cbd3723995e1163b7103ae0b"
   },
   {
-    "name": "packmenu-mod",
+    "name": "packmenu",
     "title": "PackMenu",
     "side": "client",
     "required": true,
@@ -3172,7 +3172,7 @@
     "sha256": "99ff6f87fad76a94f22b5c482e1e9b63008f9a27c569c80277a37e52112338ae"
   },
   {
-    "name": "kubejs-mod",
+    "name": "kubejs",
     "title": "KubeJS",
     "side": "both",
     "required": true,
@@ -4184,5 +4184,18 @@
     "size": 4056055,
     "md5": "d1635854e56cabc43475cfd0947e0a08",
     "sha256": "be9b8152a8902d31aa469ebe31e4bacb1b784b122a42cea57ece25a74ab1644a"
+  },
+  {
+    "name": "immersive-paintings",
+    "title": "Immersive Paintings",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "immersive_paintings-0.6.7+1.20.1-forge.jar",
+    "encoded": "immersive_paintings-0.6.7%2B1.20.1-forge.jar",
+    "src": "https://cdn.modrinth.com/data/6txNkua3/versions/dZk1qbHj/immersive_paintings-0.6.7%2B1.20.1-forge.jar",
+    "size": 4841253,
+    "md5": "e010b70ceecf34f91f223b8981f50f40",
+    "sha256": "fb29eaf6d2b62cfa0443342bbfd396f6ec8d96c986d60f232c2b52f5be22d7f9"
   }
 ]
