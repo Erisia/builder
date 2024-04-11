@@ -4,6 +4,9 @@ config:
 nodes:
   - id: modlist
     value:
+      - name: dcintegration
+        side: server
+        source: modrinth
       - file_id: 5152057
         id: 312353
         name: artifacts
