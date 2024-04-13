@@ -4197,5 +4197,18 @@
     "size": 4841253,
     "md5": "e010b70ceecf34f91f223b8981f50f40",
     "sha256": "fb29eaf6d2b62cfa0443342bbfd396f6ec8d96c986d60f232c2b52f5be22d7f9"
+  },
+  {
+    "name": "configured",
+    "title": "Configured",
+    "side": "client",
+    "required": false,
+    "default": true,
+    "filename": "configured-forge-1.20.1-2.2.3.jar",
+    "encoded": "configured-forge-1.20.1-2.2.3.jar",
+    "src": "https://edge.forgecdn.net/files/5180/900/configured-forge-1.20.1-2.2.3.jar",
+    "size": 418929,
+    "md5": "9380dc31c599c523a5682a4025fceb92",
+    "sha256": "05dceddd57825f911135c929504ef320b75953d05e7dc918dba58a0574e5315f"
   }
 ]

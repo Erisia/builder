@@ -1646,6 +1646,13 @@ nodes:
         id: 6txNkua3
         file_id: dZk1qbHj
         required: true
+      - name: configured
+        source: curse
+        id: 457570
+        file_id: 5180900
+        side: client
+        required: false
+        default: true
   - id: resolver
     kind: ModResolver
     input:
