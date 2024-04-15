@@ -1417,7 +1417,7 @@ nodes:
         name: domum-ornamentum
         required: true
         source: curse
-      - file_id: 5188427
+      - file_id: 5190346
         id: 388172
         name: geckolib
         required: true
