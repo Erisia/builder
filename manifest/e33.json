@@ -3632,12 +3632,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "geckolib-forge-1.20.1-4.4.4.jar",
-    "encoded": "geckolib-forge-1.20.1-4.4.4.jar",
-    "src": "https://edge.forgecdn.net/files/5188/427/geckolib-forge-1.20.1-4.4.4.jar",
+    "filename": "geckolib-neoforge-1.20.1-4.4.4.jar",
+    "encoded": "geckolib-neoforge-1.20.1-4.4.4.jar",
+    "src": "https://edge.forgecdn.net/files/5190/346/geckolib-neoforge-1.20.1-4.4.4.jar",
     "size": 989964,
-    "md5": "6a3a072cb0f6da8e8e52290b13c4ddce",
-    "sha256": "b7d0d941d64094bb9a31f18ee7408b7353c46e8da5ee53c54cb624d380503833"
+    "md5": "0f4bb53db79b7a988cb1d167b3133986",
+    "sha256": "87fb647eb94c4d89c1820ed4a69acedf4f2332ec251c6b1cb7b2b44e8aa2af7e"
   },
   {
     "name": "applied-energistics-2",
