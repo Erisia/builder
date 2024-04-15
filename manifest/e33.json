@@ -746,12 +746,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "occultism-1.20.1-1.124.3.jar",
-    "encoded": "occultism-1.20.1-1.124.3.jar",
-    "src": "https://edge.forgecdn.net/files/5225/308/occultism-1.20.1-1.124.3.jar",
-    "size": 3792964,
-    "md5": "2e0ad9c9e82116bf392dab02c1ea5494",
-    "sha256": "c42e9f943229addd6dea876b065e9f76200def03f5d96aa0bee81cc2e03a565b"
+    "filename": "occultism-1.20.1-1.125.0.jar",
+    "encoded": "occultism-1.20.1-1.125.0.jar",
+    "src": "https://edge.forgecdn.net/files/5253/923/occultism-1.20.1-1.125.0.jar",
+    "size": 3796531,
+    "md5": "5247369cf1d3e5998b1d53786f3ffcb5",
+    "sha256": "ee27c08f64fe005dc914995120472a54dae88744ba6ae7ed769bd605b67e30c6"
   },
   {
     "name": "curios",

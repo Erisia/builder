@@ -291,7 +291,7 @@ nodes:
         name: cosmetic-armor-reworked
         required: true
         source: curse
-      - file_id: 5225308
+      - file_id: 5253923
         id: 361026
         name: occultism
         required: true
