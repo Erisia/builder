@@ -2787,12 +2787,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "SmartBrainLib-forge-1.20.1-1.13.jar",
-    "encoded": "SmartBrainLib-forge-1.20.1-1.13.jar",
-    "src": "https://edge.forgecdn.net/files/4981/397/SmartBrainLib-forge-1.20.1-1.13.jar",
-    "size": 344790,
-    "md5": "f6134a445bae83adbc960590e0384d89",
-    "sha256": "b9626dc4aff7dbac36df1220a0b69166fc8abec6040180be765b7718f8c11496"
+    "filename": "SmartBrainLib-neoforge-1.20.1-1.13.jar",
+    "encoded": "SmartBrainLib-neoforge-1.20.1-1.13.jar",
+    "src": "https://edge.forgecdn.net/files/4981/374/SmartBrainLib-neoforge-1.20.1-1.13.jar",
+    "size": 343642,
+    "md5": "fe405e0fd7dba7eae91e151c12c7c7d9",
+    "sha256": "93302c031abc3801239b7108027db190e6372d9c55bfeb7d12d65912243f6af5"
   },
   {
     "name": "refined-storage",
