@@ -3,8 +3,8 @@ use std::process;
 use structopt::StructOpt;
 use tokio::stream::StreamExt;
 use tokio::time::{Duration,Instant,DelayQueue,delay_for};
+use anyhow::{Result, bail};
 
-type Result<T> = std::result::Result<T, Box<dyn std::error::Error + Send + Sync>>;
 
 #[derive(Debug, StructOpt)]
 #[structopt(version = "0.1", author = "Baughn", name = "control")]
@@ -65,15 +65,14 @@ impl Server {
                     }
                 }
             } else {
-                println!("Could not get playerdata: {:?}", body);
-                return Ok(1.0);
+                bail!("could not get playerdata: {:?}", body);
             }
         } else {
-            println!("Could not get playerdata: {:?}", request);
-            return Ok(1.0);
+            bail!("could not get playerdata: {:?}", request);
         }
         Ok(0.0)
     }
+
     pub async fn players(&self) -> Result<u64> {
         let metric = self.get("minecraft_players_count").await?;
         if metric == 0.0 {
@@ -97,8 +96,6 @@ impl Server {
     }
 
     fn get_pid(&self) -> Result<u64> {
-        let err = Err("server.pid does not match a running Erisia instance".into());
-
         let pid = std::fs::read_to_string("server.pid")?.trim().parse()?;
         // Confirm it's running, and isn't a pun.
         let procslurp = std::fs::read_to_string(&format!(
@@ -110,11 +107,11 @@ impl Server {
             expected.push("server/start.sh");
 
             if expected != actual {
-                return err;
+                bail!("server.pid does not match a running Erisia instance");
             }
             return Ok(pid);
         } else {
-            return err;
+            bail!("server.pid does not match a running Erisia instance");
         }
     }
 
@@ -124,7 +121,13 @@ impl Server {
         if let Some(lazy) = lazy {
             // There's no uptime counter, so we have to use the tick counter.
             // Let's hope it's accurate enough.
-            let tick_count = self.get("minecraft_tick_duration_seconds_count").await?;
+            let tick_count = match self.get("minecraft_tick_duration_seconds_count").await {
+                Ok(n) => n,
+                Err(e) => {
+                    println!("Unable to read server uptime: {}", e);
+                    lazy.as_secs_f64() * 21.0
+                },
+            };
             let uptime = tick_count / 20.0;
             if uptime < lazy.as_secs_f64() {
                 println!("Server has only been up for {} seconds, not stopping", uptime);
@@ -166,7 +169,10 @@ impl Server {
         }
 
         while start.elapsed() < grace_period {
-            let players = self.players().await?;
+            let players = match self.players().await { Ok(n) => n, Err(e) => {
+                println!("Couldn't read player count: {}", e);
+                1
+            }};
             if players == 0 {
                 break;
             }
