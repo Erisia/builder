@@ -13,7 +13,7 @@ rec {
     name = "E33";
     tmuxName = "e33";
     description = "E33: Pars Una";
-    ram = "18G";
+    ram = "6G";
     port = 25565;
     prometheusPort = 1224;
     minecraft = "1.20.1";
