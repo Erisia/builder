@@ -638,7 +638,7 @@ nodes:
       - file_id: 4610474
         id: 634062
         name: no-chat-reports
-        required: true
+        required: false
         source: curse
       - file_id: 5207625
         id: 412525
