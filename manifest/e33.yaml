@@ -1245,6 +1245,11 @@ nodes:
         name: kubejs
         required: true
         source: curse
+      - name: lootjs
+        file_id: gFOZANKr
+        id: fJFETWDN
+        required: true
+        source: modrinth
       - file_id: 5049032
         id: 347706
         name: rftools-builder

@@ -5,12 +5,12 @@
     "side": "server",
     "required": true,
     "default": true,
-    "filename": "dcintegration-forge-3.0.5-1.20.1.jar",
-    "encoded": "dcintegration-forge-3.0.5-1.20.1.jar",
-    "src": "https://cdn.modrinth.com/data/rbJ7eS5V/versions/G06cne25/dcintegration-forge-3.0.5-1.20.1.jar",
-    "size": 15858459,
-    "md5": "aa9df66893b22c70bbb0bb80c24d50f1",
-    "sha256": "5cbd0f8ed0b458ba560e32224fb7293825fde3e1cfd5c99d5305cd2c09c42865"
+    "filename": "dcintegration-forge-3.0.7-1.20.1.jar",
+    "encoded": "dcintegration-forge-3.0.7-1.20.1.jar",
+    "src": "https://cdn.modrinth.com/data/rbJ7eS5V/versions/HvnD1N3N/dcintegration-forge-3.0.7-1.20.1.jar",
+    "size": 16357993,
+    "md5": "3ab2608da8be73a1dec9cc574afb2f0a",
+    "sha256": "1f28cdf0820ee8480663fb1c15b642571fa78987bc04c5e57b6984e7db427f58"
   },
   {
     "name": "artifacts",
@@ -1628,7 +1628,7 @@
     "name": "no-chat-reports",
     "title": "No Chat Reports",
     "side": "both",
-    "required": true,
+    "required": false,
     "default": true,
     "filename": "NoChatReports-FORGE-1.20.1-v2.2.2.jar",
     "encoded": "NoChatReports-FORGE-1.20.1-v2.2.2.jar",
@@ -2516,7 +2516,7 @@
     "default": true,
     "filename": "caelus-forge-3.1.0+1.20.jar",
     "encoded": "caelus-forge-3.1.0%2B1.20.jar",
-    "src": "https://edge.forgecdn.net/files/4581/481/caelus-forge-3.1.0+1.20.jar",
+    "src": "https://edge.forgecdn.net/files/4581/481/caelus-forge-3.1.0%2b1.20.jar",
     "size": 38169,
     "md5": "34529f4aa9003214c31368bfb51ae1ac",
     "sha256": "e7d9c0bd0be90331c9d77d2b7f8df9054df88ea663f95addbbaae543d24fb92a"
@@ -3183,6 +3183,19 @@
     "size": 1644038,
     "md5": "9c53144505fdb406337d649feca4eeab",
     "sha256": "8642bb9a028644fa4ccf967e07491e731235c598df89041e85f146b482fe45cd"
+  },
+  {
+    "name": "lootjs",
+    "title": "LootJS: KubeJS Addon",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "lootjs-forge-1.20.1-2.11.0.jar",
+    "encoded": "lootjs-forge-1.20.1-2.11.0.jar",
+    "src": "https://cdn.modrinth.com/data/fJFETWDN/versions/gFOZANKr/lootjs-forge-1.20.1-2.11.0.jar",
+    "size": 241843,
+    "md5": "57b21a6570b935f0a450117a3247709c",
+    "sha256": "7c9c40b626d56d26ccd0ce6a4e76f0ffd06700d8b4a2c4c7962b535ea490ce4f"
   },
   {
     "name": "rftools-builder",

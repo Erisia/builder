@@ -13,7 +13,7 @@ rec {
     name = "E33";
     tmuxName = "e33";
     description = "E33: Pars Una";
-    ram = "6G";
+    ram = "10G";
     port = 25565;
     prometheusPort = 1224;
     minecraft = "1.20.1";
@@ -23,6 +23,7 @@ rec {
     };
     extraDirs = [
       ./base/e33
+      ./base/erisia
     ];
     extraServerDirs = [
       ./base/server
