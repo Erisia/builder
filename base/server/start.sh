@@ -43,10 +43,12 @@ fi
 for f in $BASE/*; do
     b=$(basename $f)
     case "$b" in
-        config)
+        config | world)
             # Don't overwrite the config dir, because some mods cache data there.
             # Isn't this what the world dir is for, guys?
-            rsync -acL server/config .
+            # We also don't want to ovewrite world, as some mods store configs in world/serverconfigs and datapacks exist.
+            # once again, isn't this what the configs dir is for, guys?
+            rsync -acL server/$b .
             ;;
         start.sh)
             # Don't copy this script.

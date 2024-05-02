@@ -5,12 +5,12 @@
     "side": "server",
     "required": true,
     "default": true,
-    "filename": "dcintegration-forge-3.0.5-1.20.1.jar",
-    "encoded": "dcintegration-forge-3.0.5-1.20.1.jar",
-    "src": "https://cdn.modrinth.com/data/rbJ7eS5V/versions/G06cne25/dcintegration-forge-3.0.5-1.20.1.jar",
-    "size": 15858459,
-    "md5": "aa9df66893b22c70bbb0bb80c24d50f1",
-    "sha256": "5cbd0f8ed0b458ba560e32224fb7293825fde3e1cfd5c99d5305cd2c09c42865"
+    "filename": "dcintegration-forge-3.0.7-1.20.1.jar",
+    "encoded": "dcintegration-forge-3.0.7-1.20.1.jar",
+    "src": "https://cdn.modrinth.com/data/rbJ7eS5V/versions/HvnD1N3N/dcintegration-forge-3.0.7-1.20.1.jar",
+    "size": 16357993,
+    "md5": "3ab2608da8be73a1dec9cc574afb2f0a",
+    "sha256": "1f28cdf0820ee8480663fb1c15b642571fa78987bc04c5e57b6984e7db427f58"
   },
   {
     "name": "artifacts",
@@ -1628,7 +1628,7 @@
     "name": "no-chat-reports",
     "title": "No Chat Reports",
     "side": "both",
-    "required": true,
+    "required": false,
     "default": true,
     "filename": "NoChatReports-FORGE-1.20.1-v2.2.2.jar",
     "encoded": "NoChatReports-FORGE-1.20.1-v2.2.2.jar",
@@ -2516,7 +2516,7 @@
     "default": true,
     "filename": "caelus-forge-3.1.0+1.20.jar",
     "encoded": "caelus-forge-3.1.0%2B1.20.jar",
-    "src": "https://edge.forgecdn.net/files/4581/481/caelus-forge-3.1.0+1.20.jar",
+    "src": "https://edge.forgecdn.net/files/4581/481/caelus-forge-3.1.0%2b1.20.jar",
     "size": 38169,
     "md5": "34529f4aa9003214c31368bfb51ae1ac",
     "sha256": "e7d9c0bd0be90331c9d77d2b7f8df9054df88ea663f95addbbaae543d24fb92a"
@@ -3183,6 +3183,19 @@
     "size": 1644038,
     "md5": "9c53144505fdb406337d649feca4eeab",
     "sha256": "8642bb9a028644fa4ccf967e07491e731235c598df89041e85f146b482fe45cd"
+  },
+  {
+    "name": "lootjs",
+    "title": "LootJS: KubeJS Addon",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "lootjs-forge-1.20.1-2.11.0.jar",
+    "encoded": "lootjs-forge-1.20.1-2.11.0.jar",
+    "src": "https://cdn.modrinth.com/data/fJFETWDN/versions/gFOZANKr/lootjs-forge-1.20.1-2.11.0.jar",
+    "size": 241843,
+    "md5": "57b21a6570b935f0a450117a3247709c",
+    "sha256": "7c9c40b626d56d26ccd0ce6a4e76f0ffd06700d8b4a2c4c7962b535ea490ce4f"
   },
   {
     "name": "rftools-builder",
@@ -4210,5 +4223,44 @@
     "size": 418929,
     "md5": "9380dc31c599c523a5682a4025fceb92",
     "sha256": "05dceddd57825f911135c929504ef320b75953d05e7dc918dba58a0574e5315f"
+  },
+  {
+    "name": "chisels-bits",
+    "title": "Chisels & Bits - For Forge",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "chisels-and-bits-forge-1.4.148.jar",
+    "encoded": "chisels-and-bits-forge-1.4.148.jar",
+    "src": "https://edge.forgecdn.net/files/5203/366/chisels-and-bits-forge-1.4.148.jar",
+    "size": 2105922,
+    "md5": "dab773ee65efd8f1f79505e7cadd825a",
+    "sha256": "2e443331c65e32faad9fe96063057754c54216614a9ace10c178d8a3697ff1e1"
+  },
+  {
+    "name": "rftools-dimensions",
+    "title": "RFTools Dimensions",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "rftoolsdim-1.20-11.0.5.jar",
+    "encoded": "rftoolsdim-1.20-11.0.5.jar",
+    "src": "https://edge.forgecdn.net/files/4979/926/rftoolsdim-1.20-11.0.5.jar",
+    "size": 1736027,
+    "md5": "28e844c7ddf9108f5f904515fb7eece8",
+    "sha256": "47bc0adb0f03e3d3c7ac191ebd33fd997eb0f8004c94a42676f2555e48fc3929"
+  },
+  {
+    "name": "ae2-network-analyser",
+    "title": "AE2 Network Analyser",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "AE2NetworkAnalyzer-1.20-1.0.6-forge.jar",
+    "encoded": "AE2NetworkAnalyzer-1.20-1.0.6-forge.jar",
+    "src": "https://edge.forgecdn.net/files/5107/131/AE2NetworkAnalyzer-1.20-1.0.6-forge.jar",
+    "size": 827642,
+    "md5": "0e94f8b4664de7697ab985e0c1cac041",
+    "sha256": "9c10ab288402b6a01815d58029298fc56dd482f045511ad35104b17e9b6c4393"
   }
 ]

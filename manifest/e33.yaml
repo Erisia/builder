@@ -638,7 +638,7 @@ nodes:
       - file_id: 4610474
         id: 634062
         name: no-chat-reports
-        required: true
+        required: false
         source: curse
       - file_id: 5207625
         id: 412525
@@ -1245,6 +1245,11 @@ nodes:
         name: kubejs
         required: true
         source: curse
+      - name: lootjs
+        file_id: gFOZANKr
+        id: fJFETWDN
+        required: true
+        source: modrinth
       - file_id: 5049032
         id: 347706
         name: rftools-builder
@@ -1653,6 +1658,21 @@ nodes:
         side: client
         required: false
         default: true
+      - name: chisels-bits
+        id: 231095
+        file_id: 5203366
+        required: true
+        source: curse
+      - name: rftools-dimensions
+        id: 240950
+        file_id: 4979926
+        required: true
+        source: curse
+      - name: ae2-network-analyzer
+        id: 961856
+        file_id: 5107131
+        required: true
+        source: curse
   - id: resolver
     kind: ModResolver
     input:
