@@ -3203,12 +3203,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "more-immersive-wires-1.20.4-1.1.4.jar",
-    "encoded": "more-immersive-wires-1.20.4-1.1.4.jar",
-    "src": "https://cdn.modrinth.com/data/ekzqyEZL/versions/LR6RRycW/more-immersive-wires-1.20.4-1.1.4.jar",
-    "size": 158705,
-    "md5": "9b748000850b8f74d9922475dbd1d10d",
-    "sha256": "13fb93e019c88cc0d7256db54287fd79e0a80a88e2a7528f99f5a5cd19b0dd34"
+    "filename": "more-immersive-wires-1.20.1-1.1.3.jar",
+    "encoded": "more-immersive-wires-1.20.1-1.1.3.jar",
+    "src": "https://cdn.modrinth.com/data/ekzqyEZL/versions/QSEvaW35/more-immersive-wires-1.20.1-1.1.3.jar",
+    "size": 355096,
+    "md5": "0adca47046c8282f1a654d1023c298e0",
+    "sha256": "7c6b121467754b7e6d5ad385d4d42d00a8bb0ae3d9acc1e6a2b925f3572afd7c"
   },
   {
     "name": "rftools-builder",

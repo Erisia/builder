@@ -1253,7 +1253,7 @@ nodes:
       - name: more-immersive-wires
         source: modrinth
         id: ekzqyEZL
-        file_id: LR6RRycW
+        file_id: QSEvaW35
         required: true
       - file_id: 5049032
         id: 347706
