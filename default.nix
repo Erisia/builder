@@ -15,9 +15,8 @@ rec {
     tmuxName = "e335";
     description = "E33.5: Pars Una";
     ram = "16G";
-    # TODO: Assign alternate ports
-    port = 25565;
-    prometheusPort = 1224;
+    port = 25566;
+    prometheusPort = 1225;
     minecraft = "1.20.1";
     neoforge = {
       major = "1.20.1";
