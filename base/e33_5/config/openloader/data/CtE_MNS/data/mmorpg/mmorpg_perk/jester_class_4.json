@@ -1,0 +1,15 @@
+{
+  "type": "MAJOR",
+  "icon": "mmorpg:textures/gui/talent_icons/asc/jester/4.png",
+  "id": "jester_class_4",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "spell_damage_per_perc_of_increase_healing",
+      "v1": 50.0
+    }
+  ]
+}

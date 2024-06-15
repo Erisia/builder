@@ -1,0 +1,62 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 16.0,
+      "min": 8.0,
+      "stat": "magic_shield"
+    }
+  ],
+  "gear_slot": "chest",
+  "guid": "cloth_chest",
+  "possible_items": [
+    {
+      "item_id": "cte_essentials:cloth_0_chestplate",
+      "min_rar": "common",
+      "weight": 1
+    },
+    {
+      "item_id": "cte_essentials:cloth_1_chestplate",
+      "min_rar": "uncommon",
+      "weight": 10
+    },
+    {
+      "item_id": "cte_essentials:cloth_2_chestplate",
+      "min_rar": "rare",
+      "weight": 100
+    },
+    {
+      "item_id": "cte_essentials:cloth_3_chestplate",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "cte_essentials:cloth_4_chestplate",
+      "min_rar": "legendary",
+      "weight": 10000
+    },
+    {
+      "item_id": "cte_essentials:cloth_5_chestplate",
+      "min_rar": "mythic",
+      "weight": 100000
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "intelligence": 0.5
+    }
+  },
+  "style": "INT",
+  "tags": {
+    "tags": [
+      "chest",
+      "armor_family",
+      "magic_shield_stat",
+      "intelligence",
+	  "cloth_chest"
+    ]
+  },
+  "weapon_type": "none",
+  "weight": 1000
+}

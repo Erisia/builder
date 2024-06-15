@@ -1,0 +1,31 @@
+{
+  "type": "watcher_eye",
+  "eye_aura_req": "back_to_basics",
+  "guid": "back_to_basics_eye",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [],
+        "req_type": "INCLUDES_ANY"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "MORE",
+      "max": 20.0,
+      "min": 10.0,
+      "stat": "basic_attack_dmg"
+    },
+    {
+      "type": "MORE",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "accuracy"
+    }
+  ],
+  "weight": 1000
+}

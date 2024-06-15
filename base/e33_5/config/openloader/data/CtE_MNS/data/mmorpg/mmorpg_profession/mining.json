@@ -1,0 +1,282 @@
+{
+  "chance_drops": [
+    {
+      "type": "MEDIUM",
+      "chance": 8.0,
+      "drops": [
+        {
+          "item_id": "mmorpg:rare_mats/mining/medium",
+          "min_lvl": 0.0,
+          "num": 1,
+          "weight": 1000
+        }
+      ]
+    },
+    {
+      "type": "LESSER",
+      "chance": 32.0,
+      "drops": [
+        {
+          "item_id": "mmorpg:rare_mats/mining/lesser",
+          "min_lvl": 0.0,
+          "num": 1,
+          "weight": 1000
+        }
+      ]
+    },
+    {
+      "type": "GREATER",
+      "chance": 2.0,
+      "drops": [
+        {
+          "item_id": "mmorpg:rare_mats/mining/greater",
+          "min_lvl": 0.0,
+          "num": 1,
+          "weight": 1000
+        }
+      ]
+    }
+  ],
+  "exp_sources": {
+    "default_xp": {
+      "exp": 50,
+      "req": [],
+      "tier": 0
+    },
+    "map": {
+      "0": [
+        {
+          "type": "BLOCK_TAG",
+          "exp": 10,
+          "id": "minecraft:coal_ores",
+          "req": []
+        },
+        {
+          "type": "BLOCK_TAG",
+          "exp": 15,
+          "id": "minecraft:iron_ores",
+          "req": []
+        },
+        {
+          "type": "BLOCK_TAG",
+          "exp": 15,
+          "id": "minecraft:copper_ores",
+          "req": []
+        },
+        {
+          "type": "BLOCK_TAG",
+          "exp": 12,
+          "id": "forge:ores/zinc",
+          "req": []
+        }
+      ],
+      "1": [
+        {
+          "type": "BLOCK_TAG",
+          "exp": 10,
+          "id": "minecraft:redstone_ores",
+          "req": []
+        },
+        {
+          "type": "BLOCK_TAG",
+          "exp": 15,
+          "id": "minecraft:lapis_ores",
+          "req": []
+        },
+        {
+          "type": "BLOCK_TAG",
+          "exp": 20,
+          "id": "minecraft:gold_ores",
+          "req": []
+        },
+        {
+          "type": "BLOCK_TAG",
+          "exp": 5,
+          "id": "forge:ores/quartz",
+          "req": []
+        },
+        {
+          "type": "BLOCK_TAG",
+          "exp": 20,
+          "id": "forge:ores/cloggrum",
+          "req": []
+        }
+      ],
+      "2": [
+        {
+          "type": "BLOCK_TAG",
+          "exp": 25,
+          "id": "minecraft:emerald_ores",
+          "req": []
+        },
+        {
+          "type": "BLOCK_TAG",
+          "exp": 30,
+          "id": "minecraft:diamond_ores",
+          "req": []
+        },
+        {
+          "type": "BLOCK_TAG",
+          "exp": 30,
+          "id": "forge:ores/froststeel",
+          "req": []
+        },
+        {
+          "type": "BLOCK_TAG",
+          "exp": 35,
+          "id": "forge:ores/utherium",
+          "req": []
+        }
+      ],
+      "3": [
+        {
+          "type": "BLOCK_TAG",
+          "exp": 40,
+          "id": "forge:ores/regalium",
+          "req": []
+        },
+        {
+          "type": "BLOCK_TAG",
+          "exp": 40,
+          "id": "blue_skies:ores/moonstone",
+          "req": []
+        },
+        {
+          "type": "BLOCK_TAG",
+          "exp": 50,
+          "id": "blue_skies:ores/pyrope",
+          "req": []
+        },
+        {
+          "type": "BLOCK_TAG",
+          "exp": 50,
+          "id": "blue_skies:ores/aquite",
+          "req": []
+        }
+      ],
+      "4": [
+        {
+          "type": "BLOCK_TAG",
+          "exp": 60,
+          "id": "blue_skies:ores/charoite",
+          "req": []
+        },
+        {
+          "type": "BLOCK_TAG",
+          "exp": 60,
+          "id": "blue_skies:ores/diopside",
+          "req": []
+        },
+        {
+          "type": "BLOCK_TAG",
+          "exp": 75,
+          "id": "blue_skies:ores/horizonite",
+          "req": []
+        }
+      ],
+      "5": [
+        {
+          "type": "BLOCK_TAG",
+          "exp": 80,
+          "id": "blue_skies:ores/falsite",
+          "req": []
+        },
+        {
+          "type": "BLOCK_TAG",
+          "exp": 80,
+          "id": "blue_skies:ores/ventium",
+          "req": []
+        }
+      ]
+    }
+  },
+  "id": "mining",
+  "misc_chance": 5.0,
+  "tiered_drops": {
+    "TIER0": [
+      {
+        "type": "MAIN",
+        "chance": 20.0,
+        "drops": [
+          {
+            "item_id": "cte_essentials:stone_block_0",
+            "min_lvl": 0.0,
+            "num": 1,
+            "weight": 1000
+          }
+        ]
+      }
+    ],
+    "TIER1": [
+      {
+        "type": "MAIN",
+        "chance": 20.0,
+        "drops": [
+          {
+            "item_id": "cte_essentials:stone_block_1",
+            "min_lvl": 0.2,
+            "num": 1,
+            "weight": 1000
+          }
+        ]
+      }
+    ],
+    "TIER2": [
+      {
+        "type": "MAIN",
+        "chance": 20.0,
+        "drops": [
+          {
+            "item_id": "cte_essentials:stone_block_2",
+            "min_lvl": 0.4,
+            "num": 1,
+            "weight": 1000
+          }
+        ]
+      }
+    ],
+    "TIER3": [
+      {
+        "type": "MAIN",
+        "chance": 20.0,
+        "drops": [
+          {
+            "item_id": "cte_essentials:stone_block_3",
+            "min_lvl": 0.6,
+            "num": 1,
+            "weight": 1000
+          }
+        ]
+      }
+    ],
+    "TIER4": [
+      {
+        "type": "MAIN",
+        "chance": 20.0,
+        "drops": [
+          {
+            "item_id": "cte_essentials:stone_block_4",
+            "min_lvl": 0.8,
+            "num": 1,
+            "weight": 1000
+          }
+        ]
+      }
+    ],
+    "TIER5": [
+      {
+        "type": "MAIN",
+        "chance": 20.0,
+        "drops": [
+          {
+            "item_id": "cte_essentials:stone_block_5",
+            "min_lvl": 1.0,
+            "num": 1,
+            "weight": 1000
+          }
+        ]
+      }
+    ]
+  },
+  "tool_tag": "mining_tool"
+}

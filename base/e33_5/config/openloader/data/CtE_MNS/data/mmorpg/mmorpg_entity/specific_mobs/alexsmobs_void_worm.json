@@ -1,0 +1,22 @@
+{
+  "dmg_multi": 1.5,
+  "exp_multi": 1.5,
+  "hp_multi": 4.0,
+  "identifier": "alexsmobs:void_worm",
+  "loot_multi": 1.5,
+  "max_lvl": 60,
+  "min_lvl": 60,
+  "set_health_damage_override": false,
+  "set_rar": "RARE",
+  "stat_multi": 1.5,
+  "stats": {
+    "stats": [
+      {
+        "type": "flat",
+        "max": 25.0,
+        "min": 25.0,
+        "stat": "elemental_resist"
+      }
+	]
+  }
+}

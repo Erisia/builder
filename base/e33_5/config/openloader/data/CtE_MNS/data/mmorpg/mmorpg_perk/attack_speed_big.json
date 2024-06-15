@@ -1,0 +1,21 @@
+{
+  "type": "SPECIAL",
+  "icon": "mmorpg:textures/gui/stat_icons/misc/attack_speed.png",
+  "id": "attack_speed_big",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "attack_speed",
+      "v1": 12.0
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "draw_speed",
+      "v1": 12.0
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "type": "MAJOR",
+  "icon": "mmorpg:textures/gui/talent_icons/asc/jester/6.png",
+  "id": "jester_class_6",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "increase_healing",
+      "v1": 25.0
+    },
+    {
+      "type": "MORE",
+      "scale_to_lvl": false,
+      "stat": "health_regen",
+      "v1": 10.0
+    },
+    {
+      "type": "MORE",
+      "scale_to_lvl": false,
+      "stat": "mana_regen",
+      "v1": 10.0
+    },
+    {
+      "type": "MORE",
+      "scale_to_lvl": false,
+      "stat": "energy_regen",
+      "v1": 10.0
+    },
+    {
+      "type": "MORE",
+      "scale_to_lvl": false,
+      "stat": "magic_shield_regen",
+      "v1": 10.0
+    }
+  ]
+}

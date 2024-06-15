@@ -1,0 +1,65 @@
+{
+  "structures": [
+    {
+      "structure": "structory_towers:ancient_temple",
+      "weight": 1
+    },
+    {
+      "structure": "structory_towers:engineer_tower",
+      "weight": 1
+    },
+    {
+      "structure": "structory_towers:farmer_outpost",
+      "weight": 1
+    },
+    {
+      "structure": "structory_towers:foraging_outpost",
+      "weight": 1
+    },
+    {
+      "structure": "structory_towers:great_toadstool",
+      "weight": 1
+    },
+    {
+      "structure": "structory_towers:lighthouse",
+      "weight": 1
+    },
+    {
+      "structure": "structory_towers:nomad_outpost",
+      "weight": 1
+    },
+    {
+      "structure": "structory_towers:ocean_pillar",
+      "weight": 1
+    },
+    {
+      "structure": "structory_towers:overgrown_mangrove",
+      "weight": 1
+    },
+    {
+      "structure": "structory_towers:quarter_outpost",
+      "weight": 1
+    },
+    {
+      "structure": "structory_towers:small_firetower",
+      "weight": 1
+    },
+    {
+      "structure": "structory_towers:taiga_outpost",
+      "weight": 1
+    },
+    {
+      "structure": "structory_towers:wizard_tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 420699602,
+    "frequency_reduction_method": "default",
+    "frequency": 0.725,
+    "spread_type": "triangular",
+    "spacing": 32,
+    "separation": 8
+  }
+}

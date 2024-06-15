@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:dusts/redstone"
+    },
+    "B": {
+      "item": "supplementaries:timber_frame"
+    },
+    "C": {
+      "item": "createaddition:iron_wire"
+    },
+    "D": {
+      "item": "sophisticatedstorage:upgrade_base"
+    }
+  },
+  "result": {
+    "item": "sophisticatedstorage:filter_upgrade"
+  }
+}

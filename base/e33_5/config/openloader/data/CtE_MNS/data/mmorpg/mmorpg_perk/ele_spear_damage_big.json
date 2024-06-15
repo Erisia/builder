@@ -1,0 +1,15 @@
+{
+  "type": "SPECIAL",
+  "icon": "mmorpg:textures/gui/stat_icons/weapon/ele_spear_damage.png",
+  "id": "ele_spear_damage_big",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "ele_spear_damage",
+      "v1": 10.0
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "cen",
+  "item_id": "mmorpg:runes/cen",
+  "min_lvl_multi": 0.1,
+  "on_armor_stats": [
+    {
+      "type": "PERCENT",
+      "max": 8.0,
+      "min": 8.0,
+      "stat": "armor"
+    }
+  ],
+  "on_jewelry_stats": [
+    {
+      "type": "PERCENT",
+      "max": 8.0,
+      "min": 8.0,
+      "stat": "armor"
+    }
+  ],
+  "on_weapons_stats": [
+    {
+      "type": "PERCENT",
+      "max": 8.0,
+      "min": 8.0,
+      "stat": "health_regen"
+    }
+  ],
+  "tier": 1,
+  "weight": 900
+}

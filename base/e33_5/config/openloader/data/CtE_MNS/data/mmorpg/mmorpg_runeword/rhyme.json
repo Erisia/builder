@@ -1,0 +1,38 @@
+{
+  "id": "rhyme",
+  "runes": [
+    "mos",
+    "ita"
+  ],
+  "slots": [
+    "shield",
+	"tome",
+	"totem"
+  ],
+  "stats": [
+    {
+      "type": "PERCENT",
+      "max": 40.0,
+      "min": 30.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "PERCENT",
+      "max": 15.0,
+      "min": 15.0,
+      "stat": "mana_regen"
+    },
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 20.0,
+      "stat": "elemental_resist"
+    },
+    {
+      "type": "FLAT",
+      "max": 3.0,
+      "min": 3.0,
+      "stat": "magic_find"
+    }
+  ]
+}

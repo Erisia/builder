@@ -1,0 +1,22 @@
+{
+  "affected": "Mobs",
+  "id": "chaos_atk",
+  "map_resist": "Shadow",
+  "map_resist_bonus_needed": 10,
+  "req": "",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 30.0,
+      "min": 10.0,
+      "stat": "plus_phys_to_chaos"
+    },
+    {
+      "type": "FLAT",
+      "max": 45.0,
+      "min": 15.0,
+      "stat": "poison_chance"
+    }
+  ],
+  "weight": 1000
+}

@@ -1,0 +1,34 @@
+{
+  "gem_type": "amethyst",
+  "identifier": "amethyst5",
+  "item_id": "mmorpg:gems/amethyst/5",
+  "min_lvl_multi": 0.5,
+  "on_armor_stats": [
+    {
+      "type": "PERCENT",
+      "scale_to_lvl": false,
+      "stat": "mana",
+      "v1": 11.0
+    }
+  ],
+  "on_jewelry_stats": [
+    {
+      "type": "PERCENT",
+      "scale_to_lvl": false,
+      "stat": "intelligence",
+      "v1": 11.0
+    }
+  ],
+  "on_weapons_stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "increase_healing",
+      "v1": 14.0
+    }
+  ],
+  "perc_upgrade_chance": 100,
+  "text_format": "DARK_PURPLE",
+  "tier": 5,
+  "weight": 3
+}

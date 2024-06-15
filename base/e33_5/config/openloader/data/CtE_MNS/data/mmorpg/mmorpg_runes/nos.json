@@ -1,0 +1,31 @@
+{
+  "id": "nos",
+  "item_id": "mmorpg:runes/nos",
+  "min_lvl_multi": 0.0,
+  "on_armor_stats": [
+    {
+      "type": "PERCENT",
+      "max": 8.0,
+      "min": 8.0,
+      "stat": "health"
+    }
+  ],
+  "on_jewelry_stats": [
+    {
+      "type": "PERCENT",
+      "max": 8.0,
+      "min": 8.0,
+      "stat": "health"
+    }
+  ],
+  "on_weapons_stats": [
+    {
+      "type": "FLAT",
+      "max": 2.0,
+      "min": 2.0,
+      "stat": "health_on_kill"
+    }
+  ],
+  "tier": 0,
+  "weight": 1000
+}

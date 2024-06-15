@@ -1,0 +1,14 @@
+{
+  "affixes": 1,
+  "dmg_multi": 1.5,
+  "exp_multi": 2.5,
+  "extra_hp_multi": 2.5,
+  "force_custom_hp": -1,
+  "id": "rare",
+  "loot_multi": 2.5,
+  "min_lvl": 0,
+  "name": "Rare",
+  "stat_multi": 1.5,
+  "text_format": "AQUA",
+  "weight": 64
+}

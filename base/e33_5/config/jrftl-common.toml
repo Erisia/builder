@@ -1,0 +1,6 @@
+
+[general]
+	#In HardMode rotten flesh has first to be crafted into prepared flesh by crafting it in a 2x2 grid.
+	#The game has to be restarted for this config to take effect
+	enableHardMode = false
+

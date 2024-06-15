@@ -1,0 +1,32 @@
+{
+  "base": {
+    "max": 1.125,
+    "min": 0.25
+  },
+  "base_scaling_type": "NORMAL",
+  "cap_to_wep_dmg": 3.0,
+  "dmg_effectiveness": {
+    "multi": {
+      "max": 0.42,
+      "min": 0.21
+    },
+    "stat": "health"
+  },
+  "id": "galvanic_blade",
+  "stat_scalings": [
+    {
+      "multi": {
+        "max": 0.42,
+        "min": 0.21
+      },
+      "stat": "weapon_damage"
+    },
+    {
+      "multi": {
+        "max": 0.05,
+        "min": 0.03
+      },
+      "stat": "mana"
+    }
+  ]
+}

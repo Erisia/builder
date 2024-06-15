@@ -1,0 +1,25 @@
+{
+  "base": {
+    "max": 14.25,
+    "min": 9.0
+  },
+  "base_scaling_type": "NORMAL",
+  "cap_to_wep_dmg": 1000.0,
+  "dmg_effectiveness": {
+    "multi": {
+      "max": 2.0,
+      "min": 1.5
+    },
+    "stat": "health"
+  },
+  "id": "totem_heal",
+  "stat_scalings": [
+    {
+      "multi": {
+        "max": 2.0,
+        "min": 1.5
+      },
+      "stat": "weapon_damage"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "reduced_proj_speed",
+  "manaMulti": 1.2,
+  "min_lvl": 30,
+  "one_of_a_kind": "",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 27.0,
+      "min": 9.0,
+      "stat": "projectile_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": -40.0,
+      "min": -40.0,
+      "stat": "faster_projectiles"
+    }
+  ],
+  "style": "DEX",
+  "weight": 1000
+}

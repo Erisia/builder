@@ -1,0 +1,21 @@
+{
+  "type": "MAJOR",
+  "icon": "mmorpg:textures/gui/stat_icons/game_changers/fortified_reflexes.png",
+  "id": "fortified_reflexes",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "armor_per_5_dodge",
+      "v1": 2.0
+    },
+    {
+      "type": "MORE",
+      "scale_to_lvl": false,
+      "stat": "dodge",
+      "v1": -33.0
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "affected": "Mobs",
+  "id": "lightning_atk",
+  "map_resist": "Nature",
+  "map_resist_bonus_needed": 10,
+  "req": "",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 45.0,
+      "min": 15.0,
+      "stat": "plus_phys_to_lightning"
+    },
+    {
+      "type": "FLAT",
+      "max": 45.0,
+      "min": 15.0,
+      "stat": "electrify_chance"
+    }
+  ],
+  "weight": 1000
+}

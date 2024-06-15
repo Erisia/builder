@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCD",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "create:attribute_filter"
+    },
+    "B": {
+      "item": "create:precision_mechanism"
+    },
+    "C": {
+      "item": "sophisticatedbackpacks:deposit_upgrade"
+    },
+    "D": {
+      "item": "create:brass_hand"
+	},
+    "E": {
+      "item": "create:rose_quartz"
+	},
+    "F": {
+      "item": "mmorpg:stone/2"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:advanced_deposit_upgrade"
+  }
+}

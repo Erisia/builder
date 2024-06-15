@@ -1,0 +1,40 @@
+{
+  "exp": 350,
+  "id": "stat_soul_family_armor_rare5",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "mmorpg:material/mining/5",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:stone/2",
+      "num": 4
+    },
+    {
+      "type": "ITEM",
+      "id": "minecraft:leather",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "blue_skies:falsite_ingot",
+      "num": 2
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:rare_mats/mining/greater",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "lightmanscurrency:coin_iron",
+      "num": 1    }
+  ],
+  "power": "greater",
+  "profession": "gear_crafting",
+  "result": "mmorpg:stat_soul/family/armor/rare",
+  "result_num": 1,
+  "tier": 5
+}

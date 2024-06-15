@@ -1,0 +1,62 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 12.0,
+      "min": 6.0,
+      "stat": "magic_shield"
+    }
+  ],
+  "gear_slot": "pants",
+  "guid": "cloth_pants",
+  "possible_items": [
+    {
+      "item_id": "cte_essentials:cloth_0_leggings",
+      "min_rar": "common",
+      "weight": 1
+    },
+    {
+      "item_id": "cte_essentials:cloth_1_leggings",
+      "min_rar": "uncommon",
+      "weight": 10
+    },
+    {
+      "item_id": "cte_essentials:cloth_2_leggings",
+      "min_rar": "rare",
+      "weight": 100
+    },
+    {
+      "item_id": "cte_essentials:cloth_3_leggings",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "cte_essentials:cloth_4_leggings",
+      "min_rar": "legendary",
+      "weight": 10000
+    },
+    {
+      "item_id": "cte_essentials:cloth_5_leggings",
+      "min_rar": "mythic",
+      "weight": 100000
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "intelligence": 0.5
+    }
+  },
+  "style": "INT",
+  "tags": {
+    "tags": [
+      "armor_family",
+      "pants",
+      "magic_shield_stat",
+      "intelligence",
+	  "cloth_pants"
+    ]
+  },
+  "weapon_type": "none",
+  "weight": 1000
+}

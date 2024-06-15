@@ -1,0 +1,11 @@
+{
+  "attribute_id": "",
+  "conversion": 4.0,
+  "enchant_id": "deeperdarker:sculk_smite",
+  "id": "dd_sculk_smite_compat",
+  "maximum_cap": 50,
+  "minimum_cap": 0,
+  "mns_stat_id": "chaos_penetration",
+  "mod_type": "FLAT",
+  "scaling": "NONE"
+}

@@ -1,0 +1,34 @@
+{
+  "gem_type": "azurite",
+  "identifier": "azurite5",
+  "item_id": "mmorpg:gems/azurite/5",
+  "min_lvl_multi": 0.5,
+  "on_armor_stats": [
+    {
+      "type": "PERCENT",
+      "scale_to_lvl": false,
+      "stat": "energy",
+      "v1": 11.0
+    }
+  ],
+  "on_jewelry_stats": [
+    {
+      "type": "PERCENT",
+      "scale_to_lvl": false,
+      "stat": "dexterity",
+      "v1": 11.0
+    }
+  ],
+  "on_weapons_stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "critical_damage",
+      "v1": 22.0
+    }
+  ],
+  "perc_upgrade_chance": 100,
+  "text_format": "AQUA",
+  "tier": 5,
+  "weight": 3
+}

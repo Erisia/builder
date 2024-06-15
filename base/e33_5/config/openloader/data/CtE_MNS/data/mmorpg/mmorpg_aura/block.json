@@ -1,0 +1,14 @@
+{
+  "id": "block",
+  "min_lvl": 20,
+  "reservation": 0.4,
+  "stats": [
+    {
+      "type": "PERCENT",
+      "max": 50.0,
+      "min": 10.0,
+      "stat": "block_chance"
+    }
+  ],
+  "style": "INT"
+}

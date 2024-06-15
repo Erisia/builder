@@ -1,0 +1,28 @@
+{
+  "type": "ASC",
+  "icon": "mmorpg:textures/gui/talent_icons/asc/assassin.png",
+  "id": "assassin_class",
+  "is_entry": true,
+  "max_lvls": 1,
+  "one_kind": "ascendancy",
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "intelligence",
+      "v1": 3.0
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "strength",
+      "v1": 1.0
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "dexterity",
+      "v1": 5.0
+    }
+  ]
+}

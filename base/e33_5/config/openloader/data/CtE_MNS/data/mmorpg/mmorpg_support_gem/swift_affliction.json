@@ -1,0 +1,22 @@
+{
+  "id": "swift_affliction",
+  "manaMulti": 1.4,
+  "min_lvl": 30,
+  "one_of_a_kind": "",
+  "stats": [
+    {
+      "type": "MORE",
+      "max": 30.0,
+      "min": 10.0,
+      "stat": "poison_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": -35.0,
+      "min": -35.0,
+      "stat": "poison_duration"
+    }
+  ],
+  "style": "DEX",
+  "weight": 1000
+}

@@ -1,0 +1,30 @@
+{
+  "exp": 200,
+  "id": "food_greater_energy2",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "mmorpg:material/farming/2",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "minecraft:carrot",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:rare_mats/farming/greater",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "lightmanscurrency:coin_gold",
+      "num": 1    }
+  ],
+  "power": "greater",
+  "profession": "cooking",
+  "result": "mmorpg:food/greater_energy",
+  "result_num": 1,
+  "tier": 2
+}

@@ -1,0 +1,25 @@
+{
+  "exp": 200,
+  "id": "seafood_greater_loot0",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "mmorpg:material/fishing/0",
+      "num": 5
+    },
+    {
+      "type": "ITEM",
+      "id": "minecraft:pufferfish",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "lightmanscurrency:coin_gold",
+      "num": 1    }
+  ],
+  "power": "greater",
+  "profession": "cooking",
+  "result": "mmorpg:seafood/greater_loot",
+  "result_num": 1,
+  "tier": 0
+}

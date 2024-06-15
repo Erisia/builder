@@ -1,0 +1,13 @@
+{
+	hide_tooltip: true
+	id: "6355A870A165DFE3"
+	loot_size: 3
+	order_index: 40
+	rewards: [
+		{ item: "mmorpg:potions/reset_all_perks" }
+		{ item: "mmorpg:potions/reset_spells" }
+		{ item: "mmorpg:potions/reset_stats" }
+	]
+	title: "Reset Potion Package (3 Items)"
+	use_title: true
+}

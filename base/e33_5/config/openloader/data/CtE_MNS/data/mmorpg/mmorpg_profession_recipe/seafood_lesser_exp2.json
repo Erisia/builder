@@ -1,0 +1,31 @@
+{
+  "exp": 100,
+  "id": "seafood_lesser_exp2",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "mmorpg:material/fishing/2",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "minecraft:tropical_fish",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:rare_mats/fishing/lesser",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "lightmanscurrency:coin_copper",
+      "num": 1
+    }
+  ],
+  "power": "lesser",
+  "profession": "cooking",
+  "result": "mmorpg:seafood/lesser_exp",
+  "result_num": 1,
+  "tier": 2
+}

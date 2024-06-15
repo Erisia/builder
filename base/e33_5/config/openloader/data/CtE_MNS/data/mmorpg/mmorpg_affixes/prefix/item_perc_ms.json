@@ -1,0 +1,27 @@
+{
+  "type": "prefix",
+  "eye_aura_req": "",
+  "guid": "item_perc_ms",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [
+          "magic_shield_stat"
+        ],
+        "req_type": "INCLUDES_ANY"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "PERCENT",
+      "max": 60.0,
+      "min": 15.0,
+      "stat": "gear_defense"
+    }
+  ],
+  "weight": 1000
+}

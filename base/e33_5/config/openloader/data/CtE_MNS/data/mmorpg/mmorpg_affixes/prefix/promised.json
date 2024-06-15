@@ -1,0 +1,27 @@
+{
+  "type": "prefix",
+  "eye_aura_req": "",
+  "guid": "promised",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [
+          "tome"
+        ],
+        "req_type": "INCLUDES_ANY"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 2.0,
+      "min": 0.5,
+      "stat": "magic_shield_regen"
+    }
+  ],
+  "weight": 500
+}

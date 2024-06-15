@@ -1,0 +1,44 @@
+{
+  "base_gear": "leather_boots",
+  "guid": "last_tracker_armor_boots",
+  "flavor_text": "",
+  "force_item_id": "cte2modpackarmors:last_tracker_armor_boots",
+  "league": "",
+  "min_tier": 80,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 60.0,
+      "min": 50.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "FLAT",
+      "max": 3.0,
+      "min": 3.0,
+      "stat": "physical_weapon_damage_per_perc_of_energy"
+    },
+    {
+      "type": "PERCENT",
+      "max": 20.0,
+      "min": 15.0,
+      "stat": "critical_hit"
+    },
+    {
+      "type": "PERCENT",
+      "max": 20.0,
+      "min": 20.0,
+      "stat": "energy_regen"
+    },
+    {
+      "type": "FLAT",
+      "max": 30.0,
+      "min": 25.0,
+      "stat": "move_speed"
+    }
+  ],
+  "weight": 250
+}

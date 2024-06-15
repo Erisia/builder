@@ -1,0 +1,24 @@
+{
+  "id": "impedement",
+  "runes": [
+    "owd",
+	"ita"
+  ],
+  "slots": [
+    "necklace"
+  ],
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": -1000.0,
+      "min": -1000.0,
+      "stat": "bonus_exp"
+    },
+    {
+      "type": "FLAT",
+      "max": 15.0,
+      "min": 5.0,
+      "stat": "increase_healing"
+    }
+  ]
+}

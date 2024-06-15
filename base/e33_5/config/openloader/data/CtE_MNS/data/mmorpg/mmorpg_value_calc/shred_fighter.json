@@ -1,0 +1,25 @@
+{
+  "base": {
+    "max": 2.8125,
+    "min": 0.625
+  },
+  "base_scaling_type": "NORMAL",
+  "cap_to_wep_dmg": 1000.0,
+  "dmg_effectiveness": {
+    "multi": {
+      "max": 0.9625,
+      "min": 0.6875
+    },
+    "stat": "health"
+  },
+  "id": "shred_fighter",
+  "stat_scalings": [
+    {
+      "multi": {
+        "max": 0.9625,
+        "min": 0.6875
+      },
+      "stat": "weapon_damage"
+    }
+  ]
+}

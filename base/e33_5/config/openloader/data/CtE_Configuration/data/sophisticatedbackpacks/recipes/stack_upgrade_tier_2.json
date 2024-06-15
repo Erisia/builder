@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "create:brass_sheet"
+    },
+    "B": {
+      "item": "multipiston:multipistonblock"
+    },
+    "C": {
+      "item": "minecraft:piston"
+    },
+    "D": {
+      "item": "sophisticatedbackpacks:stack_upgrade_tier_1"
+    },
+    "E": {
+      "item": "create:rose_quartz"
+    },
+    "F": {
+      "item": "mmorpg:stone/2"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:stack_upgrade_tier_2"
+  }
+}

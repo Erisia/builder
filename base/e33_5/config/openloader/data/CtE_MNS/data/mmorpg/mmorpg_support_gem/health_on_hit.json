@@ -1,0 +1,22 @@
+{
+  "id": "health_on_hit",
+  "manaMulti": 1.1,
+  "min_lvl": 20,
+  "one_of_a_kind": "",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 4.5,
+      "min": 1.5,
+      "stat": "lifesteal"
+    },
+    {
+      "type": "FLAT",
+      "max": 4.5,
+      "min": 1.5,
+      "stat": "spell_lifesteal"
+    }
+  ],
+  "style": "STR",
+  "weight": 1000
+}

@@ -1,0 +1,1220 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "professions"
+	group: "5F2CCE8075FCC994"
+	icon: {
+		Count: 1
+		id: "minecraft:diamond_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "3FD221468FC33E9D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5B97985430859986"]
+			description: [
+				"Salvaging is the act of deconstructing your gear into materials that can be used to craft Profession items, gear, or repair."
+				""
+				"In order to use a Salvaging Station, you &lmust&r place a hopper above the station, and place your gear to be salvaged into the hopper."
+				""
+				"Your gear will be salvaged and you will receive materials as the output. &eWhen salvaging, there are 2 main outputs&r:"
+				""
+				"1. &eStones&r of varying rarity. These are used to repair or craft gear. They can also be used to craft other items. The rarity of the stone depends on the rarity of the gear salvaged."
+				""
+				"2. &eSalvaging Essences&r which are used in other professions such as Alchemy. There are 3 rarities of Essence: Lesser, Medium, and Greater. Higher rarity essences appear less frequently."
+				""
+				"&cYou will not receive Essences if you salvage your gear via the Hub auto-salvaging function.&r"
+			]
+			id: "16525899DA8C3A74"
+			rewards: [
+				{
+					id: "5D27E610193FC88F"
+					item: "mmorpg:rare_mats/salvaging/medium"
+					title: "Medium Essence"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "0352A11976D1DDF7"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+			]
+			subtitle: "M\\&S Professions"
+			tasks: [{
+				id: "0367855050B7E8AC"
+				item: "mmorpg:salvaging_station"
+				type: "item"
+			}]
+			title: "Salvaging"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["06E3D7523619E263"]
+			description: [
+				"You can craft &eCrafted Gear Souls&r for the following: armor, offhands, jewelry, and weapons. When crafting gear, there are a few ingredients:"
+				""
+				"1. &eTiered Ore&r - earned from Mining, they are based on the item level you want to craft. The level ranges are the same as what you'd find in the Mining Profession."
+				""
+				"2. &c4&r &eStones (Rarity)&r - the Stones determine the rarity of the gear you will craft. You can get these Stones while salvaging."
+				""
+				"3. &eIngots + Identifier Items&r - the items that determine whether you are crafting armor, offhands, jewelry, or weapons. Refer to &cJEI&r for recipes!"
+				""
+				"4. &eCrystal&r - the rarity of the Crystal used in the recipe is determined by the level of the craft: &aLesser Crystal&r: Lv. 1-60, &9Medium Crystal&r: Lv. 61-100, &dGreater Crystal&r: Lv. 100."
+				""
+				"5. &eMoney&r"
+				""
+				"&lYou can always check the &cJEI&r &lto see what items are needed for &eCrafted Gear Soul&r&l.&r"
+			]
+			id: "66D05E37DC634CC8"
+			rewards: [
+				{
+					id: "3230DF5B7E7AFDEF"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Money"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6177582E97268EC5"
+					table_id: 8834087311923919794L
+					title: "Gear Crafting Starter Kit (8 Items)"
+					type: "loot"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "3F252D9D1E228D51"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+			]
+			subtitle: "M\\&S Professions"
+			tasks: [{
+				id: "0BC1B554EEEDFF0E"
+				item: "mmorpg:gear_crafting_station"
+				type: "item"
+			}]
+			title: "Gear Crafting"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"350315F71B69062F"
+				"5BAFAA732A026ADD"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"You can cook foods which will provide hunger and saturation, but also provide stat boosts. When cooking, there are a few ingredients:"
+				""
+				"1. &eTiered Meat/Produce/Fish&r - earned from Hubsandry, Farming, and Fishing they are based on the item level you want to craft. The level ranges are the same as what you'd find in the gathering Professions. The type of food you use depends on what food you cook:"
+				""
+				"&cMeat&r: Health/Magic Shield Regen"
+				"&2Produce&r: Mana/Energy Regen"
+				"&bFish&r: EXP/Loot"
+				""
+				"2. &eOther Food Item&r - generally used as an additional ingredient that can also determine what food you're cooking. Refer to &cJEI&r for recipes!"
+				""
+				"3. &eBeef/Root/Puffer&r - the rarity of the item used in the recipe determines the rarity of the food cooked. Beef is used in Meat dishes, Roots are used in Produce dishes and the Puffer is used for seafood (EXP/Loot) dishes."
+				""
+				"4. &eMoney&r"
+				""
+				"&lYou can always check the &cJEI&r &lto see what items are needed for &eCooking&r&l.&r"
+				""
+				"&eRequires 1 dependency to be completed.&r"
+			]
+			id: "0402FA5F0E1D4835"
+			rewards: [
+				{
+					id: "733A740BBD7E157B"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Money"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "013D561F5F50C7AD"
+					table_id: 4000157731876446784L
+					title: "Cooking Starter Kit (9 Items)"
+					type: "loot"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "2A86C11774E7E94C"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+			]
+			subtitle: "M\\&S Professions"
+			tasks: [{
+				id: "286493E91C2A3DE3"
+				item: "mmorpg:cooking_station"
+				type: "item"
+			}]
+			title: "Cooking"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E27A84CE1F030A1"]
+			description: [
+				"You can brew potions which can recover health and resources, or provide stat boosts. When brewing, there are a few ingredients:"
+				""
+				"1. &eTiered Meat/Produce/Fish&r - earned from Hubsandry, Farming, and Fishing they are based on the item level you want to craft. The level ranges are the same as what you'd find in the gathering Professions. The type of food you use depends on what potion you brew:"
+				""
+				"&cMeat&r: Health/Resource Potion"
+				"&2Produce&r: Core Stat Potion"
+				"&bFish&r: Damage Buff Potion"
+				""
+				"2. 1-2 &eOther Food Items&r - used as an additional ingredient. Refer to &cJEI&r for recipes!"
+				""
+				"3. &eStone&r OR &eEssence&r - Stones are used for Health and Resource Potions, and Essences are used for Core Stat and Damage Buff Potions. Stones and Essences used in the recipe determine the rarity of the potion. A Common Stone will craft a Common Potion, a Lesser Essence will craft a Lesser Potion, etc."
+				""
+				"4. &eMoney&r"
+				""
+				"&lYou can always check the &cJEI&r &lto see what items are needed for &eAlchemy&r&l.&r"
+			]
+			id: "69CEB39AA409EB41"
+			rewards: [
+				{
+					id: "45E800C630906FA0"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Money"
+					type: "item"
+				}
+				{
+					id: "61CF1AA5B0CB52A9"
+					item: "mmorpg:rare_mats/salvaging/medium"
+					title: "Medium Essence"
+					type: "item"
+				}
+				{
+					id: "72560260773744C2"
+					item: "minecraft:golden_carrot"
+					title: "Golden Carrot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "06A71F74FBBAB6B4"
+					item: "minecraft:nether_wart"
+					title: "Nether Warts"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "0AC5084AFE23C772"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+			]
+			subtitle: "M\\&S Professions"
+			tasks: [{
+				id: "1E06AAEDAF51CAC4"
+				item: "mmorpg:alchemy_station"
+				type: "item"
+			}]
+			title: "Alchemy"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["06E3D7523619E263"]
+			description: [
+				"You can craft &eEnchantment&r for the following: armor, offhands, jewelry, and weapons. When crafting the scrolls, there are a few ingredients:"
+				""
+				"1. &eTiered Ore&r - earned from Mining, they are based on the item level you want to craft. The level ranges are the same as what you'd find in the Mining Profession."
+				""
+				"2. &c4&r &eStones (Rarity)&r - the Stones determine the rarity of the gear you will craft. You can get these Stones while salvaging."
+				""
+				"3. &eIngots + Identifier Items&r - the items that determine whether you are crafting armor, offhands, jewelry, or weapons. Refer to &cJEI&r for recipes!"
+				""
+				"4. &eCrystal&r - the rarity of the Crystal used in the recipe is determined by the level of the craft: &aLesser Crystal&r: Lv. 1-60, &9Medium Crystal&r: Lv. 61-100, &dGreater Crystal&r: Lv. 100."
+				""
+				"5/6. &ePaper and Money&r"
+				""
+				"&lYou can always check the &cJEI&r &lto see what items are needed for &eEnchantments&r&l.&r"
+			]
+			id: "5DA0A1825512C2E3"
+			rewards: [
+				{
+					id: "1911D5BB40B08AE4"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Money"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "03487D940BB7FF6C"
+					item: {
+						Count: 1
+						id: "mmorpg:enchantment/family/armor/common"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					title: "Common Armor Enchantments"
+					type: "item"
+				}
+				{
+					id: "54A59A4D3825A0FB"
+					item: "mmorpg:material/mining/1"
+					title: "Celestial Ore"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "7C33BF31E52E9AB8"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+			]
+			subtitle: "M\\&S Professions"
+			tasks: [{
+				id: "4A22DE4DF9A47E2D"
+				item: "mmorpg:enchanting_station"
+				type: "item"
+			}]
+			title: "Enchanting"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5B97985430859986"]
+			description: [
+				"Mining any types of ores will grant you Mining experience. However, you will only earn the full amount of experience from ores relative to your Mining level:"
+				""
+				"&eLv. 1-20&r (&7Tier 0&r): Coal, Iron, Copper, Zinc"
+				"&eLv. 21-40&r (&aTier 1&r): Redstone, Lapis Lazuli, Gold, Quartz, Cloggrum"
+				"&eLv. 41-60&r (&9Tier 2&r): Emerald, Diamond, Froststeel, Utherium"
+				"&eLv. 61-80&r (&dTier 3&r): Regalium, Moonstone, Pyrope, Aquite"
+				"&eLv. 81-100&r (&6Tier 4&r): Charoite, Diopside, Horizonite"
+				"&eLv. 100&r (&5Tier 5&r): Falsite, Ventium"
+				""
+				"&cThat doesn't mean you won't receive any experience from items outside your level range, just less.&r"
+				""
+				"While mining, you will find 2 different types of drops:"
+				""
+				"1. &eTiered Ore Blocks&r (&7Spritual&r, &aCelestial&r. &9Emyprean&r, &dAngelic&r, &6Divine&r, and &5Godly&r, which drop by chance depending on your level and the level range of the ore you are mining. These ore blocks can be smelted or blasted into ores, which can then be used in other Professions."
+				""
+				"2. &eCrystals&r of varying rarity. Higher rarities drop less frequently, but can still be found at all levels. These are used in crafting."
+			]
+			id: "06E3D7523619E263"
+			rewards: [{
+				id: "328BF723090CE6EC"
+				item: "mmorpg:rare_mats/mining/medium"
+				title: "Medium Crystal"
+				type: "item"
+			}]
+			subtitle: "M\\&S Professions"
+			tasks: [{
+				id: "19BB6A94ECC3A565"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Mining"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5B97985430859986"]
+			description: [
+				"Farming and harvesting produce will grant you Farming experience. However, you will only earn the full amount of experience from plants relative to your Farming level:"
+				""
+				"&eLv. 1-20&r (&7Tier 0&r): Wheat, Potato, Beetroot, Carrot"
+				"&eLv. 21-40&r (&aTier 1&r): Melon, Pumpkin, Flax, Cabbage, Tomato, Onion, Cocoa Beans"
+				"&eLv. 41-60&r (&9Tier 2&r): Corn, Gysahl Green, Nether Wart, Gloomgourd"
+				"&eLv. 61-80&r (&dTier 3&r): Pine Fruit, Winter Leaves"
+				"&eLv. 81-100&r (&6Tier 4&r): Scalefruit, Fiery Beans"
+				"&eLv. 100&r (&5Tier 5&r): Cryoroot, Solnut"
+				""
+				"&cThat doesn't mean you won't receive any experience from items outside your level range, just less.&r"
+				""
+				"While harvesting, you will find 2 different types of drops:"
+				""
+				"1. &eTiered Produce&r (&7Spritual&r, &aCelestial&r. &9Emyprean&r, &dAngelic&r, &6Divine&r, and &5Godly&r), which drop by chance depending on your level and the level range of the plant you are harvesting. These can then be used in other Professions."
+				""
+				"2. &eRoots&r of varying (Lesser, Medium, Greater) rarity. Higher rarities drop less frequently, but can still be found at all levels. These are used in crafting."
+			]
+			id: "350315F71B69062F"
+			rewards: [{
+				id: "4989A75D782C3EC1"
+				item: "mmorpg:rare_mats/farming/medium"
+				title: "Medium Root"
+				type: "item"
+			}]
+			subtitle: "M\\&S Professions"
+			tasks: [{
+				id: "48940014C4EC1677"
+				item: {
+					Count: 1
+					id: "minecraft:iron_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Farming"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5B97985430859986"]
+			description: [
+				"Fishing any fish will grant you Fishing experience. "
+				""
+				"While fishing, you will find 2 different types of drops:"
+				""
+				"1. &eTiered Fish&r (&7Spritual&r, &aCelestial&r. &9Emyprean&r, &dAngelic&r, &6Divine&r, and &5Godly&r), which drop by chance depending on your level. For example, &7Spiritual&r Fish drop while your Fishing level is between 1-20, &aCelestial&r while your level is between 21-40, etc. The fish can then be used in other Professions."
+				""
+				"2. &ePuffers&r of varying (Lesser, Medium, Greater) rarity. Higher rarities drop less frequently, but can still be found at all levels. These are used in crafting."
+			]
+			id: "5BAFAA732A026ADD"
+			rewards: [{
+				id: "564B2EEF75A0E3BD"
+				item: "mmorpg:rare_mats/fishing/medium"
+				title: "Medium Fish"
+				type: "item"
+			}]
+			subtitle: "M\\&S Professions"
+			tasks: [{
+				id: "5433C4BA3B7B3B42"
+				item: {
+					Count: 1
+					id: "aquaculture:iron_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Fishing"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5B97985430859986"]
+			description: [
+				"Breeding animals will increase you Husbandry level."
+				""
+				"While breeding animals, you will find 2 different types of drops:"
+				""
+				"1. &eTiered Meats&r (&7Spritual&r, &aCelestial&r. &9Emyprean&r, &dAngelic&r, &6Divine&r, and &5Godly&r), which drop by chance depending on your level. For example, &7Spiritual&r Meat drop while your Husbandry level is between 1-20, &aCelestial&r while your level is between 21-40, etc. The meat can then be used in other Professions."
+				""
+				"2. &eBeefs&r of varying (Lesser, Medium, Greater) rarity. Higher rarities drop less frequently, but can still be found at all levels. These are used in crafting."
+			]
+			id: "4E27A84CE1F030A1"
+			rewards: [{
+				id: "2F43FF9AD7260A2D"
+				item: "mmorpg:rare_mats/husbandry/medium"
+				title: "Medium Beef"
+				type: "item"
+			}]
+			subtitle: "M\\&S Professions"
+			tasks: [{
+				id: "19DE644926921DDB"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			title: "Husbandry"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Mine and Slash adds its very own Profession system. Professions are split into 3 categories:"
+				""
+				"&e&lGathering:&r&r"
+				"- &2Farming&r: gather materials when harvesting produce."
+				"- &7Mining&r: gather materials while mining."
+				"- &6Husbandry&r: earn materials while breeding animals."
+				"- &9Fishing&r: gather special fish by chance while fishing."
+				""
+				"&e&lCrafting:&r&r"
+				"- &cCooking&r: cook up foods that provide stat, drop, and expereince bonuses for a period of time upon consumption."
+				"- &5Alchemy&r: create powerful brews to enhance your stats for a period of time."
+				"- &bEnchanting&r: craft scrolls to enhance your gear."
+				"- &eGear Crafting&r: craft gear to be used in combat."
+				""
+				"&e&lOther:&r&r"
+				"- &4Salvaging&r: extract resources from gear when salvaged in a Salvaging Station &e(does not apply to auto-salvaging through the Hub)&r."
+				""
+				"&c&lNote: Professions cannot be leveled beyond your Mine and Slash level!&r&r"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5B97985430859986"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 250"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "5F6792B593BCCE90"
+				silent: true
+				title: "250 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "M\\&S Professions"
+			tasks: [{
+				id: "3921C843B8906ADB"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Professions Overview"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B97985430859986"]
+			description: [
+				"Tools in Craft to Exile 2 can gain levels with use. As they increase in level, they can gain affixes which will grant various improvements!"
+				""
+				"&eTools will gain an affix every 20 levels!&r"
+			]
+			icon: "minecraft:paper"
+			id: "4FC11A47AE877347"
+			rewards: [{
+				id: "1D951C04F12D86AD"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "M\\&S Professions Lost Page"
+			tasks: [{
+				id: "425830C92EB05E74"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Leveling Tools"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66D05E37DC634CC8"]
+			description: [
+				"Mastery Seals are applied to your Profession tool (pickaxe, fishing rod, etc.) to cap the level of drops. This is useful because you may need lower level materials earned from Mining, Fishing, etc., for the crafting Professions (Gear Crafting, Cooking, etc.)."
+				""
+				"To craft Mastery Seals, you will need to use Ores in a &eGear Crafting Station&r. Higher tiered Ores will craft higher tiered Mastery Seals."
+			]
+			id: "46624096082CAC57"
+			rewards: [
+				{
+					count: 2
+					id: "7E454F1FB8EEBB03"
+					item: "mmorpg:material/mining/2"
+					title: "Empyrean Ores"
+					type: "item"
+				}
+				{
+					id: "0274291E890DA67E"
+					item: "mmorpg:currency/mastery_seal1"
+					type: "item"
+				}
+			]
+			subtitle: "M\\&S Professions"
+			tasks: [{
+				id: "43E7E5DAEF317564"
+				item: "mmorpg:currency/mastery_seal0"
+				type: "item"
+			}]
+			title: "Stunting Your Growth"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["66D05E37DC634CC8"]
+			description: [
+				"Sharpening Stones can be used on your gear to increase their potency. The quality increase is reflected in the gear's base stat (Weapon Damage, Armor, Dodge Rating, etc.)."
+				""
+				"You can craft Sharpening Stones in the &eGear Crafting Station&r using Stones. As you find higher rarity Stones, you will be able to craft better Sharpening Stones."
+			]
+			id: "141FEAAFF05B9AD0"
+			rewards: [
+				{
+					count: 2
+					id: "547E65938CA0A29C"
+					item: "mmorpg:stone/2"
+					title: "Rare Stones"
+					type: "item"
+				}
+				{
+					id: "3D8965F89B3ED0BF"
+					item: "mmorpg:currency/sharpening_stone1"
+					title: "Celestial Sharpening Stone"
+					type: "item"
+				}
+			]
+			subtitle: "M\\&S Professions"
+			tasks: [{
+				id: "0A06314AF113F9B0"
+				item: "mmorpg:currency/sharpening_stone0"
+				type: "item"
+			}]
+			title: "Increasing Gear Quality"
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["69CEB39AA409EB41"]
+			description: [
+				"Brew the potions with the following:"
+				""
+				"1x &7Spiritual Meat&r"
+				"1x &7Common Stone&r"
+				"1x Wheat/Melon"
+				"1x Tomato/Onion"
+				"1x Copper Coin"
+			]
+			id: "50FD77E095AAC45F"
+			rewards: [
+				{
+					count: 3
+					id: "0981A3CD67453EB1"
+					item: "mmorpg:stone/2"
+					title: "Rare Stones"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 250"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "237FE61CA6C59BC2"
+					silent: true
+					title: "250 Experience x Lv."
+					type: "command"
+				}
+			]
+			subtitle: "M\\&S Professions"
+			tasks: [
+				{
+					count: 16L
+					id: "7E723FA212E31E4B"
+					item: {
+						Count: 1
+						id: "mmorpg:potion/health/0"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0120CDCEBB47B1F9"
+					item: {
+						Count: 1
+						id: "mmorpg:potion/resource/0"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Recovery Potions"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["69CEB39AA409EB41"]
+			description: [
+				"Brew the potions with the following:"
+				""
+				"1x &7Spiritual Produce&r"
+				"3x Potato/Nether Wart/Carrot"
+				"1x Copper Coin"
+			]
+			id: "53205D57DBDEE858"
+			rewards: [
+				{
+					id: "50520A4E47D0F85F"
+					item: "mmorpg:rare_mats/salvaging/greater"
+					title: "Greater Essence"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "15D78B8F7609066A"
+					item: "minecraft:nether_wart"
+					title: "Nether Warts"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 250"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "15C4752FC4CE35F1"
+					silent: true
+					title: "250 Experience x Lv."
+					type: "command"
+				}
+			]
+			subtitle: "M\\&S Professions"
+			tasks: [
+				{
+					id: "1673E0EA465EEEFC"
+					item: {
+						Count: 1
+						id: "mmorpg:buff_potion/lesser_str"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73300383E4D249CA"
+					item: {
+						Count: 1
+						id: "mmorpg:buff_potion/lesser_int"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18858219F8B3DD30"
+					item: {
+						Count: 1
+						id: "mmorpg:buff_potion/lesser_dex"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Core Buffs"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5DA0A1825512C2E3"]
+			description: [
+				"Craft an &eUncommon Armor Enchantment&r with the following:"
+				""
+				"1x &aCelestial Ore&r"
+				"4x &aUncommon Stone&r"
+				"2x Iron Ingot"
+				"1x Leather"
+				"1x Paper"
+				"5x Copper Coin"
+				""
+				"When used on your Gear, you have a chance of applying a random stat as a bonus. You can then upgrade that stat by applying higher rarity Enchantments."
+				""
+				"&cThe Enchantment has a chance of failure when used&r, but you will see the item's tooltip update with \"Enchantment\" once successful. &cEnchantments must be applied in rarity order.&r Meaning you must start with a successful common Enchantment before applying an uncommon one. You cannot apply a rare Enchantment onto an item with a common Enchantment. The colour of the \"Enchantment\" tooltip denotes the rarity of the enchantment."
+			]
+			id: "13CE922E843B9A50"
+			rewards: [
+				{
+					count: 4
+					id: "3E9038789F3ED19A"
+					item: "minecraft:paper"
+					title: "Paper"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "35DB00B2EE31CADD"
+					item: "mmorpg:stone/2"
+					title: "Rare Stones"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 250"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "7A1D466C1C4DC0B0"
+					silent: true
+					title: "250 Experience x Lv."
+					type: "command"
+				}
+			]
+			subtitle: "M\\&S Professions"
+			tasks: [{
+				id: "46602E72F4D06D1C"
+				item: {
+					Count: 1
+					id: "mmorpg:enchantment/family/armor/uncommon"
+					tag: {
+						level: 1
+						tier: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Not Vanilla Enchantments"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0402FA5F0E1D4835"]
+			description: [
+				"Craft the food with the following:"
+				""
+				"1x &7Spiritual Fish&r"
+				"1x Tropical Fish"
+				"1x Copper Coin"
+			]
+			id: "29BD14415C264D41"
+			rewards: [
+				{
+					id: "260E57F5246191D1"
+					item: "mmorpg:rare_mats/fishing/greater"
+					title: "Greater Puffer"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 250"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "1874108D1CC5EEE9"
+					silent: true
+					title: "250 Experience x Lv."
+					type: "command"
+				}
+			]
+			subtitle: "M\\&S Professions"
+			tasks: [{
+				id: "14728EE82752D08A"
+				item: {
+					Count: 1
+					id: "mmorpg:seafood/lesser_exp"
+					tag: {
+						level: 1
+						tier: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Luxurious Seafoods"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0402FA5F0E1D4835"]
+			description: [
+				"Craft the foods with the following:"
+				""
+				"1x &7Spiritual Meat/Produce&r"
+				"1x Wheat/Beetroot"
+				"1x Copper Coin"
+				""
+				"&cThe order of materials doesn't matter, but the output of the station must be empty!&r"
+			]
+			id: "74D3767A981DAE84"
+			rewards: [
+				{
+					id: "1AFDC3779EB71D22"
+					item: "mmorpg:rare_mats/farming/greater"
+					title: "Greater Root"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 250"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "303BACA6F3D5CE95"
+					silent: true
+					title: "250 Experience x Lv."
+					type: "command"
+				}
+			]
+			subtitle: "M\\&S Professions"
+			tasks: [
+				{
+					id: "0007D7D85660469C"
+					item: {
+						Count: 1
+						id: "mmorpg:food/lesser_life"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D555271425DE10D"
+					item: {
+						Count: 1
+						id: "mmorpg:food/lesser_mana"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Healthy Foods"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["66D05E37DC634CC8"]
+			description: [
+				"Craft a &eCrafted Common Jewelry Soul&r with the following:"
+				""
+				"1x &7Spiritual Ore&r"
+				"4x &7Common Stone&r"
+				"1x Iron Ingot"
+				"1x Zinc Ingot"
+				"1x &aLesser Crystal&r"
+				"1x Copper Coin"
+				""
+				"The Crafted Gear Soul will work on any base item that matches the type (Ring Souls on Rings)."
+			]
+			id: "7C542CE6F026787C"
+			rewards: [
+				{
+					id: "5D52FE5D16AEAD00"
+					item: "mmorpg:rare_mats/mining/greater"
+					title: "Greater Crystal"
+					type: "item"
+				}
+				{
+					id: "76BCE67805EE0024"
+					item: "mmorpg:plate_set"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 250"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "5C53ABEEFE4798DC"
+					silent: true
+					title: "250 Experience x Lv."
+					type: "command"
+				}
+			]
+			subtitle: "M\\&S Professions"
+			tasks: [{
+				id: "394F2627DA3AB85C"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/jewelry/common"
+					tag: {
+						level: 1
+						tier: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Humble Beginnings"
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["69CEB39AA409EB41"]
+			description: [
+				"Brew the potions with the following:"
+				""
+				"1x &7Spiritual Fish&r"
+				"5x Lapis Lazuli or 3x Gold Ingot or 3x Redstone"
+				"1x Copper Coin"
+			]
+			id: "609557127CC400F5"
+			rewards: [
+				{
+					id: "1F5213228CFE8423"
+					item: "mmorpg:rare_mats/salvaging/greater"
+					title: "Greater Essence"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0E3EF56AF97F2452"
+					item: "minecraft:golden_carrot"
+					title: "Golden Carrots"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 250"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "31EDE1FD872C0BB5"
+					silent: true
+					title: "250 Experience ****x Lv."
+					type: "command"
+				}
+			]
+			subtitle: "M\\&S Professions"
+			tasks: [
+				{
+					id: "7A9908F77070FDB2"
+					item: {
+						Count: 1
+						id: "mmorpg:buff_potion/lesser_arcane"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30DDFA1833670A12"
+					item: {
+						Count: 1
+						id: "mmorpg:buff_potion/lesser_crit"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A640BA5924AB2E9"
+					item: {
+						Count: 1
+						id: "mmorpg:buff_potion/lesser_might"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Raw Damage"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["69CEB39AA409EB41"]
+			description: [
+				"Brew the potions with the following:"
+				""
+				"1x Glass Bottle"
+				"1x Common/Uncommon/Rare Stone"
+				"1x Flax or Solnut"
+				"1x Iron/Gold Ingot or Diamond"
+			]
+			id: "70D6378FAA39BED0"
+			rewards: [
+				{
+					count: 2
+					id: "15F556C5A1EA7854"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "3FA933A7A6E67FE4"
+					silent: true
+					title: "500 Experience x Lv."
+					type: "command"
+				}
+			]
+			subtitle: "M\\&S Professions"
+			tasks: [
+				{
+					id: "1E21EAC7B1294917"
+					item: "mmorpg:potions/reset_all_perks"
+					type: "item"
+				}
+				{
+					id: "106CA4AA64E1CCEA"
+					item: "mmorpg:potions/reset_spells"
+					type: "item"
+				}
+				{
+					id: "406F817BC074EAEB"
+					item: "mmorpg:potions/reset_stats"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5B97985430859986"]
+			description: [
+				"&eCrafting Stations&r for each of the Professions are &etied to the player that placed them&r."
+				""
+				"Each player will need their own set of Crafting Stations!"
+			]
+			icon: "minecraft:paper"
+			id: "3C7E703FC750E2B3"
+			rewards: [{
+				id: "1D66EBADBC1EE67A"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "M\\&S Professions Lost Page"
+			tasks: [{
+				id: "6A644AC376F30A75"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "To Your Stations!"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C542CE6F026787C"]
+			description: [
+				"When using a &eCrafted Gear Soul&r, there is a &c33% chance&r it will roll as &eArmor, Dodge, or Magic Shield&r. To circumvent this randomness, you can use &eSoul Modifiers&r."
+				""
+				"You can apply &eSoul Modifiers&r directly onto &eCrafted Gear Souls&r to &eguarantee the material (plate, cloth, leather) outcome&r of your item."
+				""
+				"Use the &eSoul Modifier&r on the &eCrafted Gear Soul&r by dragging and dropping it. You may not notice any changes, but once the &eCrafted Gear Soul&r is used, you will see that it belongs to that type."
+				""
+				"For example, apply a &eCloth Soul Modifier&r onto a &eCrafted Armor Soul&r to guarantee Cloth Armor!"
+			]
+			id: "1F781E29B5ACDD96"
+			rewards: [{
+				count: 2
+				id: "3DDB910D100481C8"
+				item: "mmorpg:stone/2"
+				type: "item"
+			}]
+			subtitle: "M\\&S Professions"
+			tasks: [
+				{
+					id: "742045832B4AD932"
+					item: "mmorpg:cloth_set"
+					type: "item"
+				}
+				{
+					id: "7F8B59AA6D45DF34"
+					item: "mmorpg:leather_set"
+					type: "item"
+				}
+				{
+					id: "74F7F3B44E28B6BD"
+					item: "mmorpg:plate_set"
+					type: "item"
+				}
+			]
+			title: "Soul Modification"
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7C542CE6F026787C"]
+			description: [
+				"Craft a &eCrafted Rare Weapon Soul&r with the following:"
+				""
+				"1x &aCelestial Ore&r"
+				"4x &9Rare Stone&r"
+				"2x Cloggrum Ingot"
+				"1x Stick"
+				"1x &aLesser Crystal&r &c<-- NEW&r"
+				"1x Iron Coin"
+				""
+				"&cNote&r that crafts &estarting at level 20&r will require &eLesser/Medium/Greater&r resources as well."
+			]
+			id: "59FA681B103BE2AB"
+			rewards: [
+				{
+					count: 3
+					id: "14BE255969B2DE09"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 250"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "2FE4467A1FF871D2"
+					silent: true
+					title: "250 Experience x Lv."
+					type: "command"
+				}
+			]
+			subtitle: "M\\&S Professions"
+			tasks: [{
+				id: "1A660838036424BB"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/weapon/rare"
+					tag: {
+						level: 20
+						tier: 1
+					}
+				}
+				type: "item"
+			}]
+			title: "A Blacksmith's Lesson"
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5B97985430859986"]
+			description: ["Insert the &eDisassembler's Learning Method&r into the &ecrafting station&r of your choice to &eimmediately void&r the item you've crafted but gain &ebonus profession xp&r."]
+			id: "4C14F8BB015A5892"
+			rewards: [{
+				id: "566A53AA87A4E85F"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Disassembler's Learning Method"
+			tasks: [{
+				id: "40C533C34F3858DF"
+				item: "mmorpg:destroy_output_exp"
+				type: "item"
+			}]
+			title: "Fast Levelling"
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	title: "&aM\\&S Professions&r"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mmorpg:rare_mats/husbandry/greater"
+    }
+  ],
+  "result": {
+    "item": "mmorpg:rare_mats/husbandry/medium",
+    "count": 5
+  }
+}

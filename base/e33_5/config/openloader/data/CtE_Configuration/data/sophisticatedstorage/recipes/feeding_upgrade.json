@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "mmorpg:stone/1"
+    },
+    "B": {
+      "item": "create:chute"
+    },
+    "C": {
+      "item": "create:cogwheel"
+    },
+    "D": {
+      "item": "sophisticatedstorage:upgrade_base"
+    },
+    "E": {
+      "tag": "forge:dusts/redstone"
+    },
+    "F": {
+      "item": "create:belt_connector"
+    }
+  },
+  "result": {
+    "item": "sophisticatedstorage:feeding_upgrade"
+  }
+}

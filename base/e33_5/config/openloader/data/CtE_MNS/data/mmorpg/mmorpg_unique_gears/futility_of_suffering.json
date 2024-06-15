@@ -1,0 +1,44 @@
+{
+  "base_gear": "necklace",
+  "guid": "futility_of_suffering",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "",
+  "min_tier": 60,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "FLAT",
+      "max": 1.0,
+      "min": 1.0,
+      "stat": "plus_lvl_all_spells"
+    },
+    {
+      "type": "FLAT",
+      "max": 80.0,
+      "min": 60.0,
+      "stat": "poison_chance"
+    },
+    {
+      "type": "FLAT",
+      "max": 50.0,
+      "min": 30.0,
+      "stat": "poison_duration"
+    },
+    {
+      "type": "MORE",
+      "max": -10.0,
+      "min": -10.0,
+      "stat": "mana_regen"
+    },
+    {
+      "type": "MORE",
+      "max": -10.0,
+      "min": -10.0,
+      "stat": "energy_regen"
+    }
+  ],
+  "weight": 1000
+}

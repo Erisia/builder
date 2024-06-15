@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"PS ",
+		"SGS",
+		"DSP"
+	],
+	"key": {
+		"P": {"item": "minecraft:paper"},
+		"S": {"item": "minecraft:stick"},
+		"G": {"item": "mmorpg:stone/2"},
+		"D": {"item": "minecraft:purple_dye"}
+	},
+	"result": {
+		"item": "bountiful:decree"
+	}
+}

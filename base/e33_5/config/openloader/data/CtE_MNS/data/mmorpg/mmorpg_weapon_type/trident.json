@@ -1,0 +1,13 @@
+{
+  "can_dual_wield": false,
+  "damage_validity_check": {
+    "contains_in_dmg_id": [],
+    "source_check": "DIRECT_ATTACK",
+    "tag_and_id_check": "ANY",
+    "valid_proj_dmg_id": []
+  },
+  "id": "trident",
+  "isProjectile": false,
+  "range": "OPTIONALLY_RANGED",
+  "style": "STR"
+}

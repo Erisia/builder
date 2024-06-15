@@ -1,0 +1,11 @@
+{
+  "attribute_id": "",
+  "conversion": 3.0,
+  "enchant_id": "wrd:hard_headded",
+  "id": "wrd_hard_headded_compat",
+  "maximum_cap": 50,
+  "minimum_cap": 0,
+  "mns_stat_id": "health",
+  "mod_type": "PERCENT",
+  "scaling": "NONE"
+}

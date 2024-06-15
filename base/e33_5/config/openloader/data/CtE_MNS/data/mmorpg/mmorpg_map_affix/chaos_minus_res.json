@@ -1,0 +1,16 @@
+{
+  "affected": "Players",
+  "id": "chaos_minus_res",
+  "map_resist": "Shadow",
+  "map_resist_bonus_needed": 10,
+  "req": "",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": -75.0,
+      "min": -25.0,
+      "stat": "chaos_resist"
+    }
+  ],
+  "weight": 1000
+}

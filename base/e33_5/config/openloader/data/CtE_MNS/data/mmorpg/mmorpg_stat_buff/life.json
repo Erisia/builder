@@ -1,0 +1,17 @@
+{
+  "id": "life",
+  "mods": [
+    {
+      "type": "PERCENT",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "health"
+    },
+    {
+      "type": "PERCENT",
+      "max": 25.0,
+      "min": 5.0,
+      "stat": "health_regen"
+    }
+  ]
+}

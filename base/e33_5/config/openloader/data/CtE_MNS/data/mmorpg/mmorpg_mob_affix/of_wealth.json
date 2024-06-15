@@ -1,0 +1,15 @@
+{
+  "type": "suffix",
+  "format": "GOLD",
+  "icon": "",
+  "id": "of_wealth",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 500.0,
+      "min": 500.0,
+      "stat": "extra_mob_drops"
+    }
+  ],
+  "weight": 10
+}

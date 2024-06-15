@@ -1,0 +1,37 @@
+{
+  "id": "abyssal_depths",
+  "runes": [
+    "ano",
+	"net",
+    "mos"
+  ],
+  "slots": [
+    "chest"
+  ],
+  "stats": [
+    {
+      "type": "PERCENT",
+      "max": 50.0,
+      "min": 40.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "health"
+    },
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "mana"
+    },
+    {
+      "type": "FLAT",
+      "max": 25.0,
+      "min": 10.0,
+      "stat": "summon_damage"
+    }
+  ]
+}

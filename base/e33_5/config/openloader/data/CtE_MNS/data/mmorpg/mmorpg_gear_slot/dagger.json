@@ -1,0 +1,11 @@
+{
+  "fam": "Weapon",
+  "id": "dagger",
+  "model_num": 15,
+  "weapon_data": {
+    "damage_multiplier": 1.0,
+    "energy_cost_per_mob_attacked": 0.0,
+    "energy_cost_per_swing": 0.0
+  },
+  "weight": 750
+}

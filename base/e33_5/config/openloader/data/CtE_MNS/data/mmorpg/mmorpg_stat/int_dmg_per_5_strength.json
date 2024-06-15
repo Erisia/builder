@@ -1,0 +1,16 @@
+{
+  "data": {
+    "add_to": "int_dmg",
+    "adder_stat": "strength",
+    "base": 0.0,
+    "ele": "Physical",
+    "id": "int_dmg_per_5_strength",
+    "max": 2.14748365E9,
+    "min": 0.0,
+    "name": "§a[VAL1] §b★ Magic Damage§7 per 5 §b★ Strength§7",
+    "per_amount": 5,
+    "perc": true,
+    "scale": "NONE"
+  },
+  "ser": "more_x_per_y"
+}

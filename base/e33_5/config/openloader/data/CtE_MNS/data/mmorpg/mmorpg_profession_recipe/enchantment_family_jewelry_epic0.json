@@ -1,0 +1,41 @@
+{
+  "exp": 240,
+  "id": "enchantment_family_jewelry_epic0",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "mmorpg:material/mining/0",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:stone/3",
+      "num": 4
+    },
+    {
+      "type": "ITEM",
+      "id": "minecraft:paper",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "minecraft:iron_ingot",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "create:zinc_ingot",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "lightmanscurrency:coin_iron",
+      "num": 5    
+	}
+  ],
+  "power": "greater",
+  "profession": "enchanting",
+  "result": "mmorpg:enchantment/family/jewelry/epic",
+  "result_num": 3,
+  "tier": 0
+}

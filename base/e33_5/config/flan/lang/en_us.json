@@ -1,0 +1,553 @@
+{
+  "noClaim": "There is no claim here.",
+  "inspectBlockOwner": "This is %1$s's claim",
+  "inspectNoClaim": "Nobody owns this block",
+  "claimBlocksFormat": "Claim Blocks: %1$d + (Bonus) %2$d); Used: %3$d; Remaining: %4$d",
+  "listClaims": "Listing all claims:",
+  "listAdminClaims": "Listing all admin-claims in %1$s:",
+  "onlyOnePlayer": "Only one player can be used as argument",
+  "ownerTransferSuccess": "New Claimowner now: %1$s",
+  "ownerTransferFail": "Only the owner may transfer claims",
+  "ownerTransferNoBlocks": "The new owner doesnt have enough claimblocks",
+  "ownerTransferNoBlocksAdmin": "You can ignore this by switching to admin mode",
+  "noSuchLevel": "Dimension with id %s doesn't exist",
+  "noSuchPlayer": "Player with uuid/name %s doesn't exist",
+  "claimCreationFailCommand": "Couldn't create claim at this position",
+  "noPermission": "You don't have the required permissions to do that here!",
+  "noPermissionSimple": "Sorry you can't do that here!",
+  "noPermissionTooClose": "Sorry you are too close to a claim to do that here!",
+  "tooCloseClaim": "You are too close to a protected area to do that!",
+  "configReload": "Configs reloaded",
+  "cantClaimHere": "Sorry you cant claim here",
+  "minClaimSize": "This is too small. Minimum claimsize is %d",
+  "maxClaims": "Maximum amount of claims reached",
+  "landClaimDisabledWorld": "Claiming is disabled in this world",
+  "editMode": "Editing mode set to %1$s",
+  "notEnoughBlocks": "Not enough claim blocks",
+  "conflictOther": "Claim would overlap other claims",
+  "wrongMode": "Wrong claim mode. You are in %1$s-mode",
+  "stringScreenReturn": "Click on paper to go back",
+  "groupAdd": "Added group %1$s",
+  "groupRemove": "Removed group %1$s",
+  "groupExist": "Group already exist",
+  "uuidFakeAdd": "Added fakeplayer with uuid %1$s to the claim",
+  "uuidFakeRemove": "Removed fakeplayer with uuid %1$s from the claim",
+  "uuidFakeModifyNo": "Fakeplayer with given uuid is already added",
+  "playerModify": "Modified permission group for following players to %1$s: %2$s",
+  "playerModifyNo": "Couldn't set permission group for the players. Probably cause they already belong to a group",
+  "playerGroupAddFail": "Couldn't add that player to the group either cause the player is already in a group or no player matching the name was found",
+  "resizeClaim": "Resizing claim",
+  "resizeSuccess": "Resized Claims",
+  "claimCreateSuccess": "Created a new claim",
+  "subClaimCreateSuccess": "Created a new subclaim",
+  "deleteClaim": "Claim deleted",
+  "deleteAllClaimConfirm": "Are you sure you want to delete all claims? Type it again to confirm",
+  "deleteAllClaim": "All claims deleted",
+  "deleteClaimError": "You can't delete this claim here",
+  "deleteSubClaim": "Subclaim deleted",
+  "deleteSubClaimError": "There is no subclaim here. Switch your claim mode to delete the main claim.",
+  "deleteSubClaimAll": "All Subclaims from this claim deleted",
+  "noSuchPerm": "No such Permission %1$s",
+  "editPerm": "%1$s now set to %2$s",
+  "editPermGroup": "%1$s for %2$s now set to %3$s",
+  "editPersonalGroup": "Default permission %1$s for group %2$s now set to %3$s",
+  "nonGlobalOnly": "Cannot edit %1$s here since its a global permission",
+  "adminMode": "Adminmode (Ignore Claims) set to: %1$s",
+  "adminDeleteAll": "Deleted all claims for following players: %1$s",
+  "setAdminClaim": "Adminclaim of this claim now: %1$s",
+  "readGriefpreventionData": "Reading data from GriefPrevention",
+  "readGriefpreventionClaimDataSuccess": "Successfully read claim data",
+  "readGriefpreventionPlayerDataSuccess": "Successfully read player data",
+  "cantFindData": "No griefprevention data at %1$s",
+  "errorFile": "Error reading file %1$s",
+  "readConflict": "%1$s conflicts with existing claims. Not added to world! Conflicts:",
+  "giveClaimBlocks": "Gave following players %2$d claimblocks: %1$s",
+  "giveClaimBlocksBonus": "Gave following players %2$d bonus claimblocks: %1$s",
+  "fakePlayerNotification1": "A fakeplayer tried to interact with your claim at %1$s in %2$s.",
+  "fakePlayerNotification2": "Click %s while standing in your claim to add the fakeplayer to the claim.",
+  "clickableComponent": "here",
+  "fakePlayerNotification3": "Click %s to disable this notification.",
+  "fakePlayerNotification": "FakePlayer notification set to %s",
+  "claimBasicInfo": "Owner: %1$s, from: [x=%2$d,z=%3$d] to [x=%4$d,z=%5$d]); Subclaim-amount: %6$d",
+  "claimBasicInfoNamed": "Claim: %7$s, Owner: %1$s, from: [x=%2$d,z=%3$d] to [x=%4$d,z=%5$d]); Subclaim-amount: %6$d",
+  "claimSubHeader": "==SubclaimInfo==",
+  "claimBasicInfoSub": "Owner: %1$s, from: [x=%2$d,z=%3$d] to [x=%4$d,z=%5$d]",
+  "claimBasicInfoSubNamed": "Claim: %6$s, Owner: %1$s, from: [x=%2$d,z=%3$d] to [x=%4$d,z=%5$d]",
+  "claimInfoPerms": "Permissions: %1$s",
+  "claimGroupInfoHeader": "Groups: ",
+  "claimGroupPerms": "    Permissions: %1$s",
+  "claimGroupPlayers": "    Players: %1$s",
+  "helpHeader": "Available subcommands are (page %d):",
+  "helpCmdHeader": "====================",
+  "helpCmdSyntax": "Syntax: %1$s",
+  "screenEnableText": "Enabled: %1$s",
+  "screenUneditable": "Non Editable!",
+  "screenClose": "Close",
+  "screenNext": "Next",
+  "screenPrevious": "Prev",
+  "screenAdd": "Add",
+  "screenBack": "Back",
+  "screenNoPerm": "No Permission",
+  "screenFalse": "false",
+  "screenTrue": "true",
+  "screenDefault": "default",
+  "screenMenu": "Claim-Menu",
+  "screenMenuSub": "SubClaim-Menu",
+  "screenMenuGlobal": "Edit Global Permissions",
+  "screenMenuGroup": "Edit Permissiongroups",
+  "screenMenuPotion": "Edit Potioneffects",
+  "screenMenuClaimText": "Edit Enter/Leave Text",
+  "screenMenuFakePlayers": "Fake Players",
+  "screenMenuDelete": "Delete Claim",
+  "screenConfirm": "Confirm",
+  "screenYes": "Yes",
+  "screenNo": "No",
+  "screenGroupPlayers": "%1$s-Players",
+  "screenRemoveMode": "Remove Mode: %1$s",
+  "screenGlobalPerms": "Global-Permissions",
+  "screenGroupName": "%s",
+  "screenGroups": "Claim-Groups",
+  "screenGroupPerms": "%1$s-Permissions",
+  "screenPersonalGroups": "Personal-Groups",
+  "screenPersonalPermissions": "Personal Permissions for %1$s",
+  "screenFakePlayerNameUUID": "%s",
+  "screenPotions": "Claim Potions",
+  "screenPotionText": "%s",
+  "screenTitleEditor": "Claim messages",
+  "screenTitleEditorSub": "Subclaim messages",
+  "screenTextJson": "Right-Click to use JSON text. See MC Wiki for that.",
+  "screenEnterText": "Edit title text on enter.",
+  "screenEnterSubText": "Edit subtitle text on enter.",
+  "screenLeaveText": "Edit title text on leave.",
+  "screenLeaveSubText": "Edit subtitle text on leave.",
+  "screenDelete": "Use \"$empty\" to delete the message",
+  "screenMenuItemUse": "Allowed item use",
+  "screenMenuBlockBreak": "Allowed block break",
+  "screenMenuBlockUse": "Allowed block use",
+  "allowListEmptyTag": "Empty Tag",
+  "chatClaimTextEdit": "[Click for command]",
+  "sellDisabled": "Claimblocks selling is disabled",
+  "buyDisabled": "Claimblocks purchasing is disabled",
+  "sellFail": "Not enough claimblocks to sell",
+  "buyFail": "Not enough money",
+  "buyFailItem": "Not enough items",
+  "buyFailXP": "Not enough experience points",
+  "sellSuccess": "Sold %1$s claimblocks for %2$s",
+  "sellSuccessItem": "Sold %1$s claimblocks for %3$s x%2$s",
+  "sellSuccessXP": "Sold %1$s claimblocks for %2$s experience points",
+  "buySuccess": "Bought %1$s claimblocks for %2$s",
+  "buySuccessItem": "Bought %1$s claimblocks with %2$s items",
+  "buySuccessXP": "Bought %1$s claimblocks with %2$s experience points",
+  "currencyMissing": "Missing a supported currency mod",
+  "trappedRescue": "Rescuing. Don't move for 5 seconds",
+  "trappedFail": "Rescue not necessary or already rescuing",
+  "trappedMove": "You moved. Aborting teleport",
+  "unlockDropsCmd": "Your deathitems are protected. Use %1$s to unlock them for other players",
+  "unlockDrops": "Your deathitems are now unlocked for %1$s ticks",
+  "unlockDropsMulti": "Unlocked drops for %1$s",
+  "claimNameSet": "Claims name set to %1$s",
+  "claimNameUsed": "The owner of the claim already has another claim with the same name",
+  "claimNameUsedSub": "One of the subclaim of this claim already has this name",
+  "setHome": "Claim home set to [x=%1$s,y=%2$s,z=%3$s]",
+  "teleportNoClaim": "No such claim to teleport to",
+  "teleportHome": "Teleporting to claim home. Don't move for 5 seconds",
+  "teleportHomeFail": "Teleport already happening",
+  "setEnterMessage": "Set enter title to %1$s",
+  "setEnterSubMessage": "Set enter subtitle to %1$s",
+  "setLeaveMessage": "Set leave title to %1$s",
+  "setLeaveSubMessage": "Set leave subtitle to %1$s",
+  "wiki": "For more info check out the wiki:",
+  "flan:edit_claim": "Edit Claim",
+  "flan:edit_perms": "Edit Perms",
+  "flan:edit_potions": "Edit Potions",
+  "flan:break": "Break",
+  "flan:place": "Place",
+  "flan:open_container": "Open Container",
+  "flan:interact_block": "Interact Block",
+  "flan:interact_sign": "Interact Sign",
+  "flan:anvil": "Anvil",
+  "flan:bed": "Bed",
+  "flan:beacon": "Beacon",
+  "flan:door": "Door",
+  "flan:fence_gate": "Fence Gate",
+  "flan:trapdoor": "Trapdoor",
+  "flan:button_lever": "Button Lever",
+  "flan:pressure_plate": "Pressure Plate",
+  "flan:noteblock": "Noteblock",
+  "flan:redstone": "Redstone",
+  "flan:jukebox": "Jukebox",
+  "flan:enderchest": "Enderchest",
+  "flan:enchantment": "Enchantment",
+  "flan:itemframe_rotate": "Itemframe Rotate",
+  "flan:lectern_take": "Lectern Take",
+  "flan:endcrystal_place": "Endcrystal Place",
+  "flan:target_block": "Target Block",
+  "flan:projectiles": "Projectiles",
+  "flan:trample": "Trample",
+  "flan:frost_walker": "Frost Walker",
+  "flan:portal": "Portal",
+  "flan:raid": "Raid",
+  "flan:boat": "Boat",
+  "flan:minecart": "Minecart",
+  "flan:bucket": "Bucket",
+  "flan:ender_pearl": "Ender Pearl",
+  "flan:chorus_fruit": "Chorus Fruit",
+  "flan:animal_interact": "Animal Interact",
+  "flan:hurt_animal": "Hurt Animal",
+  "flan:xp": "Xp",
+  "flan:trading": "Trading",
+  "flan:armorstand": "Armorstand",
+  "flan:break_non_living": "Break Non Living",
+  "flan:drop": "Drop",
+  "flan:pickup": "Pickup",
+  "flan:flight": "Flight",
+  "flan:can_stay": "Can Stay",
+  "flan:teleport": "Teleport",
+  "flan:no_hunger": "No Hunger",
+  "flan:claim_message": "Claim Message",
+  "flan:hurt_player": "Hurt Player",
+  "flan:explosions": "Explosions",
+  "flan:wither": "Wither",
+  "flan:enderman": "Enderman",
+  "flan:snow_golem": "Snow Golem",
+  "flan:fire_spread": "Fire Spread",
+  "flan:water_border": "Water Border",
+  "flan:piston_border": "Piston Border",
+  "flan:mob_spawn": "Mob Spawn",
+  "flan:animal_spawn": "Animal Spawn",
+  "flan:lightning": "Lightning",
+  "flan:lock_items": "Lock Items",
+  "flan:fake_player": "Fake Player",
+  "flan:player_mob_spawn": "Player Mob Spawn",
+  "flan:sculk": "Sculk",
+  "flan:archeology": "Archeology",
+  "flan:create_contraption": "Create Contraption",
+  "flan:edit_claim.desc": [
+    "Gives permission to edit (resize, delete...) the claim"
+  ],
+  "flan:edit_perms.desc": [
+    "Gives permission to change the claims permissions"
+  ],
+  "flan:edit_potions.desc": [
+    "Gives permission to edit the claims potion effect"
+  ],
+  "flan:break.desc": [
+    "Permission to break blocks in the claim"
+  ],
+  "flan:place.desc": [
+    "Permission to place blocks in the claim"
+  ],
+  "flan:open_container.desc": [
+    "Permission to open containers",
+    "(chest, furnace etc.)"
+  ],
+  "flan:interact_block.desc": [
+    "Generic permission for block interaction.",
+    "Fallback to OPENCONTAINER",
+    "Gets used for all blocks OPENCONTAINER doesn't check for"
+  ],
+  "flan:interact_sign.desc": [
+    "Permission to edit signs (e.g. dyeing them)"
+  ],
+  "flan:anvil.desc": [
+    "Permission to use anvils"
+  ],
+  "flan:bed.desc": [
+    "Permission to use beds"
+  ],
+  "flan:beacon.desc": [
+    "Permission to use beacons"
+  ],
+  "flan:door.desc": [
+    "Permission to use doors"
+  ],
+  "flan:fence_gate.desc": [
+    "Permission to use fence gates"
+  ],
+  "flan:trapdoor.desc": [
+    "Permission to use trapdoors"
+  ],
+  "flan:button_lever.desc": [
+    "Permission to trigger levers and buttons"
+  ],
+  "flan:pressure_plate.desc": [
+    "Permission to trigger pressure plates"
+  ],
+  "flan:noteblock.desc": [
+    "Permission to change noteblocks"
+  ],
+  "flan:redstone.desc": [
+    "Permission to change redstone components"
+  ],
+  "flan:jukebox.desc": [
+    "Permission to insert/take music discs"
+  ],
+  "flan:enderchest.desc": [
+    "Permission to use enderchests"
+  ],
+  "flan:enchantment.desc": [
+    "Permission to use enchanting tables"
+  ],
+  "flan:itemframe_rotate.desc": [
+    "Permission to rotate items in item frames"
+  ],
+  "flan:lectern_take.desc": [
+    "Permission to change books in a lectern"
+  ],
+  "flan:endcrystal_place.desc": [
+    "Permission to place end crystals"
+  ],
+  "flan:target_block.desc": [
+    "Permission to trigger target blocks"
+  ],
+  "flan:projectiles.desc": [
+    "Permission to let shot projectiles",
+    "interact with blocks (e.g. arrow on button)"
+  ],
+  "flan:trample.desc": [
+    "Permission to enable block trampling",
+    "(farmland, turtle eggs)"
+  ],
+  "flan:frost_walker.desc": [
+    "Permission for frostwalker to activate"
+  ],
+  "flan:portal.desc": [
+    "Permission to use nether portals"
+  ],
+  "flan:raid.desc": [
+    "Permission to trigger raids in claim.",
+    "Wont prevent raids (just) outside"
+  ],
+  "flan:boat.desc": [
+    "Permission to use boats"
+  ],
+  "flan:minecart.desc": [
+    "Permission to sit in minecarts"
+  ],
+  "flan:bucket.desc": [
+    "Permission to take liquids with buckets"
+  ],
+  "flan:ender_pearl.desc": [
+    "Permission to use enderpearls"
+  ],
+  "flan:chorus_fruit.desc": [
+    "Permission to eat chorus fruits"
+  ],
+  "flan:animal_interact.desc": [
+    "Permission to interact with animals",
+    "(e.g. shearing sheeps)"
+  ],
+  "flan:hurt_animal.desc": [
+    "Permission to hurt animals"
+  ],
+  "flan:xp.desc": [
+    "Permission to pick up xp orbs"
+  ],
+  "flan:trading.desc": [
+    "Permission to trade with villagers"
+  ],
+  "flan:armorstand.desc": [
+    "Permission to interact with armor stands"
+  ],
+  "flan:break_non_living.desc": [
+    "Permission to break things like minecarts or armor stands"
+  ],
+  "flan:drop.desc": [
+    "Allow the drop of items"
+  ],
+  "flan:pickup.desc": [
+    "Allow the pickup of items"
+  ],
+  "flan:flight.desc": [
+    "Allow non creative flight"
+  ],
+  "flan:can_stay.desc": [
+    "Allow players to enter your claim"
+  ],
+  "flan:teleport.desc": [
+    "Allow player to teleport to your claim home position"
+  ],
+  "flan:no_hunger.desc": [
+    "Disable hunger"
+  ],
+  "flan:claim_message.desc": [
+    "Permission to edit the enter/leave message"
+  ],
+  "flan:hurt_player.desc": [
+    "Permission to hurt other players"
+  ],
+  "flan:explosions.desc": [
+    "Toggle explosions in claim"
+  ],
+  "flan:wither.desc": [
+    "Toggle wither breaking blocks in claim"
+  ],
+  "flan:enderman.desc": [
+    "Allow enderman picking and placing blocks"
+  ],
+  "flan:snow_golem.desc": [
+    "Allow snowgolems snowlayer"
+  ],
+  "flan:fire_spread.desc": [
+    "Toggle firespread in claim"
+  ],
+  "flan:water_border.desc": [
+    "Toggle water crossing claim borders"
+  ],
+  "flan:piston_border.desc": [
+    "Toggle piston pull/push across claim borders"
+  ],
+  "flan:mob_spawn.desc": [
+    "Prevent hostile mobspawn in claim"
+  ],
+  "flan:animal_spawn.desc": [
+    "Prevent other spawn in claim"
+  ],
+  "flan:lightning.desc": [
+    "Allow lightning to affect claims",
+    "e.g. set blocks on fire",
+    "or affect animals (mobs are excluded)"
+  ],
+  "flan:lock_items.desc": [
+    "If items should be locked on death"
+  ],
+  "flan:fake_player.desc": [
+    "Allow fakeplayers to interact in this claim",
+    "Some mods fakeplayer has the users uuid",
+    "For those mods this permission is not needed"
+  ],
+  "flan:player_mob_spawn.desc": [
+    "Permission for affected players to spawn mobs with interactions",
+    "E.g. wardens, or endermites with enderpearls"
+  ],
+  "flan:sculk.desc": [
+    "Permission for sculk sensors.",
+    "Shriekers are handled under PLAYERMOBSPAWN"
+  ],
+  "flan:archeology.desc": [
+    "Allow players to brush blocks in this claim"
+  ],
+  "flan:create_contraption.desc": [
+    "Gives permission to allow minecart contraptions to pass through claim border.",
+    "Note if this is disabled and your contraption goes out of the claim it can't go back in!"
+  ],
+  "command.help": [
+    "help <page> | (cmd <command>)",
+    "Shows all available commands or info for the given command."
+  ],
+  "command.menu": [
+    "menu",
+    "When standing in a claim you have permissions for opens the claim menu."
+  ],
+  "command.claimInfo": [
+    "claimInfo",
+    "Prints infos about the claim you're standing in."
+  ],
+  "command.delete": [
+    "delete",
+    "Deletes the current claim."
+  ],
+  "command.deleteAll": [
+    "deleteAll",
+    "Deletes all your claims (you need to double type to confirm it so no accidents)."
+  ],
+  "command.deleteSubClaim": [
+    "deleteSubClaim",
+    "Deletes the current subclaim."
+  ],
+  "command.deleteAllSubClaims": [
+    "deleteAllSubClaims",
+    "Deletes all subclaim of the current claim."
+  ],
+  "command.list": [
+    "list <player>",
+    "Lists all claims you have. If op also gives ability to list other players claims."
+  ],
+  "command.switchMode": [
+    "switchMode",
+    "Switch between normal and subclaim mode."
+  ],
+  "command.group": [
+    "group (add | remove <name>) | (players add | remove <player> [overwrite])",
+    "- Adds/removes the group with that name. Also editable via the claim menu.",
+    "- Adds/remove a player to the group. If overwrite then will overwrite the players current group else does nothing. Also editable via the claim menu."
+  ],
+  "command.transferClaim": [
+    "transferClaim <player>",
+    "Gives ownership of the claim to the specified player. Only works if you're the claim owner."
+  ],
+  "command.addClaim": [
+    "addClaim (<x y z> <x y z>) | all | (rect x z)",
+    "Creates a claim with the given positions. Same as using the claim tool.",
+    "<all> uses up all remaining blocks for a squared claim centered around the player",
+    "<rect> creates a rectangular claim centered around the player"
+  ],
+  "command.permission": [
+    "permission {global | (group <name>) | (personal <name>)} <permission> true | false | default",
+    " Sets global/group/personal permissions. Also editable via the claim menu (for group perm right click on the group in the menu)."
+  ],
+  "command.personalGroups": [
+    "personalGroups",
+    "Opens the gui to edit personal groups."
+  ],
+  "command.sellBlocks": [
+    "sellBlocks <amount>",
+    "Sells <amount> claimblocks. Needs gunpowder currency installed."
+  ],
+  "command.buyBlocks": [
+    "buyBlocks <amount>",
+    "Buys <amount> claimblocks. Needs gunpowder currency installed."
+  ],
+  "command.trapped": [
+    "trapped",
+    "If in a claim not owned by the player attempts to teleport the player out of it after 5 seconds."
+  ],
+  "command.unlockDrops": [
+    "unlockDrops <players>",
+    "Unlocks dropped items from death so other players can pick them up too. Or all of the given players (needs OP)"
+  ],
+  "command.setHome": [
+    "setHome",
+    "Standing in a claim with sufficient permission sets that claims home to the players position"
+  ],
+  "command.teleport": [
+    "teleport self | admin | (other <player>) (<claim name> | <claim uuid>)",
+    "Teleport to the given claims home position. Use admin to teleport to admin claims"
+  ],
+  "command.name": [
+    "name self <name>",
+    "Sets the current claims name"
+  ],
+  "command.claimMessage": [
+    "claimMessage (enter | leave) (title | subtitle) (string | text) <value>",
+    "Sets the claims message. Use \"$empty\" to remove the message"
+  ],
+  "command.reload": [
+    "reload",
+    "Reloads the config ingame."
+  ],
+  "command.adminMode": [
+    "adminMode",
+    "Switches to admin mode ignoring all claims."
+  ],
+  "command.readGriefPrevention": [
+    "readGriefPreventionData",
+    "Parses data from the GriefPrevention plugin to Flan"
+  ],
+  "command.setAdminClaim": [
+    "setAdminClaim",
+    "Sets a claim to an admin claim."
+  ],
+  "command.listAdminClaims": [
+    "listAdminClaim",
+    "Lists all admin claims in the current world."
+  ],
+  "command.adminDelete": [
+    "adminDelete [all <player>]",
+    "Force deletes the current claim or deletes all claims from the specified player."
+  ],
+  "command.giveClaimBlocks": [
+    "giveClaimBlocks <amount>",
+    "Gives a player additional claim blocks."
+  ]
+}

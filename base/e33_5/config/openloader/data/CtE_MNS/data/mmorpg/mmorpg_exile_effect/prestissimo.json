@@ -1,0 +1,44 @@
+{
+  "type": "beneficial",
+  "id": "prestissimo",
+  "max_stacks": 1,
+  "mc_stats": [],
+  "one_of_a_kind_id": "",
+  "spell_tags": {
+    "tags": []
+  },
+  "stacks_affect_stats": true,
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 60.0,
+      "min": 40.0,
+      "stat": "attack_speed"
+    },
+    {
+      "type": "FLAT",
+      "max": 40.0,
+      "min": 20.0,
+      "stat": "draw_speed"
+    },
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 10.0,
+      "stat": "cast_speed"
+    },
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 10.0,
+      "stat": "move_speed"
+    }
+  ],
+  "tags": {
+    "tags": [
+    "positive",
+    "song",
+    "offensive"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "selflessness",
+  "runes": [
+    "ven",
+    "yun",
+    "wir",
+    "eno"
+  ],
+  "slots": [
+    "tome",
+	"totem",
+    "shield"
+  ],
+  "stats": [
+    {
+      "type": "PERCENT",
+      "max": 60.0,
+      "min": 50.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "FLAT",
+      "max": 2.0,
+      "min": 2.0,
+      "stat": "plus_lvl_song_spells"
+    },
+    {
+      "type": "FLAT",
+      "max": 40.0,
+      "min": 30.0,
+      "stat": "inc_effect_of_song_buff_given"
+    },
+    {
+      "type": "FLAT",
+      "max": -10.0,
+      "min": -15.0,
+      "stat": "total_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 15.0,
+      "min": 10.0,
+      "stat": "inc_aoe"
+    },
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 10.0,
+      "stat": "move_speed"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "STAT",
+  "icon": "mmorpg:textures/gui/spells/passives/p_ene_to_dmg_rog.png",
+  "id": "p_ene_to_dmg_rog",
+  "is_entry": false,
+  "max_lvls": 8,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "physical_weapon_damage_per_perc_of_energy",
+      "v1": 1.0
+    }
+  ]
+}

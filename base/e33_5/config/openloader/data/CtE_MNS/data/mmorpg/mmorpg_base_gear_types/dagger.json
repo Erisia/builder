@@ -1,0 +1,60 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 6.0,
+      "min": 3.0,
+      "stat": "weapon_damage"
+    },
+	{
+	  "type": "FLAT",
+	  "max": 6.0,
+	  "min": 3.0,
+	  "stat": "mana_on_basic_hit"
+	}
+  ],
+  "gear_slot": "dagger",
+  "guid": "dagger",
+  "possible_items": [
+    {
+      "item_id": "farmersdelight:flint_knife",
+      "min_rar": "common",
+      "weight": 1
+    },
+    {
+      "item_id": "farmersdelight:iron_knife",
+      "min_rar": "rare",
+      "weight": 100
+    },
+    {
+      "item_id": "farmersdelight:diamond_knife",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "farmersdelight:netherite_knife",
+      "min_rar": "mythic",
+      "weight": 10000
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "intelligence": 0.25,
+      "dexterity": 0.25
+    }
+  },
+  "style": "DEX",
+  "tags": {
+    "tags": [
+      "mage_weapon",
+      "dagger",
+      "weapon_family",
+      "melee_weapon",
+      "intelligence",
+      "dexterity"
+    ]
+  },
+  "weapon_type": "dagger",
+  "weight": 750
+}

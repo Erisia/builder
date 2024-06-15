@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:stack_upgrade_tier_1"
+    }
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:piston"
+    },
+    "C": {
+      "item": "sophisticatedbackpacks:stack_upgrade_starter_tier"
+    },
+    "D": {
+      "tag": "forge:dusts/redstone"
+    },
+    "E": {
+      "item": "create:basin"
+    }
+  },
+  "pattern": [
+    " B ",
+    "BCB",
+    "DED"
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:stack_upgrade_tier_1"
+  }
+}

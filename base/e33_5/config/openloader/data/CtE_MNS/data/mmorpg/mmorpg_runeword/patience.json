@@ -1,0 +1,39 @@
+{
+  "id": "patience",
+  "runes": [
+    "toq",
+    "fey",
+    "ven"
+  ],
+  "slots": [
+    "bow",
+    "crossbow",
+	"dagger"
+  ],
+  "stats": [
+    {
+      "type": "PERCENT",
+      "max": 50.0,
+      "min": 40.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "MORE",
+      "max": 20.0,
+      "min": 15.0,
+      "stat": "dot_dmg"
+    },
+    {
+      "type": "FLAT",
+      "max": 5.0,
+      "min": 5.0,
+      "stat": "dot_lifesteal"
+    },
+    {
+      "type": "FLAT",
+      "max": -15.0,
+      "min": -20.0,
+      "stat": "cdr"
+    }
+  ]
+}

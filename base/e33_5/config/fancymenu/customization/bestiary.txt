@@ -1,0 +1,91 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = com.robertx22.age_of_exile.gui.wiki.BestiaryScreen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1716913452747
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:f8651026-452e-4923-ab46-39781ce9d138-1716913452747] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  button_element_executable_block_identifier = 8ffb2afd-0a0a-47ec-9067-319e7eb0a91a-1716913452748
+  [executable_action_instance:67b12115-4aee-45f8-9fcc-3c75a17a7f23-1716913452748][action_type:opengui] = com.robertx22.age_of_exile.gui.screens.character_screen.MainHubScreen
+  [executable_block:8ffb2afd-0a0a-47ec-9067-319e7eb0a91a-1716913452748][type:generic] = [executables:67b12115-4aee-45f8-9fcc-3c75a17a7f23-1716913452748;]
+  backgroundnormal = [source:local]config/fancymenu/images/leftright.png
+  backgroundhovered = [source:local]config/fancymenu/images/leftright-hover.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = 
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = b96f7b43-3207-48ab-bc2e-60d80afddafd1701466923681
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -138
+  y = -125
+  width = 24
+  height = 24
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 2f094357-db91-422e-968e-8ffede02de38-1716913452748
+  [loading_requirement_container_meta:2f094357-db91-422e-968e-8ffede02de38-1716913452748] = [groups:][instances:]
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 86335324-4f07-44dc-81be-45b7b96530d2-1716913452748
+  [executable_block:86335324-4f07-44dc-81be-45b7b96530d2-1716913452748][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 362384
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 0
+  y = 0
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 9beba201-9c0c-494f-bfb3-39076b89794b-1716913452748
+  [loading_requirement_container_meta:9beba201-9c0c-494f-bfb3-39076b89794b-1716913452748] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+

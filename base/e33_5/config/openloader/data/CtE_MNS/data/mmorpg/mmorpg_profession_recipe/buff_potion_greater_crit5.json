@@ -1,0 +1,30 @@
+{
+  "exp": 200,
+  "id": "buff_potion_greater_crit5",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "mmorpg:material/fishing/5",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "blue_skies:diopside_gem",
+      "num": 5
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:rare_mats/salvaging/greater",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "lightmanscurrency:coin_gold",
+      "num": 1    }
+  ],
+  "power": "greater",
+  "profession": "alchemy",
+  "result": "mmorpg:buff_potion/greater_crit",
+  "result_num": 1,
+  "tier": 5
+}

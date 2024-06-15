@@ -1,0 +1,29 @@
+{
+  "type": "prefix",
+  "eye_aura_req": "",
+  "guid": "heal_crit_dmg_prefix",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [
+          "staff",
+		  "hammer",
+		  "tome"
+        ],
+        "req_type": "INCLUDES_ANY"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 4.0,
+      "stat": "increase_healing"
+    }
+  ],
+  "weight": 1000
+}

@@ -1,0 +1,26 @@
+{
+  "type": "implicit",
+  "guid": "arcane_staff",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [
+          "staff"
+        ],
+        "req_type": "HAS_ALL"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 8.0,
+      "min": 4.0,
+      "stat": "spell_damage"
+    }
+  ],
+  "weight": 1000
+}

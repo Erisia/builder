@@ -1,0 +1,117 @@
+{
+  "type": "negative",
+  "id": "cinder",
+  "max_stacks": 1,
+  "mc_stats": [],
+  "one_of_a_kind_id": "",
+  "spell": {
+    "entity_components": {
+      "default_entity_name": [
+        {
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "motion": "None",
+                "particle_count": 2.0,
+                "particle_type": "minecraft:flame",
+                "radius": 0.5
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 2.0
+              }
+            }
+          ],
+          "targets": []
+        }
+      ],
+      "on_entity_attacked": [
+        {
+          "acts": [
+            {
+              "type": "damage",
+              "map": {
+                "element": "Fire",
+                "value_calculation": "cinder"
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [],
+          "targets": [
+            {
+              "type": "aoe",
+              "map": {
+                "en_predicate": "enemies",
+                "radius": 2.0,
+                "selection_type": "RADIUS"
+              }
+            }
+          ]
+        },
+        {
+          "acts": [
+			  {
+				"type": "particles_in_radius",
+				"map": {
+				  "height": 0.25,
+				  "motion": "None",
+				  "particle_count": 100.0,
+				  "particle_type": "minecraft:flame",
+				  "radius": 2.0,
+				  "shape": "CIRCLE_2D",
+				  "y_rand": 0.2
+				}
+			  }
+          ],
+          "en_preds": [],
+          "ifs": [],
+          "targets": []
+        },
+		  {
+			"acts": [
+			  {
+				"type": "particles_in_radius",
+				"map": {
+				  "height": 0.25,
+				  "motion": "None",
+				  "particle_count": 25.0,
+				  "particle_type": "minecraft:poof",
+				  "radius": 2.0,
+				  "shape": "CIRCLE_2D_EDGE",
+				  "y_rand": 0.2
+				}
+			  }
+			],
+			"en_preds": [],
+			"ifs": [],
+			"targets": []
+		  }
+      ]
+    },
+    "on_cast": []
+  },
+  "spell_tags": {
+    "tags": []
+  },
+  "stacks_affect_stats": true,
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 50.0,
+      "min": 25.0,
+      "stat": "proc_cinder"
+    }
+  ],
+  "tags": {
+    "tags": [
+      "negative"
+    ]
+  }
+}

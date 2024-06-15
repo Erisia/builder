@@ -1,0 +1,14 @@
+{
+  "affixes": 3,
+  "dmg_multi": 2.25,
+  "exp_multi": 16.5,
+  "extra_hp_multi": 8.5,
+  "force_custom_hp": -1,
+  "id": "mythic",
+  "loot_multi": 16.5,
+  "min_lvl": 50,
+  "name": "Mythic",
+  "stat_multi": 3.0,
+  "text_format": "DARK_PURPLE",
+  "weight": 1
+}

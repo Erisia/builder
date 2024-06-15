@@ -1,0 +1,25 @@
+{
+  "desc": "Test your mettle...",
+  "id": "uber1",
+  "name": "Realm of Impossibility",
+  "possible_bosses": [
+    "minecraft:wither",
+    "illagerinvasion:invoker",
+    "stalwart_dungeons:awful_ghast",
+    "stalwart_dungeons:nether_keeper",
+    "undergarden:forgotten_guardian",
+    "blue_skies:starlit_crusher",
+    "blue_skies:arachnarch",
+    "minecraft:warden",
+	"aquamirae:captain_cornelia"
+  ],
+  "structure": {
+    "list": [
+      {
+        "folder": "uber/river",
+        "size": 2
+      }
+    ]
+  },
+  "weight": 1000
+}

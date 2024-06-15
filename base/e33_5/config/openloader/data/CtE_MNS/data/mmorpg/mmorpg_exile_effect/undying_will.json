@@ -1,0 +1,31 @@
+{
+  "type": "beneficial",
+  "id": "undying_will",
+  "max_stacks": 1,
+  "mc_stats": [],
+  "one_of_a_kind_id": "",
+  "spell_tags": {
+    "tags": []
+  },
+  "stacks_affect_stats": true,
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 15.0,
+      "stat": "dmg_received"
+    },
+    {
+      "type": "FLAT",
+      "max": 1.0,
+      "min": 1.0,
+      "stat": "berserk_on_kill"
+    }
+  ],
+  "tags": {
+    "tags": [
+    "positive",
+	"offensive"
+    ]
+  }
+}

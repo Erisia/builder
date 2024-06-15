@@ -1,0 +1,38 @@
+{
+  "affix_rarity_weight": 1000,
+  "announce_in_chat": true,
+  "favor_loot_multi": 1.15,
+  "favor_needed": 25000,
+  "guid": "legendary",
+  "higher_rar": "mythic",
+  "is_unique_item": false,
+  "item_model_data_num": 5,
+  "item_tier": 4,
+  "item_tier_power": 2.0,
+  "item_value_multi": 2.0,
+  "lootable_gear_tier": "HIGH",
+  "map_lives": 3,
+  "map_resist_req": 40,
+  "map_tiers": {
+    "max": 80,
+    "min": 61
+  },
+  "map_xp_multi": 1.32,
+  "max_spell_links": 5,
+  "min_affixes": 5,
+  "min_lvl": 25,
+  "min_map_rarity_to_drop": "epic",
+  "pot": {
+    "total": 75
+  },
+  "sockets": {
+    "max": 1,
+    "min": 0
+  },
+  "stat_percents": {
+    "max": 85,
+    "min": 70
+  },
+  "text_format": "GOLD",
+  "weight": 9
+}

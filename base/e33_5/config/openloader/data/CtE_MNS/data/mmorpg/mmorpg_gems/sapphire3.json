@@ -1,0 +1,34 @@
+{
+  "gem_type": "sapphire",
+  "identifier": "sapphire3",
+  "item_id": "mmorpg:gems/sapphire/3",
+  "min_lvl_multi": 0.3,
+  "on_armor_stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "water_resist",
+      "v1": 18.0
+    }
+  ],
+  "on_jewelry_stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "elemental_resist",
+      "v1": 9.0
+    }
+  ],
+  "on_weapons_stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "all_water_damage",
+      "v1": 9.0
+    }
+  ],
+  "perc_upgrade_chance": 100,
+  "text_format": "BLUE",
+  "tier": 3,
+  "weight": 27
+}

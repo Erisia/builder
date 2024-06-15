@@ -1,0 +1,16 @@
+{
+  "id": "summon_health",
+  "manaMulti": 1.2,
+  "min_lvl": 10,
+  "one_of_a_kind": "",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 51.0,
+      "min": 17.0,
+      "stat": "summon_health"
+    }
+  ],
+  "style": "INT",
+  "weight": 1000
+}

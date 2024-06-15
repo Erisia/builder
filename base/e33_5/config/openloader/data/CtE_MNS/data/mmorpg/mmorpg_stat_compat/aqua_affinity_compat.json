@@ -1,0 +1,11 @@
+{
+  "attribute_id": "",
+  "conversion": 4.0,
+  "enchant_id": "minecraft:aqua_affinity",
+  "id": "aqua_affinity_compat",
+  "maximum_cap": 50,
+  "minimum_cap": 0,
+  "mns_stat_id": "water_resist",
+  "mod_type": "FLAT",
+  "scaling": "NONE"
+}

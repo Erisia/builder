@@ -1,0 +1,22 @@
+{
+  "affected": "Players",
+  "id": "prophecy_hp",
+  "map_resist": "Physical",
+  "map_resist_bonus_needed": 0,
+  "req": "prophecy",
+  "stats": [
+    {
+      "type": "PERCENT",
+      "max": -25.0,
+      "min": -25.0,
+      "stat": "health"
+    },
+    {
+      "type": "PERCENT",
+      "max": -50.0,
+      "min": -50.0,
+      "stat": "health_regen"
+    }
+  ],
+  "weight": 1000
+}

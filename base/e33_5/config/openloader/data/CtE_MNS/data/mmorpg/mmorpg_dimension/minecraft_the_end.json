@@ -1,0 +1,12 @@
+{
+  "all_drop_multi": 1.0,
+  "dimension_id": "minecraft:the_end",
+  "exp_multi": 1.0,
+  "max_lvl": 65,
+  "min_lvl": 50,
+  "mob_lvl_per_distance": 100,
+  "mob_strength_multi": 1.2,
+  "mob_tier": 2,
+  "scale_to_nearest_player": true,
+  "unique_gear_drop_multi": 1.0
+}

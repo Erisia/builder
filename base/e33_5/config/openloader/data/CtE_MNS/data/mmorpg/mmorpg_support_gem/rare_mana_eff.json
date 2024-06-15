@@ -1,0 +1,9 @@
+{
+  "id": "rare_mana_eff",
+  "manaMulti": 0.8,
+  "min_lvl": 40,
+  "one_of_a_kind": "",
+  "stats": [],
+  "style": "STR",
+  "weight": 50
+}

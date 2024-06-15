@@ -1,0 +1,25 @@
+{
+  "base": {
+    "max": 4.5,
+    "min": 1.0
+  },
+  "base_scaling_type": "NORMAL",
+  "cap_to_wep_dmg": 1000.0,
+  "dmg_effectiveness": {
+    "multi": {
+      "max": 2.0,
+      "min": 1.6
+    },
+    "stat": "health"
+  },
+  "id": "pull",
+  "stat_scalings": [
+    {
+      "multi": {
+        "max": 2.0,
+        "min": 1.6
+      },
+      "stat": "weapon_damage"
+    }
+  ]
+}

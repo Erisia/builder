@@ -1,0 +1,50 @@
+{
+  "base_gear": "staff",
+  "guid": "dying_breath",
+  "flavor_text": "",
+  "force_item_id": "cte2modpackarmors:sinful_lights_staff",
+  "league": "",
+  "min_tier": 60,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 60.0,
+      "min": 55.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 18.0,
+      "min": 18.0,
+      "stat": "cast_speed"
+    },
+    {
+      "type": "PERCENT",
+      "max": 18.0,
+      "min": 18.0,
+      "stat": "mana"
+    },
+    {
+      "type": "FLAT",
+      "max": 18.0,
+      "min": 18.0,
+      "stat": "inc_aoe"
+    },
+    {
+      "type": "FLAT",
+      "max": 18.0,
+      "min": 18.0,
+      "stat": "inc_effect_of_curse_buff_given"
+    },
+    {
+      "type": "FLAT",
+      "max": 18.0,
+      "min": 18.0,
+      "stat": "curse_eff_dur_u_cast"
+    }
+  ],
+  "weight": 100
+}

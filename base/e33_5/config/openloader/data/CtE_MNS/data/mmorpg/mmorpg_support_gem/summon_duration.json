@@ -1,0 +1,16 @@
+{
+  "id": "summon_duration",
+  "manaMulti": 1.2,
+  "min_lvl": 1,
+  "one_of_a_kind": "",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 60.0,
+      "min": 20.0,
+      "stat": "summon_duration"
+    }
+  ],
+  "style": "INT",
+  "weight": 1000
+}

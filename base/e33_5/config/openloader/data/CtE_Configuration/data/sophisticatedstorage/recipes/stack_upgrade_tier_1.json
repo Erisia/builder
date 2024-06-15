@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "item": "create:iron_sheet"
+    },
+    "B": {
+      "item": "minecraft:piston"
+    },
+    "C": {
+      "item": "sophisticatedstorage:upgrade_base"
+    },
+    "D": {
+      "tag": "forge:dusts/redstone"
+    },
+    "E": {
+      "item": "create:basin"
+    }
+  },
+  "result": {
+    "item": "sophisticatedstorage:stack_upgrade_tier_1"
+  }
+}

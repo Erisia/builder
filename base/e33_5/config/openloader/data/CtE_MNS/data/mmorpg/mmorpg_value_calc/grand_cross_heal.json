@@ -1,0 +1,25 @@
+{
+  "base": {
+    "max": 8.0,
+    "min": 4.5
+  },
+  "base_scaling_type": "NORMAL",
+  "cap_to_wep_dmg": 1000.0,
+  "dmg_effectiveness": {
+    "multi": {
+      "max": 0.8,
+      "min": 0.8
+    },
+    "stat": "health"
+  },
+  "id": "grand_cross_heal",
+  "stat_scalings": [
+    {
+      "multi": {
+        "max": 0.8,
+        "min": 0.8
+      },
+      "stat": "weapon_damage"
+    }
+  ]
+}

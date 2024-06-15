@@ -1,0 +1,7 @@
+{
+  "can_proc_from_procs": false,
+  "id": "proc_spell_discharge",
+  "pos": "TARGET",
+  "ser": "proc_spell",
+  "spellId": "discharge"
+}

@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+		    "item": "createaddition:electrum_ingot"
+		}
+	],
+	"result":{
+		"item": "createaddition:electrum_nugget",
+		"count": 9
+	},
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

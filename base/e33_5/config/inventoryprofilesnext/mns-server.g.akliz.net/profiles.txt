@@ -1,0 +1,12 @@
+
+
+
+
+profile Saved activate HOT3
+	HOT1
+		"mmorpg:weapon/staff/wood"
+	HOT2
+		"butchersdelight:deadchickenblock"
+	HOT3
+		"xercamusic:guitar"
+

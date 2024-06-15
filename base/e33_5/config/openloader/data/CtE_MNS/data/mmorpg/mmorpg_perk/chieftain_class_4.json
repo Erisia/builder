@@ -1,0 +1,21 @@
+{
+  "type": "MAJOR",
+  "icon": "mmorpg:textures/gui/talent_icons/asc/chieftain/4.png",
+  "id": "chieftain_class_4",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "totem_cdr",
+      "v1": 20.0
+    },
+    {
+      "type": "MORE",
+      "scale_to_lvl": false,
+      "stat": "burn_damage",
+      "v1": 40.0
+    }
+  ]
+}

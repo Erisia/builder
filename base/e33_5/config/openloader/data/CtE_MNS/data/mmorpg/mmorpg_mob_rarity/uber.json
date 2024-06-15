@@ -1,0 +1,14 @@
+{
+  "affixes": 0,
+  "dmg_multi": 3.0,
+  "exp_multi": 30.0,
+  "extra_hp_multi": 20.0,
+  "force_custom_hp": 20,
+  "id": "uber",
+  "loot_multi": 30.0,
+  "min_lvl": 1,
+  "name": "Uber",
+  "stat_multi": 5.0,
+  "text_format": "RED",
+  "weight": 0
+}

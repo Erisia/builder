@@ -1,0 +1,30 @@
+{
+  "exp": 200,
+  "id": "seafood_greater_exp5",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "mmorpg:material/fishing/5",
+      "num": 5
+    },
+    {
+      "type": "ITEM",
+      "id": "aquaculture:tuna",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:rare_mats/fishing/greater",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "lightmanscurrency:coin_gold",
+      "num": 1    }
+  ],
+  "power": "greater",
+  "profession": "cooking",
+  "result": "mmorpg:seafood/greater_exp",
+  "result_num": 1,
+  "tier": 5
+}

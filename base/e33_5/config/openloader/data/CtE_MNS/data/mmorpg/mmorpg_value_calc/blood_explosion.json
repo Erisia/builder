@@ -1,0 +1,32 @@
+{
+  "base": {
+    "max": 4.0,
+    "min": 4.0
+  },
+  "base_scaling_type": "NORMAL",
+  "cap_to_wep_dmg": 3.0,
+  "dmg_effectiveness": {
+    "multi": {
+      "max": 2.0,
+      "min": 2.0
+    },
+    "stat": "health"
+  },
+  "id": "blood_explosion",
+  "stat_scalings": [
+    {
+      "multi": {
+        "max": 0.25,
+        "min": 0.25
+      },
+      "stat": "health"
+    },
+    {
+      "multi": {
+        "max": 2.0,
+        "min": 2.0
+      },
+      "stat": "weapon_damage"
+    }
+  ]
+}

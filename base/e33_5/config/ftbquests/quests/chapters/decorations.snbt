@@ -1,0 +1,1294 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "decorations"
+	group: "5F2CCE8075FCC994"
+	icon: "structurize:sceptergold"
+	id: "08A3CE628804D7D6"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Each &eWind Chime&r produces different ambient sounds respective to their material. They also scare away Phantoms within a 25-block radius."
+				""
+				"The &eGlass Wind Bell&r can have dyes applied to it to make a custom design. Wash off the design by right clicking a water source block."
+				""
+				"You can &etie/untie&r a Wind Chime by crouching + right-clicking a Wind Chime block with an empty hand to stop the phantom scaring effect."
+			]
+			id: "0E7863B918B4B195"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "05957DDC02A24CC9"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft one Glass Wind Chime"
+			tasks: [{
+				id: "3355405161F752F4"
+				item: "chimes:glass_bells"
+				type: "item"
+			}]
+			title: "Chimes"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			description: ["&eNight Lights &radds decorative light sources that can be toggled on and off."]
+			id: "31C042465B27EC87"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "28E649D855379875"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft one of each item type"
+			tasks: [
+				{
+					id: "77BD1CD948CBC5A5"
+					item: "nightlights:hanging_lights_default"
+					type: "item"
+				}
+				{
+					id: "1A360D0080ACEB31"
+					item: "nightlights:fairy_lights_default"
+					type: "item"
+				}
+			]
+			title: "Night Lights"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: ["&eSupplementaries&r and &eSupplementaries Squared&r adds numerous &edecoration and functional&r blocks that are relatively easy to craft and use."]
+			id: "74E14D9A9F4799D4"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "12CDA68D5F398808"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft one of each"
+			tasks: [
+				{
+					id: "3D5A39806227B36B"
+					item: "supplementaries:flag_white"
+					type: "item"
+				}
+				{
+					id: "2417CC783542CB88"
+					item: "supplementaries:candle_holder"
+					type: "item"
+				}
+				{
+					id: "46B341261AC67D12"
+					item: "supplementaries:item_shelf"
+					type: "item"
+				}
+				{
+					id: "2552629E3C335847"
+					item: "supplementaries:wind_vane"
+					type: "item"
+				}
+				{
+					id: "0F14FADDFB78FF74"
+					item: "supplementaries:sconce"
+					type: "item"
+				}
+			]
+			title: "Supplementaries' Decorations"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["55FCEBF7CCC646EA"]
+			description: [
+				"&eDomum Ornamentum&r adds a large amount of blocks that can be crafted using the &eArchitect's Cutter&r. Blocks can be skinned with other materials/blocks placed into the cutter. Technically, the mod can generate an \"infinte\" number of blocks for you to build with."
+				""
+				"To use, place basic blocks into the first slot to act as the &e\"template\".&r Then, add blocks or raw materials to either the side or bottom."
+				""
+				"&eMinecolonies&r makes extensive use of these blocks. Hover over the block in the Minecolonies building materials list to see how to craft the specific block."
+			]
+			id: "4DE44DAB8C077369"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "6A34464437C16E83"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft the Architect's Cutter"
+			tasks: [{
+				id: "5B034D90CE8E0017"
+				item: "domum_ornamentum:architectscutter"
+				type: "item"
+			}]
+			title: "Domum Ornamentum"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"MineColonies allows you to build your own self sustaining and producing colony. Your colonists will each have skills they level up as they work. They require food, tools, and will get sick. Your colony can be a jack of all trades or you can develop it into producing valuables such as ores or food."
+				""
+				"The Supply Camp or Supply Ship block is the beginning of your colony. It serves as a tutorial for the Build tool and gives you a basic building to live out of and some loot. "
+				""
+				"You must place a supply camp/ship somewhere in the world to create a colony."
+				""
+				"There is no difference between the camp and ship other than what it looks like and where you're meant to build it."
+				""
+				"&cIn Craft to Exile 2, MineColonies does NOT claim land! Please use FLAN (refer to Jolly Cooperation) for land claims!&r"
+			]
+			icon: "minecolonies:supplycampdeployer"
+			id: "55FCEBF7CCC646EA"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "6F3B416453C03C24"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			size: 1.5d
+			subtitle: "Craft the Supply Camp"
+			tasks: [{
+				id: "4670861D0DD4942A"
+				item: "minecolonies:supplycampdeployer"
+				type: "item"
+			}]
+			title: "MineColonies Introduction"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["55FCEBF7CCC646EA"]
+			description: [
+				"The &eTown Hall&r block is the start to your colony. Choose the appearance of the colony when you build the Town Hall. It can be changed later and per building. Once placed, a few villagers will spawn. If you lose these villagers, more will spawn. This can be turned off by turning off \"Kids will be born\" in the settings within the block's interface."
+				""
+				"You will need to make a &ebuilder's hut&r next."
+				""
+				"The &eBuild Tool &rmust be used to place and plan all buildings in Minecolonies. You must have the respective building block in your inventory to place the blueprint down."
+				""
+				"You can also place the block down itself but you won't be able to see how it looks and you may encounter an error."
+			]
+			id: "7581DCBAA177F759"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "3E4730902A9D2AEF"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft the Town Hall block"
+			tasks: [
+				{
+					id: "35276042C7C43138"
+					item: "minecolonies:blockhuttownhall"
+					type: "item"
+				}
+				{
+					id: "31D94A10EBE98722"
+					item: "structurize:sceptergold"
+					type: "item"
+				}
+			]
+			title: "Starting Minecolonies"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55FCEBF7CCC646EA"]
+			description: [
+				"Once placed, the &eBuilder's Hut&r will assign a colonist to become a builder. You must go into the interface for the builder's hut block and click \"Build\". This goes for all buildings. The builder will then request tools and the blocks required to build the builder's hut first. Make sure your builder is safe, fed, and has the blocks they need to work. Otherwise, they will stop working. "
+				""
+				"Once the builder's hut is complete, you should begin work on your &eTown Hall&r. "
+				""
+				"The builder's hut level determines the &espeed, maximum tool level able to be used, and the maximum level&r of other buildings it can build."
+			]
+			id: "45670CD002941D38"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "0632370BAA2AB88A"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft the Builder's Hut"
+			tasks: [{
+				id: "6B8F348B85E26C31"
+				item: "minecolonies:blockhutbuilder"
+				type: "item"
+			}]
+			title: "Builder's Hut"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4DE44DAB8C077369"
+				"7581DCBAA177F759"
+				"45670CD002941D38"
+			]
+			description: [
+				"&eResidences&r are needed to fit your colony with more citizens. Each level of a residence allows for another citizen to live in the colony."
+				""
+				"A quick way to get more citizens is to build a &eTavern&r which will continually have potential colonists to be recruited. Check the skills for each one to ensure it's a good fit for your colony."
+			]
+			id: "617F7B7C428A120E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "74CC55903044580D"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft the Tavern and Residence"
+			tasks: [
+				{
+					id: "73299BA802E0FE2D"
+					item: "minecolonies:blockhutcitizen"
+					type: "item"
+				}
+				{
+					id: "504C688DBF4BB84C"
+					item: "minecolonies:blockhuttavern"
+					type: "item"
+				}
+			]
+			title: "Citizens"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"&eHandcrafted&r adds furniture such as &efancy beds, counters, and chairs&r. These are customizable using &esheets&r and &epillows&r of different colors."
+				""
+				"The &eHammer&r allows you to change the look of blocks into different forms, such as changing a stair's type without having to place and re-place it."
+			]
+			id: "6A465BF497661001"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "45138A03C0BDB5AC"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft any type of board, pillow, sheet, and hammer"
+			tasks: [
+				{
+					id: "7C737EF24A0DD366"
+					item: "handcrafted:white_cushion"
+					type: "item"
+				}
+				{
+					id: "31FE8C4D49C42EA5"
+					item: "handcrafted:white_sheet"
+					type: "item"
+				}
+				{
+					id: "4A94BB46A7D9D52C"
+					item: "handcrafted:hammer"
+					type: "item"
+				}
+			]
+			title: "Handcrafted"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4DE44DAB8C077369"
+				"7581DCBAA177F759"
+				"45670CD002941D38"
+			]
+			description: [
+				"Your colonists need a place to store their items and for you to give them supplies. The &eWarehouse&r does just that. The Courier's Hut allows courier colonists to deliver and pickup supplies where needed."
+				""
+				"The &ePostbox&r allows you to have items delivered to you while the Stash allows you to have items delivered to the warehouse. The courier will make the route automatically."
+			]
+			id: "5FC48F34204A950D"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "104D7582DD81DB04"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft the Courier's Hut and Warehouse"
+			tasks: [
+				{
+					id: "0D8EF8617AB0B002"
+					item: "minecolonies:blockhutwarehouse"
+					type: "item"
+				}
+				{
+					id: "459C8F1885124F12"
+					item: "minecolonies:blockhutdeliveryman"
+					type: "item"
+				}
+				{
+					id: "529BF5B0D2C322AC"
+					item: "minecolonies:blockpostbox"
+					type: "item"
+				}
+				{
+					id: "2C44F78B3EF2A457"
+					item: "minecolonies:blockstash"
+					type: "item"
+				}
+			]
+			title: "Colonist Storage"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5FC48F34204A950D"
+				"617F7B7C428A120E"
+				"2948029B88CB3D40"
+			]
+			description: ["&eGuard's Towers &rallow for guard jobs to be assigned to colonists. They will chase any hostile mobs within range and will attempt to kill them. They require weapons and armor. Higher levels of the guard tower allows for &ebetter weapons and armor&r for them to equip."]
+			id: "47AE524FED9FD6E0"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "6FC9AE1F14A01443"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft the Guard's Tower"
+			tasks: [{
+				id: "331B1917AF7B4726"
+				item: "minecolonies:blockhutguardtower"
+				type: "item"
+			}]
+			title: "Basic Defense"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4DE44DAB8C077369"
+				"7581DCBAA177F759"
+				"45670CD002941D38"
+			]
+			description: [
+				"The &eClipboard&r allows you to see all requests made by the citizens of your colony while the Resource Scroll allows you to see the resources required by a specific builder's hut's current project. "
+				""
+				"Bind the clipboard to the town hall block and the resource scroll to a builder's hut block by &eshift right clicking&r with it in hand."
+			]
+			id: "2948029B88CB3D40"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "0C7F441A9145902A"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft the Clipboard and Resource Scroll"
+			tasks: [
+				{
+					id: "2F27768E067E4F30"
+					item: "minecolonies:clipboard"
+					type: "item"
+				}
+				{
+					id: "63B309F845ED7A66"
+					item: {
+						Count: 1
+						id: "minecolonies:resourcescroll"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Town Tracking"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5FC48F34204A950D"
+				"617F7B7C428A120E"
+				"2948029B88CB3D40"
+			]
+			description: [
+				"The &eMine&r allows miners to gather resources. As they mine, they have a chance to mine an ore. Higher levels of the building allow for them to &emine deeper and with better tools&r."
+				""
+				"The &eForester's Hut&r allows colonists to chop down trees and replant them in a set area. Higher levels allow &ebigger trees&r to be cut down and allow for&e better tools&r to be used."
+				""
+				"Use the &eForester's Tool &rto designate the areas that trees can be cut down. It can be obtained from the hut's GUI."
+				""
+				"The &eSimple Quarry and Medium Quary&r will dig out any blocks it can within the area designated and store them."
+			]
+			id: "0C6D1DDE3762303B"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "337AF74FBDF5BF2B"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft the Mine and Forester's Hut"
+			tasks: [
+				{
+					id: "0445C39379E116E0"
+					item: "minecolonies:blockhutminer"
+					type: "item"
+				}
+				{
+					id: "2801CF4DAB044B9B"
+					item: "minecolonies:blockhutlumberjack"
+					type: "item"
+				}
+				{
+					id: "506790773D58770E"
+					item: "minecolonies:simplequarry"
+					type: "item"
+				}
+			]
+			title: "Basic Gathering"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5FC48F34204A950D"
+				"617F7B7C428A120E"
+				"2948029B88CB3D40"
+			]
+			description: ["&eEach&r of these allows for their respective animal type to be &ebred and slaughtered&r. You will need to provide the animals by leading them into the building. Higher levels allow for &emore animals&r to be housed."]
+			id: "37BE61069D7D3893"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "693CFD09A9EFA430"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft one of each"
+			tasks: [
+				{
+					id: "61BE1416923D2191"
+					item: "minecolonies:blockhutchickenherder"
+					type: "item"
+				}
+				{
+					id: "29A81DB7D2CE9517"
+					item: "minecolonies:blockhutcowboy"
+					type: "item"
+				}
+				{
+					id: "1390B87D39A8A0CB"
+					item: "minecolonies:blockhutswineherder"
+					type: "item"
+				}
+				{
+					id: "2D635EDB7C201794"
+					item: "minecolonies:blockhutshepherd"
+					type: "item"
+				}
+				{
+					id: "5F5D12AACDFFCB09"
+					item: "minecolonies:blockhutrabbithutch"
+					type: "item"
+				}
+				{
+					id: "5C8551FFCF7DDFE7"
+					item: "minecolonies:blockhutbeekeeper"
+					type: "item"
+				}
+			]
+			title: "Basic Animal Husbandry"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5FC48F34204A950D"
+				"617F7B7C428A120E"
+				"2948029B88CB3D40"
+			]
+			description: [
+				"The &eRestaurant&r is where your colonists will go to eat if they don't have food in their inventories. The restaurant must have recipes assigned to them, such as assigning a recipe to cook all raw porkchops. Level 3 building allows for an &eassistant chef&r to be hired."
+				""
+				"&eFarms and Fishing Huts&r allow for a steady rate of food to be delivered. Higher levels allow for &efaster production and less chance&r for junk to be fished up. Farmers require &efields&r to be placed which dictates where they will cultivate."
+				""
+				"The &eBakery&r is where special breads are made that have &ebuffs&r, such as sweet bread that gives a speed boost and removes poison. Higher levels &eunlock&r more recipes."
+			]
+			id: "490416231A4CAE1A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "3635E78C62BF6C39"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft one of each"
+			tasks: [
+				{
+					id: "2393E1835499B6C8"
+					item: "minecolonies:blockhutbaker"
+					type: "item"
+				}
+				{
+					id: "3F4DFEF8DD495DFE"
+					item: "minecolonies:blockhutfarmer"
+					type: "item"
+				}
+				{
+					id: "20F57870E48EFC24"
+					item: "minecolonies:blockhutfisherman"
+					type: "item"
+				}
+				{
+					id: "6D5E9E6DBF6EDDFF"
+					item: "minecolonies:blockhutcook"
+					type: "item"
+				}
+				{
+					id: "4699A476613D146B"
+					item: "minecolonies:blockhutfield"
+					type: "item"
+				}
+			]
+			title: "Basic Food Production"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5FC48F34204A950D"
+				"617F7B7C428A120E"
+				"2948029B88CB3D40"
+			]
+			description: ["The &eEnchanter’s Tower&r is where the Enchanter will create enchanted books, as long as they have Ancient Tomes. The Enchanter will &ecollect XP from other workers &rto create the enchanted books. The higher their&e Mana level&r, the more XP they will collect per trip. They will &enot apply&r the enchanted books to tools and armor, you must do that yourself."]
+			id: "3C119488F1962FAF"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "67C443ED409FBA07"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft an Enchanter's Tower"
+			tasks: [{
+				id: "1F09D0D45A204B9C"
+				item: "minecolonies:blockhutenchanter"
+				type: "item"
+			}]
+			title: "Basic Magical Item Production"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3C119488F1962FAF"
+				"490416231A4CAE1A"
+				"37BE61069D7D3893"
+				"0C6D1DDE3762303B"
+				"47AE524FED9FD6E0"
+			]
+			description: ["The &eUniversity&r allows you to unlock various &eperks and bonuses&r that will either &ebuff&r your colonists, &eunlock&r new buildings, or new &erecipes.&r These may take a long time but are necessary to gain access to the full benefits of your colony."]
+			id: "7544A85438D5BE64"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "0C6568BFE47AC458"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft a University"
+			tasks: [{
+				id: "6A078B1CC1D96A64"
+				item: "minecolonies:blockhutuniversity"
+				type: "item"
+			}]
+			title: "Research and Development"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7544A85438D5BE64"]
+			description: [
+				"The &eCombat Academy&r allows your soldiers to train in their combat skills."
+				""
+				"The &eArchery&r building employs archers to be added to your colony's defense."
+				""
+				"The &eBarracks&r houses and employs soldiers and increases the maximum number of guard's towers that are able to be attached to it."
+			]
+			id: "0201340BEB27CC9D"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "784D47BEF4F9D33F"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft one of each"
+			tasks: [
+				{
+					id: "09E27F59B10B5818"
+					item: "minecolonies:blockhutcombatacademy"
+					type: "item"
+				}
+				{
+					id: "4EF05D3A6E7E289B"
+					item: "minecolonies:blockhutbarracks"
+					type: "item"
+				}
+				{
+					id: "773B567DEF696860"
+					item: "minecolonies:blockhutarchery"
+					type: "item"
+				}
+			]
+			title: "Advanced Defense"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7544A85438D5BE64"]
+			description: [
+				"Each of these buildings use the &ebasic resources&r your colonists gather to &eproduce&r advanced materials such as building blocks and minerals."
+				""
+				"The &eNether Mine &rallows colonists to &emine&r nether exclusive ores and resources. While they create a working nether portal, the colonists &edon't actually go&r into the nether. Higher levels allow for &ebetter and more types of resources&r to be gathered."
+			]
+			id: "227F20B0FA192A36"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "1E62A9A29E31C05D"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft one of each"
+			tasks: [
+				{
+					id: "664E4E0EB0E46254"
+					item: "minecolonies:blockhutstonesmeltery"
+					type: "item"
+				}
+				{
+					id: "688ABD943A5D95BD"
+					item: "minecolonies:blockhutstonemason"
+					type: "item"
+				}
+				{
+					id: "597BD9FEC00E4298"
+					item: "minecolonies:blockhutcrusher"
+					type: "item"
+				}
+				{
+					id: "52EAF891211FFD56"
+					item: "minecolonies:blockhutsifter"
+					type: "item"
+				}
+				{
+					id: "09A2F0EDD4923A75"
+					item: "minecolonies:blockhutsawmill"
+					type: "item"
+				}
+				{
+					id: "0403D3B94B763564"
+					item: "minecolonies:blockhutsmeltery"
+					type: "item"
+				}
+				{
+					id: "6A845C38FEAFEF10"
+					item: "minecolonies:blockhutcomposter"
+					type: "item"
+				}
+				{
+					id: "2C5BD8BD527D6FDE"
+					item: "minecolonies:blockhutflorist"
+					type: "item"
+				}
+				{
+					id: "06D0C3F0C6B3270E"
+					item: "minecolonies:blockhutnetherworker"
+					type: "item"
+				}
+			]
+			title: "Advanced Production"
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7544A85438D5BE64"]
+			description: [
+				"The Hospital allows your colonists to heal themselves from sickness without your intervention. "
+				""
+				"The School allows your colonists to train their skills and be more efficient workers."
+				""
+				"The Library trains your colonists' intelligence which affects all activities they do while they are assigned to it."
+				""
+				"The Graveyard is where your colonists will be buried when dead. The only benefit to the graveyard is the Undertaker, the site's worker, will go to the Mystical Site if built and attempt to resurrect dead colonists that are buried."
+			]
+			id: "70705AF8CCB36CC4"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "4FC8A5F00EEBFD61"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft the Hospital and School"
+			tasks: [
+				{
+					id: "5E40FBA55A955D1F"
+					item: "minecolonies:blockhuthospital"
+					type: "item"
+				}
+				{
+					id: "06DDB6B64519099F"
+					item: "minecolonies:blockhutschool"
+					type: "item"
+				}
+				{
+					id: "6BF2B27B859BBE0D"
+					item: "minecolonies:blockhutlibrary"
+					type: "item"
+				}
+				{
+					id: "622C09A1B9826425"
+					item: "minecolonies:blockhutgraveyard"
+					type: "item"
+				}
+			]
+			title: "Advanced Colonist Wellbeing"
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7544A85438D5BE64"]
+			description: [
+				"The &eFletcher's Hut&r will produce arrows and any item that uses wool or strings as their primary component such as bows and fishing poles."
+				""
+				"The &eMechanic&r will produce redstone items such as minecarts and clocks. They can also produce special items such as gates and multi-pistons which are not available elsewhere."
+				""
+				"The &eConcrete Mixer&r will produce concrete ready to be used without having to wait for the powder to dry."
+				""
+				"The &eBlacksmith&r can make any vanilla tool, armor, or shield."
+				""
+				"The &eDyer's Hut &rwill produce dyes and dye items."
+				""
+				"Each level of these buildings determine the &eamount&r of recipes they can remember."
+			]
+			id: "05CFE1DAC39C5242"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "01E1206CFA472F56"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft one of each"
+			tasks: [
+				{
+					id: "2527B4016C5A6880"
+					item: "minecolonies:blockhutfletcher"
+					type: "item"
+				}
+				{
+					id: "05881686D30AA899"
+					item: "minecolonies:blockhutmechanic"
+					type: "item"
+				}
+				{
+					id: "2FE8E392237D4E14"
+					item: "minecolonies:blockhutconcretemixer"
+					type: "item"
+				}
+				{
+					id: "2FE2E350454EED95"
+					item: "minecolonies:blockhutblacksmith"
+					type: "item"
+				}
+				{
+					id: "701C52BF8DBB4F69"
+					item: "minecolonies:blockhutdyer"
+					type: "item"
+				}
+			]
+			title: "Advanced Technology"
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7544A85438D5BE64"]
+			description: [
+				"The &eMystical Site&r increases the happiness of all colonists just by existing. The graveyard worker will come here to pray and attempt to &eresurrect&r a dead colonist and raise their own mana level."
+				""
+				"The &eAlchemist Tower&r can &ebrew&r potions and &eharvest&r netherwart and mistletoe. &eMistletoe&r is used to enhance the potions they create."
+			]
+			id: "25F0F167BCC9E1FE"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "015F61F858844749"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft one of each"
+			tasks: [
+				{
+					id: "2BCDED6E078211DD"
+					item: "minecolonies:blockhutmysticalsite"
+					type: "item"
+				}
+				{
+					id: "769B40A46227CB70"
+					item: "minecolonies:blockhutalchemist"
+					type: "item"
+				}
+			]
+			title: "Advanced Magical Item Production"
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"4575D89CF1402FBE"
+				"5C8BC0E390495498"
+				"22882AB66938F04D"
+				"21617421810519FA"
+			]
+			icon: {
+				Count: 1
+				id: "minecolonies:spear"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5551FEF7101F91B1"
+			rewards: [
+				{
+					command: "/tellraw @a {\"text\":\"\",\"color\":\"blue\",\"extra\":[{\"selector\":\"@p\"},{\"text\":\" has achieved The Aristocrat!\"}]}"
+					elevate_perms: true
+					icon: "minecraft:cookie"
+					id: "525AC2C0BE4A9D72"
+					title: "Click here to brag"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 750"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "081948308E177F09"
+					silent: true
+					title: "750 Experience x Lv."
+					type: "command"
+				}
+				{
+					id: "08312AB73A60E420"
+					item: "simplehats:tophat"
+					title: "Top Hat"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5D5F557BE6BE85F3"
+					item: "lightmanscurrency:coin_diamond"
+					title: "Money"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Complete all challenges"
+			tasks: [{
+				id: "7C18836F1A7AB142"
+				type: "checkmark"
+			}]
+			title: "Achievement: The Aristocrat"
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"25F0F167BCC9E1FE"
+				"0201340BEB27CC9D"
+				"227F20B0FA192A36"
+				"05CFE1DAC39C5242"
+				"70705AF8CCB36CC4"
+			]
+			id: "21617421810519FA"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "096330636085B1D9"
+					silent: true
+					title: "500 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "4B79BE91668EE91D"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Money"
+					type: "item"
+				}
+				{
+					id: "010497B8880FB4CD"
+					item: "simplehats:floweronhead"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Submit 64 Magic Potions"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "4BEB58E7E454299F"
+				item: "minecolonies:magicpotion"
+				type: "item"
+			}]
+			title: "Challenge: Alchemy Expert"
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"25F0F167BCC9E1FE"
+				"0201340BEB27CC9D"
+				"227F20B0FA192A36"
+				"05CFE1DAC39C5242"
+				"70705AF8CCB36CC4"
+			]
+			id: "22882AB66938F04D"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "4B4AF4800A5E72AA"
+					silent: true
+					title: "500 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "6BB08B3C9906192D"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Money"
+					type: "item"
+				}
+				{
+					id: "40483E92774F82BB"
+					item: "simplehats:fullironhelm"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Obtain one of each"
+			tasks: [
+				{
+					id: "0AEEDE3FD42E96FA"
+					item: {
+						Count: 1
+						id: "minecolonies:plate_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "505375782BE7F2D4"
+					item: {
+						Count: 1
+						id: "minecolonies:plate_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "683C840DDBF4722F"
+					item: {
+						Count: 1
+						id: "minecolonies:plate_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6EDB12CCF54F613D"
+					item: {
+						Count: 1
+						id: "minecolonies:plate_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Challenge: Professionally Crafted"
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"25F0F167BCC9E1FE"
+				"0201340BEB27CC9D"
+				"227F20B0FA192A36"
+				"05CFE1DAC39C5242"
+				"70705AF8CCB36CC4"
+			]
+			id: "5C8BC0E390495498"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "7A04E0EA31AE3E00"
+					silent: true
+					title: "500 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "643964A6B0C689EE"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Money"
+					type: "item"
+				}
+				{
+					id: "24E688668A6E18EE"
+					item: "simplehats:finnhood"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Submit 32 of each"
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "4BE23FF7EF8DDC24"
+					item: "minecolonies:milky_bread"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "5553CC2F890E9C8D"
+					item: "minecolonies:sugary_bread"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "623E5C490696E002"
+					item: "minecolonies:golden_bread"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "168DC17C1729995D"
+					item: "minecolonies:chorus_bread"
+					type: "item"
+				}
+			]
+			title: "Challenge: Patisserie Chef"
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"25F0F167BCC9E1FE"
+				"0201340BEB27CC9D"
+				"227F20B0FA192A36"
+				"05CFE1DAC39C5242"
+				"70705AF8CCB36CC4"
+			]
+			id: "4575D89CF1402FBE"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "738E2720D02CBF91"
+					silent: true
+					title: "500 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "461C415464BEDAF9"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Money"
+					type: "item"
+				}
+				{
+					id: "7D3DA028CBD75F15"
+					item: "simplehats:digger"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Submit 16 Diamond Meshes"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "1E50F1DDCCFBD04C"
+				item: {
+					Count: 1
+					id: "minecolonies:sifter_mesh_diamond"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Challenge: Gold Panning"
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"&eMacaw's Doors &radds numerous door variations and themes to craft."
+				""
+				"&eMacaw's Bridges&r adds bridges and bridge variants."
+				""
+				"&eMacaw's Lights and Lamps&r adds numerous types of lamps and light sources."
+			]
+			id: "3C9F2AB674921503"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "3F7E8E123A70AC50"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft one of each"
+			tasks: [
+				{
+					id: "6B06D8650053E266"
+					item: "mcwdoors:oak_barn_door"
+					type: "item"
+				}
+				{
+					id: "3BEA773995483823"
+					item: "mcwbridges:pliers"
+					type: "item"
+				}
+				{
+					id: "3C698BB503A1FAEC"
+					item: "mcwlights:lava_lamp"
+					type: "item"
+				}
+			]
+			title: "Macaw's Decorations"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			description: ["&eFloral Enchantment&r adds flower bushes with which you can obtain the &evines&r of each flower. Flower vines are obtained from &ebushes.&r You can get &emossy cobblestone&r from each flower to decorate. It also adds some other floral themed &egear&r and decorations."]
+			id: "32823645E2FE4F43"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "4BD548221E47022A"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft one Floral Basket"
+			tasks: [{
+				id: "4F4158D32907A7C0"
+				item: "floralench:floral_basket"
+				type: "item"
+			}]
+			title: "Floral Enchantment"
+			x: 4.5d
+			y: 0.0d
+		}
+	]
+	title: "Homestead"
+}

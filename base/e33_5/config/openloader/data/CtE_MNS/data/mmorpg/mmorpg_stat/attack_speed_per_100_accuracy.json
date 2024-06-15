@@ -1,0 +1,16 @@
+{
+  "data": {
+    "add_to": "attack_speed",
+    "adder_stat": "accuracy",
+    "base": 0.0,
+    "ele": "Physical",
+    "id": "attack_speed_per_100_accuracy",
+    "max": 2.14748365E9,
+    "min": 0.0,
+    "name": "§a[VAL1] §b★ Attack Speed§7 per 100 §b★ Accuracy§7",
+    "per_amount": 10,
+    "perc": false,
+    "scale": "NONE"
+  },
+  "ser": "more_x_per_y"
+}

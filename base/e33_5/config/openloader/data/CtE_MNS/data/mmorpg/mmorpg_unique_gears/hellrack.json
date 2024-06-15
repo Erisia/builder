@@ -1,0 +1,44 @@
+{
+  "base_gear": "crossbow",
+  "guid": "hellrack",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "",
+  "min_tier": 40,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 30.0,
+      "min": 20.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 50.0,
+      "min": 25.0,
+      "stat": "accuracy"
+    },
+    {
+      "type": "FLAT",
+      "max": 50.0,
+      "min": 33.0,
+      "stat": "plus_phys_to_fire"
+    },
+    {
+      "type": "FLAT",
+      "max": 50.0,
+      "min": 33.0,
+      "stat": "plus_phys_to_lightning"
+    },
+    {
+      "type": "FLAT",
+      "max": 50.0,
+      "min": 33.0,
+      "stat": "plus_phys_to_water"
+    }
+  ],
+  "weight": 100
+}

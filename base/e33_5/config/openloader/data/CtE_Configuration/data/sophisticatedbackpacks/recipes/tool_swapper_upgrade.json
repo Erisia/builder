@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GAG",
+    "BCD",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "B": {
+      "item": "minecraft:iron_axe"
+    },
+    "C": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    },
+    "D": {
+      "item": "minecraft:iron_sword"
+	},
+    "E": {
+      "tag": "forge:dusts/redstone"
+	},
+    "F": {
+      "item": "mmorpg:stone/1"
+	},
+    "G": {
+      "item": "waystones:warp_dust"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:tool_swapper_upgrade"
+  }
+}

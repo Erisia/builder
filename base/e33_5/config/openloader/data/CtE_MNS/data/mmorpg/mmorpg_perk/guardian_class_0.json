@@ -1,0 +1,33 @@
+{
+  "type": "MAJOR",
+  "icon": "mmorpg:textures/gui/talent_icons/asc/guardian/0.png",
+  "id": "guardian_class_0",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "inc_effect_of_defensive_buff_given",
+      "v1": 25.0
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "knockback_resist",
+      "v1": 100.0
+    },
+    {
+      "type": "MORE",
+      "scale_to_lvl": false,
+      "stat": "health",
+      "v1": 10.0
+    },
+    {
+      "type": "MORE",
+      "scale_to_lvl": false,
+      "stat": "magic_shield",
+      "v1": 10.0
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCD",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "create:attribute_filter"
+    },
+    "B": {
+      "item": "create:item_drain"
+    },
+    "C": {
+      "item": "sophisticatedbackpacks:pump_upgrade"
+    },
+    "D": {
+      "item": "create:portable_fluid_interface"
+	},
+    "E": {
+      "item": "create:rose_quartz"
+	},
+    "F": {
+      "item": "mmorpg:stone/2"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:advanced_pump_upgrade"
+  }
+}

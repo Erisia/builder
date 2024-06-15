@@ -1,0 +1,49 @@
+{
+  "base": 0.0,
+  "effect": [
+    {
+      "effects": [
+        "flat_damage_number_add_stat_percent"
+      ],
+      "events": [
+        "on_spend_resource"
+      ],
+      "ifs": [
+        "resource_type_is_mana"
+      ],
+      "order": "before_damage_layers",
+      "side": "Source"
+    },
+    {
+      "effects": [
+        "flat_damage_number_add_stat_percent"
+      ],
+      "events": [
+        "on_spend_resource"
+      ],
+      "ifs": [
+        "resource_type_is_energy"
+      ],
+      "order": "before_damage_layers",
+      "side": "Source"
+    }
+  ],
+  "ele": "Physical",
+  "format": "aqua",
+  "group": "MAIN",
+  "gui_group": "NONE",
+  "has_softcap": false,
+  "icon": "⚔",
+  "id": "archmage_mana_cost",
+  "is_long": true,
+  "is_perc": true,
+  "max": 100.0,
+  "min": 0.0,
+  "minus_is_good": false,
+  "multiUseType": "MULTIPLY_STAT",
+  "order": 100,
+  "scaling": "NONE",
+  "ser": "data",
+  "show_in_gui": true,
+  "softcap": 0.0
+}

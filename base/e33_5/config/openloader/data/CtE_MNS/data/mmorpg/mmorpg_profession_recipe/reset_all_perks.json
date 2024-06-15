@@ -1,0 +1,31 @@
+{
+  "exp": 125,
+  "id": "reset_all_perks",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "minecraft:glass_bottle",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:stone/2",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "undergarden:utherium_crystal",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "minecraft:diamond",
+      "num": 1
+    }
+  ],
+  "power": "greater",
+  "profession": "alchemy",
+  "result": "mmorpg:potions/reset_all_perks",
+  "result_num": 1,
+  "tier": 0
+}

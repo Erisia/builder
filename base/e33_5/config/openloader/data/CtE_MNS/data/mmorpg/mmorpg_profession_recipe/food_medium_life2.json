@@ -1,0 +1,31 @@
+{
+  "exp": 150,
+  "id": "food_medium_life2",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "mmorpg:material/meat/2",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "minecraft:wheat",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:rare_mats/husbandry/medium",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "lightmanscurrency:coin_iron",
+      "num": 1
+	}
+  ],
+  "power": "medium",
+  "profession": "cooking",
+  "result": "mmorpg:food/medium_life",
+  "result_num": 1,
+  "tier": 2
+}

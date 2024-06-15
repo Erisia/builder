@@ -1,0 +1,97 @@
+
+["Dog Constants"]
+	#By default, Dogs can starve to Incapacitated if are not fed properly.
+	#Disable this to prevent this behaviour. Do note that you can still feed
+	#your Dog to recover health.
+	disable_hunger = false
+	#When enabled, puppies get some levels from their parents. When disabled, puppies start at 0 points.
+	enable_pup_get_parent_levels = false
+	#When enabled, dogs cannot be killed by any means (except creative-mode-bypass damage, in that case, you can still respawn your dog using his linked bed or commands).
+	#Instead, when his health reaches Zero, he will go into Incapacitated Mode.
+	immortal_dogs = true
+	#When enabled, dog can play tag with you. To make them play, throw a snowball at them.
+	play_tag_with_dog = true
+	#When enabled, dogs will start to miss you when you leave them for too long.
+	#And when you come back, they will rush to you and greet you with love!
+	dog_greet_owner = true
+	#Specify how many dogs can greet you when you approach more than one missing dog.
+	#The remaning dogs will remain in their position.
+	#To disable the limit, set this to any non-positive integer.
+	#Although this will cause all of your dogs to stand up and greet.
+	#YOU HAVE BEEN WARNED! :)
+	#Range: > -2147483648
+	dog_greet_owner_limit = 5
+	#Option to disable dogs who mastered Creeper Sweeper and 
+	#and are able to tackle Creepers. This is helpful if players intend
+	#their Creeper Sweeper master dogs to focus on fighting Creeper instead of
+	#warning you, which may causes a bunch of false positives due to the range
+	#being so wide that it includes Creepers which are not in danger zone or not reachable.
+	max_creeper_sweeper_dont_growl = true
+	#Option to disable friendly fire for all players toward all dogs.
+	#This is used to always be the case with friendly fire disabled for a single dog.
+	all_player_cannot_attack_dog = true
+	#Option to prevent dogs from accidentally going into a portal and get
+	#unnecessary transferred to another dimension, causing the owner to have
+	#to take them back. The preferred way to make a dog go to another dimension is
+	#to have Cross Origin Teleport set to true on that dog.
+	all_dog_block_portal = true
+	#Define how many dogs a player can listen to commands which summon more than one dog to you
+	#at the same time. Set this to any negative value to remove the limit completely.
+	#Range: > -2147483648
+	max_heel_limit = 20
+	#Prevent dogs from pushing each other when navigating, this prevents dogs from pushing
+	#another dog into a dangerous area and improves navigation.
+	prevent_dogs_pushing_each_other = true
+	#Duplication Detection
+	#Specify what to do when a Duplication is detected when third parties are trying
+	#to load the dog from their own copy.
+	#Option are specified via the following Integer values
+	#0 - Throw an exception out, this may produce a crash. However, this is the recommended way.
+	#1 - Silently remove the dog.
+	#Other - Do nothing.
+	#Range: > -2147483648
+	duplication_resolve_strategy = 1
+	#When enabled, DTN will provide new players of this world
+	#(relative to the point that this option is first enabled on this world)
+	#a Starter Bundle which contains certain key items which assist you in starting
+	#with DTN.
+	enable_starter_bundle = false
+	#By default, each Dog will be one of the Biological Genders. This, like how Biological Genders
+	#work, add restrictions how Dogs can breed. Therefore, only Dogs whose gender is Biologically Opposed
+	#can mate with each other. Set this to true to disable this behaviour.
+	disable_dog_gender = false
+	#By default, Dogs respawning from bed after being killed will
+	#be incapacitated and are required to be nursed back to life.
+	#Set this to False to disable.
+	dog_respawn_incapacitated_when_killed = true
+	#Enable this if you prefer Mob Retriever to only work with DTN's dog.
+	mob_retriever_only_carry_dog = false
+	#By default, Dogs extend their bounding box covering the passengers
+	#to avoid suffocating them while calculating the appropriate path.
+	#Set this to false to disable it, but be warned, although Mob Retriever Dogs will still
+	#try to calculate the appropriate path while carrying another mob, there might be accidental suffocations.
+	wolf_mount_passenger_collision = true
+	#By default, Conducting Bone users can summon their Dogs even when they are in
+	#other dimensions. Set this to false to limit Conducting Bone Users to only summon
+	#Dogs of the same dimension.
+	conducting_bone_cross_origin = true
+	#Adjust this value to increase or decrease the Dog's hunger speed to your liking.
+	#ex: Set this to 0.5 to halve the Dog Hunger decrease speed.
+	#Range: 0.0 ~ 2.0
+	hunger_modifier = 1.0
+	#Determine if the UUIDs of the dogs are being kept when training from vanilla
+	#and when they respawn on bed. This also allows Duplication Detection.
+	disable_preserve_uuid = false
+	#By default, you can directly train an untamed wolf to a Dog
+	#with a Training Treat. Set this to True to disable.
+	disable_train_untamed_wolf = false
+	#Determine if Dog's incapacitated value should be reset when taking any damage
+	#while being Incapacitated.
+	incap_val_reset_when_hurt = true
+	#Set the maximum amount of wolves each players can train to DTN's Dogs.
+	#If a player meet or exceed this cap, he will not be able to train more wolves into DTN's Dogs.
+	#Set this to a value greater than Zero to activate this cap, other value
+	#will disable the cap, meaning players can get unlimited dogs.
+	#Range: > -2147483648
+	train_wolf_limit = -1
+

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:dusts/redstone"
+    },
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "C": {
+      "item": "mmorpg:stone/2"
+    },
+    "D": {
+      "item": "chunkloaders:advanced_chunk_loader"
+    }
+  },
+  "result": {
+    "item": "chunkloaders:ultimate_chunk_loader"
+  }
+}

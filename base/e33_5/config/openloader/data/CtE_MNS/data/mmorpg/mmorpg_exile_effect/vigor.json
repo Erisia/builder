@@ -1,0 +1,38 @@
+{
+  "type": "beneficial",
+  "id": "vigor",
+  "max_stacks": 3,
+  "mc_stats": [],
+  "one_of_a_kind_id": "",
+  "spell_tags": {
+    "tags": []
+  },
+  "stacks_affect_stats": true,
+  "stats": [
+    {
+      "type": "PERCENT",
+      "max": 50.0,
+      "min": 25.0,
+      "stat": "mana_regen"
+    },
+    {
+      "type": "PERCENT",
+      "max": 50.0,
+      "min": 25.0,
+      "stat": "energy_regen"
+    },
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "song_spell_dmg"
+    }
+  ],
+  "tags": {
+    "tags": [
+    "positive",
+    "song",
+    "defensive"
+    ]
+  }
+}

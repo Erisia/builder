@@ -1,0 +1,89 @@
+{
+  "type": "negative",
+  "id": "thorn",
+  "max_stacks": 5,
+  "mc_stats": [],
+  "one_of_a_kind_id": "",
+  "spell": {
+    "entity_components": {
+      "default_entity_name": [
+        {
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "motion": "None",
+                "particle_count": 2.0,
+                "particle_type": "minecraft:crit",
+                "radius": 0.5
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 2.0
+              }
+            }
+          ],
+          "targets": []
+        }
+      ],
+      "on_entity_attacked": [
+        {
+          "acts": [
+            {
+              "type": "damage",
+              "map": {
+                "element": "Physical",
+                "value_calculation": "thorn_consume"
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [],
+          "targets": [
+            {
+              "type": "target",
+              "map": {}
+            }
+          ]
+        },
+        {
+          "acts": [
+            {
+              "type": "exile_effect",
+              "map": {
+                "count": 1.0,
+                "exile_potion_id": "thorn",
+                "potion_action": "REMOVE_STACKS",
+                "potion_dur": 20.0
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [],
+          "targets": [
+            {
+              "type": "target",
+              "map": {}
+            }
+          ]
+        }
+      ]
+    },
+    "on_cast": []
+  },
+  "spell_tags": {
+    "tags": []
+  },
+  "stacks_affect_stats": true,
+  "stats": [],
+  "tags": {
+    "tags": [
+      "negative"
+    ]
+  }
+}

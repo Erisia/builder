@@ -1,0 +1,20 @@
+{
+  "id": "magic_shield",
+  "min_lvl": 10,
+  "reservation": 0.4,
+  "stats": [
+    {
+      "type": "PERCENT",
+      "max": 20.0,
+      "min": 4.0,
+      "stat": "magic_shield"
+    },
+    {
+      "type": "FLAT",
+      "max": 40.0,
+      "min": 8.0,
+      "stat": "magic_shield"
+    }
+  ],
+  "style": "INT"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "defensive_minions",
+  "manaMulti": 1.2,
+  "min_lvl": 20,
+  "one_of_a_kind": "",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": -60.0,
+      "min": -20.0,
+      "stat": "aggro_radius"
+    },
+    {
+      "type": "FLAT",
+      "max": 15.0,
+      "min": 5.0,
+      "stat": "summon_health"
+    }
+  ],
+  "style": "STR",
+  "weight": 1000
+}

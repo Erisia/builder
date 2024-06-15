@@ -1,0 +1,24 @@
+{
+  "modId": "farmersdelight",
+  "silent": true,
+  "group": {
+    "name": "Farmers Delight Seeds",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "lightmanscurrency:coin_copper",
+      "count": 3
+    },
+    "defaultCategory": "farmingforblockheads:seeds"
+  },
+  "customEntries": [
+    {
+      "output": "farmersdelight:cabbage_seeds"
+    },
+    {
+      "output": "farmersdelight:rice"
+    },
+    {
+      "output": "farmersdelight:tomato_seeds"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+execute as @a store result score @s Level run data get entity @s ForgeCaps.mmorpg:entity_data.level

@@ -1,0 +1,11 @@
+{
+  "attribute_id": "",
+  "conversion": 4.0,
+  "enchant_id": "minecolonies:raider_damage_enchant",
+  "id": "ms_raiders_bane_compat",
+  "maximum_cap": 50,
+  "minimum_cap": 0,
+  "mns_stat_id": "dmg_to_living",
+  "mod_type": "FLAT",
+  "scaling": "NONE"
+}

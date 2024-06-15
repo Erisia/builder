@@ -1,0 +1,16 @@
+{
+  "id": "chaos_flat_dmg",
+  "manaMulti": 1.2,
+  "min_lvl": 30,
+  "one_of_a_kind": "",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 7.5,
+      "min": 2.5,
+      "stat": "flat_chaos_added_damage"
+    }
+  ],
+  "style": "DEX",
+  "weight": 1000
+}

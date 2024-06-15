@@ -1,0 +1,25 @@
+{
+  "base": {
+    "max": 19.0,
+    "min": 12.0
+  },
+  "base_scaling_type": "NORMAL",
+  "cap_to_wep_dmg": 1000.0,
+  "dmg_effectiveness": {
+    "multi": {
+      "max": 2.25,
+      "min": 1.5
+    },
+    "stat": "health"
+  },
+  "id": "healing_aura",
+  "stat_scalings": [
+    {
+      "multi": {
+        "max": 2.25,
+        "min": 1.5
+      },
+      "stat": "weapon_damage"
+    }
+  ]
+}

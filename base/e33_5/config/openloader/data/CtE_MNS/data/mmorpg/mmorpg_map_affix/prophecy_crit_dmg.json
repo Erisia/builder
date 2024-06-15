@@ -1,0 +1,16 @@
+{
+  "affected": "Players",
+  "id": "prophecy_crit_dmg",
+  "map_resist": "Physical",
+  "map_resist_bonus_needed": 0,
+  "req": "prophecy",
+  "stats": [
+    {
+      "type": "MORE",
+      "max": -40.0,
+      "min": -40.0,
+      "stat": "critical_damage"
+    }
+  ],
+  "weight": 1000
+}

@@ -1,0 +1,106 @@
+{
+  "id": "rogue",
+  "lvl_reqs": [
+    1,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+  ],
+  "perks": {
+    "double_strike": {
+      "x": 1,
+      "y": 0
+    },
+    "flicker_strike": {
+      "x": 1,
+      "y": 2
+    },
+    "puncture": {
+      "x": 1,
+      "y": 3
+    },
+    "execute": {
+      "x": 1,
+      "y": 4
+    },
+    "whirling_blades": {
+      "x": 1,
+      "y": 5
+    },
+    "piercing_dagger_throw": {
+      "x": 3,
+      "y": 0
+    },
+    "snipe": {
+      "x": 3,
+      "y": 2
+    },
+    "fan_of_knives": {
+      "x": 3,
+      "y": 4
+    },
+    "ricochet_shot": {
+      "x": 3,
+      "y": 6
+    },
+    "sharpen": {
+      "x": 5,
+      "y": 1
+    },
+    "smoke_bomb": {
+      "x": 5,
+      "y": 2
+    },
+    "venom_splash_potion": {
+      "x": 5,
+      "y": 3
+    },
+    "backflip": {
+      "x": 6,
+      "y": 3
+    },
+    "mirror_image": {
+      "x": 5,
+      "y": 5
+    },
+    "flame_splash_potion": {
+      "x": 5,
+      "y": 6
+    },
+    "p_attack_speed": {
+      "x": 8,
+      "y": 1
+    },
+    "p_ene_regen_rog": {
+      "x": 9,
+      "y": 1
+    },
+    "p_dodge_rog": {
+      "x": 8,
+      "y": 2
+    },
+    "p_crit_hit_rog": {
+      "x": 8,
+      "y": 3
+    },
+    "p_crit_dmg_rog": {
+      "x": 9,
+      "y": 3
+    },
+    "p_move_speed_rog": {
+      "x": 8,
+      "y": 4
+    },
+    "p_phys_to_chaos_rog": {
+      "x": 8,
+      "y": 5
+    },
+    "p_ene_to_dmg_rog": {
+      "x": 9,
+      "y": 5
+    }
+  }
+}

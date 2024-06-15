@@ -1,0 +1,30 @@
+{
+  "exp": 200,
+  "id": "food_greater_life3",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "mmorpg:material/meat/3",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "farmersdelight:cabbage",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:rare_mats/husbandry/greater",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "lightmanscurrency:coin_gold",
+      "num": 1    }
+  ],
+  "power": "greater",
+  "profession": "cooking",
+  "result": "mmorpg:food/greater_life",
+  "result_num": 1,
+  "tier": 3
+}

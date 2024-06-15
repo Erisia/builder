@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "item": "mmorpg:stone/1"
+    },
+    "B": {
+      "item": "minecraft:piston"
+    },
+    "C": {
+      "item": "sophisticatedstorage:upgrade_base"
+    },
+    "D": {
+      "tag": "forge:dusts/redstone"
+	},
+    "E": {
+      "item": "create:mechanical_saw"
+    }
+  },
+  "result": {
+    "item": "sophisticatedstorage:compression_upgrade"
+  }
+}

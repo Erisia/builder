@@ -1,0 +1,69 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 3.0,
+      "min": 1.5,
+      "stat": "dodge"
+    },
+    {
+      "type": "FLAT",
+      "max": 2.0,
+      "min": 1.0,
+      "stat": "health"
+    }
+  ],
+  "gear_slot": "boots",
+  "guid": "leather_boots",
+  "possible_items": [
+    {
+      "item_id": "cte_essentials:leather_0_boots",
+      "min_rar": "common",
+      "weight": 1
+    },
+    {
+      "item_id": "cte_essentials:leather_1_boots",
+      "min_rar": "uncommon",
+      "weight": 10
+    },
+    {
+      "item_id": "cte_essentials:leather_2_boots",
+      "min_rar": "rare",
+      "weight": 100
+    },
+    {
+      "item_id": "cte_essentials:leather_3_boots",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "cte_essentials:leather_4_boots",
+      "min_rar": "legendary",
+      "weight": 10000
+    },
+    {
+      "item_id": "cte_essentials:leather_5_boots",
+      "min_rar": "mythic",
+      "weight": 100000
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "dexterity": 0.5
+    }
+  },
+  "style": "DEX",
+  "tags": {
+    "tags": [
+      "dexterity",
+      "dodge_stat",
+      "dodge_stat_half",
+      "armor_family",
+      "boots",
+	  "leather_boots"
+    ]
+  },
+  "weapon_type": "none",
+  "weight": 1000
+}

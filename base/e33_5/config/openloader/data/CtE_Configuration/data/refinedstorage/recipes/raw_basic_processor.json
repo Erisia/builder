@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "refinedstorage:processor_binding"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "mmorpg:stone/0"
+    },
+    {
+      "tag": "forge:silicon"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "result": {
+    "item": "refinedstorage:raw_basic_processor"
+  }
+}

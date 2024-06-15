@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "item": "mmorpg:stone/2"
+    },
+    "B": {
+      "item": "create:brass_hand"
+    },
+    "C": {
+      "item": "sophisticatedbackpacks:smoking_upgrade"
+    },
+    "D": {
+      "item": "create:rose_quartz"
+	},
+    "E": {
+      "item": "create:belt_connector"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:auto_smoking_upgrade"
+  }
+}

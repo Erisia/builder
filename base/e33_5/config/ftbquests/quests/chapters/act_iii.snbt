@@ -1,0 +1,1155 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "act_iii"
+	group: "1E3C4B5FFAE48A39"
+	icon: "undergarden:catalyst"
+	id: "31B544F80AB89D6E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2AFB98683E249B7D"]
+			description: ["It seems like &eRotlings&r are not the only rotten creatures. There are many different breeds of them."]
+			icon: "minecraft:rotten_flesh"
+			id: "5E98541EEB25174A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58382CF9AB2A0A3E"
+					table_id: 1433159522818962256L
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 6000"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "1206AB15279F8FA5"
+					silent: true
+					title: "6000 Experience"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Main Quest"
+			tasks: [
+				{
+					entity: "undergarden:rotbeast"
+					icon: "minecraft:rotten_flesh"
+					id: "2C4A8A938CB95DE1"
+					type: "kill"
+					value: 16L
+				}
+				{
+					entity: "undergarden:rotwalker"
+					icon: "alexsmobs:cockroach_wing"
+					id: "03FF1260F86F8A4E"
+					type: "kill"
+					value: 16L
+				}
+			]
+			title: "Rotting Creatures"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18D44E8B9226FB02"]
+			description: ["You were told this dimension was dank and moist, but you did not expect it to be rotting. Kill the pesky &eRotlings&r that keep attacking you, they seem to be the cause of the rot."]
+			id: "2AFB98683E249B7D"
+			rewards: [
+				{
+					count: 2
+					id: "5DCBFD4165D4B05B"
+					item: "lightmanscurrency:coin_gold"
+					title: "Money"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 5000"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "495F3EA9B5202D6E"
+					silent: true
+					title: "5000 Experience"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Main Quest"
+			tasks: [{
+				entity: "undergarden:rotling"
+				icon: "alexsmobs:cockroach_wing_fragment"
+				id: "5C9A9DA8C7B9EEFC"
+				type: "kill"
+				value: 8L
+			}]
+			title: "Foreign Enemies"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"43D444B5C1395F3E"
+				"43653B7D5F737BF3"
+				"5C25A5681CC704B8"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Now that you're geared up, it's time to see what's causing these abnormalities in the ocean. You've noticed some activity in the &eOverworld Ice Mazes&r... It might be worth checking out. You can find these Ice Mazes on the &esurface near Deep Frozen Oceans&r. "
+				""
+				"They say a rare plant called &eOxygelium&r can be found at the &ebottom of these Ice Mazes&r in the ocean."
+				""
+				"You'll need &eBolt Armor&r to survive the cold. It can be crafted."
+				""
+				"&cMobs from Aquamirae spawn at a minimum of level 35. If you're above level 35 and looking for more of a challenge, consider completing the rest of Act III in the Overworld Mirror dimension!&r"
+				""
+				"&eRequires 1 dependency to be completed.&r"
+			]
+			icon: "minecraft:ice"
+			id: "217637D12CF3011E"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6A6264B5A2D68399"
+					table_id: 5102974831465220002L
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 7250"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "513C3E0F390949B6"
+					silent: true
+					title: "7250 Experience"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Main Quest"
+			tasks: [
+				{
+					biome: "minecraft:deep_frozen_ocean"
+					icon: "minecraft:water_bucket"
+					id: "0BFF2BEAE062A2F4"
+					title: "Explore the Deep Frozen Ocean Biome"
+					type: "biome"
+				}
+				{
+					icon: "minecraft:ice"
+					id: "7D9182428353834C"
+					structure: "aquamirae:ice_maze/common"
+					title: "Find an Ice Maze"
+					type: "structure"
+				}
+			]
+			title: "The Hidden Depths"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E98541EEB25174A"]
+			description: [
+				"You spoke with a village local who claimed to once live in the Undergarden. According to that local, there were once powerful entities in temples throughout the land that protected civilization from creeping Rot. You'll need to find an Undergarden &eCatacombs&r to complete this quest."
+				""
+				"However, it seems that was all in the past. New investigations hint at some new creatures haunting the Overworld depths. Perhaps now is a good time to check out the &eOverworld Mirror&r."
+			]
+			id: "775A13E1924D6C9A"
+			rewards: [
+				{
+					id: "22D6AB0E769C0B19"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":35,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Rare Gear Loot Chest (Lv. 35)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 6250"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "235DECB54BBFBDE3"
+					silent: true
+					title: "6250 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4s
+							}]
+						}
+					}
+					id: "1E135904CF7ED95A"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Main Quest"
+			tasks: [{
+				entity: "undergarden:forgotten"
+				icon: {
+					Count: 1
+					id: "undergarden:forgotten_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "074321BF73A109FA"
+				type: "kill"
+				value: 16L
+			}]
+			title: "Civilization from the Past"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AFB98683E249B7D"]
+			description: ["You've heard from an elderly local from the village that they were originally from the Undergarden! According to the local, there are no longer any villages in the Undergarden due to the creeping Rot. However, there may still be resident &eStoneborn&r creatures willing to do trade."]
+			id: "34AE4F64C6DCC76B"
+			rewards: [
+				{
+					id: "3598048059AFC907"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/currency"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"common\",\"lvl\":30,\"id\":\"currency\",\"key\":\"\"}"
+						}
+					}
+					title: "Common Currency Loot Chest (Lv. 30)"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7B53CAD7E3888851"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 5500"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "4AB967C7D0BC5EA0"
+					silent: true
+					title: "5500 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Delegation"
+			tasks: [{
+				advancement: "undergarden:undergarden/stoneborn_trade"
+				criterion: ""
+				id: "41919A014FCB8BFF"
+				type: "advancement"
+			}]
+			title: "Foreign Friends"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2AFB98683E249B7D"]
+			description: ["Explore the depths of the Undergarden and you'll find some useful resources that can be turned into gear!"]
+			id: "73CB23341BA13CD0"
+			rewards: [
+				{
+					count: 3
+					id: "61183E226D5E94A5"
+					item: "mmorpg:stone/3"
+					title: "Epic Stones"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 5000"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "6B975E6A9D52282E"
+					silent: true
+					title: "5000 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "MINE and Slash"
+			tasks: [{
+				advancement: "undergarden:undergarden/mine_ore"
+				criterion: ""
+				id: "5E1546F833807E4F"
+				type: "advancement"
+			}]
+			title: "New Resources"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["217637D12CF3011E"]
+			description: ["If you're having trouble finding an &eEnd Portal Frame&r and running out of &eEye of Enders&r, perhaps it's time for you to craft an &eEndolocator&r, which is functionally the same as an Eye of Ender, but has unlimited uses!"]
+			id: "2E0F302F9BBF7E36"
+			rewards: [
+				{
+					count: 3
+					id: "04EA5114ACF663AF"
+					item: "lightmanscurrency:coin_gold"
+					title: "Money"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 7500"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "1FC44A6913452913"
+					silent: true
+					title: "7500 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Echo Location"
+			tasks: [{
+				id: "40F07F24ADE9D1A4"
+				item: {
+					Count: 1
+					id: "alexsmobs:endolocator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Structure-Finding Help"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"59A29FC72CB20EB7"
+				"43D444B5C1395F3E"
+				"5E98541EEB25174A"
+				"2E0F302F9BBF7E36"
+				"2AFB98683E249B7D"
+				"217637D12CF3011E"
+				"18B4B295493669DD"
+				"775A13E1924D6C9A"
+				"60A18C940B623CDA"
+				"73CB23341BA13CD0"
+				"46DB9530C236A4AD"
+				"55F9F418C4CA3B3A"
+				"3054F5AA249874B1"
+				"43653B7D5F737BF3"
+				"4BA92370D0D0DC32"
+				"5596C3E03B25B9C8"
+				"58F782F592F2ADEB"
+				"34AE4F64C6DCC76B"
+				"0AFF7911E9C10C1B"
+				"0998037F5701A2D7"
+				"5C25A5681CC704B8"
+				"360C736C3975B377"
+				"11DB53435CA1D59E"
+			]
+			description: ["Complete all of the quests in Act III to complete this achievement. Then show it off with your new hat!"]
+			hide_dependency_lines: true
+			icon: "simplehats:babydolphin"
+			id: "6852C249CA093735"
+			rewards: [
+				{
+					id: "07B40C2CAFFA4A41"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Money"
+					type: "item"
+				}
+				{
+					id: "69E1F9E5F47DE548"
+					item: "simplehats:babydolphin"
+					title: "Baby Dolphin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Achievement"
+			tasks: [{
+				id: "7F4620276B50AC30"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Complete All Act III Quests!"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["775A13E1924D6C9A"]
+			description: ["You can craft your own Waystone to teleport to. These will be relatively expensive, but they're definitely worth it!"]
+			id: "4BA92370D0D0DC32"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 5000"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "597C6F3B17BA40CF"
+				silent: true
+				title: "5000 Experience"
+				type: "command"
+			}]
+			subtitle: "Utilities"
+			tasks: [{
+				id: "7F29159B548EDBA1"
+				item: "waystones:sandy_waystone"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["775A13E1924D6C9A"]
+			description: ["Despite it's expensive ingredients, the &eDisenchanter&r allows you to take all the enchantments off of an item for a &edurability cost&r."]
+			id: "5596C3E03B25B9C8"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 5500"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "7EC6BA5FD16D04E9"
+					silent: true
+					title: "5500 Experience"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2053355660EE0346"
+					table_id: 7157812384472883171L
+					type: "loot"
+				}
+			]
+			subtitle: "Utilities"
+			tasks: [{
+				id: "613E6DBC63B51865"
+				item: "disenchanting:disenchanter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2E0F302F9BBF7E36"]
+			description: ["The &eStrange Fish Finder&r will locate nearby Devil's Hole chunks which contain &eunique fish and loot&r."]
+			id: "58F782F592F2ADEB"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 8000"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "479F2BD1BBE7BC9A"
+					silent: true
+					title: "8000 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4s
+							}]
+						}
+					}
+					id: "2B95DBCDDE09AA83"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
+			subtitle: "Echo Location"
+			tasks: [{
+				id: "0B89633D93313B67"
+				item: {
+					Count: 1
+					id: "alexsmobs:pupfish_locator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["775A13E1924D6C9A"]
+			dependency_requirement: "one_completed"
+			description: ["This set of &earmor&r allows you to easily &emine and fight&r underwater. You'll need some &eCreate kinetics to repressurize&r the backtank."]
+			id: "43653B7D5F737BF3"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 6750"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "05528058E37BE850"
+				silent: true
+				title: "6750 Experience"
+				type: "command"
+			}]
+			shape: "circle"
+			subtitle: "Main Quest"
+			tasks: [
+				{
+					id: "5E6F23F7337E48EF"
+					item: {
+						Count: 1
+						id: "create:copper_diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75E59670757C771E"
+					item: {
+						Count: 1
+						id: "create:copper_diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "298BBA2B5D07A0FB"
+					item: {
+						Count: 1
+						id: "create:copper_backtank"
+						tag: {
+							Air: 900
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Diving Kit"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["775A13E1924D6C9A"]
+			dependency_requirement: "one_completed"
+			description: ["This set of &earmor&r allows you to easily &emine and fight&r underwater. You can craft &eOxygen Tanks with Oxygelium&r which can be found underwater."]
+			id: "43D444B5C1395F3E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 6750"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "482D24E3915BCF42"
+				silent: true
+				title: "6750 Experience"
+				type: "command"
+			}]
+			shape: "circle"
+			subtitle: "Main Quest"
+			tasks: [
+				{
+					id: "7B1370680492A67F"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15969F7FC51090F2"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["217637D12CF3011E"]
+			description: ["These undead creatures have been spotted roaming the &eIce Mazes on the surface, near the Deep Frozen Ocean&r."]
+			id: "60A18C940B623CDA"
+			rewards: [
+				{
+					id: "4C7692645F8A7345"
+					item: "mmorpg:rare_mats/fishing/lesser"
+					title: "Lesser Fish"
+					type: "item"
+				}
+				{
+					id: "023076E4060597AE"
+					item: "mmorpg:material/fishing/2"
+					title: "Empyrean Raw Fish"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 8500"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "132D51D143AFAECD"
+					silent: true
+					title: "8500 Experience"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Undersea Adventure"
+			tasks: [{
+				entity: "aquamirae:tortured_soul"
+				icon: {
+					Count: 1
+					id: "betterarcheology:soul_totem"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6DC389E918151695"
+				type: "kill"
+				value: 24L
+			}]
+			title: "The Restless Dead"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["217637D12CF3011E"]
+			description: ["These fish definitely look fishy... and they're on land! These creatures can be found in &eIce Mazes near the Deep Frozen Ocean&r."]
+			id: "3054F5AA249874B1"
+			rewards: [
+				{
+					id: "18127D8F7D2FE528"
+					item: "mmorpg:rare_mats/fishing/medium"
+					title: "Medium Fish"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 8750"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "2D6BC5CAD878B4F4"
+					silent: true
+					title: "8750 Experience"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Undersea Adventure"
+			tasks: [{
+				entity: "aquamirae:maw"
+				icon: "alexsmobs:flying_fish"
+				id: "64029E0952041AA3"
+				type: "kill"
+				value: 16L
+			}]
+			title: "Terrestrial Terrors"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["217637D12CF3011E"]
+			description: ["The &eAnglers&r in the &eDeep Ocean&r seem normal enough..."]
+			id: "59A29FC72CB20EB7"
+			rewards: [
+				{
+					id: "5623647895FDB31F"
+					item: "mmorpg:material/fishing/3"
+					title: "Angelic Raw Fish"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 8750"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "325506065E24D465"
+					silent: true
+					title: "8750 Experience"
+					type: "command"
+				}
+				{
+					id: "13A003531A29BE48"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:ice_maze"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Undersea Adventure"
+			tasks: [{
+				entity: "aquamirae:anglerfish"
+				icon: "aquamirae:anglers_fang"
+				id: "793FAAC99A394C65"
+				type: "kill"
+				value: 12L
+			}]
+			title: "Deep-Sea Creatures"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["59A29FC72CB20EB7"]
+			description: [
+				"This slippery, slithery creature can be found in &eShelters&r by the &eIce Maze&r."
+				""
+				"&cThe Eel spawns at a minimum level of 35.&r"
+				""
+				"The Eel Has:"
+				"&b+50% Physical to Cold Damage&r"
+				"&a15% Chance of Dropping Und Rune&r"
+			]
+			id: "46DB9530C236A4AD"
+			rewards: [
+				{
+					count: 2
+					id: "16C206CAA7691022"
+					item: "mmorpg:stone/3"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 9250"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "5E42161C284D2B09"
+					silent: true
+					title: "9250 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4s
+							}]
+						}
+					}
+					id: "0F7E84FB337FE624"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Undersea Adventure"
+			tasks: [{
+				entity: "aquamirae:eel"
+				icon: "alexsmobs:shed_snake_skin"
+				id: "05F31113091D1241"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slippery Swimmer"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3054F5AA249874B1"]
+			description: [
+				"Never actually seen by any living being, the myth of the &eMother of the Ice Maze&r is that it's a powerful creature that roams the seas, attacking sailors and pirates alike. If you want to find it, it's said that it has a chance of &espawning with Anglers&r (&70.5% chance to spawn with an Angler&r). It's also rumored that inside the gut of the creature, you'll find rare ancient pirate treasure..."
+				""
+				"&cThe Mother of the Ice Maze spawns at a minimum level of 35.&r"
+				""
+				"The Mother of the Ice Maze Has:"
+				"&b+50% Physical to Cold Damage&r"
+				"&a50% Chance of Dropping Und Rune&r"
+			]
+			id: "18B4B295493669DD"
+			rewards: [
+				{
+					count: 8
+					id: "3E4E7CF7278690E7"
+					item: "lightmanscurrency:coin_gold"
+					title: "Money"
+					type: "item"
+				}
+				{
+					id: "0DDB0EF1FF5F5BA3"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":35,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Rare Gear Loot Chest (Lv. 35)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 14000"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "7153FEA8AA828FFB"
+					silent: true
+					title: "14000 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4s
+							}]
+						}
+					}
+					id: "060035A5B1D52952"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Undersea Adventure"
+			tasks: [{
+				entity: "aquamirae:maze_mother"
+				icon: {
+					Count: 1
+					id: "aquamirae:maze_rose"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "obscure_api:distance"
+								lvl: 3s
+							}
+							{
+								id: "obscure_api:fast_spin"
+								lvl: 5s
+							}
+						]
+					}
+				}
+				id: "0962A21E9E55A320"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Mother of the Deep Sea"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3054F5AA249874B1"
+				"60A18C940B623CDA"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"The &eGhost of Captain Cornelia&r appears when a certain sound is played from a &ehorn&r..."
+				""
+				"Some say the &ehorn&r can be found in a &elarge mother-like creature&r that lurks in the &eDeep Frozen Ocean&r, or can be earned through the completion of a &eGateway of the Ice Maze&r."
+				""
+				"The Ghost of Captain Cornelia Has:"
+				"&b+50% Physical to Cold Damage&r"
+				"&b+25% Critical Hit&r"
+				"&a10% Chance of Dropping Und Rune&r"
+				""
+				"&cThe Ghost of Captain Cornelia spawns at level of 40.&r"
+				""
+				"&eRequires 1 dependency to be completed.&r"
+			]
+			id: "55F9F418C4CA3B3A"
+			rewards: [
+				{
+					id: "3460CB6300D902AD"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Money"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2A9A07576D36CFDF"
+					item: "mmorpg:material/fishing/3"
+					title: "Angelic Raw Fish"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 15000"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "59ABA7C0A346C178"
+					silent: true
+					title: "15000 Experience"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Main Quest"
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: "aquamirae:pirate_pouch"
+				id: "36993DF8C06FCE11"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Captain Cornelia's Locker"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["73CB23341BA13CD0"]
+			description: ["These &ecold ingots&r can be used to craft some powerful &eFroststeel&r gear. They can be found in &eCold Underground Biomes&r."]
+			id: "0AFF7911E9C10C1B"
+			rewards: [
+				{
+					count: 4
+					id: "0D451539F1EC255E"
+					item: "mmorpg:material/mining/1"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 5000"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "052C4DC20201AB66"
+					silent: true
+					title: "5000 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4s
+							}]
+						}
+					}
+					id: "0CBDF4F483A66437"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
+			subtitle: "MINE and Slash"
+			tasks: [{
+				count: 8L
+				id: "154C7E9E60887877"
+				item: "undergarden:froststeel_ingot"
+				type: "item"
+			}]
+			title: "Cold Ingots"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["55F9F418C4CA3B3A"]
+			description: [
+				"It's time for you to visit the Villager scholar. They might know something about alternate dimensions containing powerful creatures."
+				""
+				"You can find the &eGatekeeper&r in &eGatekeeper Houses&r which can spawn in the &emountains, and plains or snowy villages&r."
+				""
+				"You might need some way to coerce them to giving the information however... Perhaps some &aEmeralds&r?"
+			]
+			id: "0998037F5701A2D7"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 9250"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "4BE8EDFC75B0DD85"
+				silent: true
+				title: "9250 Experience"
+				type: "command"
+			}]
+			shape: "rsquare"
+			subtitle: "Main Quest"
+			tasks: [{
+				icon: "blue_skies:blinding_key"
+				id: "0C15001804C8AF74"
+				structure: "#blue_skies:gatekeeper_houses"
+				title: "Find a Gatekeeper"
+				type: "structure"
+			}]
+			title: "The Gatekeepers"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["775A13E1924D6C9A"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Deep in the &eLabyrinths&r, you can sometimes find deactivated guardians. They say these guardians once protected the people from Rot creatures, but have long since lost their magic. Of course, that's just what they say..."
+				""
+				"If you cannot find these guardians, you may have better luck forcing a portal to the past with an &eEndless Gateway of the Labyrinth&r."
+				""
+				"The Forgotten Guardian Has:"
+				"&b+50% Elemental Resistance&r"
+				"&a10% Chance of Dropping Und Rune&r"
+			]
+			id: "5C25A5681CC704B8"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 12500"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "45269ACB23D984A3"
+					silent: true
+					title: "12500 Experience"
+					type: "command"
+				}
+				{
+					id: "2EFCEBBD529078B6"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:endless/labyrinth"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "The Undergarden"
+			tasks: [{
+				entity: "undergarden:forgotten_guardian"
+				icon: {
+					Count: 1
+					id: "undergarden:forgotten_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "68ABFF4A22C968A4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Hidden Secrets"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["217637D12CF3011E"]
+			description: [
+				"Having difficulty with some mobs? You can power yourself up using the Mine and Slash &eEnchantment Profession&r. &eScrolls&r can be used on your Gear to &erandomly apply a beneficial stat&r. This stat can be upgraded by using subsequent Enchantment Scrolls."
+				""
+				"See the &eM\\&S Professions&r chapter for more information on how to use this system!"
+			]
+			icon: "minecraft:paper"
+			id: "360C736C3975B377"
+			rewards: [
+				{
+					count: 4
+					id: "45BD213CEE617FC1"
+					item: {
+						Count: 1
+						id: "mmorpg:enchantment/family/armor/common"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "06864F652BEF71AF"
+					item: {
+						Count: 1
+						id: "mmorpg:enchantment/family/armor/uncommon"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Lost Page"
+			tasks: [{
+				id: "1CF415B71E5C7734"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Not Vanilla Enchantments"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5596C3E03B25B9C8"]
+			description: [
+				"In CTE2, some Vanilla stats have compatibility with Mine and Slash!"
+				""
+				"Vanilla : &aMine and Slash&r"
+				"Health : &b+0.5% Magic Shield&r"
+				"Armor : &b+0.5% Armor&r"
+				"Armor Toughness : &b+0.5% Armor&r"
+				"Attack Damage : &b+0.5% Total Damage&r"
+				"Luck : &b+1% Magic Find&r"
+				""
+				"Additionally, Enchantment compatibility is included. You can see how the Enchantment affects Mine and Slash stats in the &bEnchantment description in blue&r."
+			]
+			icon: "minecraft:paper"
+			id: "11DB53435CA1D59E"
+			rewards: [{
+				id: "050336E8ABF73D0D"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Lost Page"
+			tasks: [{
+				id: "28690175BDCF5B11"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Stat and Enchantment Compatibility"
+			x: 3.0d
+			y: 3.0d
+		}
+	]
+	subtitle: ["Lv. 25-40"]
+	title: "Act III"
+}

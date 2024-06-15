@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:stack_upgrade_tier_2"
+    }
+  ],
+  "key": {
+    "B": {
+      "item": "multipiston:multipistonblock"
+    },
+    "C": {
+      "item": "minecraft:piston"
+    },
+    "D": {
+      "item": "sophisticatedstorage:stack_upgrade_tier_1_plus"
+    },
+    "E": {
+      "item": "create:rose_quartz"
+    },
+    "F": {
+      "item": "mmorpg:stone/2"
+    }
+  },
+  "pattern": [
+    " B ",
+    "CDC",
+    "EFE"
+  ],
+  "result": {
+    "item": "sophisticatedstorage:stack_upgrade_tier_2"
+  }
+}

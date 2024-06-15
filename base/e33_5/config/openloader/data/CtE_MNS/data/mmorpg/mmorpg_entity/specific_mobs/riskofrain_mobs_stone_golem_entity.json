@@ -1,0 +1,15 @@
+{
+  "dmg_multi": 1.0,
+  "exp_multi": 1.25,
+  "hp_multi": 2.0,
+  "identifier": "riskofrain_mobs:stone_golem_entity",
+  "loot_multi": 1.1,
+  "max_lvl": 1000000,
+  "min_lvl": 1,
+  "set_health_damage_override": false,
+  "set_rar": "",
+  "stat_multi": 1.5,
+  "stats": {
+    "stats": []
+  }
+}

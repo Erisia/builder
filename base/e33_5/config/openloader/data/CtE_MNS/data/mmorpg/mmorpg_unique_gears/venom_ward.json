@@ -1,0 +1,38 @@
+{
+  "base_gear": "leather_chest",
+  "guid": "venom_ward",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "",
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 70.0,
+      "min": 60.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "PERCENT",
+      "max": 8.0,
+      "min": 6.0,
+      "stat": "health"
+    },
+    {
+      "type": "FLAT",
+      "max": 75.0,
+      "min": 75.0,
+      "stat": "chaos_resist"
+    },
+    {
+      "type": "FLAT",
+      "max": 5.0,
+      "min": 5.0,
+      "stat": "max_chaos_resist"
+    }
+  ],
+  "weight": 1000
+}

@@ -1,0 +1,24 @@
+{
+  "type": {
+    "can_dual_wield": false,
+    "damage_validity_check": {
+      "contains_in_dmg_id": [
+        "arrow",
+        "bolt",
+        "ammo",
+        "bullet",
+        "dart",
+        "missile"
+      ],
+      "source_check": "RANGED_PROJECTILE",
+      "tag_and_id_check": "MATCH_ANY",
+      "valid_proj_dmg_id": []
+    },
+    "id": "crossbow",
+    "isProjectile": true,
+    "range": "RANGED",
+    "style": "DEX"
+  },
+  "id": "is_crossbow_wep_type",
+  "ser": "wep_type_match"
+}

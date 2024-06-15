@@ -1,0 +1,592 @@
+{
+  "attached": {
+    "entity_components": {
+      "default_entity_name": [
+      {
+        "acts": [
+			{
+			  "type": "particles_in_radius",
+			  "map": {
+                "height": 0.5,
+				"motion": "None",
+				"particle_count": 1.0,
+				"particle_type": "aquamirae:electric",
+				"radius": 0.1
+			  }
+			}
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_hit",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+			{
+			  "type": "particles_in_radius",
+			  "map": {
+                "height": 0.75,
+				"motion": "None",
+				"particle_count": 1.0,
+				"particle_type": "aquamirae:electric",
+				"radius": 0.1
+			  }
+			}
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_hit",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+			{
+			  "type": "particles_in_radius",
+			  "map": {
+                "height": 1.0,
+				"motion": "None",
+				"particle_count": 1.0,
+				"particle_type": "aquamirae:electric",
+				"radius": 0.1
+			  }
+			}
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_hit",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+			{
+			  "type": "particles_in_radius",
+			  "map": {
+                "height": 1.25,
+				"motion": "None",
+				"particle_count": 1.0,
+				"particle_type": "aquamirae:electric",
+				"radius": 0.1
+			  }
+			}
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_hit",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+			{
+			  "type": "particles_in_radius",
+			  "map": {
+                "height": 1.5,
+				"motion": "None",
+				"particle_count": 1.0,
+				"particle_type": "aquamirae:electric",
+				"radius": 0.1
+			  }
+			}
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_hit",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+			{
+			  "type": "particles_in_radius",
+			  "map": {
+                "height": 1.75,
+				"motion": "None",
+				"particle_count": 1.0,
+				"particle_type": "aquamirae:electric",
+				"radius": 0.1
+			  }
+			}
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_hit",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+			{
+			  "type": "particles_in_radius",
+			  "map": {
+                "height": 2.0,
+				"motion": "None",
+				"particle_count": 1.0,
+				"particle_type": "aquamirae:electric",
+				"radius": 0.1
+			  }
+			}
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_hit",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+			{
+			  "type": "particles_in_radius",
+			  "map": {
+                "height": 2.25,
+				"motion": "None",
+				"particle_count": 1.0,
+				"particle_type": "aquamirae:electric",
+				"radius": 0.1
+			  }
+			}
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_hit",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+			{
+			  "type": "particles_in_radius",
+			  "map": {
+                "height": 2.5,
+				"motion": "None",
+				"particle_count": 1.0,
+				"particle_type": "aquamirae:electric",
+				"radius": 0.1
+			  }
+			}
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_hit",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+			{
+			  "type": "particles_in_radius",
+			  "map": {
+                "height": 2.75,
+				"motion": "None",
+				"particle_count": 1.0,
+				"particle_type": "aquamirae:electric",
+				"radius": 0.1
+			  }
+			}
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_hit",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+			{
+			  "type": "particles_in_radius",
+			  "map": {
+                "height": 3.0,
+				"motion": "None",
+				"particle_count": 1.0,
+				"particle_type": "aquamirae:electric",
+				"radius": 0.1
+			  }
+			}
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_hit",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+			{
+			  "type": "particles_in_radius",
+			  "map": {
+                "height": 3.25,
+				"motion": "None",
+				"particle_count": 1.0,
+				"particle_type": "aquamirae:electric",
+				"radius": 0.1
+			  }
+			}
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_hit",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+			{
+			  "type": "particles_in_radius",
+			  "map": {
+                "height": 3.5,
+				"motion": "None",
+				"particle_count": 1.0,
+				"particle_type": "aquamirae:electric",
+				"radius": 0.1
+			  }
+			}
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_hit",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+			{
+			  "type": "particles_in_radius",
+			  "map": {
+                "height": 3.75,
+				"motion": "None",
+				"particle_count": 1.0,
+				"particle_type": "aquamirae:electric",
+				"radius": 0.1
+			  }
+			}
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_hit",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+			{
+			  "type": "particles_in_radius",
+			  "map": {
+                "height": 4.0,
+				"motion": "None",
+				"particle_count": 1.0,
+				"particle_type": "aquamirae:electric",
+				"radius": 0.1
+			  }
+			}
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_hit",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+        {
+          "acts": [
+            {
+              "type": "sound",
+              "map": {
+                "pitch": 1.0,
+                "sound": "minecraft:entity.arrow.hit",
+                "volume": 1.0
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "on_hit",
+              "map": {}
+            }
+          ],
+          "targets": []
+        },
+        {
+          "acts": [
+            {
+              "type": "sound",
+              "map": {
+                "pitch": 1.0,
+                "sound": "createaddition:little_zap",
+                "volume": 0.75
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "on_hit",
+              "map": {}
+            }
+          ],
+          "targets": []
+        },
+        {
+          "acts": [
+            {
+              "type": "damage",
+              "map": {
+                "element": "Nature",
+                "value_calculation": "charged_bolt"
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "on_hit",
+              "map": {}
+            }
+          ],
+          "per_entity_hit": [
+            {
+              "acts": [
+				  {
+					"type": "exile_effect",
+					"map": {
+					  "count": 1.0,
+					  "exile_potion_id": "slow",
+					  "potion_action": "GIVE_STACKS",
+					  "potion_dur": 60.0
+					}
+				  }
+              ],
+              "en_preds": [],
+              "ifs": [],
+              "targets": []
+            }
+          ],
+          "targets": [
+            {
+              "type": "aoe",
+              "map": {
+                "en_predicate": "enemies",
+                "radius": 2.0,
+                "selection_type": "RADIUS"
+              }
+            }
+          ]
+        },
+        {
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "motion": "None",
+                "particle_count": 3.0,
+                "particle_type": "aquamirae:electric",
+                "radius": 0.5
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 1.0
+              }
+            }
+          ],
+          "targets": []
+        }
+      ]
+    },
+    "on_cast": [
+      {
+        "acts": [
+          {
+            "type": "sound",
+            "map": {
+              "pitch": 1.0,
+              "sound": "minecraft:entity.arrow.shoot",
+              "volume": 1.0
+            }
+          }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+          {
+            "type": "sound",
+            "map": {
+                "pitch": 1.0,
+                "sound": "createaddition:little_zap",
+                "volume": 1.0
+            }
+          }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+          {
+            "type": "projectile",
+            "map": {
+              "entity_name": "default_entity_name",
+              "expire_on_en_hit": false,
+              "gravity": false,
+              "item": "minecraft:air",
+              "life_ticks": 80.0,
+              "proj_count": 1.0,
+              "proj_en": "mmorpg:spell_arrow",
+              "proj_speed": 1.0
+            }
+          }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+          {
+            "type": "exile_effect",
+            "map": {
+              "count": 1.0,
+              "exile_potion_id": "static",
+              "potion_action": "GIVE_STACKS",
+              "potion_dur": 120.0
+            }
+          }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": [
+          {
+            "type": "aoe",
+            "map": {
+              "en_predicate": "allies",
+              "radius": 5.0,
+              "selection_type": "RADIUS"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "config": {
+    "aggro_radius": 10,
+    "cast_time_ticks": 0,
+    "castingWeapon": "RANGED",
+    "charge_name": "",
+    "charge_regen": 0,
+    "charges": 0,
+    "cooldown_ticks": 40,
+    "ene_cost": {
+      "max": 12.0,
+      "min": 9.0
+    },
+    "imbues": 0,
+    "mana_cost": {
+      "max": 3.0,
+      "min": 2.0
+    },
+    "style": "dex",
+    "summonType": "NONE",
+    "summon_basic_atk": "pet_basic",
+    "swing_arm": false,
+    "tags": {
+      "tags": [
+      "weapon_skill",
+      "projectile",
+      "area",
+      "damage",
+	  "ranged",
+	  "lightning",
+	  "cast_speed_to_cooldown"
+      ]
+    },
+    "times_to_cast": 1,
+    "tracking_radius": 5,
+    "tracks": "enemies"
+  },
+  "default_lvl": 0,
+  "disabled_dims": [],
+  "effect_tip": "",
+  "identifier": "charged_bolt",
+  "loc_name": "Charged Bolt",
+  "lvl_based_on_spell": "",
+  "manual_tip": true,
+  "max_lvl": 16,
+  "min_lvl": 1,
+  "show_other_spell_tooltip": "",
+  "statsForSkillGem": [],
+  "weight": 1000
+}

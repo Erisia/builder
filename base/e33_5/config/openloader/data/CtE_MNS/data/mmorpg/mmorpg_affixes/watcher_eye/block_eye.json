@@ -1,0 +1,31 @@
+{
+  "type": "watcher_eye",
+  "eye_aura_req": "block",
+  "guid": "block_eye",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [],
+        "req_type": "INCLUDES_ANY"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 6.0,
+      "min": 3.0,
+      "stat": "dmg_reduction"
+    },
+    {
+      "type": "FLAT",
+      "max": 4.0,
+      "min": 2.0,
+      "stat": "block_chance"
+    }
+  ],
+  "weight": 1000
+}

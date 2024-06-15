@@ -1,0 +1,36 @@
+{
+  "exp": 160,
+  "id": "potion_resource_34",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "mmorpg:material/meat/4",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:stone/3",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "undergarden:gloomgourd",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "blue_skies:winter_leaves",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "lightmanscurrency:coin_iron",
+      "num": 5    
+	}
+  ],
+  "power": "greater",
+  "profession": "alchemy",
+  "result": "mmorpg:potion/resource/3",
+  "result_num": 4,
+  "tier": 4
+}

@@ -1,0 +1,11 @@
+{
+  "attribute_id": "",
+  "conversion": 4.0,
+  "enchant_id": "stalwart_dungeons:thunder_strike",
+  "id": "sd_thunder_strike_compat",
+  "maximum_cap": 50,
+  "minimum_cap": 0,
+  "mns_stat_id": "all_lightning_damage",
+  "mod_type": "FLAT",
+  "scaling": "NONE"
+}

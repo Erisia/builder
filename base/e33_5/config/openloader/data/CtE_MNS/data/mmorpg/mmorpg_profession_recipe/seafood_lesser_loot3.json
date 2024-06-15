@@ -1,0 +1,31 @@
+{
+  "exp": 100,
+  "id": "seafood_lesser_loot3",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "mmorpg:material/fishing/3",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "aquaculture:carp",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:rare_mats/fishing/lesser",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "lightmanscurrency:coin_copper",
+      "num": 1
+    }
+  ],
+  "power": "lesser",
+  "profession": "cooking",
+  "result": "mmorpg:seafood/lesser_loot",
+  "result_num": 1,
+  "tier": 3
+}

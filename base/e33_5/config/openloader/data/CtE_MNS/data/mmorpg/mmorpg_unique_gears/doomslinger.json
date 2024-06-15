@@ -1,0 +1,44 @@
+{
+  "base_gear": "crossbow",
+  "guid": "doomslinger",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "",
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 55.0,
+      "min": 50.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 15.0,
+      "stat": "draw_speed"
+    },
+    {
+      "type": "FLAT",
+      "max": 30.0,
+      "min": 20.0,
+      "stat": "armor_penetration"
+    },
+    {
+      "type": "PERCENT",
+      "max": 30.0,
+      "min": 30.0,
+      "stat": "energy_regen"
+    },
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 7.0,
+      "stat": "health"
+    }
+  ],
+  "weight": 1000
+}

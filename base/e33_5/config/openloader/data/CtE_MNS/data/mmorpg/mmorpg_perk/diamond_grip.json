@@ -1,0 +1,15 @@
+{
+  "type": "MAJOR",
+  "icon": "mmorpg:textures/gui/stat_icons/game_changers/diamond_grip.png",
+  "id": "diamond_grip",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "projectile_damage_per_5_strength",
+      "v1": 1.0
+    }
+  ]
+}

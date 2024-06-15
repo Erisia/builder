@@ -1,0 +1,26 @@
+{
+  "modId": "minecraft",
+  "group": {
+    "name": "Vanilla Mushrooms",
+    "enabledByDefault": false,
+    "defaultPayment": {
+      "item": "lightmanscurrency:coin_iron",
+      "count": 5
+    },
+    "defaultCategory": "farmingforblockheads:other"
+  },
+  "customEntries": [
+    {
+      "output": "minecraft:brown_mushroom"
+    },
+    {
+      "output": "minecraft:red_mushroom"
+    },
+    {
+      "output": "minecraft:crimson_fungus"
+    },
+    {
+      "output": "minecraft:warped_fungus"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "implicit",
+  "guid": "golden_crown",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [
+          "cloth_helmet",
+          "plate_helmet",
+          "leather_helmet"
+        ],
+        "req_type": "INCLUDES_ANY"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "song_cdr"
+    }
+  ],
+  "weight": 1000
+}

@@ -1,0 +1,31 @@
+{
+  "id": "xer",
+  "item_id": "mmorpg:runes/xer",
+  "min_lvl_multi": 0.4,
+  "on_armor_stats": [
+    {
+      "type": "FLAT",
+      "max": 8.0,
+      "min": 8.0,
+      "stat": "summon_damage"
+    }
+  ],
+  "on_jewelry_stats": [
+    {
+      "type": "FLAT",
+      "max": 8.0,
+      "min": 8.0,
+      "stat": "summon_damage"
+    }
+  ],
+  "on_weapons_stats": [
+    {
+      "type": "FLAT",
+      "max": 8.0,
+      "min": 8.0,
+      "stat": "summon_damage"
+    }
+  ],
+  "tier": 3,
+  "weight": 600
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "waystones:warp_dust"
+    },
+    "B": {
+      "item": "minecraft:ender_pearl"
+    },
+    "C": {
+      "item": "minecraft:obsidian"
+    },
+    "D": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+	},
+    "E": {
+      "item": "mmorpg:stone/1"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:everlasting_upgrade"
+  }
+}

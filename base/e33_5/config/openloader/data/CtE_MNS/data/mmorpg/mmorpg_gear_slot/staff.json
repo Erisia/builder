@@ -1,0 +1,11 @@
+{
+  "fam": "Weapon",
+  "id": "staff",
+  "model_num": 3,
+  "weapon_data": {
+    "damage_multiplier": 1.1,
+    "energy_cost_per_mob_attacked": 0.0,
+    "energy_cost_per_swing": 0.0
+  },
+  "weight": 1000
+}

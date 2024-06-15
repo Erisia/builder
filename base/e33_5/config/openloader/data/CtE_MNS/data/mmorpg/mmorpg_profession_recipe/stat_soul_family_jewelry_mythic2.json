@@ -1,0 +1,40 @@
+{
+  "exp": 500,
+  "id": "stat_soul_family_jewelry_mythic2",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "mmorpg:material/mining/2",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:stone/5",
+      "num": 4
+    },
+    {
+      "type": "ITEM",
+      "id": "undergarden:froststeel_ingot",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "minecraft:diamond",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:rare_mats/mining/lesser",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "lightmanscurrency:coin_emerald",
+      "num": 1    }
+  ],
+  "power": "greater",
+  "profession": "gear_crafting",
+  "result": "mmorpg:stat_soul/family/jewelry/mythic",
+  "result_num": 1,
+  "tier": 2
+}

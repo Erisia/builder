@@ -1,0 +1,15 @@
+{
+  "type": "STAT",
+  "icon": "mmorpg:textures/gui/stat_icons/weapon/ele_hammer_damage.png",
+  "id": "ele_hammer_damage",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "ele_hammer_damage",
+      "v1": 3.0
+    }
+  ]
+}

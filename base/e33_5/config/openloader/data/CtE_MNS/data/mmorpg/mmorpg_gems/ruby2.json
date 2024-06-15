@@ -1,0 +1,34 @@
+{
+  "gem_type": "ruby",
+  "identifier": "ruby2",
+  "item_id": "mmorpg:gems/ruby/2",
+  "min_lvl_multi": 0.2,
+  "on_armor_stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "fire_resist",
+      "v1": 16.0
+    }
+  ],
+  "on_jewelry_stats": [
+    {
+      "type": "PERCENT",
+      "scale_to_lvl": false,
+      "stat": "accuracy",
+      "v1": 16.0
+    }
+  ],
+  "on_weapons_stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "all_fire_damage",
+      "v1": 8.0
+    }
+  ],
+  "perc_upgrade_chance": 100,
+  "text_format": "RED",
+  "tier": 2,
+  "weight": 81
+}

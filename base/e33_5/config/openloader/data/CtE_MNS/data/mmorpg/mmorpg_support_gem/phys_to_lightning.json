@@ -1,0 +1,16 @@
+{
+  "id": "phys_to_lightning",
+  "manaMulti": 1.2,
+  "min_lvl": 20,
+  "one_of_a_kind": "",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 100.0,
+      "min": 33.0,
+      "stat": "phys_to_lightning"
+    }
+  ],
+  "style": "INT",
+  "weight": 1000
+}

@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "combat",
+	"pattern": [
+		" A ",
+		"XRX",
+		"   "
+	],
+	"key": {
+		"A": {
+			"item": "mutantmonsters:mutant_skeleton_arms"
+		},	
+		"R": {
+			"item": "mutantmonsters:mutant_skeleton_rib_cage"
+		},
+		"X": {
+			"item": "mmorpg:rare_mats/salvaging/greater"
+		}
+	},
+	"result": {
+		"item": "mutantmonsters:mutant_skeleton_chestplate"
+	}
+}

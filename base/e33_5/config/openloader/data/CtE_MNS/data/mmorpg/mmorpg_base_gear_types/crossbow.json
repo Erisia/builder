@@ -1,0 +1,37 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 6.0,
+      "min": 3.0,
+      "stat": "weapon_damage"
+    }
+  ],
+  "gear_slot": "crossbow",
+  "guid": "crossbow",
+  "possible_items": [
+    {
+      "item_id": "minecraft:crossbow",
+      "min_rar": "common",
+      "weight": 1000
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "dexterity": 0.5
+    }
+  },
+  "style": "DEX",
+  "tags": {
+    "tags": [
+      "dexterity",
+      "ranger_casting_weapon",
+      "crossbow",
+      "ranged_weapon",
+      "weapon_family"
+    ]
+  },
+  "weapon_type": "crossbow",
+  "weight": 1000
+}

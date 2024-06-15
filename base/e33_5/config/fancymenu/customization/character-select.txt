@@ -1,0 +1,90 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = com.robertx22.age_of_exile.characters.gui.CharacterSelectScreen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1717618138258
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:a459dfea-b504-4da4-9459-fd6d238b9b13-1717617660102] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  button_element_executable_block_identifier = a4d3b384-7995-4d30-93e1-0da075b4aca5-1716913452749
+  [executable_action_instance:46b6804d-ef4d-416b-a658-0290bf41c71e-1716913452749][action_type:opengui] = com.robertx22.age_of_exile.gui.screens.character_screen.MainHubScreen
+  [executable_block:a4d3b384-7995-4d30-93e1-0da075b4aca5-1716913452749][type:generic] = [executables:46b6804d-ef4d-416b-a658-0290bf41c71e-1716913452749;]
+  backgroundnormal = [source:local]config/fancymenu/images/leftright.png
+  backgroundhovered = [source:local]config/fancymenu/images/leftright-hover.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = 
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 80707f8f-42b3-4ae1-983f-f1e775ef3d921704386256516
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -126
+  y = -140
+  width = 24
+  height = 24
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 1d97a83f-3bcb-480f-9a7b-4f9fa9d463fa-1716913452749
+  [loading_requirement_container_meta:1d97a83f-3bcb-480f-9a7b-4f9fa9d463fa-1716913452749] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = f94284b8-193b-423f-bb75-37117af81602-1716913452749
+  [executable_block:f94284b8-193b-423f-bb75-37117af81602-1716913452749][type:generic] = [executables:]
+  backgroundnormal = [source:local]config/fancymenu/images/extra_info_button.png
+  backgroundhovered = [source:local]config/fancymenu/images/extra_info_button.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  description = You can create instanced Characters%n%to switch between. Each Character will%n%have its own Level, Skills, Stats, etc.%n%%n%Keep in mind that Talent Points earned%n%through quests will be shared.
+  label = 
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = ba682a3a-ecf7-4e88-905f-23c5ccc87d5e1704386256516
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = 100
+  y = -141
+  width = 24
+  height = 24
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 29cbb4f4-76a8-4f6d-ba96-c87e97822e33-1716913452749
+  [loading_requirement_container_meta:29cbb4f4-76a8-4f6d-ba96-c87e97822e33-1716913452749] = [groups:][instances:]
+}
+

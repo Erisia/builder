@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "item": "create:smart_chute"
+    },
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "C": {
+      "item": "sophisticatedstorage:hopper_upgrade"
+    },
+    "D": {
+      "item": "create:rose_quartz"
+	},
+    "E": {
+      "item": "mmorpg:stone/2"
+    }
+  },
+  "result": {
+    "item": "sophisticatedstorage:advanced_hopper_upgrade"
+  }
+}

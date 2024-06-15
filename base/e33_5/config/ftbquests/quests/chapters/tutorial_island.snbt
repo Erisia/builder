@@ -1,0 +1,767 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "tutorial_island"
+	group: "1E3C4B5FFAE48A39"
+	icon: "minecraft:book"
+	id: "44789E48CD607F46"
+	order_index: 0
+	progression_mode: "linear"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&nWelcome to Craft to Exile 2&r - a highly customized modpack that turns Minecraft into an action RPG."
+				""
+				"The first chapter of quests, \"Prologue\" is meant to give you an overview to certain systems introduced in the modpack that may be different from what you're used to in most Minecraft modpacks."
+				""
+				"&eComplete each \"page\" of the Prologue by clicking the checkmark.&r"
+				""
+				"For more information, visit our &9Wiki&r (you can also find the link in the main menu)."
+				""
+				"Also feel free to join our &9Discord&r server (link also on the main menu) where we can help you with any issues in game, or even just chat with you about the modpack!"
+			]
+			icon: "minecraft:writable_book"
+			id: "30403B3DE1E47F33"
+			rewards: [
+				{
+					id: "662E6BDEDAE044A6"
+					item: "sophisticatedbackpacks:backpack"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "4E506FC73E0B1EAC"
+					item: "minecraft:bread"
+					title: "Bread"
+					type: "item"
+				}
+			]
+			subtitle: "Table of Contents"
+			tasks: [{
+				id: "77FDE21B75D712EC"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Welcome to Craft to Exile 2!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["624D8CD0A4A6668B"]
+			description: [
+				"CTE2 supports party questing and play."
+				""
+				"There are 3 different commands to use for party play:"
+				""
+				"Mine and Slash's &e/mine_and_slash teams&r allows you to share EXP and heal/buff each other."
+				""
+				"FTB Teams, in the &etop-left of the inventory&r (or with &e\"H\"&r), allows you to share quest progression."
+				""
+				"Lightman's Teams, which is accessible in the &etop-right of the inventory&r, allows you to share money and trader notifications."
+			]
+			icon: "ftbquests:book"
+			id: "48075B2F138A9C2C"
+			rewards: [{
+				id: "7F6AE3A345D1324D"
+				item: "lightmanscurrency:coin_iron"
+				title: "Money"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Page 2b"
+			tasks: [{
+				id: "37CC2CFDC34FC657"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Party Play"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["04849611F904771C"]
+			description: [
+				"Thanks to Mine and Slash, CTE2 has a fully customized leveling progression system."
+				""
+				"Kill mobs to earn experience, and receive stat points with each level. You can allocate these points in the main hub by &epressing \"H\"&r. In fact, most of the menus will be accessible from this menu wheel!"
+				""
+				"{image:cte2:textures/character_stats.png width:160 height:128 align:1}"
+				""
+				"Your player stats can also be increased via other means, such as: equipment (gear) and talent points which we'll cover later."
+			]
+			icon: "minecraft:book"
+			id: "624D8CD0A4A6668B"
+			rewards: [
+				{
+					id: "5B3178D7FC9CF9B3"
+					item: "mmorpg:potions/reset_stats"
+					title: "Stat Reset Potion"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 400"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "4A429E1B6344E4A4"
+					silent: true
+					title: "400 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Page 2"
+			tasks: [{
+				id: "352F3C2796BACD2F"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Character Stats"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["624D8CD0A4A6668B"]
+			description: [
+				"The &eTalent Tree&r allows for an additional layer of &echaracter customization&r, and is found in the Mine and Slash hub."
+				""
+				"{image:cte2:textures/talent_tree.png width:160 height:115 align:1}"
+				""
+				"Each level grants you &e1 talent point.&r You will need to choose your starting position, and then &eallocate points into nodes&r connected to any other nodes you already have. Each &enode&r provides &ebonuses&r to stats, and in some cases, can alter your core gameplay loop!"
+			]
+			icon: "minecraft:book"
+			id: "53A5ECD28E7E16E1"
+			rewards: [
+				{
+					count: 5
+					id: "7F66934DFD28206B"
+					item: "mmorpg:potions/add_reset_perk_points"
+					title: "Single Talent Reset Potions"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 200"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "3BC953334872A751"
+					silent: true
+					title: "200 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Page 3"
+			tasks: [{
+				id: "07B9CDCDF05CC52E"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Talent Tree"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53A5ECD28E7E16E1"]
+			description: [
+				"{image:cte2:textures/gui.png width:160 height:105 align:1}"
+				""
+				"The &eCharacters&r menu lets you save and load different characters. It will save all of your character's information except for their gear! You can have up to 7 saved characters."
+				""
+				"The &eSalvaging&r menu lets you turn bad loot into useful crafting materials upon pick-up."
+				""
+				"The &eClasses&r menu allows character specialization. You will learn skills here and can improve them with points. In CTE2, you can &especialize in two different classes&r!"
+				""
+				"The &eJewels&r menu is used once you've allocated any points into Jewel Sockets in the Talent Tree. Equipping Jewels can improve your character stats!"
+				""
+				"Additionally, at the bottom of the GUI (where the pickaxes are), you can see your &eProfession&r levels."
+			]
+			icon: "minecraft:book"
+			id: "0C1568D71346C427"
+			rewards: [
+				{
+					count: 4
+					id: "6BA00FC78BAE6C85"
+					item: "lightmanscurrency:coin_iron"
+					title: "Money"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 200"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "3B10C874A7833200"
+					silent: true
+					title: "200 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Page 4"
+			tasks: [{
+				id: "60453E7473A695D0"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "The Rest of the GUI"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C1568D71346C427"]
+			description: [
+				"In CTE2, there are 3 \"main\" fighting styles. You can either be a &4close-ranged warrior&r, a &9magic spellcaster&r, or a &2long-ranged archer&r. This is of course, a basic generalization, as each character can be customized and expressed extensively."
+				""
+				"Do you want to be a flame-spewing warrior? A necromantic spellcaster? Or even a trap throwing hunter?"
+				""
+				"CTE2 has a lot to offer in terms of character customization. Hopefully, you will find the playstyle that best suits you!"
+			]
+			icon: "minecraft:book"
+			id: "3059FF2D6DB1AC9F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "780B73E925FBD004"
+					table_id: 405550839613976496L
+					type: "choice"
+				}
+				{
+					count: 64
+					id: "1B21344DA58F8D97"
+					item: "minecraft:arrow"
+					title: "Arrows"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 200"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "3098C9D09E030015"
+					silent: true
+					title: "200 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Page 5"
+			tasks: [{
+				id: "7EA3FFEFB226B157"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Your First Weapon"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3059FF2D6DB1AC9F"]
+			description: [
+				"Combat has been overhauled in Craft to Exile 2. &eWeapons have animations and combos&r, and have different properties depending on the type of weapon you wield."
+				""
+				"Additionally, you can press &e\"Alt\" to dodge roll&r, which has a short cooldown."
+				""
+				"Don't forget about your basic attacks in CTE2! They are powerful in combat and can be used in conjunction with skills. Just keep in mind that basic attacks consume and require &aEnergy&r!"
+				""
+				"You can see how much &aEnergy&r you have in the player GUI!"
+			]
+			icon: "minecraft:book"
+			id: "546A9D082F1A2160"
+			rewards: [
+				{
+					id: "4D3BA6D80A06AD15"
+					item: "minecraft:zombie_spawn_egg"
+					title: "Zombie Spawn Egg"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 200"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "539974DB413EB4B5"
+					silent: true
+					title: "200 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Page 6"
+			tasks: [{
+				id: "222D99698592B33D"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Combat"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A39A9996E8D63F4"]
+			description: [
+				"Skills require &9Mana&r or &aEnergy&r and are used in combat. They can be learnt through the Classes tab and can be equipped in the &9square&r slots in the Skills GUI:"
+				""
+				"{image:cte2:textures/skill_gem.png width:140 height:105 align:1}"
+				""
+				"You can modify and enhance Skills by either leveling them, or linking them to Support Gems, which go in the &5circular&r slots. These can increase the &eResource Cost&r and power of the linked Skill Gem."
+				""
+				"Skills have a maximum number of Support Gems that can be linked (see \"&5Support Slots:&r\"). The number of sockets a Skill can have is determined by the &eSkill's level&r, with a max of 5 sockets at level 16. &eTo get the first slot, your skill must be at least level 4.&r &cThe number of slots is &lalso&r limited by your &eplayer level&r (1 slot every 10 levels, starting at 1).&r"
+				""
+				"In the &ebottom&r row, equip Augment Gems which use up Augment Capacity to provide stats. You can see how much Augment Capacity you have remaining in &dpink&r to the right."
+			]
+			icon: "minecraft:book"
+			id: "22EAD61501470768"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5F7B46C685D188ED"
+					table_id: 981191123936022223L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00B6E55860C350A9"
+					table_id: 5889716173591028936L
+					type: "choice"
+				}
+				{
+					id: "0FA3268AB0494B94"
+					item: "mmorpg:potions/reset_spells"
+					title: "Class Reset Potion"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 200"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "398BFCC200235F28"
+					silent: true
+					title: "200 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Page 8"
+			tasks: [{
+				id: "703C97D9D47FEB19"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Skill, Support, and Augment Gems"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["546A9D082F1A2160"]
+			description: [
+				"Test your new blade and knowledge in combat!"
+				""
+				"&eDo not summon the creature in the village as the Iron Golem may kill your Zombie! Also be cautious of summoning it in daylight! Consider summoning in a cave.&r"
+				""
+				"&oMake sure to allocate your stats before the fight, as weapons have a minimum stat requirement!&r"
+			]
+			icon: "minecraft:book"
+			id: "0A39A9996E8D63F4"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 700"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "1EDA06CB95371D19"
+				silent: true
+				title: "700 Experience"
+				type: "command"
+			}]
+			subtitle: "Page 7"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_head"
+				id: "2F2A06908ED6990C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "First Blood"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["22EAD61501470768"]
+			description: [
+				"In Minecraft, &4Health&r is your life force, and if it hits 0, your character will die. In CTE2, you don't lose equipment on &4death&r, but you will lose a good chunk of your experience."
+				""
+				"Character defenses can be classified into 3 categories: &4Armor&r (plate), &2Dodge&r (leather), and &9Magic Shield&r (cloth)."
+				""
+				"Armor reduces physical damage taken, dodge gives you a chance to completely negate any attack, and magic shield acts as an additional health buffer that regenerates slowly. You can improve these stats mainly through gear, stat points, and the Talent Tree."
+				""
+				"There are &eother ways to mitigate damage&r, such as elemental resistances, spell dodge, and damage reduction. You can find these stats on gear, in the Talent Tree, and on Jewels."
+				""
+				"There are options on the Talent Tree that may change how your defenses work, such as setting your health to 1 and giving a large bonus to magic shield!"
+				""
+				"&oIf you don't like how the armor looks, you can use Cosmetic Armor to cover it up!&r"
+			]
+			icon: "minecraft:book"
+			id: "7B22B96E95E5DA09"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5D5755216C597FF1"
+					table_id: 8672695084726290362L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FE70BFEB5ED2D52"
+					table_id: 7074154712315855923L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5DC2202B09680066"
+					table_id: 8493327020853369464L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D6A4A9389EE9F37"
+					table_id: 5741053327200068691L
+					type: "choice"
+				}
+				{
+					id: "45990E4571B1B2EA"
+					item: "minecraft:skeleton_spawn_egg"
+					title: "Skeleton Spawn Egg"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 250"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "4B863DDA4942C800"
+					silent: true
+					title: "250 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Page 9"
+			tasks: [{
+				id: "4B40DF289BF860BF"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Suit Up"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1C852F78D386B77E"]
+			description: [
+				"Congratulations on completing the Prologue quest line. By completing this final page, you can finally &estart your journey in Act I&r!"
+				""
+				"In CTE2, &eyou can complete tasks in later quests even if you have yet to complete the dependencies&r. You won't be able to claim the rewards until you actually reach the quest, though."
+				""
+				"Make sure to check out the &eSide Quests&r as they contain a lot of very useful information, and will introduce you to the other mods used in CTE2. There are various integrations between other mods and Mine and Slash that you can discover through these quest lines!"
+			]
+			icon: "minecraft:writable_book"
+			id: "0CDFB8E5BB59B981"
+			rewards: [
+				{
+					count: 15
+					id: "58E255CF9F588325"
+					item: "lightmanscurrency:coin_iron"
+					title: "Money"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 500"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "513F1792134DC311"
+					silent: true
+					title: "500 Experience"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5786D74604BF83D1"
+					table_id: 405550839613976496L
+					type: "choice"
+				}
+			]
+			subtitle: "Appendix"
+			tasks: [{
+				id: "4DE938BD22A26E0A"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Loot. Level. Explore."
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7B22B96E95E5DA09"]
+			description: [
+				"Gems and Runes can be socketed into gear that have available sockets. As the rarity of an item increases, the amount of sockets it can have also increases. You can add sockets through some Mine and Slash currencies."
+				""
+				"&bGems&r come in multiple tiers. You can &ecombine 3 of them to create the next tier&r. Once you have socketed it into your item (click on the item with the Gem in your cursor), it is possible to retrieve the gem from the item using a &eGem Extractor Tool!&r Once in your gear, the Gem will provide extra stats."
+				""
+				"&cRunes&r can be added to gear to also provide extra stats. If you slot a specific combination of Runes, you can craft a &eRuneword&r, which enhances the item with a specific set of bonuses! &eRight-click while holding a Rune to see available Runewords to craft!&r"
+			]
+			icon: "ftbquests:book"
+			id: "4C9F8B8F01189196"
+			rewards: [
+				{
+					id: "76247AC0012E1810"
+					item: "mmorpg:gems/azurite/1"
+					title: "Chipped Azurite"
+					type: "item"
+				}
+				{
+					id: "5722F71FCCB83AB8"
+					item: "mmorpg:gems/topaz/1"
+					title: "Chipped Topaz"
+					type: "item"
+				}
+				{
+					id: "45878D000E81C7B4"
+					item: "mmorpg:runes/ano"
+					title: "Ano Rune"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Page 9c"
+			tasks: [{
+				id: "1DADE93D8FAB373D"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Gems and Runes"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7B22B96E95E5DA09"]
+			description: [
+				"Test out your new spells and armor in combat!"
+				""
+				"&eDo not summon the creature in the village as the Iron Golem may kill your Skeleton! Also be cautious of summoning it in daylight! Consider summoning in a cave.&r"
+			]
+			icon: "minecraft:book"
+			id: "1895A7A94BE0A4B6"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 250"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "23B96BB571FA8D03"
+				silent: true
+				title: "250 Experience"
+				type: "command"
+			}]
+			subtitle: "Page 10"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: "minecraft:skeleton_skull"
+				id: "33E51DA632612F0F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Easy Kill"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["30403B3DE1E47F33"]
+			description: [
+				"&o\"Can money buy happiness?\"&r"
+				""
+				"Well, in this case, money can be used to buy many useful tools and resources. You will be able to use money to barter for goods with villagers and traders from other mods. Of course, you can also use money to trade with other players, and if you're on a server, purchase claim blocks!"
+				""
+				"You can &learn money from killing mobs or looting chests&r. You can also sometimes sell goods for money with traders."
+				""
+				"Keep your money safe in the &eWallet&r that you receive from this quest. Later on, upgrade the wallet so it can hold more money!"
+				""
+				"&eShould you need to exchange your money for lower amounts, you can use an ATM.&r"
+			]
+			icon: "minecraft:book"
+			id: "04849611F904771C"
+			rewards: [{
+				id: "409F7C072512843C"
+				item: {
+					Count: 1
+					id: "lightmanscurrency:wallet_gold"
+					tag: {
+						AutoConvert: 1b
+					}
+				}
+				title: "Wallet"
+				type: "item"
+			}]
+			subtitle: "Page 1"
+			tasks: [{
+				id: "33258148F7D6B004"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Money"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3059FF2D6DB1AC9F"]
+			description: [
+				"In CTE2, you will craft and find many pieces of equipment. These pieces of &eequipment will not provide any stats unless you apply Gear Stat Souls to them&r, essentially imbuing them with Mine and Slash stats."
+				""
+				"Gear Stat Souls can be used on any piece of equipment that shares the same type. For example, the Aquaculture and Farmer's Delight knives have the \"Dagger\" type. By &eclicking on the item with a Gear Stat Soul&r of \"Dagger\" type, you can apply Mine and Slash stats to the knives!"
+				""
+				"Want to learn more about how to &ecraft Gear Stat Souls&r? Visit the &aM\\&S Professions&r quest chapter!"
+			]
+			icon: "ftbquests:book"
+			id: "289350CF47F41D69"
+			rewards: [
+				{
+					id: "5B729B2C8440BDF5"
+					item: {
+						Count: 1
+						id: "aquaculture:wooden_fillet_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Wooden Fillet Knife"
+					type: "item"
+				}
+				{
+					id: "31743DFDD664B202"
+					item: {
+						Count: 1
+						id: "mmorpg:stat_soul"
+						tag: {
+							CustomModelData: 15
+							mmorpg_stat_soul: "{\"tier\":0,\"slot\":\"dagger\",\"rar\":\"common\",\"fam\":\"NONE\",\"uniq\":\"\",\"can_sal\":true}"
+						}
+					}
+					title: "Dagger Stat Soul"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Page 5b"
+			tasks: [{
+				id: "1C99B6F792983F96"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Gear Stat Souls"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B22B96E95E5DA09"]
+			description: [
+				"Shields (Armor), Totems (Dodge), and Tomes (Magic Shield) are offhands that can increase your defensive stat."
+				""
+				"One defensive option in combat is the ability to roll (default: Alt). This is available to everyone. However, if you equip a shield, you can also use it to block damage."
+				""
+				"Shields drain &aEnergy&r while being held up, and if you're facing the correct direction, negate damage taken."
+				""
+				"Did you know that the &eshield can have a passive chance to negate damage&r (similar to dodging)? You can get block chance from gear or the Talent Tree, which allows you to have a &ochance to negate damage even when not holding the shield up&r!"
+			]
+			icon: "ftbquests:book"
+			id: "119B706F79F22360"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "206EE0F673CCC5EB"
+				table_id: 7401807202655080641L
+				type: "choice"
+			}]
+			shape: "circle"
+			subtitle: "Page 9b"
+			tasks: [{
+				id: "0662DB198465C67A"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Blocking"
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1895A7A94BE0A4B6"]
+			description: [
+				"Waystones are spread throughout the world and once discovered, can be teleported to via other Waystones, Warp Scrolls, or Warp Stones."
+				""
+				"Waystones can spawn randomly in the world, but are &eoften found in villages&r. Take some Warp Scrolls so you can easily return to any discovered Waystone!"
+			]
+			icon: "ftbquests:book"
+			id: "19319F327C09E772"
+			rewards: [{
+				count: 8
+				id: "1361F172A8236025"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Page 10c"
+			tasks: [{
+				id: "302BF9765FDEFFE8"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Waystones"
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["48075B2F138A9C2C"]
+			description: [
+				"You can &eclaim an area&r to be protected against unwanted (player) visitors. You can use any &eGolden Hoe&r to do this (right click the ground), but here's a special named one for you to use."
+				""
+				"&oCheck out the quest \"&eLand Claiming with FLAN&r\" quest under the &eJolly Cooperation&r chapter for much more detail!&r"
+			]
+			icon: "ftbquests:book"
+			id: "31B023681AC62535"
+			rewards: [{
+				id: "13CF773EDFCB3C2E"
+				item: {
+					Count: 1
+					id: "minecraft:golden_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Page 2c"
+			tasks: [{
+				id: "5848EBF021C0262E"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Land Claiming"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1895A7A94BE0A4B6"]
+			description: ["Throughout your travels, you will find &eSpirit Orbs&r, which can be exchanged at &eGoddess Statues&r for &cHeart Containers&r. Each Heart Container increases your base Health by 2, up to a maximum of 200 Health (100 Heart Containers). You can also find &eHeart Containers from Bosses&r in Craft to Exile 2."]
+			icon: "minecraft:book"
+			id: "1C852F78D386B77E"
+			rewards: [{
+				id: "605680F58634B88E"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			subtitle: "Page 11"
+			tasks: [{
+				id: "5C49990F810F10CF"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Heart Containers"
+			x: 4.5d
+			y: 6.0d
+		}
+	]
+	title: "Prologue"
+}

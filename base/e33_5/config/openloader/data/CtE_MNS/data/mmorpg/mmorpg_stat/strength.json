@@ -1,0 +1,47 @@
+{
+  "data": {
+    "base": 0.0,
+    "core_stat_data": {
+      "stats": [
+        {
+          "type": "PERCENT",
+          "scale_to_lvl": false,
+          "stat": "weapon_damage",
+          "v1": 0.1
+        },
+        {
+          "type": "FLAT",
+          "scale_to_lvl": false,
+          "stat": "summon_health",
+          "v1": 0.5
+        },
+        {
+          "type": "FLAT",
+          "scale_to_lvl": false,
+          "stat": "critical_damage",
+          "v1": 0.5
+        },
+        {
+          "type": "FLAT",
+          "scale_to_lvl": false,
+          "stat": "health_regen",
+          "v1": 0.5
+        },
+        {
+          "type": "PERCENT",
+          "scale_to_lvl": false,
+          "stat": "armor",
+          "v1": 0.5
+        }
+      ]
+    },
+    "ele": "Physical",
+    "id": "strength",
+    "max": 2.14748365E9,
+    "min": 0.0,
+    "name": "Strength",
+    "perc": false,
+    "scale": "CORE"
+  },
+  "ser": "core_stat"
+}

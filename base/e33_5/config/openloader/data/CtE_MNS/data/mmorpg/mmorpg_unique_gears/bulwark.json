@@ -1,0 +1,38 @@
+{
+  "base_gear": "plate_chest",
+  "guid": "bulwark",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "",
+  "min_tier": 60,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 110.0,
+      "min": 90.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "FLAT",
+      "max": 100.0,
+      "min": 100.0,
+      "stat": "bleed_resistance"
+    },
+    {
+      "type": "PERCENT",
+      "max": -10.0,
+      "min": -10.0,
+      "stat": "energy"
+    },
+    {
+      "type": "PERCENT",
+      "max": -10.0,
+      "min": -10.0,
+      "stat": "energy_regen"
+    }
+  ],
+  "weight": 1000
+}

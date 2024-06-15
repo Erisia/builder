@@ -1,0 +1,65 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 6.0,
+      "min": 3.0,
+      "stat": "weapon_damage"
+    },
+	{
+	  "type": "FLAT",
+	  "max": 6.0,
+	  "min": 3.0,
+	  "stat": "mana_on_basic_hit"
+	}
+  ],
+  "gear_slot": "hammer",
+  "guid": "hammer",
+  "possible_items": [
+    {
+      "item_id": "stalwart_dungeons:wooden_hammer",
+      "min_rar": "common",
+      "weight": 1
+    },
+    {
+      "item_id": "stalwart_dungeons:stone_hammer",
+      "min_rar": "uncommon",
+      "weight": 10
+    },
+    {
+      "item_id": "stalwart_dungeons:iron_hammer",
+      "min_rar": "rare",
+      "weight": 100
+    },
+    {
+      "item_id": "stalwart_dungeons:diamond_hammer",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "stalwart_dungeons:netherite_hammer",
+      "min_rar": "mythic",
+      "weight": 10000
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "strength": 0.25,
+      "intelligence": 0.25
+    }
+  },
+  "style": "INT",
+  "tags": {
+    "tags": [
+      "mage_weapon",
+      "intelligence",
+      "hammer",
+      "strength",
+      "melee_weapon",
+      "weapon_family"
+    ]
+  },
+  "weapon_type": "hammer",
+  "weight": 250
+}

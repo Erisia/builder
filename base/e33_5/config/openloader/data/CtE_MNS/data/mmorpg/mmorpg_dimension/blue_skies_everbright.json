@@ -1,0 +1,12 @@
+{
+  "all_drop_multi": 1.0,
+  "dimension_id": "blue_skies:everbright",
+  "exp_multi": 1.0,
+  "max_lvl": 55,
+  "min_lvl": 35,
+  "mob_lvl_per_distance": 100,
+  "mob_strength_multi": 1.15,
+  "mob_tier": 1,
+  "scale_to_nearest_player": true,
+  "unique_gear_drop_multi": 1.0
+}

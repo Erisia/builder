@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "minecraft:glass_bottle"
+    },
+    "t": {
+      "item": "mmorpg:stone/0"
+    },
+    "v": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "v",
+    "t",
+    "b"
+  ],
+  "result": {
+    "item": "mmorpg:potions/add_reset_perk_points"
+  },
+  "show_notification": true,
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}
+}

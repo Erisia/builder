@@ -1,0 +1,31 @@
+{
+  "type": "watcher_eye",
+  "eye_aura_req": "magic_shield_reg",
+  "guid": "magic_shield_reg_eye",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [],
+        "req_type": "INCLUDES_ANY"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 4.0,
+      "min": 2.0,
+      "stat": "magic_shield_per_sec"
+    },
+    {
+      "type": "MORE",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "magic_shield_regen"
+    }
+  ],
+  "weight": 1000
+}

@@ -1,0 +1,25 @@
+{
+  "base": {
+    "max": 1.5,
+    "min": 0.3
+  },
+  "base_scaling_type": "NORMAL",
+  "cap_to_wep_dmg": 1000.0,
+  "dmg_effectiveness": {
+    "multi": {
+      "max": 0.25,
+      "min": 0.15
+    },
+    "stat": "health"
+  },
+  "id": "holy_missiles",
+  "stat_scalings": [
+    {
+      "multi": {
+        "max": 0.25,
+        "min": 0.15
+      },
+      "stat": "weapon_damage"
+    }
+  ]
+}

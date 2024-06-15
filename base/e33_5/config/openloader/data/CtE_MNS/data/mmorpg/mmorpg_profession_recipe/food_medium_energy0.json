@@ -1,0 +1,26 @@
+{
+  "exp": 150,
+  "id": "food_medium_energy0",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "mmorpg:material/farming/0",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "minecraft:carrot",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "lightmanscurrency:coin_iron",
+      "num": 1
+	}
+  ],
+  "power": "medium",
+  "profession": "cooking",
+  "result": "mmorpg:food/medium_energy",
+  "result_num": 1,
+  "tier": 0
+}

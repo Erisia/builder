@@ -1,0 +1,253 @@
+{
+	"size": "medium",
+	"color": "#83DE71",
+	"waves": [{
+			"entities": [
+				{
+					"entity": "undergarden:rotling",
+					"count": 5
+				},
+				{
+					"entity": "undergarden:rotwalker",
+					"count": 1
+				},
+				{
+					"entity": "undergarden:rotbeast",
+					"count": 1
+				}
+			],
+			"modifiers": [
+            ],
+			"rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "undergarden:rotling",
+                    "rolls": 1
+                },
+				{
+					"type": "gateways:loot_table",
+					"loot_table": "cte2:cte2_gateways",
+					"rolls": 1,
+					"desc": "rewards.gateways.loot_table.drops"
+				}
+            ],
+			"max_wave_time": 1000,
+			"setup_time": 100
+		},
+        {
+			"entities": [
+				{
+					"entity": "undergarden:rotling",
+					"count": 7
+				},
+				{
+					"entity": "undergarden:rotwalker",
+					"count": 2
+				},
+				{
+					"entity": "undergarden:rotbeast",
+					"count": 2
+				}
+            ],
+			"modifiers": [
+                {
+					"attribute": "generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.05
+				},
+                {
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.05
+				},
+                {
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.05
+				}
+            ],
+			"rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "undergarden:rotling",
+                    "rolls": 2
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "undergarden:rotwalker",
+                    "rolls": 1
+                },
+				{
+					"type": "gateways:loot_table",
+					"loot_table": "cte2:cte2_gateways",
+					"rolls": 2,
+					"desc": "rewards.gateways.loot_table.drops"
+				}
+			],
+			"max_wave_time": 1000,
+			"setup_time": 400
+		},
+        {
+			"entities": [
+				{
+					"entity": "undergarden:rotling",
+					"count": 7
+				},
+				{
+					"entity": "undergarden:rotwalker",
+					"count": 3
+				},
+				{
+					"entity": "undergarden:rotbeast",
+					"count": 3
+				}
+            ],
+			"modifiers": [
+                {
+					"attribute": "generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.10
+				},
+                {
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.10
+				},
+                {
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.10
+				}
+            ],
+			"rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "undergarden:rotling",
+                    "rolls": 3
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "undergarden:rotwalker",
+                    "rolls": 2
+                },
+				{
+					"type": "gateways:loot_table",
+					"loot_table": "cte2:cte2_gateways",
+					"rolls": 3,
+					"desc": "rewards.gateways.loot_table.drops"
+				}
+			],
+			"max_wave_time": 1400,
+			"setup_time": 400
+		},
+        {
+			"entities": [
+				{
+					"entity": "undergarden:rotling",
+					"count": 8
+				},
+				{
+					"entity": "undergarden:rotwalker",
+					"count": 5
+				},
+				{
+					"entity": "undergarden:rotbeast",
+					"count": 5
+				}
+            ],
+			"modifiers": [
+                {
+					"attribute": "generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.15
+				},
+                {
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.15
+				},
+                {
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.15
+				}
+            ],
+			"rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "undergarden:rotling",
+                    "rolls": 4
+                },
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "undergarden:rotwalker",
+                    "rolls": 3
+                },
+				{
+					"type": "gateways:loot_table",
+					"loot_table": "cte2:cte2_gateways",
+					"rolls": 4,
+					"desc": "rewards.gateways.loot_table.drops"
+				}
+			],
+			"max_wave_time": 1400,
+			"setup_time": 400
+		},
+        {
+			"entities": [
+                {
+                    "entity": "undergarden:forgotten_guardian",
+                    "count": 1
+                },
+				{
+					"entity": "undergarden:rotling",
+					"count": 8
+				}
+            ],
+			"modifiers": [
+                {
+					"attribute": "generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.05
+				},
+                {
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.05
+				},
+                {
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.05
+				}
+            ],
+			"rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "undergarden:forgotten_guardian",
+                    "rolls": 1
+                }
+			],
+			"max_wave_time": 1400,
+			"setup_time": 400
+		}
+	],
+    "rewards": [
+        {
+            "type": "gateways:loot_table",
+            "loot_table": "cte2:cte2_gateways",
+            "rolls": 5,
+            "desc": "rewards.gateways.loot_table.drops"
+        }
+    ],
+    "failures": [
+        {
+            "type": "gateways:mob_effect",
+            "effect": "minecraft:blindness",
+            "duration": 400
+        }
+    ],
+    "rules": {
+        "spacing": 100
+    }
+}

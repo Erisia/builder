@@ -1,0 +1,15 @@
+{
+  "type": "suffix",
+  "format": "DARK_RED",
+  "icon": "",
+  "id": "of_the_vampire",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 100.0,
+      "min": 100.0,
+      "stat": "lifesteal"
+    }
+  ],
+  "weight": 1000
+}

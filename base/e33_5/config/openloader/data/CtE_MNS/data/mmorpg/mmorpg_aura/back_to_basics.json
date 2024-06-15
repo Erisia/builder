@@ -1,0 +1,26 @@
+{
+  "id": "back_to_basics",
+  "min_lvl": 1,
+  "reservation": 0.4,
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 50.0,
+      "min": 10.0,
+      "stat": "basic_attack_dmg"
+    },
+    {
+      "type": "FLAT",
+      "max": 50.0,
+      "min": 10.0,
+      "stat": "attack_speed"
+    },
+    {
+      "type": "FLAT",
+      "max": 25.0,
+      "min": 5.0,
+      "stat": "draw_speed"
+    }
+  ],
+  "style": "DEX"
+}

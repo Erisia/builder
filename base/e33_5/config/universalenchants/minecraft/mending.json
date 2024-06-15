@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:breakable"
+  ],
+  "incompatible": [
+    "naturesaura:aura_mending",
+    "lightmanscurrency:money_mending"
+  ]
+}

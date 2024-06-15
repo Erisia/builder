@@ -1,0 +1,40 @@
+{
+  "dmg_multi": 2.0,
+  "exp_multi": 1.5,
+  "hp_multi": 6.0,
+  "identifier": "minecraft:warden",
+  "loot_multi": 1.5,
+  "max_lvl": 65,
+  "min_lvl": 65,
+  "set_health_damage_override": false,
+  "set_rar": "RARE",
+  "stat_multi": 1.5,
+  "stats": {
+    "stats": [
+      {
+        "type": "flat",
+        "max": 50.0,
+        "min": 50.0,
+        "stat": "phys_to_chaos"
+      },
+      {
+        "type": "percent",
+        "max": 50.0,
+        "min": 50.0,
+        "stat": "armor"
+      },
+      {
+        "type": "flat",
+        "max": 35.0,
+        "min": 35.0,
+        "stat": "elemental_resist"
+      },
+      {
+        "type": "flat",
+        "max": 35.0,
+        "min": 35.0,
+        "stat": "chaos_resist"
+      }
+	]
+  }
+}

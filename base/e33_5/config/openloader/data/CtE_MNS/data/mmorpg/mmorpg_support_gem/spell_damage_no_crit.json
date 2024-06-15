@@ -1,0 +1,22 @@
+{
+  "id": "spell_damage_no_crit",
+  "manaMulti": 1.4,
+  "min_lvl": 10,
+  "one_of_a_kind": "",
+  "stats": [
+    {
+      "type": "MORE",
+      "max": 27.0,
+      "min": 9.0,
+      "stat": "int_dmg"
+    },
+    {
+      "type": "MORE",
+      "max": -80.0,
+      "min": -80.0,
+      "stat": "critical_damage"
+    }
+  ],
+  "style": "INT",
+  "weight": 1000
+}

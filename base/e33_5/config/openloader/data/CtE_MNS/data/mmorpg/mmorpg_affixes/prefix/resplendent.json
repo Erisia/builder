@@ -1,0 +1,28 @@
+{
+  "type": "prefix",
+  "eye_aura_req": "",
+  "guid": "resplendent",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [
+          "armor_family",
+          "jewel_int"
+        ],
+        "req_type": "INCLUDES_ANY"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "PERCENT",
+      "max": 14.0,
+      "min": 2.0,
+      "stat": "energy"
+    }
+  ],
+  "weight": 1000
+}

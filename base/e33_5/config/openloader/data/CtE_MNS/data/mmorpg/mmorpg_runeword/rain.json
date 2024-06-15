@@ -1,0 +1,31 @@
+{
+  "id": "rain",
+  "runes": [
+    "har",
+	"und",
+	"nos"
+  ],
+  "slots": [
+    "necklace"
+  ],
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 15.0,
+      "stat": "totem_spell_dmg"
+    },
+    {
+      "type": "PERCENT",
+      "max": 5.0,
+      "min": 5.0,
+      "stat": "mana"
+    },
+    {
+      "type": "FLAT",
+      "max": 15.0,
+      "min": 10.0,
+      "stat": "lightning_resist"
+    }
+  ]
+}

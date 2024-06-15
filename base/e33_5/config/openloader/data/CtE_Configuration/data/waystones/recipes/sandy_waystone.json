@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "waystones:sandy_waystone"
+  },
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "SWS",
+    "OTO"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:chiseled_sandstone"
+    },
+    "W": {
+      "item": "waystones:warp_stone"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "T": {
+      "item": "mmorpg:stone/3"
+    }
+  }
+}

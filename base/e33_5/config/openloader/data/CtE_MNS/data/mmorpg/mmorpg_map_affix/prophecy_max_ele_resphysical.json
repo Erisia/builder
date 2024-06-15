@@ -1,0 +1,16 @@
+{
+  "affected": "Players",
+  "id": "prophecy_max_ele_resphysical",
+  "map_resist": "Physical",
+  "map_resist_bonus_needed": 0,
+  "req": "prophecy",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 20.0,
+      "stat": "dmg_received"
+    }
+  ],
+  "weight": 1000
+}

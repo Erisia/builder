@@ -1,0 +1,11 @@
+{
+  "attribute_id": "",
+  "conversion": 8.0,
+  "enchant_id": "minecraft:piercing",
+  "id": "piercing_compat",
+  "maximum_cap": 50,
+  "minimum_cap": 0,
+  "mns_stat_id": "armor_penetration",
+  "mod_type": "PERCENT",
+  "scaling": "NONE"
+}

@@ -1,0 +1,56 @@
+{
+  "base_gear": "cloth_helmet",
+  "flavor_text": "",
+  "force_item_id": "",
+  "guid": "curse_of_tongues",
+  "league": "prophecy",
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 70.0,
+      "min": 60.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "PERCENT",
+      "max": -5.0,
+      "min": -10.0,
+      "stat": "intelligence"
+    },
+    {
+      "type": "PERCENT",
+      "max": -5.0,
+      "min": -10.0,
+      "stat": "strength"
+    },
+    {
+      "type": "PERCENT",
+      "max": -5.0,
+      "min": -10.0,
+      "stat": "dexterity"
+    },
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 15.0,
+      "stat": "health_per_10_strength"
+    },
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 15.0,
+      "stat": "mana_per_10_intelligence"
+    },
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 15.0,
+      "stat": "energy_per_10_dexterity"
+    }
+  ],
+  "weight": 1000
+}

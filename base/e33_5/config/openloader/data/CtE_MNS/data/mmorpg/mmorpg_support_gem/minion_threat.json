@@ -1,0 +1,22 @@
+{
+  "id": "minion_threat",
+  "manaMulti": 1.1,
+  "min_lvl": 20,
+  "one_of_a_kind": "",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 75.0,
+      "min": 25.0,
+      "stat": "threat_generated"
+    },
+    {
+      "type": "FLAT",
+      "max": 21.0,
+      "min": 7.0,
+      "stat": "summon_health"
+    }
+  ],
+  "style": "STR",
+  "weight": 1000
+}

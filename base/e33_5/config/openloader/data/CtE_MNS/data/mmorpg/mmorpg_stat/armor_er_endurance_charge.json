@@ -1,0 +1,24 @@
+{
+  "data": {
+    "base": 0.0,
+    "core_stat_data": {
+      "stats": [
+        {
+          "type": "PERCENT",
+          "scale_to_lvl": false,
+          "stat": "armor",
+          "v1": 1.0
+        }
+      ]
+    },
+    "effect_id": "endurance_charge",
+    "ele": "Physical",
+    "id": "armor_er_endurance_charge",
+    "max": 2.14748365E9,
+    "min": 0.0,
+    "name": "Armor per Endurance Charge",
+    "perc": false,
+    "scale": "NONE"
+  },
+  "ser": "bonus_stat_per_effect"
+}

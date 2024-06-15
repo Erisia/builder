@@ -1,0 +1,31 @@
+{
+  "id": "bri",
+  "item_id": "mmorpg:runes/bri",
+  "min_lvl_multi": 0.4,
+  "on_armor_stats": [
+    {
+      "type": "FLAT",
+      "max": 16.0,
+      "min": 16.0,
+      "stat": "lightning_resist"
+    }
+  ],
+  "on_jewelry_stats": [
+    {
+      "type": "FLAT",
+      "max": 16.0,
+      "min": 16.0,
+      "stat": "lightning_resist"
+    }
+  ],
+  "on_weapons_stats": [
+    {
+      "type": "FLAT",
+      "max": 8.0,
+      "min": 8.0,
+      "stat": "all_lightning_damage"
+    }
+  ],
+  "tier": 3,
+  "weight": 0
+}

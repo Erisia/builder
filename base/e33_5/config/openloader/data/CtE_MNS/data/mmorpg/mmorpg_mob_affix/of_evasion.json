@@ -1,0 +1,33 @@
+{
+  "type": "suffix",
+  "format": "YELLOW",
+  "icon": "",
+  "id": "of_evasion",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 25.0,
+      "min": 25.0,
+      "stat": "dodge"
+    },
+    {
+      "type": "MORE",
+      "max": 20.0,
+      "min": 20.0,
+      "stat": "dodge"
+    },
+    {
+      "type": "FLAT",
+      "max": 25.0,
+      "min": 25.0,
+      "stat": "spell_dodge"
+    },
+    {
+      "type": "MORE",
+      "max": 20.0,
+      "min": 20.0,
+      "stat": "spell_dodge"
+    }
+  ],
+  "weight": 1000
+}

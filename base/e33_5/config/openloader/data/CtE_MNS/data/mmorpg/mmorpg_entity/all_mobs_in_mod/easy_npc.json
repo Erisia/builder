@@ -1,0 +1,15 @@
+{
+  "dmg_multi": 0.5,
+  "exp_multi": 0.0,
+  "hp_multi": 100.0,
+  "identifier": "easy_npc",
+  "loot_multi": 0.0,
+  "max_lvl": 100,
+  "min_lvl": 100,
+  "set_health_damage_override": false,
+  "set_rar": "",
+  "stat_multi": 100.0,
+  "stats": {
+    "stats": []
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "the_novice",
+  "runes": [
+    "nos",
+    "dos",
+    "ita",
+    "mos"
+  ],
+  "slots": [
+    "sword",
+    "bow",
+    "crossbow",
+    "staff",
+	"dagger",
+	"hammer",
+	"spear"
+  ],
+  "stats": [
+    {
+      "type": "PERCENT",
+      "max": 75.0,
+      "min": 65.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 3.0,
+      "min": 3.0,
+      "stat": "health_on_hit_hit"
+    },
+    {
+      "type": "FLAT",
+      "max": 3.0,
+      "min": 3.0,
+      "stat": "energy_on_hit_hit"
+    },
+    {
+      "type": "FLAT",
+      "max": 3.0,
+      "min": 3.0,
+      "stat": "mana_on_hit_hit"
+    }
+  ]
+}

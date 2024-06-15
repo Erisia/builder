@@ -1,0 +1,127 @@
+
+#General Configs
+[general]
+	ENERGY_PENALTY = false
+	start_items = false
+	scale_mob_to_nearby_player_lvl = true
+	loot_announcements = true
+	require_team_for_dungeons = true
+	dont_sync_ambient_mob_data = true
+	maps_dont_drop_in_maps = false
+	log_errors = true
+	stop_error_spam = true
+	#Range: > 0
+	min_level_map_drops = 55
+	#Range: > 0
+	MIN_SLIME_SIZE_FOR_LOOT = 3
+	#Range: > 0
+	DEATH_PENALTY_START_LEVEL = 1
+	#Range: > 0
+	LEVEL_DISTANCE_PENALTY_LEEWAY = 2
+	#Range: 0 ~ 100
+	PERC_OFFHAND_WEP_STAT = 25
+	#Range: 0.0 ~ 1000.0
+	regen_hunger_cost = 10.0
+	#Range: 0.0 ~ 1.0
+	death_exp_penalty = 0.1
+	#Range: 0.0 ~ 1.0
+	death_exp_debt = 0.0
+	#Range: 0.0 ~ 100.0
+	max_death_exp_debt_multi = 0.0
+	#Range: 0.0 ~ 1000.0
+	exp_gain_multi = 1.0
+	#Range: 0.0 ~ 1000.0
+	party_radius = 100.0
+	#Range: 0.0 ~ 1.0
+	lvl_distance_penalty_per_level = 0.1
+	#Range: 0.0 ~ 1.0
+	min_loot_chance = 0.25
+	#Range: 0.0 ~ 1000.0
+	extra_mob_stats_per_lvl = 0.075
+	#Range: 0.0 ~ 1000.0
+	vanilla_mob_dmg_as_exile_dmg = 1.0
+	#Range: 0.0 ~ 1000.0
+	pvp_dmg_multi = 0.5
+	#Range: 0.0 ~ 100000.0
+	max_team_distance = 100.0
+	#Range: 0.0 ~ 10.0
+	in_combat_regen_multi = 0.5
+	#Range: 0.0 ~ 1.0
+	COMBAT_TO_PROFESSION_RESTED_XP_GENERATION = 0.25
+	#Range: 0.0 ~ 1.0
+	PROFESSION_TO_COMBAT_RESTED_XP_GENERATION = 0.05
+	#Range: 0.0 ~ 1.0
+	RESTED_XP_DEATH_PENALTY = 0.25
+	#Range: 0.0 ~ 10000.0
+	favor_death_loss = 500.0
+	#Range: 0.0 ~ 10000.0
+	favor_chest_gain = 5.0
+	#Range: 0.0 ~ 10000.0
+	favor_per_second = 0.138888888888888
+	#Range: 0.0 ~ 1000.0
+	gear_drop_rate = 8.0
+	#Range: 0.0 ~ 1000.0
+	soul_drop_rate = 2.0
+	#Range: 0.0 ~ 1000.0
+	map_drop_rate = 0.5
+	#Range: 0.0 ~ 1000.0
+	MAP_DROPRATE_INSIDE_MAPS = 2.0
+	#Range: 0.0 ~ 1000.0
+	gem_drop_rate = 1.5
+	#Range: 0.0 ~ 1000.0
+	UBER_FRAG_DROPRATE = 0.02
+	#Range: 0.0 ~ 1000.0
+	skill_gem_drop_rate = 2.0
+	#Range: 0.0 ~ 1000.0
+	support_gem_drop_rate = 1.5
+	#Range: 0.0 ~ 1000.0
+	aura_gem_drop_rate = 1.0
+	#Range: 0.0 ~ 1000.0
+	rune_drop_rate = 0.25
+	#Range: 0.0 ~ 1000.0
+	currency_drop_rate = 0.5
+	#Range: 0.0 ~ 1000.0
+	WATCHER_EYE_DROPRATE = 33.0
+	#Range: 0.0 ~ 1000.0
+	jewel_drop_rate = 0.25
+	#Range: 0.0 ~ 1000.0
+	loot_chest_drop_rate = 0.0
+	#Range: 0.0 ~ 1000.0
+	MOB_FLAT_DAMAGE_BONUS = 6.0
+	#Range: 0.0 ~ 1000.0
+	block_cost = 0.5
+	#Range: 0 ~ 20
+	pack_mob_min = 5
+	#Range: 0 ~ 20
+	pack_mob_max = 7
+	#Range: 0 ~ 20
+	MAP_GEN_MOB_RADIUS = 1
+	#Range: 0 ~ 20
+	MAP_GEN_TERRAIN_RADIUS = 4
+	#Range: 1 ~ 100
+	MIN_MAP_ROOMS = 24
+	#Range: 1 ~ 100
+	MAX_MAP_ROOMS = 30
+	#Range: 0 ~ 100
+	ITEM_LEVEL_VARIANCE = 1
+	#Range: 0 ~ 100
+	MOB_LEVEL_VARIANCE = 1
+	#Range: 1 ~ 18
+	PROPHECY_OFFERS_PER_REROLL = 18
+	#Range: 0 ~ 20
+	mob_min = 2
+	#Range: 0 ~ 20
+	mob_max = 3
+	#Range: 0 ~ 1000
+	BONUS_EXP_PERCENT_PER_HIGHER_LVL_CHARACTERS = 10
+	#Range: 0 ~ 10000
+	MAX_ADDITIONAL_TALENT_POINTS = 25
+	#Range: 1 ~ 7
+	MAX_CHARACTERS = 3
+	#Range: 0.0 ~ 100.0
+	UNARMED_ENERGY_COST = 2.0
+	#This is for modded gear that can't be automatically recognized by the mod. If there's say a weapon like a staff in another mod, but this mod doesn't recognize it. Put it here. The usage is: modid:path:gear_slot_id. Example: minecraft:diamond_sword:sword
+	gear_compatibility = ["minecraft:iron_sword:sword", "minecraft:wooden_axe:axe", "minecraft:stone_axe:axe", "minecraft:iron_axe:axe", "minecraft:golden_axe:axe", "minecraft:diamond_axe:axe", "minecraft:netherite_axe:axe", "undergarden:cloggrum_battleaxe:axe", "undergarden:cloggrum_axe:axe", "undergarden:froststeel_axe:axe", "undergarden:utherium_axe:axe", "undergarden:forgotten_battleaxe:axe", "undergarden:forgotten_axe:axe", "kobolds:kobold_iron_axe:axe", "deeperdarker:warden_axe:axe", "aquaculture:neptunium_axe:axe", "illagerinvasion:platinum_infused_hatchet:axe", "mutantmonsters:mutant_skeleton_skull:helmet", "aquaculture:wooden_fillet_knife:dagger", "aquaculture:stone_fillet_knife:dagger", "aquaculture:iron_fillet_knife:dagger", "aquaculture:gold_fillet_knife:dagger", "aquaculture:diamond_fillet_knife:dagger", "aquaculture:neptunium_fillet_knife:dagger", "farmersdelight:flint_knife:dagger", "farmersdelight:iron_knife:dagger", "farmersdelight:golden_knife:dagger", "farmersdelight:diamond_knife:dagger", "farmersdelight:netherite_knife:dagger", "minecolonies:spear:spear", "minecraft:trident:spear", "alexsmobs:shield_of_the_deep:shield", "stalwart_dungeons:tungsten_axe:axe", "stalwart_dungeons:chorundum_axe:axe", "stalwart_dungeons:wooden_hammer:hammer", "stalwart_dungeons:stone_hammer:hammer", "stalwart_dungeons:iron_hammer:hammer", "stalwart_dungeons:golden_hammer:hammer", "stalwart_dungeons:diamond_hammer:hammer", "stalwart_dungeons:netherite_hammer:hammer", "stalwart_dungeons:tungsten_hammer:hammer", "stalwart_dungeons:nether_hammer:hammer", "stalwart_dungeons:tungsten_shield:shield", "stalwart_dungeons:warted_tungsten_shield:shield", "stalwart_dungeons:chorundum_shield:shield", "stalwart_dungeons:awful_dagger:dagger", "undergarden:slingshot:bow", "aquamirae:terrible_sword:sword", "aquamirae:fin_cutter:sword", "aquamirae:divider:sword", "aquamirae:remnants_saber:sword", "aquamirae:poisoned_blade:sword", "aquamirae:dagger_of_greed:dagger", "aquamirae:whisper_of_the_abyss:spear", "aquamirae:coral_lance:spear", "aquamirae:sweet_lance:spear", "blue_skies:bluebright_spear:spear", "blue_skies:starlit_spear:spear", "blue_skies:frostbright_spear:spear", "blue_skies:lunar_spear:spear", "blue_skies:dusk_spear:spear", "blue_skies:maple_spear:spear", "blue_skies:comet_spear:spear", "blue_skies:soulbound_spear:spear", "blue_skies:bluebright_axe:axe", "blue_skies:starlit_axe:axe", "blue_skies:frostbright_axe:axe", "blue_skies:lunar_axe:axe", "blue_skies:dusk_axe:axe", "blue_skies:maple_axe:axe", "blue_skies:comet_axe:axe", "blue_skies:bluebright_axe:axe", "blue_skies:turquoise_stone_axe:axe", "blue_skies:lunar_stone_axe:axe", "blue_skies:pyrope_axe:axe", "blue_skies:aquite_axe:axe", "blue_skies:diopside_axe:axe", "blue_skies:charoite_axe:axe", "blue_skies:horizonite_axe:axe", "blue_skies:crushing_hammer:hammer", "naturesaura:infused_iron_axe:axe", "naturesaura:sky_axe:axe", "naturesaura:depth_axe:axe", "naturesaura:infused_iron_sword:sword", "naturesaura:sky_sword:sword", "naturesaura:depth_sword:sword", "nethersdelight:iron_machete:sword", "nethersdelight:golden_machete:sword", "nethersdelight:diamond_machete:sword", "nethersdelight:netherite_machete:sword", "cte2modpackarmors:lightning_edge_staff:staff", "cte2modpackarmors:sinful_light_staff:staff", "cte2modpackarmors:desolating_light_staff:staff", "cte2modpackarmors:soulcursed_skewer_dagger:dagger", "cte2modpackarmors:twin_agony_dagger:dagger", "cte2modpackarmors:venom_tears_dagger:dagger", "minecolonies:pharaoscepter:staff"]
+	#Stops items from being used in maps/adventuremaps. This is used for items that allow cheesing mechanics like teleporation items mostly.
+	disabled_items_in_maps = ["minecraft:ender_pearl", "minecraft:chorus_fruit", "friendsandfoes:totem_of_illusion", "undergarden:blisterbomb", "mutantmonsters:endersoul_hand", "alexsmobs:squid_grapple"]
+

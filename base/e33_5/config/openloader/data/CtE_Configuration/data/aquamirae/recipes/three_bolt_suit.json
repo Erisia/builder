@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tree_bolt_suit",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "undergarden:froststeel_ingot"
+    },
+    "1": {
+      "item": "undergarden:froststeel_ingot"
+    },
+    "2": {
+      "item": "undergarden:froststeel_ingot"
+    },
+    "3": {
+      "item": "aquamirae:oxygen_tank"
+    },
+    "4": {
+      "item": "minecraft:leather"
+    },
+    "5": {
+      "item": "aquamirae:oxygen_tank"
+    },
+    "6": {
+      "item": "minecraft:leather"
+    },
+    "7": {
+      "item": "minecraft:leather"
+    },
+    "8": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "aquamirae:three_bolt_suit",
+    "count": 1
+  }
+}

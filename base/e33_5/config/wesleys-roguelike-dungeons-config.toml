@@ -1,0 +1,30 @@
+
+#Wesley's Roguelike Dungeons Configurations
+[common]
+	#Size of the dungeons, 0 = small | 1 = medium | 2 = large
+	#Range: 0 ~ 2
+	CFDungeonSize = 1
+	#Difficulty of the dungeons, 0 = easy | 1 = normal | 2 = hard
+	#Range: 0 ~ 2
+	CFDungeonDifficulty = 1
+	#Chance of mobs spawning with modifiers
+	#Range: 0 ~ 100
+	CFModifierChance = 1
+	#Allow for mobs to spawn with modifiers
+	CFAllowModifiers = true
+	#If the dungeon dimension timer is too fast, you can slow it down here
+	#Range: 0 ~ 200
+	CFSlowerDungeonCounter = 100
+	#Allow for players to generate dungeons using Vessels of Vision
+	CFAllowVesselofVision = true
+	#Allow for dungeons to randomly generate into the world
+	CFAllowNaturalDungeons = true
+	#Allow mobs with modifiers to always show their name
+	CFShowModifierNames = true
+	#Changes the rarity of naturally generated dungeons if enabled (amount of structures per 1.000.000 chunks)
+	#Range: 0 ~ 10000
+	CFDungeonRarity = 250
+	#Changes the rarity of naturally generated nether dungeons if enabled (amount of structures per 1.000.000 chunks)
+	#Range: 0 ~ 10000
+	CFNetherDungeonRarity = 300
+

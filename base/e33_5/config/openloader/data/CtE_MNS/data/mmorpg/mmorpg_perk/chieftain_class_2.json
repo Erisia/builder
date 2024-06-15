@@ -1,0 +1,27 @@
+{
+  "type": "MAJOR",
+  "icon": "mmorpg:textures/gui/talent_icons/asc/chieftain/2.png",
+  "id": "chieftain_class_2",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "health_per_sec",
+      "v1": 2.0
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "water_resist_per_1_fire_resist",
+      "v1": 0.5
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "lightning_resist_per_1_fire_resist",
+      "v1": 0.5
+    }
+  ]
+}

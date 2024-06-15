@@ -1,0 +1,26 @@
+{
+  "type": "implicit",
+  "guid": "hyperion_spear",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [
+          "spear"
+        ],
+        "req_type": "HAS_ALL"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "inc_aoe"
+    }
+  ],
+  "weight": 1000
+}

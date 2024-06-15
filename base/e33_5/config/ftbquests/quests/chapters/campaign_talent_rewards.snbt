@@ -1,0 +1,1173 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "campaign_talent_rewards"
+	group: "1E3C4B5FFAE48A39"
+	icon: {
+		Count: 1
+		id: "minecraft:enchanted_book"
+		tag: {
+			StoredEnchantments: [{
+				id: "minecraft:protection"
+				lvl: 4s
+			}]
+		}
+	}
+	id: "0E38C2CC13CF033C"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4956C0B5633CE91E"]
+			description: [
+				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				""
+				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				""
+				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+			]
+			id: "486C5CD10C0FAAB8"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash points give @p talent 1"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 4s
+						}]
+					}
+				}
+				id: "1F0D197184136906"
+				silent: true
+				title: "1 Talent Point"
+				type: "command"
+			}]
+			subtitle: "Act I"
+			tasks: [{
+				disable_toast: true
+				icon: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:basic/zombie"
+					}
+				}
+				id: "7061280259B557FF"
+				stat: "minecraft:walk_one_cm"
+				title: "Complete: Disturbances in the Air"
+				type: "stat"
+				value: 1
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E1EC6A042CC9310"]
+			description: [
+				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				""
+				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				""
+				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+			]
+			id: "46D59893D2D8CA12"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash points give @p talent 2"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 4s
+						}]
+					}
+				}
+				id: "35CCEBD5E24D2BAA"
+				silent: true
+				title: "2 Talent Points"
+				type: "command"
+			}]
+			subtitle: "Act I"
+			tasks: [{
+				disable_toast: true
+				icon: "simplehats:crown"
+				id: "2F3F84C83D1BDAA1"
+				stat: "minecraft:walk_one_cm"
+				title: "Complete: The Mastermind"
+				type: "stat"
+				value: 1
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["152D52A88F776A70"]
+			description: [
+				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				""
+				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				""
+				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+			]
+			id: "1667AA04495BD91E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash points give @p talent 1"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 4s
+						}]
+					}
+				}
+				id: "3EF8C1BE830CA2C9"
+				silent: true
+				title: "1 Talent Point"
+				type: "command"
+			}]
+			subtitle: "Act I"
+			tasks: [{
+				disable_toast: true
+				icon: {
+					Count: 1
+					id: "monsterplus:darkstar"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5E6321ECC42C7117"
+				stat: "minecraft:walk_one_cm"
+				title: "Complete: Mutagenic Source"
+				type: "stat"
+				value: 1
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["176E6C57D2F18966"]
+			description: [
+				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				""
+				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				""
+				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+			]
+			id: "055DF1F99B169B60"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash points give @p talent 1"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 4s
+						}]
+					}
+				}
+				id: "1E6475EB6FE107C4"
+				silent: true
+				title: "1 Talent Point"
+				type: "command"
+			}]
+			subtitle: "Act I"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:grass_block"
+				id: "086D24D4B3BA3FB7"
+				stat: "minecraft:walk_one_cm"
+				title: "Complete: Reflections"
+				type: "stat"
+				value: 1
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05AD0B9A77F0325F"]
+			description: [
+				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				""
+				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				""
+				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+			]
+			id: "1A0CC40586164CD5"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash points give @p talent 1"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 4s
+						}]
+					}
+				}
+				id: "6EA6BA78F84544B8"
+				silent: true
+				title: "1 Talent Point"
+				type: "command"
+			}]
+			subtitle: "Act II"
+			tasks: [{
+				disable_toast: true
+				icon: "simplehats:burning_m_bison"
+				id: "02F878B205B83EE5"
+				stat: "minecraft:walk_one_cm"
+				title: "Complete: The Mother"
+				type: "stat"
+				value: 1
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["114D74DF8284ACC3"]
+			description: [
+				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				""
+				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				""
+				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+			]
+			id: "682AEA6851799465"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash points give @p talent 1"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 4s
+						}]
+					}
+				}
+				id: "45ED698CBE380EDB"
+				silent: true
+				title: "1 Talent Point"
+				type: "command"
+			}]
+			subtitle: "Act II"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:wither_rose"
+				id: "23830C2355EAFC92"
+				stat: "minecraft:walk_one_cm"
+				title: "Complete: Dark Ritual"
+				type: "stat"
+				value: 1
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["42A954877474A58F"]
+			description: [
+				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				""
+				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				""
+				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+			]
+			id: "01B9D2071BE9EF3F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash points give @p talent 1"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 4s
+						}]
+					}
+				}
+				id: "49E14D483EB998D4"
+				silent: true
+				title: "1 Talent Point"
+				type: "command"
+			}]
+			subtitle: "Act II"
+			tasks: [{
+				disable_toast: true
+				icon: {
+					Count: 1
+					id: "friendsandfoes:wildfire_crown"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "68D00AE4C4F85CBA"
+				stat: "minecraft:walk_one_cm"
+				title: "Complete: Ruler of Flames"
+				type: "stat"
+				value: 1
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["37167129D6D6A280"]
+			description: [
+				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				""
+				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				""
+				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+			]
+			id: "7AAD8765795E7153"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash points give @p talent 1"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 4s
+						}]
+					}
+				}
+				id: "74AB0134F058665F"
+				silent: true
+				title: "1 Talent Point"
+				type: "command"
+			}]
+			subtitle: "Act II"
+			tasks: [{
+				disable_toast: true
+				icon: "alexsmobs:warped_muscle"
+				id: "427DD80188EB9A9A"
+				stat: "minecraft:walk_one_cm"
+				title: "Complete: Forest Chad"
+				type: "stat"
+				value: 1
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4B57F45BE30AA5F2"]
+			description: [
+				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				""
+				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				""
+				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+			]
+			id: "1227C13346F031A1"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash points give @p talent 1"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 4s
+						}]
+					}
+				}
+				id: "0A0BAA08ECC53F94"
+				silent: true
+				title: "1 Talent Point"
+				type: "command"
+			}]
+			subtitle: "Act II"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:ghast_tear"
+				id: "641EFC87F0560C38"
+				stat: "minecraft:walk_one_cm"
+				title: "Complete: Defenders of the Nether"
+				type: "stat"
+				value: 1
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["775A13E1924D6C9A"]
+			description: [
+				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				""
+				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				""
+				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+			]
+			id: "3343BC6D9867F206"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash points give @p talent 1"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 4s
+						}]
+					}
+				}
+				id: "3CB8ED39F4BE4441"
+				silent: true
+				title: "1 Talent Point"
+				type: "command"
+			}]
+			subtitle: "Act III"
+			tasks: [{
+				disable_toast: true
+				icon: {
+					Count: 1
+					id: "undergarden:forgotten_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "014EF6369E3BAF81"
+				stat: "minecraft:walk_one_cm"
+				title: "Complete: Civilization from the Past"
+				type: "stat"
+				value: 1
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["58F782F592F2ADEB"]
+			description: [
+				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				""
+				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				""
+				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+			]
+			id: "6068BC3C038D153F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash points give @p talent 1"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 4s
+						}]
+					}
+				}
+				id: "70AFB124576DA03A"
+				silent: true
+				title: "1 Talent Point"
+				type: "command"
+			}]
+			subtitle: "Act III"
+			tasks: [{
+				disable_toast: true
+				icon: {
+					Count: 1
+					id: "alexsmobs:pupfish_locator"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7B636D962F5786C8"
+				stat: "minecraft:walk_one_cm"
+				title: "Complete: Strange Fish Finder"
+				type: "stat"
+				value: 1
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["46DB9530C236A4AD"]
+			description: [
+				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				""
+				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				""
+				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+			]
+			id: "19BE9AAEFDD41D01"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash points give @p talent 1"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 4s
+						}]
+					}
+				}
+				id: "0826EBF67AAFC131"
+				silent: true
+				title: "1 Talent Point"
+				type: "command"
+			}]
+			subtitle: "Act III"
+			tasks: [{
+				disable_toast: true
+				icon: "alexsmobs:shed_snake_skin"
+				id: "13592D3DE590543A"
+				stat: "minecraft:walk_one_cm"
+				title: "Complete: Slippery Swimmer"
+				type: "stat"
+				value: 1
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["18B4B295493669DD"]
+			description: [
+				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				""
+				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				""
+				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+			]
+			id: "208A36B927BC66EB"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash points give @p talent 1"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 4s
+						}]
+					}
+				}
+				id: "2389498B165812CC"
+				silent: true
+				title: "1 Talent Point"
+				type: "command"
+			}]
+			subtitle: "Act III"
+			tasks: [{
+				disable_toast: true
+				icon: {
+					Count: 1
+					id: "aquamirae:maze_rose"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "obscure_api:distance"
+								lvl: 3s
+							}
+							{
+								id: "obscure_api:fast_spin"
+								lvl: 5s
+							}
+						]
+					}
+				}
+				id: "20E81D1C5F636ACB"
+				stat: "minecraft:walk_one_cm"
+				title: "Complete: Mother of the Deep Sea"
+				type: "stat"
+				value: 1
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0AFF7911E9C10C1B"]
+			description: [
+				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				""
+				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				""
+				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+			]
+			id: "148FB54534A896F7"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash points give @p talent 1"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 4s
+						}]
+					}
+				}
+				id: "44B01804BD36B577"
+				silent: true
+				title: "1 Talent Point"
+				type: "command"
+			}]
+			subtitle: "Act III"
+			tasks: [{
+				disable_toast: true
+				icon: "undergarden:froststeel_ingot"
+				id: "0A5394116261D4A2"
+				stat: "minecraft:walk_one_cm"
+				title: "Complete: Cold Ingots"
+				type: "stat"
+				value: 1
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["30B56119C4EA7398"]
+			description: [
+				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				""
+				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				""
+				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+			]
+			id: "49A4168494AA6996"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash points give @p talent 1"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 4s
+						}]
+					}
+				}
+				id: "1F4BC57B6F9A0F46"
+				silent: true
+				title: "1 Talent Point"
+				type: "command"
+			}]
+			subtitle: "Act IV"
+			tasks: [{
+				disable_toast: true
+				icon: "blue_skies:nature_key"
+				id: "641A59672FB081EE"
+				stat: "minecraft:walk_one_cm"
+				title: "Complete: An Uprooting"
+				type: "stat"
+				value: 1
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["09CFBF8766DA4706"]
+			description: [
+				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				""
+				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				""
+				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+			]
+			id: "479274C8A6806EA2"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash points give @p talent 1"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 4s
+						}]
+					}
+				}
+				id: "01C8A04DE577BF6A"
+				silent: true
+				title: "1 Talent Point"
+				type: "command"
+			}]
+			subtitle: "Act IV"
+			tasks: [{
+				disable_toast: true
+				icon: "blue_skies:poison_key"
+				id: "04E5410ED40C004A"
+				stat: "minecraft:walk_one_cm"
+				title: "Complete: Caught in a Web"
+				type: "stat"
+				value: 1
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1FC3745ADFF992F2"]
+			description: [
+				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				""
+				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				""
+				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+			]
+			id: "6A1AD367B19251CC"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash points give @p talent 1"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 4s
+						}]
+					}
+				}
+				id: "1EEB674117C12CEE"
+				silent: true
+				title: "1 Talent Point"
+				type: "command"
+			}]
+			subtitle: "Act IV"
+			tasks: [{
+				disable_toast: true
+				icon: "blue_skies:falsite_ingot"
+				id: "71CC2A006E9179E3"
+				stat: "minecraft:walk_one_cm"
+				title: "Complete: There's Trouble Brewin'"
+				type: "stat"
+				value: 1
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["61FABF4C4DB118C8"]
+			description: [
+				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				""
+				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				""
+				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+			]
+			id: "1EFE6DBE1B509FED"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash points give @p talent 1"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 4s
+						}]
+					}
+				}
+				id: "3C9BF500D4FD2988"
+				silent: true
+				title: "1 Talent Point"
+				type: "command"
+			}]
+			subtitle: "Act IV"
+			tasks: [{
+				disable_toast: true
+				icon: "blue_skies:frose"
+				id: "7FACB9D4C3EB4885"
+				stat: "minecraft:walk_one_cm"
+				title: "Complete: Frozen in Time"
+				type: "stat"
+				value: 1
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1B6034E8571F3AFA"]
+			description: [
+				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				""
+				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				""
+				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+			]
+			id: "2DEBE38D5B139754"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash points give @p talent 1"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 4s
+						}]
+					}
+				}
+				id: "7505FE9719DE1D14"
+				silent: true
+				title: "1 Talent Point"
+				type: "command"
+			}]
+			subtitle: "Act IV"
+			tasks: [{
+				disable_toast: true
+				icon: {
+					Count: 1
+					id: "aquaculture:worm"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7088D5B9FE127A72"
+				stat: "minecraft:walk_one_cm"
+				title: "Complete: Creepy Crawlies"
+				type: "stat"
+				value: 1
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3944DD7AC4667137"]
+			description: [
+				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				""
+				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				""
+				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+			]
+			id: "7AEF759C3337AE40"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash points give @p talent 2"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 4s
+						}]
+					}
+				}
+				id: "630B78E4948866B8"
+				silent: true
+				title: "2 Talent Points"
+				type: "command"
+			}]
+			subtitle: "Act V"
+			tasks: [{
+				disable_toast: true
+				icon: "alexsmobs:void_worm_eye"
+				id: "07427D098938F7E6"
+				stat: "minecraft:walk_one_cm"
+				title: "Complete: Worm from the Void"
+				type: "stat"
+				value: 1
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["69FD852AE0306BD2"]
+			description: [
+				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				""
+				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				""
+				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+			]
+			id: "21ED928EE110C453"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash points give @p talent 1"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 4s
+						}]
+					}
+				}
+				id: "60FF15C67EE6B668"
+				silent: true
+				title: "1 Talent Point"
+				type: "command"
+			}]
+			subtitle: "Act V"
+			tasks: [{
+				disable_toast: true
+				icon: "alexsmobs:farseer_arm"
+				id: "60CE156C454CE851"
+				stat: "minecraft:walk_one_cm"
+				title: "Complete: They Knew You Were Coming"
+				type: "stat"
+				value: 1
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4E2506271B43A29C"]
+			description: [
+				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				""
+				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				""
+				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+			]
+			id: "070B9EBA95EBAB88"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash points give @p talent 1"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 4s
+						}]
+					}
+				}
+				id: "578A8FDE8F3F4086"
+				silent: true
+				title: "1 Talent Point"
+				type: "command"
+			}]
+			subtitle: "Act V"
+			tasks: [{
+				disable_toast: true
+				icon: {
+					Count: 1
+					id: "customizableelytra:elytra_wing"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "529B744E1A089E59"
+				stat: "minecraft:walk_one_cm"
+				title: "Complete: Customizable Elytras"
+				type: "stat"
+				value: 1
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6DEBCC2B2DAE67AD"]
+			description: [
+				"Complete the quest mentioned in the task to automatically earn the Talent Point(s)!"
+				""
+				"&eThese Talent Points are shared amongst your characters (see Character menu in the Hub).&r"
+				""
+				"&cIf quests are reset via \"Main Campaign Quest Reset\" down below (unlocked in Act IV), these quests will remain completed.&r"
+			]
+			id: "39688BFF56C340FE"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash points give @p talent 1"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 4s
+						}]
+					}
+				}
+				id: "34D2C471C27D59C3"
+				silent: true
+				title: "1 Talent Point"
+				type: "command"
+			}]
+			subtitle: "Act V"
+			tasks: [{
+				disable_toast: true
+				icon: "alexsmobs:froststalker_horn"
+				id: "3BCEDF0337A8E953"
+				stat: "minecraft:walk_one_cm"
+				title: "Complete: Uncanny Presence"
+				type: "stat"
+				value: 1
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0998037F5701A2D7"]
+			description: [
+				"&l&cWARNING!!! Do NOT complete this quest without reading the following text.&r&r"
+				""
+				"This quest will consume &e5 Diamond Coins&r and a &eName Tag&r named \"&eReset My Quests&r\" (case sensitive, no quotation marks) to &cCOMPLETELY reset all Campaign quests&r. This feature is mainly for players looking to restart almost completely when creating a new character and is &l&cNOT REVERSIBLE&r&r!"
+				""
+				"Please ensure that if you're in an &eFTB Team&r, that the &eTeam Leader resets the quests&r!"
+				""
+				"&oTalent Points earned through the Campaign will not reset, and completing those quests will not grant you additional Talent Points.&r"
+				""
+				"&oThis quest does not count towards any achievements.&r"
+				""
+				"&eThis quest unlocks once you reach Act IV.&r"
+			]
+			icon: "minecolonies:questlog"
+			id: "7841F2CFAF08C739"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/ftbquests change_progress @p reset 44789E48CD607F46"
+					elevate_perms: true
+					icon: "lightmanscurrency:bookshelf_trader_oak"
+					id: "0397F298840A5B20"
+					silent: true
+					title: "Reset Camaign Quests"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 6F8D9CB650A8A0C6"
+					elevate_perms: true
+					icon: "lightmanscurrency:bookshelf_trader_spruce"
+					id: "327E6642411D8BE4"
+					silent: true
+					title: "Reset Quests"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 5381722ABA7D14DD"
+					elevate_perms: true
+					icon: "lightmanscurrency:bookshelf_trader_birch"
+					id: "70BB21C47F71B9FB"
+					silent: true
+					title: "Reset Quests"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 31B544F80AB89D6E"
+					elevate_perms: true
+					icon: "lightmanscurrency:bookshelf_trader_jungle"
+					id: "066F766CE03FB574"
+					silent: true
+					title: "Reset Quests"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 0CEC2D7B2260686B"
+					elevate_perms: true
+					icon: "lightmanscurrency:bookshelf_trader_acacia"
+					id: "5DCCA3B64B836FD9"
+					silent: true
+					title: "Reset Quests"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 13CF8F9062A19FA5"
+					elevate_perms: true
+					icon: "lightmanscurrency:bookshelf_trader_dark_oak"
+					id: "44CE96C65AB302EA"
+					silent: true
+					title: "Reset Quests"
+					type: "command"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			subtitle: "WARNING!!! Use with caution!!!"
+			tasks: [
+				{
+					id: "11A7AFE2C2204C37"
+					title: "I am SURE I want to reset Campaign Quests"
+					type: "checkmark"
+				}
+				{
+					id: "7DEB4CACD7545043"
+					title: "I confirm that I've read the below!"
+					type: "checkmark"
+				}
+				{
+					id: "25722FDAB7533BA1"
+					title: "Final Confirmation"
+					type: "checkmark"
+				}
+				{
+					consume_items: true
+					id: "3EDC59A355D85D29"
+					item: {
+						Count: 1
+						id: "minecraft:name_tag"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Reset My Quests\"}"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "48ACEE149C902DF0"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
+			]
+			title: "&cReset Main Campaign Quests&r"
+			x: 3.0d
+			y: 8.5d
+		}
+	]
+	title: "Rewards"
+}

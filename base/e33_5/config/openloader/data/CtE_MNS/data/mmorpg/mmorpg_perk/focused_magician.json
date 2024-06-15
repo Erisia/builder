@@ -1,0 +1,27 @@
+{
+  "type": "MAJOR",
+  "icon": "mmorpg:textures/gui/stat_icons/game_changers/focused_magician.png",
+  "id": "focused_magician",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "MORE",
+      "scale_to_lvl": false,
+      "stat": "mana_regen",
+      "v1": 10.0
+    },
+    {
+      "type": "MORE",
+      "scale_to_lvl": false,
+      "stat": "cast_speed",
+      "v1": 6.0
+    },
+    {
+      "type": "MORE",
+      "scale_to_lvl": false,
+      "stat": "dodge",
+      "v1": -100.0
+    }
+  ]
+}

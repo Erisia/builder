@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDE",
+    "FGF"
+  ],
+  "key": {
+    "A": {
+      "item": "mmorpg:stone/2"
+    },
+    "B": {
+      "item": "create:stockpile_switch"
+    },
+    "C": {
+      "item": "create:precision_mechanism"
+    },
+    "D": {
+      "item": "sophisticatedbackpacks:feeding_upgrade"
+    },
+    "E": {
+      "item": "create:attribute_filter"
+    },
+    "F": {
+      "item": "create:rose_quartz"
+	  },
+    "G": {
+      "item": "create:deployer"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:advanced_feeding_upgrade"
+  }
+}

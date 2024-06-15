@@ -1,0 +1,26 @@
+{
+  "type": "implicit",
+  "guid": "imperial_crossbow",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [
+          "crossbow"
+        ],
+        "req_type": "HAS_ALL"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 10.0,
+      "stat": "armor_penetration"
+    }
+  ],
+  "weight": 1000
+}

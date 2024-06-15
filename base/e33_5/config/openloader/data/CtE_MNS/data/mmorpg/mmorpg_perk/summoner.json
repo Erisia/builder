@@ -1,0 +1,33 @@
+{
+  "type": "MAJOR",
+  "icon": "mmorpg:textures/gui/stat_icons/game_changers/summoner.png",
+  "id": "summoner",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "max_total_summons",
+      "v1": 3.0
+    },
+    {
+      "type": "MORE",
+      "scale_to_lvl": false,
+      "stat": "summon_damage",
+      "v1": 15.0
+    },
+    {
+      "type": "MORE",
+      "scale_to_lvl": false,
+      "stat": "total_damage",
+      "v1": -25.0
+    },
+    {
+      "type": "MORE",
+      "scale_to_lvl": false,
+      "stat": "golem_spell_dmg",
+      "v1": -50.0
+    }
+  ]
+}

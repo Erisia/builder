@@ -1,0 +1,34 @@
+{
+  "gem_type": "topaz",
+  "identifier": "topaz3",
+  "item_id": "mmorpg:gems/topaz/3",
+  "min_lvl_multi": 0.3,
+  "on_armor_stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "lightning_resist",
+      "v1": 18.0
+    }
+  ],
+  "on_jewelry_stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "magic_find",
+      "v1": 4.5
+    }
+  ],
+  "on_weapons_stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "all_lightning_damage",
+      "v1": 9.0
+    }
+  ],
+  "perc_upgrade_chance": 100,
+  "text_format": "YELLOW",
+  "tier": 3,
+  "weight": 27
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "bettercombat:sword",
+  "attributes" : {
+    "attack_range": 2.9,
+    "category": "cutlass",
+    "attacks": [
+      {},
+      {}
+    ]
+  }
+}

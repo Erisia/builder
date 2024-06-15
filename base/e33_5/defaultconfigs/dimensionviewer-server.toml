@@ -1,0 +1,54 @@
+
+#Customization Settings
+[customization]
+	#Format that will be used to display the dimension in the tab list with the use of tokens:
+	#    %d - Dimension Name
+	#    %c - Color value (default or dimension-based)
+	#    %i - Italic font
+	#    %b - Bold font
+	#    %u - Underline font
+	#    %o - Obfuscated font
+	#    %s - Strikethrough font
+	#    %r - Font reset
+	listFormat = "%p %c%i<%d>"
+	#The color to use for the dimension font if perDimColorPath is false.
+	#(In the event of a modded dimension being entered, this color will be used as a fallback)
+	#Allowed Values: DARK_RED, RED, GOLD, YELLOW, DARK_GREEN, GREEN, AQUA, DARK_AQUA, DARK_BLUE, BLUE, LIGHT_PURPLE, DARK_PURPLE, WHITE, GRAY, DARK_GRAY, BLACK
+	fontColor = "DARK_AQUA"
+	#Should each dimension have its own color?
+	perDimColorPath = true
+	#Global toggle for dimension aliases. Requires aliases to be set below.
+	enableAliases = true
+
+	#Per-Dimension Customization
+	[customization.dimension]
+		#Color to use for the Overworld
+		#Allowed Values: DARK_RED, RED, GOLD, YELLOW, DARK_GREEN, GREEN, AQUA, DARK_AQUA, DARK_BLUE, BLUE, LIGHT_PURPLE, DARK_PURPLE, WHITE, GRAY, DARK_GRAY, BLACK
+		overworldColor = "GREEN"
+		#Color to use for the Nether
+		#Allowed Values: DARK_RED, RED, GOLD, YELLOW, DARK_GREEN, GREEN, AQUA, DARK_AQUA, DARK_BLUE, BLUE, LIGHT_PURPLE, DARK_PURPLE, WHITE, GRAY, DARK_GRAY, BLACK
+		netherColor = "DARK_RED"
+		#Color to use for the End
+		#Allowed Values: DARK_RED, RED, GOLD, YELLOW, DARK_GREEN, GREEN, AQUA, DARK_AQUA, DARK_BLUE, BLUE, LIGHT_PURPLE, DARK_PURPLE, WHITE, GRAY, DARK_GRAY, BLACK
+		endColor = "DARK_PURPLE"
+
+	#Chat-related Customization
+	[customization.chat]
+		#Should a users' current dimension be added to chat messages?
+		dimInChatName = false
+		#Add a hover effect in chat that will display which mod added the dimension
+		#Requires 'dimInChatName' to be set to true
+		chatDimHover = true
+
+	#Modded Dimension Customization
+	[customization.modded]
+		#A list of modded dimension resource IDs and a color in the format of "modid:dim_id color"
+		#For example, Twilight Forest in Gold would be "twilightforest:twilight_forest GOLD"
+		#Will throw an exception if the color is not valid
+		#Allowed Values: DARK_RED, RED, GOLD, YELLOW, DARK_GREEN, GREEN, AQUA, DARK_AQUA, DARK_BLUE, BLUE, LIGHT_PURPLE, DARK_PURPLE, WHITE, GRAY, DARK_GRAY, BLACK
+		modded_dimension_ids = []
+		#A list of aliases to use instead of the original dimension ID.
+		#Uses the format 'modid:dim_id New Name'.
+		#For example, to replace 'Overworld' with 'Grasslands' you would use 'minecraft:overworld Grasslands'
+		dimensionAliases = []
+

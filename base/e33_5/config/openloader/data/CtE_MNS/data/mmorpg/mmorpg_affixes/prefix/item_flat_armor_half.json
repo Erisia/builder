@@ -1,0 +1,27 @@
+{
+  "type": "prefix",
+  "eye_aura_req": "",
+  "guid": "item_flat_armor_half",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [
+          "armor_stat_half"
+        ],
+        "req_type": "INCLUDES_ANY"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 1.5,
+      "min": 0.375,
+      "stat": "gear_defense"
+    }
+  ],
+  "weight": 1000
+}

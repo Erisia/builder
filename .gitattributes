@@ -1,1 +1,2 @@
 third_party/1.7.10/ElectricalAge-dev.jar filter=lfs diff=lfs merge=lfs -text
+base/e33_5/config/openloader/resources/resources.zip filter=lfs diff=lfs merge=lfs -text

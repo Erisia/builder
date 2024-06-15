@@ -1,0 +1,14 @@
+{
+  "affixes": 1,
+  "dmg_multi": 1.35,
+  "exp_multi": 1.5,
+  "extra_hp_multi": 1.5,
+  "force_custom_hp": -1,
+  "id": "uncommon",
+  "loot_multi": 1.5,
+  "min_lvl": 0,
+  "name": "Uncommon",
+  "stat_multi": 1.2,
+  "text_format": "GREEN",
+  "weight": 256
+}

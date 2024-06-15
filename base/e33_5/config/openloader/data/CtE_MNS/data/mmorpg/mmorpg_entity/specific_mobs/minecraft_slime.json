@@ -1,0 +1,22 @@
+{
+  "dmg_multi": 1.25,
+  "exp_multi": 0.15,
+  "hp_multi": 1.5,
+  "identifier": "minecraft:slime",
+  "loot_multi": 0.15,
+  "max_lvl": 1000000,
+  "min_lvl": 1,
+  "set_health_damage_override": false,
+  "set_rar": "",
+  "stat_multi": 1.0,
+  "stats": {
+    "stats": [
+      {
+        "type": "flat",
+        "max": 100.0,
+        "min": 100.0,
+        "stat": "poison_chance"
+      }
+	]
+  }
+}

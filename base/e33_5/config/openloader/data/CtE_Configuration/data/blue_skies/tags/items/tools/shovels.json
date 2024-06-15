@@ -1,0 +1,11 @@
+{
+  "values": [
+    "blue_skies:pyrope_shovel",
+    "blue_skies:diopside_shovel",
+    "blue_skies:aquite_shovel",
+    "blue_skies:charoite_shovel",
+    "blue_skies:horizonite_shovel",
+    "#blue_skies:tools/wooden_shovels",
+    "#minecraft:shovels"
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "attached": {
+    "entity_components": {
+      "explode": [
+        {
+          "acts": [
+            {
+              "type": "damage",
+              "map": {
+                "element": "Fire",
+                "value_calculation": "explode_minion"
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [],
+          "targets": [
+            {
+              "type": "aoe",
+              "map": {
+                "en_predicate": "enemies",
+                "radius": 3.0,
+                "selection_type": "RADIUS"
+              }
+            }
+          ]
+        },
+        {
+          "acts": [
+            {
+              "type": "damage",
+              "map": {
+                "element": "Shadow",
+                "value_calculation": "explode_minion"
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+				{
+				"type": "caster_has_mns_effect",
+				"map": {
+				  "exile_potion_id": "soul",
+				  "effect_stacks": 5.0
+				}
+			  }
+			],
+          "targets": [
+            {
+              "type": "aoe",
+              "map": {
+                "en_predicate": "enemies",
+                "radius": 3.0,
+                "selection_type": "RADIUS"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "on_cast": [
+      {
+        "acts": [],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "per_entity_hit": [
+          {
+            "acts": [
+              {
+                "type": "sound",
+                "map": {
+                  "pitch": 1.0,
+                  "sound": "minecraft:entity.generic.explode",
+                  "volume": 1.0
+                }
+              }
+            ],
+            "en_preds": [],
+            "ifs": [],
+            "targets": []
+          },
+          {
+            "acts": [
+              {
+                "type": "particles_in_radius",
+                "map": {
+                  "motion": "None",
+                  "particle_count": 10.0,
+                  "particle_type": "minecraft:explosion",
+                  "radius": 3.0
+                }
+              }
+            ],
+            "en_preds": [],
+            "ifs": [],
+            "targets": []
+          },
+          {
+            "acts": [
+              {
+                "type": "particles_in_radius",
+                "map": {
+                  "motion": "None",
+                  "particle_count": 2.0,
+                  "particle_type": "minecraft:explosion_emitter",
+                  "radius": 1.0
+                }
+              }
+            ],
+            "en_preds": [],
+            "ifs": [],
+            "targets": []
+          },
+          {
+            "acts": [
+              {
+                "type": "specific_action",
+                "map": {
+                  "specific_action": "explode"
+                }
+              }
+            ],
+            "en_preds": [],
+            "ifs": [],
+            "targets": []
+          },
+          {
+            "acts": [
+              {
+                "type": "expire",
+                "map": {}
+              }
+            ],
+            "en_preds": [],
+            "ifs": [],
+            "targets": []
+          }
+        ],
+        "targets": [
+          {
+            "type": "aoe",
+            "map": {
+              "en_predicate": "pets",
+              "radius": 10.0,
+              "selection_type": "RADIUS"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "config": {
+    "aggro_radius": 10,
+    "cast_time_ticks": 0,
+    "castingWeapon": "ANY_WEAPON",
+    "charge_name": "",
+    "charge_regen": 0,
+    "charges": 0,
+    "cooldown_ticks": 40,
+    "ene_cost": {
+      "max": 0.0,
+      "min": 0.0
+    },
+    "imbues": 0,
+    "mana_cost": {
+      "max": 11.0,
+      "min": 9.0
+    },
+    "style": "int",
+    "summonType": "NONE",
+    "summon_basic_atk": "pet_basic",
+    "swing_arm": true,
+    "tags": {
+      "tags": [
+      "area",
+      "damage",
+      "minion_explode",
+      "summon",
+	  "magic",
+	  "fire",
+	  "chaos",
+	  "cast_speed_to_cooldown"
+      ]
+    },
+    "times_to_cast": 1,
+    "tracking_radius": 5,
+    "tracks": "enemies"
+  },
+  "default_lvl": 0,
+  "disabled_dims": [],
+  "effect_tip": "",
+  "identifier": "explode_minions",
+  "loc_name": "Explode Minions",
+  "lvl_based_on_spell": "",
+  "manual_tip": true,
+  "max_lvl": 16,
+  "min_lvl": 1,
+  "show_other_spell_tooltip": "",
+  "statsForSkillGem": [],
+  "weight": 1000
+}

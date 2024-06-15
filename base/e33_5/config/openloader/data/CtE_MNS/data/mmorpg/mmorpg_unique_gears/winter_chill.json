@@ -1,0 +1,44 @@
+{
+  "base_gear": "ring",
+  "guid": "winter_chill",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "",
+  "min_tier": 60,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "health"
+    },
+    {
+      "type": "FLAT",
+      "max": 30.0,
+      "min": 20.0,
+      "stat": "water_resist"
+    },
+    {
+      "type": "FLAT",
+      "max": 15.0,
+      "min": 10.0,
+      "stat": "all_water_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 15.0,
+      "min": 5.0,
+      "stat": "mana"
+    },
+    {
+      "type": "PERCENT",
+      "max": 20.0,
+      "min": 10.0,
+      "stat": "critical_hit"
+    }
+  ],
+  "weight": 1000
+}

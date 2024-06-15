@@ -1,0 +1,25 @@
+{
+  "base": {
+    "max": 2.25,
+    "min": 0.5
+  },
+  "base_scaling_type": "NORMAL",
+  "cap_to_wep_dmg": 1000.0,
+  "dmg_effectiveness": {
+    "multi": {
+      "max": 1.6,
+      "min": 1.2
+    },
+    "stat": "health"
+  },
+  "id": "chaos_totem",
+  "stat_scalings": [
+    {
+      "multi": {
+        "max": 1.6,
+        "min": 1.2
+      },
+      "stat": "weapon_damage"
+    }
+  ]
+}

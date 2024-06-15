@@ -1,0 +1,52 @@
+{
+  "id": "grief",
+  "runes": [
+    "cen",
+    "fey",
+    "nos",
+    "ven",
+	"daw"
+  ],
+  "slots": [
+    "axe",
+	"sword"
+  ],
+  "stats": [
+    {
+      "type": "PERCENT",
+      "max": 70.0,
+      "min": 60.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 60.0,
+      "min": 40.0,
+      "stat": "attack_speed"
+    },
+    {
+      "type": "FLAT",
+      "max": 40.0,
+      "min": 20.0,
+      "stat": "armor_penetration"
+    },
+    {
+      "type": "FLAT",
+      "max": 7.0,
+      "min": 3.0,
+      "stat": "critical_hit"
+    },
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 15.0,
+      "stat": "chaos_penetration"
+    },
+    {
+      "type": "FLAT",
+      "max": 5.0,
+      "min": 3.0,
+      "stat": "health_on_kill"
+    }
+  ]
+}

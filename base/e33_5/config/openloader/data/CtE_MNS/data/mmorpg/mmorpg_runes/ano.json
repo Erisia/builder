@@ -1,0 +1,31 @@
+{
+  "id": "ano",
+  "item_id": "mmorpg:runes/ano",
+  "min_lvl_multi": 0.2,
+  "on_armor_stats": [
+    {
+      "type": "PERCENT",
+      "max": 8.0,
+      "min": 8.0,
+      "stat": "health_regen"
+    }
+  ],
+  "on_jewelry_stats": [
+    {
+      "type": "PERCENT",
+      "max": 8.0,
+      "min": 8.0,
+      "stat": "health_regen"
+    }
+  ],
+  "on_weapons_stats": [
+    {
+      "type": "FLAT",
+      "max": 2.0,
+      "min": 2.0,
+      "stat": "lifesteal"
+    }
+  ],
+  "tier": 1,
+  "weight": 800
+}

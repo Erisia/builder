@@ -1,0 +1,27 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "N#N",
+    "#A#",
+    "B#B"
+  ],
+  "key": {
+    "#": {
+      "item": "mmorpg:stone/3"
+    },
+	"A": {
+      "item": "minecraft:ender_eye"
+    },
+	"B": {
+      "item": "undergarden:depthrock"
+    },
+	"N": {
+      "item": "undergarden:froststeel_ingot"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:endless/labyrinth"
+}

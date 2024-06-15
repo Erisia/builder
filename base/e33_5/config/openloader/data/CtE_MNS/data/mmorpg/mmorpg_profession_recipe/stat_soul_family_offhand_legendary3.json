@@ -1,0 +1,40 @@
+{
+  "exp": 450,
+  "id": "stat_soul_family_offhand_legendary3",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "mmorpg:material/mining/3",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:stone/4",
+      "num": 4
+    },
+    {
+      "type": "ITEM",
+      "id": "undergarden:regalium_crystal",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "minecraft:string",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:rare_mats/mining/medium",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "lightmanscurrency:coin_gold",
+      "num": 1    }
+  ],
+  "power": "greater",
+  "profession": "gear_crafting",
+  "result": "mmorpg:stat_soul/family/offhand/legendary",
+  "result_num": 1,
+  "tier": 3
+}

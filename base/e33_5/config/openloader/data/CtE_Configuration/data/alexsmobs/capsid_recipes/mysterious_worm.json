@@ -1,0 +1,18 @@
+{
+  "ingredients": [
+    {
+      "item": "alexsmobs:mosquito_larva"
+    }
+  ],
+  "result": {
+    "item": "alexsmobs:mysterious_worm",
+    "count": 1
+  },
+  "time": 120,
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

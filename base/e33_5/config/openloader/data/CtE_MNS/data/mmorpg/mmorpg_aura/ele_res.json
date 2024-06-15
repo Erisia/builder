@@ -1,0 +1,14 @@
+{
+  "id": "ele_res",
+  "min_lvl": 20,
+  "reservation": 0.4,
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 37.5,
+      "min": 7.5,
+      "stat": "elemental_resist"
+    }
+  ],
+  "style": "INT"
+}

@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:weapon",
+    "mutantmonsters:endersoul_hand",
+    "farmersdelight:skillet",
+    "cuisinedelight:cuisine_skillet"
+  ],
+  "incompatible": []
+}

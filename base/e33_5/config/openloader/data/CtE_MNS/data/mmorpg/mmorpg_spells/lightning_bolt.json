@@ -1,0 +1,430 @@
+{
+  "attached": {
+    "entity_components": {},
+    "on_cast": [
+      {
+        "acts": [
+            {
+              "type": "sound",
+              "map": {
+                "pitch": 2.0,
+                "sound": "minecraft:entity.lightning_bolt.thunder",
+                "volume": 0.75
+              }
+            }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+			{
+			  "type": "particles_in_radius",
+			  "map": {
+                "height": 0.5,
+				"motion": "None",
+				"particle_count": 1.0,
+				"particle_type": "aquamirae:electric",
+				"radius": 0.1
+			  }
+			}
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+			{
+			  "type": "particles_in_radius",
+			  "map": {
+                "height": 0.75,
+				"motion": "None",
+				"particle_count": 1.0,
+				"particle_type": "aquamirae:electric",
+				"radius": 0.1
+			  }
+			}
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+			{
+			  "type": "particles_in_radius",
+			  "map": {
+                "height": 1.0,
+				"motion": "None",
+				"particle_count": 1.0,
+				"particle_type": "aquamirae:electric",
+				"radius": 0.1
+			  }
+			}
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+			{
+			  "type": "particles_in_radius",
+			  "map": {
+                "height": 1.25,
+				"motion": "None",
+				"particle_count": 1.0,
+				"particle_type": "aquamirae:electric",
+				"radius": 0.1
+			  }
+			}
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+			{
+			  "type": "particles_in_radius",
+			  "map": {
+                "height": 1.5,
+				"motion": "None",
+				"particle_count": 1.0,
+				"particle_type": "aquamirae:electric",
+				"radius": 0.1
+			  }
+			}
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+			{
+			  "type": "particles_in_radius",
+			  "map": {
+                "height": 1.75,
+				"motion": "None",
+				"particle_count": 1.0,
+				"particle_type": "aquamirae:electric",
+				"radius": 0.1
+			  }
+			}
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+			{
+			  "type": "particles_in_radius",
+			  "map": {
+                "height": 2.0,
+				"motion": "None",
+				"particle_count": 1.0,
+				"particle_type": "aquamirae:electric",
+				"radius": 0.1
+			  }
+			}
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+			{
+			  "type": "particles_in_radius",
+			  "map": {
+                "height": 2.25,
+				"motion": "None",
+				"particle_count": 1.0,
+				"particle_type": "aquamirae:electric",
+				"radius": 0.1
+			  }
+			}
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+			{
+			  "type": "particles_in_radius",
+			  "map": {
+                "height": 2.5,
+				"motion": "None",
+				"particle_count": 1.0,
+				"particle_type": "aquamirae:electric",
+				"radius": 0.1
+			  }
+			}
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+			{
+			  "type": "particles_in_radius",
+			  "map": {
+                "height": 2.75,
+				"motion": "None",
+				"particle_count": 1.0,
+				"particle_type": "aquamirae:electric",
+				"radius": 0.1
+			  }
+			}
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+			{
+			  "type": "particles_in_radius",
+			  "map": {
+                "height": 3.0,
+				"motion": "None",
+				"particle_count": 1.0,
+				"particle_type": "aquamirae:electric",
+				"radius": 0.1
+			  }
+			}
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+			{
+			  "type": "particles_in_radius",
+			  "map": {
+                "height": 3.25,
+				"motion": "None",
+				"particle_count": 1.0,
+				"particle_type": "aquamirae:electric",
+				"radius": 0.1
+			  }
+			}
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+			{
+			  "type": "particles_in_radius",
+			  "map": {
+                "height": 3.5,
+				"motion": "None",
+				"particle_count": 1.0,
+				"particle_type": "aquamirae:electric",
+				"radius": 0.1
+			  }
+			}
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+			{
+			  "type": "particles_in_radius",
+			  "map": {
+                "height": 3.75,
+				"motion": "None",
+				"particle_count": 1.0,
+				"particle_type": "aquamirae:electric",
+				"radius": 0.1
+			  }
+			}
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+			{
+			  "type": "particles_in_radius",
+			  "map": {
+                "height": 4.0,
+				"motion": "None",
+				"particle_count": 1.0,
+				"particle_type": "aquamirae:electric",
+				"radius": 0.1
+			  }
+			}
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+          {
+            "type": "damage",
+            "map": {
+              "element": "Nature",
+              "value_calculation": "lightning_bolt"
+            }
+          }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": [
+          {
+            "type": "aoe",
+            "map": {
+              "en_predicate": "enemies",
+              "radius": 0.5,
+              "selection_type": "RADIUS"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "config": {
+    "aggro_radius": 10,
+    "cast_time_ticks": 0,
+    "castingWeapon": "ANY_WEAPON",
+    "charge_name": "",
+    "charge_regen": 0,
+    "charges": 0,
+    "cooldown_ticks": 1,
+    "ene_cost": {
+      "max": 0.0,
+      "min": 0.0
+    },
+    "imbues": 0,
+    "mana_cost": {
+      "max": 0.0,
+      "min": 0.0
+    },
+    "style": "int",
+    "summonType": "NONE",
+    "summon_basic_atk": "pet_basic",
+    "swing_arm": true,
+    "tags": {
+      "tags": [
+        "magic",
+        "damage",
+        "lightning",
+		"lightning_bolt"
+      ]
+    },
+    "times_to_cast": 1,
+    "tracking_radius": 5,
+    "tracks": "enemies"
+  },
+  "default_lvl": 0,
+  "disabled_dims": [],
+  "effect_tip": "",
+  "identifier": "lightning_bolt",
+  "loc_name": "Lightning Bolt",
+  "lvl_based_on_spell": "",
+  "manual_tip": true,
+  "max_lvl": 16,
+  "min_lvl": 1,
+  "show_other_spell_tooltip": "",
+  "statsForSkillGem": [],
+  "weight": 1000
+}

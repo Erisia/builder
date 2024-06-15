@@ -1,0 +1,15 @@
+{
+  "data": {
+    "attribute_id": "attributeslib:draw_speed",
+    "base": 0.0,
+    "ele": "Physical",
+    "id": "draw_speed",
+    "max": 2.14748365E9,
+    "min": -1000.0,
+    "name": "Draw Speed",
+    "perc": true,
+    "scale": "NONE",
+    "uuid": "9dafa2a9-a34e-49fa-8701-abbe59cd30c6"
+  },
+  "ser": "vanilla_attribute_stat_ser"
+}

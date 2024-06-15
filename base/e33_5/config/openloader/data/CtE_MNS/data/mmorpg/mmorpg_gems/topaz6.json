@@ -1,0 +1,34 @@
+{
+  "gem_type": "topaz",
+  "identifier": "topaz6",
+  "item_id": "mmorpg:gems/topaz/6",
+  "min_lvl_multi": 0.6,
+  "on_armor_stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "lightning_resist",
+      "v1": 24.0
+    }
+  ],
+  "on_jewelry_stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "magic_find",
+      "v1": 6.0
+    }
+  ],
+  "on_weapons_stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "all_lightning_damage",
+      "v1": 12.0
+    }
+  ],
+  "perc_upgrade_chance": 0,
+  "text_format": "YELLOW",
+  "tier": 6,
+  "weight": 1
+}

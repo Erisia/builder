@@ -1,0 +1,15 @@
+{
+  "type": "STAT",
+  "icon": "mmorpg:textures/gui/spells/icons/defender_stance.png",
+  "id": "defender_stance",
+  "is_entry": false,
+  "max_lvls": 4,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "learn_defender_stance",
+      "v1": 1.0
+    }
+  ]
+}

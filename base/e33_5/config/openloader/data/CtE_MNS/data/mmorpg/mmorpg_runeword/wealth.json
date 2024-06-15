@@ -1,0 +1,31 @@
+{
+  "id": "wealth",
+  "runes": [
+    "oru",
+    "toq",
+    "fey"
+  ],
+  "slots": [
+    "pants"
+  ],
+  "stats": [
+    {
+      "type": "PERCENT",
+      "max": 50.0,
+      "min": 40.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "FLAT",
+      "max": 15.0,
+      "min": 10.0,
+      "stat": "increased_quantity"
+    },
+    {
+      "type": "FLAT",
+      "max": 5.0,
+      "min": 3.0,
+      "stat": "magic_find"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "attribute_id": "",
+  "conversion": 2.0,
+  "enchant_id": "minecraft:looting",
+  "id": "looting_compat",
+  "maximum_cap": 50,
+  "minimum_cap": 0,
+  "mns_stat_id": "increased_quantity",
+  "mod_type": "FLAT",
+  "scaling": "NONE"
+}

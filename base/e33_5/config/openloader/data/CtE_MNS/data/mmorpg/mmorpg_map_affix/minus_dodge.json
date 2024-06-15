@@ -1,0 +1,16 @@
+{
+  "affected": "Players",
+  "id": "minus_dodge",
+  "map_resist": "Physical",
+  "map_resist_bonus_needed": 0,
+  "req": "",
+  "stats": [
+    {
+      "type": "MORE",
+      "max": -60.0,
+      "min": -20.0,
+      "stat": "dodge"
+    }
+  ],
+  "weight": 1000
+}

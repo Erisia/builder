@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mmorpg:rare_mats/fishing/greater"
+    }
+  ],
+  "result": {
+    "item": "mmorpg:rare_mats/fishing/medium",
+    "count": 5
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "prefix",
+  "format": "BLUE",
+  "icon": "",
+  "id": "penetrating",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 20.0,
+      "stat": "armor_penetration"
+    },
+    {
+      "type": "FLAT",
+      "max": 50.0,
+      "min": 50.0,
+      "stat": "elemental_penetration"
+    },
+    {
+      "type": "FLAT",
+      "max": 50.0,
+      "min": 50.0,
+      "stat": "chaos_penetration"
+    }
+  ],
+  "weight": 1000
+}

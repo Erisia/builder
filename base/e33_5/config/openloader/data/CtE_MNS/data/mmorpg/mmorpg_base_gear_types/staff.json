@@ -1,0 +1,53 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 6.0,
+      "min": 3.0,
+      "stat": "weapon_damage"
+    },
+	{
+	  "type": "FLAT",
+	  "max": 6.0,
+	  "min": 3.0,
+	  "stat": "mana_on_basic_hit"
+	}
+  ],
+  "gear_slot": "staff",
+  "guid": "staff",
+  "possible_items": [
+    {
+      "item_id": "mmorpg:weapon/staff/wood",
+      "min_rar": "common",
+      "weight": 1
+    },
+    {
+      "item_id": "mmorpg:weapon/staff/iron",
+      "min_rar": "rare",
+      "weight": 10
+    },
+    {
+      "item_id": "mmorpg:weapon/staff/diamond",
+      "min_rar": "legendary",
+      "weight": 100
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "intelligence": 0.5
+    }
+  },
+  "style": "INT",
+  "tags": {
+    "tags": [
+      "mage_weapon",
+      "staff",
+      "weapon_family",
+      "melee_weapon",
+      "intelligence"
+    ]
+  },
+  "weapon_type": "staff",
+  "weight": 1000
+}
