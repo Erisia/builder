@@ -7,8 +7,33 @@ rec {
 
   packs = {
     e33 = buildPack e33;
+    e33_5 = buildPack e33_5;
   };
   
+  e33_5 = {
+    name = "E33.5";
+    tmuxName = "e335";
+    description = "E33.5: Pars Una";
+    ram = "16G";
+    # TODO: Assign alternate ports
+    port = 25565;
+    prometheusPort = 1224;
+    minecraft = "1.20.1";
+    neoforge = {
+      major = "1.20.1";
+      minor = "47.2.18";
+    };
+    extraDirs = [
+      ./base/e33_5
+    ];
+    extraServerDirs = [
+      ./base/server
+    ];
+    extraClientDirs = [
+    ];
+    manifest = ./manifest/e33_5.json;
+  };
+
   e33 = {
     name = "E33";
     tmuxName = "e33";
