@@ -12,6 +12,7 @@ nodes:
         id: 499826
         file_id: 4930510
         source: curse
+        side: client
       - name: aggroindicator
         id: 882713
         file_id: 5063499
@@ -32,6 +33,9 @@ nodes:
         id: 254284
         file_id: 5345142
         source: curse
+        side: client
+        required: false
+        default: false
       - name: amendments
         id: 896746
         file_id: 5409444
@@ -80,6 +84,7 @@ nodes:
         id: 514797
         file_id: 5375620
         source: curse
+        side: client
       - name: beds-dont-explode
         id: 537746
         file_id: 4577022
@@ -112,6 +117,8 @@ nodes:
         id: 292038
         file_id: 4594106
         source: curse
+        side: client
+        required: false
       - name: better-tridents
         id: 666941
         file_id: 4707887
@@ -152,10 +159,12 @@ nodes:
         id: 459701
         file_id: 4766090
         source: curse
+        side: client
       - name: chat-heads
         id: 407206
         file_id: 5423055
         source: curse
+        side: client
       - name: chimes
         id: 350464
         file_id: 4671986
@@ -188,6 +197,7 @@ nodes:
         id: 511733
         file_id: 5293987
         source: curse
+        side: client
       - name: cloth-config
         id: 348521
         file_id: 4973441
@@ -212,14 +222,21 @@ nodes:
         id: 627557
         file_id: 5403838
         source: curse
+        side: client
+        required: false
+        default: false
       - name: complementary-unbound
         id: 385587
         file_id: 5403840
         source: curse
+        side: client
+        required: false
+        default: false
       - name: config-menus-forge
         id: 544048
         file_id: 4672356
         source: curse
+        side: client
       - name: connectivity
         id: 470193
         file_id: 5181534
@@ -228,6 +245,7 @@ nodes:
         id: 250398
         file_id: 4646682
         source: curse
+        side: client
       - name: cooking-for-blockheads
         id: 231484
         file_id: 5396013
@@ -260,6 +278,9 @@ nodes:
         id: 297038
         file_id: 5290583
         source: curse
+        side: client
+        required: false
+        default: false
       - name: crafttweaker
         id: 239197
         file_id: 5375591
@@ -280,6 +301,7 @@ nodes:
         id: 941802
         file_id: 4893440
         source: curse
+        side: client
       - name: createaddition
         id: 439890
         file_id: 5099752
@@ -328,6 +350,7 @@ nodes:
         id: 232131
         file_id: 4635878
         source: curse
+        side: client
       - name: deuf-duplicate-entity-uuid-fix
         id: 296646
         file_id: 4598640
@@ -352,6 +375,8 @@ nodes:
         id: 404400
         file_id: 5189256
         source: curse
+        side: client
+        required: false
       - name: double-doors
         id: 348831
         file_id: 5334522
@@ -360,6 +385,7 @@ nodes:
         id: 511770
         file_id: 5117077
         source: curse
+        side: client
       - name: easier-sleeping
         id: 388364
         file_id: 4628693
@@ -376,10 +402,14 @@ nodes:
         id: 908741
         file_id: 5410220
         source: curse
+        side: client
+        required: false
       - name: embeddiumplus
         id: 931925
         file_id: 5342269
         source: curse
+        side: client
+        required: false
       - name: emi
         id: 580555
         file_id: 5311316
@@ -388,6 +418,8 @@ nodes:
         id: 250419
         file_id: 5396674
         source: curse
+        side: client
+        required: false
       - name: ender-trigon
         id: 662563
         file_id: 5388736
@@ -408,10 +440,12 @@ nodes:
         id: 448233
         file_id: 5371852
         source: curse
+        side: client
       - name: equipment-compare
         id: 502561
         file_id: 4650073
         source: curse
+        side: client
       - name: explorers-compass
         id: 491794
         file_id: 4712194
@@ -424,10 +458,14 @@ nodes:
         id: 463155
         file_id: 4695661
         source: curse
+        side: client
+        required: false
+        default: false
       - name: fancymenu
         id: 367706
         file_id: 5340225
         source: curse
+        side: client
       - name: farmers-delight
         id: 398521
         file_id: 5051242
@@ -440,6 +478,8 @@ nodes:
         id: 495693
         file_id: 4870168
         source: curse
+        side: client
+        required: false
       - name: fast-leaf-decay
         id: 230976
         file_id: 5375681
@@ -488,6 +528,7 @@ nodes:
         id: 431430
         file_id: 4731559
         source: curse
+        side: client
       - name: floral-enchantment
         id: 511569
         file_id: 4624775
@@ -496,6 +537,8 @@ nodes:
         id: 832070
         file_id: 4962992
         source: curse
+        side: client
+        required: false
       - name: framework
         id: 549225
         file_id: 5388226
@@ -564,6 +607,7 @@ nodes:
         id: 667245
         file_id: 4671079
         source: curse
+        side: client
       - name: hit-indication
         id: 848933
         file_id: 4691948
@@ -580,6 +624,7 @@ nodes:
         id: 686911
         file_id: 5425036
         source: curse
+        side: client
       - name: incendium
         id: 591388
         file_id: 5351562
@@ -596,6 +641,7 @@ nodes:
         id: 357540
         file_id: 4699629
         source: curse
+        side: client
       - name: inventory-sorter
         id: 240633
         file_id: 4655091
@@ -608,10 +654,13 @@ nodes:
         id: 521590
         file_id: 4985588
         source: curse
+        side: client
       - name: itemphysic-lite
         id: 270441
         file_id: 5274678
         source: curse
+        side: client
+        required: false
       - name: jade
         id: 324717
         file_id: 5339264
@@ -664,6 +713,7 @@ nodes:
         id: 410295
         file_id: 5028413
         source: curse
+        side: client
       - name: kotlin-for-forge
         id: 351264
         file_id: 5402061
@@ -676,6 +726,7 @@ nodes:
         id: 532127
         file_id: 4662781
         source: curse
+        side: client
       - name: let-me-despawn
         id: 663477
         file_id: 5390369
@@ -692,6 +743,7 @@ nodes:
         id: 534502
         file_id: 4203277
         source: curse
+        side: client
       - name: login-protection
         id: 358304
         file_id: 5335699
@@ -728,6 +780,7 @@ nodes:
         id: 938643
         file_id: 5109692
         source: curse
+        side: client
       - name: mimi-mod
         id: 499803
         file_id: 5371206
@@ -744,6 +797,7 @@ nodes:
         id: 222378
         file_id: 4938047
         source: curse
+        side: client
       - name: mmmmmmmmmmmm
         id: 225738
         file_id: 5319203
@@ -752,10 +806,12 @@ nodes:
         id: 676136
         file_id: 5200949
         source: curse
+        side: client
       - name: modern-ui
         id: 352491
         file_id: 5229575
         source: curse
+        side: client
       - name: modernfix
         id: 790626
         file_id: 5399361
@@ -772,6 +828,7 @@ nodes:
         id: 391382
         file_id: 5376428
         source: curse
+        side: client
       - name: more-sniffer-flowers
         id: 884119
         file_id: 5412533
@@ -804,6 +861,7 @@ nodes:
         id: 813557
         file_id: 5298558
         source: curse
+        side: client
       - name: neruina
         id: 851046
         file_id: 5361852
@@ -832,10 +890,13 @@ nodes:
         id: 296468
         file_id: 4601446
         source: curse
+        side: client
+        required: false
       - name: not-enough-animations
         id: 433760
         file_id: 5307870
         source: curse
+        side: client
       - name: notenoughrecipebook
         id: 738663
         file_id: 4742680
@@ -856,6 +917,7 @@ nodes:
         id: 581495
         file_id: 5299671
         source: curse
+        side: client
       - name: open-loader
         id: 354339
         file_id: 5368592
@@ -896,6 +958,7 @@ nodes:
         id: 638111
         file_id: 4650325
         source: curse
+        side: client
       - name: puzzles-lib
         id: 495476
         file_id: 5373244
@@ -964,6 +1027,9 @@ nodes:
         id: 243190
         file_id: 5419215
         source: curse
+        side: client
+        required: false
+        default: false
       - name: showcase-item
         id: 627196
         file_id: 5090810
@@ -980,6 +1046,7 @@ nodes:
         id: 521480
         file_id: 5371958
         source: curse
+        side: client
       - name: sky-villages-forge
         id: 545467
         file_id: 5401804
@@ -1104,10 +1171,12 @@ nodes:
         id: 306549
         file_id: 5134760
         source: curse
+        side: client
       - name: toast-control
         id: 271740
         file_id: 4711316
         source: curse
+        side: client
       - name: too-fast
         id: 550678
         file_id: 4627738
@@ -1128,6 +1197,7 @@ nodes:
         id: 504908
         file_id: 5065825
         source: curse
+        side: client
       - name: u-team-core
         id: 273744
         file_id: 5299142
@@ -1180,6 +1250,7 @@ nodes:
         id: 635427
         file_id: 4680832
         source: curse
+        side: client
       - name: yungs-api
         id: 421850
         file_id: 5331703
