@@ -1224,6 +1224,26 @@ nodes:
         id: 480006
         file_id: 4769514
         source: curse
+      - name: longer-login-times
+        id: 566374
+        file_id: 4594800
+        source: curse
+        side: server
+      - name: responsive-shields
+        id: 557556
+        file_id: 4922027
+        source: curse
+        side: server
+      - name: servercore
+        id: 550579
+        file_id: 5288513
+        source: curse
+        side: server
+      - name: spark
+        id: 361579
+        file_id: 4738952
+        source: curse
+        side: both # Adding this on the client as well
   - id: resolver
     kind: ModResolver
     input:

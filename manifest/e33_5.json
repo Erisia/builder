@@ -3963,5 +3963,57 @@
     "size": 200341,
     "md5": "6a592ed7502e13d840fa25587325202d",
     "sha256": "3def0d66debef6185df82f6b777ec382a59dc66da47c8f081e69cc059da1d98d"
+  },
+  {
+    "name": "longer-login-times",
+    "title": "Longer Login Times",
+    "side": "server",
+    "required": true,
+    "default": true,
+    "filename": "longerlogintimes-1.0.0-forge-mc1.20.jar",
+    "encoded": "longerlogintimes-1.0.0-forge-mc1.20.jar",
+    "src": "https://edge.forgecdn.net/files/4594/800/longerlogintimes-1.0.0-forge-mc1.20.jar",
+    "size": 6366,
+    "md5": "5d0e5c1f1871eade81db1b6ed4cf8583",
+    "sha256": "b9463e18f3800c16b3a9c95ee13d7203f274e12cb25132b275f542034a434d50"
+  },
+  {
+    "name": "responsive-shields",
+    "title": "Responsive Shields",
+    "side": "server",
+    "required": true,
+    "default": true,
+    "filename": "responsiveshields-2.3-mc1.18-19-20.x.jar",
+    "encoded": "responsiveshields-2.3-mc1.18-19-20.x.jar",
+    "src": "https://edge.forgecdn.net/files/4922/27/responsiveshields-2.3-mc1.18-19-20.x.jar",
+    "size": 63747,
+    "md5": "8b6df7ddfada4410bdd426f9b4e3bfeb",
+    "sha256": "91208c39f5a775a62f983acce4c772f5afc5862ea11c1d3ae39601312c522d65"
+  },
+  {
+    "name": "servercore",
+    "title": "ServerCore",
+    "side": "server",
+    "required": true,
+    "default": true,
+    "filename": "servercore-forge-1.5.1+1.20.1.jar",
+    "encoded": "servercore-forge-1.5.1%2B1.20.1.jar",
+    "src": "https://edge.forgecdn.net/files/5288/513/servercore-forge-1.5.1%2b1.20.1.jar",
+    "size": 1508286,
+    "md5": "e6796acfefb95de3a05c0802da528faf",
+    "sha256": "3265454f24e50811363a1fb259c33816afc1978b9f39b6228eb57caf817a7f53"
+  },
+  {
+    "name": "spark",
+    "title": "spark",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "spark-1.10.53-forge.jar",
+    "encoded": "spark-1.10.53-forge.jar",
+    "src": "https://edge.forgecdn.net/files/4738/952/spark-1.10.53-forge.jar",
+    "size": 3114590,
+    "md5": "95dcd3b5400cc5eb5d0478a744e6ef98",
+    "sha256": "eba275ba9bb0cb5b542913c3138c6eeff6a752898266d63d125d185f26ac99ed"
   }
 ]
