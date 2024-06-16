@@ -4015,5 +4015,31 @@
     "size": 3114590,
     "md5": "95dcd3b5400cc5eb5d0478a744e6ef98",
     "sha256": "eba275ba9bb0cb5b542913c3138c6eeff6a752898266d63d125d185f26ac99ed"
+  },
+  {
+    "name": "dynmap",
+    "title": "Dynmap®",
+    "side": "server",
+    "required": true,
+    "default": true,
+    "filename": "Dynmap-3.7-beta-4-forge-1.20.jar",
+    "encoded": "Dynmap-3.7-beta-4-forge-1.20.jar",
+    "src": "https://cdn.modrinth.com/data/fRQREgAc/versions/3RtnSlr9/Dynmap-3.7-beta-4-forge-1.20.jar",
+    "size": 11607303,
+    "md5": "7db02e6f0c6ddab6aa3ec886246376c5",
+    "sha256": "abd7218fb89abdb2ab4a8a1707189832592133a3fdf3e7cfb1e1c6880d7cba9e"
+  },
+  {
+    "name": "dcintegration",
+    "title": "Discord Integration",
+    "side": "server",
+    "required": true,
+    "default": true,
+    "filename": "dcintegration-forge-3.0.7.1-1.20.1.jar",
+    "encoded": "dcintegration-forge-3.0.7.1-1.20.1.jar",
+    "src": "https://cdn.modrinth.com/data/rbJ7eS5V/versions/ILJrSvYW/dcintegration-forge-3.0.7.1-1.20.1.jar",
+    "size": 16358023,
+    "md5": "fc0cc2f0d9239f1c2dcf526559b9343a",
+    "sha256": "8da9fbc532229b4d55b4857c7fc28ded385ca6e621e95ba393a584aadef7868d"
   }
 ]

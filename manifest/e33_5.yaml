@@ -1315,6 +1315,16 @@ nodes:
         file_id: 4738952
         source: curse
         side: both # Adding this on the client as well
+      - name: dynmap
+        id: fRQREgAc
+        file_id: 3RtnSlr9
+        source: modrinth
+        side: server
+      - name: dcintegration
+        id: rbJ7eS5V
+        file_id: ILJrSvYW
+        source: modrinth
+        side: server
   - id: resolver
     kind: ModResolver
     input:
