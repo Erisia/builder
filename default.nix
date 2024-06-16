@@ -26,6 +26,7 @@ rec {
       ./base/e33_5
     ];
     extraServerDirs = [
+      ./base/e33_5-server
       ./base/server
     ];
     extraClientDirs = [
