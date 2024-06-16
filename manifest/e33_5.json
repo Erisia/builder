@@ -2133,7 +2133,7 @@
   },
   {
     "name": "konkrete",
-    "title": "Konkrete [Forge]",
+    "title": "Konkrete [Forge/NeoForge]",
     "side": "client",
     "required": true,
     "default": true,
@@ -3296,7 +3296,7 @@
     "default": true,
     "filename": "Stackable Potions-forge-1.20.1-1.0.0.jar",
     "encoded": "Stackable%20Potions-forge-1.20.1-1.0.0.jar",
-    "src": "https://edge.forgecdn.net/files/4627/634/Stackable Potions-forge-1.20.1-1.0.0.jar",
+    "src": "https://edge.forgecdn.net/files/4627/634/Stackable%20Potions-forge-1.20.1-1.0.0.jar",
     "size": 10691,
     "md5": "566e24cea1bf00dea8abd01a56bb398a",
     "sha256": "14868a8936e10f1dccb6d6f0c56ae678b929db9b7d14b97bfc1116960d752b53"

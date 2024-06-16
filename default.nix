@@ -18,7 +18,7 @@ rec {
     port = 25566;
     prometheusPort = 1225;
     minecraft = "1.20.1";
-    neoforge = {
+    forge = {
       major = "1.20.1";
       minor = "47.2.18";
     };
@@ -29,6 +29,7 @@ rec {
       ./base/server
     ];
     extraClientDirs = [
+      ./base/e33_5-client
     ];
     manifest = ./manifest/e33_5.json;
   };
