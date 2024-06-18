@@ -1,0 +1,30 @@
+{
+  "exp": 200,
+  "id": "buff_potion_greater_arcane2",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "mmorpg:material/fishing/2",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "minecraft:lapis_lazuli",
+      "num": 5
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:rare_mats/salvaging/greater",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "lightmanscurrency:coin_gold",
+      "num": 1    }
+  ],
+  "power": "greater",
+  "profession": "alchemy",
+  "result": "mmorpg:buff_potion/greater_arcane",
+  "result_num": 1,
+  "tier": 2
+}

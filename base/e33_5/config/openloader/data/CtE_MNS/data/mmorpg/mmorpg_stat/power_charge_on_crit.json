@@ -1,0 +1,38 @@
+{
+  "base": 0.0,
+  "effect": [
+    {
+      "effects": [
+        "give_power_charge_to_source"
+      ],
+      "events": [
+        "on_damage"
+      ],
+      "ifs": [
+        "random_roll",
+        "is_crit_true",
+        "attack_type_is_hit"
+      ],
+      "order": "final_damage",
+      "side": "Source"
+    }
+  ],
+  "ele": "Physical",
+  "format": "aqua",
+  "group": "Misc",
+  "gui_group": "NONE",
+  "has_softcap": false,
+  "icon": "★",
+  "id": "power_charge_on_crit",
+  "is_long": true,
+  "is_perc": true,
+  "max": 100.0,
+  "min": 0.0,
+  "minus_is_good": false,
+  "multiUseType": "MULTIPLY_STAT",
+  "order": 100,
+  "scaling": "NONE",
+  "ser": "data",
+  "show_in_gui": true,
+  "softcap": 0.0
+}

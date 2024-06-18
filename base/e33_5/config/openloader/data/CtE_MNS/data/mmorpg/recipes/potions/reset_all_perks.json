@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "minecraft:glass_bottle"
+    },
+    "v": {
+      "item": "minecraft:diamond"
+    },
+    "t": {
+      "item": "mmorpg:stone/1"
+    }
+  },
+  "pattern": [
+    " v ",
+    "vtv",
+    " b "
+  ],
+  "result": {
+    "item": "mmorpg:potions/reset_all_perks"
+  },
+  "show_notification": true,
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}
+}

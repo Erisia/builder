@@ -1,0 +1,21 @@
+{
+  "type": "MAJOR",
+  "icon": "mmorpg:textures/gui/talent_icons/asc/gladiator/2.png",
+  "id": "gladiator_class_2",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "MORE",
+      "scale_to_lvl": false,
+      "stat": "all_physical_damage",
+      "v1": 12.0
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "inc_aoe",
+      "v1": 15.0
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "beneficial",
+  "id": "gale_force",
+  "max_stacks": 20,
+  "mc_stats": [],
+  "one_of_a_kind_id": "",
+  "spell_tags": {
+    "tags": []
+  },
+  "stacks_affect_stats": true,
+  "stats": [
+    {
+      "type": "PERCENT",
+      "max": 2.0,
+      "min": 2.0,
+      "stat": "dodge"
+    },
+    {
+      "type": "FLAT",
+      "max": 1.0,
+      "min": 1.0,
+      "stat": "move_speed"
+    }
+  ],
+  "tags": {
+    "tags": [
+      "positive"
+    ]
+  }
+}

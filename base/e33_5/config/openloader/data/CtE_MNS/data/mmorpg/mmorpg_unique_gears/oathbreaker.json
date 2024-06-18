@@ -1,0 +1,56 @@
+{
+  "base_gear": "hammer",
+  "guid": "oathbreaker",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "",
+  "min_tier": 20,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 60.0,
+      "min": 50.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 1.0,
+      "min": 1.0,
+      "stat": "plus_lvl_curse_spells"
+    },
+    {
+      "type": "FLAT",
+      "max": 50.0,
+      "min": 50.0,
+      "stat": "phys_to_chaos"
+    },
+    {
+      "type": "FLAT",
+      "max": 25.0,
+      "min": 20.0,
+      "stat": "curse_cdr"
+    },
+    {
+      "type": "FLAT",
+      "max": 50.0,
+      "min": 40.0,
+      "stat": "damage_to_cursed"
+    },
+    {
+      "type": "MORE",
+      "max": -10.0,
+      "min": -10.0,
+      "stat": "health"
+    },
+    {
+      "type": "MORE",
+      "max": -10.0,
+      "min": -10.0,
+      "stat": "health_regen"
+    }
+  ],
+  "weight": 1000
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [  
+	{
+      "item": "mmorpg:rare_mats/salvaging/medium"
+    },
+	{
+      "item": "mmorpg:rare_mats/salvaging/medium"
+    },
+	{
+      "item": "mmorpg:rare_mats/salvaging/medium"
+    },
+	{
+      "item": "mmorpg:rare_mats/salvaging/medium"
+    },
+	{
+      "item": "mmorpg:rare_mats/salvaging/medium"
+    }
+  ],
+  "result": {
+    "item": "mmorpg:rare_mats/salvaging/greater"
+  }
+}

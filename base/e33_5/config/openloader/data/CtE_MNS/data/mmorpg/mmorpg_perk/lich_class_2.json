@@ -1,0 +1,21 @@
+{
+  "type": "MAJOR",
+  "icon": "mmorpg:textures/gui/talent_icons/asc/lich/2.png",
+  "id": "lich_class_2",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "MORE",
+      "scale_to_lvl": false,
+      "stat": "all_water_damage",
+      "v1": 15.0
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "physical_dmg_reduction",
+      "v1": 8.0
+    }
+  ]
+}

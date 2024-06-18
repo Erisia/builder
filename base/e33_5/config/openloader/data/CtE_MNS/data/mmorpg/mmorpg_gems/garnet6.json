@@ -1,0 +1,34 @@
+{
+  "gem_type": "garnet",
+  "identifier": "garnet6",
+  "item_id": "mmorpg:gems/garnet/6",
+  "min_lvl_multi": 0.6,
+  "on_armor_stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "inc_leech",
+      "v1": 24.0
+    }
+  ],
+  "on_jewelry_stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "ailment_damage",
+      "v1": 24.0
+    }
+  ],
+  "on_weapons_stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "ailment_damage",
+      "v1": 24.0
+    }
+  ],
+  "perc_upgrade_chance": 0,
+  "text_format": "GREEN",
+  "tier": 6,
+  "weight": 1
+}

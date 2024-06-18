@@ -1,0 +1,44 @@
+{
+  "type": "beneficial",
+  "id": "frenzy_charge",
+  "max_stacks": 3,
+  "mc_stats": [],
+  "one_of_a_kind_id": "",
+  "spell_tags": {
+    "tags": []
+  },
+  "stacks_affect_stats": true,
+  "stats": [
+    {
+      "type": "MORE",
+      "max": 3.0,
+      "min": 3.0,
+      "stat": "total_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 3.0,
+      "min": 3.0,
+      "stat": "cast_speed"
+    },
+    {
+      "type": "FLAT",
+      "max": 3.0,
+      "min": 3.0,
+      "stat": "attack_speed"
+    },
+    {
+      "type": "FLAT",
+      "max": 3.0,
+      "min": 3.0,
+      "stat": "draw_speed"
+    }
+  ],
+  "tags": {
+    "tags": [
+      "offensive",
+      "charge",
+      "positive"
+    ]
+  }
+}

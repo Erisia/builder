@@ -1,0 +1,30 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "DED",
+    "GAG",
+    "BGB"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:rotten_flesh"
+    },
+	"E": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+	"G": {
+      "item": "mmorpg:stone/3"
+    },
+	"A": {
+      "item": "minecraft:ender_eye"
+    },
+	"B": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:hellish_fortress"
+}

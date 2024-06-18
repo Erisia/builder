@@ -1,0 +1,11 @@
+{
+  "attribute_id": "",
+  "conversion": 12.0,
+  "enchant_id": "farmersdelight:backstabbing",
+  "id": "fd_backstabbing_compat",
+  "maximum_cap": 50,
+  "minimum_cap": 0,
+  "mns_stat_id": "critical_hit",
+  "mod_type": "PERCENT",
+  "scaling": "NONE"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "MAJOR",
+  "icon": "mmorpg:textures/gui/talent_icons/asc/gladiator/4.png",
+  "id": "gladiator_class_4",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "proc_blood_explosion",
+      "v1": 50.0
+    },
+    {
+      "type": "MORE",
+      "scale_to_lvl": false,
+      "stat": "bleed_damage",
+      "v1": 20.0
+    }
+  ]
+}

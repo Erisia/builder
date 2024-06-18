@@ -1,0 +1,20 @@
+{
+  "id": "guardian",
+  "min_lvl": 20,
+  "reservation": 0.4,
+  "stats": [
+    {
+      "type": "PERCENT",
+      "max": 10.0,
+      "min": 2.0,
+      "stat": "health"
+    },
+    {
+      "type": "PERCENT",
+      "max": 10.0,
+      "min": 2.0,
+      "stat": "magic_shield"
+    }
+  ],
+  "style": "INT"
+}

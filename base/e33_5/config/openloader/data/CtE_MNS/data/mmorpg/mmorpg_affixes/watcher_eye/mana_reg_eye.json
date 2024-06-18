@@ -1,0 +1,31 @@
+{
+  "type": "watcher_eye",
+  "eye_aura_req": "mana_reg",
+  "guid": "mana_reg_eye",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [],
+        "req_type": "INCLUDES_ANY"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "mana_leech_cap"
+    },
+    {
+      "type": "MORE",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "mana_regen"
+    }
+  ],
+  "weight": 1000
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " I ",
+        "GgG",
+        "mI "
+    ],
+    "key": {
+        "I": { "tag": "forge:ingots/gold" },
+        "g": { "tag": "forge:dusts/glowstone" },
+        "G": { "tag": "forge:glass" },
+        "m": { "item": "mmorpg:rare_mats/mining/greater" }
+    },
+    "result": {
+        "item": "torchmaster:feral_flare_lantern"
+    }
+}

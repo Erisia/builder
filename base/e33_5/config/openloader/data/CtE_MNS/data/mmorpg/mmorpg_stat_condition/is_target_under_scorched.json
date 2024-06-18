@@ -1,0 +1,6 @@
+{
+  "effect": "elemental_weakness",
+  "id": "is_target_under_scorched",
+  "ser": "is_under_exile_effect",
+  "side": "Target"
+}

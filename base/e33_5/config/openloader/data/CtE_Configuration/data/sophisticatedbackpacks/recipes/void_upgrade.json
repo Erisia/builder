@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:ender_eye"
+    },
+    "B": {
+      "item": "waystones:warp_dust"
+    },
+    "C": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    },
+    "D": {
+      "tag": "forge:dusts/redstone"
+	},
+    "E": {
+      "item": "mmorpg:stone/1"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:void_upgrade"
+  }
+}

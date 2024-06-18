@@ -1,0 +1,7 @@
+{
+  "id": "spell_has_tag_steam_cloud",
+  "ser": "spell_has_tag",
+  "tag": {
+    "id": "steam_cloud"
+  }
+}

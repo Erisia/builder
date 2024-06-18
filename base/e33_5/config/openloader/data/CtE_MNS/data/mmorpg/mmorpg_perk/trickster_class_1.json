@@ -1,0 +1,33 @@
+{
+  "type": "MAJOR",
+  "icon": "mmorpg:textures/gui/talent_icons/asc/trickster/1.png",
+  "id": "trickster_class_1",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": true,
+      "stat": "health_on_hit_hit",
+      "v1": 2.0
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": true,
+      "stat": "magic_shield_on_hit_hit",
+      "v1": 2.0
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": true,
+      "stat": "mana_on_hit_hit",
+      "v1": 2.0
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": true,
+      "stat": "energy_on_hit_hit",
+      "v1": 2.0
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "base": {
+    "max": 1.125,
+    "min": 0.25
+  },
+  "base_scaling_type": "NORMAL",
+  "cap_to_wep_dmg": 2.0,
+  "dmg_effectiveness": {
+    "multi": {
+      "max": 0.1,
+      "min": 0.05
+    },
+    "stat": "health"
+  },
+  "id": "inner_calm",
+  "stat_scalings": [
+    {
+      "multi": {
+        "max": 0.1,
+        "min": 0.05
+      },
+      "stat": "weapon_damage"
+    },
+    {
+      "multi": {
+        "max": 0.05,
+        "min": 0.03
+      },
+      "stat": "energy"
+    }
+  ]
+}

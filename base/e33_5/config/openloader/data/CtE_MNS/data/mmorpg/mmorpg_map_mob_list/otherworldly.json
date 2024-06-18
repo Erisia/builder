@@ -1,0 +1,267 @@
+{
+  "id": "otherworldly",
+  "mobs": [
+    {
+      "type": "minecraft:blaze",
+      "canBeBoss": true,
+      "tags": {
+        "tags": [
+          "ranged",
+          "fire"
+        ]
+      },
+      "weight": 25
+    },
+    {
+      "type": "minecraft:zombie",
+      "canBeBoss": false,
+      "tags": {
+        "tags": [
+          "undead"
+        ]
+      },
+      "weight": 750
+    },
+    {
+      "type": "minecraft:skeleton",
+      "canBeBoss": false,
+      "tags": {
+        "tags": [
+          "ranged",
+          "undead"
+        ]
+      },
+      "weight": 350
+    },
+    {
+      "type": "minecraft:endermite",
+      "canBeBoss": false,
+      "tags": {
+        "tags": []
+      },
+      "weight": 50
+    },
+    {
+      "type": "minecraft:cave_spider",
+      "canBeBoss": false,
+      "tags": {
+        "tags": [
+          "spider"
+        ]
+      },
+      "weight": 125
+    },
+    {
+      "type": "minecraft:spider",
+      "canBeBoss": false,
+      "tags": {
+        "tags": [
+          "spider"
+        ]
+      },
+      "weight": 250
+    },
+    {
+      "type": "minecraft:pillager",
+      "canBeBoss": false,
+      "tags": {
+        "tags": [
+          "ranged"
+        ]
+      },
+      "weight": 250
+    },
+    {
+      "type": "minecraft:witch",
+      "canBeBoss": false,
+      "tags": {
+        "tags": [
+          "ranged"
+        ]
+      },
+      "weight": 100
+    },
+    {
+      "type": "minecraft:vindicator",
+      "canBeBoss": true,
+      "tags": {
+        "tags": []
+      },
+      "weight": 125
+    },
+    {
+      "type": "minecraft:slime",
+      "canBeBoss": false,
+      "tags": {
+        "tags": []
+      },
+      "weight": 5
+    },
+    {
+      "type": "minecraft:evoker",
+      "canBeBoss": true,
+      "tags": {
+        "tags": []
+      },
+      "weight": 25
+    },
+    {
+      "type": "minecraft:husk",
+      "canBeBoss": false,
+      "tags": {
+        "tags": [
+          "undead"
+        ]
+      },
+      "weight": 500
+    },
+    {
+      "type": "minecraft:stray",
+      "canBeBoss": false,
+      "tags": {
+        "tags": [
+          "ranged",
+          "undead"
+        ]
+      },
+      "weight": 250
+    },
+    {
+      "type": "mutantmonsters:mutant_skeleton",
+      "canBeBoss": true,
+      "tags": {
+        "tags": [
+          "ranged",
+          "undead"
+        ]
+      },
+      "weight": 25
+    },
+    {
+      "type": "mutantmonsters:mutant_zombie",
+      "canBeBoss": true,
+      "tags": {
+        "tags": [
+          "undead"
+        ]
+      },
+      "weight": 25
+    },
+    {
+      "type": "undergarden:forgotten",
+      "canBeBoss": false,
+      "tags": {
+        "tags": [
+          "undead"
+        ]
+      },
+      "weight": 500
+    },
+    {
+      "type": "undergarden:rotbeast",
+      "canBeBoss": false,
+      "tags": {
+        "tags": []
+      },
+      "weight": 125
+    },
+    {
+      "type": "undergarden:rotwalker",
+      "canBeBoss": false,
+      "tags": {
+        "tags": []
+      },
+      "weight": 125
+    },
+    {
+      "type": "riskofrain_mobs:lemurian_entity",
+      "canBeBoss": false,
+      "tags": {
+        "tags": []
+      },
+      "weight": 125
+    },
+    {
+      "type": "realmrpg_wyrms:ender_wyrm",
+      "canBeBoss": false,
+      "tags": {
+        "tags": [
+          "ranged"
+        ]
+      },
+      "weight": 125
+    },
+    {
+      "type": "deeperdarker:shriek_worm",
+      "canBeBoss": false,
+      "tags": {
+        "tags": []
+      },
+      "weight": 100
+    },
+    {
+      "type": "deeperdarker:stalker",
+      "canBeBoss": true,
+      "tags": {
+        "tags": []
+      },
+      "weight": 25
+    },
+    {
+      "type": "deeperdarker:shattered",
+      "canBeBoss": false,
+      "tags": {
+        "tags": [
+          "undead"
+        ]
+      },
+      "weight": 350
+    },
+    {
+      "type": "minecraft:endermite",
+      "canBeBoss": false,
+      "tags": {
+        "tags": []
+      },
+      "weight": 125
+    },
+    {
+      "type": "monsterplus:glow_skeleton",
+      "canBeBoss": false,
+      "tags": {
+        "tags": [
+		  "ranged",
+          "undead"
+        ]
+      },
+      "weight": 350
+    },
+    {
+      "type": "monsterplus:crystal_zombie",
+      "canBeBoss": false,
+      "tags": {
+        "tags": [
+		  "ranged",
+          "undead"
+        ]
+      },
+      "weight": 250
+    },
+    {
+      "type": "monsterplus:abyssologer",
+      "canBeBoss": true,
+      "tags": {
+        "tags": [
+		  "ranged"
+		]
+      },
+      "weight": 25
+    }
+  ],
+  "possible_dungeon_tags": {
+    "tags": [
+      "otherworldly"
+    ]
+  },
+  "weight": 1000
+}

@@ -1,0 +1,25 @@
+{
+  "type": "watcher_eye",
+  "eye_aura_req": "lightning_damage",
+  "guid": "lightning_damage_ms_eye",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [],
+        "req_type": "INCLUDES_ANY"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 2.0,
+      "min": 1.0,
+      "stat": "lightning_magic_shield_leech"
+    }
+  ],
+  "weight": 500
+}

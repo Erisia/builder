@@ -1,0 +1,25 @@
+{
+  "base": {
+    "max": 4.0,
+    "min": 0.5
+  },
+  "base_scaling_type": "NORMAL",
+  "cap_to_wep_dmg": 1000.0,
+  "dmg_effectiveness": {
+    "multi": {
+      "max": 0.85,
+      "min": 0.45
+    },
+    "stat": "health"
+  },
+  "id": "poisonball",
+  "stat_scalings": [
+    {
+      "multi": {
+        "max": 0.85,
+        "min": 0.45
+      },
+      "stat": "weapon_damage"
+    }
+  ]
+}

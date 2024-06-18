@@ -1,0 +1,50 @@
+{
+  "base_gear": "dagger",
+  "guid": "the_jade_tan_do",
+  "flavor_text": "",
+  "force_item_id": "cte2modpackarmors:venom_tears_dagger",
+  "league": "",
+  "min_tier": 20,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 65.0,
+      "min": 55.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 15.0,
+      "min": 10.0,
+      "stat": "accuracy"
+    },
+    {
+      "type": "FLAT",
+      "max": 50.0,
+      "min": 30.0,
+      "stat": "poison_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 25.0,
+      "min": 15.0,
+      "stat": "poison_chance"
+    },
+    {
+      "type": "FLAT",
+      "max": 75.0,
+      "min": 50.0,
+      "stat": "chaos_resist"
+    },
+    {
+      "type": "FLAT",
+      "max": 5.0,
+      "min": 5.0,
+      "stat": "max_chaos_resist"
+    }
+  ],
+  "weight": 1000
+}

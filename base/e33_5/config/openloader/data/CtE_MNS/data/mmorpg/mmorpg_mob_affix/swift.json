@@ -1,0 +1,15 @@
+{
+  "type": "prefix",
+  "format": "AQUA",
+  "icon": "",
+  "id": "swift",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 50.0,
+      "min": 50.0,
+      "stat": "move_speed"
+    }
+  ],
+  "weight": 1000
+}

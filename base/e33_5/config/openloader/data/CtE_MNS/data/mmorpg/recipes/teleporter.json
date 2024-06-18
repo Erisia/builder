@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " E ",
+    "CAC",
+    " B "
+  ],
+  "key": {
+	"A": {
+      "item": "mmorpg:stone/3"
+    }, 
+	"B": {
+      "item": "minecraft:obsidian"
+    }, 
+	"C": {
+      "item": "minecraft:diamond"
+    },
+	"E": {
+      "item": "minecraft:dragon_head"
+    }
+  },
+  "result": {
+    "item": "mmorpg:teleporter"
+  }
+}

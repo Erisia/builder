@@ -1,0 +1,21 @@
+{
+  "type": "MAJOR",
+  "icon": "mmorpg:textures/gui/talent_icons/asc/arcanist/0.png",
+  "id": "arcanist_class_0",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "PERCENT",
+      "scale_to_lvl": false,
+      "stat": "mana",
+      "v1": 20.0
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "mana_per_sec",
+      "v1": 3.0
+    }
+  ]
+}

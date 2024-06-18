@@ -1,0 +1,30 @@
+{
+  "exp": 200,
+  "id": "food_greater_magic3",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "mmorpg:material/meat/3",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "minecraft:cocoa_beans",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:rare_mats/husbandry/greater",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "lightmanscurrency:coin_gold",
+      "num": 1    }
+  ],
+  "power": "greater",
+  "profession": "cooking",
+  "result": "mmorpg:food/greater_magic",
+  "result_num": 1,
+  "tier": 3
+}

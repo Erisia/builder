@@ -1,0 +1,4 @@
+# How long it takes to get a timeout in ticks (20 ticks is 1 second).
+# Allowed range: 20 ~ 50000 - Default: 3600
+loginTimeout = 3600
+

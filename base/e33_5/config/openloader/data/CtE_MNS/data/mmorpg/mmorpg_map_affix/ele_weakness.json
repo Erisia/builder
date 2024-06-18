@@ -1,0 +1,16 @@
+{
+  "affected": "Players",
+  "id": "ele_weakness",
+  "map_resist": "Physical",
+  "map_resist_bonus_needed": 0,
+  "req": "",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": -45.0,
+      "min": -15.0,
+      "stat": "elemental_resist"
+    }
+  ],
+  "weight": 1000
+}

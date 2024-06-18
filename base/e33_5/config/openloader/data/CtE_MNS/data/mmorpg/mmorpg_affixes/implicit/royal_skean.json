@@ -1,0 +1,26 @@
+{
+  "type": "implicit",
+  "guid": "royal_skean",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [
+          "dagger"
+        ],
+        "req_type": "HAS_ALL"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "PERCENT",
+      "max": 50.0,
+      "min": 30.0,
+      "stat": "critical_hit"
+    }
+  ],
+  "weight": 1000
+}

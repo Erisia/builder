@@ -1,0 +1,15 @@
+{
+  "type": "suffix",
+  "format": "BLUE",
+  "icon": "",
+  "id": "of_elemental_resistance",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 40.0,
+      "min": 40.0,
+      "stat": "elemental_resist"
+    }
+  ],
+  "weight": 1000
+}

@@ -1,0 +1,25 @@
+{
+  "base": {
+    "max": 8.0,
+    "min": 8.0
+  },
+  "base_scaling_type": "NORMAL",
+  "cap_to_wep_dmg": 1000.0,
+  "dmg_effectiveness": {
+    "multi": {
+      "max": 4.0,
+      "min": 4.0
+    },
+    "stat": "health"
+  },
+  "id": "profane_explosion",
+  "stat_scalings": [
+    {
+      "multi": {
+        "max": 4.0,
+        "min": 4.0
+      },
+      "stat": "weapon_damage"
+    }
+  ]
+}

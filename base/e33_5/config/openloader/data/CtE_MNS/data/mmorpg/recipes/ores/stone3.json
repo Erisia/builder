@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {  
+	"A": {
+      "item": "mmorpg:stone/2"
+    }   
+  },
+  "result": {
+    "item": "mmorpg:stone/3"
+  }
+}

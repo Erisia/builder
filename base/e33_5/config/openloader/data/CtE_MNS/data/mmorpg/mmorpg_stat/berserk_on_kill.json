@@ -1,0 +1,34 @@
+{
+  "base": 0.0,
+  "effect": [
+    {
+    "effects": [
+      "give_berserk_to_source"
+    ],
+    "events": [
+      "on_mob_kill"
+    ],
+    "ifs": [],
+    "order": "after_damage_bonuses",
+    "side": "Source"
+    }
+  ],
+  "ele": "NONE",
+  "format": "aqua",
+  "group": "MISC",
+  "gui_group": "NONE",
+  "has_softcap": false,
+  "icon": "★",
+  "id": "berserk_on_kill",
+  "is_long": true,
+  "is_perc": false,
+  "max": 1.0,
+  "min": 0.0,
+  "minus_is_good": false,
+  "multiUseType": "MULTIPLY_STAT",
+  "order": 100,
+  "scaling": "NONE",
+  "ser": "data",
+  "show_in_gui": true,
+  "softcap": 0.0
+}

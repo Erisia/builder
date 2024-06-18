@@ -1,0 +1,31 @@
+{
+  "id": "yun",
+  "item_id": "mmorpg:runes/yun",
+  "min_lvl_multi": 0.6,
+  "on_armor_stats": [
+    {
+      "type": "FLAT",
+      "max": 8.0,
+      "min": 8.0,
+      "stat": "aura_effect"
+    }
+  ],
+  "on_jewelry_stats": [
+    {
+      "type": "FLAT",
+      "max": 8.0,
+      "min": 8.0,
+      "stat": "aura_effect"
+    }
+  ],
+  "on_weapons_stats": [
+    {
+      "type": "FLAT",
+      "max": 8.0,
+      "min": 8.0,
+      "stat": "aura_effect"
+    }
+  ],
+  "tier": 4,
+  "weight": 50
+}

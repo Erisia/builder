@@ -1,0 +1,21 @@
+{
+  "type": "SPECIAL",
+  "icon": "mmorpg:textures/gui/stat_icons/main/health_regen.png",
+  "id": "hp_regen_energy_regen_big",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "PERCENT",
+      "scale_to_lvl": false,
+      "stat": "health_regen",
+      "v1": 10.0
+    },
+    {
+      "type": "PERCENT",
+      "scale_to_lvl": false,
+      "stat": "energy_regen",
+      "v1": 8.0
+    }
+  ]
+}

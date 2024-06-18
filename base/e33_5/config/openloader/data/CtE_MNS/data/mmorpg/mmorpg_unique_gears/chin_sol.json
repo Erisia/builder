@@ -1,0 +1,50 @@
+{
+  "base_gear": "bow",
+  "guid": "chin_sol",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "",
+  "min_tier": 40,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 70.0,
+      "min": 60.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 15.0,
+      "stat": "draw_speed"
+    },
+    {
+      "type": "FLAT",
+      "max": 25.0,
+      "min": 15.0,
+      "stat": "critical_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 5.0,
+      "min": 3.0,
+      "stat": "dexterity"
+    },
+    {
+      "type": "FLAT",
+      "max": 25.0,
+      "min": 25.0,
+      "stat": "phys_to_fire"
+    },
+    {
+      "type": "FLAT",
+      "max": -50.0,
+      "min": -50.0,
+      "stat": "faster_projectiles"
+    }
+  ],
+  "weight": 1000
+}

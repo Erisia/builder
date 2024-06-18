@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "item": "mmorpg:stone/2"
+    },
+    "B": {
+      "item": "create:brass_hand"
+    },
+    "C": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    },
+    "D": {
+      "tag": "forge:dusts/redstone"
+	},
+    "E": {
+      "item": "minecraft:crafting_table"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:crafting_upgrade"
+  }
+}

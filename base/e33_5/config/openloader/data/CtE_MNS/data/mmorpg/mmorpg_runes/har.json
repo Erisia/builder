@@ -1,0 +1,31 @@
+{
+  "id": "har",
+  "item_id": "mmorpg:runes/har",
+  "min_lvl_multi": 0.3,
+  "on_armor_stats": [
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 10.0,
+      "stat": "increase_healing"
+    }
+  ],
+  "on_jewelry_stats": [
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 10.0,
+      "stat": "increase_healing"
+    }
+  ],
+  "on_weapons_stats": [
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 10.0,
+      "stat": "increase_healing"
+    }
+  ],
+  "tier": 2,
+  "weight": 700
+}

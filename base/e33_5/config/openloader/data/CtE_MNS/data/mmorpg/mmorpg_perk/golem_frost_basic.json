@@ -1,0 +1,15 @@
+{
+  "type": "STAT",
+  "icon": "mmorpg:textures/gui/spells/icons/golem_frost_basic.png",
+  "id": "golem_frost_basic",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "learn_golem_frost_basic",
+      "v1": 1.0
+    }
+  ]
+}

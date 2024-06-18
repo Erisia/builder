@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "B": {
+      "item": "multipiston:multipistonblock"
+    },
+    "C": {
+      "item": "sophisticatedstorage:stack_upgrade_tier_3"
+    },
+    "D": {
+      "item": "create:electron_tube"
+    },
+    "E": {
+      "item": "mmorpg:stone/4"
+    }
+  },
+  "result": {
+    "item": "sophisticatedstorage:stack_upgrade_tier_4"
+  }
+}

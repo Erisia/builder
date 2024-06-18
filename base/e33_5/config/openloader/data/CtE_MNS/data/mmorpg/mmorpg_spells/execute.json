@@ -1,0 +1,246 @@
+{
+  "attached": {
+    "entity_components": {},
+    "on_cast": [
+      {
+        "acts": [
+          {
+            "type": "sound",
+            "map": {
+              "pitch": 1.0,
+              "sound": "minecraft:entity.wither.death",
+              "volume": 1.0
+            }
+          }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+          {
+            "type": "sword_sweep_particles",
+            "map": {}
+          }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+		  {
+			"type": "particles_in_radius",
+			"map": {
+			  "height": 1.0,
+			  "motion": "None",
+			  "particle_count": 50.0,
+			  "particle_type": "minecraft:crit",
+			  "radius": 2.0,
+			  "shape": "CIRCLE_2D_EDGE",
+			  "y_rand": 0.1
+			}
+		  }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+		  {
+			"type": "particles_in_radius",
+			"map": {
+			  "height": 1.0,
+			  "motion": "None",
+			  "particle_count": 20.0,
+			  "particle_type": "minecraft:soul",
+			  "radius": 2.0,
+			  "shape": "CIRCLE_2D_EDGE",
+			  "y_rand": 0.1
+			}
+		  }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+		  {
+			"type": "particles_in_radius",
+			"map": {
+			  "height": 1.0,
+			  "motion": "None",
+			  "particle_count": 45.0,
+			  "particle_type": "minecraft:smoke",
+			  "radius": 2.0,
+			  "shape": "CIRCLE_2D_EDGE",
+			  "y_rand": 0.1
+			}
+		  }
+        ],
+        "en_preds": [
+            {
+              "type": "caster_has_potion",
+              "map": {
+                "potion_id": "minecraft:invisibility"
+              }
+            }
+          ],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+          {
+            "type": "damage",
+            "map": {
+              "element": "Physical",
+              "value_calculation": "execute"
+            }
+          }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "per_entity_hit": [],
+        "targets": [
+          {
+            "type": "in_front",
+            "map": {
+              "distance": 2.0,
+              "en_predicate": "enemies",
+              "width": 3.0
+            }
+          }
+        ]
+      },
+      {
+        "acts": [
+          {
+            "type": "damage",
+            "map": {
+              "element": "Physical",
+              "value_calculation": "execute"
+            }
+          }
+        ],
+        "en_preds": [
+            {
+              "type": "caster_has_potion",
+              "map": {
+                "potion_id": "minecraft:invisibility"
+              }
+            }
+          ],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "per_entity_hit": [],
+        "targets": [
+          {
+            "type": "in_front",
+            "map": {
+              "distance": 2.0,
+              "en_predicate": "enemies",
+              "width": 3.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "config": {
+    "aggro_radius": 10,
+    "cast_time_ticks": 20,
+    "castingWeapon": "MELEE_WEAPON",
+    "charge_name": "",
+    "charge_regen": 0,
+    "charges": 0,
+    "cooldown_ticks": 160,
+    "ene_cost": {
+      "max": 16.0,
+      "min": 13.0
+    },
+    "imbues": 0,
+    "mana_cost": {
+      "max": 0.0,
+      "min": 0.0
+    },
+    "style": "dex",
+    "summonType": "NONE",
+    "summon_basic_atk": "pet_basic",
+    "swing_arm": true,
+    "tags": {
+      "tags": [
+      "area",
+      "damage",
+      "weapon_skill",
+	  "melee",
+	  "physical"
+      ]
+    },
+    "times_to_cast": 1,
+    "tracking_radius": 5,
+    "tracks": "enemies"
+  },
+  "default_lvl": 0,
+  "disabled_dims": [],
+  "effect_tip": "",
+  "identifier": "execute",
+  "loc_name": "Execute",
+  "lvl_based_on_spell": "",
+  "manual_tip": true,
+  "max_lvl": 16,
+  "min_lvl": 20,
+  "show_other_spell_tooltip": "",
+  "statsForSkillGem": [
+    {
+      "type": "FLAT",
+      "max": 5.0,
+      "min": 5.0,
+      "stat": "critical_hit"
+    },
+    {
+      "type": "PERCENT",
+      "max": 80.0,
+      "min": 5.0,
+      "stat": "critical_hit"
+    }
+  ],
+  "weight": 1000
+}

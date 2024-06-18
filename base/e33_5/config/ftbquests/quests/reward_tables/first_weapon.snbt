@@ -1,0 +1,101 @@
+{
+	icon: {
+		Count: 1
+		id: "minecraft:iron_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "05A0CE57058D6FB0"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":48},\"imp\":{\"p\":22,\"imp\":\"dusk_blade\"},\"affixes\":{\"suf\":[{\"p\":10,\"id\":\"of_pene\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":10,\"id\":\"wep_item_flat\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":51,\"id\":\"warlords\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"data\":{\"map\":{}},\"rar\":\"rare\",\"lvl\":3,\"gtype\":\"sword\",\"pot\":\"rare\",\"pn\":100}"
+				}
+			}
+			title: "Sword"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:weapon/staff/iron"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":46},\"imp\":{\"p\":80,\"imp\":\"cursed_staff\"},\"affixes\":{\"suf\":[{\"p\":37,\"id\":\"of_spell_dmg\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":17,\"id\":\"wep_item_perc\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":55,\"id\":\"focused\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"data\":{\"map\":{}},\"rar\":\"rare\",\"lvl\":3,\"gtype\":\"staff\",\"pot\":\"rare\",\"pn\":100}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:bow"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":47},\"imp\":{\"p\":68,\"imp\":\"imperial_bow\"},\"affixes\":{\"suf\":[{\"p\":28,\"id\":\"of_vampirism\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":47,\"id\":\"wep_item_both\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":38,\"id\":\"wep_item_flat\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"data\":{\"map\":{}},\"rar\":\"rare\",\"lvl\":3,\"gtype\":\"bow\",\"pot\":\"rare\",\"pn\":100}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "stalwart_dungeons:iron_hammer"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":49},\"imp\":{\"p\":84,\"imp\":\"cleric_staff\"},\"affixes\":{\"suf\":[{\"p\":48,\"id\":\"of_ease\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":16,\"id\":\"precise\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":36,\"id\":\"heal_crit_dmg_prefix\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"data\":{\"map\":{}},\"rar\":\"rare\",\"lvl\":3,\"gtype\":\"hammer\",\"pot\":\"rare\",\"pn\":100}"
+				}
+			}
+			title: "Hammer"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_axe"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":41},\"imp\":{\"p\":54,\"imp\":\"broad_axe\"},\"affixes\":{\"suf\":[{\"p\":52,\"id\":\"of_brutality\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":16,\"id\":\"physical_wep_dmg\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":33,\"id\":\"wep_item_perc\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"data\":{\"map\":{}},\"rar\":\"rare\",\"lvl\":3,\"gtype\":\"axe\",\"pot\":\"rare\",\"pn\":100}"
+				}
+			}
+			title: "Axe"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:trident"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":53},\"imp\":{\"p\":6,\"imp\":\"war_spear\"},\"affixes\":{\"suf\":[{\"p\":30,\"id\":\"of_pene\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":14,\"id\":\"true_hit\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":11,\"id\":\"wep_item_flat\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"data\":{\"map\":{}},\"rar\":\"rare\",\"lvl\":3,\"gtype\":\"spear\",\"pot\":\"rare\",\"pn\":100}"
+				}
+			}
+			title: "Spear (2-Handed)"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:crossbow"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":55},\"imp\":{\"p\":85,\"imp\":\"bone_crossbow\"},\"affixes\":{\"suf\":[{\"p\":49,\"id\":\"of_brutality\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":31,\"id\":\"true_hit\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":47,\"id\":\"precise\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"data\":{\"map\":{}},\"rar\":\"rare\",\"lvl\":3,\"gtype\":\"crossbow\",\"pot\":\"rare\",\"pn\":100}"
+				}
+			}
+			title: "Crossbow"
+		}
+		{
+			item: {
+				Count: 1
+				id: "farmersdelight:iron_knife"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":43},\"imp\":{\"p\":83,\"imp\":\"imp_dagger\"},\"affixes\":{\"suf\":[{\"p\":10,\"id\":\"of_less_cd\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":12,\"id\":\"crit_prefix\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":45,\"id\":\"fire_wep_dmg\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"data\":{\"map\":{}},\"rar\":\"rare\",\"lvl\":3,\"gtype\":\"dagger\",\"pot\":\"rare\",\"pn\":100}"
+				}
+			}
+			title: "Dagger"
+		}
+	]
+	title: "First Weapon"
+}

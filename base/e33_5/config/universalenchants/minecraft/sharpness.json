@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:weapon",
+    "mutantmonsters:endersoul_hand",
+    "blue_skies:spike_shield",
+    "blue_skies:crushing_hammer",
+    "farmersdelight:skillet",
+    "farmersdelight:flint_knife",
+    "farmersdelight:iron_knife",
+    "farmersdelight:diamond_knife",
+    "farmersdelight:netherite_knife",
+    "farmersdelight:golden_knife",
+    "cuisinedelight:cuisine_skillet",
+    "aquaculture:wooden_fillet_knife",
+    "aquaculture:stone_fillet_knife",
+    "aquaculture:iron_fillet_knife",
+    "aquaculture:gold_fillet_knife",
+    "aquaculture:diamond_fillet_knife",
+    "aquaculture:neptunium_fillet_knife",
+    "$minecraft:universal_enchants_axe",
+    "$minecraft:trident"
+  ],
+  "incompatible": []
+}

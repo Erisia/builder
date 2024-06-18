@@ -1,0 +1,21 @@
+#Chance the player's boots will be damaged by an air hop.
+#Range: 0.0 ~ 1.0
+boots_damage_chance = 0.15
+#Spawn a small particle cloud at the players feet on every air hop.
+spawn_particle_cloud = true
+#Prevent air hop enchantment from working when the player has 6 or less food points.
+disable_on_hungry = true
+#Take normal fall damage when hitting the ground after air hopping.
+normal_fall_damage = false
+#Air hopping can only be used while falling to prevent gaining too much height.
+only_when_falling = false
+#Play a funny sound effect whenever the player hops in mid-air.
+play_hopping_sound = true
+
+[enchantment]
+	#Maximum level for this enchantment. Each level provides one additional air hop.
+	#Range: > 1
+	max_enchantment_level = 3
+	#Makes the enchantment unobtainable from enchanting tables. It is only available on items from loot chests, fishing and villager trading.
+	treasure_enchantment = true
+

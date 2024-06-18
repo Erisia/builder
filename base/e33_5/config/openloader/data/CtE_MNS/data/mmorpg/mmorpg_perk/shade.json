@@ -1,0 +1,21 @@
+{
+  "type": "MAJOR",
+  "icon": "mmorpg:textures/gui/stat_icons/game_changers/shade.png",
+  "id": "shade",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "dot_lifesteal",
+      "v1": 10.0
+    },
+    {
+      "type": "MORE",
+      "scale_to_lvl": false,
+      "stat": "dot_dmg",
+      "v1": -20.0
+    }
+  ]
+}

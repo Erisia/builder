@@ -1,0 +1,22 @@
+{
+  "id": "accuracy",
+  "manaMulti": 1.1,
+  "min_lvl": 1,
+  "one_of_a_kind": "",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 30.0,
+      "min": 10.0,
+      "stat": "accuracy"
+    },
+    {
+      "type": "MORE",
+      "max": 21.0,
+      "min": 7.0,
+      "stat": "accuracy"
+    }
+  ],
+  "style": "DEX",
+  "weight": 1000
+}

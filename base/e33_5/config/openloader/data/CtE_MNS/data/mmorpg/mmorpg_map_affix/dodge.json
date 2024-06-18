@@ -1,0 +1,16 @@
+{
+  "affected": "Mobs",
+  "id": "dodge",
+  "map_resist": "Physical",
+  "map_resist_bonus_needed": 0,
+  "req": "",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 75.0,
+      "min": 25.0,
+      "stat": "dodge"
+    }
+  ],
+  "weight": 1000
+}

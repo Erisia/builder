@@ -1,0 +1,29 @@
+{
+  "structures": [
+    {
+      "structure": "structory_towers:nether/strange_outpost",
+      "weight": 5
+    },
+    {
+      "structure": "structory_towers:nether/warped_outpost",
+      "weight": 6
+    },
+    {
+      "structure": "structory_towers:nether/fortress_tower",
+      "weight": 3
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 69420696,
+    "frequency_reduction_method": "default",
+    "frequency": 0.9,
+    "exclusion_zone": {
+      "other_set": "minecraft:nether_complexes",
+      "chunk_count": 6
+    },
+    "spread_type": "triangular",
+    "spacing": 33,
+    "separation": 8
+  }
+}

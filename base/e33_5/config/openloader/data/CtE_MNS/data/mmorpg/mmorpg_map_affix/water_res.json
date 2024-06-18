@@ -1,0 +1,16 @@
+{
+  "affected": "Mobs",
+  "id": "water_res",
+  "map_resist": "Physical",
+  "map_resist_bonus_needed": 0,
+  "req": "",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 90.0,
+      "min": 30.0,
+      "stat": "water_resist"
+    }
+  ],
+  "weight": 1000
+}

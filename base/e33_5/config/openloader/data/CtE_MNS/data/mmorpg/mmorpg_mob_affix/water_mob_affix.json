@@ -1,0 +1,21 @@
+{
+  "type": "suffix",
+  "format": "AQUA",
+  "icon": "",
+  "id": "water_mob_affix",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 50.0,
+      "min": 50.0,
+      "stat": "phys_to_water"
+    },
+    {
+      "type": "FLAT",
+      "max": 25.0,
+      "min": 25.0,
+      "stat": "plus_phys_to_water"
+    }
+  ],
+  "weight": 1000
+}

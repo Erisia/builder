@@ -1,0 +1,40 @@
+{
+  "exp": 300,
+  "id": "enchantment_family_offhand_mythic0",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "mmorpg:material/mining/0",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:stone/5",
+      "num": 4
+    },
+    {
+      "type": "ITEM",
+      "id": "minecraft:paper",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "minecraft:iron_ingot",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "minecraft:string",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "lightmanscurrency:coin_emerald",
+      "num": 1    }
+  ],
+  "power": "greater",
+  "profession": "enchanting",
+  "result": "mmorpg:enchantment/family/offhand/mythic",
+  "result_num": 3,
+  "tier": 0
+}

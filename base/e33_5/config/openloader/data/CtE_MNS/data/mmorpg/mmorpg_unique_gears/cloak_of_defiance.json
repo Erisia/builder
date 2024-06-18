@@ -1,0 +1,38 @@
+{
+  "base_gear": "cloth_chest",
+  "guid": "cloak_of_defiance",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "",
+  "min_tier": 40,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 60.0,
+      "min": 50.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "FLAT",
+      "max": 15.0,
+      "min": 10.0,
+      "stat": "mana"
+    },
+    {
+      "type": "PERCENT",
+      "max": 20.0,
+      "min": 20.0,
+      "stat": "mana_regen"
+    },
+    {
+      "type": "FLAT",
+      "max": 25.0,
+      "min": 20.0,
+      "stat": "mana_shield"
+    }
+  ],
+  "weight": 1000
+}

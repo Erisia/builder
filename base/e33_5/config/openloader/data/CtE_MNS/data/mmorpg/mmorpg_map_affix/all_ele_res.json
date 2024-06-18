@@ -1,0 +1,16 @@
+{
+  "affected": "Mobs",
+  "id": "all_ele_res",
+  "map_resist": "Physical",
+  "map_resist_bonus_needed": 0,
+  "req": "",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 75.0,
+      "min": 25.0,
+      "stat": "all_resist"
+    }
+  ],
+  "weight": 1000
+}

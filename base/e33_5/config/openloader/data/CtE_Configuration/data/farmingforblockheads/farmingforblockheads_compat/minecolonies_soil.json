@@ -1,0 +1,17 @@
+{
+  "modId": "minecolonies",
+  "silent": true,
+  "group": {
+    "name": "Minecolonies Compost",
+    "enabledByDefault": false,
+    "defaultPayment": {
+      "item": "lightmanscurrency:coin_gold"
+    },
+    "defaultCategory": "farmingforblockheads:other"
+  },
+  "customEntries": [
+    {
+      "output": "minecolonies:composted_dirt"
+    }
+  ]
+}

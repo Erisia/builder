@@ -1,0 +1,32 @@
+{
+  "base_gear": "necklace",
+  "guid": "saracens_chance",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "",
+  "min_tier": 40,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "FLAT",
+      "max": 1.0,
+      "min": 1.0,
+      "stat": "plus_lvl_ranged_spells"
+    },
+    {
+      "type": "FLAT",
+      "max": 25.0,
+      "min": 20.0,
+      "stat": "elemental_resist"
+    },
+    {
+      "type": "FLAT",
+      "max": 5.0,
+      "min": 5.0,
+      "stat": "all_attributes"
+    }
+  ],
+  "weight": 1000
+}

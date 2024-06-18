@@ -1,0 +1,32 @@
+{
+  "type": "beneficial",
+  "id": "ice_golem_buff",
+  "max_stacks": 1,
+  "mc_stats": [],
+  "one_of_a_kind_id": "",
+  "spell_tags": {
+    "tags": []
+  },
+  "stacks_affect_stats": true,
+  "stats": [
+    {
+      "type": "PERCENT",
+      "max": 30.0,
+      "min": 20.0,
+      "stat": "critical_hit"
+    },
+    {
+      "type": "PERCENT",
+      "max": 30.0,
+      "min": 20.0,
+      "stat": "accuracy"
+    }
+  ],
+  "tags": {
+    "tags": [
+      "offensive",
+      "golem",
+      "positive"
+    ]
+  }
+}

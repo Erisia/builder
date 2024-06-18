@@ -1,0 +1,27 @@
+{
+  "type": "MAJOR",
+  "icon": "mmorpg:textures/gui/talent_icons/asc/ascendant/1.png",
+  "id": "ascendant_class_1",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "PERCENT",
+      "scale_to_lvl": false,
+      "stat": "intelligence",
+      "v1": 25.0
+    },
+    {
+      "type": "PERCENT",
+      "scale_to_lvl": false,
+      "stat": "dexterity",
+      "v1": 25.0
+    },
+    {
+      "type": "PERCENT",
+      "scale_to_lvl": false,
+      "stat": "strength",
+      "v1": 25.0
+    }
+  ]
+}

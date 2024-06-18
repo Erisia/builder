@@ -1,0 +1,25 @@
+{
+  "base": {
+    "max": 0.5625,
+    "min": 0.125
+  },
+  "base_scaling_type": "NORMAL",
+  "cap_to_wep_dmg": 1000.0,
+  "dmg_effectiveness": {
+    "multi": {
+      "max": 0.35,
+      "min": 0.275
+    },
+    "stat": "health"
+  },
+  "id": "ensnaring_melody_charmed",
+  "stat_scalings": [
+    {
+      "multi": {
+        "max": 0.35,
+        "min": 0.275
+      },
+      "stat": "weapon_damage"
+    }
+  ]
+}

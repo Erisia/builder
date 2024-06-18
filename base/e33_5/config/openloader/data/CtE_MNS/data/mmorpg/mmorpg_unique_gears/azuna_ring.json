@@ -1,0 +1,26 @@
+{
+  "base_gear": "ring",
+  "guid": "azuna_ring",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "",
+  "min_tier": 60,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "FLAT",
+      "max": 6.0,
+      "min": 4.0,
+      "stat": "magic_find"
+    },
+    {
+      "type": "FLAT",
+      "max": 15.0,
+      "min": 7.5,
+      "stat": "increased_quantity"
+    }
+  ],
+  "weight": 1000
+}

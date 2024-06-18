@@ -1,0 +1,27 @@
+{
+  "type": "prefix",
+  "eye_aura_req": "",
+  "guid": "wep_item_flat_2h",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [
+          "two_handed"
+        ],
+        "req_type": "INCLUDES_ANY"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 2.5,
+      "min": 0.625,
+      "stat": "gear_weapon_damage"
+    }
+  ],
+  "weight": 1000
+}

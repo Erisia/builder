@@ -1,0 +1,35 @@
+{
+  "base_stats": [],
+  "gear_slot": "ring",
+  "guid": "ring",
+  "possible_items": [
+    {
+      "item_id": "mmorpg:jewelry/ring/iron",
+      "min_rar": "common",
+      "weight": 1
+    },
+    {
+      "item_id": "mmorpg:jewelry/ring/gold",
+      "min_rar": "rare",
+      "weight": 10
+    },
+    {
+      "item_id": "mmorpg:jewelry/ring/diamond",
+      "min_rar": "legendary",
+      "weight": 100
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {}
+  },
+  "style": "STR",
+  "tags": {
+    "tags": [
+      "ring",
+      "jewelry_family"
+    ]
+  },
+  "weapon_type": "none",
+  "weight": 1000
+}

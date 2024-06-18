@@ -1,0 +1,24 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "FGF",
+    "GAG",
+    "FGF"
+  ],
+  "key": {
+    "F": {
+      "tag": "minecraft:flowers"
+    },
+	"A": {
+      "item": "minecraft:ender_eye"
+    },
+	"G": {
+      "item": "mmorpg:stone/2"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:emerald_grove"
+}

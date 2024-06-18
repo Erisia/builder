@@ -1,0 +1,16 @@
+{
+  "id": "cast_speed",
+  "manaMulti": 1.2,
+  "min_lvl": 10,
+  "one_of_a_kind": "",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 45.0,
+      "min": 15.0,
+      "stat": "cast_speed"
+    }
+  ],
+  "style": "INT",
+  "weight": 1000
+}

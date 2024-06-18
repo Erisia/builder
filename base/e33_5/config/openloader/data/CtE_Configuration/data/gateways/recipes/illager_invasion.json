@@ -1,0 +1,30 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "M#M",
+    "GAG",
+    "MCM"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_axe"
+    },
+    "G": {
+      "item": "minecraft:crossbow"
+    },
+	"A": {
+      "item": "minecraft:ender_pearl"
+    },
+	"M": {
+      "item": "mmorpg:stone/1"
+    },
+	"C": {
+      "item": "lightmanscurrency:coin_gold"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:illager_invasion"
+}

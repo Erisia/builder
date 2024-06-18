@@ -1,0 +1,11 @@
+{
+  "attribute_id": "",
+  "conversion": -3.0,
+  "enchant_id": "minecraft:projectile_protection",
+  "id": "projectile_protection_compat",
+  "maximum_cap": 50,
+  "minimum_cap": 0,
+  "mns_stat_id": "proj_dmg_received",
+  "mod_type": "FLAT",
+  "scaling": "NONE"
+}

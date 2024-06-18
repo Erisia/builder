@@ -1,0 +1,32 @@
+{
+  "base": {
+    "max": 8.0,
+    "min": 1.0
+  },
+  "base_scaling_type": "NORMAL",
+  "cap_to_wep_dmg": 3.0,
+  "dmg_effectiveness": {
+    "multi": {
+      "max": 2.05,
+      "min": 1.45
+    },
+    "stat": "health"
+  },
+  "id": "gong_strike",
+  "stat_scalings": [
+    {
+      "multi": {
+        "max": 2.05,
+        "min": 1.45
+      },
+      "stat": "weapon_damage"
+    },
+    {
+      "multi": {
+        "max": 0.16,
+        "min": 0.08
+      },
+      "stat": "health"
+    }
+  ]
+}

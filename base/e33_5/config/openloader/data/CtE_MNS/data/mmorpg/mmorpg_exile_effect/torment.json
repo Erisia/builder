@@ -1,0 +1,88 @@
+{
+  "type": "negative",
+  "id": "torment",
+  "max_stacks": 1,
+  "mc_stats": [],
+  "one_of_a_kind_id": "",
+  "spell": {
+    "entity_components": {
+      "default_entity_name": [
+        {
+          "acts": [
+            {
+              "type": "damage",
+              "map": {
+                "dmg_effect_type": "dot",
+                "element": "Elemental",
+                "exile_potion_id": "torment",
+                "value_calculation": "torment"
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 20.0
+              }
+            }
+          ],
+          "targets": [
+            {
+              "type": "target",
+              "map": {}
+            }
+          ]
+        },
+        {
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "motion": "None",
+                "particle_count": 10.0,
+                "particle_type": "minecraft:soul",
+                "radius": 1.0
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 10.0
+              }
+            }
+          ],
+          "targets": []
+        }
+      ]
+    },
+    "on_cast": []
+  },
+  "spell_tags": {
+    "tags": []
+  },
+  "stacks_affect_stats": true,
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 20.0,
+      "stat": "move_speed"
+    },
+    {
+      "type": "FLAT",
+      "max": -10.0,
+      "min": -5.0,
+      "stat": "elemental_resist"
+    }
+  ],
+  "tags": {
+    "tags": [
+    "negative"
+    ]
+  }
+}

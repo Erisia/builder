@@ -1,0 +1,38 @@
+{
+  "base_gear": "plate_chest",
+  "guid": "golemancer",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "",
+  "min_tier": 40,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 65.0,
+      "min": 57.5,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "FLAT",
+      "max": 35.0,
+      "min": 30.0,
+      "stat": "golem_spell_chance"
+    },
+    {
+      "type": "FLAT",
+      "max": 25.0,
+      "min": 20.0,
+      "stat": "summon_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 25.0,
+      "min": 25.0,
+      "stat": "fire_resist"
+    }
+  ],
+  "weight": 1000
+}

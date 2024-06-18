@@ -1,0 +1,16 @@
+{
+  "id": "effect_duration",
+  "manaMulti": 1.15,
+  "min_lvl": 20,
+  "one_of_a_kind": "",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 45.0,
+      "min": 15.0,
+      "stat": "eff_dur_u_cast"
+    }
+  ],
+  "style": "INT",
+  "weight": 1000
+}

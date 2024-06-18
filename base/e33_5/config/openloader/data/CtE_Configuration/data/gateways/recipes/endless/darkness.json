@@ -1,0 +1,27 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "NNN",
+    "#A#",
+    "BBB"
+  ],
+  "key": {
+    "#": {
+      "item": "mmorpg:stone/4"
+    },
+	"A": {
+      "item": "minecraft:ender_eye"
+    },
+	"B": {
+      "item": "deeperdarker:sculk_stone"
+    },
+	"N": {
+      "item": "deeperdarker:echo_log"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:endless/darkness"
+}

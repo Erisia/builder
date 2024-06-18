@@ -1,0 +1,21 @@
+
+[Rendering]
+	#Controls whether the client should render alert icons
+	renderAlertIcon = true
+	#Only render alert icons for mobs within this range
+	#Range: 8 ~ 64
+	renderRange = 24
+	#Adjusts the horizontal placement of alert icons
+	#Range: -10.0 ~ 10.0
+	xOffset = 0.0
+	#Adjusts the vertical placement of alert icons
+	#Range: -10.0 ~ 50.0
+	yOffset = 6.0
+	#Adjust the size of alert icons
+	#Range: 0.0 ~ 100.0
+	alertIconSize = 6.0
+	#Controls whether alert icons should grow in size with mobs
+	scaleWithMobSize = false
+	#Do not render alert icons for these mobs
+	clientMobBlacklist = []
+

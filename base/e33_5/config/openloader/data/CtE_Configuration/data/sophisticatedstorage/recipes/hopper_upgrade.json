@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "item": "create:chute"
+    },
+    "B": {
+      "item": "create:iron_sheet"
+    },
+    "C": {
+      "item": "sophisticatedstorage:upgrade_base"
+    },
+    "D": {
+      "tag": "forge:dusts/redstone"
+	},
+    "E": {
+      "item": "mmorpg:stone/1"
+    }
+  },
+  "result": {
+    "item": "sophisticatedstorage:hopper_upgrade"
+  }
+}

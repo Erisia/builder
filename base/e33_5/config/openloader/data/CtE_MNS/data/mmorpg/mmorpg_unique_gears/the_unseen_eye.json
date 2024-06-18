@@ -1,0 +1,38 @@
+{
+  "base_gear": "necklace",
+  "guid": "the_unseen_eye",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "",
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "spirit_cost"
+    },
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "aura_effect"
+    },
+    {
+      "type": "PERCENT",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "dodge"
+    },
+    {
+      "type": "FLAT",
+      "max": 25.0,
+      "min": 25.0,
+      "stat": "chaos_resist"
+    }
+  ],
+  "weight": 1000
+}

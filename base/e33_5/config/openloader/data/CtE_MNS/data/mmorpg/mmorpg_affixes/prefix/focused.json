@@ -1,0 +1,28 @@
+{
+  "type": "prefix",
+  "eye_aura_req": "",
+  "guid": "focused",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [
+          "necklace",
+          "mage_weapon"
+        ],
+        "req_type": "INCLUDES_ANY"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "PERCENT",
+      "max": 30.0,
+      "min": 10.0,
+      "stat": "critical_hit"
+    }
+  ],
+  "weight": 1000
+}

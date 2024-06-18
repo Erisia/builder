@@ -1,0 +1,36 @@
+{
+  "exp": 120,
+  "id": "potion_resource_11",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "mmorpg:material/meat/1",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:stone/1",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "minecraft:melon",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "farmersdelight:onion",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "lightmanscurrency:coin_copper",
+      "num": 5
+	}
+  ],
+  "power": "greater",
+  "profession": "alchemy",
+  "result": "mmorpg:potion/resource/1",
+  "result_num": 4,
+  "tier": 1
+}

@@ -1,0 +1,32 @@
+{
+  "base": {
+    "max": 1.125,
+    "min": 0.25
+  },
+  "base_scaling_type": "NORMAL",
+  "cap_to_wep_dmg": 1.0,
+  "dmg_effectiveness": {
+    "multi": {
+      "max": 1.5,
+      "min": 1.5
+    },
+    "stat": "health"
+  },
+  "id": "thorn_consume",
+  "stat_scalings": [
+    {
+      "multi": {
+        "max": 1.5,
+        "min": 1.5
+      },
+      "stat": "weapon_damage"
+    },
+    {
+      "multi": {
+        "max": 0.2,
+        "min": 0.2
+      },
+      "stat": "energy"
+    }
+  ]
+}

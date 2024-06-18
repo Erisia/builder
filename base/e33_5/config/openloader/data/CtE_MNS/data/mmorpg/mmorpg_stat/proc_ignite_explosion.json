@@ -1,0 +1,38 @@
+{
+  "base": 0.0,
+  "effect": [
+    {
+      "effects": [
+        "proc_spell_ignite_explosion"
+      ],
+      "events": [
+        "on_mob_kill"
+      ],
+      "ifs": [
+        "random_roll",
+        "is_ignite_explosion_not_on_cd",
+        "spell_has_tag_totem"
+      ],
+      "order": "data_modification",
+      "side": "Source"
+    }
+  ],
+  "ele": "Fire",
+  "format": "aqua",
+  "group": "Misc",
+  "gui_group": "NONE",
+  "has_softcap": false,
+  "icon": "★",
+  "id": "proc_ignite_explosion",
+  "is_long": true,
+  "is_perc": true,
+  "max": 100.0,
+  "min": -1000.0,
+  "minus_is_good": false,
+  "multiUseType": "MULTIPLY_STAT",
+  "order": 100,
+  "scaling": "NONE",
+  "ser": "data",
+  "show_in_gui": true,
+  "softcap": 0.0
+}

@@ -1,0 +1,20 @@
+{
+  "id": "dodge",
+  "min_lvl": 10,
+  "reservation": 0.4,
+  "stats": [
+    {
+      "type": "MORE",
+      "max": 15.0,
+      "min": 3.0,
+      "stat": "dodge"
+    },
+    {
+      "type": "FLAT",
+      "max": 15.0,
+      "min": 3.0,
+      "stat": "dodge"
+    }
+  ],
+  "style": "DEX"
+}

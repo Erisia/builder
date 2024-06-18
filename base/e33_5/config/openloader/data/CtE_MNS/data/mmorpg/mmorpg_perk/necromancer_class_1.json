@@ -1,0 +1,33 @@
+{
+  "type": "MAJOR",
+  "icon": "mmorpg:textures/gui/talent_icons/asc/necromancer/1.png",
+  "id": "necromancer_class_1",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "MORE",
+      "scale_to_lvl": false,
+      "stat": "all_chaos_damage",
+      "v1": 12.0
+    },
+    {
+      "type": "PERCENT",
+      "scale_to_lvl": false,
+      "stat": "block_chance",
+      "v1": 30.0
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": true,
+      "stat": "health_on_is_blocked",
+      "v1": 5.0
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": true,
+      "stat": "magic_shield_on_is_blocked",
+      "v1": 5.0
+    }
+  ]
+}

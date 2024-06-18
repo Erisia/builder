@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:diamond_block"
+    },
+    "B": {
+      "item": "minecraft:piston"
+    },
+    "C": {
+      "item": "multipiston:multipistonblock"
+    },
+    "D": {
+      "item": "sophisticatedstorage:stack_upgrade_tier_2"
+    },
+    "E": {
+      "item": "create:polished_rose_quartz"
+    },
+    "F": {
+      "item": "mmorpg:stone/3"
+    }
+  },
+  "result": {
+    "item": "sophisticatedstorage:stack_upgrade_tier_3"
+  }
+}

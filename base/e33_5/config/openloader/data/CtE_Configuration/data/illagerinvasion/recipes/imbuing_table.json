@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:copper_block"
+    },
+    "E": {
+      "item": "createaddition:modular_accumulator"
+    },
+    "O": {
+      "item": "mmorpg:stone/5"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "S": {
+      "item": "illagerinvasion:primal_essence"
+    }
+  },
+  "pattern": [
+    "#P#",
+    "OSO",
+    "#E#"
+  ],
+  "result": {
+    "item": "illagerinvasion:imbuing_table"
+  },
+  "show_notification": true
+}

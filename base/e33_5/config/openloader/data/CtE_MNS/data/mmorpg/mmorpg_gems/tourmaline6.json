@@ -1,0 +1,34 @@
+{
+  "gem_type": "tourmaline",
+  "identifier": "tourmaline6",
+  "item_id": "mmorpg:gems/tourmaline/6",
+  "min_lvl_multi": 0.6,
+  "on_armor_stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "inc_effect_of_positive_buff_given",
+      "v1": 12.0
+    }
+  ],
+  "on_jewelry_stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "eff_dur_u_cast",
+      "v1": 24.0
+    }
+  ],
+  "on_weapons_stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "inc_effect_of_negative_buff_given",
+      "v1": 12.0
+    }
+  ],
+  "perc_upgrade_chance": 0,
+  "text_format": "LIGHT_PURPLE",
+  "tier": 6,
+  "weight": 1
+}

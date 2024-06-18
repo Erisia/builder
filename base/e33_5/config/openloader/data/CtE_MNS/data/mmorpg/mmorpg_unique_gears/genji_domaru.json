@@ -1,0 +1,50 @@
+{
+  "base_gear": "plate_chest",
+  "guid": "genji_domaru",
+  "flavor_text": "",
+  "force_item_id": "cte2modpackarmors:tempered_samurai_armor_chestplate",
+  "league": "",
+  "min_tier": 80,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 70.0,
+      "min": 60.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "FLAT",
+      "max": 2.0,
+      "min": 2.0,
+      "stat": "plus_lvl_melee_spells"
+    },
+    {
+      "type": "FLAT",
+      "max": 1.0,
+      "min": 1.0,
+      "stat": "learn_slice"
+    },
+    {
+      "type": "FLAT",
+      "max": 25.0,
+      "min": 25.0,
+      "stat": "proc_slice"
+    },
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 12.0,
+      "stat": "health"
+    },
+    {
+      "type": "FLAT",
+      "max": 5.0,
+      "min": 5.0,
+      "stat": "move_speed"
+    }
+  ],
+  "weight": 250
+}

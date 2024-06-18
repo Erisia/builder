@@ -1,0 +1,14 @@
+{
+  "id": "magic_shield_reg",
+  "min_lvl": 1,
+  "reservation": 0.25,
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 2.0,
+      "stat": "magic_shield_regen"
+    }
+  ],
+  "style": "INT"
+}

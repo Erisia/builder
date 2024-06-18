@@ -1,0 +1,30 @@
+{
+  "exp": 25,
+  "id": "currency_mastery_seal44",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "mmorpg:material/mining/4",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "minecraft:paper",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "minecraft:ink_sac",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "lightmanscurrency:coin_gold",
+      "num": 1    }
+  ],
+  "power": "greater",
+  "profession": "gear_crafting",
+  "result": "mmorpg:currency/mastery_seal4",
+  "result_num": 1,
+  "tier": 0
+}

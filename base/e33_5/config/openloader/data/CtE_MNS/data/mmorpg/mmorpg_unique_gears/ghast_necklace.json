@@ -1,0 +1,38 @@
+{
+  "base_gear": "necklace",
+  "guid": "ghast_necklace",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "",
+  "min_tier": 60,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "FLAT",
+      "max": 25.0,
+      "min": 25.0,
+      "stat": "mana_per_10_intelligence"
+    },
+    {
+      "type": "FLAT",
+      "max": 25.0,
+      "min": 20.0,
+      "stat": "spell_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 5.0,
+      "min": 3.0,
+      "stat": "strength"
+    },
+    {
+      "type": "FLAT",
+      "max": 5.0,
+      "min": 3.0,
+      "stat": "dexterity"
+    }
+  ],
+  "weight": 1000
+}

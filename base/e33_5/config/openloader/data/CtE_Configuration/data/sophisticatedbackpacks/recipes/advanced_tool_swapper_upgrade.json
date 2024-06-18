@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GAG",
+    "BCD",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "create:attribute_filter"
+    },
+    "B": {
+      "item": "create:precision_mechanism"
+    },
+    "C": {
+      "item": "sophisticatedbackpacks:tool_swapper_upgrade"
+    },
+    "D": {
+      "item": "create:brass_hand"
+	},
+    "E": {
+      "item": "create:rose_quartz"
+	},
+    "F": {
+      "item": "mmorpg:stone/2"
+	},
+    "G": {
+      "item": "waystones:warp_dust"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+  }
+}

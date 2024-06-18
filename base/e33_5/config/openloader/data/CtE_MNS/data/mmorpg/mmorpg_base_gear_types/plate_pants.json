@@ -1,0 +1,68 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 6.0,
+      "min": 3.0,
+      "stat": "armor"
+    },
+    {
+      "type": "FLAT",
+      "max": 3.2,
+      "min": 1.6,
+      "stat": "health"
+    }
+  ],
+  "gear_slot": "pants",
+  "guid": "plate_pants",
+  "possible_items": [
+    {
+      "item_id": "cte_essentials:plate_0_leggings",
+      "min_rar": "common",
+      "weight": 1
+    },
+    {
+      "item_id": "cte_essentials:plate_1_leggings",
+      "min_rar": "uncommon",
+      "weight": 10
+    },
+    {
+      "item_id": "cte_essentials:plate_2_leggings",
+      "min_rar": "rare",
+      "weight": 100
+    },
+    {
+      "item_id": "cte_essentials:plate_3_leggings",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "cte_essentials:plate_4_leggings",
+      "min_rar": "legendary",
+      "weight": 10000
+    },
+    {
+      "item_id": "cte_essentials:plate_5_leggings",
+      "min_rar": "mythic",
+      "weight": 100000
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "strength": 0.5
+    }
+  },
+  "style": "STR",
+  "tags": {
+    "tags": [
+      "armor_family",
+      "pants",
+      "strength",
+      "armor_stat",
+	  "plate_pants"
+    ]
+  },
+  "weapon_type": "none",
+  "weight": 1000
+}

@@ -1,0 +1,27 @@
+{
+  "type": "MAJOR",
+  "icon": "mmorpg:textures/gui/talent_icons/asc/champion/6.png",
+  "id": "champion_class_6",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "aura_effect",
+      "v1": 25.0
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "spirit_cost",
+      "v1": -10.0
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "move_speed"
+      "v1": 10.0
+    }
+  ]
+}

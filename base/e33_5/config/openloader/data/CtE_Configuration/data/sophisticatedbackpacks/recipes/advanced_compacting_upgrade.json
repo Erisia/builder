@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "create:brass_sheet"
+    },
+    "B": {
+      "item": "mmorpg:stone/2"
+    },
+    "C": {
+      "item": "multipiston:multipistonblock"
+    },
+    "D": {
+      "item": "sophisticatedbackpacks:compacting_upgrade"
+    },
+    "E": {
+      "item": "create:rose_quartz"
+    },
+    "F": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:advanced_compacting_upgrade"
+  }
+}

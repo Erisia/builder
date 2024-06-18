@@ -1,0 +1,11 @@
+{
+  "id": "arcane",
+  "mods": [
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 4.0,
+      "stat": "magic_spell_dmg"
+    }
+  ]
+}

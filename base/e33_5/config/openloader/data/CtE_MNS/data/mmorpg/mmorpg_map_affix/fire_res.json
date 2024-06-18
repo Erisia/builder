@@ -1,0 +1,16 @@
+{
+  "affected": "Mobs",
+  "id": "fire_res",
+  "map_resist": "Physical",
+  "map_resist_bonus_needed": 0,
+  "req": "",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 90.0,
+      "min": 30.0,
+      "stat": "fire_resist"
+    }
+  ],
+  "weight": 1000
+}

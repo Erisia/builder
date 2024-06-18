@@ -1,0 +1,27 @@
+{
+  "type": "MAJOR",
+  "icon": "mmorpg:textures/gui/talent_icons/asc/guardian/3.png",
+  "id": "guardian_class_3",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "MORE",
+      "scale_to_lvl": false,
+      "stat": "attack_damage",
+      "v1": 20.0
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "positive_eff_dur_u_cast",
+      "v1": 50.0
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "threat_generated",
+      "v1": 50.0
+    }
+  ]
+}

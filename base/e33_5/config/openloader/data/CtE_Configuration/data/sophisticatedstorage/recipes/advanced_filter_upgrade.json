@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ECE"
+  ],
+  "key": {
+    "A": {
+      "item": "mmorpg:stone/2"
+    },
+    "B": {
+      "item": "supplementaries:timber_frame"
+    },
+    "C": {
+      "item": "createaddition:gold_wire"
+    },
+    "D": {
+      "item": "sophisticatedstorage:filter_upgrade"
+	},
+    "E": {
+      "item": "create:rose_quartz"
+    }
+  },
+  "result": {
+    "item": "sophisticatedstorage:advanced_filter_upgrade"
+  }
+}

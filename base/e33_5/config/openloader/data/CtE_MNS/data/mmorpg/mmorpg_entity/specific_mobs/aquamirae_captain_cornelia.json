@@ -1,0 +1,28 @@
+{
+  "dmg_multi": 1.5,
+  "exp_multi": 1.5,
+  "hp_multi": 4.0,
+  "identifier": "aquamirae:captain_cornelia",
+  "loot_multi": 1.5,
+  "max_lvl": 40,
+  "min_lvl": 40,
+  "set_health_damage_override": false,
+  "set_rar": "RARE",
+  "stat_multi": 1.5,
+  "stats": {
+    "stats": [
+      {
+        "type": "flat",
+        "max": 50.0,
+        "min": 50.0,
+        "stat": "phys_to_water"
+      },
+      {
+        "type": "flat",
+        "max": 25.0,
+        "min": 25.0,
+        "stat": "critical_hit"
+      }
+	]
+  }
+}

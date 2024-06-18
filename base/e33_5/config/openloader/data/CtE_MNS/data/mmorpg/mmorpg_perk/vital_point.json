@@ -1,0 +1,21 @@
+{
+  "type": "MAJOR",
+  "icon": "mmorpg:textures/gui/stat_icons/game_changers/vital_point.png",
+  "id": "vital_point",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "MORE",
+      "scale_to_lvl": false,
+      "stat": "dmg_when_target_near_full_hp",
+      "v1": 30.0
+    },
+    {
+      "type": "MORE",
+      "scale_to_lvl": false,
+      "stat": "critical_hit",
+      "v1": -50.0
+    }
+  ]
+}

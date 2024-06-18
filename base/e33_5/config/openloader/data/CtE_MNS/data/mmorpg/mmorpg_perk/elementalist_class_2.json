@@ -1,0 +1,33 @@
+{
+  "type": "MAJOR",
+  "icon": "mmorpg:textures/gui/talent_icons/asc/elementalist/2.png",
+  "id": "elementalist_class_2",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "MORE",
+      "scale_to_lvl": false,
+      "stat": "all_lightning_damage",
+      "v1": 10.0
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "phys_to_lightning",
+      "v1": 50.0
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "electrify_chance",
+      "v1": 25.0
+    },
+    {
+      "type": "MORE",
+      "scale_to_lvl": false,
+      "stat": "electrify_damage",
+      "v1": 25.0
+    }
+  ]
+}

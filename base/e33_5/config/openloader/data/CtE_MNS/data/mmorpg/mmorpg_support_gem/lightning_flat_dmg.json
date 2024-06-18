@@ -1,0 +1,16 @@
+{
+  "id": "lightning_flat_dmg",
+  "manaMulti": 1.2,
+  "min_lvl": 5,
+  "one_of_a_kind": "",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 6.0,
+      "min": 2.0,
+      "stat": "flat_lightning_added_damage"
+    }
+  ],
+  "style": "INT",
+  "weight": 1000
+}

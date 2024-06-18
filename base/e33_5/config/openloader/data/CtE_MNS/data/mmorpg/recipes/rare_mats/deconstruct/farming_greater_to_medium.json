@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mmorpg:rare_mats/farming/greater"
+    }
+  ],
+  "result": {
+    "item": "mmorpg:rare_mats/farming/medium",
+    "count": 5
+  }
+}

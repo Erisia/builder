@@ -1,0 +1,27 @@
+{
+  "type": "MAJOR",
+  "icon": "mmorpg:textures/gui/stat_icons/game_changers/acrobat.png",
+  "id": "acrobat",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "dmg_reduction_chance",
+      "v1": 50.0
+    },
+    {
+      "type": "MORE",
+      "scale_to_lvl": false,
+      "stat": "armor",
+      "v1": -20.0
+    },
+    {
+      "type": "MORE",
+      "scale_to_lvl": false,
+      "stat": "dodge",
+      "v1": -20.0
+    }
+  ]
+}

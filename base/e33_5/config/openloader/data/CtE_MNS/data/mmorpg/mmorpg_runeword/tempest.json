@@ -1,0 +1,43 @@
+{
+  "id": "tempest",
+  "runes": [
+    "bri",
+    "mos",
+    "cen"
+  ],
+  "slots": [
+    "hammer"
+  ],
+  "stats": [
+    {
+      "type": "PERCENT",
+      "max": 60.0,
+      "min": 50.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 50.0,
+      "min": 50.0,
+      "stat": "proc_lightning_bolt"
+    },
+    {
+      "type": "FLAT",
+      "max": 5.0,
+      "min": 3.0,
+      "stat": "critical_hit"
+    },
+    {
+      "type": "FLAT",
+      "max": 66.0,
+      "min": 66.0,
+      "stat": "attack_speed"
+    },
+    {
+      "type": "FLAT",
+      "max": 60.0,
+      "min": 40.0,
+      "stat": "basic_attack_dmg"
+    }
+  ]
+}

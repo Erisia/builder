@@ -1,0 +1,37 @@
+{
+  "base": 0.0,
+  "effect": [
+    {
+      "effects": [
+        "additive_damage_number_add_stat_data"
+      ],
+    "events": [
+      "on_damage"
+    ],
+    "ifs": [
+      "ele_match_stat",
+      "spell_has_tag_magic"
+    ],
+      "order": "damage_layers",
+      "side": "Source"
+    }
+  ],
+  "ele": "Physical",
+  "format": "aqua",
+  "group": "Misc",
+  "gui_group": "NONE",
+  "has_softcap": false,
+  "icon": "★",
+  "id": "physical_magic_dmg",
+  "is_long": false,
+  "is_perc": true,
+  "max": 2.14748365E9,
+  "min": -1000.0,
+  "minus_is_good": false,
+  "multiUseType": "MULTIPLICATIVE_DAMAGE",
+  "order": 100,
+  "scaling": "NONE",
+  "ser": "data",
+  "show_in_gui": true,
+  "softcap": 0.0
+}

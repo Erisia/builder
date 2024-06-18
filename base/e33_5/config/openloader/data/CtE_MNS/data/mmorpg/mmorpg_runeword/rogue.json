@@ -1,0 +1,43 @@
+{
+  "id": "rogue",
+  "runes": [
+    "toq",
+    "wir",
+    "eno"
+  ],
+  "slots": [
+    "pants"
+  ],
+  "stats": [
+    {
+      "type": "PERCENT",
+      "max": 50.0,
+      "min": 40.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "FLAT",
+      "max": 40.0,
+      "min": 30.0,
+      "stat": "trap_area_dmg"
+    },
+    {
+      "type": "FLAT",
+      "max": -30.0,
+      "min": -30.0,
+      "stat": "inc_aoe"
+    },
+    {
+      "type": "FLAT",
+      "max": 5.0,
+      "min": 5.0,
+      "stat": "chaos_resist"
+    },
+    {
+      "type": "FLAT",
+      "max": 5.0,
+      "min": 5.0,
+      "stat": "move_speed"
+    }
+  ]
+}

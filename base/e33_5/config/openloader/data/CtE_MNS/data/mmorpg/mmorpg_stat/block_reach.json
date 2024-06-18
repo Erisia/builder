@@ -1,0 +1,15 @@
+{
+  "data": {
+    "attribute_id": "forge:block_reach",
+    "base": 0.0,
+    "ele": "Physical",
+    "id": "block_reach",
+    "max": 2.14748365E9,
+    "min": -1000.0,
+    "name": "Block Reach",
+    "perc": true,
+    "scale": "NONE",
+    "uuid": "4a1b4c75-bf65-4b59-909d-83440dc33960"
+  },
+  "ser": "vanilla_attribute_stat_ser"
+}

@@ -1,0 +1,38 @@
+{
+  "affix_rarity_weight": 1000,
+  "announce_in_chat": false,
+  "favor_loot_multi": 1.02,
+  "favor_needed": 100,
+  "guid": "uncommon",
+  "higher_rar": "rare",
+  "is_unique_item": false,
+  "item_model_data_num": 2,
+  "item_tier": 1,
+  "item_tier_power": 1.1,
+  "item_value_multi": 1.1,
+  "lootable_gear_tier": "LOW",
+  "map_lives": 5,
+  "map_resist_req": 10,
+  "map_tiers": {
+    "max": 20,
+    "min": 11
+  },
+  "map_xp_multi": 1.05,
+  "max_spell_links": 2,
+  "min_affixes": 2,
+  "min_lvl": 0,
+  "min_map_rarity_to_drop": "common",
+  "pot": {
+    "total": 10
+  },
+  "sockets": {
+    "max": 2,
+    "min": 0
+  },
+  "stat_percents": {
+    "max": 40,
+    "min": 25
+  },
+  "text_format": "GREEN",
+  "weight": 243
+}

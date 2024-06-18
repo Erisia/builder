@@ -1,0 +1,14 @@
+{
+  "affixes": 0,
+  "dmg_multi": 1.65,
+  "exp_multi": 2.0,
+  "extra_hp_multi": 4.0,
+  "force_custom_hp": -1,
+  "id": "summon",
+  "loot_multi": 2.0,
+  "min_lvl": 0,
+  "name": "Summon",
+  "stat_multi": 1.75,
+  "text_format": "YELLOW",
+  "weight": 0
+}

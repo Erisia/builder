@@ -1,0 +1,53 @@
+{
+  "data": {
+    "base": 0.0,
+    "core_stat_data": {
+      "stats": [
+        {
+          "type": "FLAT",
+          "scale_to_lvl": false,
+          "stat": "projectile_damage",
+          "v1": 0.2
+        },
+        {
+          "type": "FLAT",
+          "scale_to_lvl": false,
+          "stat": "attack_speed",
+          "v1": 0.5
+        },
+        {
+          "type": "FLAT",
+          "scale_to_lvl": false,
+          "stat": "draw_speed",
+          "v1": 0.5
+        },
+        {
+          "type": "FLAT",
+          "scale_to_lvl": false,
+          "stat": "critical_hit",
+          "v1": 0.1
+        },
+        {
+          "type": "PERCENT",
+          "scale_to_lvl": false,
+          "stat": "energy_regen",
+          "v1": 2.0
+        },
+        {
+          "type": "PERCENT",
+          "scale_to_lvl": false,
+          "stat": "dodge",
+          "v1": 0.5
+        }
+      ]
+    },
+    "ele": "Physical",
+    "id": "dexterity",
+    "max": 2.14748365E9,
+    "min": 0.0,
+    "name": "Dexterity",
+    "perc": false,
+    "scale": "CORE"
+  },
+  "ser": "core_stat"
+}

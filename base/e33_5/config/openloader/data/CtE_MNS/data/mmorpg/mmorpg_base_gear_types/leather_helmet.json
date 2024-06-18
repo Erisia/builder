@@ -1,0 +1,69 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 3.0,
+      "min": 1.5,
+      "stat": "dodge"
+    },
+    {
+      "type": "FLAT",
+      "max": 2.0,
+      "min": 1.0,
+      "stat": "health"
+    }
+  ],
+  "gear_slot": "helmet",
+  "guid": "leather_helmet",
+  "possible_items": [
+    {
+      "item_id": "cte_essentials:leather_0_helmet",
+      "min_rar": "common",
+      "weight": 1
+    },
+    {
+      "item_id": "cte_essentials:leather_1_helmet",
+      "min_rar": "uncommon",
+      "weight": 10
+    },
+    {
+      "item_id": "cte_essentials:leather_2_helmet",
+      "min_rar": "rare",
+      "weight": 100
+    },
+    {
+      "item_id": "cte_essentials:leather_3_helmet",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "cte_essentials:leather_4_helmet",
+      "min_rar": "legendary",
+      "weight": 10000
+    },
+    {
+      "item_id": "cte_essentials:leather_5_helmet",
+      "min_rar": "mythic",
+      "weight": 100000
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "dexterity": 0.5
+    }
+  },
+  "style": "DEX",
+  "tags": {
+    "tags": [
+      "dexterity",
+      "dodge_stat",
+      "dodge_stat_half",
+      "armor_family",
+      "helmet",
+	  "leather_helmet"
+    ]
+  },
+  "weapon_type": "none",
+  "weight": 1000
+}

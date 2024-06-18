@@ -1,0 +1,7 @@
+{
+  "id": "spell_has_tag_burst",
+  "ser": "spell_has_tag",
+  "tag": {
+    "id": "burst"
+  }
+}

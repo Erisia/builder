@@ -1,0 +1,31 @@
+{
+  "exp": 125,
+  "id": "reset_spells",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "minecraft:glass_bottle",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:stone/2",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "supplementaries:flax",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "minecraft:gold_ingot",
+      "num": 1
+    }
+  ],
+  "power": "greater",
+  "profession": "alchemy",
+  "result": "mmorpg:potions/reset_spells",
+  "result_num": 1,
+  "tier": 0
+}

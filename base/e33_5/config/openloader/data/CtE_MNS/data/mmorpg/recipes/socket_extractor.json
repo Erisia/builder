@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ACA",
+    "AAA",
+    " B "
+  ],
+  "key": {  
+	"A": {
+      "item": "undergarden:cloggrum_ingot"
+    }, 
+	"B": {
+      "item": "minecraft:stick"
+    }, 
+	"C": {
+      "item": "mmorpg:stone/4"
+    }
+  },
+  "result": {
+    "item": "mmorpg:socket_extractor"
+  }
+}

@@ -1,0 +1,450 @@
+
+{
+	"content": {
+
+        "fisherman_obj_string": {
+            "type": "item",
+            "content": "minecraft:string",
+            "amount": {
+                "min": 4,
+                "max": 32
+            },
+            "unitWorth": 50
+        },
+
+        "fisherman_obj_coal": {
+            "type": "item",
+            "content": "minecraft:coal",
+            "amount": {
+                "min": 3,
+                "max": 16
+            },
+            "unitWorth": 100
+        },
+
+        "fisherman_obj_cod": {
+            "type": "item",
+            "content": "minecraft:cod",
+            "amount": {
+                "min": 2,
+                "max": 16
+            },
+            "unitWorth": 65,
+            "weightMult": 1.5
+        },
+
+        "fisherman_obj_barrel": {
+            "type": "item",
+            "content": "minecraft:barrel",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 250
+        },
+
+        "fisherman_obj_salmon": {
+            "type": "item",
+            "content": "minecraft:salmon",
+            "amount": {
+                "min": 3,
+                "max": 15
+            },
+            "unitWorth": 75,
+            "weightMult": 1.5
+        },
+
+        "fisherman_obj_trop_fish": {
+            "type": "item",
+            "content": "minecraft:tropical_fish",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 165,
+            "weightMult": 1.5
+        },
+
+        "fisherman_obj_pufferfish": {
+            "type": "item",
+            "content": "minecraft:pufferfish",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 250,
+            "weightMult": 1.5
+        },
+
+        "fisherman_obj_oak_boat": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "minecraft:oak_boat",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 800.0
+        },
+
+        "fisherman_obj_naut_shell": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "minecraft:nautilus_shell",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1100.0
+        },
+
+        "fisherman_obj_any_boat": {
+            "type": "item_tag",
+            "content": "minecraft:boats",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 450
+        },
+
+        "fisherman_obj_catch_ench_book": {
+            "type": "criteria",
+            "content": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:enchanted_book"
+                    ]
+                }
+            },
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 350,
+            "timeMult": 2
+        },
+
+        "fisherman_obj_atlantic_cod": {
+            "type": "item",
+            "content": "aquaculture:atlantic_cod",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 750,
+            "timeMult": 2
+        },
+
+        "fisherman_obj_blackfish": {
+            "type": "item",
+            "content": "aquaculture:blackfish",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 750,
+            "timeMult": 2
+        },
+
+        "fisherman_obj_pacific_halibut": {
+            "type": "item",
+            "content": "aquaculture:pacific_halibut",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 750,
+            "timeMult": 2
+        },
+
+        "fisherman_obj_atlantic_halibut": {
+            "type": "item",
+            "content": "aquaculture:atlantic_halibut",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 750,
+            "timeMult": 2
+        },
+
+        "fisherman_obj_atlantic_herring": {
+            "type": "item",
+            "content": "aquaculture:atlantic_herring",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 750,
+            "timeMult": 2
+        },
+
+        "fisherman_obj_pink_salmon": {
+            "type": "item",
+            "content": "aquaculture:pink_salmon",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 750,
+            "timeMult": 2
+        },
+
+        "fisherman_obj_pollock": {
+            "type": "item",
+            "content": "aquaculture:pollock",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 750,
+            "timeMult": 2
+        },
+
+        "fisherman_obj_rainbow_trout": {
+            "type": "item",
+            "content": "aquaculture:rainbow_trout",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 750,
+            "timeMult": 2
+        },
+
+        "fisherman_obj_bayad": {
+            "type": "item",
+            "content": "aquaculture:bayad",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 750,
+            "timeMult": 2
+        },
+
+        "fisherman_obj_boulti": {
+            "type": "item",
+            "content": "aquaculture:boulti",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 750,
+            "timeMult": 2
+        },
+
+        "fisherman_obj_capitaine": {
+            "type": "item",
+            "content": "aquaculture:capitaine",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 750,
+            "timeMult": 2
+        },
+
+        "fisherman_obj_synodontis": {
+            "type": "item",
+            "content": "aquaculture:synodontis",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 750,
+            "timeMult": 2
+        },
+
+        "fisherman_obj_smallmouth_bass": {
+            "type": "item",
+            "content": "aquaculture:smallmouth_bass",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 750,
+            "timeMult": 2
+        },
+
+        "fisherman_obj_bluegill": {
+            "type": "item",
+            "content": "aquaculture:bluegill",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 750,
+            "timeMult": 2
+        },
+
+        "fisherman_obj_brown_trout": {
+            "type": "item",
+            "content": "aquaculture:brown_trout",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 750,
+            "timeMult": 2
+        },
+
+        "fisherman_obj_carp": {
+            "type": "item",
+            "content": "aquaculture:carp",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 750,
+            "timeMult": 2
+        },
+
+        "fisherman_obj_catfish": {
+            "type": "item",
+            "content": "aquaculture:catfish",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 750,
+            "timeMult": 2
+        },
+
+        "fisherman_obj_gar": {
+            "type": "item",
+            "content": "aquaculture:gar",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 750,
+            "timeMult": 2
+        },
+
+        "fisherman_obj_minnow": {
+            "type": "item",
+            "content": "aquaculture:minnow",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 750,
+            "timeMult": 2
+        },
+
+        "fisherman_obj_muskellunge": {
+            "type": "item",
+            "content": "aquaculture:muskellunge",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 750,
+            "timeMult": 2
+        },
+
+        "fisherman_obj_perch": {
+            "type": "item",
+            "content": "aquaculture:perch",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 750,
+            "timeMult": 2
+        },
+
+        "fisherman_obj_arapaima": {
+            "type": "item",
+            "content": "aquaculture:arapaima",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 750,
+            "timeMult": 2
+        },
+
+        "fisherman_obj_piranha": {
+            "type": "item",
+            "content": "aquaculture:piranha",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 750,
+            "timeMult": 2
+        },
+
+        "fisherman_obj_tambaqui": {
+            "type": "item",
+            "content": "aquaculture:tambaqui",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 750,
+            "timeMult": 2
+        },
+
+        "fisherman_obj_brown_shrooma": {
+            "type": "item",
+            "content": "aquaculture:brown_shrooma",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 750,
+            "timeMult": 2
+        },
+
+        "fisherman_obj_red_shrooma": {
+            "type": "item",
+            "content": "aquaculture:red_shrooma",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 750,
+            "timeMult": 2
+        },
+
+        "fisherman_obj_red_grouper": {
+            "type": "item",
+            "content": "aquaculture:red_grouper",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 750,
+            "timeMult": 2
+        },
+
+        "fisherman_obj_tuna": {
+            "type": "item",
+            "content": "aquaculture:tuna",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 750,
+            "timeMult": 2
+        },
+
+        "fisherman_obj_goldfish": {
+            "type": "item",
+            "content": "aquaculture:goldfish",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 500,
+            "timeMult": 2
+        }
+
+	}
+
+}

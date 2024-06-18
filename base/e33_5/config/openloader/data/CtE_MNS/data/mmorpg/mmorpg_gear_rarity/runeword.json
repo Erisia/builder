@@ -1,0 +1,38 @@
+{
+  "affix_rarity_weight": 1000,
+  "announce_in_chat": false,
+  "favor_loot_multi": 1.0,
+  "favor_needed": 0,
+  "guid": "runeword",
+  "higher_rar": "",
+  "is_unique_item": false,
+  "item_model_data_num": -1,
+  "item_tier": 10,
+  "item_tier_power": 2.0,
+  "item_value_multi": 2.0,
+  "lootable_gear_tier": "HIGH",
+  "map_lives": 5,
+  "map_resist_req": 50,
+  "map_tiers": {
+    "max": 100,
+    "min": 0
+  },
+  "map_xp_multi": 1.0,
+  "max_spell_links": 1,
+  "min_affixes": 0,
+  "min_lvl": 0,
+  "min_map_rarity_to_drop": "common",
+  "pot": {
+    "total": 25
+  },
+  "sockets": {
+    "max": 6,
+    "min": 2
+  },
+  "stat_percents": {
+    "max": 100,
+    "min": 70
+  },
+  "text_format": "YELLOW",
+  "weight": 27
+}

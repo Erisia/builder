@@ -1,0 +1,27 @@
+{
+  "type": "prefix",
+  "eye_aura_req": "",
+  "guid": "paragons",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [
+          "weapon_family"
+        ],
+        "req_type": "INCLUDES_ANY"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 1.0,
+      "min": 1.0,
+      "stat": "plus_lvl_all_spells"
+    }
+  ],
+  "weight": 100
+}

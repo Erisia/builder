@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "item": "create:experience_nugget"
+    },
+    "B": {
+      "item": "waystones:warp_dust"
+    },
+    "C": {
+      "item": "sophisticatedbackpacks:advanced_pump_upgrade"
+    },
+    "D": {
+      "tag": "forge:dusts/redstone"
+	},
+    "E": {
+      "item": "mmorpg:stone/2"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:xp_pump_upgrade"
+  }
+}

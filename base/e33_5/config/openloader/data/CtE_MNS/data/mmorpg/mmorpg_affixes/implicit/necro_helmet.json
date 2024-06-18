@@ -1,0 +1,26 @@
+{
+  "type": "implicit",
+  "guid": "necro_helmet",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [
+          "cloth_helmet"
+        ],
+        "req_type": "HAS_ALL"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 1.0,
+      "min": 1.0,
+      "stat": "max_total_summons"
+    }
+  ],
+  "weight": 0
+}

@@ -1,0 +1,21 @@
+{
+  "type": "STAT",
+  "icon": "mmorpg:textures/gui/stat_icons/main/magic_shield.png",
+  "id": "ms_energy_regen",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "PERCENT",
+      "scale_to_lvl": false,
+      "stat": "magic_shield",
+      "v1": 3.0
+    },
+    {
+      "type": "PERCENT",
+      "scale_to_lvl": false,
+      "stat": "energy_regen",
+      "v1": 3.0
+    }
+  ]
+}

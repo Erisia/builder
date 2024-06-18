@@ -1,0 +1,7 @@
+[
+  {
+    "attacker": "#enhancedai:config/can_attack_villagers",
+    "victim": "minecraft:villager",
+    "chance": 0.5
+  }
+]

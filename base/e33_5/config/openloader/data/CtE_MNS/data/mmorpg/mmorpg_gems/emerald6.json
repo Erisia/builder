@@ -1,0 +1,34 @@
+{
+  "gem_type": "emerald",
+  "identifier": "emerald6",
+  "item_id": "mmorpg:gems/emerald/6",
+  "min_lvl_multi": 0.6,
+  "on_armor_stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "chaos_resist",
+      "v1": 24.0
+    }
+  ],
+  "on_jewelry_stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "cdr",
+      "v1": 6.0
+    }
+  ],
+  "on_weapons_stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "all_chaos_damage",
+      "v1": 12.0
+    }
+  ],
+  "perc_upgrade_chance": 0,
+  "text_format": "GREEN",
+  "tier": 6,
+  "weight": 1
+}

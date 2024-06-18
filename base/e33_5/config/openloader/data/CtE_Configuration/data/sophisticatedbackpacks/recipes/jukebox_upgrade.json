@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:jukebox"
+    },
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "C": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    },
+    "D": {
+      "tag": "forge:dusts/redstone"
+	},
+    "E": {
+      "item": "mmorpg:stone/0"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:jukebox_upgrade"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "exp": 100,
+  "id": "food_lesser_energy3",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "mmorpg:material/farming/3",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "corn_delight:corn",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:rare_mats/farming/lesser",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "lightmanscurrency:coin_copper",
+      "num": 1
+    }
+  ],
+  "power": "lesser",
+  "profession": "cooking",
+  "result": "mmorpg:food/lesser_energy",
+  "result_num": 1,
+  "tier": 3
+}

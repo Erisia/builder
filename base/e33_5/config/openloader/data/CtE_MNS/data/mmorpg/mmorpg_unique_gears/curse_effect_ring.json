@@ -1,0 +1,32 @@
+{
+  "base_gear": "ring",
+  "guid": "curse_effect_ring",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "",
+  "min_tier": 40,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "FLAT",
+      "max": 40.0,
+      "min": 30.0,
+      "stat": "inc_effect_of_curse_buff_given"
+    },
+    {
+      "type": "FLAT",
+      "max": 50.0,
+      "min": 50.0,
+      "stat": "curse_eff_dur_u_cast"
+    },
+    {
+      "type": "FLAT",
+      "max": 25.0,
+      "min": 20.0,
+      "stat": "chaos_resist"
+    }
+  ],
+  "weight": 1000
+}

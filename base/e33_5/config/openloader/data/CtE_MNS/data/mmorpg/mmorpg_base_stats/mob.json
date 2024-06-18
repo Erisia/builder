@@ -1,0 +1,17 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": true,
+      "stat": "accuracy",
+      "v1": 3.0
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": true,
+      "stat": "dodge",
+      "v1": 3.0
+    }
+  ],
+  "id": "mob"
+}

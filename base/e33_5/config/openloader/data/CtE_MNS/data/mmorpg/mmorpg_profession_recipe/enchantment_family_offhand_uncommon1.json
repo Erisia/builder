@@ -1,0 +1,46 @@
+{
+  "exp": 180,
+  "id": "enchantment_family_offhand_uncommon1",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "mmorpg:material/mining/1",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:stone/1",
+      "num": 4
+    },
+    {
+      "type": "ITEM",
+      "id": "minecraft:paper",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "undergarden:cloggrum_ingot",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "minecraft:string",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:rare_mats/mining/lesser",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "lightmanscurrency:coin_copper",
+      "num": 5
+	}
+  ],
+  "power": "greater",
+  "profession": "enchanting",
+  "result": "mmorpg:enchantment/family/offhand/uncommon",
+  "result_num": 3,
+  "tier": 1
+}

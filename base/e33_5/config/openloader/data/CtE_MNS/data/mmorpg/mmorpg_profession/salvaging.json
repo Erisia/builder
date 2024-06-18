@@ -1,0 +1,52 @@
+{
+  "chance_drops": [
+    {
+      "type": "MEDIUM",
+      "chance": 8.0,
+      "drops": [
+        {
+          "item_id": "mmorpg:rare_mats/salvaging/medium",
+          "min_lvl": 0.0,
+          "num": 1,
+          "weight": 1000
+        }
+      ]
+    },
+    {
+      "type": "LESSER",
+      "chance": 32.0,
+      "drops": [
+        {
+          "item_id": "mmorpg:rare_mats/salvaging/lesser",
+          "min_lvl": 0.0,
+          "num": 1,
+          "weight": 1000
+        }
+      ]
+    },
+    {
+      "type": "GREATER",
+      "chance": 2.0,
+      "drops": [
+        {
+          "item_id": "mmorpg:rare_mats/salvaging/greater",
+          "min_lvl": 0.0,
+          "num": 1,
+          "weight": 1000
+        }
+      ]
+    }
+  ],
+  "exp_sources": {
+    "default_xp": {
+      "exp": 50,
+      "req": [],
+      "tier": 0
+    },
+    "map": {}
+  },
+  "id": "salvaging",
+  "misc_chance": 5.0,
+  "tiered_drops": {},
+  "tool_tag": ""
+}

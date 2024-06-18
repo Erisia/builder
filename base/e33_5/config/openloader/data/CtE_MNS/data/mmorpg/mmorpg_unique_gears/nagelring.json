@@ -1,0 +1,26 @@
+{
+  "base_gear": "ring",
+  "guid": "nagelring",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "",
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 35.0,
+      "min": 25.0,
+      "stat": "accuracy"
+    },
+    {
+      "type": "FLAT",
+      "max": 6.0,
+      "min": 4.0,
+      "stat": "magic_find"
+    }
+  ],
+  "weight": 1000
+}

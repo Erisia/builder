@@ -1,0 +1,16 @@
+{
+  "id": "water_flat_dmg",
+  "manaMulti": 1.2,
+  "min_lvl": 5,
+  "one_of_a_kind": "",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 6.0,
+      "min": 2.0,
+      "stat": "flat_water_added_damage"
+    }
+  ],
+  "style": "DEX",
+  "weight": 1000
+}

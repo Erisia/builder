@@ -1,0 +1,15 @@
+{
+  "type": "STAT",
+  "icon": "mmorpg:textures/gui/spells/icons/fighter_stance.png",
+  "id": "fighter_stance",
+  "is_entry": false,
+  "max_lvls": 4,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "learn_fighter_stance",
+      "v1": 1.0
+    }
+  ]
+}

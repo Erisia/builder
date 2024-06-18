@@ -1,0 +1,22 @@
+{
+  "id": "proc_freeze",
+  "manaMulti": 1.2,
+  "min_lvl": 1,
+  "one_of_a_kind": "",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 15.0,
+      "min": 5.0,
+      "stat": "all_water_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 75.0,
+      "min": 25.0,
+      "stat": "freeze_proc_chance"
+    }
+  ],
+  "style": "DEX",
+  "weight": 1000
+}

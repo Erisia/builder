@@ -1,0 +1,25 @@
+{
+  "exp": 200,
+  "id": "food_greater_magic0",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "mmorpg:material/meat/0",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "minecraft:potato",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "lightmanscurrency:coin_gold",
+      "num": 1    }
+  ],
+  "power": "greater",
+  "profession": "cooking",
+  "result": "mmorpg:food/greater_magic",
+  "result_num": 1,
+  "tier": 0
+}

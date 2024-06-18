@@ -1,0 +1,26 @@
+{
+  "type": "beneficial",
+  "id": "fire_golem_buff",
+  "max_stacks": 1,
+  "mc_stats": [],
+  "one_of_a_kind_id": "",
+  "spell_tags": {
+    "tags": []
+  },
+  "stacks_affect_stats": true,
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 15.0,
+      "min": 10.0,
+      "stat": "total_damage"
+    }
+  ],
+  "tags": {
+    "tags": [
+      "offensive",
+      "golem",
+      "positive"
+    ]
+  }
+}

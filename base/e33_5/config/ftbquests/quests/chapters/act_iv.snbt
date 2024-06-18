@@ -1,0 +1,1054 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "act_iv"
+	group: "1E3C4B5FFAE48A39"
+	icon: "minecraft:ender_eye"
+	id: "13CF8F9062A19FA5"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["531BDC3DFCE88A6E"]
+			description: [
+				"This is it! &eKill the Ender Dragon&r and put an \"end\" to this madness!"
+				""
+				"&cThe Ender Dragon alway spawns at level 55.&r"
+				""
+				"The Ender Dragon Has:"
+				"&b+25% Physical Damage converted to Lightning Damage&r"
+				"&b+25% Physical Damage converted to Chaos Damage&r"
+				"&b+25% Elemental Resistance&r"
+				"&b+35% Chaos Resistance&r"
+				"&a7.5% Chance of Dropping End Rune&r"
+			]
+			id: "6F0D75895E507FFD"
+			rewards: [
+				{
+					id: "2912DA754B1FC7E8"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":55,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Rare Gear Loot Chest (Lv. 55)"
+					type: "item"
+				}
+				{
+					id: "4CEB9753CEE68DF0"
+					item: {
+						Count: 1
+						id: "minecraft:elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Elytra"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 19000"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "3683CD13EAD2BD3C"
+					silent: true
+					title: "19000 Experience"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Main Quest"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "2877FD26AC97C50D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Dragon Quest"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75454F0A3C4C3596"]
+			description: [
+				"You received &einstructions&r from a village guard, scribbled on a loose piece of bamboo."
+				""
+				"&o1. Arrive in The End.&r"
+				"&o2. Obtain End Crystals from the island.&r"
+				"&o3. Place the crystals on the -&r"
+				""
+				"The rest has been &erubbed off &rfrom your adventures."
+			]
+			id: "531BDC3DFCE88A6E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 12250"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "6D064F971867F5AB"
+				silent: true
+				title: "12250 Experience"
+				type: "command"
+			}]
+			shape: "rsquare"
+			subtitle: "Main Quest"
+			tasks: [{
+				advancement: "stellarity:dragons_den/sacrificial_ritual"
+				criterion: ""
+				id: "1B0D7898F4168083"
+				type: "advancement"
+			}]
+			title: "Summoning Ritual"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F0D75895E507FFD"]
+			description: ["You've slain the dragon, but it seems like there's more to The End than you thought. It might be a good time to use your newly found &eElytra&r and &eexplore the outer islands&r."]
+			id: "7EA6A0131C5FF143"
+			rewards: [
+				{
+					id: "3EC5E98649245554"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/currency"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"common\",\"lvl\":50,\"id\":\"currency\",\"key\":\"\"}"
+						}
+					}
+					title: "Common Currency Loot Chest (Lv. 50)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 14250"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "3763B6E506B98B16"
+					silent: true
+					title: "14250 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Endventure"
+			tasks: [{
+				advancement: "minecraft:end/enter_end_gateway"
+				criterion: ""
+				id: "04D2837E3F91A62E"
+				type: "advancement"
+			}]
+			title: "Beyond"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F0D75895E507FFD"]
+			description: ["What?! &eVillages&r in The End?"]
+			id: "70D633ACAC150BA9"
+			rewards: [
+				{
+					id: "3A7EA51119081D4E"
+					item: "lightmanscurrency:coin_diamond"
+					title: "Money"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 13250"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "7198EB9182F5D5B3"
+					silent: true
+					title: "13250 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Endventure"
+			tasks: [{
+				advancement: "stellarity:exploration/enter_end_village"
+				criterion: ""
+				id: "6FE88F4254B45D38"
+				type: "advancement"
+			}]
+			title: "Inter-Dimensional Colonization"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F0D75895E507FFD"]
+			description: [
+				"You learned that it wasn't the Ender Dragon that was causing the rifts to open. As vile as the beast was, it was just that - a vile beast."
+				""
+				"It seems there is more to The End than you thought... Some say another danger lurks in the void, and others say throwing a &eMysterious Worm&r into it will draw it out."
+				""
+				"You can obtain a &eMysterious Worm&r by placing a &eCrimson Mosquito Larvae&r in a &eCapsid&r. You can obtain the materials needed for crafting a Crimson Mosquito Larvae by &ekilling Flies and Crimson Mosquitoes&r, and the Capsid by &ekilling Enderiophages&r."
+			]
+			id: "56A3604D9BAD661C"
+			rewards: [
+				{
+					count: 16
+					id: "1B2A6B57387B7711"
+					item: {
+						Count: 1
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Worms"
+					type: "item"
+				}
+				{
+					id: "561F1DE4EB9C5CE9"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Money"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 13750"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "3799D574CFAF86F6"
+					silent: true
+					title: "13750 Experience"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Main Quest"
+			tasks: [{
+				id: "1FD4027C3E5A4B93"
+				item: "alexsmobs:mysterious_worm"
+				type: "item"
+			}]
+			title: "Genetic Modification"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56A3604D9BAD661C"]
+			description: [
+				"Be prepared, as this horrific creature has many parts to its body. Additionally, it will fire homing crystals to nearby players. If you get too close, you'll get knocked back. Be careful not to get knocked off the island!"
+				""
+				"&cThe Void Worm always spawns at level 60.&r"
+				""
+				"The Void Worm Has:"
+				"&b+25% Elemental Resistance&r"
+				"&a15% Chance of Dropping End Rune&r"
+			]
+			id: "3944DD7AC4667137"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 20000"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "45B406CDBD1F2A26"
+					silent: true
+					title: "20000 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4s
+							}]
+						}
+					}
+					id: "71B0768A7BF842A5"
+					title: "2 Talent Points"
+					type: "custom"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Main Quest"
+			tasks: [{
+				entity: "alexsmobs:void_worm"
+				icon: "alexsmobs:void_worm_eye"
+				id: "4CDAF67DC07C1B5A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Worm from the Void"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3944DD7AC4667137"]
+			description: ["There's a report of an underground creature wrecking havoc underground traders. Some call it a &e\"Warden\".&r Some say it can be found in the &eAncient City&r deep underneath."]
+			id: "0424E768816CB314"
+			rewards: [
+				{
+					id: "6FEA654635C8F438"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/epic_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"epic\",\"lvl\":60,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Epic Gear Loot Chest (Lv. 60)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 14500"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "69E5D302B19DFCB4"
+					silent: true
+					title: "14500 Experience"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Main Quest"
+			tasks: [{
+				advancement: "deeperdarker:main/find_ancient_city"
+				criterion: ""
+				id: "73ECBABFC177A3AF"
+				type: "advancement"
+			}]
+			title: "Back Home"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0424E768816CB314"]
+			description: [
+				"The &eWarden&r is completely blind, and relies on vibrations, smell, and touch to detect players. You can evade them by sneaking, or using diversions such as arrows. It has a powerful melee attack, and can release a devastating homing sonic boom attack."
+				""
+				"&cThe Warden always spawns at level 65.&r"
+				""
+				"The Warden Has:"
+				"&b+50% Physical to Chaos Damage&r"
+				"&b+50% Armor&r"
+				"&b+35% Elemental Resistance&r"
+				"&b+35% Chaos Resistance&r"
+				"&a10% Chance of Dropping Sid Rune&r"
+			]
+			id: "6B5AFF6897A7AE6D"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 21000"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "32BBAFAF37E1995B"
+					silent: true
+					title: "21000 Experience"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "3E70206312D555CB"
+					item: "lightmanscurrency:coin_gold"
+					title: "Money"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31CEEC8EB6246EED"
+					table_id: 7157812384472883171L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Main Quest"
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: {
+					Count: 1
+					id: "deeperdarker:warden_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7C4B9B0973E6EA67"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Dimension Guardian"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6B5AFF6897A7AE6D"]
+			description: ["Wow, who'd have thought? The &eWarden&r seemed to be protecting a gateway to a new &eundiscovered dimension&r. What's on &eThe Otherside&r?"]
+			id: "707C5CDB48B487F8"
+			rewards: [
+				{
+					id: "5E5119647591EC7F"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/currency"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"common\",\"lvl\":50,\"id\":\"currency\",\"key\":\"\"}"
+						}
+					}
+					title: "Common Currency Loot Chest (Lv. 50)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 15750"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "3201ACAD0D312816"
+					silent: true
+					title: "15750 Experience"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Main Quest"
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				icon: "deeperdarker:warden_carapace"
+				id: "1ACA80128E406BE5"
+				title: "Visit The Otherside"
+				type: "dimension"
+			}]
+			title: "The Otherside"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["707C5CDB48B487F8"]
+			description: [
+				"Continue to &eexplore,&r and descend into the &edarkness...&r You never know what &egoodies&r you'll find."
+				""
+				"&b&oCongratulations on completing the Campaign! Continue to explore what the worlds have to offer, and be sure to check out the Side Quests! Keep on leveling and customizing your character, and try to overcome the greatest challenges in Maps!&r&r"
+			]
+			id: "6149D163ABF06A15"
+			rewards: [
+				{
+					id: "42E63F9488C11281"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/legendary_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"legendary\",\"lvl\":60,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Legendary Gear Loot Chest (Lv. 60)"
+					type: "item"
+				}
+				{
+					id: "360850EC6B27579B"
+					item: "lightmanscurrency:coin_netherite"
+					title: "Money"
+					type: "item"
+				}
+				{
+					id: "3422F45908DFFA9A"
+					item: "simplehats:paperbag"
+					title: "Paper Bag"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 25000"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "1E6490E881BC5AA2"
+					silent: true
+					title: "25000 Experience"
+					type: "command"
+				}
+				{
+					id: "2113E9C1A471A8B9"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:endless/darkness"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Main Quest"
+			tasks: [{
+				advancement: "deeperdarker:main/find_ancient_temple"
+				criterion: ""
+				icon: "deeperdarker:smooth_sculk_stone_stairs"
+				id: "779882C7510983D8"
+				type: "advancement"
+			}]
+			title: "Untied Loose Ends"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6F0D75895E507FFD"]
+			description: [
+				"Although you've &eslain the dragon&r, you will still find remnants of the beast. Slay its &espawn&r to prevent any further devastation."
+				""
+				"Note that you can &erespawn&r the Ender Dragon again using &eEnd Crystals&r! The method is the same as &eVanilla.&r"
+			]
+			id: "61FF2CADDF0013F6"
+			rewards: [
+				{
+					id: "07F863054E4C3F13"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/common_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"common\",\"lvl\":50,\"id\":\"gem\",\"key\":\"\"}"
+						}
+					}
+					title: "Common Gem Loot Chest (Lv. 50)"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "022C5AE3B9A81349"
+					item: "mmorpg:currency/sharpening_stone2"
+					title: "Empyrean Sharpening Stones"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 13000"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "568A68D30118ED12"
+					silent: true
+					title: "13000 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Endventure"
+			tasks: [{
+				entity: "realmrpg_wyrms:ender_wyrm"
+				icon: "simplehats:dragonskullender"
+				id: "18796A37D4AFC777"
+				type: "kill"
+				value: 24L
+			}]
+			title: "Dragonspawn"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["30FA1CCB6BBA7125"]
+			description: ["Rumours have it that &eFarseer&r are prophetic creatures originating from the void."]
+			id: "69FD852AE0306BD2"
+			rewards: [
+				{
+					id: "13410512A1AB33A9"
+					item: {
+						Count: 1
+						id: "waystones:warp_stone"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Warp Stone"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 13500"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "7E4B99CDF9BF72C0"
+					silent: true
+					title: "13500 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4s
+							}]
+						}
+					}
+					id: "4EFEDC6802D42BF3"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
+			subtitle: "Endventure"
+			tasks: [{
+				entity: "alexsmobs:farseer"
+				icon: "alexsmobs:farseer_arm"
+				id: "4917CEEBC063FE78"
+				type: "kill"
+				value: 3L
+			}]
+			title: "They Knew You Were Coming"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"531BDC3DFCE88A6E"
+				"61FF2CADDF0013F6"
+				"0424E768816CB314"
+				"69FD852AE0306BD2"
+				"70D633ACAC150BA9"
+				"6B5AFF6897A7AE6D"
+				"6F0D75895E507FFD"
+				"7EA6A0131C5FF143"
+				"707C5CDB48B487F8"
+				"56A3604D9BAD661C"
+				"3944DD7AC4667137"
+				"6149D163ABF06A15"
+				"6BA03D598BD6C2AD"
+				"081AD91A178C3A3F"
+				"6DEBCC2B2DAE67AD"
+				"0C894EBBB7C6F380"
+				"4FEFBA3770769DA9"
+				"4E2506271B43A29C"
+				"201E621A52FFCE65"
+				"010FF3BF22DA9AED"
+				"28759D610FF8B6BE"
+			]
+			description: ["&eComplete&r all of the &equests&r in Act V to complete this achievement. Then show it off with your new hat!"]
+			hide_dependency_lines: true
+			icon: "simplehats:rgbsunglasses"
+			id: "4ABF5C9676202847"
+			rewards: [
+				{
+					id: "32163DBB344176A5"
+					item: "simplehats:rgbsunglasses"
+					type: "item"
+				}
+				{
+					id: "132CB6623C41E78B"
+					item: "lightmanscurrency:coin_diamond"
+					title: "Money"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Achievement"
+			tasks: [{
+				id: "3F2676327EA7C4ED"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Complete All Act V Quests!"
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3944DD7AC4667137"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Maps are &einstanced dungeons&r from Mine and Slash. They only &l&cstart dropping from mobs from level 55 and onwards&r&r."
+				""
+				"To access these instanced dungeons, you will need to craft a &eMap Device&r, and you will need a Map. These Maps can be used on the Map Device block (once placed). You also will need to craft a &ePearl of Home&r, to ensure you can return safely."
+				""
+				"Maps will have an associated Level, Rarity, and Tier. The Level, Rarity, and Tier determine the difficulty of mobs, and quality of loot."
+				""
+				"&eUsing a Map Rarity Upgrade Orb, you can increase the Rarity of the Map. They will always drop at Common.&r"
+				""
+				"&7Common&r - Tier 0-10"
+				"&aUncommon&r - Tier 11-20"
+				"&9Rare&r - Tier 21-40"
+				"&dEpic&r - Tier 41-60"
+				"&6Legendary&r - Tier 61-80"
+				"&5Mythic&r - Tier 81-100"
+				""
+				"Maps can also roll various affixes. &eAffixes&r are random modifiers that are applied either to the players (usually negative) or the mobs (usually positive)."
+			]
+			icon: "mmorpg:map"
+			id: "4FEFBA3770769DA9"
+			rewards: [
+				{
+					count: 2
+					id: "5F11A9983901AFDA"
+					item: "mmorpg:currency/map_rarity_upgrade"
+					type: "item"
+				}
+				{
+					id: "1F60294488F2F786"
+					item: {
+						Count: 1
+						id: "mmorpg:map"
+						tag: {
+							mmorpg_map: "{\"lvl\":55,\"tier\":1,\"rar\":\"common\",\"affixes\":[{\"id\":\"water_atk\",\"p\":3},{\"id\":\"reduced_aoe\",\"p\":4},{\"id\":\"minus_hp_reg\",\"p\":35}],\"mechs\":[],\"uuid\":\"950a1fe7-4ea1-49d4-a66a-7ada9fe27665\"}"
+						}
+					}
+					title: "Adventure Map"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "49D8A1AB5BCE23A9"
+					item: "lightmanscurrency:coin_iron"
+					title: "Money"
+					type: "item"
+				}
+			]
+			subtitle: "Level Methods"
+			tasks: [
+				{
+					id: "0ABCAE5B4B3DEF92"
+					item: "mmorpg:teleporter"
+					type: "item"
+				}
+				{
+					id: "0256418371FC7439"
+					item: "mmorpg:tp_back"
+					type: "item"
+				}
+			]
+			title: "Maps"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FEFBA3770769DA9"]
+			description: ["Now that you have the necessary materials, try taking on a &eMap!&r"]
+			id: "201E621A52FFCE65"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 12500"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "43413049B841CA66"
+				silent: true
+				title: "12500 Experience"
+				type: "command"
+			}]
+			subtitle: "Level Methods"
+			tasks: [{
+				dimension: "mmorpg:dungeon"
+				icon: "mmorpg:teleporter"
+				id: "34B289DE6AAD0206"
+				title: "Enter A Map"
+				type: "dimension"
+			}]
+			title: "Dimensional Conundrum"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0424E768816CB314"]
+			description: ["The &eImbuing Table&r allows you to &ecombine max level&r enchantments. When they're combined, you'll get an &eupgraded enchantment book&r that is one level higher than the typical max. For example, two Fortune IIIs will become one &eFortune IV&r."]
+			id: "6BA03D598BD6C2AD"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 14750"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "7B45C6A08AC082FC"
+				silent: true
+				title: "14750 Experience"
+				type: "command"
+			}]
+			subtitle: "Craft an Imbuing Table"
+			tasks: [{
+				id: "50C250274B0E7598"
+				item: "illagerinvasion:imbuing_table"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7EA6A0131C5FF143"]
+			description: [
+				"&eElytras&r can now be customized with &ebanners, dyes, capes, armor trims, and glow squid ink&r."
+				""
+				"&eCombine&r a full elytra with any banners, dyes, armor trims, and/or glow ink squid to &eapply&r it to the whole elytra. "
+				""
+				"Place a &efull elytra&r into a crafting grid to seperate it into &etwo elytra wings&r which allows you to customize them seperately and then craft them back &etogether.&r"
+				""
+				"You can also hide your &ecape&r from appearing on your elytra by just crafting it with a piece of &epaper.&r"
+			]
+			id: "4E2506271B43A29C"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 13500"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "1D82E166861E21EA"
+					silent: true
+					title: "13500 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4s
+							}]
+						}
+					}
+					id: "05704C868E5A6025"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
+			subtitle: "Endventure"
+			tasks: [{
+				id: "27EE139609297829"
+				item: {
+					Count: 1
+					id: "customizableelytra:elytra_wing"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Customizable Elytras"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F0D75895E507FFD"]
+			description: ["&eEnderiophages&r can be found where &echorus fruit grows&r. These things spread &edisease&r and should be taken care of as soon as possible!"]
+			id: "30FA1CCB6BBA7125"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 12500"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "09276F91256B5A16"
+				silent: true
+				title: "12500 Experience"
+				type: "command"
+			}]
+			subtitle: "Endventure"
+			tasks: [{
+				entity: "alexsmobs:enderiophage"
+				icon: "alexsmobs:enderiophage_rocket"
+				id: "25D5719253570957"
+				type: "kill"
+				value: 32L
+			}]
+			title: "Viral Disaster"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["707C5CDB48B487F8"]
+			description: ["&eShriek Worms&r are terrifying creatures found on &eThe Otherside&r. Should you &estep on Infested Sculk&r, you'll be met with a surprise."]
+			id: "081AD91A178C3A3F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 15500"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "4C937CC2C36181EE"
+				silent: true
+				title: "15500 Experience"
+				type: "command"
+			}]
+			subtitle: "Deeper and Darker"
+			tasks: [{
+				entity: "deeperdarker:shriek_worm"
+				icon: {
+					Count: 1
+					id: "deeperdarker:warden_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0BAB29DF028FA3B2"
+				type: "kill"
+				value: 16L
+			}]
+			title: "Death Traps"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["707C5CDB48B487F8"]
+			description: [
+				"&eStalkers&r are creepy and powerful entities that can be found on &eThe Otherside&r. They're attracted to harsh noises, so if you're looking to find one, maybe &ebreak some jars&r?"
+				""
+				"If you're not having any luck, consider the &eGateway of Darkness&r."
+			]
+			id: "6DEBCC2B2DAE67AD"
+			rewards: [
+				{
+					id: "45F0FAFA0E031718"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Money"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 15750"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "23D7F4B1237A1E14"
+					silent: true
+					title: "15750 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4s
+							}]
+						}
+					}
+					id: "7D8679A30B65CDA7"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Deeper and Darker"
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				icon: "alexsmobs:froststalker_horn"
+				id: "0E11112090553BD8"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Uncanny Presence"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["707C5CDB48B487F8"]
+			description: ["In &eEchoing Forests&r, you'll find creatures that have lost their souls. Once thought to be human, now a husk of its former self."]
+			id: "0C894EBBB7C6F380"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 15500"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "2902961DDA1F44C2"
+				silent: true
+				title: "15500 Experience"
+				type: "command"
+			}]
+			subtitle: "Deeper and Darker"
+			tasks: [{
+				entity: "deeperdarker:shattered"
+				icon: {
+					Count: 1
+					id: "deeperdarker:warden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "25B6045192B3F552"
+				type: "kill"
+				value: 48L
+			}]
+			title: "The Hopeless"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["30FA1CCB6BBA7125"]
+			description: ["Catch the Ender Flu effect. Cure it by eating many &eChorus Fruit&r or &edrinking milk&r. The clock is ticking..."]
+			id: "010FF3BF22DA9AED"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 13000"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "5AA6257209EEFA31"
+					silent: true
+					title: "13000 Experience"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "40C03DB4E7F7BAE8"
+					item: "lightmanscurrency:coin_gold"
+					title: "Money"
+					type: "item"
+				}
+			]
+			subtitle: "Endventure"
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/ender_flu"
+				criterion: ""
+				id: "6EA193412C2E12A0"
+				type: "advancement"
+			}]
+			title: "A Race Against the Clock"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["201E621A52FFCE65"]
+			description: [
+				"Within Mine and Slash Maps, there are additional events that can occur."
+				""
+				"&eProphecy Event&r: find altars in Maps that can apply curses to yourself. The more curses you have on yourself, the more &eProphecy Coins&r you can earn from killing mobs. Use these Coins to purchase rewards!"
+				""
+				"&eHarvest Event&r: find portals in Maps that will bring you to a new Harvest room. Kill mobs in these rooms to earn seeds and locked boxes. Use the seeds to unlock the boxes for specialized loot!"
+				""
+				"&n&cUber Bosses&r&r"
+				""
+				"Additionally, mobs in Maps have a chance to drop &eUber Fragments&r, which when combined turn into &eUber Maps&r. You can use these Uber Maps to face &eUber Bosses&r - very powerful creatures that drop lots of loot. They can even drop speciall &eUnique Jewels&r!"
+				""
+				"The pool of Uber Bosses consist of old bosses you faced during the campaign, and some new ones!"
+			]
+			icon: "minecraft:paper"
+			id: "28759D610FF8B6BE"
+			rewards: [
+				{
+					count: 2
+					id: "6B0FA348EE83C6CD"
+					item: "mmorpg:currency/map_rarity_upgrade"
+					type: "item"
+				}
+				{
+					id: "6AF6B32CD6AC5B32"
+					item: "mmorpg:uber/frag_uber1_tier0"
+					type: "item"
+				}
+			]
+			subtitle: "Lost Page"
+			tasks: [{
+				id: "719DDCB789B36A34"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "More Map Content"
+			x: 9.0d
+			y: 0.0d
+		}
+	]
+	subtitle: [
+		"Lv. 50-65"
+		"Lv. 60-75"
+	]
+	title: "Act V"
+}

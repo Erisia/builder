@@ -1,0 +1,30 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "M#M",
+    "GAG",
+    "MCM"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "G": {
+      "item": "minecraft:packed_ice"
+    },
+	"A": {
+      "item": "minecraft:ender_eye"
+    },
+	"M": {
+      "item": "mmorpg:stone/2"
+    },
+	"C": {
+      "item": "lightmanscurrency:coin_emerald"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:ice_maze"
+}

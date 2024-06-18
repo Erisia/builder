@@ -1,0 +1,38 @@
+
+#Settings for Artifacts
+[artifacts]
+
+	[artifacts.artifact]
+
+		[artifacts.artifact.enchantments]
+			#Set to true or false to enable or disable effects
+			enabled = true
+
+	[artifacts.penetrating]
+
+		[artifacts.penetrating.strike]
+
+			[artifacts.penetrating.strike.protection]
+				#Set to % of damage-reduction from Protection Enchantments that should be ignored, keep in range of 0-1.00
+				#Range: 0.0 ~ 1.0
+				ignorance = 0.33000001311302185
+
+	[artifacts.soaring]
+
+		[artifacts.soaring.winds]
+			#Set to movement speed multiplier, that should be applied when starting to fly
+			#Range: 0.0 ~ 1.0
+			boost = 0.6
+
+#Settings for the Botanist Villager
+[fossils]
+
+	[fossils.ocelot]
+
+		[fossils.ocelot.fossil]
+
+			[fossils.ocelot.fossil.flee]
+				#Range in Blocks that the Fossil scares Creepers away
+				#Range: 10 ~ 50
+				range = 20
+

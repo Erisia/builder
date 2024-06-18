@@ -1,0 +1,28 @@
+{
+  "dmg_multi": 1.5,
+  "exp_multi": 1.5,
+  "hp_multi": 4.0,
+  "identifier": "stalwart_dungeons:awful_ghast",
+  "loot_multi": 2.0,
+  "max_lvl": 1000000,
+  "min_lvl": 1,
+  "set_health_damage_override": false,
+  "set_rar": "RARE",
+  "stat_multi": 1.5,
+  "stats": {
+    "stats": [
+      {
+        "type": "flat",
+        "max": 50.0,
+        "min": 50.0,
+        "stat": "phys_to_fire"
+      },
+      {
+        "type": "flat",
+        "max": 30.0,
+        "min": 30.0,
+        "stat": "elemental_resist"
+      }
+	]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "base_gear": "ring",
+  "guid": "ele_gamble",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "",
+  "min_tier": 80,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 1.0,
+      "stat": "health"
+    },
+    {
+      "type": "FLAT",
+      "max": 35.0,
+      "min": -25.0,
+      "stat": "fire_resist"
+    },
+    {
+      "type": "FLAT",
+      "max": 35.0,
+      "min": -25.0,
+      "stat": "water_resist"
+    },
+    {
+      "type": "FLAT",
+      "max": 35.0,
+      "min": -25.0,
+      "stat": "lightning_resist"
+    },
+    {
+      "type": "FLAT",
+      "max": 35.0,
+      "min": -25.0,
+      "stat": "chaos_resist"
+    },
+    {
+      "type": "FLAT",
+      "max": 5.0,
+      "min": -3.0,
+      "stat": "magic_find"
+    }
+  ],
+  "weight": 1000
+}

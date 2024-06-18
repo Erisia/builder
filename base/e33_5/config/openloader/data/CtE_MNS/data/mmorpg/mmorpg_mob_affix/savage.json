@@ -1,0 +1,15 @@
+{
+  "type": "prefix",
+  "format": "DARK_AQUA",
+  "icon": "",
+  "id": "savage",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 25.0,
+      "min": 25.0,
+      "stat": "total_damage"
+    }
+  ],
+  "weight": 1000
+}

@@ -1,0 +1,25 @@
+{
+  "base": {
+    "max": 28.5,
+    "min": 18.0
+  },
+  "base_scaling_type": "NORMAL",
+  "cap_to_wep_dmg": 1000.0,
+  "dmg_effectiveness": {
+    "multi": {
+      "max": 2.5,
+      "min": 1.5
+    },
+    "stat": "health"
+  },
+  "id": "shooting_star",
+  "stat_scalings": [
+    {
+      "multi": {
+        "max": 2.5,
+        "min": 1.5
+      },
+      "stat": "weapon_damage"
+    }
+  ]
+}

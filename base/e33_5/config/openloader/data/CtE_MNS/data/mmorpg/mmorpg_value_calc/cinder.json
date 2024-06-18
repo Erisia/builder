@@ -1,0 +1,25 @@
+{
+  "base": {
+    "max": 1.125,
+    "min": 0.25
+  },
+  "base_scaling_type": "NORMAL",
+  "cap_to_wep_dmg": 1000.0,
+  "dmg_effectiveness": {
+    "multi": {
+      "max": 0.4,
+      "min": 0.3
+    },
+    "stat": "health"
+  },
+  "id": "cinder",
+  "stat_scalings": [
+    {
+      "multi": {
+        "max": 0.4,
+        "min": 0.3
+      },
+      "stat": "weapon_damage"
+    }
+  ]
+}

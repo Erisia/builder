@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "create:iron_sheet"
+    },
+    "B": {
+      "item": "mmorpg:stone/1"
+    },
+    "C": {
+      "item": "minecraft:piston"
+    },
+    "D": {
+      "item": "sophisticatedstorage:upgrade_base"
+    },
+    "E": {
+      "tag": "forge:dusts/redstone"
+    },
+    "F": {
+      "item": "create:depot"
+    }
+  },
+  "result": {
+    "item": "sophisticatedstorage:compacting_upgrade"
+  }
+}

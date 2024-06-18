@@ -1,0 +1,66 @@
+# Ignores letter case when providing tag name suggestions.
+# Default value: true
+ignore_letter_case = true
+
+# Show tag type next to its name in suggestion list.
+# Default value: true
+show_tag_types = true
+
+# Suggests 1b/0b instead of true/false for boolean value.
+# Default value: false
+short_boolean = false
+
+# Hides Forge specific tags. Requires removing "./minecraft/cache/nbt_ac" and game restart to take effect.
+# Default value: true
+hide_forge_tags = true
+
+# Ignores the "minecraft:" command prefix. Useful when using with plugins which put Minecraft commands under this namespace.
+# Default value: true
+support_command_namespace = true
+
+# Uses new thread to load suggestions during Minecraft loading.
+# Default value: true
+use_new_thread = true
+
+# Loads suggestions by using disassembler on "load" methods of entities and block entities.
+# Default value: true
+use_disassembler = true
+
+# Loads suggestions from resource files (required to load item tags and tag predictions).
+# Default value: true
+load_from_resources = true
+
+# Enables suggestion caching.
+# Default value: true
+use_cache = true
+
+# Maximum number of cached Minecraft instances. Use -1 to disable the limit.
+# Default value: 32
+max_cached_instances = 32
+
+# Limit of printed stack traces for exceptions.
+# -1 - Unlimited
+#  0 - Stack traces disabled
+# Default value: 6
+max_stack_traces = 6
+
+# Enables additional messages and checks useful for debugging.
+# Default value: false
+debug_mode = false
+
+# Delays suggestion loading to better measure time it takes (value in milliseconds, recommended to set to a few thousand).
+# Default value: 0
+debug_sleep = 0
+
+# Saves suggestions to file - ".minecraft/nbt_ac_output.txt"
+# 0 - Disabled
+# 1 - Enabled
+# 2 - Enabled and sorted (easier for comparing)
+# Other values will be treated as 0.
+# Default value: 0
+save_suggestions = 0
+
+# Shows settings GUI after pressing realms button. It isn't reset to default value by GUI reset button!
+# Default value: false
+debug_config_screen = false
+

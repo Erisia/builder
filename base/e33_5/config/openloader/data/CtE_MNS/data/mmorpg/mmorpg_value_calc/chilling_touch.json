@@ -1,0 +1,25 @@
+{
+  "base": {
+    "max": 8.0,
+    "min": 1.0
+  },
+  "base_scaling_type": "NORMAL",
+  "cap_to_wep_dmg": 1000.0,
+  "dmg_effectiveness": {
+    "multi": {
+      "max": 2.3,
+      "min": 1.9
+    },
+    "stat": "health"
+  },
+  "id": "chilling_touch",
+  "stat_scalings": [
+    {
+      "multi": {
+        "max": 2.3,
+        "min": 1.9
+      },
+      "stat": "weapon_damage"
+    }
+  ]
+}

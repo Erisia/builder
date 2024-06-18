@@ -1,0 +1,32 @@
+{
+  "base_gear": "axe",
+  "guid": "limbsplit",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "",
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 65.0,
+      "min": 60.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 15.0,
+      "stat": "inc_aoe"
+    },
+    {
+      "type": "FLAT",
+      "max": 7.0,
+      "min": 5.0,
+      "stat": "strength"
+    }
+  ],
+  "weight": 1000
+}

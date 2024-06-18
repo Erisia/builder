@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger",
+    "cuisinedelight:cuisine_skillet"
+  ],
+  "incompatible": []
+}

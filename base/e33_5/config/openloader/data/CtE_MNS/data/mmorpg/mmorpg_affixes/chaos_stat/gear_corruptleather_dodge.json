@@ -1,0 +1,27 @@
+{
+  "type": "chaos_stat",
+  "eye_aura_req": "",
+  "guid": "gear_corruptleather_dodge",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [
+          "dodge_stat"
+        ],
+        "req_type": "INCLUDES_ANY"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "PERCENT",
+      "max": 10.0,
+      "min": 10.0,
+      "stat": "dodge"
+    }
+  ],
+  "weight": 1000
+}

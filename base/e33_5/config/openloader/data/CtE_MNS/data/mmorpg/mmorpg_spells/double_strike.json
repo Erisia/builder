@@ -1,0 +1,150 @@
+{
+  "attached": {
+    "entity_components": {},
+    "on_cast": [
+      {
+        "acts": [
+          {
+            "type": "sound",
+            "map": {
+              "pitch": 1.25,
+              "sound": "minecraft:entity.player.attack.sweep",
+              "volume": 1.0
+            }
+          }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+          {
+            "type": "sword_sweep_particles",
+            "map": {}
+          }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+		  {
+			"type": "particles_in_radius",
+			"map": {
+			  "height": 0.5,
+			  "motion": "None",
+			  "particle_count": 50.0,
+			  "particle_type": "minecraft:crit",
+			  "radius": 2.0,
+			  "shape": "CIRCLE_2D",
+			  "y_rand": 0.1
+			}
+		  }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+          {
+            "type": "damage",
+            "map": {
+              "element": "Physical",
+              "value_calculation": "double_strike"
+            }
+          }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "per_entity_hit": [],
+        "targets": [
+          {
+            "type": "in_front",
+            "map": {
+              "distance": 2.0,
+              "en_predicate": "enemies",
+              "width": 3.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "config": {
+    "aggro_radius": 10,
+    "cast_time_ticks": 6,
+    "castingWeapon": "MELEE_WEAPON",
+    "charge_name": "",
+    "charge_regen": 0,
+    "charges": 0,
+    "cooldown_ticks": 40,
+    "ene_cost": {
+      "max": 10.0,
+      "min": 8.0
+    },
+    "imbues": 0,
+    "mana_cost": {
+      "max": 0.0,
+      "min": 0.0
+    },
+    "style": "dex",
+    "summonType": "NONE",
+    "summon_basic_atk": "pet_basic",
+    "swing_arm": true,
+    "tags": {
+      "tags": [
+      "area",
+      "damage",
+      "weapon_skill",
+	  "melee",
+	  "physical",
+	  "cast_speed_to_cooldown"
+      ]
+    },
+    "times_to_cast": 2,
+    "tracking_radius": 5,
+    "tracks": "enemies"
+  },
+  "default_lvl": 0,
+  "disabled_dims": [],
+  "effect_tip": "",
+  "identifier": "double_strike",
+  "loc_name": "Double Strike",
+  "lvl_based_on_spell": "",
+  "manual_tip": true,
+  "max_lvl": 16,
+  "min_lvl": 20,
+  "show_other_spell_tooltip": "",
+  "statsForSkillGem": [
+    {
+      "type": "PERCENT",
+      "max": 160.0,
+      "min": 10.0,
+      "stat": "critical_hit"
+    }
+  ],
+  "weight": 1000
+}

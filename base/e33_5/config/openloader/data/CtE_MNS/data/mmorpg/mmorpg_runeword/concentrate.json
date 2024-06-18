@@ -1,0 +1,38 @@
+{
+  "id": "concentrate",
+  "runes": [
+    "eno",
+    "owd",
+    "yun"
+  ],
+  "slots": [
+    "staff",
+	"dagger"
+  ],
+  "stats": [
+    {
+      "type": "PERCENT",
+      "max": 50.0,
+      "min": 40.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 35.0,
+      "min": 30.0,
+      "stat": "area_spell_dmg"
+    },
+    {
+      "type": "FLAT",
+      "max": 25.0,
+      "min": 20.0,
+      "stat": "accuracy"
+    },
+    {
+      "type": "FLAT",
+      "max": -20.0,
+      "min": -25.0,
+      "stat": "inc_aoe"
+    }
+  ]
+}

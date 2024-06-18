@@ -1,0 +1,38 @@
+{
+  "affix_rarity_weight": 1000,
+  "announce_in_chat": false,
+  "favor_loot_multi": 1.05,
+  "favor_needed": 250,
+  "guid": "rare",
+  "higher_rar": "epic",
+  "is_unique_item": false,
+  "item_model_data_num": 3,
+  "item_tier": 2,
+  "item_tier_power": 1.3,
+  "item_value_multi": 1.3,
+  "lootable_gear_tier": "MID",
+  "map_lives": 5,
+  "map_resist_req": 20,
+  "map_tiers": {
+    "max": 40,
+    "min": 21
+  },
+  "map_xp_multi": 1.12,
+  "max_spell_links": 3,
+  "min_affixes": 3,
+  "min_lvl": 0,
+  "min_map_rarity_to_drop": "common",
+  "pot": {
+    "total": 25
+  },
+  "sockets": {
+    "max": 1,
+    "min": 0
+  },
+  "stat_percents": {
+    "max": 55,
+    "min": 40
+  },
+  "text_format": "AQUA",
+  "weight": 81
+}

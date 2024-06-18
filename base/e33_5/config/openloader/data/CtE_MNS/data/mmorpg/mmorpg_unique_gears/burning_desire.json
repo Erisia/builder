@@ -1,0 +1,38 @@
+{
+  "base_gear": "plate_chest",
+  "guid": "burning_desire",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "",
+  "min_tier": 20,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 60.0,
+      "min": 50.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "FLAT",
+      "max": 25.0,
+      "min": 15.0,
+      "stat": "all_fire_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 25.0,
+      "min": 20.0,
+      "stat": "burn_chance"
+    },
+    {
+      "type": "FLAT",
+      "max": -25.0,
+      "min": -25.0,
+      "stat": "cdr"
+    }
+  ],
+  "weight": 1000
+}

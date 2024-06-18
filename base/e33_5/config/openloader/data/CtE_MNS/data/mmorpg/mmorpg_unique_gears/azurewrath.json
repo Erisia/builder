@@ -1,0 +1,38 @@
+{
+  "base_gear": "sword",
+  "guid": "azurewrath",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "",
+  "min_tier": 60,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 62.5,
+      "min": 55.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 40.0,
+      "min": 40.0,
+      "stat": "attack_speed"
+    },
+    {
+      "type": "FLAT",
+      "max": 25.0,
+      "min": 20.0,
+      "stat": "plus_phys_to_water"
+    },
+    {
+      "type": "FLAT",
+      "max": 25.0,
+      "min": 15.0,
+      "stat": "aura_effect"
+    }
+  ],
+  "weight": 1000
+}

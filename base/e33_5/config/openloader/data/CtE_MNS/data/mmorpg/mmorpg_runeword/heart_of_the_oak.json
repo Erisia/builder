@@ -1,0 +1,50 @@
+{
+  "id": "heart_of_the_oak",
+  "runes": [
+    "wir",
+    "mos",
+    "har",
+	"fey"
+  ],
+  "slots": [
+    "hammer"
+  ],
+  "stats": [
+    {
+      "type": "PERCENT",
+      "max": 60.0,
+      "min": 50.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 2.0,
+      "min": 1.0,
+      "stat": "plus_lvl_all_spells"
+    },
+    {
+      "type": "FLAT",
+      "max": 15.0,
+      "min": 10.0,
+      "stat": "accuracy"
+    },
+    {
+      "type": "FLAT",
+      "max": 3.0,
+      "min": 2.0,
+      "stat": "manasteal"
+    },
+    {
+      "type": "PERCENT",
+      "max": 10.0,
+      "min": 10.0,
+      "stat": "mana"
+    },
+    {
+      "type": "FLAT",
+      "max": 30.0,
+      "min": 20.0,
+      "stat": "elemental_resist"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor",
+    "mutantmonsters:mutant_skeleton_skull",
+    "$minecraft:universal_enchants_horse_armor"
+  ],
+  "incompatible": [
+    "minecraft:blast_protection",
+    "minecraft:fire_protection"
+  ]
+}

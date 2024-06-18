@@ -1,0 +1,28 @@
+{
+  "type": "tool",
+  "eye_aura_req": "",
+  "guid": "mining_block_reach",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [
+          "tool",
+          "mining_tool"
+        ],
+        "req_type": "INCLUDES_ANY"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 100.0,
+      "min": 25.0,
+      "stat": "block_reach"
+    }
+  ],
+  "weight": 250
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "m": {
+      "tag": "forge:ingots/iron"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " mm",
+    " m ",
+    "s  "
+  ],
+  "result": {
+    "item": "nethersdelight:iron_machete"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,16 @@
+{
+  "affected": "Players",
+  "id": "reduced_aoe",
+  "map_resist": "Physical",
+  "map_resist_bonus_needed": 0,
+  "req": "",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": -60.0,
+      "min": -20.0,
+      "stat": "inc_aoe"
+    }
+  ],
+  "weight": 1000
+}

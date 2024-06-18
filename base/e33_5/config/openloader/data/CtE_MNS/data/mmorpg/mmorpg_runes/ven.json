@@ -1,0 +1,31 @@
+{
+  "id": "ven",
+  "item_id": "mmorpg:runes/ven",
+  "min_lvl_multi": 0.6,
+  "on_armor_stats": [
+    {
+      "type": "FLAT",
+      "max": 8.0,
+      "min": 8.0,
+      "stat": "spirit_cost"
+    }
+  ],
+  "on_jewelry_stats": [
+    {
+      "type": "FLAT",
+      "max": 8.0,
+      "min": 8.0,
+      "stat": "spirit_cost"
+    }
+  ],
+  "on_weapons_stats": [
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 10.0,
+      "stat": "heal_effect_on_self"
+    }
+  ],
+  "tier": 4,
+  "weight": 100
+}

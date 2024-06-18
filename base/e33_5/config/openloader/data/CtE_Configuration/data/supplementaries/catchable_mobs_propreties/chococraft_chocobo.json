@@ -1,0 +1,12 @@
+{
+  "height_increment": 0.0,
+  "owners": [
+    "chococraft:chocobo"
+  ],
+  "allowed_in":{
+	  "cage": {
+		  "allow":true
+	  }
+  },
+  "width_increment": 0.0
+}

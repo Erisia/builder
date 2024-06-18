@@ -1,0 +1,92 @@
+default:
+minecraft:zombie
+minecraft:skeleton
+minecraft:slime
+minecraft:husk
+minecraft:cave_spider
+minecraft:spider
+minecraft:endermite
+*minecraft:blaze
+minecraft:stray
+minecraft:pillager
+minecraft:vindicator
+minecraft:witch
+*minecraft:evoker
+
+forest:
+blue_skies:emberback
+blue_skies:infested swarmer
+blue_skies:nyctofly
+blue_skies:venom_spider (spider)
+minecraft:cave_spider
+minecraft:spider
+*alexsmobs:warped_mosco
+*minecraft:witch
+minecraft:slime
+
+otherworldly:
+undergarden:forgotten
+undergarden:rotbeast
+undergarden:rotwalker
+riskofrain_mobs:lemurian_entity
+realmrpg_wyrms:ender_wyrm (ranged)
+deeperdarker:shriek_worm
+*deeperdarker:stalker
+deeperdarker:shattered (undead)
+minecraft:endermite
+monsterplus:glow_skeleton (undead)
+monsterplus:crystal_zombie (undead)
+*monsterplus:abyssologer
+
+fire:
+realmrpg_wyrms:red_wyrmn (ranged)
+*friendsandfoes:wildfire (ranged)
+monsterplus:lava_squid
+minecraft:wither_skeleton
+minecraft:blaze
+minecraft:zombified_piglin
+minecraft:magma_cube
+*illagerinvasion:firecaller
+
+water/frost:
+aquamirae:tortured_soul (undead)
+*aquamirae:maw
+*aquamirae:captain_cornelia (undead)
+blue_skies:armored_frost_spirit
+blue_skies:crynocerous
+blue_skies:diophyde_prowler
+blue_skies:polargeist (undead)
+minecraft:stray
+minecraft:drowned
+
+illagers:
+minecraft:pillager
+minecraft:witch
+minecraft:vindicator
+minecraft:evoker
+*minecraft:illusioner
+minecraft:ravager
+illagerinvasion:basher
+illagerinvasion:marauder
+illagerinvasion:provoker
+illagerinvasion:archivist
+illagerinvasion:sorcerer
+illagerinvasion:inquisitor
+
+ubers:
+mutantmonsters:mutant_enderman
+mutantmonsters:mutant_creeper
+mutantmonsters:mutant_skeleton
+mutantmonsters:mutant_zombie
+illagerinvasion:invoker
+monsterplus:mother_lava_squid
+stalwart_dungeons:awful_ghast
+stalwart_dungeons:nether_keeper
+riskofrain_mobs:stone_golem_entity
+undergarden:forgotten_guardian
+blue_skies:starlit_crusher
+blue_skies:arachnarch
+blue_skies:summoner
+blue_skies:alchemist
+minecraft:warden
+minecraft:wither

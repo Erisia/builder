@@ -1,0 +1,16 @@
+{
+  "data": {
+    "add_to": "dodge",
+    "adder_stat": "magic_shield",
+    "base": 0.0,
+    "ele": "Physical",
+    "id": "dodge_per_10_magic_shield",
+    "max": 2.14748365E9,
+    "min": 0.0,
+    "name": "§a[VAL1] §2❈ Dodge Rating§7 per 10 §d❤ Magic Shield§7",
+    "per_amount": 10,
+    "perc": true,
+    "scale": "NONE"
+  },
+  "ser": "more_x_per_y"
+}

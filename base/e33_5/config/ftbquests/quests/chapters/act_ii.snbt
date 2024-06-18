@@ -1,0 +1,1130 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "act_ii"
+	group: "1E3C4B5FFAE48A39"
+	icon: "minecraft:nether_star"
+	id: "5381722ABA7D14DD"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"18E09A4B9FC1B43F"
+				"29CADE48F14D6436"
+			]
+			description: ["Well these &eLemurians&r certainly don't belong here..."]
+			id: "52DAC9E8213D2624"
+			rewards: [
+				{
+					id: "545891FC6956AAC5"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":15,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Rare Gear Loot Chest (Lv. 15)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 1250"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "0D1D6AA7D64C4EE8"
+					silent: true
+					title: "1250 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Risk of Rain"
+			tasks: [{
+				entity: "riskofrain_mobs:lemurian_entity"
+				icon: "nightlights:octopus_purple"
+				id: "13BF61F2B380DC9E"
+				type: "kill"
+				value: 48L
+			}]
+			title: "Otherworldly Beings II"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["29CADE48F14D6436"]
+			description: [
+				"Mosquitoes are annoying enough in the Overworld... These things are huge, they stick to your face, and are generally difficult to kill!"
+				""
+				"These hideous, mutant flying insects are found in the &eforests of The Nether&r."
+			]
+			id: "322725A82ADAA810"
+			rewards: [
+				{
+					count: 8
+					id: "6846F506D4DBBC18"
+					item: {
+						Count: 1
+						id: "mmorpg:potion/health/2"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					title: "Rare Restoration Potions"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 1250"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "124DB96872E3BE33"
+					silent: true
+					title: "1250 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Crimson Forests"
+			tasks: [{
+				entity: "alexsmobs:crimson_mosquito"
+				icon: "alexsmobs:mosquito_proboscis"
+				id: "3EADF779EE3B6C1A"
+				type: "kill"
+				value: 6L
+			}]
+			title: "Bloody Pests"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["45535AECCE43183A"]
+			description: ["Looks like your intuition was correct. The Nether Fortresses are crawling with weird enemies. The &eWither Skeleton&r seems to drop fragments of its skull, which seem to emanate some energy."]
+			id: "63F4CAF1CA065949"
+			rewards: [
+				{
+					id: "33816632385BF1A6"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":25,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Rare Gear Loot Chest (Lv. 25)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 2000"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "6F4E216D74BB3692"
+					silent: true
+					title: "2000 Experience"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Main Quest"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "672F0F6E02A6D254"
+				type: "kill"
+				value: 16L
+			}]
+			title: "Skull Collectors"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18E09A4B9FC1B43F"]
+			description: [
+				"It seems not all creatures here are innately hostile. But we need to show them we mean business."
+				""
+				"It's time to take care of some &ePiglins&r and some &eHoglins&r. You'll find them almost everywhere."
+			]
+			icon: "minecraft:piglin_head"
+			id: "29CADE48F14D6436"
+			rewards: [
+				{
+					id: "27D034D602B200EA"
+					item: "lightmanscurrency:coin_gold"
+					title: "Money"
+					type: "item"
+				}
+				{
+					id: "69DCE5D67CC781CF"
+					item: "mmorpg:stone/2"
+					title: "Rare Stone"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 1250"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "01CC496042A47CC6"
+					silent: true
+					title: "1250 Experience"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Main Quest"
+			tasks: [
+				{
+					entity: "minecraft:piglin"
+					icon: "minecraft:piglin_head"
+					id: "0709550781191C90"
+					type: "kill"
+					value: 12L
+				}
+				{
+					entity: "minecraft:hoglin"
+					icon: "nethersdelight:hoglin_trophy"
+					id: "6ACD5F7F9447DCCB"
+					type: "kill"
+					value: 4L
+				}
+			]
+			title: "Otherworldly Beings"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45535AECCE43183A"]
+			description: [
+				"In The Nether, you may come across aggressive, fiery creatures. While the &eWyrm&r and &eBlaze&r seem powerful, it is almost certain that there are more powerful magma creatures given the size and depth of The Nether."
+				""
+				"It might be best to be prepared against fire. Try finding and vanquishing these mobs to test yourself."
+			]
+			icon: "minecraft:blaze_powder"
+			id: "1D01AD334C7C70F1"
+			rewards: [
+				{
+					count: 5
+					id: "1E1B2C1F4FA4CF20"
+					item: "lightmanscurrency:coin_iron"
+					title: "Money"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 1750"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "3544639BC2E3A192"
+					silent: true
+					title: "1750 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Fiery Adventure"
+			tasks: [
+				{
+					entity: "minecraft:blaze"
+					icon: "minecraft:blaze_rod"
+					id: "0B92DB0E2C3ACA8E"
+					type: "kill"
+					value: 16L
+				}
+				{
+					entity: "realmrpg_wyrms:red_wyrm"
+					icon: "minecraft:blaze_powder"
+					id: "123E1ECFC39D0945"
+					type: "kill"
+					value: 8L
+				}
+			]
+			title: "Fiery Foes"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["277A8C4C5D50ED00"]
+			description: [
+				"Surely you've already run into these flying critters... Something tells you that there are hundreds of these lurking around every corner."
+				""
+				"They must come from something..."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:tipped_arrow"
+				tag: {
+					Potion: "alexsmobs:lava_vision"
+				}
+			}
+			id: "1EA8FC97142B16A7"
+			rewards: [
+				{
+					count: 3
+					id: "5486B8641330278A"
+					item: "mmorpg:soul_extractor/rare"
+					title: "Rare Gear Soul Extractors"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 2250"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "2604E2CD0966E3DD"
+					silent: true
+					title: "2250 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Fiery Adventure"
+			tasks: [{
+				entity: "monsterplus:lava_squid"
+				icon: {
+					Count: 1
+					id: "minecraft:tipped_arrow"
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+				id: "6EC7ADFF37CD9E71"
+				type: "kill"
+				value: 32L
+			}]
+			title: "Flame Spitters"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1EA8FC97142B16A7"]
+			description: [
+				"This is that &ething.&r"
+				""
+				"The Mother Lava Squid Has:"
+				"&b+50% Physical to Fire Damage&r"
+				"&a5% Chance of Dropping Net Rune&r"
+			]
+			icon: "simplehats:burning_m_bison"
+			id: "05AD0B9A77F0325F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "535DAF2AABB78097"
+					table_id: 1687722018226746788L
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 2500"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "79DBFB1E7228F818"
+					silent: true
+					title: "2500 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4s
+							}]
+						}
+					}
+					id: "3669A04AB95A4666"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Fiery Adventure"
+			tasks: [{
+				entity: "monsterplus:mother_lava_squid"
+				icon: "simplehats:burning_m_bison"
+				id: "01A75F2295A67935"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Mother"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["63F4CAF1CA065949"]
+			description: [
+				"Place &eSoul Sand&r in a T shape, topped with &e3 Wither Skeleton Skulls&r to summon the &eWither.&r"
+				""
+				"This boss is very difficult, as it requires you to have a projectile weapon or spell to take care of its first phase. In the second phase, be prepared for the Wither to be up close and personal..."
+				""
+				"&cThe Wither always spawns at level 30.&r"
+				""
+				"The Wither Has:"
+				"&b+50% Physical to Fire Damage&r"
+				"&b+20% Elemental Resistance&r"
+				"&a10% Chance of Dropping Net Rune&r"
+			]
+			id: "114D74DF8284ACC3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "77CCFAF579DA3451"
+					table_id: 2150601229175429082L
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 7500"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "2D5BE1067A169265"
+					silent: true
+					title: "7500 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4s
+							}]
+						}
+					}
+					id: "351D370BEAFABF0E"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Main Quest"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_rose"
+				id: "17530C3BC3EA0BB2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Dark Ritual"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["277A8C4C5D50ED00"]
+			description: [
+				"Well, here is one of those big bads you've been tasked with removing. The &eWildfire&r is a powerful foe - you will need to be prepared."
+				""
+				"The plates spinning around the &eWildfire&r need to be popped off before it can receive any basic attack damage. You can still damage it with spells, but if you want to mow it down with basic attacks, you will need to &estrip it of its armor&r!"
+				""
+				"You can find &eWildfire&r in &eCitadels.&r Alternatively, you can use a &eGateway of the Hellish Fortress&r."
+				""
+				"The Wildfire Has:"
+				"&b+50% Physical to Fire Damage&r"
+				"&b+25% Burn Chance&r"
+				"&a5% Chance of Dropping Net Rune&r"
+			]
+			id: "42A954877474A58F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "74422C75EF7AACE2"
+					table_id: 4329773747337249676L
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 2500"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "777824462105E261"
+					silent: true
+					title: "2500 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4s
+							}]
+						}
+					}
+					id: "6E3B5E2EB562F8D7"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Fiery Adventure"
+			tasks: [{
+				entity: "friendsandfoes:wildfire"
+				icon: {
+					Count: 1
+					id: "friendsandfoes:wildfire_crown"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6541A85B5313AC4F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ruler of Flames"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["114D74DF8284ACC3"]
+			description: [
+				"You've reported your achievements to the village guard and received your rewards. It's time to move onto the next dimension - the &eUndergarden&r. A moist, sticky, and mostly habitable dimension with some curious creatures... They might not be mutated, but it's worth taking a look anyway."
+				""
+				"Craft a &eCatalyst&r using your &eNether Star&r, and access the Undergarden by making a portal with &eStone Bricks in the same shape as the Nether Portal&r. Activate it using the Catalyst."
+			]
+			icon: "undergarden:catalyst"
+			id: "18D44E8B9226FB02"
+			rewards: [
+				{
+					count: 3
+					id: "281851AAA2C7DC0E"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 4500"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "4E1BE362EAFA93B2"
+					silent: true
+					title: "4500 Experience"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Main Quest"
+			tasks: [
+				{
+					id: "4F61CA02549D0BF8"
+					item: "undergarden:catalyst"
+					type: "item"
+				}
+				{
+					dimension: "undergarden:undergarden"
+					icon: "undergarden:depthrock"
+					id: "21C702BD4DC49479"
+					title: "Visit The Undergarden"
+					type: "dimension"
+				}
+			]
+			title: "Travel Catalyst"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"63F4CAF1CA065949"
+				"1D01AD334C7C70F1"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"You've seen in Nether Fortresses clues to another structure. \"The Citadel\" is etched into the walls of the Fortress in various locations. Maybe you can find the &eNether Citadel&r and investigate."
+				""
+				"&eRequires 1 dependency to be completed.&r"
+			]
+			id: "277A8C4C5D50ED00"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "08F3F886C4A30C65"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:basic/blaze"
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 2000"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "6FEAA0D1FF245EA5"
+					silent: true
+					title: "2000 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Fiery Adventure"
+			tasks: [{
+				advancement: "friendsandfoes:nether/find_citadel"
+				criterion: ""
+				id: "6E38DD14F2F2B52D"
+				type: "advancement"
+			}]
+			title: "A Castle in the Dark"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["322725A82ADAA810"]
+			description: ["If you find yourself dying frequently, you can craft a &eRespawn Anchor&r. To craft one, you will need to first find some &eCrying Obsidian&r!"]
+			id: "0A37821899EAE5B4"
+			rewards: [
+				{
+					count: 5
+					id: "297CFA167CCC5830"
+					item: "lightmanscurrency:coin_iron"
+					title: "Money"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 1750"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "46A8D34E894763CE"
+					silent: true
+					title: "1750 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Crimson Forests"
+			tasks: [{
+				advancement: "minecraft:nether/obtain_crying_obsidian"
+				criterion: ""
+				id: "79B01E4A345318F7"
+				type: "advancement"
+			}]
+			title: "Dried Up Tears"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["29CADE48F14D6436"]
+			description: [
+				"Occasionally, you'll see large, looming structures in The Nether. How is that possible? Is there civilization here?"
+				""
+				"Maybe finding one of these structures and exploring it will provide you clues on where to find powerful creatures."
+			]
+			id: "45535AECCE43183A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 1500"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "3F6B3CF23487B7AE"
+				silent: true
+				title: "1500 Experience"
+				type: "command"
+			}]
+			shape: "rsquare"
+			subtitle: "Main Quest"
+			tasks: [{
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				id: "110553725D320A0F"
+				type: "advancement"
+			}]
+			title: "Nether Fortress"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29CD881773D976E5"]
+			description: [
+				"If the &eCrimson Mosquito&r drinks the blood of a &eMungus&r which is coated in &eWarped Fungus&r, then the mosquito will turn blue and start to grow in size - eventually turning into a &eWarped Mosco&r."
+				""
+				"Alternatively, you can feed a &eCrimson Mosquito with Warped Mixture&r. Unsure where to get that? You can &epurchase it from the Trading Terminal&r!"
+				""
+				"That sounds like a very mutagenic process..."
+				""
+				"The Warped Mosco Has:"
+				"&b+40% Armor&r"
+				"&a10% Chance of Dropping Net Rune&r"
+			]
+			id: "37167129D6D6A280"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2B1573668D8133F2"
+					table_id: 2180584499743187208L
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 2000"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "55F31513DD96482E"
+					silent: true
+					title: "2000 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4s
+							}]
+						}
+					}
+					id: "6AF21C1384426C0B"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Crimson Forests"
+			tasks: [{
+				entity: "alexsmobs:warped_mosco"
+				icon: "alexsmobs:warped_muscle"
+				id: "3A77AF5EDDC8EE67"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Forest Chad"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1EA8FC97142B16A7"]
+			description: [
+				"&eGear Soul Extractors&r can be used on gear. You will get the \"stats\" of the gear back as a soul, destroying the base item in the process. You can then use the soul on another piece of gear!"
+				""
+				"Conversely, &eGear Soul Cleaners&r are used to get rid of the stats of the gear while keeping the base item."
+				""
+				"&eSocket Extractors&r are used to remove &egems&r from your socketed gear. There is no penalty for doing so, but the extractor will be consumed."
+			]
+			icon: "minecraft:paper"
+			id: "60D44B70BB06539B"
+			rewards: [
+				{
+					count: 5
+					id: "06397D5030906CA7"
+					item: "mmorpg:soul_extractor/uncommon"
+					title: "Uncommon Gear Soul Extractors"
+					type: "item"
+				}
+				{
+					id: "019842FB37A2A722"
+					item: "mmorpg:socket_extractor"
+					title: "Socket Extractor"
+					type: "item"
+				}
+				{
+					id: "14ADF13CF85D2BDC"
+					item: "mmorpg:soul_cleaner"
+					title: "Gear Soul Cleaner"
+					type: "item"
+				}
+			]
+			subtitle: "Lost Page"
+			tasks: [{
+				id: "5222FCC05296547A"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Gear Soul Extractors"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["114D74DF8284ACC3"]
+			description: [
+				"The &eAwful Ghast&r can be found in the &eAwful Dungeons&r of The Nether. Awful Dungeons can be found in &eSoul Sand Valleys and Warped Forests&r where they appear as floating circular structures. You can summon it by placing a &eNether Star in the altar&r."
+				""
+				"The &eNether Keeper&r is a powerful foe found in the &eKeeping Castle&r of The Nether. Keeping Castles can be found in &eNether Wastes and Crimson Forests underground&r. You can summon it by placing a &eNether Star in the altar&r."
+				""
+				"The Awful Ghast Has:"
+				"&b+50% Physical to Fire Damage&r"
+				"&b+30% Elemental Resistance&r"
+				"&a15% Chance of Dropping Net Rune&r"
+				""
+				"The Nether Keeper Has:"
+				"&b+50% Physical to Fire Damage&r"
+				"&b+40% Armor&r"
+				"&a15% Chance of Dropping Net Rune&r"
+			]
+			icon: "minecraft:ghast_tear"
+			id: "4B57F45BE30AA5F2"
+			rewards: [
+				{
+					id: "6D6B60B2B13A812C"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":30,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Rare Gear Loot Chest (Lv. 30)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 5000"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "603037141A03BB23"
+					silent: true
+					title: "5000 Experience"
+					type: "command"
+				}
+				{
+					id: "2B90EDAC5DA53732"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:hellish_fortress"
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4s
+							}]
+						}
+					}
+					id: "40EEEAB2C09C5FCA"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Big Baddies"
+			tasks: [
+				{
+					entity: "stalwart_dungeons:awful_ghast"
+					icon: "minecraft:ghast_tear"
+					id: "51228A86D700915C"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "stalwart_dungeons:nether_keeper"
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "70C7BE00D37C0827"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Defenders of the Nether"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4B57F45BE30AA5F2"
+				"42A954877474A58F"
+				"05AD0B9A77F0325F"
+				"37167129D6D6A280"
+				"3F61325EA08B6DAA"
+			]
+			description: ["Defeat all of the mini-bosses of Act II to complete this achievement. Then show it off with your hot new hat!"]
+			hide_dependency_lines: true
+			icon: "simplehats:fakefire"
+			id: "389CFAF34A692969"
+			rewards: [
+				{
+					id: "42E82408B8908750"
+					item: "simplehats:fakefire"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0C37E20EAA887073"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Achievement"
+			tasks: [{
+				id: "5285A75C058C5073"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Defeat All Act II Mini-Bosses!"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["63F4CAF1CA065949"]
+			description: [
+				"&eBounty Boards&r will generate &erandom quests&r for you to complete for specified rewards. Take out a &erequest&r from the board's interface and complete it within the &etime limit&r. "
+				""
+				"Craft &eDecrees&r to give new quest types to the board per decree type, which is randomly determined."
+			]
+			id: "0726C033448D45CE"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 1500"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "10A31C7272F8C27A"
+				silent: true
+				title: "1500 Experience"
+				type: "command"
+			}]
+			subtitle: "Mission Impossible"
+			tasks: [
+				{
+					id: "164D7BC468D2116C"
+					item: "bountiful:bountyboard"
+					type: "item"
+				}
+				{
+					id: "264FCC3C7B7531D6"
+					item: {
+						Count: 1
+						id: "bountiful:decree"
+						tag: {
+							"bountiful:decree_data": "{}"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["52DAC9E8213D2624"]
+			description: ["Magnets are incredibly useful for dungeons and exploring as they will siphon any dropped items towards you. Hold one in hand and shift-right click to configure its range and filters."]
+			id: "25F1A1475A6E6F1D"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 1000"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "35B0C955A02DD55F"
+				silent: true
+				title: "1000 Experience"
+				type: "command"
+			}]
+			subtitle: "Magnets"
+			tasks: [{
+				id: "2A9C784EEF5930E4"
+				item: {
+					Count: 1
+					id: "simplemagnets:basicmagnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "How Do They Work?"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["322725A82ADAA810"]
+			description: [
+				"&eLightman's Currency&r is a mod that adds those coins you get for killing things. You can use these coins to sometimes trade with villagers, purchase Support and Augment gems at the end of each Act, or set up shops and trade with other players."
+				""
+				"Even in singleplayer, you can purchase items from the trader. Craft to Exile 2 has some default items that can be bought regardless of world. Set up a &eTrading Terminal&r to check it out!"
+				""
+				"Examples of things you can buy:"
+				"- Mine and Slash Profession Materials"
+				"- Painting Palette and Music Sheet"
+				"- Rare Resources"
+				"- Common Blocks (Dirt, Stone, etc.)"
+				""
+				"If you're playing in multiplayer, you can even purchase &eFLAN claim blocks&r using the FLAN buy option."
+				""
+				"&oFor more information, refer to \"&eLightman's Currency&r\" quest in the &eJolly Cooperation&r chapter!&r"
+			]
+			id: "29CD881773D976E5"
+			rewards: [{
+				id: "2ECADA7B5FE7D7E1"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Currency"
+			tasks: [{
+				id: "165EE02B3146E124"
+				item: "lightmanscurrency:terminal"
+				type: "item"
+			}]
+			title: "Buying Happiness"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["114D74DF8284ACC3"]
+			description: [
+				"Finding it difficult to survive?"
+				""
+				"&eSpice of Life: Apple Pie Edition &rgives every food a &e\"diversity\"&r factor. Eating diverse foods gives &ebenefits,&r while sticking to a few foods won't. &eCheck your Food Book in your MineMenu (default: H)&r to check your diversity and current benefits. &eKeep eating different foods and increase your Health, Block Reach, Movement Speed, and more!&r"
+				""
+				"The &eLunchbag&r can be crafted and upgrades to &ehold all your food&r at once by &eshift right clicking&r with it in hand and right clicking to eat with it. It won't show up in JEI."
+			]
+			icon: "minecraft:paper"
+			id: "4AF5F24C4B770EA5"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 2500"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "1EDD4D6B60F3D507"
+					silent: true
+					title: "2500 Experience"
+					type: "command"
+				}
+				{
+					id: "238CA135B4FDF78D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 5
+							}
+						}
+						id: "solapplepie:lunchbag"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Lost Page"
+			tasks: [{
+				id: "109366712B105500"
+				type: "checkmark"
+			}]
+			title: "Spice of Life: Apple Pie Edition"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["114D74DF8284ACC3"]
+			description: ["Craft a &eTarget Dummy&r and place it down. You can hit it to view your damage per second!"]
+			id: "12B20146ED616389"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 1000"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "1E68A513E06D4438"
+				silent: true
+				title: "1000 Experience"
+				type: "command"
+			}]
+			subtitle: "DPS Meter"
+			tasks: [{
+				id: "201D6D22A54727D4"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["45535AECCE43183A"]
+			description: [
+				"&eCurrencies are Orbs&r that can be used directly on your Gear. They will modify your Gear and empower them."
+				""
+				"Each Gear comes with a set amount of &ePotential&r. Using a Currency on the Gear will reduce the Gear's &ePotential&r. Once the Potential has reached 0, you can no longer use Currency on it.'"
+				""
+				""
+				"Certain Currencies, such as the &eOrb of Chaos,&r can add very powerful effects, but may cause negative effects to your Gear. &cWith the Orb of Chaos, there is a 25% chance that your item will turn into Coal&r."
+			]
+			icon: "minecraft:paper"
+			id: "68EB4F5B367C3C47"
+			rewards: [{
+				id: "63FF5032A26E8ACD"
+				item: "mmorpg:currency/affix_tier_up_down"
+				type: "item"
+			}]
+			subtitle: "Lost Page"
+			tasks: [{
+				id: "5B5346C72F51EAD5"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "More On Currencies"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1D01AD334C7C70F1"]
+			description: [
+				"You may have noticed some &eNether&r mobs dealing more &cFire Damage.&r This in each dimension, mobs have an affinity towards a specific element. For example, in the Nether, mobs will deal a combination of Fire and Physical Damage."
+				""
+				"&oAlso note, this doesn't mean they will take less damage from the element they have an affinity for.&r"
+				""
+				"&nElemental Affinities&r"
+				""
+				"&lOverworld:&r &7None&r"
+				"&lNether:&r &cFire&r"
+				"&lUndergarden:&r &5Chaos&r"
+				"&lAquamirae&r Mobs: &bCold&r"
+				"&lEverbright:&r &bCold&r + &eLightning&r"
+				"&lEverdawn:&r &cFire&r + &5Chaos&r"
+				"&lThe End:&r &cFire&r + &eLightning&r + &5Chaos&r"
+				"&lDeeper Darker:&r &5Chaos&r"
+			]
+			icon: "minecraft:paper"
+			id: "3F61325EA08B6DAA"
+			rewards: [
+				{
+					count: 2
+					id: "486CB77D39ED6397"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					id: "56C4CFD439EAE625"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:endless/blaze"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Lost Page"
+			tasks: [{
+				id: "5CE8B1EB861233D7"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Mob Affinities"
+			x: 3.0d
+			y: 3.0d
+		}
+	]
+	subtitle: ["Lv. 10-30"]
+	title: "Act II"
+}

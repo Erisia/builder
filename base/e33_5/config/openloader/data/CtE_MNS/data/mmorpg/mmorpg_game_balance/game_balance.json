@@ -1,0 +1,57 @@
+{
+  "CLASS_POINTS_AT_MAX_LEVEL": 100,
+  "CORE_STAT_SCALING": {
+    "base_scaling": 1.0,
+    "cap_to_max_lvl": true,
+    "per_level_scaling": 0.05
+  },
+  "CRAFTED_GEAR_POTENTIAL_MULTI": 0.5,
+  "DMG_MOB_BONUS_PER_MAP_TIER": 0.05,
+  "DMG_REDUCT_PER_CHAIN": 0.2,
+  "GIVE_ASCENDANCY_POINTS_EVERY_X_LEVELS": 15.0,
+  "HP_MOB_BONUS_PER_MAP_TIER": 0.15,
+  "MANA_COST_SCALING": {
+    "base_scaling": 1.0,
+    "cap_to_max_lvl": true,
+    "per_level_scaling": 0.2
+  },
+  "MAX_ASCENDANCY_POINTS": 7,
+  "MAX_BONUS_SPELL_LEVELS": 8,
+  "MAX_LEVEL": 100,
+  "MIN_CHAIN_DMG": 0.2,
+  "MIN_SPELL_COOLDOWN_MULTI": 0.2,
+  "MOB_DAMAGE_SCALING": {
+    "base_scaling": 1.0,
+    "cap_to_max_lvl": false,
+    "per_level_scaling": 0.5
+  },
+  "NORMAL_STAT_SCALING": {
+    "base_scaling": 1.0,
+    "cap_to_max_lvl": false,
+    "per_level_scaling": 0.2
+  },
+  "PASSIVE_POINTS_AT_MAX_LEVEL": 50,
+  "PERCENT_OF_PHYS_AS_BONUS_OF_EACH_ELEMENT_DMG_FOR_MOBS": 0,
+  "PROPHECY_CURRENCY_LOST_ON_MAP_DEATH": 1000,
+  "PROPHECY_GAIN_PER_MOB": 10,
+  "PROPHECY_GAIN_PER_MOB_UNCURSED": 5,
+  "SLOW_STAT_SCALING": {
+    "base_scaling": 1.0,
+    "cap_to_max_lvl": true,
+    "per_level_scaling": 0.01
+  },
+  "STARTING_TALENT_POINTS": 1.0,
+  "STAT_POINTS_PER_LEVEL": 1.0,
+  "STAT_REQ_SCALING": {
+    "base_scaling": 2.0,
+    "cap_to_max_lvl": true,
+    "per_level_scaling": 2.0
+  },
+  "TALENT_POINTS_PER_LVL": 1.0,
+  "id": "game_balance",
+  "link_1_lvl": 1,
+  "link_2_lvl": 10,
+  "link_3_lvl": 20,
+  "link_4_lvl": 30,
+  "link_5_lvl": 40
+}

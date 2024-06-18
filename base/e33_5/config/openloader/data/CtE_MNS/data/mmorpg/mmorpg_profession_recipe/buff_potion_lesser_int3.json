@@ -1,0 +1,31 @@
+{
+  "exp": 100,
+  "id": "buff_potion_lesser_int3",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "mmorpg:material/farming/3",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "blue_skies:fiery_beans",
+      "num": 3
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:rare_mats/salvaging/lesser",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "lightmanscurrency:coin_copper",
+      "num": 1
+    }
+  ],
+  "power": "lesser",
+  "profession": "alchemy",
+  "result": "mmorpg:buff_potion/lesser_int",
+  "result_num": 1,
+  "tier": 3
+}

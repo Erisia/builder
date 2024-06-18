@@ -1,0 +1,38 @@
+{
+  "base_gear": "staff",
+  "guid": "divine_frost",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "",
+  "min_tier": 20,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 62.5,
+      "min": 57.5,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 30.0,
+      "min": 20.0,
+      "stat": "all_water_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 25.0,
+      "min": 25.0,
+      "stat": "increase_healing"
+    },
+    {
+      "type": "FLAT",
+      "max": 25.0,
+      "min": 10.0,
+      "stat": "inc_aoe"
+    }
+  ],
+  "weight": 1000
+}

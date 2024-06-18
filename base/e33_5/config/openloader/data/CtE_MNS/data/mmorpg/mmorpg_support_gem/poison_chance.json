@@ -1,0 +1,22 @@
+{
+  "id": "poison_chance",
+  "manaMulti": 1.2,
+  "min_lvl": 1,
+  "one_of_a_kind": "",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 30.0,
+      "min": 10.0,
+      "stat": "poison_chance"
+    },
+    {
+      "type": "FLAT",
+      "max": 30.0,
+      "min": 10.0,
+      "stat": "phys_to_chaos"
+    }
+  ],
+  "style": "DEX",
+  "weight": 1000
+}

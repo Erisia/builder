@@ -1,0 +1,28 @@
+{
+  "type": "ASC",
+  "icon": "mmorpg:textures/gui/talent_icons/asc/chieftain.png",
+  "id": "chieftain_class",
+  "is_entry": true,
+  "max_lvls": 1,
+  "one_kind": "ascendancy",
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "intelligence",
+      "v1": 2.0
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "strength",
+      "v1": 4.0
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "dexterity",
+      "v1": 3.0
+    }
+  ]
+}

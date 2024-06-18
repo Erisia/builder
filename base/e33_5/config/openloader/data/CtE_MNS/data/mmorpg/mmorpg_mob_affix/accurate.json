@@ -1,0 +1,27 @@
+{
+  "type": "prefix",
+  "format": "GREEN",
+  "icon": "",
+  "id": "accurate",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 5.0,
+      "min": 5.0,
+      "stat": "critical_hit"
+    },
+    {
+      "type": "FLAT",
+      "max": 25.0,
+      "min": 25.0,
+      "stat": "accuracy"
+    },
+    {
+      "type": "MORE",
+      "max": 20.0,
+      "min": 20.0,
+      "stat": "accuracy"
+    }
+  ],
+  "weight": 1000
+}

@@ -1,0 +1,53 @@
+{
+  "modId": "minecraft",
+  "group": {
+    "name": "Vanilla Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "lightmanscurrency:coin_copper",
+      "count": 3
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {
+      "output": "minecraft:oak_sapling"
+    },
+    {
+      "output": "minecraft:spruce_sapling"
+    },
+    {
+      "output": "minecraft:birch_sapling"
+    },
+    {
+      "output": "minecraft:jungle_sapling"
+    },
+    {
+      "output": "minecraft:acacia_sapling"
+    },
+    {
+      "output": "minecraft:dark_oak_sapling"
+    },
+    {
+      "output": "minecraft:azalea",
+      "payment": {
+        "item": "lightmanscurrency:coin_iron",
+        "count": 3
+      }
+    },
+    {
+      "output": "minecraft:flowering_azalea",
+      "payment": {
+        "item": "lightmanscurrency:coin_iron",
+        "count": 3
+      }
+    },
+    {
+      "output": "minecraft:mangrove_propagule",
+      "payment": {
+        "item": "lightmanscurrency:coin_iron",
+        "count": 3
+      }
+    }
+  ]
+}

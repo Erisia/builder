@@ -1,0 +1,17 @@
+{
+  "id": "energy",
+  "mods": [
+    {
+      "type": "PERCENT",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "energy"
+    },
+    {
+      "type": "PERCENT",
+      "max": 25.0,
+      "min": 5.0,
+      "stat": "energy_regen"
+    }
+  ]
+}

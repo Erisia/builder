@@ -1,0 +1,38 @@
+{
+  "base": 0.0,
+  "effect": [
+    {
+      "effects": [
+      "proc_spell_cinder"
+    ],
+    "events": [
+      "on_damage"
+    ],
+    "ifs": [
+      "random_roll",
+      "is_cinder_not_on_cd",
+	  "spell_has_tag_weapon_skill"
+    ],
+      "order": "data_modification",
+      "side": "Target"
+    }
+  ],
+  "ele": "Fire",
+  "format": "aqua",
+  "group": "Misc",
+  "gui_group": "NONE",
+  "has_softcap": false,
+  "icon": "★",
+  "id": "proc_cinder",
+  "is_long": true,
+  "is_perc": true,
+  "max": 100.0,
+  "min": -1000.0,
+  "minus_is_good": false,
+  "multiUseType": "MULTIPLY_STAT",
+  "order": 100,
+  "scaling": "NONE",
+  "ser": "data",
+  "show_in_gui": true,
+  "softcap": 0.0
+}

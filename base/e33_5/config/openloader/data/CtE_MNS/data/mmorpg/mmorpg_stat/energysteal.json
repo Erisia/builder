@@ -1,0 +1,36 @@
+{
+  "base": 0.0,
+  "effect": [
+    {
+      "effects": [
+      "leech_energy"
+    ],
+    "events": [
+      "on_damage"
+    ],
+    "ifs": [
+      "style_is_int_is_false"
+    ],
+      "order": "after_damage_bonuses",
+      "side": "Source"
+    }
+  ],
+  "ele": "NONE",
+  "format": "red",
+  "group": "RESTORATION",
+  "gui_group": "NONE",
+  "has_softcap": false,
+  "icon": "★",
+  "id": "energysteal",
+  "is_long": false,
+  "is_perc": true,
+  "max": 2.14748365E9,
+  "min": 0.0,
+  "minus_is_good": false,
+  "multiUseType": "MULTIPLY_STAT",
+  "order": 100,
+  "scaling": "NONE",
+  "ser": "data",
+  "show_in_gui": true,
+  "softcap": 0.0
+}

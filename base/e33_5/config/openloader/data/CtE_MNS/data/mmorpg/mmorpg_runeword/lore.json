@@ -1,0 +1,36 @@
+{
+  "id": "lore",
+  "runes": [
+    "mos",
+    "ano"
+  ],
+  "slots": [
+    "helmet"
+  ],
+  "stats": [
+    {
+      "type": "PERCENT",
+      "max": 40.0,
+      "min": 30.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "FLAT",
+      "max": 1.0,
+      "min": 1.0,
+      "stat": "plus_lvl_all_spells"
+    },
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "lightning_resist"
+    },
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "chaos_resist"
+    }
+  ]
+}

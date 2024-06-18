@@ -1,0 +1,6 @@
+enabled = true
+#Range: 0 ~ 100
+lowThreshold = 30
+#Range: 0 ~ 100
+highThreshold = 100
+

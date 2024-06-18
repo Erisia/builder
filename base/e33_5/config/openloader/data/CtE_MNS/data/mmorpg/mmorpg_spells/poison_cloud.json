@@ -1,0 +1,251 @@
+{
+  "attached": {
+    "entity_components": {},
+    "on_cast": [
+      {
+        "acts": [
+          {
+            "type": "exile_effect",
+            "map": {
+              "count": 1.0,
+              "exile_potion_id": "soul",
+              "potion_action": "GIVE_STACKS",
+              "potion_dur": 120.0
+            }
+          }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": [
+          {
+            "type": "self",
+            "map": {}
+          }
+        ]
+      },
+      {
+        "acts": [
+          {
+            "type": "sound",
+            "map": {
+              "pitch": 1.0,
+              "sound": "minecraft:entity.player.splash.high_speed",
+              "volume": 0.5
+            }
+          }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+          {
+            "type": "particles_in_radius",
+            "map": {
+              "height": 0.5,
+              "motion": "None",
+              "particle_count": 300.0,
+              "particle_type": "minecraft:sneeze",
+              "radius": 5.0,
+              "shape": "CIRCLE_2D",
+              "y_rand": 0.2
+            }
+          }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+          {
+            "type": "particles_in_radius",
+            "map": {
+              "height": 0.5,
+              "motion": "None",
+              "particle_count": 200.0,
+              "particle_type": "minecraft:composter",
+              "radius": 5.0,
+              "shape": "CIRCLE_2D",
+              "y_rand": 0.2
+            }
+          }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "targets": []
+      },
+      {
+        "acts": [
+          {
+            "type": "damage",
+            "map": {
+              "element": "Shadow",
+              "value_calculation": "poison_cloud"
+            }
+          },
+            {
+              "type": "exile_effect",
+              "map": {
+                "count": 1.0,
+                "exile_potion_id": "soul_rupture",
+                "potion_action": "GIVE_STACKS",
+                "potion_dur": 200.0
+              }
+            }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ],
+        "per_entity_hit": [
+          {
+            "acts": [
+              {
+                "type": "sound_per_target",
+                "map": {
+                  "pitch": 1.0,
+                  "sound": "minecraft:entity.generic.hurt",
+                  "volume": 1.0
+                }
+              }
+            ],
+            "en_preds": [],
+            "ifs": [],
+            "targets": []
+          }
+        ],
+        "targets": [
+          {
+            "type": "aoe",
+            "map": {
+              "en_predicate": "enemies",
+              "radius": 5.0,
+              "selection_type": "RADIUS"
+            }
+          }
+        ]
+      },
+      {
+        "acts": [
+          {
+            "type": "damage",
+            "map": {
+              "element": "Shadow",
+              "value_calculation": "poison_cloud"
+            }
+          }
+        ],
+        "en_preds": [],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          },
+		  {
+			"type": "caster_has_mns_effect",
+			"map": {
+			  "exile_potion_id": "soul",
+			  "effect_stacks": 5.0
+			}
+		  }
+        ],
+        "per_entity_hit": [
+          {
+            "acts": [],
+            "en_preds": [],
+            "ifs": [],
+            "targets": []
+          }
+        ],
+        "targets": [
+          {
+            "type": "aoe",
+            "map": {
+              "en_predicate": "enemies",
+              "radius": 5.0,
+              "selection_type": "RADIUS"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "config": {
+    "aggro_radius": 10,
+    "cast_time_ticks": 0,
+    "castingWeapon": "MAGE_WEAPON",
+    "charge_name": "",
+    "charge_regen": 0,
+    "charges": 0,
+    "cooldown_ticks": 40,
+    "ene_cost": {
+      "max": 0.0,
+      "min": 0.0
+    },
+    "imbues": 0,
+    "mana_cost": {
+      "max": 16.0,
+      "min": 13.0
+    },
+    "style": "int",
+    "summonType": "NONE",
+    "summon_basic_atk": "pet_basic",
+    "swing_arm": true,
+    "tags": {
+      "tags": [
+      "area",
+      "damage",
+	  "magic",
+	  "chaos",
+	  "cast_speed_to_cooldown"
+      ]
+    },
+    "times_to_cast": 1,
+    "tracking_radius": 5,
+    "tracks": "enemies"
+  },
+  "default_lvl": 0,
+  "disabled_dims": [],
+  "effect_tip": "",
+  "identifier": "poison_cloud",
+  "loc_name": "Poison Cloud",
+  "lvl_based_on_spell": "",
+  "manual_tip": true,
+  "max_lvl": 16,
+  "min_lvl": 20,
+  "show_other_spell_tooltip": "",
+  "statsForSkillGem": [
+    {
+      "type": "FLAT",
+      "max": 64.0,
+      "min": 4.0,
+      "stat": "poison_chance"
+    }
+  ],
+  "weight": 1000
+}

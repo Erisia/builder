@@ -1,0 +1,42 @@
+{
+  "type": "beneficial",
+  "id": "frost_lich",
+  "max_stacks": 1,
+  "mc_stats": [],
+  "one_of_a_kind_id": "",
+  "spell_tags": {
+    "tags": []
+  },
+  "stacks_affect_stats": true,
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 6.0,
+      "min": 3.0,
+      "stat": "magic_shield"
+    },
+    {
+      "type": "PERCENT",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "magic_shield"
+    },
+    {
+      "type": "FLAT",
+      "max": 75.0,
+      "min": 25.0,
+      "stat": "proc_shatter"
+    },
+    {
+      "type": "FLAT",
+      "max": 75.0,
+      "min": 25.0,
+      "stat": "proc_shatter_2"
+    }
+  ],
+  "tags": {
+    "tags": [
+      "positive"
+    ]
+  }
+}

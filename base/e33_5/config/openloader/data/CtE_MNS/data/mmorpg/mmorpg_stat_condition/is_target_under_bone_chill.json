@@ -1,0 +1,6 @@
+{
+  "effect": "bone_chill",
+  "id": "is_target_under_bone_chill",
+  "ser": "is_under_exile_effect",
+  "side": "Target"
+}

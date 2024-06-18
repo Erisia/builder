@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "createaddition:iron_wire"
+    },
+    "B": {
+      "tag": "forge:leather"
+    },
+    "C": {
+      "item": "supplementaries:timber_frame"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:upgrade_base"
+  }
+}

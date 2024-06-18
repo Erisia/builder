@@ -1,0 +1,38 @@
+{
+  "base_gear": "staff",
+  "guid": "arch_gamble",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "",
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 60.0,
+      "min": 50.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "MORE",
+      "max": 35.0,
+      "min": 30.0,
+      "stat": "dot_dmg"
+    },
+    {
+      "type": "FLAT",
+      "max": 5.0,
+      "min": 3.0,
+      "stat": "spell_lifesteal"
+    },
+    {
+      "type": "FLAT",
+      "max": 15.0,
+      "min": 10.0,
+      "stat": "elemental_resist"
+    }
+  ],
+  "weight": 1000
+}

@@ -1,0 +1,37 @@
+{
+  "id": "cure",
+  "runes": [
+    "fey",
+    "nos",
+    "har"
+  ],
+  "slots": [
+    "helmet"
+  ],
+  "stats": [
+    {
+      "type": "PERCENT",
+      "max": 50.0,
+      "min": 40.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "FLAT",
+      "max": 30.0,
+      "min": 20.0,
+      "stat": "increase_healing"
+    },
+    {
+      "type": "FLAT",
+      "max": -10.0,
+      "min": -10.0,
+      "stat": "mana_cost"
+    },
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 10.0,
+      "stat": "cdr"
+    }
+  ]
+}

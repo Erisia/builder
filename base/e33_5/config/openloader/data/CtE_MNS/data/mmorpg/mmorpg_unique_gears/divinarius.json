@@ -1,0 +1,56 @@
+{
+  "base_gear": "dagger",
+  "guid": "divinarius",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "",
+  "min_tier": 40,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 60.0,
+      "min": 55.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 15.0,
+      "min": 10.0,
+      "stat": "spell_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 5.0,
+      "min": 3.0,
+      "stat": "health_on_kill"
+    },
+    {
+      "type": "FLAT",
+      "max": 3.0,
+      "min": 1.0,
+      "stat": "mana_on_kill"
+    },
+    {
+      "type": "FLAT",
+      "max": 7.0,
+      "min": 5.0,
+      "stat": "inc_aoe"
+    },
+    {
+      "type": "MORE",
+      "max": 20.0,
+      "min": 15.0,
+      "stat": "critical_hit"
+    },
+    {
+      "type": "MORE",
+      "max": 30.0,
+      "min": 20.0,
+      "stat": "critical_damage"
+    }
+  ],
+  "weight": 500
+}

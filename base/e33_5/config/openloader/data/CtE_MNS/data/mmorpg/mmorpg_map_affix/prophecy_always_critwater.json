@@ -1,0 +1,16 @@
+{
+  "affected": "Players",
+  "id": "prophecy_always_critwater",
+  "map_resist": "Physical",
+  "map_resist_bonus_needed": 0,
+  "req": "prophecy",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 1.0,
+      "min": 1.0,
+      "stat": "water_vuln_crit"
+    }
+  ],
+  "weight": 1000
+}

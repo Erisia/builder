@@ -1,0 +1,44 @@
+{
+  "base_gear": "cloth_boots",
+  "guid": "marrowwalk",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "",
+  "min_tier": 40,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 70.0,
+      "min": 60.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "FLAT",
+      "max": 60.0,
+      "min": 40.0,
+      "stat": "summon_duration"
+    },
+    {
+      "type": "FLAT",
+      "max": 16.0,
+      "min": 12.0,
+      "stat": "health"
+    },
+    {
+      "type": "PERCENT",
+      "max": 15.0,
+      "min": 10.0,
+      "stat": "mana_regen"
+    },
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 10.0,
+      "stat": "move_speed"
+    }
+  ],
+  "weight": 1000
+}

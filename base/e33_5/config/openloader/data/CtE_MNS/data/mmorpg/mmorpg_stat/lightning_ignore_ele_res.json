@@ -1,0 +1,37 @@
+{
+  "base": 0.0,
+  "effect": [
+    {
+      "effects": [
+        "set_bool_resisted_already"
+      ],
+      "events": [
+        "on_damage"
+      ],
+      "ifs": [
+        "is_crit_true",
+        "ele_match_stat"
+      ],
+      "order": "before_damage_layers",
+      "side": "Source"
+    }
+  ],
+  "ele": "Nature",
+  "format": "aqua",
+  "group": "Misc",
+  "gui_group": "NONE",
+  "has_softcap": false,
+  "icon": "★",
+  "id": "lightning_ignore_ele_res",
+  "is_long": true,
+  "is_perc": true,
+  "max": 1.0,
+  "min": -1000.0,
+  "minus_is_good": false,
+  "multiUseType": "MULTIPLY_STAT",
+  "order": 100,
+  "scaling": "NONE",
+  "ser": "data",
+  "show_in_gui": true,
+  "softcap": 0.0
+}

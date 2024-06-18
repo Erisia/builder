@@ -1,0 +1,17 @@
+{
+  "id": "magic",
+  "mods": [
+    {
+      "type": "PERCENT",
+      "max": 15.0,
+      "min": 7.5,
+      "stat": "magic_shield"
+    },
+    {
+      "type": "PERCENT",
+      "max": 10.0,
+      "min": 2.0,
+      "stat": "magic_shield_regen"
+    }
+  ]
+}

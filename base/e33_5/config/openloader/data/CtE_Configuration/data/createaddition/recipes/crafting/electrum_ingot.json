@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	["EEE",
+	 "EEE",
+	 "EEE"],
+	"key":
+	{
+		"E":
+		{
+			"tag": "forge:nuggets/electrum"
+		}
+	},
+	"result":{
+		"item": "createaddition:electrum_ingot",
+		"count": 1
+	},
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "type": "MAJOR",
+  "icon": "mmorpg:textures/gui/talent_icons/asc/elementalist/0.png",
+  "id": "elementalist_class_0",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "MORE",
+      "scale_to_lvl": false,
+      "stat": "all_fire_damage",
+      "v1": 10.0
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "phys_to_fire",
+      "v1": 50.0
+    },
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "burn_chance",
+      "v1": 25.0
+    },
+    {
+      "type": "MORE",
+      "scale_to_lvl": false,
+      "stat": "burn_damage",
+      "v1": 25.0
+    }
+  ]
+}

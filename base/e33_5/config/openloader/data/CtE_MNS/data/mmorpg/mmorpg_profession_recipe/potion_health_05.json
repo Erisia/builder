@@ -1,0 +1,36 @@
+{
+  "exp": 100,
+  "id": "potion_health_05",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "mmorpg:material/meat/5",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:stone/0",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "minecraft:pumpkin",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "blue_skies:pine_fruit",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "lightmanscurrency:coin_copper",
+      "num": 1
+    }
+  ],
+  "power": "greater",
+  "profession": "alchemy",
+  "result": "mmorpg:potion/health/0",
+  "result_num": 4,
+  "tier": 5
+}

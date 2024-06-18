@@ -1,0 +1,25 @@
+{
+  "type": "beneficial",
+  "id": "heart_of_ice",
+  "max_stacks": 1,
+  "mc_stats": [],
+  "one_of_a_kind_id": "",
+  "spell_tags": {
+    "tags": []
+  },
+  "stacks_affect_stats": true,
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 10.0,
+      "stat": "magic_shield"
+    }
+  ],
+  "tags": {
+    "tags": [
+    "positive",
+    "defensive"
+    ]
+  }
+}

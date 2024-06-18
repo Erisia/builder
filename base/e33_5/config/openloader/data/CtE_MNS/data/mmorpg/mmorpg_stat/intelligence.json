@@ -1,0 +1,47 @@
+{
+  "data": {
+    "base": 0.0,
+    "core_stat_data": {
+      "stats": [
+        {
+          "type": "FLAT",
+          "scale_to_lvl": false,
+          "stat": "int_dmg",
+          "v1": 0.2
+        },
+        {
+          "type": "FLAT",
+          "scale_to_lvl": false,
+          "stat": "increase_healing",
+          "v1": 0.3
+        },
+        {
+          "type": "FLAT",
+          "scale_to_lvl": false,
+          "stat": "summon_damage",
+          "v1": 0.2
+        },
+        {
+          "type": "PERCENT",
+          "scale_to_lvl": false,
+          "stat": "mana_regen",
+          "v1": 2.0
+        },
+        {
+          "type": "PERCENT",
+          "scale_to_lvl": false,
+          "stat": "magic_shield",
+          "v1": 1.0
+        }
+      ]
+    },
+    "ele": "Physical",
+    "id": "intelligence",
+    "max": 2.14748365E9,
+    "min": 0.0,
+    "name": "Intelligence",
+    "perc": false,
+    "scale": "CORE"
+  },
+  "ser": "core_stat"
+}

@@ -1,0 +1,37 @@
+{
+  "type": "beneficial",
+  "id": "battle_orders",
+  "max_stacks": 1,
+  "mc_stats": [],
+  "one_of_a_kind_id": "",
+  "spell_tags": {
+    "tags": []
+  },
+  "stacks_affect_stats": true,
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 18.0,
+      "min": 6.0,
+      "stat": "spell_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 18.0,
+      "min": 6.0,
+      "stat": "health"
+    },
+    {
+      "type": "PERCENT",
+      "max": 24.0,
+      "min": 8.0,
+      "stat": "magic_shield"
+    }
+  ],
+  "tags": {
+    "tags": [
+    "positive",
+    "defensive"
+    ]
+  }
+}

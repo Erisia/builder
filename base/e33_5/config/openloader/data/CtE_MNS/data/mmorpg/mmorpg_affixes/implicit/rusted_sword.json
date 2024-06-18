@@ -1,0 +1,26 @@
+{
+  "type": "implicit",
+  "guid": "rusted_sword",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [
+          "sword"
+        ],
+        "req_type": "HAS_ALL"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 10.0,
+      "stat": "bleed_chance"
+    }
+  ],
+  "weight": 1000
+}

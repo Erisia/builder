@@ -1,0 +1,43 @@
+
+#Entity spawn configs
+[Drones]
+	#Drones spawn rate
+	#Range: 0 ~ 100
+	droneSpawnWeight = 0
+
+[Lemurians]
+	#Lemurians overworld spawn rate. Set this to 0 to disable spawns
+	#Range: 0 ~ 100
+	lemurianOverworldSpawnWeight = 8
+	#Lemurians nether spawn rate (Sensitive). Set this to 0 to disable spawns
+	#Range: 0 ~ 100
+	lemurianNetherSpawnWeight = 4
+	#Lemurians minimum group size on spawn. Set this equal or lower than max group size
+	#Range: 1 ~ 8
+	lemurianMinGroupSize = 1
+	#Lemurians maximum group size on spawn. Set this equal or higher than min group size
+	#Range: 1 ~ 8
+	lemurianMaxGroupSize = 2
+	#Despawn lemurians when they are far away
+	enableLemurianDespawn = true
+
+[StoneGolems]
+	#Stone Golems overworld spawn rate. Set this to 0 to disable spawns
+	#Range: 0 ~ 100
+	stoneGolemOverworldSpawnWeight = 2
+	#Stone Golems nether spawn rate (Sensitive). Set this to 0 to disable spawns
+	#Range: 0 ~ 100
+	stoneGolemNetherSpawnWeight = 1
+	#Stone Golems minimum group size. Set this equal or lower than max group size
+	#Range: 1 ~ 8
+	stoneGolemMinGroupSize = 1
+	#Stone Golems maximum group size. Set this equal or higher than min group size
+	#Range: 1 ~ 8
+	stoneGolemMaxGroupSize = 1
+	#Despawn stone golems when they are far away
+	enableStoneGolemDespawn = true
+
+[Sounds]
+	#Enable death sound effect from Risk of Rain
+	enableDeathSound = true
+

@@ -1,0 +1,40 @@
+{
+  "modId": "minecraft",
+  "group": {
+    "name": "Vanilla Seeds",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "lightmanscurrency:coin_copper",
+      "count": 3
+    },
+    "defaultCategory": "farmingforblockheads:seeds"
+  },
+  "customEntries": [
+    {
+      "output": "minecraft:wheat_seeds"
+    },
+    {
+      "output": "minecraft:melon_seeds"
+    },
+    {
+      "output": "minecraft:pumpkin_seeds"
+    },
+    {
+      "output": "minecraft:beetroot_seeds"
+    },
+    {
+      "output": "minecraft:potato",
+      "payment": {
+        "item": "lightmanscurrency:coin_iron",
+        "count": 3
+      }
+    },
+    {
+      "output": "minecraft:carrot",
+      "payment": {
+        "item": "lightmanscurrency:coin_iron",
+        "count": 3
+      }
+    }
+  ]
+}

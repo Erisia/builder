@@ -1,0 +1,77 @@
+type = customizablemenus
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.SelectWorldScreen {
+}
+
+net.minecraft.client.gui.screens.OptionsScreen {
+}
+
+net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen {
+}
+
+net.minecraft.client.gui.screens.PauseScreen {
+}
+
+com.robertx22.age_of_exile.capability.player.container.SkillGemsScreen {
+}
+
+com.darkere.crashutils.Screens.PlayerInvScreen {
+}
+
+net.minecraft.client.gui.screens.ChatScreen {
+}
+
+net.minecraft.client.gui.screens.LevelLoadingScreen {
+}
+
+net.minecraft.client.gui.screens.ProgressScreen {
+}
+
+net.minecraft.client.gui.screens.ReceivingLevelScreen {
+}
+
+lain.mods.cos.impl.client.gui.GuiCosArmorInventory {
+}
+
+com.robertx22.age_of_exile.gui.screens.skill_tree.TalentsScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.ContainerScreen {
+}
+
+com.robertx22.age_of_exile.gui.inv_gui.InvGuiScreen {
+}
+
+com.robertx22.age_of_exile.gui.screens.character_screen.MainHubScreen {
+}
+
+net.minecraft.client.gui.screens.TitleScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.InventoryScreen {
+}
+
+top.theillusivec4.curios.client.gui.CuriosScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen {
+}
+
+com.robertx22.age_of_exile.gui.screens.spell.SpellSchoolScreen {
+}
+
+com.robertx22.age_of_exile.characters.gui.CharacterSelectScreen {
+}
+
+com.robertx22.age_of_exile.gui.screens.stat_gui.StatScreen {
+}
+
+com.robertx22.age_of_exile.gui.screens.skill_tree.AscendancyTree {
+}
+
+com.robertx22.age_of_exile.prophecy.gui.ProphecyScreen {
+}
+

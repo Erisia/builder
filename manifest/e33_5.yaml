@@ -1,0 +1,1333 @@
+config:
+  minecraft_version: '1.20.1'
+  modloader: 'forge'
+nodes:
+  - id: modlist
+    value:
+      - name: achievements-optimizer
+        id: 912788
+        file_id: 5363614
+        source: curse
+      - name: advancement-plaques
+        id: 499826
+        file_id: 4930510
+        source: curse
+        side: client
+      - name: aggroindicator
+        id: 882713
+        file_id: 5063499
+        source: curse
+      - name: ai-improvements
+        id: 233019
+        file_id: 4578262
+        source: curse
+      - name: air-hop
+        id: 323071
+        file_id: 5048418
+        source: curse
+      - name: alexs-mobs
+        id: 426558
+        file_id: 5160697
+        source: curse
+      - name: ambientsounds
+        id: 254284
+        file_id: 5345142
+        source: curse
+        side: client
+        required: false
+        default: false
+      - name: amendments
+        id: 896746
+        file_id: 5409444
+        source: curse
+      - name: anti-mob-cheese
+        id: 398782
+        file_id: 4996386
+        source: curse
+      - name: anvil-never-too-expensive
+        id: 670282
+        file_id: 4681380
+        source: curse
+      - name: apothic-attributes
+        id: 898963
+        file_id: 5340012
+        source: curse
+      - name: appleskin
+        id: 248787
+        file_id: 4770828
+        source: curse
+      - name: aquaculture
+        id: 60028
+        file_id: 4921323
+        source: curse
+      - name: architectury-api
+        id: 419699
+        file_id: 5137938
+        source: curse
+      - name: attributefix
+        id: 280510
+        file_id: 4911084
+        source: curse
+      - name: axes-are-weapons
+        id: 456457
+        file_id: 4945885
+        source: curse
+      - name: bad-wither-no-cookie-reloaded
+        id: 261251
+        file_id: 4626780
+        source: curse
+      - name: balm
+        id: 531761
+        file_id: 5397036
+        source: curse
+      - name: beautified-chat-client
+        id: 514797
+        file_id: 5375620
+        source: curse
+        side: client
+      - name: beds-dont-explode
+        id: 537746
+        file_id: 4577022
+        source: curse
+      - name: bellsandwhistles
+        id: 905040
+        file_id: 4860141
+        source: curse
+      - name: better-advancements
+        id: 272515
+        file_id: 4631253
+        source: curse
+      - name: better-animations-collection
+        id: 323976
+        file_id: 4613527
+        source: curse
+      - name: better-archeology
+        id: 835687
+        file_id: 5343082
+        source: curse
+      - name: better-combat-by-daedelus
+        id: 639842
+        file_id: 5266134
+        source: curse
+      - name: better-compatibility-checker
+        id: 551894
+        file_id: 4688940
+        source: curse
+      - name: better-ping-display
+        id: 292038
+        file_id: 4594106
+        source: curse
+        side: client
+        required: false
+      - name: better-tridents
+        id: 666941
+        file_id: 4707887
+        source: curse
+      - name: biome-spawn-point
+        id: 695238
+        file_id: 4965350
+        source: curse
+      - name: blockui
+        id: 522992
+        file_id: 5280792
+        source: curse
+      - name: blue-skies
+        id: 312918
+        file_id: 5010316
+        source: curse
+      - name: bookshelf
+        id: 228525
+        file_id: 5423987
+        source: curse
+      - name: bountiful
+        id: 309516
+        file_id: 4650415
+        source: curse
+      - name: bow-infinity-fix
+        id: 224713
+        file_id: 4615218
+        source: curse
+      - name: caelus
+        id: 308989
+        file_id: 5281700
+        source: curse
+      - name: canary
+        id: 665658
+        file_id: 5089991
+        source: curse
+      - name: catalogue
+        id: 459701
+        file_id: 4766090
+        source: curse
+        side: client
+      - name: chat-heads
+        id: 407206
+        file_id: 5423055
+        source: curse
+        side: client
+      - name: chimes
+        id: 350464
+        file_id: 4671986
+        source: curse
+      - name: chococraft
+        id: 225280
+        file_id: 5192542
+        source: curse
+      - name: choicetheorems-overhauled-village
+        id: 623908
+        file_id: 5249449
+        source: curse
+      - name: chunk-loaders
+        id: 402924
+        file_id: 4850872
+        source: curse
+      - name: chunk-sending-forge-fabric
+        id: 831663
+        file_id: 4894789
+        source: curse
+      - name: chunkpregenerator
+        id: 267193
+        file_id: 5216892
+        source: curse
+      - name: citadel
+        id: 331936
+        file_id: 5143956
+        source: curse
+      - name: clickable-advancements
+        id: 511733
+        file_id: 5293987
+        source: curse
+        side: client
+      - name: cloth-config
+        id: 348521
+        file_id: 4973441
+        source: curse
+      - name: clumps
+        id: 256717
+        file_id: 5278538
+        source: curse
+      - name: collective
+        id: 342584
+        file_id: 5378112
+        source: curse
+      - name: combat-roll
+        id: 678036
+        file_id: 5242791
+        source: curse
+      - name: comforts
+        id: 276951
+        file_id: 5068863
+        source: curse
+      - name: complementary-reimagined
+        id: 627557
+        file_id: 5403838
+        source: curse
+        side: client
+        required: false
+        default: false
+      - name: complementary-unbound
+        id: 385587
+        file_id: 5403840
+        source: curse
+        side: client
+        required: false
+        default: false
+      - name: config-menus-forge
+        id: 544048
+        file_id: 4672356
+        source: curse
+        side: client
+      - name: connectivity
+        id: 470193
+        file_id: 5181534
+        source: curse
+      - name: controlling
+        id: 250398
+        file_id: 4646682
+        source: curse
+        side: client
+      - name: cooking-for-blockheads
+        id: 231484
+        file_id: 5396013
+        source: curse
+      - name: corgilib
+        id: 693313
+        file_id: 5170914
+        source: curse
+      - name: corn-delight
+        id: 577805
+        file_id: 5361751
+        source: curse
+      - name: coroutil
+        id: 237749
+        file_id: 5096038
+        source: curse
+      - name: cosmetic-armor-reworked
+        id: 237307
+        file_id: 4600191
+        source: curse
+      - name: crabbers-delight
+        id: 892827
+        file_id: 5244920
+        source: curse
+      - name: crafting-tweaks
+        id: 233071
+        file_id: 5396016
+        source: curse
+      - name: craftpresence
+        id: 297038
+        file_id: 5290583
+        source: curse
+        side: client
+        required: false
+        default: false
+      - name: crafttweaker
+        id: 239197
+        file_id: 5375591
+        source: curse
+      - name: crash-utilities
+        id: 371813
+        file_id: 4716086
+        source: curse
+      - name: create
+        id: 328085
+        file_id: 4835191
+        source: curse
+      - name: create-steam-n-rails
+        id: 688231
+        file_id: 5331300
+        source: curse
+      - name: create-style-for-refined-storage
+        id: 941802
+        file_id: 4893440
+        source: curse
+        side: client
+      - name: createaddition
+        id: 439890
+        file_id: 5099752
+        source: curse
+      - name: creativecore
+        id: 257814
+        file_id: 5379501
+        source: curse
+      - name: creeper-overhaul
+        id: 561625
+        file_id: 5125710
+        source: curse
+      - name: cte2-custom-uniques
+        id: 953261
+        file_id: 4977726
+        source: curse
+      - name: cte2-essentials
+        id: 934252
+        file_id: 5010262
+        source: curse
+      - name: cuisine-delight
+        id: 893541
+        file_id: 5300072
+        source: curse
+      - name: cupboard
+        id: 326652
+        file_id: 5170315
+        source: curse
+      - name: curios
+        id: 309927
+        file_id: 5367944
+        source: curse
+      - name: customizable-elytra
+        id: 440047
+        file_id: 5276553
+        source: curse
+      - name: death-backup
+        id: 411571
+        file_id: 5169029
+        source: curse
+      - name: deeperdarker
+        id: 659011
+        file_id: 4807511
+        source: curse
+      - name: default-options
+        id: 232131
+        file_id: 4635878
+        source: curse
+        side: client
+      - name: deuf-duplicate-entity-uuid-fix
+        id: 296646
+        file_id: 4598640
+        source: curse
+      - name: dimension-viewer
+        id: 857799
+        file_id: 4632484
+        source: curse
+      - name: disenchantingforge
+        id: 358578
+        file_id: 4605985
+        source: curse
+      - name: doggy-talents-next
+        id: 694492
+        file_id: 5414962
+        source: curse
+      - name: domum-ornamentum
+        id: 527361
+        file_id: 5281660
+        source: curse
+      - name: dont-clear-chat-history
+        id: 404400
+        file_id: 5189256
+        source: curse
+        side: client
+        required: false
+      - name: double-doors
+        id: 348831
+        file_id: 5334522
+        source: curse
+      - name: drippy-loading-screen
+        id: 511770
+        file_id: 5117077
+        source: curse
+        side: client
+      - name: easier-sleeping
+        id: 388364
+        file_id: 4628693
+        source: curse
+      - name: easy-magic
+        id: 456239
+        file_id: 4658750
+        source: curse
+      - name: elytra-slot
+        id: 317716
+        file_id: 5420532
+        source: curse
+      - name: embeddium
+        id: 908741
+        file_id: 5410220
+        source: curse
+        side: client
+        required: false
+      - name: embeddiumplus
+        id: 931925
+        file_id: 5342269
+        source: curse
+        side: client
+        required: false
+      - name: emi
+        id: 580555
+        file_id: 5311316
+        source: curse
+      - name: enchantment-descriptions
+        id: 250419
+        file_id: 5396674
+        source: curse
+        side: client
+        required: false
+      - name: ender-trigon
+        id: 662563
+        file_id: 5388736
+        source: curse
+      - name: enders-delight
+        id: 827163
+        file_id: 4760462
+        source: curse
+      - name: enhanced-ai
+        id: 515276
+        file_id: 5381312
+        source: curse
+      - name: enhanced-celestials
+        id: 438447
+        file_id: 5317331
+        source: curse
+      - name: entityculling
+        id: 448233
+        file_id: 5371852
+        source: curse
+        side: client
+      - name: equipment-compare
+        id: 502561
+        file_id: 4650073
+        source: curse
+        side: client
+      - name: explorers-compass
+        id: 491794
+        file_id: 4712194
+        source: curse
+      - name: explorify
+        id: 698309
+        file_id: 5277999
+        source: curse
+      - name: falling-leaves-forge
+        id: 463155
+        file_id: 4695661
+        source: curse
+        side: client
+        required: false
+        default: false
+      - name: fancymenu
+        id: 367706
+        file_id: 5340225
+        source: curse
+        side: client
+      - name: farmers-delight
+        id: 398521
+        file_id: 5051242
+        source: curse
+      - name: farming-for-blockheads
+        id: 261924
+        file_id: 4749360
+        source: curse
+      - name: farsight
+        id: 495693
+        file_id: 4870168
+        source: curse
+        side: client
+        required: false
+      - name: fast-leaf-decay
+        id: 230976
+        file_id: 5375681
+        source: curse
+      - name: fast-paintings
+        id: 883287
+        file_id: 5324825
+        source: curse
+      - name: fastfurnace
+        id: 299540
+        file_id: 5181098
+        source: curse
+      - name: fastload
+        id: 630620
+        file_id: 4706149
+        source: curse
+      - name: fastsuite
+        id: 475117
+        file_id: 4711435
+        source: curse
+      - name: fastworkbench
+        id: 288885
+        file_id: 5101229
+        source: curse
+      - name: ferritecore
+        id: 429235
+        file_id: 4810975
+        source: curse
+      - name: findme
+        id: 291936
+        file_id: 5074609
+        source: curse
+      - name: first-join-message
+        id: 390733
+        file_id: 5168987
+        source: curse
+      - name: fix-experience-bug
+        id: 486778
+        file_id: 4587408
+        source: curse
+      - name: flan-forge
+        id: 493246
+        file_id: 5384867
+        source: curse
+      - name: flickerfix
+        id: 431430
+        file_id: 4731559
+        source: curse
+        side: client
+      - name: floral-enchantment
+        id: 511569
+        file_id: 4624775
+        source: curse
+      - name: footprintparticle
+        id: 832070
+        file_id: 4962992
+        source: curse
+        side: client
+        required: false
+      - name: framework
+        id: 549225
+        file_id: 5388226
+        source: curse
+      - name: friendly-fire
+        id: 255105
+        file_id: 5368433
+        source: curse
+      - name: friendly-griefing
+        id: 630841
+        file_id: 4594849
+        source: curse
+      - name: friends-and-foes-forge
+        id: 602059
+        file_id: 5184455
+        source: curse
+      - name: ftb-library-forge
+        id: 404465
+        file_id: 5364190
+        source: curse
+      - name: ftb-quests-forge
+        id: 289412
+        file_id: 5418359
+        source: curse
+      - name: ftb-quests-optimizer
+        id: 912469
+        file_id: 5374064
+        source: curse
+      - name: ftb-teams-forge
+        id: 404468
+        file_id: 5267190
+        source: curse
+      - name: ftb-ultimine-forge
+        id: 386134
+        file_id: 5363345
+        source: curse
+      - name: gateways-to-eternity
+        id: 417802
+        file_id: 5426181
+        source: curse
+      - name: geckoanimfix
+        id: 959388
+        file_id: 5018199
+        source: curse
+      - name: geckolib
+        id: 388172
+        file_id: 5414523
+        source: curse
+      - name: global-gamerules
+        id: 227657
+        file_id: 4587490
+        source: curse
+      - name: global-xp
+        id: 268647
+        file_id: 5256103
+        source: curse
+      - name: goblin-traders
+        id: 363703
+        file_id: 4802505
+        source: curse
+      - name: handcrafted
+        id: 538214
+        file_id: 5118729
+        source: curse
+      - name: highlight
+        id: 667245
+        file_id: 4671079
+        source: curse
+        side: client
+      - name: hit-indication
+        id: 848933
+        file_id: 4691948
+        source: curse
+      - name: iceberg
+        id: 520110
+        file_id: 5138899
+        source: curse
+      - name: illager-invasion
+        id: 891324
+        file_id: 5288687
+        source: curse
+      - name: immediatelyfast
+        id: 686911
+        file_id: 5425036
+        source: curse
+        side: client
+      - name: incendium
+        id: 591388
+        file_id: 5351562
+        source: curse
+      - name: insanelib
+        id: 465109
+        file_id: 5392944
+        source: curse
+      - name: inventory-essentials
+        id: 368825
+        file_id: 5397136
+        source: curse
+      - name: inventory-hud-forge
+        id: 357540
+        file_id: 4699629
+        source: curse
+        side: client
+      - name: inventory-sorter
+        id: 240633
+        file_id: 4655091
+        source: curse
+      - name: item-filters
+        id: 309674
+        file_id: 4838266
+        source: curse
+      - name: item-highlighter
+        id: 521590
+        file_id: 4985588
+        source: curse
+        side: client
+      - name: itemphysic-lite
+        id: 270441
+        file_id: 5274678
+        source: curse
+        side: client
+        required: false
+      - name: jade
+        id: 324717
+        file_id: 5339264
+        source: curse
+      - name: jade-addons
+        id: 583345
+        file_id: 4925840
+        source: curse
+      - name: jadecolonies
+        id: 882310
+        file_id: 5048697
+        source: curse
+      - name: jei
+        id: 238222
+        file_id: 5419575
+        source: curse
+      - name: jeitweaker
+        id: 368718
+        file_id: 4781713
+        source: curse
+      - name: joy-of-painting
+        id: 350727
+        file_id: 4666042
+        source: curse
+      - name: jumpy-boats
+        id: 542110
+        file_id: 4573946
+        source: curse
+      - name: just-another-rotten-flesh-to-leather-mod
+        id: 247136
+        file_id: 4594475
+        source: curse
+      - name: just-enough-professions-jep
+        id: 417645
+        file_id: 4587024
+        source: curse
+      - name: kambrik
+        id: 455585
+        file_id: 4654401
+        source: curse
+      - name: kiwi
+        id: 303657
+        file_id: 5413410
+        source: curse
+      - name: kobolds
+        id: 484967
+        file_id: 5360588
+        source: curse
+      - name: konkrete
+        id: 410295
+        file_id: 5028413
+        source: curse
+        side: client
+      - name: kotlin-for-forge
+        id: 351264
+        file_id: 5402061
+        source: curse
+      - name: krypton-reforged
+        id: 549394
+        file_id: 4606534
+        source: curse
+      - name: legendary-tooltips
+        id: 532127
+        file_id: 4662781
+        source: curse
+        side: client
+      - name: let-me-despawn
+        id: 663477
+        file_id: 5390369
+        source: curse
+      - name: library-of-exile
+        id: 398780
+        file_id: 5324527
+        source: curse
+      - name: lightmans-currency
+        id: 472521
+        file_id: 5426472
+        source: curse
+      - name: load-my-resources-forge
+        id: 534502
+        file_id: 4203277
+        source: curse
+        side: client
+      - name: login-protection
+        id: 358304
+        file_id: 5335699
+        source: curse
+      - name: loot-journal
+        id: 700723
+        file_id: 5321391
+        source: curse
+      - name: lootr
+        id: 361276
+        file_id: 5420132
+        source: curse
+      - name: macaws-bridges
+        id: 351725
+        file_id: 5240518
+        source: curse
+      - name: macaws-doors
+        id: 378646
+        file_id: 4649910
+        source: curse
+      - name: macaws-lights-and-lamps
+        id: 502372
+        file_id: 4618183
+        source: curse
+      - name: masiks-puzzle-dungeon
+        id: 846659
+        file_id: 5079759
+        source: curse
+      - name: max-health-fix
+        id: 492246
+        file_id: 5378283
+        source: curse
+      - name: melody
+        id: 938643
+        file_id: 5109692
+        source: curse
+        side: client
+      - name: mimi-mod
+        id: 499803
+        file_id: 5371206
+        source: curse
+      - name: mine-and-slash-reloaded
+        id: 306575
+        file_id: 5428083
+        source: curse
+      - name: minecolonies
+        id: 245506
+        file_id: 5417703
+        source: curse
+      - name: minemenu
+        id: 222378
+        file_id: 4938047
+        source: curse
+        side: client
+      - name: mmmmmmmmmmmm
+        id: 225738
+        file_id: 5319203
+        source: curse
+      - name: model-gap-fix
+        id: 676136
+        file_id: 5200949
+        source: curse
+        side: client
+      - name: modern-ui
+        id: 352491
+        file_id: 5229575
+        source: curse
+        side: client
+      - name: modernfix
+        id: 790626
+        file_id: 5399361
+        source: curse
+      - name: monster-plus
+        id: 676418
+        file_id: 4612195
+        source: curse
+      - name: more-mob-variants
+        id: 695107
+        file_id: 5280609
+        source: curse
+      - name: more-overlays-updated
+        id: 391382
+        file_id: 5376428
+        source: curse
+        side: client
+      - name: more-sniffer-flowers
+        id: 884119
+        file_id: 5412533
+        source: curse
+      - name: mouse-tweaks
+        id: 60089
+        file_id: 5338457
+        source: curse
+      - name: multi-piston
+        id: 303278
+        file_id: 5204918
+        source: curse
+      - name: mutant-monsters
+        id: 852665
+        file_id: 5107399
+        source: curse
+      - name: mysterious-mountain-lib
+        id: 368098
+        file_id: 5414924
+        source: curse
+      - name: natures-aura
+        id: 306626
+        file_id: 4963590
+        source: curse
+      - name: natures-compass
+        id: 252848
+        file_id: 4712189
+        source: curse
+      - name: nbt-autocomplete
+        id: 813557
+        file_id: 5298558
+        source: curse
+        side: client
+      - name: neruina
+        id: 851046
+        file_id: 5361852
+        source: curse
+      - name: netherportalfix
+        id: 241160
+        file_id: 4939735
+        source: curse
+      - name: nethers-delight
+        id: 496394
+        file_id: 4736227
+        source: curse
+      - name: nightlights
+        id: 651876
+        file_id: 4618572
+        source: curse
+      - name: no-chat-reports
+        id: 634062
+        file_id: 4610474
+        source: curse
+      - name: no-telemetry
+        id: 530816
+        file_id: 4955753
+        source: curse
+      - name: nofog
+        id: 296468
+        file_id: 4601446
+        source: curse
+        side: client
+        required: false
+      - name: not-enough-animations
+        id: 433760
+        file_id: 5307870
+        source: curse
+        side: client
+      - name: notenoughrecipebook
+        id: 738663
+        file_id: 4742680
+        source: curse
+      - name: ob-aquamirae
+        id: 536254
+        file_id: 4616373
+        source: curse
+      - name: obscure-api
+        id: 638417
+        file_id: 4616364
+        source: curse
+      - name: oceans-delight
+        id: 841262
+        file_id: 4652060
+        source: curse
+      - name: oculus
+        id: 581495
+        file_id: 5299671
+        source: curse
+        side: client
+      - name: open-loader
+        id: 354339
+        file_id: 5368592
+        source: curse
+      - name: overworld-mirror
+        id: 303780
+        file_id: 4620023
+        source: curse
+      - name: packet-fixer
+        id: 689467
+        file_id: 5416166
+        source: curse
+      - name: paragliders
+        id: 289240
+        file_id: 5046069
+        source: curse
+      - name: passive-shield
+        id: 447359
+        file_id: 4964258
+        source: curse
+      - name: patchouli
+        id: 306770
+        file_id: 4966125
+        source: curse
+      - name: placebo
+        id: 283644
+        file_id: 5414631
+        source: curse
+      - name: playeranimator
+        id: 658587
+        file_id: 4587214
+        source: curse
+      - name: polymorph
+        id: 388800
+        file_id: 5372401
+        source: curse
+      - name: prism-lib
+        id: 638111
+        file_id: 4650325
+        source: curse
+        side: client
+      - name: puzzles-lib
+        id: 495476
+        file_id: 5373244
+        source: curse
+      - name: quests-additions
+        id: 580129
+        file_id: 4799757
+        source: curse
+      - name: quickstack
+        id: 354522
+        file_id: 4691510
+        source: curse
+      - name: realm-rpg-dragon-wyrms
+        id: 908314
+        file_id: 4958556
+        source: curse
+      - name: refined-cooking
+        id: 543972
+        file_id: 4706949
+        source: curse
+      - name: refined-storage
+        id: 243076
+        file_id: 4844585
+        source: curse
+      - name: repurposed-structures
+        id: 368293
+        file_id: 5331403
+        source: curse
+      - name: resourceful-config
+        id: 714059
+        file_id: 5020441
+        source: curse
+      - name: resourceful-lib
+        id: 570073
+        file_id: 5361260
+        source: curse
+      - name: rightclickharvest
+        id: 452834
+        file_id: 4690530
+        source: curse
+      - name: riskofrainmod
+        id: 406824
+        file_id: 4687219
+        source: curse
+      - name: saturn
+        id: 670986
+        file_id: 5093785
+        source: curse
+      - name: searchables
+        id: 858542
+        file_id: 5284015
+        source: curse
+      - name: sebastrnlib
+        id: 709936
+        file_id: 4706669
+        source: curse
+      - name: selene
+        id: 499980
+        file_id: 5427600
+        source: curse
+      - name: serverconfig-updater
+        id: 365281
+        file_id: 4612683
+        source: curse
+      - name: shoulder-surfing-reloaded
+        id: 243190
+        file_id: 5419215
+        source: curse
+        side: client
+        required: false
+        default: false
+      - name: showcase-item
+        id: 627196
+        file_id: 5090810
+        source: curse
+      - name: simple-magnets
+        id: 394140
+        file_id: 5272887
+        source: curse
+      - name: simplehats
+        id: 631990
+        file_id: 5349380
+        source: curse
+      - name: skin-layers-3d
+        id: 521480
+        file_id: 5371958
+        source: curse
+        side: client
+      - name: sky-villages-forge
+        id: 545467
+        file_id: 5401804
+        source: curse
+      - name: slice-and-dice
+        id: 659674
+        file_id: 4763056
+        source: curse
+      - name: smooth-boot-reloaded
+        id: 633412
+        file_id: 5016280
+        source: curse
+      - name: smooth-chunk-save
+        id: 582327
+        file_id: 5138123
+        source: curse
+      - name: sophisticated-backpacks
+        id: 422301
+        file_id: 5296475
+        source: curse
+      - name: sophisticated-core
+        id: 618298
+        file_id: 5326245
+        source: curse
+      - name: sophisticated-storage
+        id: 619320
+        file_id: 5327377
+        source: curse
+      - name: sound-physics-remastered
+        id: 535489
+        file_id: 5373634
+        source: curse
+      - name: spice-of-life-apple-pie-edition
+        id: 704584
+        file_id: 4596285
+        source: curse
+      - name: stackablepotions-forge
+        id: 599436
+        file_id: 4627634
+        source: curse
+      - name: stalwart-dungeons
+        id: 474817
+        file_id: 4703671
+        source: curse
+      - name: starter-kit
+        id: 390717
+        file_id: 5309616
+        source: curse
+      - name: stellarity
+        id: 883166
+        file_id: 4714310
+        source: curse
+      - name: structory
+        id: 636540
+        file_id: 5351581
+        source: curse
+      - name: structory-towers
+        id: 783522
+        file_id: 5351596
+        source: curse
+      - name: structure-essentials-forge-fabric
+        id: 832882
+        file_id: 5392622
+        source: curse
+      - name: structure-gel-api
+        id: 378802
+        file_id: 5278429
+        source: curse
+      - name: structurize
+        id: 298744
+        file_id: 5335495
+        source: curse
+      - name: stylecolonies
+        id: 827507
+        file_id: 5283070
+        source: curse
+      - name: suggestion-provider-fix
+        id: 469647
+        file_id: 4591193
+        source: curse
+      - name: suggestion-tweaker
+        id: 615242
+        file_id: 5341751
+        source: curse
+      - name: supermartijn642s-config-lib
+        id: 438332
+        file_id: 4715408
+        source: curse
+      - name: supermartijn642s-core-lib
+        id: 454372
+        file_id: 5102258
+        source: curse
+      - name: supplementaries
+        id: 412082
+        file_id: 5418348
+        source: curse
+      - name: supplementaries-squared
+        id: 838411
+        file_id: 5130385
+        source: curse
+      - name: telepass
+        id: 341875
+        file_id: 5327218
+        source: curse
+      - name: temporary-spawners
+        id: 342655
+        file_id: 4714950
+        source: curse
+      - name: terralith
+        id: 513688
+        file_id: 5351328
+        source: curse
+      - name: the-lost-castle
+        id: 687118
+        file_id: 4614797
+        source: curse
+      - name: the-undergarden
+        id: 379849
+        file_id: 5182632
+        source: curse
+      - name: tips
+        id: 306549
+        file_id: 5134760
+        source: curse
+        side: client
+      - name: toast-control
+        id: 271740
+        file_id: 4711316
+        source: curse
+        side: client
+      - name: too-fast
+        id: 550678
+        file_id: 4627738
+        source: curse
+      - name: torchmaster
+        id: 254268
+        file_id: 5264637
+        source: curse
+      - name: transmog
+        id: 848032
+        file_id: 5285008
+        source: curse
+      - name: trashslot
+        id: 235577
+        file_id: 4753168
+        source: curse
+      - name: travelers-titles
+        id: 504908
+        file_id: 5065825
+        source: curse
+        side: client
+      - name: u-team-core
+        id: 273744
+        file_id: 5299142
+        source: curse
+      - name: universal-enchants-forge
+        id: 593958
+        file_id: 4612367
+        source: curse
+      - name: village-spawn-point
+        id: 347381
+        file_id: 4963609
+        source: curse
+      - name: waystones
+        id: 245755
+        file_id: 4962610
+        source: curse
+      - name: what-are-they-up-to
+        id: 945479
+        file_id: 5267703
+        source: curse
+      - name: when-dungeons-arise
+        id: 442508
+        file_id: 4983862
+        source: curse
+      - name: when-dungeons-arise-seven-seas
+        id: 953637
+        file_id: 4981380
+        source: curse
+      - name: wither-skeleton-tweaks
+        id: 255902
+        file_id: 5086320
+        source: curse
+      - name: worldedit
+        id: 225608
+        file_id: 4586218
+        source: curse
+      - name: xaeros-minimap
+        id: 263420
+        file_id: 5394772
+        source: curse
+      - name: xaeros-minimap-world-map-waystones-compability
+        id: 887484
+        file_id: 4637926
+        source: curse
+      - name: xaeros-world-map
+        id: 317780
+        file_id: 5394829
+        source: curse
+      - name: yeetusexperimentus
+        id: 635427
+        file_id: 4680832
+        source: curse
+        side: client
+      - name: yungs-api
+        id: 421850
+        file_id: 5331703
+        source: curse
+      - name: yungs-better-desert-temples
+        id: 631016
+        file_id: 4769439
+        source: curse
+      - name: yungs-better-dungeons
+        id: 510089
+        file_id: 5271360
+        source: curse
+      - name: yungs-better-jungle-temples
+        id: 897669
+        file_id: 5331760
+        source: curse
+      - name: yungs-better-mineshafts-forge
+        id: 389665
+        file_id: 4769063
+        source: curse
+      - name: yungs-better-nether-fortresses
+        id: 817651
+        file_id: 5193465
+        source: curse
+      - name: yungs-better-ocean-monuments
+        id: 689238
+        file_id: 4883003
+        source: curse
+      - name: yungs-better-strongholds
+        id: 465575
+        file_id: 4769083
+        source: curse
+      - name: yungs-better-witch-huts
+        id: 631401
+        file_id: 4769489
+        source: curse
+      - name: yungs-bridges
+        id: 536660
+        file_id: 4769518
+        source: curse
+      - name: yungs-extras
+        id: 480006
+        file_id: 4769514
+        source: curse
+      - name: longer-login-times
+        id: 566374
+        file_id: 4594800
+        source: curse
+        side: server
+      - name: responsive-shields
+        id: 557556
+        file_id: 4922027
+        source: curse
+        side: server
+      - name: servercore
+        id: 550579
+        file_id: 5288513
+        source: curse
+        side: server
+      - name: spark
+        id: 361579
+        file_id: 4738952
+        source: curse
+        side: both # Adding this on the client as well
+      - name: dynmap
+        id: fRQREgAc
+        file_id: 3RtnSlr9
+        source: modrinth
+        side: server
+      - name: dcintegration
+        id: rbJ7eS5V
+        file_id: ILJrSvYW
+        source: modrinth
+        side: server
+  - id: resolver
+    kind: ModResolver
+    input:
+      mods: modlist
+  - filename: e33_5.json
+    source: resolver::json

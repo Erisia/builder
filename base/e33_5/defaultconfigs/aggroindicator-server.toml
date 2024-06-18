@@ -1,0 +1,5 @@
+
+[Targeting]
+	#Do not check for target acquisition for these mobs
+	serverMobBlacklist = []
+

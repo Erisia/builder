@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": {
+      "item": "create:brass_sheet"
+    },
+    "B": {
+      "item": "mmorpg:material/mining/3"
+    },
+    "C": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "D": {
+      "item": "illagerinvasion:imbuing_table"
+    },
+    "E": {
+      "item": "mmorpg:stone/3"
+    },
+    "F": {
+      "item": "mmorpg:stone/4"
+    }
+  },
+  "result": {
+    "item": "disenchanting:disenchanter"
+  }
+}

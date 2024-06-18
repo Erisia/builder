@@ -1,0 +1,1248 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "act_iv_2"
+	group: "1E3C4B5FFAE48A39"
+	icon: {
+		Count: 1
+		id: "blue_skies:bluebright_spear"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0CEC2D7B2260686B"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"09CFBF8766DA4706"
+				"30B56119C4EA7398"
+			]
+			description: [
+				"Your next task is to investigate &eThe End&r, and to slay the &eEnder Dragon&r. To get there, locate a &eStronghold&r, where you might find an &eEnd Portal Frame&r. You can activate the portal by slotting in &eEye of Enders&r into the frame."
+				""
+				"&eRequires ALL dependencies to be completed.&r"
+			]
+			id: "75454F0A3C4C3596"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 12500"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "4D18B65191DEAB27"
+				silent: true
+				title: "12500 Experience"
+				type: "command"
+			}]
+			shape: "rsquare"
+			subtitle: "Main Quest"
+			tasks: [{
+				advancement: "minecraft:story/enter_the_end"
+				criterion: ""
+				id: "20FC7F4ADCE826EB"
+				type: "advancement"
+			}]
+			title: "The End"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0998037F5701A2D7"]
+			description: [
+				"You've found the Gatekeeper... He's willing to give you information, but for a price."
+				""
+				"You were able to learn from him (for free) that he's familiar with 2 alternate dimensions: the &eEverbright&r and the &eEverdawn&r. According to the Gatekeeper, it's possible to access these dimensions from the Overworld!"
+				""
+				"It also looks like he has some sort of &elighter for sale&r. Apparently it's needed to access the dimensions. Maybe it's fine to humour him and buy the lighter, but you'll need more information than that. Perhaps &esnooping around the house&r might prove fruitful..."
+			]
+			id: "01B3ED0D457F7A7C"
+			rewards: [
+				{
+					count: 6
+					id: "72738BFF8A4EC51A"
+					item: "lightmanscurrency:coin_iron"
+					title: "Money"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 10000"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "16AD0ECACA8534A4"
+					silent: true
+					title: "10000 Experience"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Main Quest"
+			tasks: [{
+				id: "18AAB8BD2E919933"
+				item: {
+					Count: 1
+					id: "blue_skies:zeal_lighter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Wanderlust Ignition"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01B3ED0D457F7A7C"]
+			description: [
+				"&cOnly Requires 1 task to complete.&r"
+				""
+				"Instead of relying on the portals that spawn in the &eGatekeeper's House&r, you can craft them yourself."
+				""
+				"You can even buy the blocks from the &eTrading Terminal&r!"
+			]
+			id: "467EF949DCDD7863"
+			min_required_tasks: 1
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 9500"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "1C5BD6EBA4C93030"
+				silent: true
+				title: "9500 Experience"
+				type: "command"
+			}]
+			subtitle: "Deterministic Portal"
+			tasks: [
+				{
+					count: 10L
+					id: "11CAD902CC783BD8"
+					item: "blue_skies:lunar_stonebrick"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "3A7BB8BB2C556636"
+					item: "blue_skies:turquoise_stonebrick"
+					type: "item"
+				}
+			]
+			title: "Deterministic Portals"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["10ABAF144ABC131E"]
+			description: ["BRRrrr, it is really cold in this dimension... But you made it! The &eEverbright&r is a dimension in perpetual frost. Now would be a good time to refer to the &9Blue Journal&r..."]
+			id: "44D0530C2718FC69"
+			rewards: [
+				{
+					id: "6835CDD0FE491A5B"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":40,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Rare Gear Loot Chest (Lv. 40)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 10500"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "13C6B993CC7FEA59"
+					silent: true
+					title: "10500 Experience"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Main Quest"
+			tasks: [{
+				dimension: "blue_skies:everbright"
+				icon: "blue_skies:everbright_portal"
+				id: "79AF45CD5E5AF2BC"
+				title: "Visit The Everbright"
+				type: "dimension"
+			}]
+			title: "The Everbright"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["10ABAF144ABC131E"]
+			description: ["Yowza, it is really warm and humid in this dimension... But you made it! The &eEverdawn&r is a dimension filled with creature mutations and high heat. Now would be a good time to refer to the &9Blue Journal&r..."]
+			id: "260297A19CCA9015"
+			rewards: [
+				{
+					id: "191758AAA5952A15"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":40,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Rare Gear Loot Chest (Lv. 40)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 10500"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "1F5AACD729066105"
+					silent: true
+					title: "10500 Experience"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Main Quest"
+			tasks: [{
+				dimension: "blue_skies:everdawn"
+				icon: "blue_skies:everdawn_portal"
+				id: "6B78A3B8F87B2FEC"
+				title: "Visit The Everdawn"
+				type: "dimension"
+			}]
+			title: "The Everdawn"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["01B3ED0D457F7A7C"]
+			description: ["The Gatekeeper is also keen on giving away his &ejournal&r. It looks really old and musty, but according to the keeper, it contains a lot of &einformation&r on the dimensions."]
+			id: "10ABAF144ABC131E"
+			rewards: [
+				{
+					count: 3
+					id: "4E3CA8022FAD70C9"
+					item: "mmorpg:stone/3"
+					title: "Epic Stones"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 10000"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "03BD8073B19FA10A"
+					silent: true
+					title: "10000 Experience"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Main Quest"
+			tasks: [{
+				id: "4436206A9CCFCCC9"
+				item: "blue_skies:blue_journal"
+				type: "item"
+			}]
+			title: "Your Personal Blue Skies Guide"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44D0530C2718FC69"]
+			description: [
+				"To access the Everbright's &eNature Dungeon,&r you will first need to find the dimension's &eBlinding Dungeon&r... According to the Gatekeeper, you'll be able to &efind the Summoner&r in the Everbright's Blinding Dungeon."
+				""
+				"Be careful with the Summoner, as the Summoner fights with lightning and energy attacks, and has golems to guard themselves! According to the Gatekeeper, the Summoner becomes &estronger in the presence of more enemies&r (players)."
+				""
+				"Defeat the Summoner, and you will be able to access the Nature Dungeon!"
+				""
+				"You can also &eresummon&r the Summoner, by using the &eEthereal Arc&r obtained from it on a &eBlinding Keystone (Everbright)&r."
+				""
+				"&cThe Summoner always spawns at level 45 and at Common rarity.&r"
+				""
+				"The Summoner Has:"
+				"&b+50% Physical to Lightning Damage&r"
+				"&a10% Chance of Dropping Bri Rune&r"
+			]
+			icon: {
+				Count: 1
+				id: "mmorpg:weapon/staff/iron"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5F455D8A504B112D"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 11000"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "0CEFB91DE0714449"
+					silent: true
+					title: "11000 Experience"
+					type: "command"
+				}
+				{
+					id: "5D645D17422CCBDF"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:basic/enderman"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Main Quest"
+			tasks: [
+				{
+					icon: "blue_skies:bright_blinding_keystone"
+					id: "055FC215AAF81A94"
+					structure: "blue_skies:everbright_blinding_dungeon"
+					title: "Find a Blinding Dungeon (Everbright)"
+					type: "structure"
+				}
+				{
+					entity: "blue_skies:summoner"
+					icon: {
+						Count: 1
+						id: "mmorpg:weapon/staff/iron"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0CCF277C1EE31264"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "A New Headquarters"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["260297A19CCA9015"]
+			description: [
+				"To access the Everdawn's &ePoison Dungeon,&r you will first need to find the dimension's &eBlinding Dungeon&r... According to the Gatekeeper, you'll be able to &efind the Alchemist&r in the Everdawn's Blinding Dungeon."
+				""
+				"Watch out for potions and physical constructs as you fight the Alchemist. A lot of the Alchemist's attacks are telegraphed, but missing these cues may cost you an arm! According to the Gatekeeper, the Alchemist becomes &estronger in the presence of more enemies&r (players)."
+				""
+				"Defeat the Alchemist, and you will be able to access the Poison Dungeon!"
+				""
+				"You can also &eresummon&r the Alchemist by using the &eDusk Arc&r obtained from it on a &eBlinding Keystone (Everdawn)&r."
+				""
+				"&cThe Alchemist always spawns at level 45 and at Common rarity.&r"
+				""
+				"The Alchemist Has:"
+				"&b+50% Physical to Chaos Damage&r"
+				"&a10% Chance of Dropping Daw Rune&r"
+			]
+			icon: "minecolonies:magicpotion"
+			id: "63DA191A8533F1AE"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 11000"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "2B451560B8BFF45C"
+					silent: true
+					title: "11000 Experience"
+					type: "command"
+				}
+				{
+					id: "36DC7DA698607017"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:basic/witch"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Main Quest"
+			tasks: [
+				{
+					icon: "blue_skies:dawn_blinding_keystone"
+					id: "117C1E4EBD07991B"
+					structure: "blue_skies:everdawn_blinding_dungeon"
+					title: "Find a Blinding Dungeon (Everdawn)"
+					type: "structure"
+				}
+				{
+					entity: "blue_skies:alchemist"
+					icon: "minecolonies:magicpotion"
+					id: "55846F2347E4D804"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "A New Laboratory"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F455D8A504B112D"]
+			description: [
+				"You've defeated the Summoner, and in their dying moments, they tell you about the Nature Dungeon."
+				""
+				"The Nature Dungeon is a &emassive green labyrinth&r consisting of &e4 floors.&r Each floor will contain &e1 of 4 keys&r and a staircase leading up to the next floor."
+				""
+				"Resting at the top of the floor you will find the &eStarlit Crusher&r. This slow-moving tree packs a punch, but opportunities to stun the tree may arise if you're using a &ospear&r. According to the Gatekeeper, the Starlit Crusher becomes &estronger in the presence of more enemies&r (players)."
+				""
+				"Should you find a Nature Dungeon that's &ealready been cleared&r, you can go back to the &eGatekeeper&r and &epurchase the required keys&r."
+				""
+				"You can also &eresummon&r the Starlit Crusher by using the &eNature Arc&r obtained from it on a &eNature Keystone&r."
+				""
+				"&cThe Starlit Crusher always spawns at level 55 and at Common rarity.&r"
+				""
+				"The Starlit Crusher Has:"
+				"&b+50% Physical to Lightning Damage&r"
+				"&b+33% Electrify Chance&r"
+				"&a25% Chance of Dropping Bri Rune&r"
+			]
+			icon: "blue_skies:nature_key"
+			id: "30B56119C4EA7398"
+			rewards: [
+				{
+					id: "663B62B336DCAB4D"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":50,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Rare Gear Loot Chest (Lv. 50)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 17000"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "135D273C25E842F5"
+					silent: true
+					title: "17000 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4s
+							}]
+						}
+					}
+					id: "1A38E3424A25A4F8"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Main Quest"
+			tasks: [
+				{
+					icon: "blue_skies:nature_key"
+					id: "522F544ED0AF2DF1"
+					structure: "blue_skies:nature_dungeon"
+					title: "Find a Nature Dungeon"
+					type: "structure"
+				}
+				{
+					entity: "blue_skies:starlit_crusher"
+					icon: {
+						Count: 1
+						id: "blue_skies:starlit_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7AE9182E6A246E5E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "An Uprooting"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63DA191A8533F1AE"]
+			description: [
+				"You've defeated the Alchemist, and in their dying moments, they tell you about the Poison Dungeon."
+				""
+				"The Poison Dungeon is a &elarge underground maze&r consisting of &e4 floors.&r Each floor will contain &e1 of 4 keys&r and a staircase leading down to the next floor. You will find a &elarge, hollowed maple tree covered in cobwebs on the surface&r."
+				""
+				"Lurking in the lowest depths, you will find the &eArachnarch&r in her lair. This venomous foe lunges at targets and sprays poison from the ceiling above, but opportunities to stun the spider may arise if you're using a &oshield&r. According to the Gatekeeper, the Arachnarch becomes &estronger in the presence of more enemies&r (players)."
+				""
+				"Should you find a Poison Dungeon that's &ealready been cleared&r, you can go back to the &eGatekeeper&r and &epurchase the required keys&r."
+				""
+				"You can also &eresummon&r the Arachnarch by using the &ePoisonous Arc&r obtained from it on a &ePoison Keystone&r."
+				""
+				"&cThe Arachnarch always spawns at level 55 and at Common rarity.&r"
+				""
+				"The Arachnarch Has:"
+				"&b+50% Physical to Chaos Damage&r"
+				"&b+33% Poison Chance&r"
+				"&a25% Chance of Dropping Daw Rune&r"
+			]
+			icon: "blue_skies:poison_key"
+			id: "09CFBF8766DA4706"
+			rewards: [
+				{
+					id: "64F2BD6B14DAA4BD"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":50,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Rare Gear Loot Chest (Lv. 50)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 17000"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "3376346B940F53CB"
+					silent: true
+					title: "17000 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4s
+							}]
+						}
+					}
+					id: "1161AA2AFCD41DBA"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Main Quest"
+			tasks: [
+				{
+					icon: "blue_skies:poison_key"
+					id: "7A4081191F33BB95"
+					structure: "blue_skies:poison_dungeon"
+					title: "Find a Poison Dungeon"
+					type: "structure"
+				}
+				{
+					entity: "blue_skies:arachnarch"
+					icon: "aquamirae:anglers_fang"
+					id: "0EDF13A2831E8413"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Caught in a Web"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"260297A19CCA9015"
+				"44D0530C2718FC69"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&cOnly Requires 1 task to complete.&r"
+				""
+				"The Gatekeeper did mention there would be civilization in the Everbright and Everdawn. You'll just need to find it."
+				""
+				"&eRequires 1 dependency to be completed.&r"
+			]
+			icon: "minecolonies:supplycampdeployer"
+			id: "5B4E23F4CD32950F"
+			min_required_tasks: 1
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6122CD63934C4191"
+					table_id: 1620634734402786827L
+					type: "choice"
+				}
+				{
+					count: 2
+					id: "6DF34A2B450D376D"
+					item: "mmorpg:material/farming/2"
+					title: "Empyrean Produce"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 11000"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "45C316F7912839EF"
+					silent: true
+					title: "11000 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Villages"
+			tasks: [
+				{
+					icon: "minecraft:soul_campfire"
+					id: "15376BBADD49A823"
+					structure: "blue_skies:village_brightlands"
+					title: "Find a Village (Brightlands)"
+					type: "structure"
+				}
+				{
+					icon: "minecraft:soul_campfire"
+					id: "78E992AF23F05590"
+					structure: "blue_skies:village_calming_skies"
+					title: "Find a Village (Calming Skies)"
+					type: "structure"
+				}
+				{
+					icon: "minecraft:soul_campfire"
+					id: "7CCD0E5B3CA7EAFE"
+					structure: "blue_skies:village_slushlands"
+					title: "Find a Village (Slushlands)"
+					type: "structure"
+				}
+				{
+					icon: "minecraft:campfire"
+					id: "0C04E46B1BF636C0"
+					structure: "blue_skies:village_crystal_dunes"
+					title: "Find a Village (Crystal Dunes)"
+					type: "structure"
+				}
+				{
+					icon: "minecraft:campfire"
+					id: "38442C1814AB77D0"
+					structure: "blue_skies:village_shaded_woodlands"
+					title: "Find a Village (Shaded Woodlands)"
+					type: "structure"
+				}
+				{
+					icon: "minecraft:campfire"
+					id: "720141991EF4B5EA"
+					structure: "blue_skies:village_sunset_maple_forest"
+					title: "Find a Village (Sunset Maple Forest)"
+					type: "structure"
+				}
+			]
+			title: "Encampment"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B4E23F4CD32950F"]
+			description: [
+				"Apparently if you find a &eNightwatcher&r, they can provide you with a &eBag of Spoils&r which will let you &epickpocket villagers&r... Seems like a criminal activity that would be frowned upon by them..."
+				""
+				"That is, if they catch you."
+			]
+			id: "08D0C45FA283D50A"
+			rewards: [
+				{
+					id: "747892111AA9DE5D"
+					item: "lightmanscurrency:coin_diamond"
+					title: "Money"
+					type: "item"
+				}
+				{
+					id: "3F2B997D92FBF0E8"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/common_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"common\",\"lvl\":40,\"id\":\"rune\",\"key\":\"\"}"
+						}
+					}
+					title: "Common Rune Loot Chest (Lv. 40)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 11250"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "0AC5615867DF791F"
+					silent: true
+					title: "11250 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Villages"
+			tasks: [{
+				id: "39EE9E362FC12FBB"
+				item: "blue_skies:bag_of_spoils"
+				type: "item"
+			}]
+			title: "Pickpocketing"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5F455D8A504B112D"
+				"63DA191A8533F1AE"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"These dimensions seem to have plenty of natural resources. It might be worthwhile to harvest some to craft with."
+				""
+				"&eRequires 1 dependency to be completed.&r"
+			]
+			id: "1E4735F6982A43ED"
+			rewards: [
+				{
+					id: "5245C2D702472E51"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/common_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"common\",\"lvl\":40,\"id\":\"gem\",\"key\":\"\"}"
+						}
+					}
+					title: "Common Gem Loot Chest (Lv. 40)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 11750"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "12683C844A99C4C0"
+					silent: true
+					title: "11750 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "MINE and Slash"
+			tasks: [
+				{
+					count: 16L
+					id: "0D98593995337F43"
+					item: "blue_skies:pyrope_gem"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "1DBB927107811622"
+					item: "blue_skies:aquite"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "209A546373165BD4"
+					item: "blue_skies:diopside_gem"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "512F2C3EB9850B9A"
+					item: "blue_skies:charoite"
+					type: "item"
+				}
+			]
+			title: "Mark My Words..."
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E4735F6982A43ED"]
+			description: ["According to the &9Blue Book&r, &5Falsite&r can be found in the &eEverbright&r and possesses a &estrengthening property&r. &6Horizonite&r can be found in the &eEverdawn&r and contains a &ehigh amount of heat&r."]
+			id: "1FC3745ADFF992F2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "405DBCD14DC27672"
+					table_id: 6715256251723704267L
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 12000"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "05E99D1E12995F08"
+					silent: true
+					title: "12000 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4s
+							}]
+						}
+					}
+					id: "2C1C7C596F1EF10F"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
+			subtitle: "MINE and Slash"
+			tasks: [
+				{
+					count: 4L
+					id: "6CA7D8E2785CCC34"
+					item: "blue_skies:falsite_ingot"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "765E2AC8712160F0"
+					item: "blue_skies:horizonite_ingot"
+					type: "item"
+				}
+			]
+			title: "There's Trouble Brewin'"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44D0530C2718FC69"]
+			description: [
+				"You've noticed sticks of different properties while exploring in the Everbright. Perhaps it's even possible to use these sticks to craft spears."
+				""
+				"It might be a good idea to refer to the &9Blue Journal&r for the different types of sticks. I'm sure the Gatekeeper noticed this too."
+			]
+			id: "74FCB46359C566CA"
+			rewards: [
+				{
+					count: 4
+					id: "02D0D9F28BBFB03A"
+					item: "mmorpg:material/mining/2"
+					title: "Empyrean Ores"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 10000"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "3AB0CC5DDBEF85A8"
+					silent: true
+					title: "10000 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Ever Exploration"
+			tasks: [{
+				id: "49FFE6F489219E0E"
+				item: {
+					Count: 1
+					id: "blue_skies:bluebright_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Spears and Sticks"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["260297A19CCA9015"]
+			description: [
+				"You've noticed sticks of different properties while exploring in the Everdawn. Perhaps it's even possible to use these sticks to craft spears."
+				""
+				"It might be a good idea to refer to the &9Blue Journal&r for the different types of sticks. I'm sure the Gatekeeper noticed this too."
+			]
+			id: "07B675A69ECAD9D0"
+			rewards: [
+				{
+					count: 4
+					id: "217FA3CB78CE7CDD"
+					item: "mmorpg:material/mining/2"
+					title: "Empyrean Ores"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 10000"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "5AE408B538326E95"
+					silent: true
+					title: "10000 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Ever Exploration"
+			tasks: [{
+				id: "42B8F5AE130930FB"
+				item: {
+					Count: 1
+					id: "blue_skies:lunar_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Sticks and Spears"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["44D0530C2718FC69"]
+			description: [
+				"The Everbright seems to be home to many foreign creatures. You can't really tell if they're mutations or natively weird."
+				""
+				"Creatures here seem to be covered in ice..."
+			]
+			icon: "blue_skies:frose"
+			id: "61FABF4C4DB118C8"
+			rewards: [
+				{
+					count: 4
+					id: "1B63036807317E5D"
+					item: {
+						Count: 1
+						id: "mmorpg:potion/health/5"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					title: "Mythic Restoration Potions"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 10500"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "59D7A4D19D910329"
+					silent: true
+					title: "10500 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4s
+							}]
+						}
+					}
+					id: "305B94587B94BCCD"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
+			subtitle: "Ever Exploration"
+			tasks: [
+				{
+					entity: "blue_skies:armored_frost_spirit"
+					icon: {
+						Count: 1
+						id: "undergarden:froststeel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "46FBFA9B9E2C3F30"
+					type: "kill"
+					value: 16L
+				}
+				{
+					entity: "blue_skies:crynocerous"
+					icon: "simplehats:unicornhorn"
+					id: "17317C9793765AA5"
+					type: "kill"
+					value: 16L
+				}
+				{
+					entity: "blue_skies:diophyde_prowler"
+					icon: {
+						Count: 1
+						id: "blue_skies:diopside_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "66B83C3FD2EDDE66"
+					type: "kill"
+					value: 16L
+				}
+				{
+					entity: "blue_skies:polargeist"
+					icon: "blue_skies:polar_posy"
+					id: "7FF30405930602D8"
+					type: "kill"
+					value: 16L
+				}
+			]
+			title: "Frozen in Time"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["260297A19CCA9015"]
+			description: [
+				"The Everdawn seems to be home to many foreign creatures. You can't really tell if they're mutations or natively weird."
+				""
+				"Here, they seem to be similar to insects you'd find in the Overworld."
+			]
+			icon: {
+				Count: 1
+				id: "aquaculture:worm"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1B6034E8571F3AFA"
+			rewards: [
+				{
+					count: 4
+					id: "67D36AD44F7589CE"
+					item: {
+						Count: 1
+						id: "mmorpg:potion/health/5"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					title: "Mythic Restoration Potions"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 10500"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "4058C769C50CDB26"
+					silent: true
+					title: "10500 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4s
+							}]
+						}
+					}
+					id: "4C24F2B02FA87DA8"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
+			subtitle: "Ever Exploration"
+			tasks: [
+				{
+					entity: "blue_skies:emberback"
+					icon: "minecraft:fire_coral_fan"
+					id: "76455A4279BE87D4"
+					type: "kill"
+					value: 16L
+				}
+				{
+					entity: "blue_skies:infested_swarmer"
+					icon: "minecraft:poisonous_potato"
+					id: "4E4337946DE5B20B"
+					type: "kill"
+					value: 16L
+				}
+				{
+					entity: "blue_skies:nyctofly"
+					icon: "moresnifferflowers:dragonfly"
+					id: "37DEA52CFB6A9C53"
+					type: "kill"
+					value: 16L
+				}
+				{
+					entity: "blue_skies:venom_spider"
+					icon: "minecraft:spider_eye"
+					id: "188824A2DC14AB14"
+					type: "kill"
+					value: 16L
+				}
+			]
+			title: "Creepy Crawlies"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5145DB1D393B6681"
+				"517A65DD1CDCA89F"
+				"08D0C45FA283D50A"
+				"5B4E23F4CD32950F"
+				"467EF949DCDD7863"
+				"5F455D8A504B112D"
+				"07B675A69ECAD9D0"
+				"6954FEF58C12CA7F"
+				"44D0530C2718FC69"
+				"1B6034E8571F3AFA"
+				"61FABF4C4DB118C8"
+				"74FCB46359C566CA"
+				"1FC3745ADFF992F2"
+				"09CFBF8766DA4706"
+				"75454F0A3C4C3596"
+				"1E4735F6982A43ED"
+				"260297A19CCA9015"
+				"01B3ED0D457F7A7C"
+				"10ABAF144ABC131E"
+				"63DA191A8533F1AE"
+				"30B56119C4EA7398"
+			]
+			description: ["&eComplete&r all of the &equests&r in Act IV to complete this achievement. Then show it off with your new hat!"]
+			hide_dependency_lines: true
+			icon: "simplehats:questbook"
+			id: "713453058246129A"
+			rewards: [
+				{
+					id: "6237206235CF02D4"
+					item: "simplehats:questbook"
+					type: "item"
+				}
+				{
+					id: "67A86F3F2026EE49"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Money"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Achievement"
+			tasks: [{
+				id: "0980095FE80FC990"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Finish all Act IV Quests!"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["10ABAF144ABC131E"]
+			description: [
+				"In the Everbright and Everdawn dimensions, you will find &enew tameables and new potential mounts&r."
+				""
+				"It might be fun to find a &eReindeer&r, &eCamel&r, or even a &eCosmic Fox&r."
+			]
+			icon: "minecraft:paper"
+			id: "5145DB1D393B6681"
+			rewards: [
+				{
+					id: "587FD04ECDD9103E"
+					item: "minecraft:saddle"
+					title: "Saddle"
+					type: "item"
+				}
+				{
+					id: "19FC818B02F0178A"
+					item: "blue_skies:camel_saddle"
+					title: "Camel Saddle"
+					type: "item"
+				}
+			]
+			subtitle: "Lost Page"
+			tasks: [{
+				id: "5410793780654A4C"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Mounts"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F455D8A504B112D"]
+			description: [
+				"The &eSnowcap Oven&r can utilize the special hot and cold properites of the &eSnowcap Mushroom as a fuel source&r."
+				""
+				"Cooking with Snowcap Mushrooms will result in a &ecold byproduct&r that may be used elsewhere."
+			]
+			id: "517A65DD1CDCA89F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 11250"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "621213B3B25F0F08"
+				silent: true
+				title: "11250 Experience"
+				type: "command"
+			}]
+			subtitle: "Ever Exploration"
+			tasks: [{
+				advancement: "blue_skies:everbright/craft_snowcap_oven"
+				criterion: ""
+				id: "20A4DC3C89497906"
+				type: "advancement"
+			}]
+			title: "The Wrong Kind"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["63DA191A8533F1AE"]
+			description: ["The &eHorizonite Forge&r can &esmelt things without any fuel&r due to the natural heat of the block. It does have a &erecharge time&r, but the forge can be recharged quicker using anything made of Horizonite or Sunstone."]
+			id: "6954FEF58C12CA7F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 11250"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "4D85B77A38196A19"
+				silent: true
+				title: "11250 Experience"
+				type: "command"
+			}]
+			subtitle: "Ever Exploration"
+			tasks: [{
+				advancement: "blue_skies:everdawn/craft_horizonite_forge"
+				criterion: ""
+				id: "166DEBA8C0BA4181"
+				type: "advancement"
+			}]
+			title: "Really Hot Flames"
+			x: 6.0d
+			y: 3.0d
+		}
+	]
+	subtitle: ["Lv. 35-55"]
+	title: "Act IV"
+}

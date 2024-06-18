@@ -1,0 +1,37 @@
+{
+  "base": 0.0,
+  "effect": [
+    {
+      "effects": [
+      "proc_spell_lightning_bolt"
+    ],
+    "events": [
+      "on_damage"
+    ],
+    "ifs": [
+      "random_roll",
+	  "spell_has_tag_discharge"
+    ],
+      "order": "data_modification",
+      "side": "Source"
+    }
+  ],
+  "ele": "Nature",
+  "format": "aqua",
+  "group": "Misc",
+  "gui_group": "NONE",
+  "has_softcap": false,
+  "icon": "★",
+  "id": "proc_lightning_bolt",
+  "is_long": true,
+  "is_perc": true,
+  "max": 100.0,
+  "min": -1000.0,
+  "minus_is_good": false,
+  "multiUseType": "MULTIPLY_STAT",
+  "order": 100,
+  "scaling": "NONE",
+  "ser": "data",
+  "show_in_gui": true,
+  "softcap": 0.0
+}

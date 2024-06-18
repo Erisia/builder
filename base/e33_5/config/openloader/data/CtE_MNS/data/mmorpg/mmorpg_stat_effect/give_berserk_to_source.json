@@ -1,0 +1,7 @@
+{
+  "effect": "berserk",
+  "give_to": "Source",
+  "id": "give_berserk_to_source",
+  "seconds": 10,
+  "ser": "give_exile_effect"
+}

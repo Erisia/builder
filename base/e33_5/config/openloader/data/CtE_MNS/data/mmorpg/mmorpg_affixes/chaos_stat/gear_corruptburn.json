@@ -1,0 +1,33 @@
+{
+  "type": "chaos_stat",
+  "eye_aura_req": "",
+  "guid": "gear_corruptburn",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [
+          "weapon_family",
+          "offhand_family"
+        ],
+        "req_type": "INCLUDES_ANY"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 10.0,
+      "stat": "burn_chance"
+    },{
+      "type": "PERCENT",
+      "max": 10.0,
+      "min": 10.0,
+      "stat": "burn_damage"
+    }
+  ],
+  "weight": 200
+}

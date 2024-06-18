@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCB",
+    "DEF"
+  ],
+  "key": {
+    "A": {
+      "item": "simplemagnets:basicmagnet"
+    },
+    "B": {
+      "item": "create:iron_sheet"
+    },
+    "C": {
+      "item": "sophisticatedstorage:pickup_upgrade"
+    },
+    "D": {
+      "tag": "forge:dusts/redstone"
+    },
+    "E": {
+      "item": "mmorpg:stone/0"
+    },
+    "F": {
+      "tag": "forge:gems/lapis"
+    }
+  },
+  "result": {
+    "item": "sophisticatedstorage:magnet_upgrade"
+  }
+}

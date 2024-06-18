@@ -1,0 +1,15 @@
+{
+  "type": "MAJOR",
+  "icon": "mmorpg:textures/gui/talent_icons/asc/battlemage/0.png",
+  "id": "battlemage_class_0",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "lightning_ignore_ele_res",
+      "v1": 1.0
+    }
+  ]
+}

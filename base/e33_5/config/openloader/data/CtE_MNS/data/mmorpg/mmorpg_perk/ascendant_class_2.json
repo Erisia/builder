@@ -1,0 +1,15 @@
+{
+  "type": "MAJOR",
+  "icon": "mmorpg:textures/gui/talent_icons/asc/ascendant/2.png",
+  "id": "ascendant_class_2",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "spirit_cost",
+      "v1": 30.0
+    }
+  ]
+}

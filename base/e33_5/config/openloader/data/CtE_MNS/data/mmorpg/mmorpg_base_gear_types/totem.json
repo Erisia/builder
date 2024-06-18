@@ -1,0 +1,46 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "dodge"
+    }
+  ],
+  "gear_slot": "totem",
+  "guid": "totem",
+  "possible_items": [
+    {
+      "item_id": "mmorpg:offhand/dodge/wood",
+      "min_rar": "common",
+      "weight": 1
+    },
+    {
+      "item_id": "mmorpg:offhand/dodge/iron",
+      "min_rar": "rare",
+      "weight": 10
+    },
+    {
+      "item_id": "mmorpg:offhand/dodge/diamond",
+      "min_rar": "legendary",
+      "weight": 100
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "dexterity": 0.5
+    }
+  },
+  "style": "DEX",
+  "tags": {
+    "tags": [
+      "dexterity",
+      "dodge_stat",
+      "totem",
+      "offhand_family"
+    ]
+  },
+  "weapon_type": "none",
+  "weight": 1000
+}

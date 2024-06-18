@@ -1,0 +1,14 @@
+{
+    "com.robertx22.age_of_exile.capability.player.container.SkillGemsScreen": {
+        "ignore": true
+    },
+    "com.darkere.crashutils.Screens.PlayerInvScreen": {
+        "ignore": true
+    },
+    "de.markusbordihn.dailyrewards.client.screen.RewardOverviewScreen": {
+        "ignore": true
+    },
+    "de.markusbordihn.dailyrewards.menu.RewardOverviewMenu": {
+        "ignore": true
+    }
+}

@@ -1,0 +1,218 @@
+{
+	id: "0E227194CDBA97C2"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"healing_aura\",\"type\":\"SKILL\",\"perc\":11,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Healing Wave"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"nature_balm\",\"type\":\"SKILL\",\"perc\":20,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Nature's Balm"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"power_chord\",\"type\":\"SKILL\",\"perc\":23,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Power Chord"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"song_of_vigor\",\"type\":\"SKILL\",\"perc\":16,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Hymn of Vigor"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"gong_strike\",\"type\":\"SKILL\",\"perc\":14,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Gong Strike"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"boomerang\",\"type\":\"SKILL\",\"perc\":11,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Boomerang"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"shred\",\"type\":\"SKILL\",\"perc\":23,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Shred"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"rejuv_totem\",\"type\":\"SKILL\",\"perc\":22,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Rejuvenating Totem"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"craft_arrows\",\"type\":\"SKILL\",\"perc\":17,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Craft Arrows"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"arrow_barrage\",\"type\":\"SKILL\",\"perc\":10,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Arrow Barrage"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"charged_bolt\",\"type\":\"SKILL\",\"perc\":25,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Charged Bolt"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"fire_trap\",\"type\":\"SKILL\",\"perc\":18,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Fire Trap"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"fireball\",\"type\":\"SKILL\",\"perc\":16,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Fireball"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"frostball\",\"type\":\"SKILL\",\"perc\":18,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Ice Shard"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"lightning_spear\",\"type\":\"SKILL\",\"perc\":22,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Lightning Spear"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"fire_nova\",\"type\":\"SKILL\",\"perc\":23,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Fire Nova"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"frost_nova\",\"type\":\"SKILL\",\"perc\":17,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Frost Nova"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"chilling_touch\",\"type\":\"SKILL\",\"perc\":16,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Chilling Touch"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"curse_of_agony\",\"type\":\"SKILL\",\"perc\":21,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Curse of Agony"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"summon_spirit_wolf\",\"type\":\"SKILL\",\"perc\":24,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Summon Spirit Wolf"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"summon_zombie\",\"type\":\"SKILL\",\"perc\":20,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Summon Zombie"
+		}
+	]
+	title: "Skill Gem Shop I"
+}

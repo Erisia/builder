@@ -1,0 +1,10 @@
+
+#Temporary spawner Configs
+[general]
+	enable = true
+	ENABLE_SPAWNER_DESTRUCTION = true
+	#Range: 0 ~ 100000
+	SPAWNER_LIFETIME_MINUTES = 1
+	#Range: 0 ~ 100000
+	SPAWNER_COOLDOWN_MINUTES = 3
+

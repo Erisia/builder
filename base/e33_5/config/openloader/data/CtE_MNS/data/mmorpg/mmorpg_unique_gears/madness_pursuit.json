@@ -1,0 +1,50 @@
+{
+  "base_gear": "cloth_boots",
+  "guid": "madness_pursuit",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "",
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 60.0,
+      "min": 50.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "FLAT",
+      "max": 80.0,
+      "min": 75.0,
+      "stat": "chaos_resist"
+    },
+    {
+      "type": "FLAT",
+      "max": -10.0,
+      "min": -15.0,
+      "stat": "water_resist"
+    },
+    {
+      "type": "FLAT",
+      "max": -10.0,
+      "min": -15.0,
+      "stat": "lightning_resist"
+    },
+    {
+      "type": "FLAT",
+      "max": -10.0,
+      "min": -15.0,
+      "stat": "fire_resist"
+    },
+    {
+      "type": "FLAT",
+      "max": 15.0,
+      "min": 15.0,
+      "stat": "move_speed"
+    }
+  ],
+  "weight": 1000
+}

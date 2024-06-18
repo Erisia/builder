@@ -1,0 +1,28 @@
+{
+  "id": "brutality",
+  "manaMulti": 1.3,
+  "min_lvl": 30,
+  "one_of_a_kind": "",
+  "stats": [
+    {
+      "type": "MORE",
+      "max": 27.0,
+      "min": 9.0,
+      "stat": "all_physical_damage"
+    },
+    {
+      "type": "MORE",
+      "max": -100.0,
+      "min": -100.0,
+      "stat": "all_elemental_damage"
+    },
+    {
+      "type": "MORE",
+      "max": -100.0,
+      "min": -100.0,
+      "stat": "all_chaos_damage"
+    }
+  ],
+  "style": "STR",
+  "weight": 1000
+}

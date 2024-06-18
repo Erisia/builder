@@ -1,0 +1,35 @@
+{
+  "exp": 180,
+  "id": "potion_health_40",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "mmorpg:material/meat/0",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:stone/4",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "minecraft:wheat",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "farmersdelight:tomato",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "lightmanscurrency:coin_gold",
+      "num": 1    }
+  ],
+  "power": "greater",
+  "profession": "alchemy",
+  "result": "mmorpg:potion/health/4",
+  "result_num": 4,
+  "tier": 0
+}

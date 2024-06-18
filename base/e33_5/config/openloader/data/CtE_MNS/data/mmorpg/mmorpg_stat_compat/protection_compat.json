@@ -1,0 +1,11 @@
+{
+  "attribute_id": "",
+  "conversion": 1.0,
+  "enchant_id": "minecraft:protection",
+  "id": "protection_compat",
+  "maximum_cap": 50,
+  "minimum_cap": 0,
+  "mns_stat_id": "dmg_reduction",
+  "mod_type": "FLAT",
+  "scaling": "NONE"
+}

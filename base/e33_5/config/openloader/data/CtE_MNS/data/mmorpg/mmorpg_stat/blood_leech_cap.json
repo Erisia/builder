@@ -1,0 +1,22 @@
+{
+  "base": 0.0,
+  "effect": [],
+  "ele": "ALL",
+  "format": "aqua",
+  "group": "RESTORATION",
+  "gui_group": "NONE",
+  "has_softcap": false,
+  "icon": "★",
+  "id": "blood_leech_cap",
+  "is_long": false,
+  "is_perc": true,
+  "max": 50.0,
+  "min": 0.0,
+  "minus_is_good": false,
+  "multiUseType": "MULTIPLY_STAT",
+  "order": 100,
+  "scaling": "NORMAL",
+  "ser": "data",
+  "show_in_gui": true,
+  "softcap": 0.0
+}

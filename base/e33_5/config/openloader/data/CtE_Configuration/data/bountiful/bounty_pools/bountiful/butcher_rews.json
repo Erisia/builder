@@ -1,0 +1,146 @@
+
+{
+	"content": {
+
+		"butcher_rew_rabbit_stew": {
+			"type": "item",
+			"content": "minecraft:rabbit_stew",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 1000
+		},
+
+		"butcher_rew_cooked_porkchop": {
+			"type": "item",
+			"content": "minecraft:cooked_porkchop",
+			"amount": {
+				"min": 2,
+				"max": 12
+			},
+			"unitWorth": 200
+		},
+
+		"butcher_rew_cooked_chicken": {
+			"type": "item",
+			"content": "minecraft:cooked_chicken",
+			"amount": {
+				"min": 2,
+				"max": 12
+			},
+			"unitWorth": 125
+		},
+
+		"butcher_rew_leather": {
+			"type": "item",
+			"content": "minecraft:leather",
+			"amount": {
+				"min": 2,
+				"max": 8
+			},
+			"unitWorth": 150
+		},
+
+		"butcher_rew_cooked_beef": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "minecraft:cooked_beef",
+			"amount": {
+				"min": 2,
+				"max": 12
+			},
+			"unitWorth": 125
+		},
+
+		"butcher_rew_cooked_mutton": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "minecraft:cooked_mutton",
+			"amount": {
+				"min": 2,
+				"max": 12
+			},
+			"unitWorth": 125
+		},
+
+		"butcher_rew_phantom_membrane": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "minecraft:phantom_membrane",
+			"amount": {
+				"min": 1,
+				"max": 6
+			},
+			"unitWorth": 500
+		},
+
+		"butcher_rew_feather": {
+			"type": "item",
+			"content": "minecraft:feather",
+			"amount": {
+				"min": 4,
+				"max": 32
+			},
+			"unitWorth": 75
+		},
+
+		"butcher_rew_smoked_ham": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "farmersdelight:smoked_ham",
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 500
+		},
+
+		"butcher_rew_crab_cakes": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "crabbersdelight:crab_cakes",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 750
+		},
+
+		"butcher_rew_beef_stew": {
+			"type": "item",
+			"rarity": "EPIC",
+			"content": "farmersdelight:beef_stew",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 1500
+		},
+
+		"butcher_rew_roast_chicken": {
+			"type": "item",
+			"rarity": "LEGENDARY",
+			"content": "farmersdelight:roast_chicken",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 2000
+		},
+
+		"butcher_rew_shepherds_pie": {
+			"type": "item",
+			"rarity": "LEGENDARY",
+			"content": "farmersdelight:shepherds_pie",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 2000
+		}
+
+
+	}
+
+}

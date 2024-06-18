@@ -1,0 +1,9 @@
+{
+  "cost_multi": 2.0,
+  "data": "dagger",
+  "id": "dagger",
+  "lvl_req": 0,
+  "modifier_type": "GEAR_TYPE",
+  "tier_req": 0,
+  "weight": 1000
+}

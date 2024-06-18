@@ -1,0 +1,34 @@
+{
+  "type": "chaos_stat",
+  "eye_aura_req": "",
+  "guid": "gear_corrupthammer_totem",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [
+          "hammer",
+		  "helmet"
+        ],
+        "req_type": "INCLUDES_ANY"
+      }
+    ]
+  },
+  "stats": [
+	{
+      "type": "flat",
+      "max": 1.0,
+      "min": 1.0,
+      "stat": "plus_lvl_totem_spells"
+    },
+    {
+      "type": "FLAT",
+      "max": 4.0,
+      "min": 4.0,
+      "stat": "totem_spell_dmg"
+    }
+  ],
+  "weight": 1000
+}

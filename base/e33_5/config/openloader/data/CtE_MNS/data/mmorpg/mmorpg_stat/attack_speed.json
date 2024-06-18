@@ -1,0 +1,15 @@
+{
+  "data": {
+    "attribute_id": "minecraft:generic.attack_speed",
+    "base": 0.0,
+    "ele": "Physical",
+    "id": "attack_speed",
+    "max": 2.14748365E9,
+    "min": -1000.0,
+    "name": "Attack Speed",
+    "perc": true,
+    "scale": "NONE",
+    "uuid": "dce362b7-d1b1-4f90-ad6d-024ffcf0b58a"
+  },
+  "ser": "vanilla_attribute_stat_ser"
+}

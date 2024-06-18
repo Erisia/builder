@@ -1,0 +1,25 @@
+{
+  "type": "watcher_eye",
+  "eye_aura_req": "summon_dmg",
+  "guid": "summon_dmg_eye",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [],
+        "req_type": "INCLUDES_ANY"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "MORE",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "summon_damage"
+    }
+  ],
+  "weight": 1000
+}

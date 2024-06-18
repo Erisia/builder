@@ -1,0 +1,31 @@
+{
+  "id": "dos",
+  "item_id": "mmorpg:runes/dos",
+  "min_lvl_multi": 0.1,
+  "on_armor_stats": [
+    {
+      "type": "PERCENT",
+      "max": 8.0,
+      "min": 8.0,
+      "stat": "dodge"
+    }
+  ],
+  "on_jewelry_stats": [
+    {
+      "type": "PERCENT",
+      "max": 8.0,
+      "min": 8.0,
+      "stat": "dodge"
+    }
+  ],
+  "on_weapons_stats": [
+    {
+      "type": "PERCENT",
+      "max": 8.0,
+      "min": 8.0,
+      "stat": "energy_regen"
+    }
+  ],
+  "tier": 1,
+  "weight": 900
+}

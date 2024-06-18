@@ -1,0 +1,22 @@
+{
+  "id": "archmage",
+  "manaMulti": 1.25,
+  "min_lvl": 30,
+  "one_of_a_kind": "",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 15.0,
+      "min": 5.0,
+      "stat": "archmage"
+    },
+    {
+      "type": "FLAT",
+      "max": 15.0,
+      "min": 5.0,
+      "stat": "archmage_mana_cost"
+    }
+  ],
+  "style": "INT",
+  "weight": 1000
+}

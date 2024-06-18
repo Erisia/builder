@@ -1,0 +1,31 @@
+{
+  "id": "net",
+  "item_id": "mmorpg:runes/net",
+  "min_lvl_multi": 0.15,
+  "on_armor_stats": [
+    {
+      "type": "FLAT",
+      "max": 16.0,
+      "min": 16.0,
+      "stat": "fire_resist"
+    }
+  ],
+  "on_jewelry_stats": [
+    {
+      "type": "FLAT",
+      "max": 16.0,
+      "min": 16.0,
+      "stat": "fire_resist"
+    }
+  ],
+  "on_weapons_stats": [
+    {
+      "type": "FLAT",
+      "max": 8.0,
+      "min": 8.0,
+      "stat": "all_fire_damage"
+    }
+  ],
+  "tier": 1,
+  "weight": 0
+}

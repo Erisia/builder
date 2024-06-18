@@ -1,0 +1,32 @@
+{
+  "base_gear": "necklace",
+  "guid": "skull_of_spirits",
+  "flavor_text": "",
+  "force_item_id": "",
+  "league": "",
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "FLAT",
+      "max": 25.0,
+      "min": 15.0,
+      "stat": "summon_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 20.0,
+      "min": 10.0,
+      "stat": "mana_regen"
+    },
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "chaos_resist"
+    }
+  ],
+  "weight": 1000
+}

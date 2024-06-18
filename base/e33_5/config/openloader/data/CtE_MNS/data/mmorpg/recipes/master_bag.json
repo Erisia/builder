@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " B ",
+    "BAB",
+    " B "
+  ],
+  "key": {  
+	"A": {
+      "item": "sophisticatedbackpacks:iron_backpack"
+    }, 
+	"B": {
+      "item": "mmorpg:stone/2"
+    }
+  },
+  "result": {
+    "item": "mmorpg:master_bag"
+  }
+}

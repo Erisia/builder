@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:weapon",
+    "mutantmonsters:endersoul_hand",
+    "farmersdelight:skillet",
+    "cuisinedelight:cuisine_skillet",
+    "minecolonies:spear",
+    "aquamirae:whisper_of_the_abyss",
+    "aquamirae:coral_lance",
+    "aquamirae:sweet_lance",
+    "blue_skies:bluebright_spear",
+    "blue_skies:starlit_spear",
+    "blue_skies:frostbright_spear",
+    "blue_skies:lunar_spear",
+    "blue_skies:dusk_spear",
+    "blue_skies:maple_spear",
+    "blue_skies:comet_spear",
+    "blue_skies:soulbound_spear"
+  ],
+  "incompatible": []
+}

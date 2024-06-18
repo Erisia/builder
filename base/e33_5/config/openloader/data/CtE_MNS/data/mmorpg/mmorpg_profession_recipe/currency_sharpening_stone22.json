@@ -1,0 +1,36 @@
+{
+  "exp": 150,
+  "id": "currency_sharpening_stone22",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "mmorpg:stone/2",
+      "num": 6
+    },
+    {
+      "type": "ITEM",
+      "id": "minecraft:coal",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "minecraft:copper_ingot",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "minecraft:iron_ingot",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "lightmanscurrency:coin_iron",
+      "num": 1
+	}
+  ],
+  "power": "greater",
+  "profession": "gear_crafting",
+  "result": "mmorpg:currency/sharpening_stone2",
+  "result_num": 1,
+  "tier": 2
+}

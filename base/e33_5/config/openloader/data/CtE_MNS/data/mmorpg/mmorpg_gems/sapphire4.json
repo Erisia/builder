@@ -1,0 +1,34 @@
+{
+  "gem_type": "sapphire",
+  "identifier": "sapphire4",
+  "item_id": "mmorpg:gems/sapphire/4",
+  "min_lvl_multi": 0.4,
+  "on_armor_stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "water_resist",
+      "v1": 20.0
+    }
+  ],
+  "on_jewelry_stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "elemental_resist",
+      "v1": 10.0
+    }
+  ],
+  "on_weapons_stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "all_water_damage",
+      "v1": 10.0
+    }
+  ],
+  "perc_upgrade_chance": 100,
+  "text_format": "BLUE",
+  "tier": 4,
+  "weight": 9
+}

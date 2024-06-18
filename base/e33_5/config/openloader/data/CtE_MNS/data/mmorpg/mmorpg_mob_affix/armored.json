@@ -1,0 +1,21 @@
+{
+  "type": "prefix",
+  "format": "GRAY",
+  "icon": "",
+  "id": "armored",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 10.0,
+      "stat": "armor"
+    },
+    {
+      "type": "MORE",
+      "max": 20.0,
+      "min": 20.0,
+      "stat": "armor"
+    }
+  ],
+  "weight": 1000
+}

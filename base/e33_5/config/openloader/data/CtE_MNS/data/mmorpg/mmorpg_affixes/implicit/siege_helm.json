@@ -1,0 +1,26 @@
+{
+  "type": "implicit",
+  "guid": "siege_helm",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [
+          "plate_helmet"
+        ],
+        "req_type": "HAS_ALL"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "str_dmg"
+    }
+  ],
+  "weight": 0
+}

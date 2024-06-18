@@ -1,0 +1,11 @@
+{
+  "attribute_id": "",
+  "conversion": 4.0,
+  "enchant_id": "supplementaries:stasis",
+  "id": "supp_stasis_compat",
+  "maximum_cap": 50,
+  "minimum_cap": 0,
+  "mns_stat_id": "trap_spell_dmg",
+  "mod_type": "FLAT",
+  "scaling": "NONE"
+}

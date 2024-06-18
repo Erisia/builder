@@ -1,0 +1,28 @@
+{
+  "type": "enchant",
+  "eye_aura_req": "",
+  "guid": "enchantment_jewerly_dex",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [
+          "enchantment",
+          "jewelry_family"
+        ],
+        "req_type": "INCLUDES_ANY"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "PERCENT",
+      "max": 10.0,
+      "min": 1.0,
+      "stat": "dexterity"
+    }
+  ],
+  "weight": 1000
+}

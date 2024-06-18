@@ -1,0 +1,46 @@
+
+["Instrument GUI"]
+	#Instrument GUI keyboard layout for notes. MIMI uses its own layout by default but also supports the layout used by VirtualPiano.net.
+	#Allowed Values: MIMI, VPiano
+	instrumentKeyboardLayout = "MIMI"
+
+["MIDI Input"]
+	#A value to add to the velocity of notes recieved from the MIDI input device (to increase or decrease volume).
+	#Allowed values: - (-)127-(+)127
+	#Range: -127 ~ 127
+	midiDeviceVelocity = 0
+	#Optional full path to the folder on your system that the Transmitter should MIDI songs from.
+	transmitterMidiPath = ""
+
+["MIDI Synth"]
+	#Should the built-in midi synthesizer enable Jitter Correction? When enabled note timing will be more accurate but latency will increase.
+	synthJitterCorrection = true
+	#What baseline latency should the built-in midi synthesizer use (ms) for notes from other players? Smaller values will decrease latency but may cause stutter when playing notes. Very small values may cause notes to fail to play at all.
+	#Range: 10 ~ 500
+	synthBaselineLatency = 250
+	#What baseline latency should the built-in midi synthesizer use (ms) for notes played by you? Smaller values will decrease latency but may cause stutter when playing notes. Very small values may cause notes to fail to play at all.
+	#Range: 10 ~ 500
+	synthBaselineLocalLatency = 30
+	#What sample rate should the built-in midi synthesizer use (hz)? Smaller values may decrease latency but will also decrease quality.
+	#Allowed values: [8000,11025,16000,22050,44100,48000,96000]
+	synthSampleRate = 44100
+	#What bitrate should the built-in midi synthesizer use (bits)? Smaller values may decrease latency but will also decrease quality.
+	#Allowed values: [8,16,24,32]
+	synthBitRate = 16
+	#Optional full path to an SF2 format SoundFont to be used by the MIDI Synthesizer. See project page for more information.
+	soundfontPath = ""
+	#How long to have notes from the server buffer locally before playing. Higher values may decrease stuttering on high-latency connections but will cause redstone effects to be slightly off-tempo.
+	#Allowed values: 0-100
+	#Range: 0 ~ 100
+	localBufferms = 10
+
+["Audio Output"]
+	#Whether or not MIMI should attempt to automatically determine the audio output device to use based on the Minecraft audio device. Works best on Windows.
+	automaticAudioDevice = true
+	#When automatic device determination is set to false, the name of the audio output device that MIMI should attempt to use. If not found MIMI will use the System Default device.
+	audioOutputDevice = ""
+	#A multipler used to increase or decrease the base volume of all notes played by MIMI instruments.
+	#Allowed values: 0-10
+	#Range: 0 ~ 10
+	audioDeviceVolume = 5
+

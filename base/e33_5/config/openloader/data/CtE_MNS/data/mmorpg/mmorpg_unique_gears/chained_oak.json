@@ -1,0 +1,56 @@
+{
+  "base_gear": "leather_chest",
+  "flavor_text": "",
+  "force_item_id": "",
+  "guid": "chained_oak",
+  "league": "prophecy",
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 70.0,
+      "min": 60.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "FLAT",
+      "max": 50.0,
+      "min": 40.0,
+      "stat": "physical_spell_dmg"
+    },
+    {
+      "type": "FLAT",
+      "max": 30.0,
+      "min": 25.0,
+      "stat": "mana_per_10_dexterity"
+    },
+    {
+      "type": "PERCENT",
+      "max": 25.0,
+      "min": 15.0,
+      "stat": "health_regen"
+    },
+    {
+      "type": "FLAT",
+      "max": -25.0,
+      "min": -25.0,
+      "stat": "fire_resist"
+    },
+    {
+      "type": "FLAT",
+      "max": -25.0,
+      "min": -25.0,
+      "stat": "lightning_resist"
+    },
+    {
+      "type": "PERCENT",
+      "max": 15.0,
+      "min": 10.0,
+      "stat": "dexterity"
+    }
+  ],
+  "weight": 1000
+}

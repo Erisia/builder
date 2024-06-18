@@ -1,0 +1,86 @@
+{
+  "type": "beneficial",
+  "id": "rejuvenation",
+  "max_stacks": 5,
+  "mc_stats": [],
+  "one_of_a_kind_id": "",
+  "spell": {
+    "entity_components": {
+      "default_entity_name": [
+        {
+          "acts": [
+            {
+              "type": "restore_health",
+              "map": {
+                "value_calculation": "rejuvenation"
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 20.0
+              }
+            }
+          ],
+          "targets": [
+            {
+              "type": "target",
+              "map": {}
+            }
+          ]
+        },
+        {
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "motion": "None",
+                "particle_count": 1.0,
+                "particle_type": "minecraft:heart",
+                "radius": 1.0
+              }
+            }
+          ],
+          "en_preds": [],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 4.0
+              }
+            }
+          ],
+          "targets": []
+        }
+      ]
+    },
+    "on_cast": []
+  },
+  "spell_tags": {
+    "tags": []
+  },
+  "stacks_affect_stats": true,
+  "stats": [
+    {
+      "type": "MORE",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "rejuv_eff_on_self"
+    },
+    {
+      "type": "MORE",
+      "max": 4.0,
+      "min": 2.0,
+      "stat": "thorns_spell_dmg"
+    }
+  ],
+  "tags": {
+    "tags": [
+    "positive",
+    "heal_over_time"
+    ]
+  }
+}

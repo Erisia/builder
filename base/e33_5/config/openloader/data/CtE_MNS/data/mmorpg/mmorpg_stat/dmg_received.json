@@ -1,0 +1,34 @@
+{
+  "base": 0.0,
+  "effect": [
+    {
+      "effects": [
+        "additive_damage_number_add_stat_data"
+      ],
+      "events": [
+        "on_damage"
+      ],
+      "ifs": [],
+      "order": "damage_layers",
+      "side": "Target"
+    }
+  ],
+  "ele": "Physical",
+  "format": "aqua",
+  "group": "Misc",
+  "gui_group": "NONE",
+  "has_softcap": false,
+  "icon": "★",
+  "id": "dmg_received",
+  "is_long": false,
+  "is_perc": true,
+  "max": 90.0,
+  "min": -1000.0,
+  "minus_is_good": true,
+  "multiUseType": "MULTIPLY_STAT",
+  "order": 100,
+  "scaling": "NONE",
+  "ser": "data",
+  "show_in_gui": true,
+  "softcap": 0.0
+}

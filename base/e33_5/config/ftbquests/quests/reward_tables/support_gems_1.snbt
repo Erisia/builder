@@ -1,0 +1,38 @@
+{
+	id: "72DFA46D9968EDE1"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"crit_chance\",\"type\":\"SUPPORT\",\"perc\":35,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Crit Chance Support Gem"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"energy_on_hit\",\"type\":\"SUPPORT\",\"perc\":33,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Energy On Hit Support Gem"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"dot_damage\",\"type\":\"SUPPORT\",\"perc\":40,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Damage Over Time Support Gem"
+		}
+	]
+	title: "Support Gems 1"
+}

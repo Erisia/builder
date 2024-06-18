@@ -1,0 +1,31 @@
+{
+  "type": "watcher_eye",
+  "eye_aura_req": "armor",
+  "guid": "armor_eye",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [],
+        "req_type": "INCLUDES_ANY"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 10.0,
+      "stat": "heal_effect_on_self"
+    },
+    {
+      "type": "MORE",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "armor"
+    }
+  ],
+  "weight": 1000
+}

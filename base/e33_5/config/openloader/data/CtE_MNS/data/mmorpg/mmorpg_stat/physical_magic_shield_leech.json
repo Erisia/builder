@@ -1,0 +1,36 @@
+{
+  "base": 0.0,
+  "effect": [
+    {
+      "effects": [
+        "restore_magic_shield_per_stat_data"
+      ],
+      "events": [
+        "on_damage"
+      ],
+      "ifs": [
+        "ele_match_stat"
+      ],
+      "order": "after_damage_bonuses",
+      "side": "Source"
+    }
+  ],
+  "ele": "Physical",
+  "format": "aqua",
+  "group": "Misc",
+  "gui_group": "NONE",
+  "has_softcap": false,
+  "icon": "★",
+  "id": "physical_magic_shield_leech",
+  "is_long": true,
+  "is_perc": true,
+  "max": 2.14748365E9,
+  "min": 0.0,
+  "minus_is_good": false,
+  "multiUseType": "MULTIPLY_STAT",
+  "order": 100,
+  "scaling": "NONE",
+  "ser": "data",
+  "show_in_gui": true,
+  "softcap": 0.0
+}

@@ -1,0 +1,312 @@
+{
+  "chance_drops": [
+    {
+      "type": "MEDIUM",
+      "chance": 8.0,
+      "drops": [
+        {
+          "item_id": "mmorpg:rare_mats/farming/medium",
+          "min_lvl": 0.0,
+          "num": 1,
+          "weight": 1000
+        }
+      ]
+    },
+    {
+      "type": "LESSER",
+      "chance": 32.0,
+      "drops": [
+        {
+          "item_id": "mmorpg:rare_mats/farming/lesser",
+          "min_lvl": 0.0,
+          "num": 1,
+          "weight": 1000
+        }
+      ]
+    },
+    {
+      "type": "GREATER",
+      "chance": 2.0,
+      "drops": [
+        {
+          "item_id": "mmorpg:rare_mats/farming/greater",
+          "min_lvl": 0.0,
+          "num": 1,
+          "weight": 1000
+        }
+      ]
+    }
+  ],
+  "exp_sources": {
+    "default_xp": {
+      "exp": 50,
+      "req": [],
+      "tier": 0
+    },
+    "map": {
+      "0": [
+        {
+          "type": "FARM_ITEM",
+          "exp": 30,
+          "id": "minecraft:wheat",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 30,
+          "id": "minecraft:beetroot",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 30,
+          "id": "minecraft:carrot",
+          "req": [
+            "req_growth_stage"
+          ]
+        }
+      ],
+      "1": [
+        {
+          "type": "FARM_ITEM",
+          "exp": 30,
+          "id": "minecraft:melon_slice",
+          "req": []
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 30,
+          "id": "minecraft:pumpkin",
+          "req": []
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 30,
+          "id": "supplementaries:flax",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 30,
+          "id": "farmersdelight:cabbage",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 30,
+          "id": "farmersdelight:tomato",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 30,
+          "id": "farmersdelight:onion",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 30,
+          "id": "minecraft:cocoa_beans",
+          "req": [
+            "req_growth_stage"
+          ]
+        }
+      ],
+      "2": [
+        {
+          "type": "FARM_ITEM",
+          "exp": 30,
+          "id": "corn_delight:corn",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 30,
+          "id": "chococraft:gysahl_green",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 30,
+          "id": "minecraft:nether_wart",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 30,
+          "id": "farmersdelight:rice",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 30,
+          "id": "undergarden:gloomgourd",
+          "req": []
+        }
+      ],
+      "3": [
+        {
+          "type": "FARM_ITEM",
+          "exp": 30,
+          "id": "blue_skies:pine_fruit",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 30,
+          "id": "blue_skies:winter_leaves",
+          "req": [
+            "req_growth_stage"
+          ]
+        }
+      ],
+      "4": [
+        {
+          "type": "FARM_ITEM",
+          "exp": 30,
+          "id": "blue_skies:scalefruit",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 30,
+          "id": "blue_skies:fiery_beans",
+          "req": [
+            "req_growth_stage"
+          ]
+        }
+      ],
+      "5": [
+        {
+          "type": "FARM_ITEM",
+          "exp": 30,
+          "id": "blue_skies:cryoroot",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 30,
+          "id": "blue_skies:solnut",
+          "req": [
+            "req_growth_stage"
+          ]
+        }
+      ]
+    }
+  },
+  "id": "farming",
+  "misc_chance": 5.0,
+  "tiered_drops": {
+    "TIER0": [
+      {
+        "type": "MAIN",
+        "chance": 10.0,
+        "drops": [
+          {
+            "item_id": "mmorpg:material/farming/0",
+            "min_lvl": 0.0,
+            "num": 1,
+            "weight": 1000
+          }
+        ]
+      }
+    ],
+    "TIER1": [
+      {
+        "type": "MAIN",
+        "chance": 10.0,
+        "drops": [
+          {
+            "item_id": "mmorpg:material/farming/1",
+            "min_lvl": 0.2,
+            "num": 1,
+            "weight": 1000
+          }
+        ]
+      }
+    ],
+    "TIER2": [
+      {
+        "type": "MAIN",
+        "chance": 10.0,
+        "drops": [
+          {
+            "item_id": "mmorpg:material/farming/2",
+            "min_lvl": 0.4,
+            "num": 1,
+            "weight": 1000
+          }
+        ]
+      }
+    ],
+    "TIER3": [
+      {
+        "type": "MAIN",
+        "chance": 10.0,
+        "drops": [
+          {
+            "item_id": "mmorpg:material/farming/3",
+            "min_lvl": 0.6,
+            "num": 1,
+            "weight": 1000
+          }
+        ]
+      }
+    ],
+    "TIER4": [
+      {
+        "type": "MAIN",
+        "chance": 10.0,
+        "drops": [
+          {
+            "item_id": "mmorpg:material/farming/4",
+            "min_lvl": 0.8,
+            "num": 1,
+            "weight": 1000
+          }
+        ]
+      }
+    ],
+    "TIER5": [
+      {
+        "type": "MAIN",
+        "chance": 10.0,
+        "drops": [
+          {
+            "item_id": "mmorpg:material/farming/5",
+            "min_lvl": 1.0,
+            "num": 1,
+            "weight": 1000
+          }
+        ]
+      }
+    ]
+  },
+  "tool_tag": "farming_tool"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "STAT",
+  "icon": "mmorpg:textures/gui/stat_icons/misc/elemental_dot_damage.png",
+  "id": "elemental_dot_damage",
+  "is_entry": false,
+  "max_lvls": 1,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "elemental_dot_damage",
+      "v1": 6.0
+    }
+  ]
+}

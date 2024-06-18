@@ -1,0 +1,32 @@
+{
+  "base": {
+    "max": 9.5,
+    "min": 6.0
+  },
+  "base_scaling_type": "NORMAL",
+  "cap_to_wep_dmg": 1.0,
+  "dmg_effectiveness": {
+    "multi": {
+      "max": 1.75,
+      "min": 1.5
+    },
+    "stat": "health"
+  },
+  "id": "circle_of_healing",
+  "stat_scalings": [
+    {
+      "multi": {
+        "max": 1.75,
+        "min": 1.5
+      },
+      "stat": "weapon_damage"
+    },
+    {
+      "multi": {
+        "max": 0.04,
+        "min": 0.04
+      },
+      "stat": "energy"
+    }
+  ]
+}

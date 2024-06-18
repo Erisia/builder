@@ -1,0 +1,15 @@
+{
+  "type": "STAT",
+  "icon": "mmorpg:textures/gui/asc_classes/perk/summon3.png",
+  "id": "summon3",
+  "is_entry": false,
+  "max_lvls": 8,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "summon_cdr",
+      "v1": 20.0
+    }
+  ]
+}

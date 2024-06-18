@@ -1,0 +1,31 @@
+{
+  "exp": 100,
+  "id": "add_reset_perk_points",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "minecraft:glass_bottle",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:stone/0",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "supplementaries:flax",
+      "num": 1
+    },
+    {
+      "type": "ITEM",
+      "id": "minecraft:diamond",
+      "num": 1
+    }
+  ],
+  "power": "greater",
+  "profession": "alchemy",
+  "result": "mmorpg:potions/add_reset_perk_points",
+  "result_num": 1,
+  "tier": 0
+}

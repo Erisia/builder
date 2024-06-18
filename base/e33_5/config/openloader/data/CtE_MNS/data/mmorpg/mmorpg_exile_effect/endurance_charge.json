@@ -1,0 +1,26 @@
+{
+  "type": "beneficial",
+  "id": "endurance_charge",
+  "max_stacks": 3,
+  "mc_stats": [],
+  "one_of_a_kind_id": "",
+  "spell_tags": {
+    "tags": []
+  },
+  "stacks_affect_stats": true,
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 3.0,
+      "min": 3.0,
+      "stat": "dmg_reduction"
+    }
+  ],
+  "tags": {
+    "tags": [
+      "offensive",
+      "charge",
+      "positive"
+    ]
+  }
+}

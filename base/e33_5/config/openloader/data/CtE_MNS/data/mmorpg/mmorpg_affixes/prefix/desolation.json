@@ -1,0 +1,34 @@
+{
+  "type": "prefix",
+  "eye_aura_req": "",
+  "guid": "desolation",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [
+          "mage_weapon",
+          "jewel_str"
+        ],
+        "req_type": "INCLUDES_ANY"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "PERCENT",
+      "max": 20.0,
+      "min": 10.0,
+      "stat": "critical_hit"
+    },
+    {
+      "type": "FLAT",
+      "max": 15.0,
+      "min": 3.0,
+      "stat": "critical_damage"
+    }
+  ],
+  "weight": 100
+}

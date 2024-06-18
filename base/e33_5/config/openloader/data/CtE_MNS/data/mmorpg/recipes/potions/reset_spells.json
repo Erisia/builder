@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "minecraft:glass_bottle"
+    },
+    "v": {
+      "item": "minecraft:gold_ingot"
+    },
+    "t": {
+      "item": "mmorpg:stone/2"
+    }
+  },
+  "pattern": [
+    " v ",
+    "vtv",
+    " b "
+  ],
+  "result": {
+    "item": "mmorpg:potions/reset_spells"
+  },
+  "show_notification": true,
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}
+}

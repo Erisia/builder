@@ -1,0 +1,30 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "NCN",
+    "#A#",
+    "BCB"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:ghast_tear"
+    },
+	"A": {
+      "item": "minecraft:ender_eye"
+    },
+	"B": {
+      "item": "minecraft:magma_cream"
+    },
+	"C": {
+      "item": "mmorpg:stone/4"
+    },
+	"N": {
+      "tag": "forge:gems/emerald"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:endless/blaze"
+}

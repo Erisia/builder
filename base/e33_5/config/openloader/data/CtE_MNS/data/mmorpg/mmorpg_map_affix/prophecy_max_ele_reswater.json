@@ -1,0 +1,22 @@
+{
+  "affected": "Players",
+  "id": "prophecy_max_ele_reswater",
+  "map_resist": "Physical",
+  "map_resist_bonus_needed": 0,
+  "req": "prophecy",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": -5.0,
+      "min": -5.0,
+      "stat": "max_water_resist"
+    },
+    {
+      "type": "FLAT",
+      "max": -40.0,
+      "min": -40.0,
+      "stat": "water_resist"
+    }
+  ],
+  "weight": 1000
+}

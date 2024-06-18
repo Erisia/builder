@@ -1,0 +1,16 @@
+{
+  "id": "magic_find",
+  "manaMulti": 1.2,
+  "min_lvl": 40,
+  "one_of_a_kind": "",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 9.0,
+      "min": 3.0,
+      "stat": "magic_find"
+    }
+  ],
+  "style": "INT",
+  "weight": 50
+}

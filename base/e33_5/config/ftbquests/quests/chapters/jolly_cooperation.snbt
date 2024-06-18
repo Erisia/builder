@@ -1,0 +1,925 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "jolly_cooperation"
+	group: "5C56FC6157E20EBE"
+	icon: "minecraft:rose_bush"
+	id: "05E0BC63F8DC87E2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&eLightman's Currency&r introduces coins as currency, various trading posts, the auction house, and more. "
+				""
+				"Any &eLightman's Trader&r you place can only be modified by you or your Lightman's &eteam.&r Team accounts can be created by clicking the small Steve icon in the upper right of your inventory. There's also a &enotifications&r button for trader and team account events. Team accounts are used to share profits and costs between players."
+				""
+				"&eCurrency&r is obtained by &ekilling&r mobs, &eloot&r, and &equests.&r"
+				""
+				"Use &e/lctrade&r to trade with other nearby players."
+			]
+			id: "06B577BB603F2F0A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "374773DC08579C0F"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft one Vending Machine"
+			tasks: [{
+				id: "3A6E6453C16F4C89"
+				item: "lightmanscurrency:vending_machine"
+				type: "item"
+			}]
+			title: "Lightman's Currency"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06B577BB603F2F0A"]
+			description: [
+				"Most Item Trader blocks can trade any item, but some item types such as &ebooks&r or &earmor&r require specific &eTraders.&r "
+				""
+				"Use a &eCash Register&r to &elink&r any placed traders with right click to &ebind&r it to the &eregister.&r Once the register is placed, all the trades available in the traders &ewill show up&r in the &eCash Register interface&r."
+			]
+			id: "64C7494796410D04"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "4A6C9A71A022A0C1"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft one Cash Register"
+			tasks: [{
+				id: "2DCBF62C3EC5F4FE"
+				item: "lightmanscurrency:cash_register"
+				type: "item"
+			}]
+			title: "Trading Posts"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["64C7494796410D04"]
+			description: [
+				"&eATMs&r can &ekeep your money&r, &etransfer money&r between accounts and team accounts, and can &eexchange coins&r between denominations."
+				""
+				"&ePiggy Banks&r can store coins by right clicking on it with a coin in hand. You'll have to &ebreak it&r to get the cash out, though."
+				""
+				"The &eMoney Chest&r is an alternative to the ATM but &ecan only store&r money. If you don't &etrust&r the bank's ATM, keep your coins in the Money Chest instead."
+				""
+				"Use &e/lcbaltop&r to see who has the most money &estored in their bank&r account."
+			]
+			id: "6C57A4CBA635B27E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "086A687857069566"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft one of each"
+			tasks: [
+				{
+					id: "0D6098AA97808306"
+					item: "lightmanscurrency:atm"
+					type: "item"
+				}
+				{
+					id: "37A73CBAF5EED880"
+					item: "lightmanscurrency:piggy_bank"
+					type: "item"
+				}
+				{
+					id: "70503A6E08BBB908"
+					item: "lightmanscurrency:coin_chest"
+					type: "item"
+				}
+			]
+			title: "Money Storage"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6C57A4CBA635B27E"]
+			description: [
+				"&eTrading Terminals&r allow you to trade with any other traders on the &eglobal network&r. You can also access the server's &eAuction House&r which isn't available to regular players."
+				""
+				"&eItem Network Traders&r have &e4&r tiers and can only be &eaccessed&r through Trading Terminals."
+				""
+				"You can &eupgrade&r any regular trader to be accessed through the network as well as in person by placing a &eNetwork Upgrade&r in one of its &eupgrade slots&r."
+				""
+				"&eAuction Stands&r can let players &ebid&r on items within the &etime alotted&r before the auction ends."
+			]
+			id: "2BB4B6FE41F4CC58"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "2BD9D6EA6E99502E"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft one of each"
+			tasks: [
+				{
+					id: "5BE8EC6FBAEA12B4"
+					item: "lightmanscurrency:item_trader_server_sml"
+					type: "item"
+				}
+				{
+					id: "414707595643EEB0"
+					item: "lightmanscurrency:network_upgrade"
+					type: "item"
+				}
+				{
+					id: "01FE70F053D60BE3"
+					item: "lightmanscurrency:auction_stand_oak"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2BB4B6FE41F4CC58"]
+			description: [
+				"The &eTicket system&r is a good way to allow only &epaying customers to enter&r a designated area or &eactivate a redstone contraption&r. Don't let anyone get ahold of any &eMaster Tickets&r you create."
+				""
+				"The &eSlot Machine&r allows you to create your own &epayout weights and potential rewards&r to paying customers."
+			]
+			id: "322F44860B462AEF"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "112776A78DA44E79"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft one of each"
+			tasks: [
+				{
+					id: "36CBBF5574C67135"
+					item: "lightmanscurrency:ticket_kiosk"
+					type: "item"
+				}
+				{
+					id: "76481E26B68A5DC5"
+					item: "lightmanscurrency:paygate"
+					type: "item"
+				}
+				{
+					id: "656E0AEF24D841CB"
+					item: "lightmanscurrency:ticket_machine"
+					type: "item"
+				}
+				{
+					id: "08328D273151AA2A"
+					item: "lightmanscurrency:slot_machine"
+					type: "item"
+				}
+			]
+			title: "Tickets and Slot Machines"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["322F44860B462AEF"]
+			id: "652C2A6786830558"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "76F366A39BE3CBF5"
+					silent: true
+					title: "500 Experience x Lv."
+					type: "command"
+				}
+				{
+					id: "7421D41C27D9A612"
+					item: "simplehats:halo"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Obtain one of each"
+			tasks: [
+				{
+					id: "60D301B383B7C824"
+					item: "lightmanscurrency:coinblock_copper"
+					type: "item"
+				}
+				{
+					id: "2F2002492C9614D8"
+					item: "lightmanscurrency:coinblock_iron"
+					type: "item"
+				}
+				{
+					id: "409E4DE17EB4AD7F"
+					item: "lightmanscurrency:coinblock_gold"
+					type: "item"
+				}
+				{
+					id: "0C83A084CC749C05"
+					item: "lightmanscurrency:coinblock_emerald"
+					type: "item"
+				}
+				{
+					id: "0FB71A19BB5F835D"
+					item: "lightmanscurrency:coinpile_diamond"
+					type: "item"
+				}
+			]
+			title: "Challenge: High Roller"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			description: ["&eJoy of Painting&r allows you to create works of art by placing any size of &ecanvas&r on an &eeasel.&r Add dyes to your &epalette&r and mix them up to create unique colors. Make sure to &esign&r your painting after you're done. "]
+			id: "792587BFEA5FB382"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "0E94772DB7822516"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft one of each"
+			tasks: [
+				{
+					id: "5D1C69FA31081C44"
+					item: "xercapaint:item_easel"
+					type: "item"
+				}
+				{
+					id: "7924B42762A8EFFC"
+					item: "xercapaint:item_palette"
+					type: "item"
+				}
+				{
+					id: "39A4B0FB7967A97B"
+					item: "xercapaint:item_canvas"
+					type: "item"
+				}
+			]
+			title: "Joy of Painting"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&eMusical Instrument Minecraft Interface&r allows you to &eplay MIDIs&r from a &econnected MIDI device&r to your computer, from &efiles,&r or from &edirect links online&r."
+				""
+				"Full mod &einstructions&r are available in the &emod guide book.&r Some features like &emultiplayer instrument playing&r aren't discussed here."
+				""
+				"To start, &edownload&r a MIDI song from the internet and place it into a &edesignated folder.&r"
+				""
+				"The &eTransmitter&r is used to transmit notes from a MIDI File to instruments in MIMI."
+				""
+				"To use a &eTransmitter&r, craft one, place it into your main or off hand, and right-click to open the Transmitter Screen (explained below). The Transmitter acts a bit like an Ender Chest in that each player only has one, and every Transmitter item will be the same for that player."
+			]
+			id: "4EB78B5D6F8061E9"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "554EE015F2507D1C"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft one of each"
+			tasks: [
+				{
+					id: "4F23B706CC2324EB"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "mimi:guide_book"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43B80F923FC3A2CB"
+					item: "mimi:transmitter"
+					type: "item"
+				}
+				{
+					id: "2ED6A543049B0B62"
+					item: "mimi:piano"
+					type: "item"
+				}
+			]
+			title: "Music Maker"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["309792D482119CAD"]
+			id: "659BC549DBEF88F7"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 525"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "3889F09AFDC21CA0"
+					silent: true
+					title: "525 Experience x Lv."
+					type: "command"
+				}
+				{
+					id: "6D212FA3A888DEE3"
+					item: "simplehats:discoball"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Obtain one of each"
+			tasks: [
+				{
+					id: "47AD9E90B03F4DB1"
+					item: "mimi:banjo"
+					type: "item"
+				}
+				{
+					id: "7E41E58B5E74D3B0"
+					item: "mimi:acguitar"
+					type: "item"
+				}
+				{
+					id: "56D43392BB56F7BA"
+					item: "mimi:elecguitar"
+					type: "item"
+				}
+				{
+					id: "785F904C8061C3A3"
+					item: "mimi:bassguitar"
+					type: "item"
+				}
+				{
+					id: "467709160C457369"
+					item: "mimi:violin"
+					type: "item"
+				}
+				{
+					id: "28A00BDFBE87255A"
+					item: "mimi:microphone"
+					type: "item"
+				}
+				{
+					id: "1FB2835B5D6A93BE"
+					item: "mimi:trumpet"
+					type: "item"
+				}
+				{
+					id: "38934E313D24B898"
+					item: "mimi:frenchhorn"
+					type: "item"
+				}
+				{
+					id: "7B4D310CB1E27CFB"
+					item: "mimi:saxophone"
+					type: "item"
+				}
+				{
+					id: "7F0657D7E9DFD8ED"
+					item: "mimi:clarinet"
+					type: "item"
+				}
+				{
+					id: "2BB1616BA365C884"
+					item: "mimi:flute"
+					type: "item"
+				}
+				{
+					id: "2739476A8CEBB15B"
+					item: "mimi:ocarina"
+					type: "item"
+				}
+				{
+					id: "0567DAB0D990E3B6"
+					item: "mimi:synlead"
+					type: "item"
+				}
+				{
+					id: "4D884F1E82BA36FA"
+					item: "mimi:kalimba"
+					type: "item"
+				}
+				{
+					id: "12BE5EA3BE95256F"
+					item: "mimi:bagpipe"
+					type: "item"
+				}
+				{
+					id: "1051698400C45193"
+					item: "mimi:oboe"
+					type: "item"
+				}
+				{
+					id: "2472D4AAC36C0DC2"
+					item: "mimi:accordion"
+					type: "item"
+				}
+				{
+					id: "0C1314DCB6C97BB6"
+					item: "mimi:harmonica"
+					type: "item"
+				}
+				{
+					id: "4936A5A89E23BD80"
+					item: "mimi:handbell"
+					type: "item"
+				}
+				{
+					id: "30CB9F260389ABA5"
+					item: "mimi:witchpipe"
+					type: "item"
+				}
+				{
+					id: "6357A6C26CAFFF08"
+					item: "mimi:bonelute"
+					type: "item"
+				}
+				{
+					id: "2C472301BC4C42EE"
+					item: "mimi:glockenspiel"
+					type: "item"
+				}
+				{
+					id: "5CCBD8322359627D"
+					item: "mimi:musicbox"
+					type: "item"
+				}
+				{
+					id: "2BBD7855C228EF2F"
+					item: "mimi:bassoon"
+					type: "item"
+				}
+				{
+					id: "21DA66CBB72A6853"
+					item: "mimi:woodblock"
+					type: "item"
+				}
+				{
+					id: "0D1DF75F16A2F3CF"
+					item: "mimi:bottle"
+					type: "item"
+				}
+				{
+					id: "54B0B2BB73B656CA"
+					item: "mimi:panflute"
+					type: "item"
+				}
+				{
+					id: "4683423FD1BEFEBE"
+					item: "mimi:recorder"
+					type: "item"
+				}
+				{
+					id: "42755B39EF617F8E"
+					item: "mimi:piano"
+					type: "item"
+				}
+				{
+					id: "632BE4A56AB6F421"
+					item: "mimi:drums"
+					type: "item"
+				}
+				{
+					id: "595D576DA1CEB23D"
+					item: "mimi:organ"
+					type: "item"
+				}
+				{
+					id: "30A1D51D610F9BD7"
+					item: "mimi:steeldrum"
+					type: "item"
+				}
+				{
+					id: "28E5DF11B2BAA23A"
+					item: "mimi:xylophone"
+					type: "item"
+				}
+				{
+					id: "32AAD54A012E17CE"
+					item: "mimi:vibraphone"
+					type: "item"
+				}
+				{
+					id: "1B31B9552DC755C0"
+					item: "mimi:marimba"
+					type: "item"
+				}
+				{
+					id: "046909048DB7BF5F"
+					item: "mimi:celesta"
+					type: "item"
+				}
+				{
+					id: "104DE9FDAB590DC7"
+					item: "mimi:tubularbells"
+					type: "item"
+				}
+				{
+					id: "39CF393D39899A9E"
+					item: "mimi:harpsichord"
+					type: "item"
+				}
+				{
+					id: "68DEAB1EDFC98630"
+					item: "mimi:keyboard"
+					type: "item"
+				}
+				{
+					id: "225D7169B6A6FC97"
+					item: "mimi:edrums"
+					type: "item"
+				}
+			]
+			title: "Challenge: Big Band Player"
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			description: ["&eLootr&r is a mod that makes each world generated loot chest, barrel, and minecart with chest a special version that has &eplayer-instanced loot&r."]
+			id: "6E3023586AC43198"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "59AE27F4FBAA9B83"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Open your first Lootr container"
+			tasks: [{
+				advancement: "lootr:1chest"
+				criterion: ""
+				id: "106E39AB117654B4"
+				type: "advancement"
+			}]
+			title: "Lootr"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E3023586AC43198"]
+			id: "193B377248414AFF"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "6700E56A6207ED42"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Open 10 Lootr containers"
+			tasks: [{
+				advancement: "lootr:10loot"
+				criterion: ""
+				id: "1AA46A7D8EE1171F"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["193B377248414AFF"]
+			id: "39CC9458268DAF56"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "32D00F66966D0979"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Open 25 Lootr containers"
+			tasks: [{
+				advancement: "lootr:25loot"
+				criterion: ""
+				id: "75727D55D4BE0E34"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["082038507F4E98DF"]
+			id: "070790DD12F2C9A6"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "25E5D3BD5CFDDE5C"
+					silent: true
+					title: "500 Experience x Lv."
+					type: "command"
+				}
+				{
+					id: "59D0D1FDEF0E7795"
+					item: "simplehats:doubletake"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Open 100 Lootr containers"
+			tasks: [{
+				advancement: "lootr:100loot"
+				criterion: ""
+				id: "2486E63A4C408549"
+				type: "advancement"
+			}]
+			title: "Challenge: Bandit"
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			description: [
+				"Craft a &eTelepass&r to link it to yourself. Another player can then use that telepass to &einstantly teleport&r to you."
+				""
+				"&eGold Telepasses&r are &esingle&r use while &eDiamond Telepasses&r have &edurability.&r They can both be &eenchanted.&r"
+			]
+			id: "0152DC99C57C0731"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "0C7EFE6485B640A3"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Craft one Diamond Telepass"
+			tasks: [{
+				id: "13F379B253EDA98D"
+				item: {
+					Count: 1
+					id: "telepass:diamond_telepass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["39CC9458268DAF56"]
+			id: "082038507F4E98DF"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "23A0D529C076FB7E"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Open 50 Lootr containers"
+			tasks: [{
+				advancement: "lootr:50loot"
+				criterion: ""
+				id: "4B724240CC7B8D95"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"070790DD12F2C9A6"
+				"652C2A6786830558"
+				"659BC549DBEF88F7"
+			]
+			icon: "alexsmobs:soul_heart"
+			id: "70DA25C53FFEB49F"
+			rewards: [
+				{
+					command: "/tellraw @a {\"text\":\"\",\"color\":\"blue\",\"extra\":[{\"selector\":\"@p\"},{\"text\":\" has achieved Team Player\"}]}"
+					elevate_perms: true
+					icon: "minecraft:cookie"
+					id: "3B58A7BF33FCBB9E"
+					title: "Click here to brag"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 750"
+					elevate_perms: true
+					icon: "create:experience_nugget"
+					id: "07421521F3C1CB44"
+					silent: true
+					title: "750 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 6
+					id: "0279EAA6BA4B9D19"
+					item: "lightmanscurrency:coin_diamond"
+					title: "Money"
+					type: "item"
+				}
+				{
+					id: "2E2C8624A41D58EF"
+					item: "simplehats:floatinghearts"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Complete all challenges"
+			tasks: [{
+				id: "1C2D9D8441D68E4C"
+				type: "checkmark"
+			}]
+			title: "Achievement: Team Player"
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			description: [
+				"&eFLAN&r is used for claiming land. Right click the ground with a &eGolden Hoe&r to start claiming. "
+				""
+				"You can right click anywhere with a &estick&r to see who owns what and where the boundaries are."
+				""
+				"Use &e/flan menu&r to edit your claim. Use &e/flan switchMode&r to create subclaims."
+				""
+				"&eGlobal permissions&r are permissions given to anyone who is &enot&r in a permission group."
+				""
+				"&eRight-click&r permission groups to set their individual permissions."
+				""
+				"&4&lYour claim will be deleted after 90 days of inactivity by the owner of the claim in multiplayer.&r&n&r"
+				""
+				"&eStarting Claim Blocks:&r 2000"
+				"&e+1&r Block every &e10 seconds&r"
+				"&eMaximum Claim Blocks:&r 25600"
+				"&eTime to get Max: &r66 hours"
+				"&eInitial Claim Depth:&r 20 blocks"
+				"&eMax Claims: &r3"
+				""
+				"Claim depth will continue further down &eautomatically&r if you &ebuild&r under your claim."
+			]
+			id: "447144432E16E12F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "75FDF97DC42DDF10"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			size: 1.5d
+			subtitle: "Craft one of each"
+			tasks: [{
+				id: "118E2836C81016A3"
+				item: {
+					Count: 1
+					id: "minecraft:golden_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Land Claiming"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4EB78B5D6F8061E9"]
+			description: ["Instruments can be &etuned&r to change how they sound and work. Craft a &eTuning Table&r and navigate to the chapter in the &emod guide book&r to see the &efull list&r of instruments that can be tuned and with what items."]
+			id: "34D93634E3BD0A59"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "373E7EA816B5F7E0"
+				silent: true
+				title: "100 Experience x Lvl."
+				type: "command"
+			}]
+			subtitle: "Craft one Tuning Table"
+			tasks: [{
+				id: "568DA92753424F60"
+				item: "mimi:tuningtable"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34D93634E3BD0A59"]
+			description: [
+				"The &eMechanical Maestro&r will &eplay music by itself&r if given an &einstrument&r and a &eSwitchboard.&r It requires a &eredstone signal&r to function."
+				""
+				"The &eListener&r and the Recei&ever&r blocks listen for &enotes played near them&r and output a &eredstone signal&r if it matches the filter set."
+				""
+				"The &eConductor&r will play a &eset note to nearby&r instruments and receivers."
+			]
+			id: "13BFD3FE012DE2AE"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "160744DEF54A6086"
+				silent: true
+				title: "100 Experience x Lvl."
+				type: "command"
+			}]
+			subtitle: "Craft one of each"
+			tasks: [
+				{
+					id: "0608E7A2EAE0494D"
+					item: "mimi:mechanicalmaestro"
+					type: "item"
+				}
+				{
+					id: "19DFD7EE72173C45"
+					item: "mimi:listener"
+					type: "item"
+				}
+				{
+					id: "3FDBE267EACCBA27"
+					item: "mimi:receiver"
+					type: "item"
+				}
+				{
+					id: "5CF2E830252EADCE"
+					item: "mimi:conductor"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["13BFD3FE012DE2AE"]
+			description: [
+				"The &eServer Transmitter&r is a block form of the Transmitter that doesn't need to be held by a player to play MIDI files. However, it can only play songs provided by the server. MIDI files can be added to the Server Transmitter by placing them in the \"server_midi_files\" folder within the MIMI config folder (also works for single player and the host in LAN) and clicking the reload button."
+				""
+				"Unlike the handheld Transmitter, where settings are saved once per player, &eServer Transmitter&r settings are saved separately on each block. While it is playing a song, the Server Transmitter block will emit a Redstone signal."
+			]
+			id: "309792D482119CAD"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "create:experience_nugget"
+				id: "251B7685E57F4467"
+				silent: true
+				title: "100 Experience x Lvl."
+				type: "command"
+			}]
+			subtitle: "Craft one of each"
+			tasks: [{
+				id: "60B81DC36D3F79DE"
+				item: "mimi:transmitterblock"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+	]
+	title: "Jolly Cooperation"
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAB",
+    "CDE",
+    "AAF"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:ingots/gold"
+    },
+    "B": {
+      "tag": "forge:gems/lapis"
+    },
+    "C": {
+      "item": "simplemagnets:basicmagnet"
+    },
+    "D": {
+      "item": "minecraft:ender_eye"
+    },
+    "E": {
+      "tag": "forge:gems/diamond"
+    },
+    "F": {
+      "tag": "forge:dusts/redstone"
+    }
+  },
+  "result": {
+    "item": "simplemagnets:advancedmagnet"
+  }
+}
