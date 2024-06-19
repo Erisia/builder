@@ -781,10 +781,6 @@ nodes:
         file_id: 5109692
         source: curse
         side: client
-      - name: mimi-mod
-        id: 499803
-        file_id: 5371206
-        source: curse
       - name: mine-and-slash-reloaded
         id: 306575
         file_id: 5428083

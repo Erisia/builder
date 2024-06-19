@@ -2133,7 +2133,7 @@
   },
   {
     "name": "konkrete",
-    "title": "Konkrete [Forge/NeoForge]",
+    "title": "Konkrete [Forge]",
     "side": "client",
     "required": true,
     "default": true,
@@ -2351,19 +2351,6 @@
     "size": 37178,
     "md5": "6b528d368f7fcbf737df28f2457cdec6",
     "sha256": "933e2a7e79c4594f965f7f7d00b1f28a98ec2a180ad8f9f90310a266fe5cf5d8"
-  },
-  {
-    "name": "mimi-mod",
-    "title": "Musical Instrument Minecraft Interface (MIMI)",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "mimimod-1.20.1-4.1.0.jar",
-    "encoded": "mimimod-1.20.1-4.1.0.jar",
-    "src": "https://edge.forgecdn.net/files/5371/206/mimimod-1.20.1-4.1.0.jar",
-    "size": 5859847,
-    "md5": "27e901da6efcabf5dc166af24ba87b8f",
-    "sha256": "529069e8c5c9e8572ba025c9b950c0a16b9d00e504d03dd9488b263b6ebc9539"
   },
   {
     "name": "mine-and-slash-reloaded",
@@ -3030,7 +3017,7 @@
   },
   {
     "name": "riskofrainmod",
-    "title": "Risk of Rain Mod",
+    "title": "Risk of Rain Mobs",
     "side": "both",
     "required": true,
     "default": true,
@@ -3303,7 +3290,7 @@
   },
   {
     "name": "stalwart-dungeons",
-    "title": "Walmart Dungeons",
+    "title": "Stalwart Dungeons",
     "side": "both",
     "required": true,
     "default": true,
