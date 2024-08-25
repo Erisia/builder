@@ -163,6 +163,11 @@ def CreateServerPackXML(packs_json: dict, hostname: str, url_base: str, output_p
             else:
                 loader = Loader(type='NeoForge', version=forge['minor'], load_order=0)
             main_class = "cpw.mods.bootstraplauncher.BootstrapLauncher"
+        if 'cleanroom' in server:
+            forge = server["cleanroom"]
+            imports = []
+            loader = Loader(type='Forge', version=f"{forge['major']}-{forge['minor']}", load_order=0)
+            main_class = "cpw.mods.bootstraplauncher.BootstrapLauncher"
         elif 'forge' in server:
             forge = server["forge"]
             imports = []
