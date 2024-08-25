@@ -22,6 +22,8 @@ nodes:
     value:
       - mixin-booter
       - configanytime
+      - aromabackup
+      - aroma1997core
   # Specify extra mods to add
   #- id: extra-mods
   #  value:

@@ -2990,19 +2990,6 @@
     "sha256": "285a1f674eb05d6aa64ce5a307cc9107cebb92d5eff2031f09d7a48b8708792d"
   },
   {
-    "name": "aroma1997core",
-    "title": "Aroma1997Core",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "Aroma1997Core-1.12.2-2.0.0.2.jar",
-    "encoded": "Aroma1997Core-1.12.2-2.0.0.2.jar",
-    "src": "https://edge.forgecdn.net/files/2676/866/Aroma1997Core-1.12.2-2.0.0.2.jar",
-    "size": 398634,
-    "md5": "f5199ab1a48d442af764071147a31747",
-    "sha256": "75cc65a0b352d8d44e30fd20c6a7811c9bc42ca2ddca75f79a955675960b58a8"
-  },
-  {
     "name": "opencomputers",
     "title": "OpenComputers",
     "side": "both",
@@ -4262,19 +4249,6 @@
     "size": 472464,
     "md5": "5450477c1ce7189c5ee11595d5e03a7c",
     "sha256": "8fcceac75c71e0d041db734111200205d03431b7e8646f8209cf2c4de9afef7b"
-  },
-  {
-    "name": "aromabackup",
-    "title": "AromaBackup",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "AromaBackup-1.12.2-2.1.1.4.jar",
-    "encoded": "AromaBackup-1.12.2-2.1.1.4.jar",
-    "src": "https://edge.forgecdn.net/files/2586/524/AromaBackup-1.12.2-2.1.1.4.jar",
-    "size": 139446,
-    "md5": "bf3cd3446876ee9c672dadf34db9f807",
-    "sha256": "9f9f0c397617d82447876ff7966701db67a96859c0fb60f055d1d66c7864cae8"
   },
   {
     "name": "universal-tweaks",
