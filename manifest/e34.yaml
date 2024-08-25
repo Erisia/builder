@@ -23,18 +23,18 @@ nodes:
       - mixin-booter
       - configanytime
   # Specify extra mods to add
-  - id: extra-mods
-    value:
-      - name: laggoggles
-        source: curse
-        id: 283525
-        file_id: 4493884
-        side: both
-        required: false
-      - name: tickcentral
-        source: curse
-        id: 377201
-        file_id: 3140670
+  #- id: extra-mods
+  #  value:
+    #  - name: laggoggles
+    #    source: curse
+    #    id: 283525
+    #    file_id: 4493884
+    #    side: both
+    #    required: false
+    #  - name: tickcentral
+    #    source: curse
+    #    id: 377201
+    #    file_id: 3140670
 
   # Build processing graph:
   # Download modpack and unzip
@@ -66,20 +66,20 @@ nodes:
       mods: apply-overrides
       filters: excluded-mods
   # Resolve additional mods
-  - id: resolve-extra-mods
-    kind: ModResolver
-    input:
-      mods: extra-mods
+  #- id: resolve-extra-mods
+  #  kind: ModResolver
+  #  input:
+  #    mods: extra-mods
   # Merge lists of resolved mods
-  - id: merge
-    kind: ModMerger
-    input:
-      curse-mods: 'apply-filters::inverse'
-      extra-mods: resolve-extra-mods
+  #- id: merge
+  #  kind: ModMerger
+  #  input:
+  #    curse-mods: 'apply-filters::inverse'
+  #    extra-mods: resolve-extra-mods
   # Write final resolved modlist as a JSON manifest
   - id: writer
     kind: ModWriter
     input:
-      resolved: merge
+      resolved: 'apply-filters::inverse'
   - filename: 'e34.json'
     source: 'writer::json'

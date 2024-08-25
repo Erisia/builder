@@ -33,7 +33,7 @@ rec {
     extraClientDirs = [
       ./base/client
     ];
-    manifest = ./manifest/meatballcraft.json;
+    manifest = ./manifest/e34.json;
   };
 
   # e33_5 = {
