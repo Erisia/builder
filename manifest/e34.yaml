@@ -1,0 +1,85 @@
+# This example demonstrates how a Curse pack can be used as the source and overridden in various ways.
+config:
+  minecraft_version: '1.12.1'
+  modloader: 'forge'
+nodes:
+  # Define constant values:
+  # URL where client modpack for the Curse launcher can be downloaded
+  - id: modpack-uri
+    value: 'https://mediafilez.forgecdn.net/files/5648/191/Meatballcraft-beta-0.16-hotfix4.zip'
+  # Path inside the downloaded modpack zip where the manifest is located
+  - id: manifest-location
+    value: 'manifest.json'
+  # Specify overrides for side, required, default for certain mods. The "source" field has no effect when passing this list into a ModOverrider node later.
+  - id: overrides
+    value:
+      - name: sound-reloader
+        source: curse
+        side: client
+        required: false
+  # Specify mods to exclude
+  - id: excluded-mods
+    value:
+      - mixin-booter
+      - configanytime
+  # Specify extra mods to add
+  - id: extra-mods
+    value:
+      - name: laggoggles
+        source: curse
+        id: 283525
+        file_id: 4493884
+        side: both
+        required: false
+      - name: tickcentral
+        source: curse
+        id: 377201
+        file_id: 3140670
+
+  # Build processing graph:
+  # Download modpack and unzip
+  - id: download-pack
+    kind: ArchiveDownloader
+    input:
+      url: modpack-uri
+  # Extract manifest file from modpack zip
+  - id: picker
+    kind: FilePicker
+    input:
+      files: download-pack
+      path: manifest-location
+  # Resolve all mods from the modpack manifest
+  - id: resolve-curse-pack
+    kind: CurseResolver
+    input:
+      manifest: picker
+  # Apply overrides
+  - id: apply-overrides
+    kind: ModOverrider
+    input:
+      mods: resolve-curse-pack
+      overrides: overrides
+  # Apply mod filters. The "inverse" output will contain all but the mods listed in the filters.
+  - id: apply-filters
+    kind:  ModFilter
+    input:
+      mods: apply-overrides
+      filters: excluded-mods
+  # Resolve additional mods
+  - id: resolve-extra-mods
+    kind: ModResolver
+    input:
+      mods: extra-mods
+  # Merge lists of resolved mods
+  - id: merge
+    kind: ModMerger
+    input:
+      curse-mods: 'apply-filters::inverse'
+      extra-mods: resolve-extra-mods
+  # Write final resolved modlist as a JSON manifest
+  - id: writer
+    kind: ModWriter
+    input:
+      resolved: merge
+  - filename: 'e34.json'
+    source: 'writer::json'
