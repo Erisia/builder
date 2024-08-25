@@ -25,18 +25,78 @@ nodes:
       - aromabackup
       - aroma1997core
   # Specify extra mods to add
-  #- id: extra-mods
-  #  value:
-    #  - name: laggoggles
-    #    source: curse
-    #    id: 283525
-    #    file_id: 4493884
-    #    side: both
-    #    required: false
-    #  - name: tickcentral
-    #    source: curse
-    #    id: 377201
-    #    file_id: 3140670
+  - id: extra-mods
+    value:
+      - name: clumps
+        source: modrinth
+        file_id: 'nZvGITpT'
+      - name: randompatches-forge
+        source: curse
+        file_id: 3133651
+      - name: helpfixer
+        source: curse
+        side: server
+        file_id: 2479308
+      - name: netherportalfix
+        source: curse
+        file_id: 2612052
+      - name: bed-patch
+        source: curse
+        file_id: 2532663
+      - name: chunkpregenerator
+        source: curse
+        file_id: 5632153
+      - name: carbon-config # chunkpregenerator dependency
+        source: curse
+        file_id: 5504476
+      - name: prometheus-integration
+        source: curse
+        id: 254573
+        side: server
+        file_id: 2519411
+      - name: fastworkbench
+        source: curse
+        file_id: 4030366
+      - name: morpheus
+        source: curse
+        side: server
+        file_id: 2664449
+      - name: dynamic-surroundings
+        source: curse
+        side: client
+        required: false
+        default: false
+        file_id: 3497269
+      - name: orelib # dynamic surroundings dependency
+        source: curse
+        side: client
+        file_id: 2820815
+      - name: nofov
+        source: curse
+        side: client
+        required: false
+        file_id: 2432421
+      - name: better-foliage
+        source: curse
+        side: client
+        required: false
+        default: false
+        file_id: 3393955
+      - name: better-placement
+        source: curse
+        side: client
+        required: false
+        file_id: 2481852
+      - name: ding
+        source: curse
+        side: client
+        file_id: 2801170
+      - name: fullscreen-windowed-borderless-for-minecraft
+        source: curse
+        side: client
+        required: false
+        default: false
+        file_id: 2456007
 
   # Build processing graph:
   # Download modpack and unzip
@@ -68,20 +128,20 @@ nodes:
       mods: apply-overrides
       filters: excluded-mods
   # Resolve additional mods
-  #- id: resolve-extra-mods
-  #  kind: ModResolver
-  #  input:
-  #    mods: extra-mods
+  - id: resolve-extra-mods
+    kind: ModResolver
+    input:
+      mods: extra-mods
   # Merge lists of resolved mods
-  #- id: merge
-  #  kind: ModMerger
-  #  input:
-  #    curse-mods: 'apply-filters::inverse'
-  #    extra-mods: resolve-extra-mods
+  - id: merge
+    kind: ModMerger
+    input:
+      curse-mods: 'apply-filters::inverse'
+      extra-mods: resolve-extra-mods
   # Write final resolved modlist as a JSON manifest
   - id: writer
     kind: ModWriter
     input:
-      resolved: 'apply-filters::inverse'
+      resolved: 'merge'
   - filename: 'e34.json'
     source: 'writer::json'
