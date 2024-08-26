@@ -164,10 +164,10 @@ def CreateServerPackXML(packs_json: dict, hostname: str, url_base: str, output_p
                 loader = Loader(type='NeoForge', version=forge['minor'], load_order=0)
             main_class = "cpw.mods.bootstraplauncher.BootstrapLauncher"
         if 'cleanroom' in server:
-            forge = server["cleanroom"]
+            forge = server["client-forge"] # Hack for now to use Forge on the client
             imports = []
             loader = Loader(type='Forge', version=f"{forge['major']}-{forge['minor']}", load_order=0)
-            main_class = "cpw.mods.bootstraplauncher.BootstrapLauncher"
+            main_class = "net.minecraft.launchwrapper.Launch"
         elif 'forge' in server:
             forge = server["forge"]
             imports = []

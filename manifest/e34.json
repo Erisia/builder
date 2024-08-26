@@ -1105,6 +1105,19 @@
     "sha256": "9839f19cb6791173e0c70dc0e82459817aff87bcf393f40bc762282f0af5b792"
   },
   {
+    "name": "configanytime",
+    "title": "ConfigAnytime",
+    "side": "client",
+    "required": false,
+    "default": true,
+    "filename": "!configanytime-3.0.jar",
+    "encoded": "%21configanytime-3.0.jar",
+    "src": "https://edge.forgecdn.net/files/5212/709/!configanytime-3.0.jar",
+    "size": 5201,
+    "md5": "3adfd6a9e04453888e68d858c0347ded",
+    "sha256": "29fe190f0d1bb0b3841b2b9f315a5d561cab9f587df6164a0205440540577575"
+  },
+  {
     "name": "constructs-armory",
     "title": "Construct's Armory",
     "side": "both",
@@ -1376,19 +1389,6 @@
     "size": 7716327,
     "md5": "0c9ffbbeb1d8d6474c29f1a8f6ff74ae",
     "sha256": "41eb672440a3fbbb058e1b83357abab0fbfa18af610a4f4edd0ee4c6a24e1fc4"
-  },
-  {
-    "name": "ding",
-    "title": "Ding (Forge)",
-    "side": "client",
-    "required": true,
-    "default": true,
-    "filename": "Ding-1.12.2-1.0.2.jar",
-    "encoded": "Ding-1.12.2-1.0.2.jar",
-    "src": "https://edge.forgecdn.net/files/2801/170/Ding-1.12.2-1.0.2.jar",
-    "size": 8008,
-    "md5": "a53653c887baf2c82ceb55663e22a2a7",
-    "sha256": "c611cbba6f109c6745acbb6d85276b513a62764c870e4a6733a1404a0d2e17c8"
   },
   {
     "name": "dme",
@@ -1714,19 +1714,6 @@
     "size": 1149733,
     "md5": "ea53f47ee48439a3fea2586e023bd6c8",
     "sha256": "175d0317c0e6637d7dc8910e0126f204582656def61d6aef700a6180dc22f712"
-  },
-  {
-    "name": "fastworkbench",
-    "title": "FastWorkbench",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "FastWorkbench-1.12.2-1.7.4.jar",
-    "encoded": "FastWorkbench-1.12.2-1.7.4.jar",
-    "src": "https://edge.forgecdn.net/files/4030/366/FastWorkbench-1.12.2-1.7.4.jar",
-    "size": 26635,
-    "md5": "06eb9174804717d1f8f42366fe6002d4",
-    "sha256": "db86c2c728c148ff20e4349fa18767853326ec78e6581afb0c38954fe2abf42a"
   },
   {
     "name": "findme",
@@ -2611,6 +2598,19 @@
     "size": 8159420,
     "md5": "31e0d047b11517c77679184564024f11",
     "sha256": "79fbec636adf078e087778c78be592b9d64e8042aa66c9efbac125c838576150"
+  },
+  {
+    "name": "mixin-booter",
+    "title": "MixinBooter",
+    "side": "client",
+    "required": false,
+    "default": true,
+    "filename": "!mixinbooter-9.2.jar",
+    "encoded": "%21mixinbooter-9.2.jar",
+    "src": "https://edge.forgecdn.net/files/5608/677/!mixinbooter-9.2.jar",
+    "size": 1800853,
+    "md5": "61025167a2e354078674b575adfbd65c",
+    "sha256": "9ed0ccbb2931fa521a4a477107b21ed7c5529aaa1789d3217a229818a6dd0ee6"
   },
   {
     "name": "mixinbootstrap",

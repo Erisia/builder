@@ -34,6 +34,7 @@ rec {
     forge ? null,
     neoforge ? null,
     cleanroom ? null,
+    client-forge ? null,
     ram ? "4000m",
     manifest,
     blacklist ? [],

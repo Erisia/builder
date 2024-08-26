@@ -17,11 +17,22 @@ nodes:
         source: curse
         side: client
         required: false
+      # mixin-booter and configanytime are required with Forge, but should not be used with Cleanroom.
+      # These should be moved back to excluded-mods if we get Cleanroom working in MCU.
+      # For now, they are set to required: false, for ease of use if symlinking into a Prism instance with Cleanroom.
+      - name: mixin-booter
+        source: curse
+        side: client
+        required: false
+      - name: configanytime
+        source: curse
+        side: client
+        required: false
   # Specify mods to exclude
   - id: excluded-mods
     value:
-      - mixin-booter
-      - configanytime
+      #- mixin-booter
+      #- configanytime
       - aromabackup
       - aroma1997core
   # Specify extra mods to add
@@ -54,9 +65,6 @@ nodes:
         id: 254573
         side: server
         file_id: 2519411
-      - name: fastworkbench
-        source: curse
-        file_id: 4030366
       - name: morpheus
         source: curse
         side: server
@@ -87,10 +95,6 @@ nodes:
         side: client
         required: false
         file_id: 2481852
-      - name: ding
-        source: curse
-        side: client
-        file_id: 2801170
       - name: fullscreen-windowed-borderless-for-minecraft
         source: curse
         side: client
