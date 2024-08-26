@@ -1,0 +1,14 @@
+{
+	icon: "aether_legacy:golden_feather",
+	x: 8.0d,
+	y: 9.0d,
+	description: "The more you run around, the higher the chance of speeding up!",
+	dependencies: [
+		"d8e398cb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "283f4159",
+		type: "checkmark"
+	}]
+}

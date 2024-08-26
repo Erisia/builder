@@ -1,0 +1,17 @@
+{
+	x: 8.0d,
+	y: -3.0d,
+	dependencies: [
+		"c016f84c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ecba815b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mossy_grave_dust"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

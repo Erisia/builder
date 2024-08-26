@@ -1,0 +1,21 @@
+{
+	title: "Really Compact Storage",
+	x: 23.0d,
+	y: -3.0d,
+	text: [
+		"Neat! I'm now in the position to build some very efficient storage units!"
+	],
+	dependencies: [
+		"d4a82bd8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7e20eb41",
+		type: "item",
+		items: [{
+			item: "dankstorage:dank_1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

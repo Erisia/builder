@@ -1,0 +1,16 @@
+{
+	x: 3.5d,
+	y: -3.0d,
+	description: "Dimensional doors are found around the world and are a good source of starting materials.",
+	dependencies: [
+		"fb8062a2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1b339995",
+		type: "item",
+		items: [{
+			item: "dimdoors:world_thread"
+		}]
+	}]
+}

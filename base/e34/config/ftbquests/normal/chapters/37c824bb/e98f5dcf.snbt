@@ -1,0 +1,45 @@
+{
+	x: 125.0d,
+	y: 0.0d,
+	dependencies: [
+		"86442c58"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8acd7482",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ultracapacitor_bank"
+		}]
+	},
+	{
+		uid: "2de9e25e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:dyson_shell"
+		}]
+	},
+	{
+		uid: "5a228417",
+		type: "item",
+		items: [{
+			item: "contenttweaker:dyson_beam"
+		}]
+	},
+	{
+		uid: "ba87c065",
+		type: "item",
+		items: [{
+			item: "contenttweaker:dyson_capacitor"
+		}]
+	},
+	{
+		uid: "eb581231",
+		type: "item",
+		items: [{
+			item: "contenttweaker:star_core"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

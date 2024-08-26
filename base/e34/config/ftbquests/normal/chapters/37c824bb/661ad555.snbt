@@ -1,0 +1,16 @@
+{
+	x: 3.5d,
+	y: -1.5d,
+	description: "Good way to test how much damage you do",
+	dependencies: [
+		"fb8062a2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bff13718",
+		type: "item",
+		items: [{
+			item: "testdummy:dummy"
+		}]
+	}]
+}

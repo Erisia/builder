@@ -1,0 +1,14 @@
+{
+	icon: "minecraft:fish 1 1",
+	x: 8.0d,
+	y: 6.0d,
+	description: "The more you fish, the better the loot!",
+	dependencies: [
+		"d8e398cb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "40d9e442",
+		type: "checkmark"
+	}]
+}
