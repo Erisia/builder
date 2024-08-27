@@ -1326,6 +1326,19 @@
     "sha256": "65d870735a0fc449638c80ede36689e0248f542240cdf7586c3e3fcc44eee033"
   },
   {
+    "name": "dcintegration",
+    "title": "Discord Integration",
+    "side": "server",
+    "required": true,
+    "default": true,
+    "filename": "dcintegration-forge-2.4.7.1-1.12.jar",
+    "encoded": "dcintegration-forge-2.4.7.1-1.12.jar",
+    "src": "https://cdn.modrinth.com/data/rbJ7eS5V/versions/xLuSqQki/dcintegration-forge-2.4.7.1-1.12.jar",
+    "size": 16401788,
+    "md5": "9099a5019ea7e0213f141ce7765e3d0c",
+    "sha256": "3403636d2d355b16dd5c60a6cda15fb59f0821b9c2aeaaeb5d434cc79405694c"
+  },
+  {
     "name": "deep-blood-evolution",
     "title": "Deep Blood Evolution",
     "side": "both",
@@ -1454,6 +1467,19 @@
     "size": 43317,
     "md5": "5b30ef7c2e888019f6d1eea221203129",
     "sha256": "e3d2215286984be17bf5fef2ac3e2f8ddc62a35ad4d7f1e25b91cd5520347335"
+  },
+  {
+    "name": "dynmap",
+    "title": "Dynmap®",
+    "side": "server",
+    "required": true,
+    "default": true,
+    "filename": "Dynmap-3.7-beta-4-forge-1.12.2.jar",
+    "encoded": "Dynmap-3.7-beta-4-forge-1.12.2.jar",
+    "src": "https://cdn.modrinth.com/data/fRQREgAc/versions/oonqFE15/Dynmap-3.7-beta-4-forge-1.12.2.jar",
+    "size": 11511369,
+    "md5": "9522c4cec036f2ae1d518d652bee0099",
+    "sha256": "0378331647c8d38f00c8ec39cef6216e2c6ae691c1c141bc05e15b3a3b6a6bc2"
   },
   {
     "name": "electroblobs-wizardry",

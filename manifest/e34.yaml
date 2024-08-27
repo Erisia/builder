@@ -101,6 +101,14 @@ nodes:
         required: false
         default: false
         file_id: 2456007
+      - name: dcintegration
+        source: modrinth
+        side: server
+        file_id: 'xLuSqQki'
+      - name: dynmap
+        source: modrinth
+        side: server
+        file_id: 'oonqFE15'
 
   # Build processing graph:
   # Download modpack and unzip
