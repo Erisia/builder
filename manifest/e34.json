@@ -2496,6 +2496,19 @@
     "sha256": "4ba35d6670f02d23891288a34de6e4a1015ccc9e42d5e9916c85770396424dd9"
   },
   {
+    "name": "lootr",
+    "title": "Lootr",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "lootr-1.12.2-0.6.2.jar",
+    "encoded": "lootr-1.12.2-0.6.2.jar",
+    "src": "https://cdn.modrinth.com/data/EltpO5cN/versions/fTrJqmfv/lootr-1.12.2-0.6.2.jar",
+    "size": 183508,
+    "md5": "558c6e4a8600c62244c6c6264b4b70c8",
+    "sha256": "294d4af16a558f2fca3aa4e3e7234fd7ea005d4aaf53c84b04c92908f9342c2d"
+  },
+  {
     "name": "loottabletweaker",
     "title": "LootTableTweaker",
     "side": "both",

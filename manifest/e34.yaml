@@ -109,6 +109,10 @@ nodes:
         source: modrinth
         side: server
         file_id: 'oonqFE15'
+      - name: lootr
+        source: modrinth
+        side: both
+        file_id: 'fTrJqmfv'
 
   # Build processing graph:
   # Download modpack and unzip
