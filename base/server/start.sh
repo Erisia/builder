@@ -153,6 +153,11 @@ elif [[ -e forge/run.sh ]]; then
 	# This is an 1.18+ server.
 	# Use the provided run script. This implicitly invokes user_jvm_args, and works with newer Java.
 	nix shell 'nixpkgs#jre' --command forge/run.sh &
+elif find forge/ -name 'cleanroom*.jar' -printf 1 -quit | grep -q 1; then
+    nix run nixpkgs#jre -- \
+        "$@" \
+        $(cat user_jvm_args.txt) \
+        -jar forge/cleanroom-*.jar nogui &
 else
 	# 1.17 or below; invoke jar directly.
 	java \
@@ -164,7 +169,7 @@ else
 	  -XX:G1NewSizePercent=20 \
 	  -XX:+UseAdaptiveGCBoundary \
 	  $(cat user_jvm_args.txt) \
-	  -jar $JAR nogui &
+	  -jar $FORGE nogui &
 fi
 
 echo $! > server-jvm.pid

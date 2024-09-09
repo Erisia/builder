@@ -1,0 +1,16 @@
+{
+	x: 104.0d,
+	y: 0.0d,
+	dependencies: [
+		"63f5b204"
+	],
+	hide: true,
+	tasks: [{
+		uid: "37d3f860",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_alchemical_bag"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	x: 66.5d,
+	y: -3.0d,
+	dependencies: [
+		"6304b450"
+	],
+	hide: true,
+	tasks: [{
+		uid: "09285fb2",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:salt_fission_vessel"
+		}]
+	},
+	{
+		uid: "3170b634",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:salt_fission_controller"
+		}]
+	},
+	{
+		uid: "79dfd122",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:salt_fission_wall"
+		}]
+	},
+	{
+		uid: "28da7074",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:salt_fission_frame"
+		}]
+	},
+	{
+		uid: "e86b825f",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:salt_fission_heater"
+		}]
+	}]
+}

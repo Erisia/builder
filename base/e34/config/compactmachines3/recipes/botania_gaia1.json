@@ -1,0 +1,372 @@
+{
+    "name": "compactmachines3:botania_gaia1",
+    "target-item": "contenttweaker:gaia_guardian_arena",
+    "target-meta": 5,
+    "target-count": 1,
+
+    "duration": 200,
+
+    "catalyst": "contenttweaker:multiblock_preview",
+
+    
+
+
+
+    "input-types": {
+      "a": {
+        "id": "botania:pylon",
+        "meta": 2,
+        "item": {
+            "id": "botania:pylon",
+            "meta": 2,
+            "count": 4
+          }
+      },
+      "b": {
+        "id": "minecraft:tripwire",
+        "meta": 0,
+        "item": {
+            "id": "contenttweaker:roof_can_be_placed_7_blocks_away",
+            "count": 1
+          }
+      },
+      "c": {
+        "id": "minecraft:grass",
+        "meta": 0,
+        "item": {
+            "id": "minecraft:grass",
+            "count": 1216
+          }
+      },
+      "d": {
+        "id": "minecraft:iron_block",
+        "meta": 0,
+        "item": {
+            "id": "minecraft:iron_block",
+            "count": 9
+          }
+      },
+      "e": {
+        "id": "minecraft:beacon",
+        "meta": 0,
+        "item": {
+            "id": "minecraft:beacon",
+            "count": 1
+          }
+      }
+    },
+    "input-nbt": {
+      "a:A": {
+        "nbt": "{id:\"botania:pylon\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}}}"
+      },
+      "e:A": {
+        "nbt": "{id:\"minecraft:beacon\",ForgeCaps:{\"abyssalcraft:itemtransfer\":{configurations:[],isRunning:0b},\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},Lock:\"\",Primary:-1,Secondary:-1,Levels:1}"
+      }
+    },
+    "shape": [
+      [
+        [
+          "a:A",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "a:A"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "a:A",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "a:A"
+        ]
+      ],
+      [
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "b"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "e:A",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_"
+        ],
+        [
+          "b",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "_",
+          "b"
+        ]
+      ],
+      [
+        [
+          "c",
+          "c",
+          "c",
+          "c",
+          "c",
+          "c",
+          "c",
+          "c",
+          "c"
+        ],
+        [
+          "c",
+          "c",
+          "c",
+          "c",
+          "c",
+          "c",
+          "c",
+          "c",
+          "c"
+        ],
+        [
+          "c",
+          "c",
+          "c",
+          "c",
+          "c",
+          "c",
+          "c",
+          "c",
+          "c"
+        ],
+        [
+          "c",
+          "c",
+          "c",
+          "d",
+          "d",
+          "d",
+          "c",
+          "c",
+          "c"
+        ],
+        [
+          "c",
+          "c",
+          "c",
+          "d",
+          "d",
+          "d",
+          "c",
+          "c",
+          "c"
+        ],
+        [
+          "c",
+          "c",
+          "c",
+          "d",
+          "d",
+          "d",
+          "c",
+          "c",
+          "c"
+        ],
+        [
+          "c",
+          "c",
+          "c",
+          "c",
+          "c",
+          "c",
+          "c",
+          "c",
+          "c"
+        ],
+        [
+          "c",
+          "c",
+          "c",
+          "c",
+          "c",
+          "c",
+          "c",
+          "c",
+          "c"
+        ],
+        [
+          "c",
+          "c",
+          "c",
+          "c",
+          "c",
+          "c",
+          "c",
+          "c",
+          "c"
+        ]
+      ]
+    ]
+       
+}

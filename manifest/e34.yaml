@@ -1,0 +1,163 @@
+# This example demonstrates how a Curse pack can be used as the source and overridden in various ways.
+config:
+  minecraft_version: '1.12.1'
+  modloader: 'forge'
+nodes:
+  # Define constant values:
+  # URL where client modpack for the Curse launcher can be downloaded
+  - id: modpack-uri
+    value: 'https://mediafilez.forgecdn.net/files/5648/191/Meatballcraft-beta-0.16-hotfix4.zip'
+  # Path inside the downloaded modpack zip where the manifest is located
+  - id: manifest-location
+    value: 'manifest.json'
+  # Specify overrides for side, required, default for certain mods. The "source" field has no effect when passing this list into a ModOverrider node later.
+  - id: overrides
+    value:
+      - name: sound-reloader
+        source: curse
+        side: client
+        required: false
+      # mixin-booter and configanytime are required with Forge, but should not be used with Cleanroom.
+      # These should be moved back to excluded-mods if we get Cleanroom working in MCU.
+      # For now, they are set to required: false, for ease of use if symlinking into a Prism instance with Cleanroom.
+      - name: mixin-booter
+        source: curse
+        side: client
+        required: false
+      - name: configanytime
+        source: curse
+        side: client
+        required: false
+  # Specify mods to exclude
+  - id: excluded-mods
+    value:
+      #- mixin-booter
+      #- configanytime
+      - aromabackup
+      - aroma1997core
+  # Specify extra mods to add
+  - id: extra-mods
+    value:
+      - name: clumps
+        source: modrinth
+        file_id: 'nZvGITpT'
+      - name: randompatches-forge
+        source: curse
+        file_id: 3133651
+      - name: helpfixer
+        source: curse
+        side: server
+        file_id: 2479308
+      - name: netherportalfix
+        source: curse
+        file_id: 2612052
+      - name: bed-patch
+        source: curse
+        file_id: 2532663
+      - name: chunkpregenerator
+        source: curse
+        file_id: 5632153
+      - name: carbon-config # chunkpregenerator dependency
+        source: curse
+        file_id: 5504476
+      - name: prometheus-integration
+        source: curse
+        id: 254573
+        side: server
+        file_id: 2519411
+      - name: morpheus
+        source: curse
+        side: server
+        file_id: 2664449
+      - name: dynamic-surroundings
+        source: curse
+        side: client
+        required: false
+        default: false
+        file_id: 3497269
+      - name: orelib # dynamic surroundings dependency
+        source: curse
+        side: client
+        file_id: 2820815
+      - name: nofov
+        source: curse
+        side: client
+        required: false
+        file_id: 2432421
+      - name: better-foliage
+        source: curse
+        side: client
+        required: false
+        default: false
+        file_id: 3393955
+      - name: better-placement
+        source: curse
+        side: client
+        required: false
+        file_id: 2481852
+      - name: fullscreen-windowed-borderless-for-minecraft
+        source: curse
+        side: client
+        required: false
+        default: false
+        file_id: 2456007
+      - name: dcintegration
+        source: modrinth
+        side: server
+        file_id: 'xLuSqQki'
+      - name: dynmap
+        source: modrinth
+        side: server
+        file_id: 'oonqFE15'
+      - name: lootr
+        source: modrinth
+        side: both
+        file_id: 'fTrJqmfv'
+
+  # Build processing graph:
+  # Download modpack and unzip
+  - id: download-pack
+    kind: ArchiveDownloader
+    input:
+      url: modpack-uri
+  # Extract manifest file from modpack zip
+  - id: picker
+    kind: FilePicker
+    input:
+      files: download-pack
+      path: manifest-location
+  # Resolve all mods from the modpack manifest
+  - id: resolve-curse-pack
+    kind: CurseResolver
+    input:
+      manifest: picker
+  # Apply overrides
+  - id: apply-overrides
+    kind: ModOverrider
+    input:
+      mods: resolve-curse-pack
+      overrides: overrides
+  # Apply mod filters. The "inverse" output will contain all but the mods listed in the filters.
+  - id: apply-filters
+    kind:  ModFilter
+    input:
+      mods: apply-overrides
+      filters: excluded-mods
+  # Resolve additional mods
+  - id: resolve-extra-mods
+    kind: ModResolver
+    input:
+      mods: extra-mods
+  # Merge lists of resolved mods
+  - id: merge
+    kind: ModMerger
+    input:
+      curse-mods: 'apply-filters::inverse'
+      extra-mods: resolve-extra-mods
+  # Write final resolved modlist as a JSON manifest
+  - id: writer
+    kind: ModWriter
+    input:
+      resolved: 'merge'
+  - filename: 'e34.json'
+    source: 'writer::json'

@@ -1,0 +1,20 @@
+{
+	title: "On the Medieval vibes",
+	x: 20.0d,
+	y: 0.0d,
+	description: "The book of creation has instructions on how to use projecte",
+	text: [
+		"Mana appears to have a 'memory' for alchemical power, meaning that I can use it to create all remembered items at will."
+	],
+	dependencies: [
+		"1e58e692"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e69857af",
+		type: "item",
+		items: [{
+			item: "projectex:stone_table"
+		}]
+	}]
+}

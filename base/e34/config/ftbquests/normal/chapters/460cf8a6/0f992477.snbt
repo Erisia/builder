@@ -1,0 +1,18 @@
+{
+	x: -1.0d,
+	y: 4.0d,
+	text: [
+		"Found in Darklands biomes",
+		"Found in dragon dens."
+	],
+	dependencies: [
+		"d707b772"
+	],
+	tasks: [{
+		uid: "892a8d43",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:abyingot"
+		}]
+	}]
+}

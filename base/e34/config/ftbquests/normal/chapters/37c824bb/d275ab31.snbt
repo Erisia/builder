@@ -1,0 +1,17 @@
+{
+	x: 80.0d,
+	y: -3.0d,
+	dependencies: [
+		"e0893191"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5ab8d4ac",
+		type: "item",
+		items: [{
+			item: "xreliquary:magicbane"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

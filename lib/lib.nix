@@ -33,6 +33,8 @@ rec {
     fabric ? null,
     forge ? null,
     neoforge ? null,
+    cleanroom ? null,
+    client-forge ? null,
     ram ? "4000m",
     manifest,
     blacklist ? [],
@@ -88,7 +90,10 @@ rec {
         loader = fabric.loader;
         installer = fabric.installer;
       });
-      forgeDir = wrapDir "forge" (if neoforge != null then fetchNeoForge neoforge else fetchForge forge);
+      forgeDir = wrapDir "forge" (if neoforge != null then fetchNeoForge neoforge 
+                                  else if cleanroom != null then fetchCleanroom cleanroom
+                                  else fetchForge forge
+      );
     in if fabric != null then fabricDir else forgeDir;
 
     serverMods = filterManifest {
@@ -146,7 +151,10 @@ rec {
       then "https://files.minecraftforge.net/maven/net/minecraftforge/forge/${major}-${minor}/forge-${major}-${minor}-installer.jar"
       else if type == "neoforge" && major == "1.20.1"
       then "https://maven.neoforged.net/releases/net/neoforged/forge/${major}-${minor}/forge-${major}-${minor}-installer.jar"
+      else if type == "cleanroom"
+      then "https://github.com/CleanroomMC/Cleanroom/releases/download/${major}-${minor}/cleanroom-${major}-${minor}-installer.jar"
       else "https://maven.neoforged.net/releases/net/neoforged/neoforge/${minor}/neoforge-${minor}-installer.jar";
+
 
     # The installer needs web access. Since it does, let's download it w/o a
     # hash. We're using HTTPS anyway.
@@ -167,6 +175,7 @@ rec {
 
   fetchForge = { major, minor }: fetchForgeLike { inherit major minor; type = "forge"; };
   fetchNeoForge = { major, minor }: fetchForgeLike { inherit major minor; type = "neoforge"; };
+  fetchCleanroom = { major, minor }: fetchForgeLike { inherit major minor; type = "cleanroom"; };
 
   /**
    * Returns a list of mods, of the same format as in the manifest.

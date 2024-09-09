@@ -1,0 +1,1840 @@
+[
+  {
+    "id": "blaze",
+    "displayName": "Blaze",
+    "livingMatter": "hellish",
+    "simulationRFCost": 1500,
+    "craftingIngredients": [
+      "minecraft:blaze_powder"
+    ],
+    "associatedMobs": [
+      "minecraft:blaze"
+    ],
+    "lootItems": [
+      "minecraft:blaze_rod,22",
+      "thermalfoundation:material,32,771",
+      "xreliquary:mob_ingredient,1,7"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 10,
+      "mobTrivia": [
+        "Bring buckets of water, and watch in despair",
+        "as it evaporates, and everything is on fire.",
+        "You are on fire."
+      ],
+      "entity": "minecraft:blaze",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "creeper",
+    "displayName": "Creeper",
+    "livingMatter": "overworldian",
+    "simulationRFCost": 80,
+    "craftingIngredients": [
+      "minecraft:gunpowder"
+    ],
+    "associatedMobs": [
+      "minecraft:creeper"
+    ],
+    "lootItems": [
+      "minecraft:gunpowder,64",
+      "minecraft:skull,6,4",
+      "aoa3:copper_coin,1,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 10,
+      "mobTrivia": [
+        "Will blow up your base if",
+        "left unattended."
+      ],
+      "entity": "minecraft:creeper",
+      "entityScale": 42,
+      "entityOffsetX": 5,
+      "entityOffsetY": 5
+    }
+  },
+  {
+    "id": "dragon",
+    "displayName": "Ender Dragon",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "minecraft:dragon_egg"
+    ],
+    "associatedMobs": [
+      "minecraft:ender_dragon"
+    ],
+    "lootItems": [
+      "minecraft:dragon_breath,32",
+      "mysticalagradditions:stuff,1,2",
+      "draconicevolution:draconium_dust,8,0",
+      "bhc:green_heart,1,0",
+      "minecraft:elytra,1,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "Resides in the End, does not harbor treasure.",
+        "Destroy its crystals and break the cycle!"
+      ],
+      "entity": "minecraft:ender_dragon",
+      "entityScale": 7,
+      "entityOffsetX": 0,
+      "entityOffsetY": -20
+    }
+  },
+  {
+    "id": "enderman",
+    "displayName": "Enderman",
+    "displayNamePlural": "Endermen",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 2000,
+    "craftingIngredients": [
+      "minecraft:ender_pearl"
+    ],
+    "associatedMobs": [
+      "minecraft:enderman",
+      "minecraft:endermite"
+    ],
+    "lootItems": [
+      "minecraft:ender_pearl,6",
+      "minecraft:end_crystal,1",
+      "enderio:block_enderman_skull,2",
+      "xreliquary:mob_ingredient,1,11"
+    ],
+    "trial": {
+      "entities": "deepmoblearning:trial_enderman",
+      "spawnDelay": 2.6,
+      "rewards": [
+        "deepmoblearning:glitch_heart,5"
+      ]
+    },
+    "deepLearnerDisplay": {
+      "hearts": 20,
+      "mobTrivia": [
+        "Friendly unless provoked, dislikes rain.",
+        "Teleports short distances."
+      ],
+      "entity": "minecraft:enderman",
+      "entityScale": 30,
+      "entityOffsetX": 5,
+      "entityOffsetY": 11
+    }
+  },
+  {
+    "id": "ghast",
+    "displayName": "Ghast",
+    "livingMatter": "hellish",
+    "simulationRFCost": 2000,
+    "craftingIngredients": [
+      "minecraft:ghast_tear"
+    ],
+    "associatedMobs": [
+      "minecraft:ghast"
+    ],
+    "lootItems": [
+      "minecraft:ghast_tear,8",
+      "xreliquary:mob_ingredient,1,3"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 10,
+      "mobTrivia": [
+        "If you hear something that sounds like",
+        "a crying llama, you're probably hearing a ghast."
+      ],
+      "entity": "minecraft:ghast",
+      "entityScale": 10,
+      "entityOffsetX": 0,
+      "entityOffsetY": -20
+    }
+  },
+  {
+    "id": "guardian",
+    "displayName": "Guardian",
+    "livingMatter": "overworldian",
+    "simulationRFCost": 1500,
+    "craftingIngredients": [
+      "minecraft:prismarine_shard"
+    ],
+    "associatedMobs": [
+      "minecraft:guardian",
+      "minecraft:elder_guardian"
+    ],
+    "lootItems": [
+      "minecraft:prismarine_shard,32",
+      "minecraft:prismarine_crystals,32",
+      "minecraft:fish,64,0",
+      "bhc:red_heart,8,0",
+      "xreliquary:mob_ingredient,1,16"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 15,
+      "mobTrivia": [
+        "Lurking in the oceans.",
+        "Uses some sort of sonar beam as",
+        "a means of attack."
+      ],
+      "entity": "minecraft:guardian",
+      "entityScale": 36,
+      "entityOffsetX": 5,
+      "entityOffsetY": -5
+    }
+  },
+  {
+    "id": "shulker",
+    "displayName": "Shulker",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 1000,
+    "craftingIngredients": [
+      "minecraft:shulker_shell"
+    ],
+    "associatedMobs": [
+      "minecraft:shulker"
+    ],
+    "lootItems": [
+      "minecraft:shulker_shell,18",
+      "minecraft:diamond,2"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 15,
+      "mobTrivia": [
+        "Found in End cities.",
+        "Sneaky little buggers."
+      ],
+      "entity": "minecraft:shulker",
+      "entityScale": 36,
+      "entityOffsetX": 5,
+      "entityOffsetY": -5
+    }
+  },
+  {
+    "id": "skeleton",
+    "displayName": "Skeleton",
+    "livingMatter": "overworldian",
+    "simulationRFCost": 80,
+    "craftingIngredients": [
+      "minecraft:bone"
+    ],
+    "associatedMobs": [
+      "minecraft:skeleton",
+      "minecraft:stray",
+      "twilightforest:skeleton_druid"
+    ],
+    "lootItems": [
+      "minecraft:bone,64",
+      "minecraft:arrow,64",
+      "minecraft:skull,6",
+      "xreliquary:mob_ingredient,1,0"
+    ],
+    "trial": {
+      "entities": [
+        "minecraft:stray,33",
+        "minecraft:skeleton,67"
+      ],
+      "rewards": [
+        "deepmoblearning:glitch_heart,3"
+      ]
+    },
+    "deepLearnerDisplay": {
+      "hearts": 10,
+      "mobTrivia": [
+        "A formidable archer, which seems to be running",
+        "some sort of cheat engine.",
+        "A shield could prove useful."
+      ],
+      "entity": "minecraft:skeleton",
+      "entityHeldItem": "minecraft:bow",
+      "entityScale": 38,
+      "entityOffsetX": 6,
+      "entityOffsetY": 10
+    }
+  },
+  {
+    "id": "slime",
+    "displayName": "Slime",
+    "livingMatter": "overworldian",
+    "simulationRFCost": 300,
+    "craftingIngredients": [
+      "minecraft:slime_ball"
+    ],
+    "associatedMobs": [
+      "minecraft:slime",
+      "minecraft:magma_cube"
+    ],
+    "lootItems": [
+      "minecraft:slime_ball,32",
+      "xreliquary:mob_ingredient,1,4"
+    ],
+    "trial": {
+      "entities": "deepmoblearning:trial_slime",
+      "spawnDelay": 1.6,
+      "rewards": [
+        "deepmoblearning:glitch_heart,3"
+      ]
+    },
+    "deepLearnerDisplay": {
+      "hearts": 8,
+      "mobTrivia": [
+        "The bouncing bouncer",
+        "bounces, bounces and bounces",
+        "Bounces and bou- squish! -\"A new slime haiku\""
+      ],
+      "entity": "minecraft:slime",
+      "entityScale": 60,
+      "entityOffsetX": 10,
+      "entityOffsetY": -16
+    }
+  },
+  {
+    "id": "spider",
+    "displayName": "Spider",
+    "livingMatter": "overworldian",
+    "simulationRFCost": 80,
+    "craftingIngredients": [
+      "minecraft:spider_eye"
+    ],
+    "associatedMobs": [
+      "minecraft:spider",
+      "minecraft:cave_spider",
+      "twilightforest:hedge_spider",
+      "twilightforest:king_spider"
+    ],
+    "lootItems": [
+      "minecraft:spider_eye,16",
+      "minecraft:string,64",
+      "minecraft:web,8",
+      "xreliquary:mob_ingredient,1,2"
+    ],
+    "trial": {
+      "entities": [
+        "deepmoblearning:trial_spider,88",
+        "deepmoblearning:trial_cave_spider,12"
+      ],
+      "rewards": [
+        "deepmoblearning:glitch_heart,4"
+      ]
+    },
+    "deepLearnerDisplay": {
+      "hearts": 8,
+      "mobTrivia": [
+        "Nocturnal douchebags, beware!",
+        "Drops strands of string for some reason."
+      ],
+      "entity": "minecraft:spider",
+      "entityScale": 30,
+      "entityOffsetX": 5,
+      "entityOffsetY": 0,
+      "extraEntity": "minecraft:cave_spider",
+      "extraEntityIsChild": false,
+      "extraEntityOffsetX": 5,
+      "extraEntityOffsetY": -25
+    }
+  },
+  {
+    "id": "witch",
+    "displayName": "Witch",
+    "displayNamePlural": "Witches",
+    "livingMatter": "overworldian",
+    "simulationRFCost": 400,
+    "craftingIngredients": [
+      "minecraft:glass_bottle"
+    ],
+    "associatedMobs": [
+      "minecraft:witch"
+    ],
+    "lootItems": [
+      "minecraft:redstone,32",
+      "minecraft:glowstone_dust,32",
+      "minecraft:sugar,64",
+      "xreliquary:mob_ingredient,2,5"
+    ],
+    "trial": {
+      "entities": "minecraft:witch",
+      "rewards": [
+        "deepmoblearning:glitch_heart,6"
+      ]
+    },
+    "deepLearnerDisplay": {
+      "hearts": 13,
+      "mobTrivia": [
+        "Affinity with potions and concoctions.",
+        "Likes cats.",
+        "Beware!"
+      ],
+      "entity": "minecraft:witch",
+      "entityHeldItem": "minecraft:potion",
+      "entityScale": 34,
+      "entityOffsetX": 4,
+      "entityOffsetY": 11
+    }
+  },
+  {
+    "id": "wither",
+    "displayName": "Wither",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 5000,
+    "craftingIngredients": [
+      "minecraft:nether_star"
+    ],
+    "associatedMobs": [
+      "minecraft:wither"
+    ],
+    "lootItems": [
+      "mysticalagradditions:stuff,1,0",
+      "aoa3:nether_tokens,1,0",
+      "bhc:yellow_heart,1,0",
+      "aoa3:small_skill_crystal,1,0",
+      "aoa3:wither_rune,1,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 150,
+      "mobTrivia": [
+        "Do not approach this enemy. Run!",
+        "I mean it has 3 heads, what could",
+        "possibly go wrong?"
+      ],
+      "entity": "minecraft:wither",
+      "entityScale": 22,
+      "entityOffsetX": 3,
+      "entityOffsetY": 18
+    }
+  },
+  {
+    "id": "wither_skeleton",
+    "displayName": "Wither Skeleton",
+    "livingMatter": "hellish",
+    "simulationRFCost": 3000,
+    "craftingIngredients": [
+      "minecraft:skull,1,1"
+    ],
+    "associatedMobs": [
+      "minecraft:wither_skeleton"
+    ],
+    "lootItems": [
+      "minecraft:skull,1,1",
+      "minecraft:coal,64",
+      "xreliquary:mob_ingredient,1,1",
+      "iceandfire:witherbone,4,0"
+    ],
+    "trial": {
+      "entities": "minecraft:wither_skeleton",
+      "spawnDelay": 3.2,
+      "rewards": [
+        "deepmoblearning:glitch_heart,5"
+      ]
+    },
+    "deepLearnerDisplay": {
+      "hearts": 10,
+      "mobTrivia": [
+        "Inflicts the Wither effect.",
+        "Bring milk!"
+      ],
+      "entity": "minecraft:wither_skeleton",
+      "entityHeldItem": "minecraft:stone_sword",
+      "entityScale": 33,
+      "entityOffsetX": 5,
+      "entityOffsetY": 10
+    }
+  },
+  {
+    "id": "zombie",
+    "displayName": "Zombie",
+    "livingMatter": "overworldian",
+    "simulationRFCost": 80,
+    "craftingIngredients": [
+      "minecraft:rotten_flesh"
+    ],
+    "associatedMobs": [
+      "minecraft:zombie",
+      "minecraft:husk",
+      "minecraft:zombie_villager",
+      "minecraft:zombie_pigman"
+    ],
+    "lootItems": [
+      "minecraft:rotten_flesh,64",
+      "minecraft:iron_ingot,16",
+      "minecraft:carrot,32",
+      "minecraft:potato,32",
+      "xreliquary:mob_ingredient,1,6",
+      "minecraft:skull,1,2"
+    ],
+    "trial": {
+      "entities": [
+        "minecraft:zombie,45",
+        "minecraft:husk,30",
+        "minecraft:zombie_villager,25"
+      ],
+      "mobsPerWave": [ 4, 5, 6, 6, 10, 14, 20 ],
+      "rewards": [
+        "deepmoblearning:glitch_heart,3"
+      ]
+    },
+    "deepLearnerDisplay": {
+      "hearts": 10,
+      "mobTrivia": [
+        "They go moan in the night.",
+        "Does not understand the need for",
+        "personal space."
+      ],
+      "entity": "minecraft:zombie",
+      "entityScale": 35,
+      "entityOffsetX": -2,
+      "entityOffsetY": 6,
+      "extraEntity": "minecraft:zombie",
+      "extraEntityIsChild": true,
+      "extraEntityOffsetX": 21,
+      "extraEntityOffsetY": 6
+    }
+  },
+  {
+    "id": "thermal_elemental",
+    "mod": "thermalfoundation",
+    "displayName": "Thermal Elemental",
+    "livingMatter": "overworldian",
+    "simulationRFCost": 500,
+    "craftingIngredients": [
+      "thermalfoundation:material,1,1025",
+      "thermalfoundation:material,1,1026",
+      "thermalfoundation:material,1,1027"
+    ],
+    "associatedMobs": [
+      "thermalfoundation:blizz",
+      "thermalfoundation:blitz",
+      "thermalfoundation:basalz"
+    ],
+    "lootItems": [
+      "thermalfoundation:material,16,772",
+      "thermalfoundation:material,16,770",
+      "minecraft:snowball,16",
+      "thermalfoundation:material,8,2050",
+      "thermalfoundation:material,8,2052",
+      "thermalfoundation:material,8,2048"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 10,
+      "mobTrivia": [
+        "Blizzes, Blitzes and Basalzes.",
+        "Siblings of the Blaze.",
+        "Their master really liked words starting with B."
+      ],
+      "entity": "thermalfoundation:blizz",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "twilight_forest",
+    "mod": "twilightforest",
+    "displayName": "Forest creature",
+    "livingMatter": "twilight",
+    "simulationRFCost": 500,
+    "craftingIngredients": [
+      "twilightforest:firefly"
+    ],
+    "extraTooltip": "Gain data by defeating non-vanilla mobs in the Naga Courtyard and Lich Tower.",
+    "associatedMobs": [
+      "twilightforest:naga",
+      "twilightforest:lich_minion",
+      "twilightforest:lich",
+      "twilightforest:death_tome",
+      "twilightforest:swarm_spider"
+    ],
+    "lootItems": [
+      "twilightforest:naga_scale,16",
+      "twilightforest:charm_of_life_1,2",
+      "twilightforest:charm_of_keeping_1,2",
+      "minecraft:paper,64",
+      "minecraft:book,32"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 0,
+      "mobTrivia": [
+        "Nagas, Liches and flying books.",
+        "What the hell have you walked into?"
+      ],
+      "entity": "twilightforest:lich",
+      "entityScale": 35,
+      "entityOffsetX": 6,
+      "entityOffsetY": 12
+    }
+  },
+  {
+    "id": "twilight_swamp",
+    "mod": "twilightforest",
+    "displayName": "Swamp creature",
+    "livingMatter": "twilight",
+    "simulationRFCost": 500,
+    "craftingIngredients": [
+      "minecraft:waterlily"
+    ],
+    "extraTooltip": "Gain data by defeating non-vanilla mobs in the Swamp Labyrinth and Hydra Lair.",
+    "associatedMobs": [
+      "twilightforest:minotaur",
+      "twilightforest:minoshroom",
+      "twilightforest:maze_slime",
+      "twilightforest:fire_beetle",
+      "twilightforest:pinch_beetle",
+      "twilightforest:slime_beetle",
+      "twilightforest:hydra"
+    ],
+    "lootItems": [
+      "twilightforest:steeleaf_ingot,16",
+      "twilightforest:ironwood_raw,8",
+      "twilightforest:fiery_ingot,5",
+      "twilightforest:hydra_chop,16",
+      "minecraft:gold_ingot,22",
+      "minecraft:red_mushroom,32",
+      "minecraft:slime_ball,16",
+      "bhc:yellow_heart,4,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 0,
+      "mobTrivia": [
+        "This realm sure could use some building regulations.",
+        "How are you even allowed to build a huge maze",
+        "in your basement!?"
+      ],
+      "entity": "minecraft:minotaur",
+      "entityHeldItem": "twilightforest:minotaur_axe",
+      "entityScale": 33,
+      "entityOffsetX": 6,
+      "entityOffsetY": 14
+    }
+  },
+  {
+    "id": "twilight_glacier",
+    "mod": "twilightforest",
+    "displayName": "Glacier inhabitant",
+    "livingMatter": "twilight",
+    "simulationRFCost": 500,
+    "craftingIngredients": [
+      "twilightforest:arctic_fur"
+    ],
+    "extraTooltip": "Gain data by defeating non-vanilla mobs in the Yeti Lair and Ice Tower.",
+    "associatedMobs": [
+      "twilightforest:yeti_alpha",
+      "twilightforest:yeti",
+      "twilightforest:winter_wolf",
+      "twilightforest:penguin",
+      "twilightforest:snow_guardian",
+      "twilightforest:stable_ice_core",
+      "twilightforest:unstable_ice_core",
+      "twilightforest:snow_queen"
+    ],
+    "lootItems": [
+      "twilightforest:arctic_fur,16",
+      "twilightforest:alpha_fur,8",
+      "minecraft:packed_ice,16",
+      "minecraft:feather,32",
+      "twilightforest:charm_of_life_2,1",
+      "twilightforest:charm_of_keeping_2,1",
+      "xreliquary:mob_ingredient,1,10",
+      "bhc:blue_heart,4,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 0,
+      "mobTrivia": [
+        "Here you'll find caves with ancient beasts",
+        "and Elsa's wicked distant cousin Aurora.",
+        "(Elsa might \"let it go\", but Aurora sure won't!)"
+      ],
+      "entity": "minecraft:snow_queen",
+      "entityScale": 33,
+      "entityOffsetX": 5,
+      "entityOffsetY": 13
+    }
+  },
+  {
+    "id": "twilight_darkwood",
+    "mod": "twilightforest",
+    "displayName": "Darkwood creature",
+    "livingMatter": "twilight",
+    "simulationRFCost": 500,
+    "craftingIngredients": [
+      "twilightforest:twilight_log"
+    ],
+    "extraTooltip": "Gain data by defeating non-vanilla mobs in the Goblin Knight Stronghold and Dark Tower.",
+    "associatedMobs": [
+      "twilightforest:redcap",
+      "twilightforest:blockchain_goblin",
+      "twilightforest:kobold",
+      "twilightforest:goblin_knight_lower",
+      "twilightforest:goblin_knight_upper",
+      "twilightforest:helmet_crab",
+      "twilightforest:knight_phantom",
+      "twilightforest:tower_ghast",
+      "twilightforest:tower_broodling",
+      "twilightforest:tower_golem",
+      "twilightforest:tower_termite",
+      "twilightforest:mini_ghast",
+      "twilightforest:ur_ghast"
+    ],
+    "lootItems": [
+      "twilightforest:armor_shard_cluster,5",
+      "twilightforest:carminite,16",
+      "minecraft:diamond_ore,3",
+      "minecraft:emerald_ore,2",
+      "minecraft:fish,32",
+      "bhc:green_heart,4,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 0,
+      "mobTrivia": [
+        "Spooky scary strongholds send shivers down",
+        "your spine, the Ur-Ghast will shock your",
+        "soul and seal your doom tonight!"
+      ],
+      "entity": "twilightforest:ur_ghast",
+      "entityScale": 3,
+      "entityOffsetX": -3,
+      "entityOffsetY": -3
+    }
+  },
+  {
+    "id": "tinker_slime",
+    "mod": "tconstruct",
+    "displayName": "Blue Slime",
+    "livingMatter": "overworldian",
+    "simulationRFCost": 500,
+    "craftingIngredients": [
+      "tconstruct:edible,1"
+    ],
+    "associatedMobs": [
+      "tconstruct:blueslime"
+    ],
+    "lootItems": [
+      "tconstruct:edible,18,1",
+      "tconstruct:edible,18,2",
+      "tconstruct:edible,18,4",
+      "tconstruct:slime_sapling,4,0",
+      "tconstruct:slime_sapling,4,1",
+      "tconstruct:slime_sapling,4,2"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 10,
+      "mobTrivia": [
+        "The elusive blue slime. Seemingly a",
+        "part of some sort of power hierarchy,",
+        "since there's a bunch of \"King slimes\" around."
+      ],
+      "entity": "tconstruct:blueslime",
+      "entityScale": 60,
+      "entityOffsetX": 10,
+      "entityOffsetY": -16
+    }
+  },
+  {
+    "id": "mo_android",
+    "mod": "matteroverdrive",
+    "displayName": "Rogue Android",
+    "livingMatter": "overworldian",
+    "simulationRFCost": 256,
+    "craftingIngredients": [
+      "matteroverdrive:rogue_android_part,1,0",
+      "matteroverdrive:rogue_android_part,1,1",
+      "matteroverdrive:rogue_android_part,1,2",
+      "matteroverdrive:rogue_android_part,1,3"
+    ],
+    "associatedMobs": [
+      "matteroverdrive:ranged_rogue_android",
+      "matteroverdrive:rogue_android"
+    ],
+    "lootItems": [
+      "matteroverdrive:energy_pack,6",
+      "matteroverdrive:tritanium_ingot,4"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 10,
+      "mobTrivia": [
+        "It's not simply an android.",
+        "It's a life form, entirely unique.",
+        "Meep morp."
+      ],
+      "entity": "matteroverdrive:rogue_android",
+      "entityScale": 33,
+      "entityOffsetX": 4,
+      "entityOffsetY": 8
+    }
+  },
+  {
+    "id": "illager",
+    "displayName": "Illager",
+    "livingMatter": "overworldian",
+    "simulationRFCost": 128,
+    "craftingIngredients": [
+      "minecraft:totem_of_undying,1,0"
+    ],
+    "associatedMobs": [
+      "minecraft:vindication_illager",
+      "minecraft:vex",
+      "minecraft:evocation_illager"
+    ],
+    "lootItems": [
+      "minecraft:totem_of_undying,1,0",
+      "minecraft:emerald,4,0",
+      "bhc:blue_heart,1,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 10,
+      "mobTrivia": [
+        "They are corrupted by a mysterious force.",
+        "They work under a united front."
+      ],
+      "entity": "minecraft:evocation_illager",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "hydra",
+    "displayName": "Hydra",
+    "livingMatter": "overworldian",
+    "simulationRFCost": 256,
+    "craftingIngredients": [
+      "iceandfire:hydra_fang,1,0"
+    ],
+    "associatedMobs": [
+      "iceandfire:if_hydra"
+    ],
+    "lootItems": [
+      "iceandfire:hydra_fang,1,0",
+      "iceandfire:hydra_skull,1,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "A dangerous swamp dweller.",
+        "Fire is its enemy."
+      ],
+      "entity": "iceandfire:if_hydra",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "ayeraco",
+    "displayName": "Ayeraco",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 4000,
+    "craftingIngredients": [
+      "divinerpg:divine_stone,1,0"
+    ],
+    "associatedMobs": [
+      "divinerpg:ayeraco_yellow",
+      "divinerpg:ayeraco_blue",
+      "divinerpg:ayeraco_purple",
+      "divinerpg:ayeraco_red",
+      "divinerpg:ayeraco_green"
+    ],
+    "lootItems": [
+      "contenttweaker:divine_wisp,1,0",
+      "contenttweaker:ayeraco_heart,1,0",
+      "thaumicwonders:panacea,1,0",
+      "techreborn:smalldust,8,66"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "Powerful alien beings.",
+        "The horde beckons."
+      ],
+      "entity": "divinerpg:ayeraco_purple",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "nethengeicbeast",
+    "displayName": "Nethengeic Beast",
+    "livingMatter": "hellish",
+    "simulationRFCost": 1000,
+    "craftingIngredients": [
+      "aoa3:flammable_dust,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:nethengeic_beast"
+    ],
+    "lootItems": [
+      "aoa3:flammable_dust,1,0",
+      "contenttweaker:nethengeic_mark,2,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "A firey beast.",
+        "So nethengeic."
+      ],
+      "entity": "aoa3:nethengeic_beast",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "kingbambambam",
+    "displayName": "BamBamBam",
+    "livingMatter": "hellish",
+    "simulationRFCost": 5000,
+    "craftingIngredients": [
+      "aoa3:explosive_idol,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:king_bambambam"
+    ],
+    "lootItems": [
+      "aoa3:king_bambambam_statue,1,0",
+      "aoa3:silver_coin,5,0",
+      "extrabees:misc,8,27"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "He likes 'em big.",
+        "He likes 'em chunky."
+      ],
+      "entity": "aoa3:king_bambambam",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "smash",
+    "displayName": "Smash",
+    "livingMatter": "overworldian",
+    "simulationRFCost": 2000,
+    "craftingIngredients": [
+      "aoa3:troll_idol,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:smash"
+    ],
+    "lootItems": [
+      "aoa3:smash_statue,1,0",
+      "aoa3:silver_coin,1,0",
+      "minecraft:emerald,10,0",
+      "techreborn:smalldust,8,38",
+      "aoa3:copper_coin,32,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "Smash.",
+        "Smash."
+      ],
+      "entity": "aoa3:smash",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "corallus",
+    "displayName": "Corallus",
+    "livingMatter": "overworldian",
+    "simulationRFCost": 3000,
+    "craftingIngredients": [
+      "aoa3:amphibiyte_lung,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:corallus"
+    ],
+    "lootItems": [
+      "aoa3:corallus_statue,1,0",
+      "aoa3:silver_coin,1,0",
+      "aoa3:amphibiyte_lung,1,0",
+      "techreborn:smalldust,8,54"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "He controls the seas.",
+        "And da police too."
+      ],
+      "entity": "aoa3:corallus",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "nethengeicwither",
+    "displayName": "Nethengeic Wither",
+    "livingMatter": "hellish",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "aoa3:nethengeic_callstone,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:nethengeic_wither"
+    ],
+    "lootItems": [
+      "aoa3:nethengeic_wither_statue,1,0",
+      "bewitchment:demon_heart,1,0",
+      "minecraft:nether_star,2,0",
+      "techreborn:smalldust,8,55"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "Wither++.",
+        "BetterWither."
+      ],
+      "entity": "aoa3:nethengeic_wither",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "mothervoidwalker",
+    "displayName": "Mother Void Walker",
+    "livingMatter": "overworldian",
+    "simulationRFCost": 1000,
+    "craftingIngredients": [
+      "aoa3:void_scales,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:mother_void_walker"
+    ],
+    "lootItems": [
+      "aoa3:void_scales,1,0",
+      "actuallyadditions:item_misc,1,20",
+      "thaumcraft:curio,1,1"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "The mother of the void walkers."
+      ],
+      "entity": "aoa3:mother_void_walker",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "betweenswamp",
+    "displayName": "Sludge Worm",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 1000,
+    "craftingIngredients": [
+      "thebetweenlands:rock_snot_pearl,1,0"
+    ],
+    "associatedMobs": [
+      "thebetweenlands:sludge",
+      "thebetweenlands:large_sludge_worm"
+    ],
+    "lootItems": [
+      "thebetweenlands:rock_snot_pearl,1,0",
+      "actuallyadditions:item_solidified_experience,1,0",
+      "thebetweenlands:sludge_ball,6,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "They lurk down there.",
+        "The monsters of sludge."
+      ],
+      "entity": "thebetweenlands:large_sludge_worm",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "elusive",
+    "displayName": "Elusive",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "aoa3:elusive_statue,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:elusive"
+    ],
+    "lootItems": [
+      "tconstruct:ingots,4,4",
+      "tconstruct:materials,4,11",
+      "actuallyadditions:item_crystal,4,4",
+      "aoa3:elusive_statue,1,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "Much elusion.",
+        "Such sneakyness."
+      ],
+      "entity": "aoa3:elusive",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "shadowlord",
+    "displayName": "Shadow Lord",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "aoa3:shadowlord_statue,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:shadowlord"
+    ],
+    "lootItems": [
+      "immersiveengineering:treated_wood,64,0",
+      "tconstruct:materials,4,10",
+      "actuallyadditions:item_crystal,4,2",
+      "aoa3:shadowlord_statue,1,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "The lord of shadows.",
+        "Very edgy I see."
+      ],
+      "entity": "aoa3:shadowlord",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "graw",
+    "displayName": "Graw",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "aoa3:graw_statue,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:graw"
+    ],
+    "lootItems": [
+      "industrialforegoing:plastic,32,0",
+      "tconstruct:materials,4,9",
+      "actuallyadditions:item_crystal,4,1",
+      "aoa3:graw_statue,1,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "Gravity mechanics are fun.",
+        "On God frfr no cap."
+      ],
+      "entity": "aoa3:graw",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "tyrosaur",
+    "displayName": "Tyrosaur",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "aoa3:tyrosaur_statue,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:tyrosaur"
+    ],
+    "lootItems": [
+      "nuclearcraft:milk_chocolate,12,0",
+      "tconstruct:firewood,32,1",
+      "actuallyadditions:item_crystal,4,5",
+      "aoa3:tyrosaur_statue,1,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "Big dino.",
+        "On the meteor vibes."
+      ],
+      "entity": "aoa3:tyrosaur",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "skeletron",
+    "displayName": "Skeletron",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "aoa3:skeletron_statue,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:skeletron"
+    ],
+    "lootItems": [
+      "industrialforegoing:pink_slime,12,0",
+      "actuallyadditions:item_crystal,4,3",
+      "aoa3:skeletron_statue,1,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "Skele-dino.",
+        "And the skele-homies."
+      ],
+      "entity": "aoa3:skeletron",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "baroness",
+    "displayName": "Baroness",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "aoa3:baroness_statue,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:baroness"
+    ],
+    "lootItems": [
+      "soulshardsrespawn:materials,4,0",
+      "extrautils2:decorativesolidwood,8,1",
+      "mod_lavacow:ectoplasm,4,0",
+      "aoa3:baroness_statue,1,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "Gaslight. Gatekeep.",
+        "Girlboss."
+      ],
+      "entity": "aoa3:baroness",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "hiveking",
+    "displayName": "Hive King",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "aoa3:hive_king_statue,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:hive_king"
+    ],
+    "lootItems": [
+      "extrautils2:ingredients,4,12",
+      "iceandfire:myrmex_desert_chitin,6,0",
+      "iceandfire:myrmex_jungle_chitin,6,0",
+      "aoa3:hive_king_statue,1,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "He controls the hive.",
+        "And da police."
+      ],
+      "entity": "aoa3:hive_king",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "creep",
+    "displayName": "C.R.E.E.P.",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "aoa3:creep_statue,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:creep"
+    ],
+    "lootItems": [
+      "extrautils2:ingredients,4,11",
+      "mysticalagriculture:crafting,32,32",
+      "nuclearcraft:alloy,8,2",
+      "aoa3:creep_statue,1,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "He's not a creep.",
+        "He's C.R.E.E.P.."
+      ],
+      "entity": "aoa3:creep",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "kror",
+    "displayName": "Kror",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "aoa3:kror_statue,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:kror"
+    ],
+    "lootItems": [
+      "mod_lavacow:scythe_claw,8,0",
+      "mod_lavacow:vespa_carapace,8,0",
+      "mod_lavacow:moltenbeef,8,0",
+      "aoa3:kror_statue,1,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "Rock boi vibes intensify.",
+        "He's the rockiest of them all."
+      ],
+      "entity": "aoa3:kror",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "voxxulon",
+    "displayName": "Voxxulon",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "aoa3:voxxulon_statue,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:voxxulon"
+    ],
+    "lootItems": [
+      "bloodarsenal:blood_infused_wooden_planks,16,0",
+      "extrautils2:ingredients,4,17",
+      "contenttweaker:bloodmaster_block,2,0",
+      "aoa3:voxxulon_statue,1,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "Spicy air is spicy.",
+        "So spicy."
+      ],
+      "entity": "aoa3:voxxulon",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "kingshroomus",
+    "displayName": "King Shroomus",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "aoa3:king_shroomus_statue,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:king_shroomus"
+    ],
+    "lootItems": [
+      "bloodarsenal:base_item,4,4",
+      "nuclearcraft:gem,4,1",
+      "erebus:materials,4,1",
+      "aoa3:king_shroomus_statue,1,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "The mystery of the mushroom world.",
+        "Why is it the mushroom world?"
+      ],
+      "entity": "aoa3:king_shroomus",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "silverfoot",
+    "displayName": "Silverfoot",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "aoa3:silverfoot_statue,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:silverfoot"
+    ],
+    "lootItems": [
+      "bigreactors:ingotludicrite,1,0",
+      "techreborn:smalldust,8,2",
+      "aoa3:silverfoot_statue,1,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "Just like a rabbot's foot.",
+        "But unlucky."
+      ],
+      "entity": "aoa3:silverfoot",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "mechbot",
+    "displayName": "Mechbot",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "aoa3:mechbot_statue,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:mechbot"
+    ],
+    "lootItems": [
+      "plustic:mirioningot,2,0",
+      "techreborn:smalldust,8,25",
+      "aoa3:mechbot_statue,1,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "Is that a mech? Is that a bot?",
+        "It's mechbot!"
+      ],
+      "entity": "aoa3:mechbot",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "havenguardians",
+    "displayName": "Haven Guardians",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "aoa3:guardian_statue,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:blue_guardian",
+      "aoa3:red_guardian",
+      "aoa3:green_guardian",
+      "aoa3:yellow_guardian"
+    ],
+    "lootItems": [
+      "botania:manaresource,4,0",
+      "techreborn:smalldust,8,40",
+      "aoa3:guardian_statue,1,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "What are they guarding?",
+        "IDK."
+      ],
+      "entity": "aoa3:blue_guardian",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "rockrider",
+    "displayName": "Rockrider",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "aoa3:rockrider_statue,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:rockrider"
+    ],
+    "lootItems": [
+      "libvulpes:productgem,32,0",
+      "techreborn:smalldust,8,56",
+      "aoa3:rockrider_statue,1,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "He rides rocks.",
+        "Yes, he rides rocks."
+      ],
+      "entity": "aoa3:rockrider",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "cottoncandor",
+    "displayName": "Cotton Candor",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "aoa3:cotton_candor_statue,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:cotton_candor"
+    ],
+    "lootItems": [
+      "abyssalcraft:psdl,1,0",
+      "techreborn:smalldust,8,0",
+      "aoa3:cotton_candor_statue,1,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "He rides rocks.",
+        "Yes, he rides rocks."
+      ],
+      "entity": "aoa3:cotton_candor",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "gyro",
+    "displayName": "Gyro",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "aoa3:gyro_statue,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:gyro"
+    ],
+    "lootItems": [
+      "projecte:item.pe_fuel,4,2",
+      "techreborn:smalldust,8,49",
+      "aoa3:gyro_statue,1,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "Clowns are never funny.",
+        "Never."
+      ],
+      "entity": "aoa3:gyro",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "vinocorne",
+    "displayName": "Vinocorne",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "aoa3:vinocorne_statue,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:vinocorne"
+    ],
+    "lootItems": [
+      "magicbees:resource,16,5",
+      "techreborn:smalldust,8,37",
+      "aoa3:vinocorne_statue,1,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "If the lorax went violent.",
+        "Or something like that."
+      ],
+      "entity": "aoa3:vinocorne",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "crystocore",
+    "displayName": "Crystocore",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "aoa3:crystocore_statue,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:crystocore"
+    ],
+    "lootItems": [
+      "environmentaltech:mica,8,0",
+      "techreborn:smalldust,8,8",
+      "aoa3:crystocore_statue,1,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "Let me be crystal clear.",
+        "Crystals are cool."
+      ],
+      "entity": "aoa3:crystocore",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "visualent",
+    "displayName": "Visualent",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "aoa3:visualent_statue,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:visualent"
+    ],
+    "lootItems": [
+      "thaumcraft:seal,1,9",
+      "thaumcraft:seal,1,18",
+      "thaumcraft:seal,1,8",
+      "aoa3:visualent_statue,1,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "But those eyes.",
+        "Those damn eyes."
+      ],
+      "entity": "aoa3:visualent",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "clunkhead",
+    "displayName": "Clunkhead",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "aoa3:clunkhead_statue,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:clunkhead"
+    ],
+    "lootItems": [
+      "thaumcraft:seal,1,2",
+      "thaumcraft:seal,1,10",
+      "thaumcraft:seal,1,7",
+      "aoa3:clunkhead_statue,1,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "He like 'em big.",
+        "He like 'em clunky."
+      ],
+      "entity": "aoa3:clunkhead",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "dracyon",
+    "displayName": "Dracyon",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "aoa3:dracyon_statue,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:dracyon"
+    ],
+    "lootItems": [
+      "thaumcraft:seal,1,16",
+      "thaumcraft:seal,1,1",
+      "thaumcraft:seal,1,13",
+      "aoa3:dracyon_statue,1,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "Not a dragon.",
+        "But I'll allow it."
+      ],
+      "entity": "aoa3:dracyon",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "hydrolisk",
+    "displayName": "Hydrolisk",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "aoa3:hydrolisk_statue,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:hydrolisk"
+    ],
+    "lootItems": [
+      "thaumcraft:seal,1,6",
+      "thaumcraft:seal,1,4",
+      "aoa3:hydrolisk_statue,1,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "Water lizard.",
+        "Water lizard."
+      ],
+      "entity": "aoa3:hydrolisk",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "terrafractallites",
+    "displayName": "Ancients Fractallites",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "contenttweaker:terran_summoning,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:goldorth",
+      "aoa3:coniferon",
+      "aoa3:penumbra",
+      "aoa3:horon"
+    ],
+    "lootItems": [
+      "bigreactors:mineralanglesite,4,0",
+      "contenttweaker:ancient_recursion,2,0",
+      "aoa3:horon_statue,1,0",
+      "aoa3:goldorth_statue,1,0",
+      "aoa3:coniferon_statue,1,0",
+      "aoa3:penumbra_statue,1,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "Four of 'em.",
+        "Four of 'em things."
+      ],
+      "entity": "aoa3:penumbra",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "immortalfractallites",
+    "displayName": "Immortal Fractallites",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "aoa3:flash_statue,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:proshield",
+      "aoa3:flash",
+      "aoa3:klobber",
+      "aoa3:mirage"
+    ],
+    "lootItems": [
+      "bigreactors:mineralbenitoite,4,0",
+      "contenttweaker:immortal_recursion,2,0",
+      "aoa3:proshield_statue,1,0",
+      "aoa3:flash_statue,1,0",
+      "aoa3:klobber_statue,1,0",
+      "aoa3:mirage_statue,1,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "They got the drip.",
+        "The drip of a monochrome dimension."
+      ],
+      "entity": "aoa3:flash",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "temporalfractallites",
+    "displayName": "Temporal Fractallites",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "aoa3:bane_statue,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:bane"
+    ],
+    "lootItems": [
+      "extrabotany:material,4,5",
+      "contenttweaker:temporal_recursion,2,0",
+      "aoa3:bane_statue,1,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "The bane of my existance.",
+        "Is not Bane."
+      ],
+      "entity": "aoa3:bane",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "primordialfractallites",
+    "displayName": "Primordial Fractallites",
+    "livingMatter": "extraterrestrial",
+    "simulationRFCost": 6000,
+    "craftingIngredients": [
+      "aoa3:raxxan_statue,1,0"
+    ],
+    "associatedMobs": [
+      "aoa3:bane"
+    ],
+    "lootItems": [
+      "extrabotany:material,4,8",
+      "contenttweaker:primordial_recursion,2,0",
+      "aoa3:kajaros_statue,1,0",
+      "aoa3:harkos_statue,1,0",
+      "aoa3:miskel_statue,1,0",
+      "aoa3:okazor_statue,1,0",
+      "aoa3:raxxan_statue,1,0"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 100,
+      "mobTrivia": [
+        "What's so primordial about this?",
+        "The primordiality."
+      ],
+      "entity": "aoa3:raxxan",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  }
+]

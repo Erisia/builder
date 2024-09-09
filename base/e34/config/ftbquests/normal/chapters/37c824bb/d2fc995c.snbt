@@ -1,0 +1,24 @@
+{
+	x: 65.0d,
+	y: 1.5d,
+	dependencies: [
+		"4ed48e87"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6efd5c82",
+		type: "item",
+		items: [{
+			item: "contenttweaker:wildwood_refined_gem"
+		}]
+	},
+	{
+		uid: "7adbf80d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:wildwood_callstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

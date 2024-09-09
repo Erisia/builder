@@ -1,0 +1,15 @@
+{
+	x: 90.5d,
+	y: 0.0d,
+	dependencies: [
+		"6fe26961"
+	],
+	hide: true,
+	tasks: [{
+		uid: "49fc4ecd",
+		type: "item",
+		items: [{
+			item: "contenttweaker:enhanced_chaos_shard"
+		}]
+	}]
+}

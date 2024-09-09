@@ -6,15 +6,47 @@ with callPackage ./lib/lib.nix {};
 rec {
 
   packs = {
-    e33 = buildPack e33;
-    e33_5 = buildPack e33_5;
+    # e33 = buildPack e33;
+    # e33_5 = buildPack e33_5;
+    e34 = buildPack e34;
   };
   
+  e34 = {
+    name = "E34";
+    tmuxName = "e34";
+    description = "E34: Plerumque Nubila Meatballs";
+    ram = "8G";
+    port = 25565;
+    prometheusPort = 1224;
+    minecraft = "1.12.2";
+    cleanroom = {
+      major = "0.2.3";
+      minor = "alpha";
+    };
+    client-forge = {
+      major = "1.12.2";
+      minor = "14.23.5.2860";
+    };
+    extraDirs = [
+      ./base/e34
+      ./base/erisia
+    ];
+    extraServerDirs = [
+      ./base/e34-server
+      ./base/server
+    ];
+    extraClientDirs = [
+      ./base/e34-client
+      ./base/client
+    ];
+    manifest = ./manifest/e34.json;
+  };
+
   e33_5 = {
     name = "E33.5";
     tmuxName = "e335";
     description = "E33.5: Exiled Incognito";
-    ram = "16G";
+    ram = "8G";
     port = 25566;
     prometheusPort = 1225;
     minecraft = "1.20.1";

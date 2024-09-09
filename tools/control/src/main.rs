@@ -74,7 +74,7 @@ impl Server {
     }
 
     pub async fn players(&self) -> Result<u64> {
-        let metric = self.get("minecraft_players_count").await?;
+        let metric = self.get("present").await?;
         if metric == 0.0 {
             return Ok(0);
         } else {
@@ -121,7 +121,7 @@ impl Server {
         if let Some(lazy) = lazy {
             // There's no uptime counter, so we have to use the tick counter.
             // Let's hope it's accurate enough.
-            let tick_count = match self.get("minecraft_tick_duration_seconds_count").await {
+            let tick_count = match self.get("ticks").await {
                 Ok(n) => n,
                 Err(e) => {
                     println!("Unable to read server uptime: {}", e);
