@@ -1,6 +1,6 @@
 {
 	"generatorType": "ANYWHERE",
-	"minY": 75,
+	"minY": 90,
 	"maxY": 120,
 	"offsetX": 0,
 	"offsetY": 0,
@@ -10,7 +10,7 @@
 	"rotation": null,
 	"ignoreEntities": false,
 
-	"dimensionSpawns": [165],
+	"dimensionSpawns": [162],
 	"biomeNameSpawns": [],
 	"biomeTagSpawns": [],
 	"isDimensionSpawnsBlacklist": false,
@@ -21,9 +21,9 @@
 	"integrity": 1,
 	"decay": 0,
 
-	"filling": "bewitchment:scorned_bricks_soft",
-	"fillingMetadata": 0,
+	"filling": "astralsorcery:blockmarble",
+	"fillingMetadata": 1,
 	"fillingType": "AIR",
 	
-	"rarity": 600
+	"rarity": 400
 }
