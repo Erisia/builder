@@ -2836,15 +2836,15 @@
   {
     "name": "mouse-tweaks-unofficial",
     "title": "Mouse Tweaks Unofficial",
-    "side": "both",
-    "required": true,
+    "side": "client",
+    "required": false,
     "default": true,
-    "filename": "mousetweaks-1.12.2-3.1.4.jar",
-    "encoded": "mousetweaks-1.12.2-3.1.4.jar",
-    "src": "https://edge.forgecdn.net/files/4661/407/mousetweaks-1.12.2-3.1.4.jar",
-    "size": 201557,
-    "md5": "82ba078d30ec980c717fb638ca33626e",
-    "sha256": "c21bb3ac59251b126b2b16872523ee08f906bbc062dc8add1ddabcfe77b99032"
+    "filename": "mousetweaks-1.12.2-3.1.5.jar",
+    "encoded": "mousetweaks-1.12.2-3.1.5.jar",
+    "src": "https://edge.forgecdn.net/files/5876/158/mousetweaks-1.12.2-3.1.5.jar",
+    "size": 201591,
+    "md5": "842b6b4c23cb6a7db7c6cef231c5c9b2",
+    "sha256": "4874dc0e614ea47f4c049875ffffc4a48b79dceebb5b76f41945b42dfd624175"
   },
   {
     "name": "mowzies-mobs",
