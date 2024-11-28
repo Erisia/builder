@@ -94,8 +94,8 @@ rec {
 
   ServerPack = buildServerPack rec {
     inherit packs;
-    hostname = "madoka.brage.info";
-    urlBase = "https://madoka.brage.info/pack/";
+    hostname = "minecraft.maxwell-lt.dev";
+    urlBase = "https://minecraft.maxwell-lt.dev/pack/";
   };
 
   # To use:
