@@ -14,8 +14,8 @@ rec {
   e34 = {
     name = "E34";
     tmuxName = "e34";
-    description = "Maxwell's E34: Plerumque Nubila Meatballs";
-    ram = "12G";
+    description = "E34: Plerumque Nubila Meatballs";
+    ram = "11G";
     port = 25565;
     prometheusPort = 1224;
     minecraft = "1.12.2";
