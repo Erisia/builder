@@ -242,6 +242,14 @@ bettersolidfusion8.addItemInput(<avaritia:resource:6>);
 bettersolidfusion8.addItemOutput(<contenttweaker:infinity_fruit>);
 bettersolidfusion8.build();
 
+val bettersolidfusion9 = RecipeBuilder.newBuilder("bettersolidfusion9","inertial_confinement_reactor",10);
+bettersolidfusion9.addEnergyPerTickInput(1000000);
+bettersolidfusion9.addItemInput(<contenttweaker:crystalline_beryllium>);
+bettersolidfusion9.addItemInput(<ore:ingotZirconium>);
+bettersolidfusion9.addItemOutput(<contenttweaker:ruthenium_ingot>);
+bettersolidfusion9.build();
+
+
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:hohlraum>, 
 [[<materialpart:sednanite:ingot>, <enderio:block_enlightened_fused_glass:0>, <contenttweaker:superconducting_sednanite>, <enderio:block_enlightened_fused_glass:0>, <materialpart:sednanite:ingot>], 
 [<enderio:block_enlightened_fused_glass:0>, <contenttweaker:living_gold>, <contenttweaker:living_gold>, <contenttweaker:living_gold>, <enderio:block_enlightened_fused_glass:0>], 
