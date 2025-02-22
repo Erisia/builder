@@ -57,12 +57,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "AdvancedRocketry-1.12.2-2.1.4-8.jar",
-    "encoded": "AdvancedRocketry-1.12.2-2.1.4-8.jar",
-    "src": "https://edge.forgecdn.net/files/5723/687/AdvancedRocketry-1.12.2-2.1.4-8.jar",
-    "size": 6997616,
-    "md5": "d73d81e99ff4efaa34df4a061018e878",
-    "sha256": "6d240a618bf003054db35fabcf0a5889bbcec684479c1289df01bcd809ff7bfe"
+    "filename": "AdvancedRocketry-1.12.2-2.1.4-9.jar",
+    "encoded": "AdvancedRocketry-1.12.2-2.1.4-9.jar",
+    "src": "https://edge.forgecdn.net/files/6007/708/AdvancedRocketry-1.12.2-2.1.4-9.jar",
+    "size": 7002069,
+    "md5": "e8a1b0f269f17d8a5f8feef2995a9095",
+    "sha256": "81d370d91f06a43138ab89779dd1031c08ed7cbb3667fc183f332b29baa4a4b2"
   },
   {
     "name": "advent-of-ascension-nevermine",
@@ -377,6 +377,19 @@
     "sha256": "e37b89bf89d5cb75d0605cf03863537b7e52a73e2ff6fb033161989c43d33876"
   },
   {
+    "name": "avaritia-item",
+    "title": "Avaritia Item",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "AvaritiaItem-1.0.3-beta.jar",
+    "encoded": "AvaritiaItem-1.0.3-beta.jar",
+    "src": "https://edge.forgecdn.net/files/5355/213/AvaritiaItem-1.0.3-beta.jar",
+    "size": 84197,
+    "md5": "ba93317c386fb96c2c391bb098350993",
+    "sha256": "e6e1681eca0f919b01923d1ecfb66d72ae42f5a9bbfe2bf8b21a287584184a1f"
+  },
+  {
     "name": "bad-mobs",
     "title": "Bad Mobs",
     "side": "both",
@@ -538,12 +551,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "BetterQuestingUnofficial-4.2.4.jar",
-    "encoded": "BetterQuestingUnofficial-4.2.4.jar",
-    "src": "https://edge.forgecdn.net/files/5802/573/BetterQuestingUnofficial-4.2.4.jar",
-    "size": 2007705,
-    "md5": "ef840d2cb67be6a59bab08250a9125e9",
-    "sha256": "88cf6994ade819e8ecb6a249785ee63c462c09dc4db484fd92e7916e38d98087"
+    "filename": "BetterQuestingUnofficial-4.2.6.jar",
+    "encoded": "BetterQuestingUnofficial-4.2.6.jar",
+    "src": "https://edge.forgecdn.net/files/5875/712/BetterQuestingUnofficial-4.2.6.jar",
+    "size": 2007707,
+    "md5": "fe5aba8a4ec0e831b141ca8e96b66716",
+    "sha256": "b8c39a65fc077d297b00402c9d13fe5ec0d9c0eeb67fbc3efdd78dc855f169d5"
   },
   {
     "name": "betterbedrockgen",
@@ -1144,19 +1157,6 @@
     "sha256": "29fe190f0d1bb0b3841b2b9f315a5d561cab9f587df6164a0205440540577575"
   },
   {
-    "name": "constructs-armory",
-    "title": "Construct's Armory",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "conarm-1.12.2-1.2.5.10.jar",
-    "encoded": "conarm-1.12.2-1.2.5.10.jar",
-    "src": "https://edge.forgecdn.net/files/3174/535/conarm-1.12.2-1.2.5.10.jar",
-    "size": 894824,
-    "md5": "b5bf1c931ac479b7678bea8b8624ac9f",
-    "sha256": "3ce60a0e2c757937eab9cafb2baa9bc823e96a9d41f39f462bf276c224ae099f"
-  },
-  {
     "name": "contenttweaker",
     "title": "ContentTweaker",
     "side": "both",
@@ -1233,6 +1233,19 @@
     "size": 1589227,
     "md5": "fa52eebe2afea008ad20ee262b26e404",
     "sha256": "56f58624e119c16fb421652bbe26a3ec06fbeb8cb53e68dd6bf3f1761ec8c6c2"
+  },
+  {
+    "name": "crafttweaker-integration",
+    "title": "CraftTweaker Integration",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "ctintegration-1.8.0.jar",
+    "encoded": "ctintegration-1.8.0.jar",
+    "src": "https://edge.forgecdn.net/files/3311/656/ctintegration-1.8.0.jar",
+    "size": 78433,
+    "md5": "2800c4435b6e40cc140e1688cb68da11",
+    "sha256": "dce7ac00b4f4d94e46799309328c3d72ed16d894aa927f568fa99d59bb31d5b0"
   },
   {
     "name": "crimson-warfare",
@@ -1435,12 +1448,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "DeepMobEvolution-1.12.2-1.2.2.jar",
-    "encoded": "DeepMobEvolution-1.12.2-1.2.2.jar",
-    "src": "https://edge.forgecdn.net/files/5043/404/DeepMobEvolution-1.12.2-1.2.2.jar",
-    "size": 562744,
-    "md5": "e13eddd66c152bbed5fd9da2c756d837",
-    "sha256": "de0e1663a3c1a568ed9a3b30081d280942d9193b1497a0623ad318fba39dd6b0"
+    "filename": "DeepMobEvolution-1.12.2-1.2.3.jar",
+    "encoded": "DeepMobEvolution-1.12.2-1.2.3.jar",
+    "src": "https://edge.forgecdn.net/files/5985/530/DeepMobEvolution-1.12.2-1.2.3.jar",
+    "size": 565897,
+    "md5": "38a6c1d4c6684ebe016594dadf4244ff",
+    "sha256": "326678421a4645d3cecc44bc49e691423de5ddb9a6611bae2fcb56d575d3b0ed"
   },
   {
     "name": "draconic-alchemy",
@@ -1545,6 +1558,19 @@
     "size": 85500,
     "md5": "738369a733e41c1820d24a19232717ca",
     "sha256": "52fd33f2ca408ae1fec285cb61307388c382606c8fb7173c5432391ba60b772d"
+  },
+  {
+    "name": "enchantment-library",
+    "title": "Enchantment Library",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "enchlib-1.12.2-1.0.1.jar",
+    "encoded": "enchlib-1.12.2-1.0.1.jar",
+    "src": "https://edge.forgecdn.net/files/6124/656/enchlib-1.12.2-1.0.1.jar",
+    "size": 164770,
+    "md5": "2a128582134c25d31d25d43f41742682",
+    "sha256": "13cac32f3b73ef39bfb554ddf2ba1ac06045928028558cf9598b9c7034bc69a4"
   },
   {
     "name": "enchantments-control",
@@ -1690,6 +1716,19 @@
     "sha256": "3d59945a65bfc713eb4db5663015b95187654b7abec7c44303d72a6f8971f804"
   },
   {
+    "name": "extended-crafting-terminals-for-applied",
+    "title": "Extended Crafting Terminals for Applied Energistics 2",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "ae2exttable-v1.0.2.jar",
+    "encoded": "ae2exttable-v1.0.2.jar",
+    "src": "https://edge.forgecdn.net/files/5989/751/ae2exttable-v1.0.2.jar",
+    "size": 139100,
+    "md5": "f4d49881949afadc2309612bfa9a082a",
+    "sha256": "db096934b4f3951a9a8d5c348cfeb5f3d949db0ff68bb34a875eba490a1e8eee"
+  },
+  {
     "name": "extra-cells-2-samlam140330s-fork",
     "title": "ExtraCells2 - SamLam140330's Fork",
     "side": "both",
@@ -1755,6 +1794,19 @@
     "sha256": "175d0317c0e6637d7dc8910e0126f204582656def61d6aef700a6180dc22f712"
   },
   {
+    "name": "fermiumbooter",
+    "title": "FermiumBooter",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "`FermiumBooter-1.1.1.jar",
+    "encoded": "%60FermiumBooter-1.1.1.jar",
+    "src": "https://edge.forgecdn.net/files/5672/830/%60FermiumBooter-1.1.1.jar",
+    "size": 1271186,
+    "md5": "017324e1d3fa9dc8bf22a918e6cf0cc5",
+    "sha256": "a3b8972e68210a4ea2c9d8dbdb5d157b0f20d9ee3f7467241951d52ec66892ef"
+  },
+  {
     "name": "findme",
     "title": "FindMe",
     "side": "both",
@@ -1773,12 +1825,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "Fish's Undead Rising-1.3.3.jar",
-    "encoded": "Fish%27s%20Undead%20Rising-1.3.3.jar",
-    "src": "https://edge.forgecdn.net/files/4017/95/Fish%27s%20Undead%20Rising-1.3.3.jar",
-    "size": 4741886,
-    "md5": "b1797b58e3edaee9e03ad1e962fcdc43",
-    "sha256": "a5684864bab24367ff5b9997b2a41476ab2f228dcc24f0ecbdd0e723f7f5d850"
+    "filename": "Fish's Undead Rising-1.5.0.jar",
+    "encoded": "Fish%27s%20Undead%20Rising-1.5.0.jar",
+    "src": "https://edge.forgecdn.net/files/6103/431/Fish%27s%20Undead%20Rising-1.5.0.jar",
+    "size": 8889927,
+    "md5": "4b16c79c334b1a3ba3d301900ce3370e",
+    "sha256": "aee5cef4aa1cb5cab6db3e37134eec4e53f59c362a90fbd984619dee170e87e4"
   },
   {
     "name": "fluid-drawers",
@@ -1812,12 +1864,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "forestry_1.12.2-5.8.2.387.jar",
-    "encoded": "forestry_1.12.2-5.8.2.387.jar",
-    "src": "https://edge.forgecdn.net/files/2684/780/forestry_1.12.2-5.8.2.387.jar",
-    "size": 5232265,
-    "md5": "367a01e7ff21262fa3dfc71e8fbd7332",
-    "sha256": "812260f39b7a17c856d30ba97bbe36578635a2f3b9413fc4dc98ccbf7b0d9884"
+    "filename": "forestry_1.12.2-5.8.2.425.jar",
+    "encoded": "forestry_1.12.2-5.8.2.425.jar",
+    "src": "https://edge.forgecdn.net/files/6104/316/forestry_1.12.2-5.8.2.425.jar",
+    "size": 5395828,
+    "md5": "3e29cfc863eacf44722750a2c4222b73",
+    "sha256": "2bf3ee6a793d7b93c96f6750cd1b91f948c4ea4e06fa74f1bc09df4a14120139"
   },
   {
     "name": "forgelin-continuous",
@@ -1825,12 +1877,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "Forgelin-Continuous-2.0.20.0.jar",
-    "encoded": "Forgelin-Continuous-2.0.20.0.jar",
-    "src": "https://edge.forgecdn.net/files/5712/862/Forgelin-Continuous-2.0.20.0.jar",
-    "size": 7075206,
-    "md5": "d6690c482b0e62202a71669410a96ace",
-    "sha256": "19658e79d72acae9b22d3ee5384ae944e73749f9a8a3c2b6ad88f2c57a2e3a13"
+    "filename": "Forgelin-Continuous-2.1.0.0.jar",
+    "encoded": "Forgelin-Continuous-2.1.0.0.jar",
+    "src": "https://edge.forgecdn.net/files/5946/402/Forgelin-Continuous-2.1.0.0.jar",
+    "size": 7035895,
+    "md5": "bf955f2680b9b0a48cb23baa27e1b8ee",
+    "sha256": "93ca113a5b9dd425d21061e7b69f331a97254c8d8bc6d4b904f5701b29a24c45"
   },
   {
     "name": "fps-reducer",
@@ -1890,12 +1942,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "+Fugue-1.12.2-0.15.9.jar",
-    "encoded": "%2BFugue-1.12.2-0.15.9.jar",
-    "src": "https://edge.forgecdn.net/files/5528/613/%2bFugue-1.12.2-0.15.9.jar",
-    "size": 160419,
-    "md5": "d718397e3756cfdf9ddea718aac27184",
-    "sha256": "5a047a086e96b327200daba809ee941af035877fb1875d80143acbcbe826e221"
+    "filename": "+Fugue-1.12.2-0.16.4.jar",
+    "encoded": "%2BFugue-1.12.2-0.16.4.jar",
+    "src": "https://edge.forgecdn.net/files/5858/710/%2bFugue-1.12.2-0.16.4.jar",
+    "size": 179908,
+    "md5": "934fdcbbfc0fec968c4f1198a0dc2692",
+    "sha256": "c42a6aea562b2d3735eba4200a4a27b32176369cabb901bdd1a9539814170035"
   },
   {
     "name": "fullscreen-windowed-borderless-for-minecraft",
@@ -2163,12 +2215,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "integratedderivative-1.0.3.jar",
-    "encoded": "integratedderivative-1.0.3.jar",
-    "src": "https://edge.forgecdn.net/files/5710/564/integratedderivative-1.0.3.jar",
-    "size": 124879,
-    "md5": "58e8b7e52c81857aeff0cd06259a25b6",
-    "sha256": "c461fe2243c6f1bd59850d055609e97435c128f71dc40e7d86980dbcc64ff7ba"
+    "filename": "integratedderivative-1.1.1.jar",
+    "encoded": "integratedderivative-1.1.1.jar",
+    "src": "https://edge.forgecdn.net/files/5890/421/integratedderivative-1.1.1.jar",
+    "size": 133361,
+    "md5": "b40552de46235c4d2cb3b9dccf1cfa42",
+    "sha256": "a647c1f0c640e421ff71eafcbd93b7085c90355308d0492490a8e1c2939d78f0"
   },
   {
     "name": "integrated-dynamics",
@@ -2670,12 +2722,12 @@
     "side": "client",
     "required": false,
     "default": true,
-    "filename": "!mixinbooter-9.4.jar",
-    "encoded": "%21mixinbooter-9.4.jar",
-    "src": "https://edge.forgecdn.net/files/5739/618/!mixinbooter-9.4.jar",
-    "size": 1800852,
-    "md5": "10270c3cfd28c381927a227297592a57",
-    "sha256": "0c87eae9e444b313dd756a1c688b2d23ba89cdea173133b059d0720396eaf341"
+    "filename": "!mixinbooter-10.2.jar",
+    "encoded": "%21mixinbooter-10.2.jar",
+    "src": "https://edge.forgecdn.net/files/5906/634/!mixinbooter-10.2.jar",
+    "size": 2376035,
+    "md5": "44a2e61eac8db4cf57fb37dd7835b8da",
+    "sha256": "b089863faab0eba9f318fba22004ffa367868d64ca11fbabfb8ec57f57354362"
   },
   {
     "name": "mixinbootstrap",
@@ -2696,12 +2748,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "MmmMmmMmmMmm-1.12-1.14.jar",
-    "encoded": "MmmMmmMmmMmm-1.12-1.14.jar",
-    "src": "https://edge.forgecdn.net/files/2503/41/MmmMmmMmmMmm-1.12-1.14.jar",
-    "size": 33622,
-    "md5": "fcbb4656fcd9bebe4c69f4c84701289e",
-    "sha256": "def6e04f8ecb9b506447dc52ec0aa8e310c02463caaeb7f73955b612af59c252"
+    "filename": "MmmMmmMmmMmm-1.12-2.0.1.jar",
+    "encoded": "MmmMmmMmmMmm-1.12-2.0.1.jar",
+    "src": "https://edge.forgecdn.net/files/6063/619/MmmMmmMmmMmm-1.12-2.0.1.jar",
+    "size": 47830,
+    "md5": "57b6f118b687fb5bd7d03d2cda4f02dc",
+    "sha256": "dee3cbd8689e58e6ab40940a28ea99842400fc00a4e557e087fd45eee6ab4710"
   },
   {
     "name": "moar-tinkers",
@@ -2990,6 +3042,19 @@
     "sha256": "bd4f556b7e5480687dbc09735dca05a1ceb3622dc93422adb5dab4f68cc9f2d1"
   },
   {
+    "name": "naughthirium",
+    "title": "Naughthirium",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "naughthirium-1.0.2.jar",
+    "encoded": "naughthirium-1.0.2.jar",
+    "src": "https://edge.forgecdn.net/files/6000/799/naughthirium-1.0.2.jar",
+    "size": 49496,
+    "md5": "240293ca38cb8e31fcb0b0f117598b84",
+    "sha256": "e37d46baf59872ab37f2b33c0538b73f5729f250761513e35ad00fd45a137b12"
+  },
+  {
     "name": "nbt-peripheral",
     "title": "NBT Peripheral",
     "side": "both",
@@ -3040,6 +3105,19 @@
     "size": 1722,
     "md5": "f97c4fbf422b513b0103eedca7a31a0e",
     "sha256": "42cf02c3f268a3a3a7244215de621a151d2fa7ec7ddebcd10b6f61670b19da13"
+  },
+  {
+    "name": "noisethreader",
+    "title": "NoiseThreader",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "NoiseThreader-1.0.0.jar",
+    "encoded": "NoiseThreader-1.0.0.jar",
+    "src": "https://edge.forgecdn.net/files/5964/549/NoiseThreader-1.0.0.jar",
+    "size": 17187,
+    "md5": "0454a13fbf1c1b1d0453a8a5a91bd2a1",
+    "sha256": "48570eafbfa2547035f56bb48073f3dd95b1ddf5f3eebe8c4286a837955cbd41"
   },
   {
     "name": "nothirium",
@@ -3144,6 +3222,19 @@
     "size": 2639587,
     "md5": "9c0606c553fbdf86e2f459c1cc40414d",
     "sha256": "47a2428297213cb3f6b3b75fe1604b002e1f5e4412a2ce77c362bf598e15a877"
+  },
+  {
+    "name": "optional-equivalence",
+    "title": "Optional Equivalence",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "opeq-1.12.2-1.0.0.jar",
+    "encoded": "opeq-1.12.2-1.0.0.jar",
+    "src": "https://edge.forgecdn.net/files/5735/274/opeq-1.12.2-1.0.0.jar",
+    "size": 33781,
+    "md5": "7aaff052441c025525e66e43b0c41cc2",
+    "sha256": "f913a2dd56a5bf2f7f0bd830304d75f2f50919e455998ce3dc64219bc4ece2ba"
   },
   {
     "name": "orelib",
@@ -3424,12 +3515,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "peteams-1.12.2-1.2.1.jar",
-    "encoded": "peteams-1.12.2-1.2.1.jar",
-    "src": "https://edge.forgecdn.net/files/5804/501/peteams-1.12.2-1.2.1.jar",
-    "size": 64747,
-    "md5": "c0e3a8cd7087b094d06a375a0300c0a1",
-    "sha256": "2a456b3cd128c2044d0ec8a4eaa061a47a3a734d08ba3a825d8193a395b9b2ef"
+    "filename": "peteams-1.12.2-1.2.2.jar",
+    "encoded": "peteams-1.12.2-1.2.2.jar",
+    "src": "https://edge.forgecdn.net/files/5869/986/peteams-1.12.2-1.2.2.jar",
+    "size": 64621,
+    "md5": "13dfc6479e7b80d583845254720aa4b2",
+    "sha256": "2089d83fce4bcaada4e6bb220d92c8148a426814ad2f0f8d8e7141bcf89fd044"
   },
   {
     "name": "projectex",
@@ -3554,12 +3645,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "ReachFix-1.12.2-1.0.10.jar",
-    "encoded": "ReachFix-1.12.2-1.0.10.jar",
-    "src": "https://edge.forgecdn.net/files/5543/551/ReachFix-1.12.2-1.0.10.jar",
-    "size": 63253,
-    "md5": "70231a14fa61e494836615442568c3fc",
-    "sha256": "3396393e410d41147b00dd4e9f4a7e7e88e9f2b133287c6e19b03cbb1dc1e656"
+    "filename": "ReachFix-1.12.2-1.0.11.jar",
+    "encoded": "ReachFix-1.12.2-1.0.11.jar",
+    "src": "https://edge.forgecdn.net/files/6069/258/ReachFix-1.12.2-1.0.11.jar",
+    "size": 63272,
+    "md5": "3ce0e46882ddd5ddbcf3e4ac54eade9b",
+    "sha256": "b630a4aa282f420d69f598e137a4de0b05d31bf495f59b7052c2125870d12ec1"
   },
   {
     "name": "reauth",
@@ -3944,12 +4035,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "StellarCore-1.5.4.jar",
-    "encoded": "StellarCore-1.5.4.jar",
-    "src": "https://edge.forgecdn.net/files/5791/405/StellarCore-1.5.4.jar",
-    "size": 1250384,
-    "md5": "6a7568e8612946e3845d2dbd60eda464",
-    "sha256": "aa2e599c39b1f7b73e4bf0b983c10d8faf9f3087c6881621bc6786c28998f426"
+    "filename": "StellarCore-1.5.21.jar",
+    "encoded": "StellarCore-1.5.21.jar",
+    "src": "https://edge.forgecdn.net/files/5952/608/StellarCore-1.5.21.jar",
+    "size": 1326160,
+    "md5": "7af25d73f0a588c1f9e0aa220b1a44b6",
+    "sha256": "1cb78648c69c701930e0f49499572d7c9f49d1b97af9ec11755ccd65ccdce97e"
   },
   {
     "name": "storage-cabinet",
@@ -3970,12 +4061,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "StorageDrawers-1.12.2-5.5.2.jar",
-    "encoded": "StorageDrawers-1.12.2-5.5.2.jar",
-    "src": "https://edge.forgecdn.net/files/5758/109/StorageDrawers-1.12.2-5.5.2.jar",
-    "size": 621835,
-    "md5": "bc97cfe3b557e15b0f605b9e42b79c52",
-    "sha256": "f4ec09a704669c2d2639e3f1590eff78aca266a42b1976caac47c111d9f1fb0b"
+    "filename": "StorageDrawers-1.12.2-5.5.3.jar",
+    "encoded": "StorageDrawers-1.12.2-5.5.3.jar",
+    "src": "https://edge.forgecdn.net/files/5981/297/StorageDrawers-1.12.2-5.5.3.jar",
+    "size": 621871,
+    "md5": "50f4a99fc747f8549df067c05c4c63ae",
+    "sha256": "26337559bad06539175f0a5fe886db816f0f6045d96be4737493a0e669117e2f"
   },
   {
     "name": "super-sound-muffler-revived",
@@ -4074,12 +4165,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "ThaumicAugmentation-1.12.2-2.1.11.jar",
-    "encoded": "ThaumicAugmentation-1.12.2-2.1.11.jar",
-    "src": "https://edge.forgecdn.net/files/4486/505/ThaumicAugmentation-1.12.2-2.1.11.jar",
-    "size": 8117737,
-    "md5": "255dadd1e6b7635c52aeff0391cf0fbb",
-    "sha256": "d3053f1ea3dd2a36a3ff0eb0a36746cc3c22c5b0d7b78adec7fc0c71d1e8e02c"
+    "filename": "ThaumicAugmentation-1.12.2-2.1.14.jar",
+    "encoded": "ThaumicAugmentation-1.12.2-2.1.14.jar",
+    "src": "https://edge.forgecdn.net/files/6047/659/ThaumicAugmentation-1.12.2-2.1.14.jar",
+    "size": 8220792,
+    "md5": "5692503d378f8adf537fb6dffb6b42ee",
+    "sha256": "6af6851071a227dc48a634bb827c7679703f0825c0b2a697553e261036b13c00"
   },
   {
     "name": "thaumic-energistics-extended-life",
@@ -4113,12 +4204,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "thaumictinkerer-1.12.2-5.7.1-Unofficial.jar",
-    "encoded": "thaumictinkerer-1.12.2-5.7.1-Unofficial.jar",
-    "src": "https://edge.forgecdn.net/files/5739/199/thaumictinkerer-1.12.2-5.7.1-Unofficial.jar",
-    "size": 2368081,
-    "md5": "26c2a45f77ffd45a96820d28c25fda35",
-    "sha256": "00e5e7b3a238eec1840ee6f92c6e881c964f3bea4cdf712e80009658bcf4e840"
+    "filename": "thaumictinkerer-1.12.2-5.8.1-Unofficial.jar",
+    "encoded": "thaumictinkerer-1.12.2-5.8.1-Unofficial.jar",
+    "src": "https://edge.forgecdn.net/files/6042/403/thaumictinkerer-1.12.2-5.8.1-Unofficial.jar",
+    "size": 2624448,
+    "md5": "e96490fb5fc601348842310462f7be16",
+    "sha256": "3af61fbd685bd15047b21b9a0503e6cde8d76be7f5fe6aa11b94e751bf4a4170"
   },
   {
     "name": "thaumic-wonders",
@@ -4329,6 +4420,19 @@
     "sha256": "91eab825f0730d412a05a40136e9f0755b9a2b9483fc92255cba08e282a1e146"
   },
   {
+    "name": "together-forever",
+    "title": "Together Forever",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "togetherforever-1.12.2-1.0.12-22.jar",
+    "encoded": "togetherforever-1.12.2-1.0.12-22.jar",
+    "src": "https://edge.forgecdn.net/files/2700/901/togetherforever-1.12.2-1.0.12-22.jar",
+    "size": 75451,
+    "md5": "7cd458ded65b02f367f438a59f7cd061",
+    "sha256": "ff76425359133986341d37f28f8c60804e19706d98f013da5d29aea1ec65cb73"
+  },
+  {
     "name": "top-addons",
     "title": "TOP Addons",
     "side": "both",
@@ -4347,12 +4451,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "torcherino-7.8.5.jar",
-    "encoded": "torcherino-7.8.5.jar",
-    "src": "https://edge.forgecdn.net/files/5482/974/torcherino-7.8.5.jar",
-    "size": 193382,
-    "md5": "77789fd61fb8a470b2adbf13cb7a9603",
-    "sha256": "0fed66c1c4fc27fc1f536fbb3d9146879636b464d6b406d43891b9a8bb9cffb8"
+    "filename": "torcherino-7.8.6.jar",
+    "encoded": "torcherino-7.8.6.jar",
+    "src": "https://edge.forgecdn.net/files/5874/294/torcherino-7.8.6.jar",
+    "size": 242273,
+    "md5": "f77630c1d33dc652ccb2631615ca0e61",
+    "sha256": "3931ba7fd4a7958d76e35b0f99e502c8c80c5249b11fd2b051260014db8b2777"
   },
   {
     "name": "torchmaster",
@@ -4438,12 +4542,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "UniversalTweaks-1.12.2-1.12.0.jar",
-    "encoded": "UniversalTweaks-1.12.2-1.12.0.jar",
-    "src": "https://edge.forgecdn.net/files/5529/764/UniversalTweaks-1.12.2-1.12.0.jar",
-    "size": 1434228,
-    "md5": "47c10d509ccc46b2d2093bc3541818a9",
-    "sha256": "85923c860c79fd4ed433cd7cbddcaf2d05643946273f4fd652438deaa4f7c782"
+    "filename": "UniversalTweaks-1.12.2-1.13.0.jar",
+    "encoded": "UniversalTweaks-1.12.2-1.13.0.jar",
+    "src": "https://edge.forgecdn.net/files/5860/191/UniversalTweaks-1.12.2-1.13.0.jar",
+    "size": 1477608,
+    "md5": "0016dee8c17109703354c79fdcbe099e",
+    "sha256": "aca746a6f67aedc0e7079080857349a7de3b04db2b888b2fb97f985848b13ea2"
   },
   {
     "name": "unknownlibs",
@@ -4568,12 +4672,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "Fixeroo-2.3.2.jar",
-    "encoded": "Fixeroo-2.3.2.jar",
-    "src": "https://edge.forgecdn.net/files/5745/976/Fixeroo-2.3.2.jar",
-    "size": 206311,
-    "md5": "ed9087394495ea0026b2dc1ca62f277f",
-    "sha256": "5c8a27124a26285bf4072d03a923168e79bbe614325b62d4b35724846eb4a3cb"
+    "filename": "Fixeroo-2.3.3-hotfix.1.jar",
+    "encoded": "Fixeroo-2.3.3-hotfix.1.jar",
+    "src": "https://edge.forgecdn.net/files/6059/919/Fixeroo-2.3.3-hotfix.1.jar",
+    "size": 214582,
+    "md5": "f434a14f614238ffa252b7f22a2af7e3",
+    "sha256": "e0ef704981719f09bfb18d59508476217a2dc5f5d8e34aed13996dad288fc6ce"
   },
   {
     "name": "xtones",
@@ -4620,12 +4724,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "zenutils-1.20.10.jar",
-    "encoded": "zenutils-1.20.10.jar",
-    "src": "https://edge.forgecdn.net/files/5807/386/zenutils-1.20.10.jar",
-    "size": 538867,
-    "md5": "7eea3ed0c0143950c417082757891820",
-    "sha256": "e2cd4c16ebd11a3d63f700e54501c18280fb42fa85310774a3edab0784a1ff4c"
+    "filename": "zenutils-1.21.7.jar",
+    "encoded": "zenutils-1.21.7.jar",
+    "src": "https://edge.forgecdn.net/files/6091/806/zenutils-1.21.7.jar",
+    "size": 566193,
+    "md5": "5c92eb9372f44952cdc1b9857b13601c",
+    "sha256": "8e5ca2869022321c3ee137bfb6b69b1f388a19f83398247f18861c31ff446caf"
   },
   {
     "name": "zerocore",
