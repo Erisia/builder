@@ -1,0 +1,28 @@
+# Default config file that will be copied to saves\Dev\serverconfig\ftbultimine-server.snbt if it doesn't exist!
+# Just copy any values you wish to override in here!
+
+{
+misc: {
+		# This is an advanced option, that you better leave alone This will stop ultimining on first block that it can't mine, rather than skipping it.
+		# Default: false
+		cancel_on_block_break_fail: false
+		
+		# These tags will be considered the same block when checking for blocks to Ultimine in shapeless mining mode
+		# Default: ["minecraft:base_stone_overworld", "c:*_ores", "forge:ores/*"]
+		merge_tags: [
+			"minecraft:base_stone_overworld"
+			"c:*_ores"
+			"forge:ores/*"
+            "integrateddynamics:menril_logs"
+		]
+		
+		# These tags will be considered the same block when checking for blocks to Ultimine in shaped mining modes
+		# Default: ["*"]
+		merge_tags_shaped: ["*"]
+		
+		# This will stop mining if tool reaches X durability. It's possible it won't work with special tool types.
+		# Default: 0
+		# Range: 0 ~ 100
+		prevent_tool_break: 0
+        }
+        }

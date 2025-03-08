@@ -1,0 +1,15 @@
+﻿{
+  "criteria": {
+    "pickup_redstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:redstone"
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": false
+}

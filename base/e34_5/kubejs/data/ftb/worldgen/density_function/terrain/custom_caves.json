@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:min",
+  "argument1": {
+    "type": "minecraft:interpolated",
+    "argument": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": {
+          "type": "minecraft:noise",
+          "noise": "minecraft:gravel",
+          "xz_scale": 1,
+          "y_scale": 1
+        },
+        "points": [
+          {
+            "location": -0.05,
+            "derivative": 0,
+            "value": 0.1
+          },
+          {
+            "location": 0,
+            "derivative": 0,
+            "value": -1.5
+          },
+          {
+            "location": 0.05,
+            "derivative": 0,
+            "value": 0.1
+          }
+        ]
+      }
+    }
+  },
+  "argument2": 0
+}

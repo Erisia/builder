@@ -1,0 +1,15 @@
+{
+  "type": "productivemetalworks:item_casting",
+  "cast": {
+    "item": "productivemetalworks:gem_cast"
+  },
+  "consume_cast": false,
+  "fluid": {
+    "amount": 100,
+    "fluid": "productivemetalworks:molten_amethyst"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:amethyst_shard"
+  }
+}

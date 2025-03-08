@@ -1,0 +1,46 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "ingredients": [
+    {
+      "tag": "c:ingots/uranium"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:uranium"
+    },
+    {
+      "tag": "c:ingots/uranium"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:uranium"
+    },
+    {
+      "tag": "c:ingots/uranium"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:uranium"
+    },
+    {
+      "tag": "c:ingots/uranium"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:uranium"
+    }
+  ],
+  "input": {
+    "type": "mysticalagriculture:crop_component",
+    "component": "seed",
+    "crop": "mysticalagriculture:uranium"
+  },
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:uranium_seeds"
+  }
+}

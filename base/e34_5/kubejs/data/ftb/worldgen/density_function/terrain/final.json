@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:range_choice",
+  "input": {
+    "type": "minecraft:interpolated",
+    "argument": "ftb:ridges/final"
+  },
+  "min_inclusive": -0.15,
+  "max_exclusive": 0.15,
+  "when_in_range": "ftb:terrain/no_caves",
+  "when_out_of_range": 0
+}

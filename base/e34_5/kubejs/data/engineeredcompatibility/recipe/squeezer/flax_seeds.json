@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:seeds/flax"
+      }
+    }
+  ],
+  "type": "immersiveengineering:squeezer",
+  "energy": 6400,
+  "fluid": {
+    "amount": 100,
+    "id": "pneumaticcraft:vegetable_oil"
+  },
+  "input": {
+    "basePredicate": {
+      "tag": "c:seeds/flax"
+    },
+    "count": 1
+  }
+}

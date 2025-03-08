@@ -1,0 +1,18 @@
+{
+    "type": "pneumaticcraft:amadron",
+    "input": {
+      "resource": {
+        "count": 6,
+        "id": "enderio:basic_capacitor"
+      }
+    },
+    "level": 0,
+    "offer_id": "pneumaticcraft:amadron/pcb",
+    "output": {
+      "resource": {
+        "count": 1,
+        "id": "immersiveengineering:blueprint",
+        "components": {"immersiveengineering:blueprint":"pcb"}
+      }
+    }
+}

@@ -1,0 +1,20 @@
+#XYZ Offset from the team-specific region's (0,0,0) point where players enter the rift dimension
+spawn_offset = [0, 83, 272]
+#Player facing when entering the dimension (0 = south, 90 = west, 180 = north, 270 = east)
+# Default: 180.0
+# Range: 0.0 ~ 360.0
+spawn_yaw = 180.0
+#Name of the MCA template which is relocated (from <instance>/ftbteambases/<template>/*.mca) into the rift dimension for each team
+rift_template = "the_rift"
+#When a team base is archived, should the corresponding rift island MCA's be cleaned up too? Not essential, but helps save on disk space
+remove_rift_mca_on_base_archival = true
+#Location of the structure NBT for the overworld temple structure which is pasted far below the team base
+temple_structure_nbt = "ftb:overworld/underwater/portal_temple"
+#Y position to paste the overworld temple structure at
+# Default: -55
+# Range: > -2147483648
+temple_structure_y = -55
+#Interval in ticks to check for region refreshing; default 1200 = 1 minute
+# Default: 1200
+# Range: > 100
+region_refresh_interval = 1200

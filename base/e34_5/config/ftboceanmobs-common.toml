@@ -1,0 +1,4 @@
+#Rift Weaver boss arena size (how far horizontally will the boss roam from its start pos
+# Default: 48
+# Range: 16 ~ 128
+rift_weaver_arena_size = 48

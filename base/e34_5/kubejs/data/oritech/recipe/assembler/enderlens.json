@@ -1,0 +1,28 @@
+{
+  "type": "oritech:assembler",
+  "fluidInputAmount": 0,
+  "fluidInputVariant": "minecraft:empty",
+  "fluidOutputAmount": 0,
+  "fluidOutputVariant": "minecraft:empty",
+  "ingredients": [
+    {
+      "item": "oritech:adamant_ingot"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "oritech:enderic_compound"
+    },
+    {
+      "item": "oritech:enderic_compound"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "oritech:enderic_lens"
+    }
+  ],
+  "time": 240
+}

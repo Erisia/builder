@@ -1,0 +1,224 @@
+{
+  "mysticalagriculture:brass": {
+    "enabled": false
+  },
+  "mysticalagriculture:bronze": {
+    "enabled": true,
+    "ingredient": {
+      "item": "ftbmaterials:bronze_ingot"
+    }
+  },
+  "mysticalagriculture:graphite": {
+    "enabled": true,
+    "ingredient": {
+      "item": "ftbmaterials:graphite_ingot"
+    }
+  },
+  "mysticalagriculture:redstone_alloy": {
+    "enabled": true,
+    "ingredient": {
+      "item": "enderio:redstone_alloy_ingot"
+    }
+  },
+  "mysticalagriculture:conductive_alloy": {
+    "enabled": true,
+    "ingredient": {
+      "item": "enderio:conductive_alloy_ingot"
+    }
+  },
+  "mysticalagriculture:steel": {
+    "enabled": true,
+    "ingredient": {
+      "item": "ftbmaterials:steel_ingot"
+    }
+  },
+  "mysticalagriculture:constantan": {
+    "enabled": true,
+    "ingredient": {
+      "item": "ftbmaterials:constantan_ingot"
+    }
+  },
+  "mysticalagriculture:electrum": {
+    "enabled": true,
+    "ingredient": {
+      "item": "ftbmaterials:electrum_ingot"
+    }
+  },
+  "mysticalagriculture:invar": {
+    "enabled": true,
+    "ingredient": {
+      "item": "ftbmaterials:invar_ingot"
+    }
+  },
+  "mysticalagriculture:dark_steel": {
+    "enabled": true,
+    "ingredient": {
+      "item": "enderio:dark_steel_ingot"
+    }
+  },
+  "mysticalagriculture:pulsating_alloy": {
+    "enabled": true,
+    "ingredient": {
+      "item": "enderio:pulsating_alloy_ingot"
+    }
+  },
+  "mysticalagriculture:energetic_alloy": {
+    "enabled": true,
+    "ingredient": {
+      "item": "enderio:energetic_alloy_ingot"
+    }
+  },
+  "mysticalagriculture:refined_glowstone": {
+    "enabled": true,
+    "ingredient": {
+      "item": "mekanism:ingot_refined_glowstone"
+    }
+  },
+  "mysticalagriculture:refined_obsidian": {
+    "enabled": true,
+    "ingredient": {
+      "item": "mekanism:ingot_refined_obsidian"
+    }
+  },
+  "mysticalagriculture:compressed_iron": {
+    "enabled": true,
+    "ingredient": {
+      "item": "pneumaticcraft:ingot_iron_compressed"
+    }
+  },
+  "mysticalagriculture:fluix": {
+    "enabled": true,
+    "ingredient": {
+      "item": "ae2:fluix_crystal"
+    }
+  },
+  "mysticalagriculture:energized_steel": {
+    "enabled": false
+  },
+  "mysticalagriculture:blazing_crystal": {
+    "enabled": false
+  },
+  "mysticalagriculture:vibrant_alloy": {
+    "enabled": true,
+    "ingredient": {
+      "item": "enderio:vibrant_alloy_ingot"
+    }
+  },
+  "mysticalagriculture:end_steel": {
+    "enabled": true,
+    "ingredient": {
+      "item": "enderio:end_steel_ingot"
+    }
+  },
+  "mysticalagriculture:copper_alloy": {
+    "enabled": true,
+    "ingredient": {
+      "item": "enderio:copper_alloy_ingot"
+    }
+  },
+  "mysticalagriculture:niotic_crystal": {
+    "enabled": false
+  },
+  "mysticalagriculture:spirited_crystal": {
+    "enabled": false
+  },
+  "mysticalagradditions:nitro_crystal": {
+    "enabled": false
+  },
+  "mysticalagriculture:pig": {
+    "enabled": true
+  },
+  "mysticalagriculture:chicken": {
+    "enabled": true
+  },
+  "mysticalagriculture:cow": {
+    "enabled": true
+  },
+  "mysticalagriculture:sheep": {
+    "enabled": true
+  },
+  "mysticalagriculture:squid": {
+    "enabled": true
+  },
+  "mysticalagriculture:fish": {
+    "enabled": true
+  },
+  "mysticalagriculture:slime": {
+    "enabled": true
+  },
+  "mysticalagriculture:turtle": {
+    "enabled": true
+  },
+  "mysticalagriculture:armadillo": {
+    "enabled": true
+  },
+  "mysticalagriculture:wither_skeleton": {
+    "enabled": true
+  },
+  "mysticalagriculture:zombie": {
+    "enabled": true
+  },
+  "mysticalagriculture:skeleton": {
+    "enabled": true
+  },
+  "mysticalagriculture:creeper": {
+    "enabled": true
+  },
+  "mysticalagriculture:spider": {
+    "enabled": true
+  },
+  "mysticalagriculture:rabbit": {
+    "enabled": true
+  },
+  "mysticalagriculture:breeze": {
+    "enabled": true
+  },
+  "mysticalagriculture:blaze": {
+    "enabled": true
+  },
+  "mysticalagriculture:ghast": {
+    "enabled": true
+  },
+  "mysticalagriculture:enderman": {
+    "enabled": true
+  },
+  "mysticalagriculture:apatite": {
+    "enabled": false
+  },
+  "mysticalagriculture:aluminum": {
+    "enabled": true,
+    "ingredient": {
+      "item": "ftbmaterials:aluminum_ingot"
+    }
+  },
+  "mysticalagriculture:yellorium": {
+    "enabled": false
+  },
+  "mysticalagriculture:uraninite": {
+    "enabled": false
+  },
+  "mysticalagriculture:iridium": {
+    "enabled": false
+  },
+  "mysticalagriculture:fluorite": {
+    "enabled": false
+  },
+  "mysticalagradditions:dragon_egg": {
+    "enabled": false
+  },
+  "mysticalagriculture:silicon": {
+    "ingredient": {
+      "item": "ae2:silicon"
+    }
+  },
+  "mysticalagriculture:certus_quartz": {
+    "ingredient": {
+      "item": "ae2:certus_quartz_crystal"
+    }
+  },
+  "mysticalagriculture:osmium": {
+    "ingredient": {
+      "item": "ftbmaterials:osmium_ingot"
+    }
+  }
+}

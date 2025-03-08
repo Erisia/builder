@@ -1,0 +1,18 @@
+{
+    "descriptionId": "material.irons_jewelry.lead",
+    "ingredient": {
+      "tag": "c:ingots/lead"
+    },
+    "materialType": [
+      "metal"
+    ],
+    "paletteLocation": "irons_jewelry:palettes/moonstone",
+    "quality": 0.75,
+    "bonusParameters": {
+      "irons_jewelry:attribute": {
+        "attribute": "minecraft:player.submerged_mining_speed",
+        "amount": 5,
+        "operation": "add_value"
+      }
+    }
+  }

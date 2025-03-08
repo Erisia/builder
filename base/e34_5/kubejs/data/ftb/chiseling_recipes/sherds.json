@@ -1,0 +1,32 @@
+{
+    "type": "rechiseled:chiseling",
+    "overwrite": false,
+    "entries": [
+        {"item":"ftb:blank_sherd"},
+        {"item":"minecraft:archer_pottery_sherd"},
+        {"item":"minecraft:heart_pottery_sherd"},
+        {"item":"minecraft:plenty_pottery_sherd"},
+        {"item":"minecraft:arms_up_pottery_sherd"},
+        {"item":"minecraft:blade_pottery_sherd"},
+        {"item":"minecraft:brewer_pottery_sherd"},
+        {"item":"minecraft:heartbreak_pottery_sherd"},
+        {"item":"minecraft:prize_pottery_sherd"},
+        {"item":"minecraft:burn_pottery_sherd"},
+        {"item":"minecraft:danger_pottery_sherd"},
+        {"item":"minecraft:shelter_pottery_sherd"},
+        {"item":"minecraft:snort_pottery_sherd"},
+        {"item":"minecraft:friend_pottery_sherd"},
+        {"item":"minecraft:scrape_pottery_sherd"},
+        {"item":"minecraft:angler_pottery_sherd"},
+        {"item":"minecraft:flow_pottery_sherd"},
+        {"item":"minecraft:guster_pottery_sherd"},
+        {"item":"minecraft:explorer_pottery_sherd"},
+        {"item":"minecraft:howl_pottery_sherd"},
+        {"item":"minecraft:mourner_pottery_sherd"},
+        {"item":"minecraft:skull_pottery_sherd"},
+        {"item":"minecraft:sheaf_pottery_sherd"},
+        {"item":"minecraft:miner_pottery_sherd"}
+
+    ]
+}
+

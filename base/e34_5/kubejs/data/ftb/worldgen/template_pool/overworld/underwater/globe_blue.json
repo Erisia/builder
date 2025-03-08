@@ -1,0 +1,19 @@
+{
+  "name": "ftb:overworld/underwater/globe_blue",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "ftb:overworld/underwater/globe_blue",
+        "processors": [
+          {
+            "processor_type": "ftbpc:waterlogging_fix_processor"
+          }
+        ],
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

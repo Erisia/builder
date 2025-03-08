@@ -1,0 +1,19 @@
+{
+  "values": {
+    "#c:lava": {
+      "temperature": 1000
+    },
+    "justdirethings:refined_t2_fluid_source": {
+      "temperature": 3000
+    },
+    "justdirethings:refined_t3_fluid_source": {
+      "temperature": 6000
+    },
+    "justdirethings:refined_t4_fluid_source": {
+      "temperature": 10000
+    },
+    "mekanism:superheated_sodium": {
+      "temperature": 50000
+    }
+  }
+}

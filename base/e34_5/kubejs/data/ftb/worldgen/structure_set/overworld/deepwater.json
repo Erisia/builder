@@ -1,0 +1,21 @@
+{
+  "structures": [
+    {
+      "structure": "ftb:overworld/deepwater/castle",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:overworld/deepwater/warden",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spread_type": "linear",
+    "salt": 1705645318,
+    "frequency_reduction_method": "legacy_type_2",
+    "frequency": 0.1,
+    "spacing": 5,
+    "separation": 2
+  }
+}

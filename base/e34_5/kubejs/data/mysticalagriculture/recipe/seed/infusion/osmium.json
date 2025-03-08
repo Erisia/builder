@@ -1,0 +1,44 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "ingredients": [
+    {
+      "tag": "c:ingots/osmium"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:osmium"
+    },
+    {
+      "tag": "c:ingots/osmium"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:osmium"
+    },
+    {
+      "tag": "c:ingots/osmium"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:osmium"
+    },
+    {
+      "tag": "c:ingots/osmium"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:osmium"
+    }
+  ],
+  "input": {
+    "item": "ftb:charged_voidflame_seed"
+  },
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:osmium_seeds"
+  }
+}

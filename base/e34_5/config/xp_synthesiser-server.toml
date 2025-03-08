@@ -1,0 +1,8 @@
+#General settings
+[general]
+	#Whether or not the XP Synthesiser needs power
+	requiresPower = true
+	#Cost per point of XP
+	# Default: 10000
+	# Range: > 0
+	xpPointCost = 25000

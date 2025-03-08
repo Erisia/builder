@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" ll", " ll", "s  "],
+  "key": {
+    "l": {
+      "tag": "minecraft:logs"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "ftb:barrel_smasher",
+    "components": {
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "#ftbstuff:barrel",
+            "speed": 5
+          }
+        ],
+        "default_mining_speed": -1
+      },
+      "minecraft:lore": ["{\"text\":\"Only Breaks Barrels / Crates\",\"color\":\"red\"}"],
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:item_name": "{\"text\":\"Barrel Smasher\",\"color\":\"aqua\"}"
+    }
+  }
+}

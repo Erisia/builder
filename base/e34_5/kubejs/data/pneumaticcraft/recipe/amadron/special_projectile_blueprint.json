@@ -1,0 +1,19 @@
+{
+    "type": "pneumaticcraft:amadron",
+    "input": {
+      "resource": {
+        "count": 6,
+        "id": "minecraft:spectral_arrow"
+      }
+    },
+    "level": 0,
+    "offer_id": "pneumaticcraft:amadron/bp_bullet",
+    "output": {
+      "resource": {
+        "count": 1,
+        "id": "immersiveengineering:blueprint",
+        "components": {"immersiveengineering:blueprint":"specialBullet"}
+      }
+    }
+}
+

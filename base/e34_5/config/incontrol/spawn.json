@@ -1,0 +1,72 @@
+[
+  {
+    "minheight": 192,
+    "hostile": true,
+    "spawner": false,
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "height": "gt(160)",
+    "mob": ["cataclysm:lionfish", "cataclysm:deepling"],
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": ["aquatic_frontiers:sandy"],
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "minecraft:sheep",
+      "minecraft:chicken",
+      "minecraft:pig",
+      "minecraft:horse",
+      "minecraft:donkey",
+      "minecraft:pillager",
+      "minecraft:evoker",
+      "minecraft:wandering_trader"
+    ],
+    "result": "deny"
+  },
+  {
+    "minheight": 192,
+    "dimension": "minecraft:overworld",
+    "spawner": false,
+    "result": "deny"
+  },
+  {
+    "biome": ["minecraft:the_void"],
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "ftboceanmobs:abyssal_sludge",
+      "ftboceanmobs:abyssal_winged",
+      "ftboceanmobs:corrosive_craig",
+      "ftboceanmobs:mossback_goliath",
+      "ftboceanmobs:rift_demon",
+      "ftboceanmobs:rift_minotaur",
+      "ftboceanmobs:riftling_observer",
+      "ftboceanmobs:shadow_beast"
+    ],
+    "dimension": "ftb:the_rift",
+    "biome": ["ftb:the_rift"],
+    "mincount": {
+      "amount": 5,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": ["justdirethings:paradox_entity"],
+    "dimension": "ftb:the_rift",
+    "biome": ["ftb:the_rift"],
+    "mincount": {
+      "amount": 1,
+      "perchunk": true
+    },
+    "result": "deny"
+  }
+  
+]

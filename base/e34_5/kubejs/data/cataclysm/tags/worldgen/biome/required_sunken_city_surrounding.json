@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:is_ocean",
+    "ftb:aquabound_expanse"
+  ]
+}

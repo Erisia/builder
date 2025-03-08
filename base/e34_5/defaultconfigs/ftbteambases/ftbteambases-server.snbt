@@ -1,0 +1,108 @@
+{
+	general: {
+		# Base separation (in 512-block regions) when allocating regions for new bases in shared dimensions; the amount of clear space between the edges of two adjacent bases
+		# Default: 4
+		# Range: 0 ~ 16
+		base_separation: 4
+		
+		# When set to true, the player's inventory will be cleared when joining a team
+		# Default: false
+		clear_player_inv_on_join: false
+		
+		# When set to true, the player's inventory will be cleared when leaving a team
+		# Default: true
+		clear_player_inv_on_leave: true
+		
+		# When set to true, the player will be healed (and fully fed) when joining a team
+		# Default: true
+		heal_player_on_join: true
+		
+		# Permission level required to use the '/ftbteambases home' command; 0 = player, 2 = admin, 4 = server op
+		# Default: 0
+		# Range: 0 ~ 4
+		home_cmd_permission_level: 2
+		
+		# If true, then players going to the Nether via Nether Portal will be sent to a team-specific position in the Nether
+		# Default: true
+		team_nether_entry_point: true
+	}
+	lobby: {
+		# Dimension ID of the level in which the lobby is created. This *must* be a static pre-existing dimension, not a dynamically created one! New players will be automatically teleported to this dimension the first time they connect to the server. This setting should be defined in default config so the server has it before any levels are created - do NOT modify this on existing worlds!
+		# Default: "minecraft:overworld"
+		lobby_dimension: "minecraft:overworld"
+		
+		# The default game mode given to players when in the lobby. Note that admin-mode players are free to change this.
+		# Default: "adventure"
+		# Valid values: "survival", "creative", "adventure", "spectator"
+		lobby_game_mode: "survival"
+		
+		# Player Y-axis rotation when initially spawning in, or returning to, the lobby. (0 = south, 90 = west, 180 = north, 270 = east)
+		# Default: 0.0
+		# Range: 0.0 ~ 360.0
+		lobby_player_yaw: 90.0d
+		
+		# Position at which new players spawn. Only used if the lobby structure comes from a pregenerated region!
+		# Default: [0, 0, 0]
+		lobby_spawn_pos: [I; 0, 206, 0]
+		
+		# Resource location of the structure NBT for the overworld lobby
+		# Default: "ftbteambases:lobby"
+		lobby_structure_location: ""
+		
+		# Y position at which the lobby structure will be pasted into the level. Note: too near world min/max build height may result in parts of the structure being cut off - beware.
+		# Default: 0
+		# Range: -64 ~ 256
+		lobby_y_pos: 0
+	}
+	nether: {
+		# When set to true, nether portals may be constructed in team dimensions
+		# Default: true
+		allow_nether_portals: true
+		
+		# When 'team_specific_nether_entry_point' is true, this is the maximum distance from XZ=(0,0) this spot can be. Must be greater than 'min_dist_from_origin'.
+		# Default: 25000
+		# Range: 1000 ~ 2147483647
+		max_dist_from_origin: 25000
+		
+		# When 'team_specific_nether_entry_point' is true, this is the minimum distance from XZ=(0,0) this spot can be
+		# Default: 1000
+		# Range: 0 ~ 2147483647
+		min_dist_from_origin: 1000
+		
+		# See 'use_custom_portal_y'.
+		# Default: 0
+		# Range: -∞ ~ +∞
+		portal_y_pos: 64
+		
+		# If true, then players going to the Nether via Nether Portal will be sent to a random (but deterministic for the team) position in the Nether
+		# Default: true
+		team_specific_nether_entry_point: true
+		
+		# If true, use the value 'portal_y_pos' for the Y position of the Nether entry position for players. If false, use the player's current Y position.
+		# Default: false
+		use_custom_portal_y: true
+	}
+	worldgen: {
+		# The chunk generator to use. SIMPLE_VOID (void dim, one biome), MULTI_BIOME_VOID (void dim, overworld-like biome distribution) and CUSTOM (full worldgen, customisable biome source & noise settings)
+		# Default: "multi_biome_void"
+		# Valid values: "multi_biome_void", "custom"
+		chunk_generator: "multi_biome_void"
+		
+		# If true, then any entities saved in the starting structure NBT will be included when the structure is generated
+		# Default: true
+		entities_in_start_structure: true
+		
+		# DEFAULT: generate features in non-void worlds, don't generate in void worlds; NEVER: never generate; ALWAYS: always generate
+		# Default: "default"
+		# Valid values: "default", "never", "always"
+		feature_gen: "never"
+		
+		# Only used by the CUSTOM generator; resource location for the noise settings to use.
+		# Default: "minecraft:overworld"
+		noise_settings: "minecraft:overworld"
+		
+		# Only used by the CUSTOM and SIMPLE_VOID generators; if non-empty (e.g. 'minecraft:the_void'), the dimension will generate with only this biome. If empty, CUSTOM generator will use an overworld-like biome distribution, and SIMPLE_VOID will use 'minecraft:the_void'
+		# Default: ""
+		single_biome_id: ""
+	}
+}

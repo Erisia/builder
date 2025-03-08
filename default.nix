@@ -9,6 +9,28 @@ rec {
     # e33 = buildPack e33;
     # e33_5 = buildPack e33_5;
     e34 = buildPack e34;
+    e34_5 = buildPack e34_5;
+  };
+
+  e34_5 = {
+    name = "E34.5";
+    tmuxName = "e345";
+    description = "E34.5: Mare Incognitus";
+    ram = "8G";
+    port = 25566;
+    prometheusPort = 1225;
+    minecraft = "1.21.1";
+    forge = {
+      major =  "1.21.1";
+      minor = "21.1.122";
+    };
+    extraDirs = [
+      ./base/e345
+    ];
+    extraServerDirs = [
+      ./base/server
+    ];
+    manifest = ./manifest/e34_5.json;
   };
   
   e34 = {

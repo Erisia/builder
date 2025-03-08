@@ -1,0 +1,19 @@
+{
+  "name": "ftb:overworld/underwater/ae2",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "ftb:overworld/underwater/comp/ae2/meteorite",
+        "processors": [
+          {
+            "processor_type": "ftbpc:waterlogging_fix_processor"
+          }
+        ],
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

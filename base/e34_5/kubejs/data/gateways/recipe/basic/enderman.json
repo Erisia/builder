@@ -1,0 +1,24 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "APA",
+    "PEP",
+    "APA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+	"P": {
+      "tag": "c:ender_pearls"
+    },
+	"E": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "id": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:basic/enderman"
+}

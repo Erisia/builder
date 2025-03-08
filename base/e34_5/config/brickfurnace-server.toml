@@ -1,0 +1,10 @@
+#Options that affect the added furnaces.
+["Furnace Settings"]
+	#If enabled, the vanilla blasting, smelting, and smoking recipes are used by the brick furnaces.
+	vanillaRecipesEnabled = true
+	#Cook time factor of all added brick furnaces in relation to corresponding vanilla furnaces. (i. e. 0.5 - half the time, 1.0 same time, 2.0 twice the time)
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	cookTimeFactor = 0.5
+	#A comma separated list of all vanilla recipes that should not be used by the brick furnaces. Example: "baked_potato,baked_potato_from_smoking,othermod:other_baked_food"
+	recipeBlockedList = ""

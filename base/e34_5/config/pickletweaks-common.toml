@@ -1,0 +1,90 @@
+#General configuration options.
+[General]
+	#The effective radius of the Magnet.
+	# Default: 7.0
+	# Range: 1.0 ~ 16.0
+	magnetRange = 7.0
+	#Should fake players be able to use watering cans?
+	fakePlayerWatering = true
+
+#Disable specific features.
+[Features]
+	#Enable Colored Cobblestone?
+	coloredCobblestone = true
+	#Enable Smooth Glowstone?
+	smoothGlowstone = true
+	#Enable Coal and Charcoal Piece?
+	coalPiece = false
+	#Enable Diamond and Emerald Apples?
+	apples = true
+	#Enable Watering Can?
+	wateringCan = true
+	#Enable Meshes?
+	meshes = true
+	#Enable Magnet?
+	magnet = false
+	#Enable Night Vision Goggles?
+	nightVisionGoggles = false
+	#Enable Paxels?
+	paxels = false
+	#Enable Flint tools and armor?
+	flintGear = true
+	#Enable Emerald tools and armor?
+	emeraldGear = false
+	#Enable right click crop harvesting?
+	rightClickHarvest = true
+	#Enable Sickles?
+	sickles = true
+	#Enable Scythes?
+	scythes = true
+
+#Crafting grid tool repair configuration options.
+["Grid Repair"]
+	#Should Crafting Grid Tool Repairing be enabled?
+	enabled = true
+	#How much material required to fully repair a tool.
+	# Default: 3
+	# Range: 1 ~ 8
+	cost = 3
+	#How much additional material required to repair enchanted tools.
+	# Default: 1
+	# Range: 0 ~ 8
+	enchantmentCost = 1
+	#Crafting grid repair removes all non-curse enchantments.
+	stripEnchantments = true
+	#Should default repair materials be disabled? Doing this makes it so ONLY the custom materials work.
+	disableDefaults = false
+	#Enabling this makes it so custom repair materials override the default ones for the tools specified.
+	overrideMode = false
+	#Makes it so shovels need 50% less material to repair.
+	cheapShovel = true
+	#Makes it so shears need 50% less material to repair.
+	cheapShears = true
+	#Tools that should not be repairable in the crafting grid.
+	#Ex: ["minecraft:stone_pickaxe", "minecraft:stone_sword"]
+	#You can use tags for tools by doing tag:<tag-id>.
+	#Ex: ["tag:minecraft:tools"]
+	#You can also blacklist entire mods by doing <mod-id>:*
+	#Ex. ["pickletweaks:*"]
+	blacklist = ["immersiveengineering:hammer"]
+	#Here you can specify custom repair materials for tools.
+	#Ex: ["minecraft:stone_shovel=minecraft:stick"]
+	#You can use tags for materials by doing tag:<tag-id>.
+	#Ex: ["minecraft:stone_shovel=tag:forge:ingots/iron"]
+	#You can also use tags for tools by doing tag:<tag-id>.
+	#Ex: ["tag:minecraft:tools=tag:forge:ingots/iron"]
+	#You can specify how effective the material is by appending @<multiplier>
+	#Ex: ["minecraft:stone_shovel=minecraft:stick@0.5"]
+	overrides = ["minecraft:shears=minecraft:iron_ingot", "pickletweaks:flint_shears=minecraft:flint"]
+
+#Disable and configure tweaks.
+[Tweaks]
+	#Enabled tools not breaking?
+	toolBreaking = false
+	#Tools and weapons that should be ineffective.
+	#Ex: ["minecraft:stone_pickaxe", "minecraft:stone_sword"]
+	#You can use tags for tools by doing tag:<tag-id>.
+	#Ex: ["tag:minecraft:tools"]
+	#You can also whitelist entire mods by doing <mod-id>:*
+	#Ex. ["pickletweaks:*"]
+	uselessTools = ["minecraft:wooden_sword", "minecraft:wooden_pickaxe", "minecraft:wooden_axe", "minecraft:wooden_shovel", "minecraft:wooden_hoe", "mekanismtools:wood_paxel", "pickletweaks:wooden_sickle", "pickletweaks:wooden_scythe", "actuallyadditions:wooden_aiot"]

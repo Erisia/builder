@@ -1,0 +1,28 @@
+{
+  "type": "oritech:assembler",
+  "fluidInputAmount": 0,
+  "fluidInputVariant": "minecraft:empty",
+  "fluidOutputAmount": 0,
+  "fluidOutputVariant": "minecraft:empty",
+  "ingredients": [
+    {
+      "tag": "c:ingots/invar"
+    },
+    {
+      "tag": "c:ingots/invar"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "tag": "c:plates/plastic"
+    }
+  ],
+  "results": [
+    {
+      "count": 8,
+      "id": "oritech:machine_plating_block"
+    }
+  ],
+  "time": 160
+}

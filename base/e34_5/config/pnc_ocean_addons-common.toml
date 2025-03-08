@@ -1,0 +1,18 @@
+#Maximum depth below sea level with no Pneumatic Armor/Depth Upgrade before taking crush damage
+# Default: 64
+# Range: > 0
+depth_upgrade_0_limit = 64
+#Maximum depth below sea level with Depth Upgrade Mk1 before taking crush damage
+# Default: 128
+# Range: > 0
+depth_upgrade_1_limit = 150
+#Maximum depth below sea level with Depth Upgrade Mk2 before taking crush damage
+# Default: 192
+# Range: > 0
+depth_upgrade_2_limit = 256
+#Depth per second dealt to players who are in too deep
+# Default: 2.0
+# Range: 0.0 ~ 1.7976931348623157E308
+depth_damage = 2.0
+#When true, the player's head must be in a fluid block to trigger depth checks; when false, only distance below the dimension's sea level is checked for
+head_must_be_in_fluid = false

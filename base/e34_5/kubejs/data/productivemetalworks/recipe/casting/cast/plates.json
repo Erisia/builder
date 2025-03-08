@@ -1,0 +1,15 @@
+{
+  "type": "productivemetalworks:item_casting",
+  "cast": {
+    "item": "ftbmaterials:gold_plate"
+  },
+  "consume_cast": true,
+  "fluid": {
+    "amount": 360,
+    "tag": "c:molten_steel"
+  },
+  "result": {
+    "count": 1,
+    "id": "productivemetalworks:plate_cast"
+  }
+}

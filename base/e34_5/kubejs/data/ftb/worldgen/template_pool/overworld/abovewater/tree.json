@@ -1,0 +1,15 @@
+{
+  "name": "ftb:overworld/abovewater/tree",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "location": "ftb:overworld/abovewater/tree",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

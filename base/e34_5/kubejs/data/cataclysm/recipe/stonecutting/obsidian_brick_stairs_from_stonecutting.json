@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": [
+        {
+            "item": "minecraft:obsidian"
+        },
+        {
+            "item": "cataclysm:obsidian_bricks"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "id": "cataclysm:obsidian_brick_stairs"
+      }    
+
+}

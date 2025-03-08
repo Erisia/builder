@@ -1,0 +1,11 @@
+{
+  "type": "immersiveengineering:fermenter",
+  "energy": 6400,
+  "fluid": {
+    "amount": 20,
+    "id": "pneumaticcraft:ethanol"
+  },
+  "input": {
+    "item": "minecraft:melon_slice"
+  }
+}

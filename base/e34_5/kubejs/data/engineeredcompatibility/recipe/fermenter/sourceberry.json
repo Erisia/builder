@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:fruits/sourceberry"
+      }
+    }
+  ],
+  "type": "immersiveengineering:fermenter",
+  "energy": 6400,
+  "fluid": {
+    "amount": 50,
+    "id": "pneumaticcraft:ethanol"
+  },
+  "input": {
+    "basePredicate": {
+      "tag": "c:fruits/sourceberry"
+    },
+    "count": 1
+  }
+}

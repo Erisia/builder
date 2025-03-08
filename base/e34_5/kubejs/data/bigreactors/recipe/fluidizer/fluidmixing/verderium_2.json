@@ -1,0 +1,15 @@
+{
+  "type": "bigreactors:fluidizerfluidmixing",
+  "ingredient1": {
+    "amount": 1000,
+    "id": "bigreactors:blutonium"
+  },
+  "ingredient2": {
+    "amount": 2000,
+    "id": "productivemetalworks:molten_uranium"
+  },
+  "result": {
+    "amount": 2000,
+    "id": "bigreactors:verderium"
+  }
+}

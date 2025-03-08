@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "failed_reloads_per_session": 5,
+  "default_overrides": {
+    "force_compatible": true
+  },
+  "default_packs": [
+    "moonlight:mods_dynamic_assets",
+    "fabric",
+    "mod_resources",
+    "file/VanillaTweaks_VariatedTextures.zip",
+    "file/VanillaTweaks_Utility.zip",
+    "file/VanillaTweaks_3DBlocks.zip",
+    "file/IronChest_Original.zip"
+  ],
+  "pack_overrides": {
+    "oc2": [
+      "file/VanillaTweaks_3DBlocks.zip",
+      "file/VanillaTweaks_Utility.zip",
+      "file/VanillaTweaks_VariatedTextures.zip",
+      "file/IronChest_Original.zip",
+      "file/VannillaTweaks_BushyLeaves.zip"
+    ],
+    "$$oc2": {
+      "fixed_position": false,
+      "default_position": "TOP",
+      "force_compatible": true,
+      "required": false,
+      "hidden": false
+    },
+    "default": [
+      "moonlight:mods_dynamic_assets",
+      "fabric",
+      "mod_resources"
+    ],
+    "$$default": {
+      "fixed_position": true,
+      "default_position": "BOTTOM",
+      "force_compatible": true,
+      "required": true,
+      "hidden": false
+    }
+  }
+}

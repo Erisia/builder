@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": ["deep_cold_ocean", "deep_frozen_ocean", "deep_ocean"],
+  "spawners": {
+    "type": "aquatic_frontiers:coralcrab",
+    "weight": 12,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

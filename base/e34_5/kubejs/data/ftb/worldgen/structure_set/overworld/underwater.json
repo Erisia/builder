@@ -1,0 +1,49 @@
+{
+  "structures": [
+    {
+      "structure": "ftb:overworld/underwater/ae2",
+      "weight": 2
+    },
+    {
+      "structure": "ftb:overworld/underwater/globe",
+      "weight": 2
+    },
+    {
+      "structure": "ftb:overworld/underwater/dungeon",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:overworld/underwater/farm_orb",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:overworld/underwater/globe_blue",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:overworld/underwater/globe_orange",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:overworld/underwater/sculk",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:overworld/underwater/sea_shrine",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spread_type": "triangular",
+    "salt": 1304155318,
+    "frequency_reduction_method": "legacy_type_2",
+    "frequency": 0.152,
+    "spacing": 9,
+    "separation": 7
+  },
+  "exclusion_zone": {
+    "other_set": "nautec:ruins_1",
+    "chunk_count": 1
+  }
+}

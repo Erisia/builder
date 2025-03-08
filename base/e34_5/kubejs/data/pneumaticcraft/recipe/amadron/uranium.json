@@ -1,0 +1,17 @@
+{
+  "type": "pneumaticcraft:amadron",
+  "input": {
+    "resource": {
+      "count": 16,
+      "id": "oritech:uranium_gem"
+    }
+  },
+  "level": 0,
+  "offer_id": "pneumaticcraft:amadron/uranium",
+  "output": {
+    "resource": {
+      "count": 1,
+      "id": "oritech:resource_node_uranium"
+    }
+  }
+}

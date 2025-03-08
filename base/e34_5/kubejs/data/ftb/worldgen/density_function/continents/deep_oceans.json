@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:flat_cache",
+    "argument": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "ftb:continents/vanilla",
+        "points": [
+          {
+            "location": -1.5,
+            "derivative": 0,
+            "value": -0.8
+          },
+          {
+            "location": -1.05,
+            "derivative": 0,
+            "value": -0.8
+          },
+          {
+            "location": 1,
+            "derivative": 0,
+            "value": -0.455
+          }
+        ]
+      }
+    }
+  }
+}

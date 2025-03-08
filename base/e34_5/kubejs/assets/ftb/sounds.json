@@ -1,0 +1,83 @@
+{
+	"rift_weaver_boss": {
+		"sounds": ["ftb:rift_weaver_boss"],
+		"subtitle": "In the Depths below"
+	},
+	"abyssal_archives_log1": {
+		"sounds": ["ftb:abyssal_archives_log1"],
+		"subtitle": "Log Entry: 001"
+	},
+	"abyssal_archives_log2": {
+		"sounds": ["ftb:abyssal_archives_log2"],
+		"subtitle": "Log Entry: 002"
+	},
+	"abyssal_archives_log3": {
+		"sounds": ["ftb:abyssal_archives_log3"],
+		"subtitle": "Log Entry: 003"
+	},
+	"abyssal_archives_log4": {
+		"sounds": ["ftb:abyssal_archives_log4"],
+		"subtitle": "Log Entry: 004"
+	},
+	"abyssal_archives_log5": {
+		"sounds": ["ftb:abyssal_archives_log5"],
+		"subtitle": "Log Entry: 005"
+	},
+	"abyssal_archives_log6": {
+		"sounds": ["ftb:abyssal_archives_log6"],
+		"subtitle": "Log Entry: 006"
+	},
+	"abyssal_archives_log7": {
+		"sounds": ["ftb:abyssal_archives_log7"],
+		"subtitle": "Log Entry: 007"
+	},
+	"abyssal_archives_log8": {
+		"sounds": ["ftb:abyssal_archives_log8"],
+		"subtitle": "Log Entry: 008"
+	},
+	"abyssal_archives_log9": {
+		"sounds": ["ftb:abyssal_archives_log9"],
+		"subtitle": "Log Entry: 009"
+	},
+	"abyssal_archives_log10": {
+		"sounds": ["ftb:abyssal_archives_log10"],
+		"subtitle": "Log Entry: 010"
+	},
+	"abyssal_archives_log11": {
+		"sounds": ["ftb:abyssal_archives_log11"],
+		"subtitle": "Log Entry: 011"
+	},
+	"abyssal_archives_log12": {
+		"sounds": ["ftb:abyssal_archives_log12"],
+		"subtitle": "Log Entry: 012"
+	},
+	"abyssal_archives_log13": {
+		"sounds": ["ftb:abyssal_archives_log13"],
+		"subtitle": "Log Entry: 013"
+	},
+	"abyssal_archives_log14": {
+		"sounds": ["ftb:abyssal_archives_log14"],
+		"subtitle": "Log Entry: 014"
+	},
+	"abyssal_archives_log15": {
+		"sounds": ["ftb:abyssal_archives_log15"],
+		"subtitle": "Log Entry: 015"
+	},
+	"abyssal_archives_log16": {
+		"sounds": ["ftb:abyssal_archives_log16"],
+		"subtitle": "Log Entry: 016"
+	},
+	"abyssal_archives_log17": {
+		"sounds": ["ftb:abyssal_archives_log17"],
+		"subtitle": "Log Entry: 017"
+	},
+	"abyssal_archives_log18": {
+		"sounds": ["ftb:abyssal_archives_log18"],
+		"subtitle": "Log Entry: 018"
+	},
+	"abyssal_archives_thankyou": {
+		"sounds": ["ftb:abyssal_archives_thankyou"],
+		"subtitle": "Log Entry: Final Entry"
+	}
+	
+}

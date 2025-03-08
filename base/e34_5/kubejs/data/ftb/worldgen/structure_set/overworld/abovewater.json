@@ -1,0 +1,45 @@
+{
+  "structures": [
+    {
+      "structure": "ftb:overworld/abovewater/rafts",
+      "weight": 88
+    },
+    {
+      "structure": "ftb:overworld/abovewater/shadow",
+      "weight": 2
+    },
+    {
+      "structure": "ftb:overworld/abovewater/mushroom_island",
+      "weight": 2
+    },
+    {
+      "structure": "ftb:overworld/abovewater/sandstone_pillar",
+      "weight": 2
+    },
+    {
+      "structure": "ftb:overworld/abovewater/tower",
+      "weight": 2
+    },
+    {
+      "structure": "ftb:overworld/abovewater/tree",
+      "weight": 2
+    },
+    {
+      "structure": "ftb:overworld/abovewater/turtles_dungeon",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spread_type": "linear",
+    "salt": 1304155118,
+    "frequency_reduction_method": "legacy_type_3",
+    "frequency": 0.45,
+    "spacing": 5,
+    "separation": 2,
+    "exclusion_zone": {
+      "chunk_count": 2,
+      "other_set": "ftbteambases:start"
+    }
+  }
+}

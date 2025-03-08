@@ -1,0 +1,114 @@
+{
+  "temperature": 1,
+  "downfall": 0.4,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 14917577,
+    "fog_color": 7218827,
+    "water_color": 5563275,
+    "water_fog_color": 661775,
+    "grass_color": 7493304,
+    "foliage_color": 6007425,
+    "particle": {
+      "options": {
+        "type": "minecraft:ash"
+      },
+      "probability": 0.15
+    }
+  },
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [{
+      "type": "ftboceanmobs:riftling_observer",
+      "maxCount": 4,
+      "minCount": 2,
+      "weight": 100
+    },
+    {
+      "type": "ftboceanmobs:shadow_beast",
+      "maxCount": 12,
+      "minCount": 4,
+      "weight": 95
+    },
+    {
+      "type": "ftboceanmobs:abyssal_winged",
+      "maxCount": 2,
+      "minCount": 1,
+      "weight": 20
+    }],
+    "misc": [],
+    "monster": [
+    
+      {
+        "type": "ftboceanmobs:abyssal_sludge",
+        "maxCount": 3,
+        "minCount": 2,
+        "weight": 25
+      },
+      {
+        "type": "ftboceanmobs:rift_minotaur",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 25
+      },
+      {
+        "type": "ftboceanmobs:mossback_goliath",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 20
+      },
+    
+      {
+        "type": "ftboceanmobs:corrosive_craig",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 30
+      },
+      {
+        "type": "ftboceanmobs:rift_demon",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 10
+      },
+      {
+        "type": "ftboceanmobs:tentacled_horror",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 8
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+    ],
+    [],
+    [
+      "minecraft:spring_water"
+    ],
+    [
+      "minecraft:warm_ocean_vegetation",
+      "minecraft:glow_lichen",
+      "minecraft:trees_water",
+      "minecraft:flower_default",
+      "minecraft:patch_grass_badlands",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin",
+      "minecraft:seagrass_warm",
+      "minecraft:kelp_warm"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ]
+}

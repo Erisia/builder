@@ -1,0 +1,39 @@
+{
+    "type": "ftb:the_rift",
+    "generator": {
+        "type": "minecraft:noise",
+        "settings": "ftb:the_rift",
+        "biome_source": {
+            "type": "minecraft:multi_noise",
+            "biomes": [
+                {
+                    "biome": "ftb:rift",
+                    "parameters": {
+                        "temperature": [
+                            -0.45,
+                            -0.15
+                        ],
+                        "humidity": [
+                            -1,
+                            1
+                        ],
+                        "continentalness": [
+                            -0.8,
+                            -0.455
+                        ],
+                        "erosion": [
+                            -1,
+                            1
+                        ],
+                        "weirdness": [
+                            -1,
+                            1
+                        ],
+                        "depth": 0,
+                        "offset": 0
+                    }
+                }
+            ]
+        }
+    }
+}

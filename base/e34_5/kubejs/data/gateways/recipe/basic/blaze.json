@@ -1,0 +1,24 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "###",
+    "#A#",
+    "BBB"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:blaze_rod"
+    },
+	"A": {
+      "tag": "c:ender_pearls"
+    },
+	"B": {
+      "item": "minecraft:nether_bricks"
+    }
+  },
+  "result": {
+    "id": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:basic/blaze"
+}

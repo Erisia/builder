@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": ["minecraft:badlands"],
+  "spawners": {
+    "type": "aquatic_frontiers:sandy",
+    "weight": 8,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

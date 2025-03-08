@@ -1,0 +1,19 @@
+{
+  "type": "immersiveengineering:refinery",
+  "catalyst": {
+    "tag": "c:dusts/saltpeter"
+  },
+  "energy": 80,
+  "input0": {
+    "amount": 8,
+    "tag": "c:plantoil"
+  },
+  "input1": {
+    "amount": 8,
+    "tag": "c:ethanol"
+  },
+  "result": {
+    "amount": 16,
+    "id": "pneumaticcraft:biodiesel"
+  }
+}

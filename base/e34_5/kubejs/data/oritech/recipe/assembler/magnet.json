@@ -1,0 +1,28 @@
+{
+  "type": "oritech:assembler",
+  "fluidInputAmount": 0,
+  "fluidInputVariant": "minecraft:empty",
+  "fluidOutputAmount": 0,
+  "fluidOutputVariant": "minecraft:empty",
+  "ingredients": [
+    {
+      "tag": "c:ingots/steel"
+    },
+    {
+      "item": "oritech:insulated_wire"
+    },
+    {
+      "item": "oritech:insulated_wire"
+    },
+    {
+      "item": "oritech:insulated_wire"
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "id": "oritech:magnetic_coil"
+    }
+  ],
+  "time": 80
+}

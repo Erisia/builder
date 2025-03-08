@@ -1,0 +1,16 @@
+{
+    "name": "ftb:overworld/jigsaw/comp/ae2/cube",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "location": "ftb:overworld/underwater/comp/ae2/cube",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }
+  

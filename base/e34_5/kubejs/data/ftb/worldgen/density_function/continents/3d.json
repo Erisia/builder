@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:range_choice",
+  "input": "minecraft:y",
+  "min_inclusive": -64,
+  "max_exclusive": 32,
+  "when_in_range": "ftb:continents/deeper_oceans",
+  "when_out_of_range": {
+    "type": "minecraft:range_choice",
+    "input": "minecraft:y",
+    "min_inclusive": 32,
+    "max_exclusive": 136,
+    "when_in_range": "ftb:continents/deep_oceans",
+    "when_out_of_range": {
+      "type": "minecraft:range_choice",
+      "input": "minecraft:y",
+      "min_inclusive": 72,
+      "max_exclusive": 190,
+      "when_in_range": "ftb:continents/no_land",
+      "when_out_of_range": "ftb:continents/no_oceans"
+    }
+  }
+}

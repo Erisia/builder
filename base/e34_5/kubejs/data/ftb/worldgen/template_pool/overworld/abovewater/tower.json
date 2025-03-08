@@ -1,0 +1,20 @@
+{
+  "name": "ftb:overworld/abovewater/tower",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "location": "ftb:overworld/abovewater/tower",
+        "processors": [
+          {
+            "processor_type": "minecraft:block_age",
+            "mossiness": 0.2
+          }
+        ],
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

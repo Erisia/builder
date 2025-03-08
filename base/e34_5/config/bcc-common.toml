@@ -1,0 +1,13 @@
+#General settings
+[general]
+	#modpackProjectID is now deprecated and will be removed soon
+	# Default: 0
+	# Range: > 0
+	modpackProjectID = 0
+	#The name of the modpack
+	modpackName = "FTB OceanBlock 2"
+	#The version of the modpack
+	modpackVersion = "1.0.0"
+	#Use the metadata.json to determine the modpack version
+	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
+	useMetadata = true

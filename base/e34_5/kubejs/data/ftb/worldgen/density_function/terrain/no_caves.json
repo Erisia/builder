@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:squeeze",
+  "argument": {
+    "type": "minecraft:interpolated",
+    "argument": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:y_clamped_gradient",
+        "from_y": -64,
+        "to_y": -60,
+        "from_value": -0.5,
+        "to_value": 0
+      },
+      "argument2": {
+        "type": "minecraft:add",
+        "argument1": {
+          "type": "minecraft:y_clamped_gradient",
+          "from_y": 316,
+          "to_y": 320,
+          "from_value": 0,
+          "to_value": -0.5
+        },
+        "argument2": "ftb:terrain/pre_caves"
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "ingredients": [
+    {
+      "tag": "ae2:all_certus_quartz"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:certus_quartz"
+    },
+    {
+      "tag": "ae2:all_certus_quartz"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:certus_quartz"
+    },
+    {
+      "tag": "ae2:all_certus_quartz"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:certus_quartz"
+    },
+    {
+      "tag": "ae2:all_certus_quartz"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:certus_quartz"
+    }
+  ],
+  "input": {
+    "type": "mysticalagriculture:crop_component",
+    "component": "seed",
+    "crop": "mysticalagriculture:certus_quartz"
+  },
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:certus_quartz_seeds"
+  }
+}

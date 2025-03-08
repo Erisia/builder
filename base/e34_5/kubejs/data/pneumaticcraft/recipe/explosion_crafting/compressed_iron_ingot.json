@@ -1,0 +1,14 @@
+{
+  "type": "pneumaticcraft:explosion_crafting",
+  "input": {
+    "count": 1,
+    "item": "ftbstuff:cast_iron_ingot"
+  },
+  "loss_rate": 10,
+  "results": [
+    {
+      "count": 1,
+      "id": "pneumaticcraft:ingot_iron_compressed"
+    }
+  ]
+}

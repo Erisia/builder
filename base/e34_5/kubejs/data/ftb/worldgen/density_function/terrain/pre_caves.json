@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:spline",
+    "spline": {
+      "coordinate": "ftb:y",
+      "points": [
+        {
+          "location": 80,
+          "derivative": 0,
+          "value": -0.1
+        },
+        {
+          "location": 96,
+          "derivative": 0,
+          "value": 0
+        }
+      ]
+    }
+  }
+}

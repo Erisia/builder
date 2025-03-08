@@ -1,0 +1,15 @@
+{
+  "type": "productivemetalworks:item_casting",
+  "cast": {
+    "item": "minecraft:ender_pearl"
+  },
+  "consume_cast": true,
+  "fluid": {
+    "amount": 100,
+    "fluid": "productivemetalworks:molten_blaze"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:ender_eye"
+  }
+}

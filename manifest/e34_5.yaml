@@ -1,0 +1,1426 @@
+config:
+  minecraft_version: '1.21.1'
+  modloader: 'neoforge'
+nodes:
+  - id: modlist
+    value:
+      - name: 'farmingforblockheads-neoforge-1.21.1-21.1.7'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6185/977/farmingforblockheads-neoforge-1.21.1-21.1.7.jar'
+        filename: 'farmingforblockheads-neoforge-1.21.1-21.1.7.jar'
+        side: both
+      - name: 'craftingstation-neoforge-1.21.1-1.5.0'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6092/410/craftingstation-jei-neoforge-1.21.1-1.5.0.jar'
+        filename: 'craftingstation-neoforge-1.21.1-1.5.0.jar'
+        side: both
+      - name: 'tesseract-1.0.37-neoforge-mc1.21'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6082/86/tesseract-1.0.37-neoforge-mc1.21.jar'
+        filename: 'tesseract-1.0.37-neoforge-mc1.21.jar'
+        side: both
+      - name: 'colorfulhearts-neoforge-1.21.1-10.3.8'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5746/319/colorfulhearts-neoforge-1.21.1-10.3.8.jar'
+        filename: 'colorfulhearts-neoforge-1.21.1-10.3.8.jar'
+        side: client
+      - name: 'recipeessentials-1.21-4.0'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6165/711/recipeessentials-1.21-4.0.jar'
+        filename: 'recipeessentials-1.21-4.0.jar'
+        side: both
+      - name: 'actuallyadditions-1.3.15+mc1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6193/603/actuallyadditions-1.3.15%2bmc1.21.1.jar'
+        filename: 'actuallyadditions-1.3.15+mc1.21.1.jar'
+        side: both
+      - name: 'justzoom_neoforge_2.0.0_MC_1.21-1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5619/666/justzoom_neoforge_2.0.0_MC_1.21-1.21.1.jar'
+        filename: 'justzoom_neoforge_2.0.0_MC_1.21-1.21.1.jar'
+        side: both
+      - name: 'incontrol-1.21-10.0.5'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5932/871/incontrol-1.21-10.0.5.jar'
+        filename: 'incontrol-1.21-10.0.5.jar'
+        side: both
+      - name: 'ibicf-neo-7.0.0+mc1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5711/805/ibicf-neo-7.0.0%2bmc1.21.1.jar'
+        filename: 'ibicf-neo-7.0.0+mc1.21.1.jar'
+        side: both
+      - name: 'EuphoriaPatcher-1.5.2-r5.4-neoforge'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6137/784/EuphoriaPatcher-1.5.2-r5.4-neoforge.jar'
+        filename: 'EuphoriaPatcher-1.5.2-r5.4-neoforge.jar'
+        side: client
+      - name: 'cloth-config-15.0.140-neoforge'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5729/127/cloth-config-15.0.140-neoforge.jar'
+        filename: 'cloth-config-15.0.140-neoforge.jar'
+        side: both
+      - name: 'Applied-Mekanistics-1.6.2'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5978/711/Applied-Mekanistics-1.6.2.jar'
+        filename: 'Applied-Mekanistics-1.6.2.jar'
+        side: both
+      - name: 'lionfishapi-2.6'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6168/249/lionfishapi-2.6.jar'
+        filename: 'lionfishapi-2.6.jar'
+        side: both
+      - name: 'YungsApi-1.21.1-NeoForge-5.1.3'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5924/470/YungsApi-1.21.1-NeoForge-5.1.3.jar'
+        filename: 'YungsApi-1.21.1-NeoForge-5.1.3.jar'
+        side: both
+      - name: 'inventorysorter-1.21-24.0.20'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6235/889/inventorysorter-1.21-24.0.20.jar'
+        filename: 'inventorysorter-1.21-24.0.20.jar'
+        side: both
+      - name: 'ExtendedCrafting-1.21.1-7.0.3'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6227/166/ExtendedCrafting-1.21.1-7.0.3.jar'
+        filename: 'ExtendedCrafting-1.21.1-7.0.3.jar'
+        side: both
+      - name: 'kube-utils-21.1.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6181/429/kube-utils-21.1.1.jar'
+        filename: 'kube-utils-21.1.1.jar'
+        side: both
+      - name: 'relics-1.21.1-0.10.5.4'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6243/373/relics-1.21.1-0.10.5.4.jar'
+        filename: 'relics-1.21.1-0.10.5.4.jar'
+        side: both
+      - name: 'dummmmmmy-1.21-2.0.7-neoforge'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6237/115/dummmmmmy-1.21-2.0.7-neoforge.jar'
+        filename: 'dummmmmmy-1.21-2.0.7-neoforge.jar'
+        side: both
+      - name: 'bibliocraft-1.21.1-1.3.3'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6060/740/bibliocraft-1.21.1-1.3.3.jar'
+        filename: 'bibliocraft-1.21.1-1.3.3.jar'
+        side: both
+      - name: 'txnilib-neoforge-1.0.22-1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6109/79/txnilib-neoforge-1.0.22-1.21.1.jar'
+        filename: 'txnilib-neoforge-1.0.22-1.21.1.jar'
+        side: both
+      - name: 'watut-neoforge-1.21.0-1.1.4'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5622/968/watut-neoforge-1.21.0-1.1.4.jar'
+        filename: 'watut-neoforge-1.21.0-1.1.4.jar'
+        side: both
+      - name: 'mininggadgets-1.18.6'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5615/761/mininggadgets-1.18.6.jar'
+        filename: 'mininggadgets-1.18.6.jar'
+        side: both
+      - name: 'sophisticatedcore-1.21.1-1.3.0.896'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6241/158/sophisticatedcore-1.21.1-1.3.0.896.jar'
+        filename: 'sophisticatedcore-1.21.1-1.3.0.896.jar'
+        side: both
+      - name: 'jags-neo-21.1.0+mc1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5711/824/jags-neo-21.1.0%2bmc1.21.1.jar'
+        filename: 'jags-neo-21.1.0+mc1.21.1.jar'
+        side: both
+      - name: 'clienttweaks-neoforge-1.21.1-21.1.4'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6224/946/clienttweaks-neoforge-1.21.1-21.1.4.jar'
+        filename: 'clienttweaks-neoforge-1.21.1-21.1.4.jar'
+        side: client
+      - name: 'ftb-pause-menu-api-21.1.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6215/477/ftb-pause-menu-api-21.1.1.jar'
+        filename: 'ftb-pause-menu-api-21.1.1.jar'
+        side: client
+      - name: 'melody_neoforge_1.0.10_MC_1.21'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5453/382/melody_neoforge_1.0.10_MC_1.21.jar'
+        filename: 'melody_neoforge_1.0.10_MC_1.21.jar'
+        side: both
+      - name: 'ApothicAttributes-1.21.1-2.6.2'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6148/951/ApothicAttributes-1.21.1-2.6.2.jar'
+        filename: 'ApothicAttributes-1.21.1-2.6.2.jar'
+        side: both
+      - name: 'rftoolsbase-1.21-6.0.5'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6148/868/rftoolsbase-1.21-6.0.5.jar'
+        filename: 'rftoolsbase-1.21-6.0.5.jar'
+        side: both
+      - name: 'explosiveenhancement-neoforge-1.21.1-1.1.1-client'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6070/994/explosiveenhancement-neoforge-1.21.1-1.1.1-client.jar'
+        filename: 'explosiveenhancement-neoforge-1.21.1-1.1.1-client.jar'
+        side: both
+      - name: 'occultism-1.21.1-neoforge-1.176.0'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6238/567/occultism-1.21.1-neoforge-1.176.0.jar'
+        filename: 'occultism-1.21.1-neoforge-1.176.0.jar'
+        side: both
+      - name: 'appleskin-neoforge-mc1.21-3.0.5'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5586/600/appleskin-neoforge-mc1.21-3.0.5.jar'
+        filename: 'appleskin-neoforge-mc1.21-3.0.5.jar'
+        side: both
+      - name: 'Powah-6.1.6'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6143/661/Powah-6.1.6.jar'
+        filename: 'Powah-6.1.6.jar'
+        side: both
+      - name: 'MRU-1.0.8+1.21+neoforge'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6165/442/MRU-1.0.8%2b1.21%2bneoforge.jar'
+        filename: 'MRU-1.0.8+1.21+neoforge.jar'
+        side: both
+      - name: 'integratedterminals-1.21.1-neoforge-1.6.9-477'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6205/797/integratedterminals-1.21.1-neoforge-1.6.9-477.jar'
+        filename: 'integratedterminals-1.21.1-neoforge-1.6.9-477.jar'
+        side: both
+      - name: 'immersivetips-neoforge-1.0.0-1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6057/679/immersivetips-neoforge-1.0.0-1.21.1.jar'
+        filename: 'immersivetips-neoforge-1.0.0-1.21.1.jar'
+        side: both
+      - name: 'cosmeticarmorreworked-1.21.1-v1-neoforge'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5610/814/cosmeticarmorreworked-1.21.1-v1-neoforge.jar'
+        filename: 'cosmeticarmorreworked-1.21.1-v1-neoforge.jar'
+        side: both
+      - name: 'ExtremeSoundMuffler-3.48.3_NeoForge-1.21'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5837/787/ExtremeSoundMuffler-3.48.3_NeoForge-1.21.jar'
+        filename: 'ExtremeSoundMuffler-3.48.3_NeoForge-1.21.jar'
+        side: client
+      - name: 'simplemagnets-1.1.12b-neoforge-mc1.21'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5890/867/simplemagnets-1.1.12b-neoforge-mc1.21.jar'
+        filename: 'simplemagnets-1.1.12b-neoforge-mc1.21.jar'
+        side: both
+      - name: 'owo-lib-neoforge-0.12.15-beta.12+1.21'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5945/693/owo-lib-neoforge-0.12.15-beta.12%2b1.21.jar'
+        filename: 'owo-lib-neoforge-0.12.15-beta.12+1.21.jar'
+        side: both
+      - name: 'PuzzlesLib-v21.1.28-1.21.1-NeoForge'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6234/954/PuzzlesLib-v21.1.28-1.21.1-NeoForge.jar'
+        filename: 'PuzzlesLib-v21.1.28-1.21.1-NeoForge.jar'
+        side: both
+      - name: 'resourcefullib-neoforge-1.21-3.0.11'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5793/500/resourcefullib-neoforge-1.21-3.0.11.jar'
+        filename: 'resourcefullib-neoforge-1.21-3.0.11.jar'
+        side: both
+      - name: 'EnderStorage-1.21.1-2.13.0.191'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6159/37/EnderStorage-1.21.1-2.13.0.191.jar'
+        filename: 'EnderStorage-1.21.1-2.13.0.191.jar'
+        side: both
+      - name: 'cable_facades-1.21.1-NeoForge-1.4.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6145/95/cable_facades-1.21.1-NeoForge-1.4.1.jar'
+        filename: 'cable_facades-1.21.1-NeoForge-1.4.1.jar'
+        side: both
+      - name: 'Clumps-neoforge-1.21.1-19.0.0.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5623/731/Clumps-neoforge-1.21.1-19.0.0.1.jar'
+        filename: 'Clumps-neoforge-1.21.1-19.0.0.1.jar'
+        side: both
+      - name: 'squatgrow-neoforge-21.1.0+mc1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5711/178/squatgrow-neoforge-21.1.0%2bmc1.21.1.jar'
+        filename: 'squatgrow-neoforge-21.1.0+mc1.21.1.jar'
+        side: both
+      - name: 'pneumaticcraft-repressurized-8.2.9+mc1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6202/498/pneumaticcraft-repressurized-8.2.9%2bmc1.21.1.jar'
+        filename: 'pneumaticcraft-repressurized-8.2.9+mc1.21.1.jar'
+        side: both
+      - name: 'ars_ocultas-1.21.1-2.1.0'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6015/723/ars_ocultas-1.21.1-2.1.0.jar'
+        filename: 'ars_ocultas-1.21.1-2.1.0.jar'
+        side: both
+      - name: 'FramedBlocks-10.2.5'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6241/584/FramedBlocks-10.2.5.jar'
+        filename: 'FramedBlocks-10.2.5.jar'
+        side: both
+      - name: 'ftb-ultimine-neoforge-2101.1.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5671/703/ftb-ultimine-neoforge-2101.1.1.jar'
+        filename: 'ftb-ultimine-neoforge-2101.1.1.jar'
+        side: both
+      - name: 'respawningstructures-1.21.1-3.7'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6211/308/respawningstructures-1.21.1-3.7.jar'
+        filename: 'respawningstructures-1.21.1-3.7.jar'
+        side: both
+      - name: 'titanium-1.21-4.0.34'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6155/132/titanium-1.21-4.0.34.jar'
+        filename: 'titanium-1.21-4.0.34.jar'
+        side: both
+      - name: 'ftbmaterials-neoforge-21.1.0-beta.7'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6117/436/ftbmaterials-neoforge-21.1.0-beta.7.jar'
+        filename: 'ftbmaterials-neoforge-21.1.0-beta.7.jar'
+        side: both
+      - name: 'metalbarrels-neoforge-1.21.1-7'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6111/347/metalbarrels-neoforge-1.21.1-7.jar'
+        filename: 'metalbarrels-neoforge-1.21.1-7.jar'
+        side: both
+      - name: 'baubley-heart-canisters-1.21.1-1.2.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6040/943/baubley-heart-canisters-1.21.1-1.2.1.jar'
+        filename: 'baubley-heart-canisters-1.21.1-1.2.1.jar'
+        side: both
+      - name: 'xp_synthesiser-1.0.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6002/898/xp_synthesiser-1.0.1.jar'
+        filename: 'xp_synthesiser-1.0.1.jar'
+        side: both
+      - name: 'rechiseled_chipped-1.2'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5656/895/rechiseled_chipped-1.2.jar'
+        filename: 'rechiseled_chipped-1.2.jar'
+        side: both
+      - name: 'functionalstorage-1.21.1-1.4.2'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6189/752/functionalstorage-1.21.1-1.4.2.jar'
+        filename: 'functionalstorage-1.21.1-1.4.2.jar'
+        side: both
+      - name: 'antiquetradingship-1.3.0-neoforge-1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5755/400/antiquetradingship-1.3.0-neoforge-1.21.1.jar'
+        filename: 'antiquetradingship-1.3.0-neoforge-1.21.1.jar'
+        side: both
+      - name: 'laserio-1.9.11'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5730/7/laserio-1.9.11.jar'
+        filename: 'laserio-1.9.11.jar'
+        side: both
+      - name: 'Prism-1.21-neoforge-1.0.9'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5625/115/Prism-1.21-neoforge-1.0.9.jar'
+        filename: 'Prism-1.21-neoforge-1.0.9.jar'
+        side: client
+      - name: 'particle_core-0.2.5+1.21+neoforge'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5729/970/particle_core-0.2.5%2b1.21%2bneoforge.jar'
+        filename: 'particle_core-0.2.5+1.21+neoforge.jar'
+        side: client
+      - name: 'fulleng-2.2.2'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6086/24/fulleng-2.2.2.jar'
+        filename: 'fulleng-2.2.2.jar'
+        side: both
+      - name: 'bcc-21.1.2+mc1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6229/499/bcc-21.1.2%2bmc1.21.1.jar'
+        filename: 'bcc-21.1.2+mc1.21.1.jar'
+        side: both
+      - name: 'trashcans-1.0.18c-neoforge-mc1.21'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5891/67/trashcans-1.0.18c-neoforge-mc1.21.jar'
+        filename: 'trashcans-1.0.18c-neoforge-mc1.21.jar'
+        side: both
+      - name: 'EdivadLib-1.21-3.0.0'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5491/721/EdivadLib-1.21-3.0.0.jar'
+        filename: 'EdivadLib-1.21-3.0.0.jar'
+        side: both
+      - name: 'connectedglass-1.1.12-neoforge-mc1.21'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5657/280/connectedglass-1.1.12-neoforge-mc1.21.jar'
+        filename: 'connectedglass-1.1.12-neoforge-mc1.21.jar'
+        side: both
+      - name: 'ftb-essentials-neoforge-2101.1.6'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6179/42/ftb-essentials-neoforge-2101.1.6.jar'
+        filename: 'ftb-essentials-neoforge-2101.1.6.jar'
+        side: both
+      - name: 'aquatic_frontiers-1.7-neoforge-1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5897/436/aquatic_frontiers-1.7-neoforge-1.21.1.jar'
+        filename: 'aquatic_frontiers-1.7-neoforge-1.21.1.jar'
+        side: both
+      - name: 'CloudGlass-1.21.1-1.0.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6011/555/CloudGlass-1.21.1-1.0.1.jar'
+        filename: 'CloudGlass-1.21.1-1.0.1.jar'
+        side: both
+      - name: 'ae2jeiintegration-1.2.0'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5748/513/ae2jeiintegration-1.2.0.jar'
+        filename: 'ae2jeiintegration-1.2.0.jar'
+        side: both
+      - name: 'utilitarian-1.21.1-0.13.7'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6204/350/utilitarian-1.21.1-0.13.7.jar'
+        filename: 'utilitarian-1.21.1-0.13.7.jar'
+        side: both
+      - name: 'kubejs-neoforge-2101.7.1-build.181'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5810/100/kubejs-neoforge-2101.7.1-build.181.jar'
+        filename: 'kubejs-neoforge-2101.7.1-build.181.jar'
+        side: both
+      - name: 'AdvancedAE-1.2.5-1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6225/993/AdvancedAE-1.2.5-1.21.1.jar'
+        filename: 'AdvancedAE-1.2.5-1.21.1.jar'
+        side: both
+      - name: 'YetAnotherConfigLib-3.6.2+1.21-neoforge'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5963/247/YetAnotherConfigLib-3.6.2%2b1.21-neoforge.jar'
+        filename: 'YetAnotherConfigLib-3.6.2+1.21-neoforge.jar'
+        side: both
+      - name: 'lootintegrations-1.21-4.0'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5981/105/lootintegrations-1.21-4.0.jar'
+        filename: 'lootintegrations-1.21-4.0.jar'
+        side: both
+      - name: 'fusion-1.2.4-neoforge-mc1.21'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6183/288/fusion-1.2.4-neoforge-mc1.21.jar'
+        filename: 'fusion-1.2.4-neoforge-mc1.21.jar'
+        side: both
+      - name: 'polylib-2100.0.3-build.160-neoforge'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5783/8/polylib-2100.0.3-build.160-neoforge.jar'
+        filename: 'polylib-2100.0.3-build.160-neoforge.jar'
+        side: both
+      - name: 'mcjtylib-1.21-9.0.5'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5961/438/mcjtylib-1.21-9.0.5.jar'
+        filename: 'mcjtylib-1.21-9.0.5.jar'
+        side: both
+      - name: 'PickUpNotifier-v21.1.0-1.21.1-NeoForge'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5711/434/PickUpNotifier-v21.1.0-1.21.1-NeoForge.jar'
+        filename: 'PickUpNotifier-v21.1.0-1.21.1-NeoForge.jar'
+        side: both
+      - name: 'starbunclemania-1.21.1-1.3.1.0'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6014/773/starbunclemania-1.21.1-1.3.1.0.jar'
+        filename: 'starbunclemania-1.21.1-1.3.1.0.jar'
+        side: both
+      - name: 'ae2wtlib-19.2.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6069/961/ae2wtlib-19.2.1.jar'
+        filename: 'ae2wtlib-19.2.1.jar'
+        side: both
+      - name: 'justdirethings-1.5.4'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6161/633/justdirethings-1.5.4.jar'
+        filename: 'justdirethings-1.5.4.jar'
+        side: both
+      - name: 'irons_jewelry-1.21.1-1.0.9'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6236/597/irons_jewelry-1.21.1-1.0.9.jar'
+        filename: 'irons_jewelry-1.21.1-1.0.9.jar'
+        side: both
+      - name: 'whatthebucket-neoforge-1.21.1-21.1.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5945/593/whatthebucket-neoforge-1.21.1-21.1.1.jar'
+        filename: 'whatthebucket-neoforge-1.21.1-21.1.1.jar'
+        side: both
+      - name: 'AE2MEGAThings-1.21.1-2.0.4'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6203/833/AE2MEGAThings-1.21.1-2.0.4.jar'
+        filename: 'AE2MEGAThings-1.21.1-2.0.4.jar'
+        side: both
+      - name: 'sodium-neoforge-0.6.9+mc1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6211/307/sodium-neoforge-0.6.9%2bmc1.21.1.jar'
+        filename: 'sodium-neoforge-0.6.9+mc1.21.1.jar'
+        side: client
+      - name: 'torchmaster-neoforge-1.21.1-21.1.5-beta'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5827/75/torchmaster-neoforge-1.21.1-21.1.5-beta.jar'
+        filename: 'torchmaster-neoforge-1.21.1-21.1.5-beta.jar'
+        side: both
+      - name: 'forgified-fabric-api-0.107.0+2.0.23+1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6136/650/forgified-fabric-api-0.107.0%2b2.0.23%2b1.21.1.jar'
+        filename: 'forgified-fabric-api-0.107.0+2.0.23+1.21.1.jar'
+        side: both
+      - name: 'jumbofurnace-1.21.1-5.0.0.7'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5824/690/jumbofurnace-1.21.1-5.0.0.7.jar'
+        filename: 'jumbofurnace-1.21.1-5.0.0.7.jar'
+        side: both
+      - name: 'sushigocrafting-1.21-0.6.4'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6218/250/sushigocrafting-1.21-0.6.4.jar'
+        filename: 'sushigocrafting-1.21-0.6.4.jar'
+        side: both
+      - name: 'morered-1.21.1-6.0.0.3'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5763/286/morered-1.21.1-6.0.0.3.jar'
+        filename: 'morered-1.21.1-6.0.0.3.jar'
+        side: both
+      - name: 'simple_weather-1.0.13'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5984/86/simple_weather-1.0.13.jar'
+        filename: 'simple_weather-1.0.13.jar'
+        side: both
+      - name: 'pnc_ocean_addons-1.0.2'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6202/523/pnc_ocean_addons-1.0.2.jar'
+        filename: 'pnc_ocean_addons-1.0.2.jar'
+        side: both
+      - name: 'engineeredcompatibility-4.0.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6006/374/engineeredcompatibility-4.0.1.jar'
+        filename: 'engineeredcompatibility-4.0.1.jar'
+        side: both
+      - name: 'merequester-neoforge-1.21.1-1.1.8'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5786/514/merequester-neoforge-1.21.1-1.1.8.jar'
+        filename: 'merequester-neoforge-1.21.1-1.1.8.jar'
+        side: both
+      - name: 'ExtremeReactors2-1.21.1-2.4.21'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6158/187/ExtremeReactors2-1.21.1-2.4.21.jar'
+        filename: 'ExtremeReactors2-1.21.1-2.4.21.jar'
+        side: both
+      - name: 'ftb-xmod-compat-neoforge-21.1.2'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6048/646/ftb-xmod-compat-neoforge-21.1.2.jar'
+        filename: 'ftb-xmod-compat-neoforge-21.1.2.jar'
+        side: both
+      - name: 'craftingtweaks-neoforge-1.21.1-21.1.5'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6023/41/craftingtweaks-neoforge-1.21.1-21.1.5.jar'
+        filename: 'craftingtweaks-neoforge-1.21.1-21.1.5.jar'
+        side: both
+      - name: 'jei-1.21.1-neoforge-19.21.0.247'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5846/880/jei-1.21.1-neoforge-19.21.0.247.jar'
+        filename: 'jei-1.21.1-neoforge-19.21.0.247.jar'
+        side: both
+      - name: 'bookshelf-neoforge-1.21.1-21.1.48'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6148/170/bookshelf-neoforge-1.21.1-21.1.48.jar'
+        filename: 'bookshelf-neoforge-1.21.1-21.1.48.jar'
+        side: both
+      - name: 'Jade-1.21.1-NeoForge-15.9.4'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6198/776/Jade-1.21.1-NeoForge-15.9.4.jar'
+        filename: 'Jade-1.21.1-NeoForge-15.9.4.jar'
+        side: both
+      - name: 'entangled-1.3.20a-neoforge-mc1.21'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6091/724/entangled-1.3.20a-neoforge-mc1.21.jar'
+        filename: 'entangled-1.3.20a-neoforge-mc1.21.jar'
+        side: both
+      - name: 'FluxNetworks-1.21.1-8.0.0'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6089/446/FluxNetworks-1.21.1-8.0.0.jar'
+        filename: 'FluxNetworks-1.21.1-8.0.0.jar'
+        side: both
+      - name: 'ChippedExpress-universal'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6124/836/ChippedExpress-universal.jar'
+        filename: 'ChippedExpress-universal.jar'
+        side: both
+      - name: 'lootintegrations_cataclysm-1.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6168/640/lootintegrations_cataclysm-1.1.jar'
+        filename: 'lootintegrations_cataclysm-1.1.jar'
+        side: both
+      - name: 'kubejs-mekanism-neoforge-2101.1.6-build.6'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5697/210/kubejs-mekanism-neoforge-2101.1.6-build.6.jar'
+        filename: 'kubejs-mekanism-neoforge-2101.1.6-build.6.jar'
+        side: both
+      - name: 'architectury-13.0.8-neoforge'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5786/327/architectury-13.0.8-neoforge.jar'
+        filename: 'architectury-13.0.8-neoforge.jar'
+        side: both
+      - name: 'CarbonConfig-Neoforge-1.21-1.2.9.2'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5662/294/CarbonConfig-Neoforge-1.21-1.2.9.2.jar'
+        filename: 'CarbonConfig-Neoforge-1.21-1.2.9.2.jar'
+        side: both
+      - name: 'shrink-2.0.0.44-neoforge'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5922/56/shrink-2.0.0.44-neoforge.jar'
+        filename: 'shrink-2.0.0.44-neoforge.jar'
+        side: both
+      - name: 'AkashicTome-1.8-29'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6049/929/AkashicTome-1.8-29.jar'
+        filename: 'AkashicTome-1.8-29.jar'
+        side: both
+      - name: 'ars_nouveau-1.21.1-5.5.0-all'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6228/434/ars_nouveau-1.21.1-5.5.0-all.jar'
+        filename: 'ars_nouveau-1.21.1-5.5.0-all.jar'
+        side: both
+      - name: 'findme-3.3.2-neoforge'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5745/871/findme-3.3.2-neoforge.jar'
+        filename: 'findme-3.3.2-neoforge.jar'
+        side: both
+      - name: 'prickle-neoforge-1.21.1-21.1.6'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5836/410/prickle-neoforge-1.21.1-21.1.6.jar'
+        filename: 'prickle-neoforge-1.21.1-21.1.6.jar'
+        side: both
+      - name: 'gag-5.0.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6133/503/gag-5.0.1.jar'
+        filename: 'gag-5.0.1.jar'
+        side: both
+      - name: 'rhino-2101.2.7-build.74'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6184/623/rhino-2101.2.7-build.74.jar'
+        filename: 'rhino-2101.2.7-build.74.jar'
+        side: both
+      - name: 'appliedenergistics2-19.2.4'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6225/422/appliedenergistics2-19.2.4.jar'
+        filename: 'appliedenergistics2-19.2.4.jar'
+        side: both
+      - name: 'soulbound-neoforge-1.0.1+1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5968/259/soulbound-neoforge-1.0.1%2b1.21.1.jar'
+        filename: 'soulbound-neoforge-1.0.1+1.21.1.jar'
+        side: both
+      - name: 'kubejs_actuallyadditions-neoforge-1.21.1-0.2.2'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6013/79/kubejs_actuallyadditions-neoforge-1.21.1-0.2.2.jar'
+        filename: 'kubejs_actuallyadditions-neoforge-1.21.1-0.2.2.jar'
+        side: both
+      - name: 'cookingforblockheads-neoforge-1.21.1-21.1.11'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6200/287/cookingforblockheads-neoforge-1.21.1-21.1.11.jar'
+        filename: 'cookingforblockheads-neoforge-1.21.1-21.1.11.jar'
+        side: both
+      - name: 'xtonesreworked-1.1.0-NF-1.21_21.0.167'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5779/277/xtonesreworked-1.1.0-NF-1.21_21.0.167.jar'
+        filename: 'xtonesreworked-1.1.0-NF-1.21_21.0.167.jar'
+        side: both
+      - name: 'MysticalAgradditions-1.21.1-8.0.4'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6034/61/MysticalAgradditions-1.21.1-8.0.4.jar'
+        filename: 'MysticalAgradditions-1.21.1-8.0.4.jar'
+        side: both
+      - name: 'ftbpromoter-21.1.18'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6183/195/ftbpromoter-21.1.18.jar'
+        filename: 'ftbpromoter-21.1.18.jar'
+        side: both
+      - name: 'factory_blocks-neoforge-1.3.4+mc1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5893/478/factory_blocks-neoforge-1.3.4%2bmc1.21.1.jar'
+        filename: 'factory_blocks-neoforge-1.3.4+mc1.21.1.jar'
+        side: both
+      - name: 'OctoLib-NEOFORGE-0.5.0.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6011/408/OctoLib-NEOFORGE-0.5.0.1.jar'
+        filename: 'OctoLib-NEOFORGE-0.5.0.1.jar'
+        side: both
+      - name: 'modonomicon-1.21.1-neoforge-1.112.2'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6182/122/modonomicon-1.21.1-neoforge-1.112.2.jar'
+        filename: 'modonomicon-1.21.1-neoforge-1.112.2.jar'
+        side: both
+      - name: 'almostunified-neoforge-1.21.1-1.2.3'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6014/834/almostunified-neoforge-1.21.1-1.2.3.jar'
+        filename: 'almostunified-neoforge-1.21.1-1.2.3.jar'
+        side: both
+      - name: 'rgp-client-1.0.9+mc1.21.1'
+        source: url
+        location: 'https://files.feed-the-beast.com/blob/66/666e533e663b95b7a5b2c79a8fc17a7bf1621424f49e5d8634230f11f2554461.jar'
+        filename: 'rgp-client-1.0.9+mc1.21.1.jar'
+        side: both
+      - name: 'LegendaryTooltips-1.21-neoforge-1.4.11'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5591/27/LegendaryTooltips-1.21-neoforge-1.4.11.jar'
+        filename: 'LegendaryTooltips-1.21-neoforge-1.4.11.jar'
+        side: client
+      - name: 'simplylight-1.5.3+1.21.1-b4'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6219/29/simplylight-1.5.3%2b1.21.1-b4.jar'
+        filename: 'simplylight-1.5.3+1.21.1-b4.jar'
+        side: both
+      - name: 'MysticalAgriculture-1.21.1-8.0.13'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6228/700/MysticalAgriculture-1.21.1-8.0.13.jar'
+        filename: 'MysticalAgriculture-1.21.1-8.0.13.jar'
+        side: both
+      - name: 'enderio-7.1.6-alpha'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6138/288/enderio-7.1.6-alpha.jar'
+        filename: 'enderio-7.1.6-alpha.jar'
+        side: both
+      - name: 'supermartijn642corelib-1.1.18a-neoforge-mc1.21'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6076/757/supermartijn642corelib-1.1.18a-neoforge-mc1.21.jar'
+        filename: 'supermartijn642corelib-1.1.18a-neoforge-mc1.21.jar'
+        side: both
+      - name: 'cpapireforged-neo-1.21.1-1.0.11'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5929/361/cpapireforged-neo-1.21.1-1.0.11.jar'
+        filename: 'cpapireforged-neo-1.21.1-1.0.11.jar'
+        side: both
+      - name: 'lootjs-neoforge-1.21.1-3.3.0'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6095/994/lootjs-neoforge-1.21.1-3.3.0.jar'
+        filename: 'lootjs-neoforge-1.21.1-3.3.0.jar'
+        side: both
+      - name: 'modernworldcreation_neoforge_2.0.1_MC_1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6119/761/modernworldcreation_neoforge_2.0.1_MC_1.21.1.jar'
+        filename: 'modernworldcreation_neoforge_2.0.1_MC_1.21.1.jar'
+        side: client
+      - name: 'CodeChickenLib-1.21.1-4.6.0.521'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6166/790/CodeChickenLib-1.21.1-4.6.0.521.jar'
+        filename: 'CodeChickenLib-1.21.1-4.6.0.521.jar'
+        side: both
+      - name: 'FarmersDelight-1.21.1-1.2.7'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6154/807/FarmersDelight-1.21.1-1.2.7.jar'
+        filename: 'FarmersDelight-1.21.1-1.2.7.jar'
+        side: both
+      - name: 'RainShield-1.21.1-2.0.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5729/705/RainShield-1.21.1-2.0.1.jar'
+        filename: 'RainShield-1.21.1-2.0.1.jar'
+        side: both
+      - name: 'ftb-teams-neoforge-2101.1.2'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6119/437/ftb-teams-neoforge-2101.1.2.jar'
+        filename: 'ftb-teams-neoforge-2101.1.2.jar'
+        side: both
+      - name: 'insomniacharm-0.1.0'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6235/905/insomniacharm-0.1.0.jar'
+        filename: 'insomniacharm-0.1.0.jar'
+        side: both
+      - name: 'supplementaries-1.21-3.0.37-beta-neoforge'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6213/51/supplementaries-1.21-3.0.37-beta-neoforge.jar'
+        filename: 'supplementaries-1.21-3.0.37-beta-neoforge.jar'
+        side: both
+      - name: 'accelerated-decay-neoforge-21.0.0'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5433/36/accelerated-decay-neoforge-21.0.0.jar'
+        filename: 'accelerated-decay-neoforge-21.0.0.jar'
+        side: both
+      - name: 'ftbrifthelper-21.1.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6230/683/ftbrifthelper-21.1.1.jar'
+        filename: 'ftbrifthelper-21.1.1.jar'
+        side: both
+      - name: 'L_Enders Cataclysm-2.56-1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6208/715/L_Ender%27s%20Cataclysm-2.56-1.21.1.jar'
+        filename: "L_Ender's Cataclysm-2.56-1.21.1.jar"
+        side: both
+      - name: 'ae2ct-1.21.1-1.0.5'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5947/272/ae2ct-1.21.1-1.0.5.jar'
+        filename: 'ae2ct-1.21.1-1.0.5.jar'
+        side: both
+      - name: 'brickfurnace-neoforge-1.21.1-4.2.0.0'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5850/185/brickfurnace-neoforge-1.21.1-4.2.0.0.jar'
+        filename: 'brickfurnace-neoforge-1.21.1-4.2.0.0.jar'
+        side: both
+      - name: 'Patchouli-1.21-88-NEOFORGE'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6164/617/Patchouli-1.21-88-NEOFORGE.jar'
+        filename: 'Patchouli-1.21-88-NEOFORGE.jar'
+        side: both
+      - name: 'MekanismTools-1.21.1-10.7.10.73'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6242/488/MekanismTools-1.21.1-10.7.10.73.jar'
+        filename: 'MekanismTools-1.21.1-10.7.10.73.jar'
+        side: both
+      - name: 'farsight-1.21-3.8'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5664/472/farsight-1.21-3.8.jar'
+        filename: 'farsight-1.21-3.8.jar'
+        side: both
+      - name: 'clean_tooltips-1.1-neoforge-1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5862/815/clean_tooltips-1.1-neoforge-1.21.1.jar'
+        filename: 'clean_tooltips-1.1-neoforge-1.21.1.jar'
+        side: both
+      - name: 'megacells-4.6.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6132/27/megacells-4.6.1.jar'
+        filename: 'megacells-4.6.1.jar'
+        side: both
+      - name: 'Glodium-1.21-2.2-neoforge'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5821/676/Glodium-1.21-2.2-neoforge.jar'
+        filename: 'Glodium-1.21-2.2-neoforge.jar'
+        side: both
+      - name: 'redstonepen-1.21-neoforge-1.11.42'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6102/752/redstonepen-1.21-neoforge-1.11.42.jar'
+        filename: 'redstonepen-1.21-neoforge-1.11.42.jar'
+        side: both
+      - name: 'nautec-1.21.1-NeoForge-0.2.8'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6247/35/nautec-1.21.1-NeoForge-0.2.8.jar'
+        filename: 'nautec-1.21.1-NeoForge-0.2.8.jar'
+        side: both
+      - name: 'rechiseled-1.1.6a-neoforge-mc1.21'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5663/514/rechiseled-1.1.6a-neoforge-mc1.21.jar'
+        filename: 'rechiseled-1.1.6a-neoforge-mc1.21.jar'
+        side: both
+      - name: 'HostileNeuralNetworks-1.21.1-6.1.3'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6078/22/HostileNeuralNetworks-1.21.1-6.1.3.jar'
+        filename: 'HostileNeuralNetworks-1.21.1-6.1.3.jar'
+        side: both
+      - name: 'atlas_api-1.21-1.0.2'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5980/493/atlas_api-1.21-1.0.2.jar'
+        filename: 'atlas_api-1.21-1.0.2.jar'
+        side: both
+      - name: 'ToolKit-neoforge-87.0.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5521/502/ToolKit-neoforge-87.0.1.jar'
+        filename: 'ToolKit-neoforge-87.0.1.jar'
+        side: both
+      - name: 'AE2-Things-1.4.2-beta'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5637/783/AE2-Things-1.4.2-beta.jar'
+        filename: 'AE2-Things-1.4.2-beta.jar'
+        side: both
+      - name: 'structure-expansion-neoforge-87.0.0'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5444/108/structure-expansion-neoforge-87.0.0.jar'
+        filename: 'structure-expansion-neoforge-87.0.0.jar'
+        side: both
+      - name: 'bucketlib-neoforge-1.21-4.1.2.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6221/554/bucketlib-neoforge-1.21-4.1.2.1.jar'
+        filename: 'bucketlib-neoforge-1.21-4.1.2.1.jar'
+        side: both
+      - name: 'buildinggadgets2-1.3.8'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5968/587/buildinggadgets2-1.3.8.jar'
+        filename: 'buildinggadgets2-1.3.8.jar'
+        side: both
+      - name: 'compactmachines-neoforge-7.0.22'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6101/840/compactmachines-neoforge-7.0.22.jar'
+        filename: 'compactmachines-neoforge-7.0.22.jar'
+        side: both
+      - name: 'weathergate-neo-2.0.0+mc1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5712/24/weathergate-neo-2.0.0%2bmc1.21.1.jar'
+        filename: 'weathergate-neo-2.0.0+mc1.21.1.jar'
+        side: both
+      - name: 'servercore-neoforge-1.5.5+1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5667/811/servercore-neoforge-1.5.5%2b1.21.1.jar'
+        filename: 'servercore-neoforge-1.5.5+1.21.1.jar'
+        side: both
+      - name: 'BridgingMod-2.5.0+1.21.1.neoforge-release'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5786/591/BridgingMod-2.5.0%2b1.21.1.neoforge-release.jar'
+        filename: 'BridgingMod-2.5.0+1.21.1.neoforge-release.jar'
+        side: both
+      - name: 'ftbstuff-21.1.6'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6210/349/ftbstuff-21.1.6.jar'
+        filename: 'ftbstuff-21.1.6.jar'
+        side: both
+      - name: 'ftboceanmobs-21.1.2'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6217/182/ftboceanmobs-21.1.2.jar'
+        filename: 'ftboceanmobs-21.1.2.jar'
+        side: both
+      - name: 'Replication-1.21.1-1.1.15'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6168/308/Replication-1.21.1-1.1.15.jar'
+        filename: 'Replication-1.21.1-1.1.15.jar'
+        side: both
+      - name: 'ftb-ranks-neoforge-2101.1.2'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6213/933/ftb-ranks-neoforge-2101.1.2.jar'
+        filename: 'ftb-ranks-neoforge-2101.1.2.jar'
+        side: both
+      - name: 'flatbedrock-neoforge-87.0.0'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5443/976/flatbedrock-neoforge-87.0.0.jar'
+        filename: 'flatbedrock-neoforge-87.0.0.jar'
+        side: both
+      - name: 'iris-neoforge-1.8.8+mc1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6213/632/iris-neoforge-1.8.8%2bmc1.21.1.jar'
+        filename: 'iris-neoforge-1.8.8+mc1.21.1.jar'
+        side: client
+      - name: 'integratedtunnels-1.21.1-neoforge-1.8.35'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6221/737/integratedtunnels-1.21.1-neoforge-1.8.35.jar'
+        filename: 'integratedtunnels-1.21.1-neoforge-1.8.35.jar'
+        side: both
+      - name: 'geckolib-neoforge-1.21.1-4.7.3'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6027/599/geckolib-neoforge-1.21.1-4.7.3.jar'
+        filename: 'geckolib-neoforge-1.21.1-4.7.3.jar'
+        side: both
+      - name: 'integratedcrafting-1.21.1-neoforge-1.1.16'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6195/324/integratedcrafting-1.21.1-neoforge-1.1.16.jar'
+        filename: 'integratedcrafting-1.21.1-neoforge-1.1.16.jar'
+        side: both
+      - name: 'GatewaysToEternity-1.21.1-5.0.2'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6021/376/GatewaysToEternity-1.21.1-5.0.2.jar'
+        filename: 'GatewaysToEternity-1.21.1-5.0.2.jar'
+        side: both
+      - name: 'sodiumdynamiclights-neoforge-1.0.10-1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6044/477/sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar'
+        filename: 'sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar'
+        side: client
+      - name: 'BambooEverything-neoforge-21.1.0+mc1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5711/288/BambooEverything-neoforge-21.1.0%2bmc1.21.1.jar'
+        filename: 'BambooEverything-neoforge-21.1.0+mc1.21.1.jar'
+        side: both
+      - name: 'cyclopscore-1.21.1-neoforge-1.25.7'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6230/91/cyclopscore-1.21.1-neoforge-1.25.7.jar'
+        filename: 'cyclopscore-1.21.1-neoforge-1.25.7.jar'
+        side: both
+      - name: 'SmartBrainLib-neoforge-1.21.1-1.16.7'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6101/242/SmartBrainLib-neoforge-1.21.1-1.16.7.jar'
+        filename: 'SmartBrainLib-neoforge-1.21.1-1.16.7.jar'
+        side: both
+      - name: 'toofast-1.21.0-0.4.3.5'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6010/22/toofast-1.21.0-0.4.3.5.jar'
+        filename: 'toofast-1.21.0-0.4.3.5.jar'
+        side: both
+      - name: 'moonlight-1.21-2.17.30-neoforge'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6224/57/moonlight-1.21-2.17.30-neoforge.jar'
+        filename: 'moonlight-1.21-2.17.30-neoforge.jar'
+        side: both
+      - name: 'MysticalCustomization-1.21.1-6.0.0'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5651/37/MysticalCustomization-1.21.1-6.0.0.jar'
+        filename: 'MysticalCustomization-1.21.1-6.0.0.jar'
+        side: both
+      - name: 'stickit-1.21.1-NeoForge-1.0.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6099/183/stickit-1.21.1-NeoForge-1.0.1.jar'
+        filename: 'stickit-1.21.1-NeoForge-1.0.1.jar'
+        side: both
+      - name: 'MouseTweaks-neoforge-mc1.21-2.26.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5637/846/MouseTweaks-neoforge-mc1.21-2.26.1.jar'
+        filename: 'MouseTweaks-neoforge-mc1.21-2.26.1.jar'
+        side: client
+      - name: 'jamlib-neoforge-1.2.2-build.2+1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5988/164/jamlib-neoforge-1.2.2-build.2%2b1.21.1.jar'
+        filename: 'jamlib-neoforge-1.2.2-build.2+1.21.1.jar'
+        side: both
+      - name: 'integrateddynamics-1.21.1-neoforge-1.25.6'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6221/696/integrateddynamics-1.21.1-neoforge-1.25.6.jar'
+        filename: 'integrateddynamics-1.21.1-neoforge-1.25.6.jar'
+        side: both
+      - name: 'trenzalore-neo-6.1.1+mc1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5623/160/trenzalore-neo-6.1.1%2bmc1.21.1.jar'
+        filename: 'trenzalore-neo-6.1.1+mc1.21.1.jar'
+        side: both
+      - name: 'kotlinforforge-5.7.0-all'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5978/393/kotlinforforge-5.7.0-all.jar'
+        filename: 'kotlinforforge-5.7.0-all.jar'
+        side: both
+      - name: 'kubejs_enderio-neoforge-1.21.1-0.7.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6062/208/kubejs_enderio-neoforge-1.21.1-0.7.1.jar'
+        filename: 'kubejs_enderio-neoforge-1.21.1-0.7.1.jar'
+        side: both
+      - name: 'BlockRunner-v21.1.2-1.21.1-NeoForge'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6215/39/BlockRunner-v21.1.2-1.21.1-NeoForge.jar'
+        filename: 'BlockRunner-v21.1.2-1.21.1-NeoForge.jar'
+        side: both
+      - name: 'sodiumoptionsapi-neoforge-1.0.10-1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6100/815/sodiumoptionsapi-neoforge-1.0.10-1.21.1.jar'
+        filename: 'sodiumoptionsapi-neoforge-1.0.10-1.21.1.jar'
+        side: client
+      - name: 'ImmediatelyFast-NeoForge-1.3.5+1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6236/703/ImmediatelyFast-NeoForge-1.3.5%2b1.21.1.jar'
+        filename: 'ImmediatelyFast-NeoForge-1.3.5+1.21.1.jar'
+        side: client
+      - name: 'ZeroCore2-1.21.1-2.4.16'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6160/798/ZeroCore2-1.21.1-2.4.16.jar'
+        filename: 'ZeroCore2-1.21.1-2.4.16.jar'
+        side: both
+      - name: 'athena-neoforge-1.21-4.0.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5629/395/athena-neoforge-1.21-4.0.1.jar'
+        filename: 'athena-neoforge-1.21-4.0.1.jar'
+        side: both
+      - name: 'DnT-ocean-monument-replacement-v1.2 [NeoForge]'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5724/461/DnT-ocean-monument-replacement-v1.2%20%5bNeoForge%5d.jar'
+        filename: 'DnT-ocean-monument-replacement-v1.2 [NeoForge].jar'
+        side: both
+      - name: 'enchdesc-neoforge-1.21.1-21.1.5'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5824/116/enchdesc-neoforge-1.21.1-21.1.5.jar'
+        filename: 'enchdesc-neoforge-1.21.1-21.1.5.jar'
+        side: both
+      - name: 'moreoverlays-1.23.2-mc1.21-neoforge'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5632/686/moreoverlays-1.23.2-mc1.21-neoforge.jar'
+        filename: 'moreoverlays-1.23.2-mc1.21-neoforge.jar'
+        side: client
+      - name: 'cropsneedwater-1.1.0'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6165/618/cropsneedwater-1.1.0.jar'
+        filename: 'cropsneedwater-1.1.0.jar'
+        side: both
+      - name: 'ImmersiveEngineering-1.21.1-12.0.0-182'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5828/0/ImmersiveEngineering-1.21.1-12.0.0-182.jar'
+        filename: 'ImmersiveEngineering-1.21.1-12.0.0-182.jar'
+        side: both
+      - name: 'more-immersive-wires-1.21.1-1.1.6'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6002/746/more-immersive-wires-1.21.1-1.1.6.jar'
+        filename: 'more-immersive-wires-1.21.1-1.1.6.jar'
+        side: both
+      - name: 'ftbbackups2-neoforge-1.21-1.0.28'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5501/351/ftbbackups2-neoforge-1.21-1.0.28.jar'
+        filename: 'ftbbackups2-neoforge-1.21-1.0.28.jar'
+        side: both
+      - name: 'modular-routers-13.2.1+mc1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6130/459/modular-routers-13.2.1%2bmc1.21.1.jar'
+        filename: 'modular-routers-13.2.1+mc1.21.1.jar'
+        side: both
+      - name: 'Placebo-1.21.1-9.6.5'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6105/436/Placebo-1.21.1-9.6.5.jar'
+        filename: 'Placebo-1.21.1-9.6.5.jar'
+        side: both
+      - name: 'spark-1.10.124-neoforge'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6225/208/spark-1.10.124-neoforge.jar'
+        filename: 'spark-1.10.124-neoforge.jar'
+        side: both
+      - name: 'illagerwarship-1.0.0-neoforge-1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5681/744/illagerwarship-1.0.0-neoforge-1.21.1.jar'
+        filename: 'illagerwarship-1.0.0-neoforge-1.21.1.jar'
+        side: both
+      - name: 'rusticdelight-neoforge-1.21-1.4.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6243/354/rusticdelight-neoforge-1.21-1.4.1.jar'
+        filename: 'rusticdelight-neoforge-1.21-1.4.1.jar'
+        side: both
+      - name: 'fzzy_config-0.6.4+1.21+neoforge'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6144/532/fzzy_config-0.6.4%2b1.21%2bneoforge.jar'
+        filename: 'fzzy_config-0.6.4+1.21+neoforge.jar'
+        side: both
+      - name: 'productivemetalworks-1.21.1-1.2.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6222/420/productivemetalworks-1.21.1-1.2.1.jar'
+        filename: 'productivemetalworks-1.21.1-1.2.1.jar'
+        side: both
+      - name: 'ToolBelt-1.21.1-2.2.6'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5929/65/ToolBelt-1.21.1-2.2.6.jar'
+        filename: 'ToolBelt-1.21.1-2.2.6.jar'
+        side: both
+      - name: 'ResourcePackOverrides-v21.1.0-1.21.1-NeoForge'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5733/968/ResourcePackOverrides-v21.1.0-1.21.1-NeoForge.jar'
+        filename: 'ResourcePackOverrides-v21.1.0-1.21.1-NeoForge.jar'
+        side: both
+      - name: 'AdvancementPlaques-1.21.1-neoforge-1.6.8'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5905/995/AdvancementPlaques-1.21.1-neoforge-1.6.8.jar'
+        filename: 'AdvancementPlaques-1.21.1-neoforge-1.6.8.jar'
+        side: both
+      - name: 'elevatorid-neoforge-1.21.1-1.11.4'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6199/696/elevatorid-neoforge-1.21.1-1.11.4.jar'
+        filename: 'elevatorid-neoforge-1.21.1-1.11.4.jar'
+        side: both
+      - name: 'ftb-quests-neoforge-2101.1.5'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6167/37/ftb-quests-neoforge-2101.1.5.jar'
+        filename: 'ftb-quests-neoforge-2101.1.5.jar'
+        side: both
+      - name: 'reeses-sodium-options-neoforge-1.8.3+mc1.21.4'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6091/21/reeses-sodium-options-neoforge-1.8.3%2bmc1.21.4.jar'
+        filename: 'reeses-sodium-options-neoforge-1.8.3+mc1.21.4.jar'
+        side: both
+      - name: 'caelus-neoforge-7.0.1+1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5694/215/caelus-neoforge-7.0.1%2b1.21.1.jar'
+        filename: 'caelus-neoforge-7.0.1+1.21.1.jar'
+        side: both
+      - name: 'pocketstorage-1.2.4+1.21.1-b40'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5704/328/pocketstorage-1.2.4%2b1.21.1-b40.jar'
+        filename: 'pocketstorage-1.2.4+1.21.1-b40.jar'
+        side: both
+      - name: 'BuildGuide-1.21-0.4.4'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6090/505/BuildGuide-1.21-0.4.4.jar'
+        filename: 'BuildGuide-1.21-0.4.4.jar'
+        side: both
+      - name: 'Controlling-neoforge-1.21.1-19.0.4'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6085/646/Controlling-neoforge-1.21.1-19.0.4.jar'
+        filename: 'Controlling-neoforge-1.21.1-19.0.4.jar'
+        side: both
+      - name: 'BHMenu-NeoForge-1.21-2.4.3'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5762/91/BHMenu-NeoForge-1.21-2.4.3.jar'
+        filename: 'BHMenu-NeoForge-1.21-2.4.3.jar'
+        side: both
+      - name: 'oritech-neoforge-0.14.3'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6227/2/oritech-neoforge-0.14.3.jar'
+        filename: 'oritech-neoforge-0.14.3.jar'
+        side: both
+      - name: 'oceansdelight-neoforge-1.0.3-1.21'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5618/115/oceansdelight-neoforge-1.0.3-1.21.jar'
+        filename: 'oceansdelight-neoforge-1.0.3-1.21.jar'
+        side: both
+      - name: 'simpletomb-1.21.1-1.4.3'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5957/498/simpletomb-1.21.1-1.4.3.jar'
+        filename: 'simpletomb-1.21.1-1.4.3.jar'
+        side: both
+      - name: 'fancymenu_neoforge_3.4.6_MC_1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6231/147/fancymenu_neoforge_3.4.6_MC_1.21.1.jar'
+        filename: 'fancymenu_neoforge_3.4.6_MC_1.21.1.jar'
+        side: both
+      - name: 'ftb-library-neoforge-2101.1.10'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6229/316/ftb-library-neoforge-2101.1.10.jar'
+        filename: 'ftb-library-neoforge-2101.1.10.jar'
+        side: both
+      - name: 'Not Enough Recipe Book-NEOFORGE-0.4.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5632/777/Not%20Enough%20Recipe%20Book-NEOFORGE-0.4.1.jar'
+        filename: 'Not Enough Recipe Book-NEOFORGE-0.4.1.jar'
+        side: both
+      - name: 'crashutilities-9.0.4'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5993/450/crashutilities-9.0.4.jar'
+        filename: 'crashutilities-9.0.4.jar'
+        side: both
+      - name: 'arseng-2.1.1-beta'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6203/425/arseng-2.1.1-beta.jar'
+        filename: 'arseng-2.1.1-beta.jar'
+        side: both
+      - name: 'ftb-chunks-neoforge-2101.1.7'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6121/389/ftb-chunks-neoforge-2101.1.7.jar'
+        filename: 'ftb-chunks-neoforge-2101.1.7.jar'
+        side: both
+      - name: 'yeetusexperimentus-neoforge-87.0.0'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5444/189/yeetusexperimentus-neoforge-87.0.0.jar'
+        filename: 'yeetusexperimentus-neoforge-87.0.0.jar'
+        side: client
+      - name: 'chipped-neoforge-1.21.1-4.0.2'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5813/117/chipped-neoforge-1.21.1-4.0.2.jar'
+        filename: 'chipped-neoforge-1.21.1-4.0.2.jar'
+        side: both
+      - name: 'solcarrot-1.21.1-1.16.5'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5957/429/solcarrot-1.21.1-1.16.5.jar'
+        filename: 'solcarrot-1.21.1-1.16.5.jar'
+        side: both
+      - name: 'cupboard-1.21-2.9'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6078/150/cupboard-1.21-2.9.jar'
+        filename: 'cupboard-1.21-2.9.jar'
+        side: both
+      - name: 'crafting_on_a_stick-1.21.0.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5472/825/crafting_on_a_stick-1.21.0.1.jar'
+        filename: 'crafting_on_a_stick-1.21.0.1.jar'
+        side: both
+      - name: 'Cucumber-1.21.1-8.0.10'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6228/644/Cucumber-1.21.1-8.0.10.jar'
+        filename: 'Cucumber-1.21.1-8.0.10.jar'
+        side: both
+      - name: 'mob_grinding_utils-1.1.7+mc1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6022/733/mob_grinding_utils-1.1.7%2bmc1.21.1.jar'
+        filename: 'mob_grinding_utils-1.1.7+mc1.21.1.jar'
+        side: both
+      - name: 'obsidianboat-neo-21.1.2+mc1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6120/652/obsidianboat-neo-21.1.2%2bmc1.21.1.jar'
+        filename: 'obsidianboat-neo-21.1.2+mc1.21.1.jar'
+        side: both
+      - name: 'HoloSigns-1.21.1-1.0.0'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6031/586/HoloSigns-1.21.1-1.0.0.jar'
+        filename: 'HoloSigns-1.21.1-1.0.0.jar'
+        side: both
+      - name: 'ferritecore-7.0.2-neoforge'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5850/121/ferritecore-7.0.2-neoforge.jar'
+        filename: 'ferritecore-7.0.2-neoforge.jar'
+        side: both
+      - name: 'TravelersTitles-1.21.1-NeoForge-5.1.2'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6158/405/TravelersTitles-1.21.1-NeoForge-5.1.2.jar'
+        filename: 'TravelersTitles-1.21.1-NeoForge-5.1.2.jar'
+        side: both
+      - name: 'konkrete_neoforge_1.9.9_MC_1.21'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5453/385/konkrete_neoforge_1.9.9_MC_1.21.jar'
+        filename: 'konkrete_neoforge_1.9.9_MC_1.21.jar'
+        side: both
+      - name: 'Fishingreal-1.21-1.9.0'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5559/152/Fishingreal-1.21-1.9.0.jar'
+        filename: 'Fishingreal-1.21-1.9.0.jar'
+        side: both
+      - name: 'coroutil-neoforge-1.21.0-1.3.8'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5622/966/coroutil-neoforge-1.21.0-1.3.8.jar'
+        filename: 'coroutil-neoforge-1.21.0-1.3.8.jar'
+        side: both
+      - name: 'OpenBlocksTrophies-1.21-5.1.6'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6111/474/OpenBlocksTrophies-1.21-5.1.6.jar'
+        filename: 'OpenBlocksTrophies-1.21-5.1.6.jar'
+        side: both
+      - name: 'ftb-team-bases-neoforge-21.1.2'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6188/765/ftb-team-bases-neoforge-21.1.2.jar'
+        filename: 'ftb-team-bases-neoforge-21.1.2.jar'
+        side: both
+      - name: 'pipe_connector-neoforge-0.5.5'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5951/256/pipe_connector-neoforge-0.5.5.jar'
+        filename: 'pipe_connector-neoforge-0.5.5.jar'
+        side: both
+      - name: 'Swashbucklers! 2.6.5 1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5742/925/Swashbucklers!%202.6.5%201.21.1.jar'
+        filename: 'Swashbucklers! 2.6.5 1.21.1.jar'
+        side: both
+      - name: 'Glassential-renewed-neoforge-1.21.1-3.1.5'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6083/428/Glassential-renewed-neoforge-1.21.1-3.1.5.jar'
+        filename: 'Glassential-renewed-neoforge-1.21.1-3.1.5.jar'
+        side: both
+      - name: 'NeoAuth-1.21.1-1.0.0'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5906/332/NeoAuth-1.21.1-1.0.0.jar'
+        filename: 'NeoAuth-1.21.1-1.0.0.jar'
+        side: both
+      - name: 'Iceberg-1.21.1-neoforge-1.2.9.2'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6118/329/Iceberg-1.21.1-neoforge-1.2.9.2.jar'
+        filename: 'Iceberg-1.21.1-neoforge-1.2.9.2.jar'
+        side: both
+      - name: 'Measurements-neoforge-1.21-3.0.0'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5435/858/Measurements-neoforge-1.21-3.0.0.jar'
+        filename: 'Measurements-neoforge-1.21-3.0.0.jar'
+        side: both
+      - name: 'carryon-neoforge-1.21.1-2.2.2.11'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5649/344/carryon-neoforge-1.21.1-2.2.2.11.jar'
+        filename: 'carryon-neoforge-1.21.1-2.2.2.11.jar'
+        side: both
+      - name: 'easy-piglins-neoforge-1.21.1-1.0.14'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6137/967/easy-piglins-neoforge-1.21.1-1.0.14.jar'
+        filename: 'easy-piglins-neoforge-1.21.1-1.0.14.jar'
+        side: both
+      - name: 'balm-neoforge-1.21.1-21.0.31'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6224/887/balm-neoforge-1.21.1-21.0.31.jar'
+        filename: 'balm-neoforge-1.21.1-21.0.31.jar'
+        side: both
+      - name: 'modernfix-neoforge-5.20.2+mc1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6125/147/modernfix-neoforge-5.20.2%2bmc1.21.1.jar'
+        filename: 'modernfix-neoforge-5.20.2+mc1.21.1.jar'
+        side: both
+      - name: 'sophisticatedbackpacks-1.21.1-3.24.1.1209'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6246/606/sophisticatedbackpacks-1.21.1-3.24.1.1209.jar'
+        filename: 'sophisticatedbackpacks-1.21.1-3.24.1.1209.jar'
+        side: both
+      - name: 'ftb-pack-companion-21.1.1+mc1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6204/863/ftb-pack-companion-21.1.1%2bmc1.21.1.jar'
+        filename: 'ftb-pack-companion-21.1.1+mc1.21.1.jar'
+        side: both
+      - name: 'JustARaftMod-1.21.1-7.0.3'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5777/240/JustARaftMod-1.21.1-7.0.3.jar'
+        filename: 'JustARaftMod-1.21.1-7.0.3.jar'
+        side: both
+      - name: 'morejs-neoforge-1.21-0.13.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5718/906/morejs-neoforge-1.21-0.13.1.jar'
+        filename: 'morejs-neoforge-1.21-0.13.1.jar'
+        side: both
+      - name: 'ConstructionSticks-1.21.1-1.1.5'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6194/235/ConstructionSticks-1.21.1-1.1.5.jar'
+        filename: 'ConstructionSticks-1.21.1-1.1.5.jar'
+        side: both
+      - name: 'ExplorersCompass-1.21.1-3.0.3-neoforge'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5756/947/ExplorersCompass-1.21.1-3.0.3-neoforge.jar'
+        filename: 'ExplorersCompass-1.21.1-3.0.3-neoforge.jar'
+        side: both
+      - name: 'rftoolspower-1.21-7.0.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5961/444/rftoolspower-1.21-7.0.1.jar'
+        filename: 'rftoolspower-1.21-7.0.1.jar'
+        side: both
+      - name: 'Mekanism-1.21.1-10.7.10.73'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6242/484/Mekanism-1.21.1-10.7.10.73.jar'
+        filename: 'Mekanism-1.21.1-10.7.10.73.jar'
+        side: both
+      - name: 'ironchest-1.21-neoforge-16.0.7'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5491/156/ironchest-1.21-neoforge-16.0.7.jar'
+        filename: 'ironchest-1.21-neoforge-16.0.7.jar'
+        side: both
+      - name: 'ftb-filter-system-neoforge-21.0.0'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5584/360/ftb-filter-system-neoforge-21.0.0.jar'
+        filename: 'ftb-filter-system-neoforge-21.0.0.jar'
+        side: both
+      - name: 'PickleTweaks-1.21.1-9.0.5'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6128/567/PickleTweaks-1.21.1-9.0.5.jar'
+        filename: 'PickleTweaks-1.21.1-9.0.5.jar'
+        side: both
+      - name: 'curios-neoforge-9.2.2+1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6076/118/curios-neoforge-9.2.2%2b1.21.1.jar'
+        filename: 'curios-neoforge-9.2.2+1.21.1.jar'
+        side: both
+      - name: 'Super Factory Manager (SFM)-MC1.21.1-4.20.0'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6218/942/Super%20Factory%20Manager%20(SFM)-MC1.21.1-4.20.0.jar'
+        filename: 'Super Factory Manager (SFM)-MC1.21.1-4.20.0.jar'
+        side: both
+      - name: 'wits-1.3.0+1.21-neoforge'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5426/237/wits-1.3.0%2b1.21-neoforge.jar'
+        filename: 'wits-1.3.0+1.21-neoforge.jar'
+        side: both
+      - name: 'supermartijn642configlib-1.1.8-neoforge-mc1.21'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5546/996/supermartijn642configlib-1.1.8-neoforge-mc1.21.jar'
+        filename: 'supermartijn642configlib-1.1.8-neoforge-mc1.21.jar'
+        side: both
+      - name: 'attributefix-neoforge-1.21.1-21.1.2'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5824/104/attributefix-neoforge-1.21.1-21.1.2.jar'
+        filename: 'attributefix-neoforge-1.21.1-21.1.2.jar'
+        side: both
+      - name: 'playerplates-neoforge-21.1.0+mc1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5711/182/playerplates-neoforge-21.1.0%2bmc1.21.1.jar'
+        filename: 'playerplates-neoforge-21.1.0+mc1.21.1.jar'
+        side: both
+      - name: 'Searchables-neoforge-1.21.1-1.0.2'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5831/692/Searchables-neoforge-1.21.1-1.0.2.jar'
+        filename: 'Searchables-neoforge-1.21.1-1.0.2.jar'
+        side: both
+      - name: 'ftb-auxilium-neoforge-21.0.2'
+        source: url
+        location: 'https://files.feed-the-beast.com/blob/2f/2f0a59e5cd0e7ab14af148361d859911a88945deb18c1ae69ee9b3d6e4dd1c6f.jar'
+        filename: 'ftb-auxilium-neoforge-21.0.2.jar'
+        side: both
+      - name: 'immersivemessages-neoforge-1.0.16-1.21.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6066/560/immersivemessages-neoforge-1.0.16-1.21.1.jar'
+        filename: 'immersivemessages-neoforge-1.0.16-1.21.1.jar'
+        side: both
+      - name: 'guideme-21.1.1'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6223/759/guideme-21.1.1.jar'
+        filename: 'guideme-21.1.1.jar'
+        side: both
+      - name: 'commoncapabilities-1.21.1-neoforge-2.9.7-197'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6173/956/commoncapabilities-1.21.1-neoforge-2.9.7-197.jar'
+        filename: 'commoncapabilities-1.21.1-neoforge-2.9.7-197.jar'
+        side: both
+      - name: 'inventoryessentials-neoforge-1.21.1-21.1.2'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6179/258/inventoryessentials-neoforge-1.21.1-21.1.2.jar'
+        filename: 'inventoryessentials-neoforge-1.21.1-21.1.2.jar'
+        side: both
+      - name: 'ceramicbucket-neoforge-1.21-6.1.1.0'
+        source: url
+        location: 'https://edge.forgecdn.net/files/5676/627/ceramicbucket-neoforge-1.21-6.1.1.0.jar'
+        filename: 'ceramicbucket-neoforge-1.21-6.1.1.0.jar'
+        side: both
+      - name: 'flopper-1.21.1-neoforge-1.1.8-174'
+        source: url
+        location: 'https://edge.forgecdn.net/files/6173/963/flopper-1.21.1-neoforge-1.1.8-174.jar'
+        filename: 'flopper-1.21.1-neoforge-1.1.8-174.jar'
+        side: both
+  - id: resolver
+    kind: ModResolver
+    input:
+      mods: modlist
+  - id: writer
+    kind: ModWriter
+    input:
+      resolved: 'resolver'
+  - filename: e34_5.json
+    source: 'writer::json'

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:y_clamped_gradient",
+    "from_y": -1024,
+    "to_y": 1024,
+    "from_value": -1024,
+    "to_value": 1024
+  }
+}

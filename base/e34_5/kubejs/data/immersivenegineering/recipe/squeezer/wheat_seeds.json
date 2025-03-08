@@ -1,0 +1,11 @@
+{
+  "type": "immersiveengineering:squeezer",
+  "energy": 6400,
+  "fluid": {
+    "amount": 80,
+    "id": "pneumaticcraft:vegetable_oil"
+  },
+  "input": {
+    "item": "minecraft:wheat_seeds"
+  }
+}

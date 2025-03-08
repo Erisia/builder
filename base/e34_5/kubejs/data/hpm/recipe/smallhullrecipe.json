@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:planks"
+    },
+    "b": {
+      "tag": "justaraftmod:rafts"
+    }
+  },
+  "result": {
+    "id": "hpm:smallhull",
+    "count": 1
+  }
+}

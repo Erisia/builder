@@ -1,0 +1,19 @@
+	[commands.permLevels]
+		#Specifies requirements for running administrative commands. Requires a server restart to take effect.
+		#0 = ALL, 1 = ADMIN, 2 = OP, 4 = OWNER
+		#Command level required for using the rebind and unbind commands.
+		# Default: 2
+		# Range: 0 ~ 4
+		rebind = 2
+		#Command level required for giving new machines to players.
+		# Default: 2
+		# Range: 0 ~ 4
+		give = 2
+		#Command level required for changing room spawn information.
+		# Default: 2
+		# Range: 0 ~ 4
+		spawn = 2
+		#Command level required for changing room upgrades.
+		# Default: 2
+		# Range: 0 ~ 4
+		upgrades = 2

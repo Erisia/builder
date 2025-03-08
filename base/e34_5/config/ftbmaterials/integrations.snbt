@@ -1,0 +1,14 @@
+{
+	# When ever an integration is enabled, we'll disable the mods world generation in favor of our own.
+	# We'll also attempt to replace recipe inputs and outputs with our own materials.
+	integrations: {
+		# Default: true
+		mekanism: true
+		
+		# Default: true
+		modern_industrialization: true
+		
+		# Default: true
+		thermal_series: true
+	}
+}

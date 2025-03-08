@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "ftb:overworld/abovewater/shadow",
+  "size": 1,
+  "max_distance_from_center": 64,
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "start_height": {
+    "absolute": -15
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "biomes": [
+    "deep_frozen_ocean",
+    "cold_ocean",
+    "deep_cold_ocean",
+    "deep_lukewarm_ocean",
+    "deep_ocean",
+    "frozen_ocean",
+    "lukewarm_ocean",
+    "ocean",
+    "warm_ocean",
+    "ftb:aquabound_expanse"
+  ],
+  "use_expansion_hack": false
+}

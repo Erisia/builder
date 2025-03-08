@@ -1,0 +1,8 @@
+{
+    "overwrite": false,
+    "values": [
+        "ftb:aquabound_expanse",
+        "#minecraft:is_ocean",
+        "#minecraft:is_overworld"
+    ]
+}

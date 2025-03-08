@@ -1,0 +1,108 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": "ftb:y",
+    "points": [
+      {
+        "location": 136,
+        "derivative": 0,
+        "value": 0
+      },
+      {
+        "location": 136,
+        "derivative": 0,
+        "value": 0
+      },
+      {
+        "location": 152,
+        "derivative": 0,
+        "value": 0
+      },
+      {
+        "location": 152,
+        "derivative": 0,
+        "value": 0
+      },
+      {
+        "location": 184,
+        "derivative": 0,
+        "value": 0
+      },
+      {
+        "location": 184,
+        "derivative": 0,
+        "value": 0
+      },
+      {
+        "location": 200,
+        "derivative": 0,
+        "value": 0
+      },
+      {
+        "location": 200,
+        "derivative": 0,
+        "value": 0
+      },
+      {
+        "location": 232,
+        "derivative": 0,
+        "value": 0
+      },
+      {
+        "location": 232,
+        "derivative": 0,
+        "value": 0
+      },
+      {
+        "location": 248,
+        "derivative": 0,
+        "value": 0
+      },
+      {
+        "location": 248,
+        "derivative": 0,
+        "value": 0
+      },
+      {
+        "location": 280,
+        "derivative": 0,
+        "value": 0
+      },
+      {
+        "location": 280,
+        "derivative": 0,
+        "value": 0
+      },
+      {
+        "location": 296,
+        "derivative": 0,
+        "value": 0
+      },
+      {
+        "location": 296,
+        "derivative": 0,
+        "value": 0
+      },
+      {
+        "location": 328,
+        "derivative": 0,
+        "value": 0
+      },
+      {
+        "location": 328,
+        "derivative": 0,
+        "value": 0 
+      },
+      {
+        "location": 344,
+        "derivative": 0,
+        "value": 0
+      },
+      {
+        "location": 344,
+        "derivative": 0,
+        "value": 0
+      }
+    ]
+  }
+}

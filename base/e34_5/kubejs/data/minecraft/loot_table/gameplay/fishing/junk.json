@@ -1,0 +1,170 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lily_pad",
+            "weight": 17
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bone",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:water"
+              }
+            ],
+            "name": "minecraft:potion",
+            "weight": 8
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:string",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bowl",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stick",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": 10.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:ink_sac"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": 5.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:tube_coral"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": 5.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:brain_coral"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": 5.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:bubble_coral"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": 5.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:fire_coral"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": 5.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:horn_coral"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": 4.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:seagrass",
+            "weight": 6
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": 8.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:kelp",
+            "weight": 8
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tripwire_hook",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:rotten_flesh",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:mycelium",
+            "weight": 8
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": 8.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:bamboo",
+            "weight": 10
+          }
+        ],
+        "rolls": 1.0
+      }
+    ],
+    "random_sequence": "minecraft:gameplay/fishing/junk"
+  }

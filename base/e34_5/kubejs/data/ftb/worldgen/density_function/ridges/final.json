@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:range_choice",
+    "input": "ftb:ridges/levels",
+    "min_inclusive": 0,
+    "max_exclusive": 1,
+    "when_in_range": "ftb:ridges/no_rivers",
+    "when_out_of_range": "ftb:ridges/noise"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ftbmaterials"
+    }
+  ],
+  "type": "productivemetalworks:item_casting",
+  "cast": {
+    "item": "productivemetalworks:ingot_cast"
+  },
+  "consume_cast": false,
+  "fluid": {
+    "amount": 90,
+    "tag": "c:molten_constantan"
+  },
+  "result": {
+    "count": 1,
+    "id": "ftbmaterials:constantan_ingot"
+  }
+}

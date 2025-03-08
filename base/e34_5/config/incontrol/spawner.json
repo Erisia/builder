@@ -1,0 +1,20 @@
+[
+    {
+        "mob": ["ftboceanmobs:abyssal_sludge", "ftboceanmobs:abyssal_winged", "ftboceanmobs:corrosive_craig", "ftboceanmobs:mossback_goliath", "ftboceanmobs:rift_demon",
+        "ftboceanmobs:rift_minotaur", "ftboceanmobs:riftling_observer", "ftboceanmobs:shadow_beast"],
+        "persecond": 0.66,
+        "attempts": 10,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "ftb:the_rift",
+            "maxdist": 32,
+            "mindist": 8,
+            "maxlocal": 250,
+            "norestrictions": true,
+            "inliquid": false
+        }
+    }
+]

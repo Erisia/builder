@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": ["warm_ocean", "lukewarm_ocean", "deep_lukewarm_ocean", "cold_ocean", "plains"],
+  "spawners": {
+    "type": "aquatic_frontiers:spongesquid",
+    "weight": 12,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

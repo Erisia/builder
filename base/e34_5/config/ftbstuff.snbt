@@ -1,0 +1,220 @@
+{
+	autohammer: {
+		# Speed of the diamond auto-hammer as ticks taken to process a block
+		# Default: 30
+		# Range: 1 ~ 100000
+		diamond_hammer_speed: 5
+		
+		# Speed of the gold auto-hammer as ticks taken to process a block
+		# Default: 40
+		# Range: 1 ~ 100000
+		gold_hammer_speed: 10
+		
+		# Speed of the netherite auto-hammer as ticks taken to process a block
+		# Default: 15
+		# Range: 1 ~ 100000
+		netherite_hammer_speed: 2
+		
+		# Speed of the iron auto-hammer as ticks taken to process a block
+		# Default: 50
+		# Range: 1 ~ 100000
+		stone_hammer_speed: 20
+	}
+	cobblegen: {
+		# The delay between each cobble generation in ticks
+		# Default: 20
+		# Range: 1 ~ 2147483647
+		cobblegen_tick_rate: 20
+		
+		# Amount of cobble the diamond cobblegen produces per tick
+		# Default: 32
+		# Range: 1 ~ 1000
+		diamond_cobblegen_amount: 16
+		
+		# Amount of cobble the gold cobblegen produces per tick
+		# Default: 16
+		# Range: 1 ~ 1000
+		gold_cobblegen_amount: 4
+		
+		# Amount of cobble the iron cobblegen produces per tick
+		# Default: 8
+		# Range: 1 ~ 1000
+		iron_cobblegen_amount: 2
+		
+		# Amount of cobble the netherite cobblegen produces per tick
+		# Default: 64
+		# Range: 1 ~ 1000
+		netherite_cobblegen_amount: 32
+		
+		# Amount of cobble the stone cobblegen produces per tick
+		# Default: 1
+		# Range: 1 ~ 1000
+		stone_cobblegen_amount: 1
+	}
+	general: {
+		# If true, dev/testing recipes will be available outside a development environment
+		# Leave this false unless actually testing the mod.
+		# Default: false
+		include_dev_recipes: false
+	}
+	pump: {
+		# Amount of charge to add each time the Pump is right-clicked by a player. 20 charge is consumed for every 1000mB of water pumped
+		# Default: 14
+		# Range: 1 ~ 2147483647
+		pump_chargeup_amount: 50
+		
+		# Amount of water to transfer to each valid neighbouring fluid tank on each work cycle (every 20 ticks).
+		# Default: 1000
+		# Range: 1 ~ 2147483647
+		pump_fluid_transfer: 1000
+		
+		# Maximum charge the Pump can have. 20 charge is consumed for every 1000mB of water pumped
+		# Default: 6000
+		# Range: 1000 ~ 2147483647
+		pump_max_charge: 6000
+	}
+	sluice: {
+		diamond: {
+			# Can items be piped in? False = items only clicked in manually
+			# Default: true
+			allowsIO: true
+			
+			# Can fluid be piped in? False = need to use adjacent Pump
+			# Default: true
+			allowsTank: true
+			
+			# FE cost per use
+			# Default: 0
+			# Range: -∞ ~ +∞
+			energyUsage: 0
+			
+			# How much fluid is used per recipe (multiplier for recipe's fluid consumption rate)
+			# Default: 0.75
+			# Range: -∞ ~ +∞
+			fluidMultiplier: 0.5d
+			
+			# How much fluid this sluice's tank can carry (in mB)
+			# Default: 12000
+			# Range: -∞ ~ +∞
+			tankCapacity: 12000
+			
+			# How long it takes to process a resource in this Sluice (multiplier for recipe base tick time)
+			# Default: 0.6
+			# Range: -∞ ~ +∞
+			timeMultiplier: 0.5d
+			
+			# Can sluice be upgraded?
+			# Default: false
+			upgradeable: false
+		}
+		iron: {
+			# Can items be piped in? False = items only clicked in manually
+			# Default: true
+			allowsIO: true
+			
+			# Can fluid be piped in? False = need to use adjacent Pump
+			# Default: false
+			allowsTank: false
+			
+			# FE cost per use
+			# Default: 0
+			# Range: -∞ ~ +∞
+			energyUsage: 0
+			
+			# How much fluid is used per recipe (multiplier for recipe's fluid consumption rate)
+			# Default: 0.6
+			# Range: -∞ ~ +∞
+			fluidMultiplier: 0.75d
+			
+			# How much fluid this sluice's tank can carry (in mB)
+			# Default: 12000
+			# Range: -∞ ~ +∞
+			tankCapacity: 12000
+			
+			# How long it takes to process a resource in this Sluice (multiplier for recipe base tick time)
+			# Default: 0.8
+			# Range: -∞ ~ +∞
+			timeMultiplier: 0.75d
+			
+			# Can sluice be upgraded?
+			# Default: false
+			upgradeable: false
+		}
+		netherite: {
+			# Can items be piped in? False = items only clicked in manually
+			# Default: true
+			allowsIO: true
+			
+			# Can fluid be piped in? False = need to use adjacent Pump
+			# Default: true
+			allowsTank: true
+			
+			# FE cost per use
+			# Default: 40
+			# Range: -∞ ~ +∞
+			energyUsage: 40
+			
+			# How much fluid is used per recipe (multiplier for recipe's fluid consumption rate)
+			# Default: 0.5
+			# Range: -∞ ~ +∞
+			fluidMultiplier: 0.25d
+			
+			# How much fluid this sluice's tank can carry (in mB)
+			# Default: 12000
+			# Range: -∞ ~ +∞
+			tankCapacity: 12000
+			
+			# How long it takes to process a resource in this Sluice (multiplier for recipe base tick time)
+			# Default: 0.4
+			# Range: -∞ ~ +∞
+			timeMultiplier: 0.25d
+			
+			# Can sluice be upgraded?
+			# Default: true
+			upgradeable: true
+		}
+		oak: {
+			# Can items be piped in? False = items only clicked in manually
+			# Default: false
+			allowsIO: false
+			
+			# Can fluid be piped in? False = need to use adjacent Pump
+			# Default: false
+			allowsTank: false
+			
+			# FE cost per use
+			# Default: 0
+			# Range: -∞ ~ +∞
+			energyUsage: 0
+			
+			# How much fluid is used per recipe (multiplier for recipe's fluid consumption rate)
+			# Default: 1.0
+			# Range: -∞ ~ +∞
+			fluidMultiplier: 1.0d
+			
+			# How much fluid this sluice's tank can carry (in mB)
+			# Default: 12000
+			# Range: -∞ ~ +∞
+			tankCapacity: 12000
+			
+			# How long it takes to process a resource in this Sluice (multiplier for recipe base tick time)
+			# Default: 1.0
+			# Range: -∞ ~ +∞
+			timeMultiplier: 1.0d
+			
+			# Can sluice be upgraded?
+			# Default: false
+			upgradeable: false
+		}
+	}
+	water_strainer: {
+		# Location of the loot table used to generate strainer loot from
+		# Default: "ftbstuff:custom/water_strainer_test"
+		strainer_loot_table: "ftb:custom/water_strainer_test"
+		
+		# The delay between each strainer generation in ticks
+		# Default: 20
+		# Range: 1 ~ 2147483647
+		strainer_tick_rate: 40
+	}
+}

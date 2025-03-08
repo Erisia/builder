@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#c:is_nether",
+    "ftb:infernal_abyss"
+  ]
+}

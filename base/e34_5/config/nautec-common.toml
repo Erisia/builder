@@ -1,0 +1,104 @@
+#The height of kelp to be able to grow.
+# Default: 40
+# Range: > 25
+kelpHeight = 25
+#The amount of power required by the mixer each tick.
+# Default: 10
+# Range: > 0
+mixerPowerRequirement = 10
+#The amount of power required by the Augmentation Station each tick.
+# Default: 25
+# Range: > 0
+augmentationPowerRequirement = 25
+#The amount of power required by the Deep Sea Drain each tick.
+# Default: 20
+# Range: > 0
+drainPowerRequirement = 20
+#The distance of normals lasers.
+# Default: 16
+# Range: 0 ~ 128
+laserDistance = 16
+#The distance of Long Distance Laser lasers.
+# Default: 64
+# Range: 0 ~ 128
+longDistanceLaserDistance = 64
+#The capacity of the Mixers Input Tank
+# Default: 1000
+# Range: > 0
+mixerInputCapacity = 1000
+#The capacity of the Mixers Output Tank
+# Default: 1000
+# Range: > 0
+mixerOutputCapacity = 16000
+#The amount of salt water collected by the Deep Sea Drain each second (mb)
+# Default: 500
+# Range: > 0
+drainSaltWaterAmount = 500
+#The fluid capacity of the Deep Sea Drain
+# Default: 128000
+# Range: > 0
+drainCapacity = 128000
+#Determines whether to give the player a book when joining a new world
+spawnBookInInventory = false
+#Determines whether the player should be able to collect salt water when picking up water in an ocean biome
+collectSaltWater = false
+#Determines whether the player should be able to collect pressurized air bottles by right-clicking on a bubble column
+collectAirWithBottle = true
+#The amount of damage the guardian augments laser deals
+# Default: 3
+# Range: > 0
+guardianAugmentDamage = 3
+#Set to false to disable the rendering of augments, this can improve performance
+allowAugmentRendering = true
+#The amount laser power required to have the fisher work
+# Default: 1
+# Range: > 0
+fisherLaserLevel = 1
+#The amount of ticks the fisher takes to make a new item
+# Default: 40
+# Range: > 0
+fisherRunDuration = 40
+#The radius on the x and z plane the fisher checks for the water
+# Default: 2
+# Range: > 1
+fisherRadius = 2
+#The y depth the fisher checks for water
+# Default: 2
+# Range: > 1
+fisherDepth = 2
+#The maximum rate at which bacteria can grow
+# Default: 5.0
+# Range: 0.0 ~ 3.4028234663852886E38
+bacteriaGrowthRateCap = 5.0
+#The maximum rate at which bacteria can produce
+# Default: 2.0
+# Range: 0.0 ~ 3.4028234663852886E38
+bacteriaProductionRateCap = 2.0
+#The maximum rate at which bacteria can resist mutation
+# Default: 1.0
+# Range: 0.0 ~ 3.4028234663852886E38
+bacteriaMutationResistanceCap = 1.0
+#The maximum size a bacteria colony can grow to
+# Default: 40000
+# Range: 0 ~ 9223372036854775807
+bacteriaColonySizeCap = 40000
+#The maximum lifespan of a bacteria colony
+# Default: 24000
+# Range: > 0
+bacteriaLifespanCap = 24000
+#The amount of ticks it takes for the Bacterial Analyzer to analyze a Petri Dish
+# Default: 60
+# Range: > 0
+bacteriaAnalyzerCraftingSpeed = 60
+#The amount of power used by the Bacterial Analyzer each tick
+# Default: 5
+# Range: > 0
+bacteriaAnalyzerPowerUsage = 5
+#The amount of ticks it takes for the Bacterial Analyzer to analyze a Petri Dish
+# Default: 240
+# Range: > 0
+mutatorCraftingSpeed = 240
+#The amount of power used by the Mutator each tick
+# Default: 10
+# Range: > 0
+mutatorPowerUsage = 10

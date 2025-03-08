@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "A": { "item": "actuallyadditions:diamatine_crystal" },
+      "C": { "tag": "c:circuits/ultimate" },
+      "I": { "tag": "c:ingots/refined_obsidian" },
+      "X": { "item": "mekanism:steel_casing" }
+    },
+    "pattern": ["IAI", "CXC", "IAI"],
+    "result": { "count": 1, "id": "mekanism:chemical_crystallizer" }
+  }
+  
