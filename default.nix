@@ -17,15 +17,15 @@ rec {
     tmuxName = "e345";
     description = "E34.5: Mare Incognitus";
     ram = "8G";
-    port = 25566;
-    prometheusPort = 1225;
+    port = 25565;
+    prometheusPort = 1224;
     minecraft = "1.21.1";
     neoforge = {
       major =  "21.1.122";
       minor = "21.1.122";
     };
     extraDirs = [
-      ./base/e345
+      ./base/e34_5
     ];
     extraServerDirs = [
       ./base/server
