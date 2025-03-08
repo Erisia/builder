@@ -619,11 +619,6 @@ nodes:
         location: 'https://edge.forgecdn.net/files/6034/61/MysticalAgradditions-1.21.1-8.0.4.jar'
         filename: 'MysticalAgradditions-1.21.1-8.0.4.jar'
         side: both
-      - name: 'ftbpromoter-21.1.18'
-        source: url
-        location: 'https://edge.forgecdn.net/files/6183/195/ftbpromoter-21.1.18.jar'
-        filename: 'ftbpromoter-21.1.18.jar'
-        side: both
       - name: 'factory_blocks-neoforge-1.3.4+mc1.21.1'
         source: url
         location: 'https://edge.forgecdn.net/files/5893/478/factory_blocks-neoforge-1.3.4%2bmc1.21.1.jar'
@@ -643,11 +638,6 @@ nodes:
         source: url
         location: 'https://edge.forgecdn.net/files/6014/834/almostunified-neoforge-1.21.1-1.2.3.jar'
         filename: 'almostunified-neoforge-1.21.1-1.2.3.jar'
-        side: both
-      - name: 'rgp-client-1.0.9+mc1.21.1'
-        source: url
-        location: 'https://files.feed-the-beast.com/blob/66/666e533e663b95b7a5b2c79a8fc17a7bf1621424f49e5d8634230f11f2554461.jar'
-        filename: 'rgp-client-1.0.9+mc1.21.1.jar'
         side: both
       - name: 'LegendaryTooltips-1.21-neoforge-1.4.11'
         source: url
@@ -1378,11 +1368,6 @@ nodes:
         source: url
         location: 'https://edge.forgecdn.net/files/5831/692/Searchables-neoforge-1.21.1-1.0.2.jar'
         filename: 'Searchables-neoforge-1.21.1-1.0.2.jar'
-        side: both
-      - name: 'ftb-auxilium-neoforge-21.0.2'
-        source: url
-        location: 'https://files.feed-the-beast.com/blob/2f/2f0a59e5cd0e7ab14af148361d859911a88945deb18c1ae69ee9b3d6e4dd1c6f.jar'
-        filename: 'ftb-auxilium-neoforge-21.0.2.jar'
         side: both
       - name: 'immersivemessages-neoforge-1.0.16-1.21.1'
         source: url

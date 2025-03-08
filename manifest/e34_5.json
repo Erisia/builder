@@ -1846,19 +1846,6 @@
     "sha256": "81d83feb45b0c26d77d36cc1f7817fd5044bf4305bc540f3d2fba9b09da5e61e"
   },
   {
-    "name": "ftb-auxilium-neoforge-21.0.2",
-    "title": "ftb-auxilium-neoforge-21.0.2",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "ftb-auxilium-neoforge-21.0.2.jar",
-    "encoded": "ftb-auxilium-neoforge-21.0.2.jar",
-    "src": "https://files.feed-the-beast.com/blob/2f/2f0a59e5cd0e7ab14af148361d859911a88945deb18c1ae69ee9b3d6e4dd1c6f.jar",
-    "size": 45257,
-    "md5": "0cf1ea143aca86666408ff035ce7c8a4",
-    "sha256": "987f227f666e91e09fe3a44886510850c3a82ca8eede012fe4eb819217bd758a"
-  },
-  {
     "name": "ftb-chunks-neoforge-2101.1.7",
     "title": "ftb-chunks-neoforge-2101.1.7",
     "side": "both",
@@ -2052,19 +2039,6 @@
     "size": 2243365,
     "md5": "85d07716b575b2bffa22127f761dbdd9",
     "sha256": "3b590cb23d0dc1f43a9e29337d3cd584717e944a13faadcf9c104f73cb6a3cca"
-  },
-  {
-    "name": "ftbpromoter-21.1.18",
-    "title": "ftbpromoter-21.1.18",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "ftbpromoter-21.1.18.jar",
-    "encoded": "ftbpromoter-21.1.18.jar",
-    "src": "https://edge.forgecdn.net/files/6183/195/ftbpromoter-21.1.18.jar",
-    "size": 30696,
-    "md5": "ff4882d3b397c18ca324dcd5b5729500",
-    "sha256": "8365d434bc5c7659b77ef14e18e36798543613c8e8eb202256b8f3c2536ff0a7"
   },
   {
     "name": "ftbrifthelper-21.1.1",
@@ -3144,19 +3118,6 @@
     "size": 580513,
     "md5": "16f29512bfeffcef2c25114f67ca3e29",
     "sha256": "27655b9697f4ea64bef7bd52d655e9c05e3073bd42a173df93de7aff83e7b0f8"
-  },
-  {
-    "name": "rgp-client-1.0.9+mc1.21.1",
-    "title": "rgp-client-1.0.9+mc1.21.1",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "rgp-client-1.0.9+mc1.21.1.jar",
-    "encoded": "rgp-client-1.0.9%2Bmc1.21.1.jar",
-    "src": "https://files.feed-the-beast.com/blob/66/666e533e663b95b7a5b2c79a8fc17a7bf1621424f49e5d8634230f11f2554461.jar",
-    "size": 7277193,
-    "md5": "a7ae612b17c6ad63df8df381b1471725",
-    "sha256": "36051d000840d8a7bc1d5588566779d091953f1b816675b09eb3ca64f6211699"
   },
   {
     "name": "rhino-2101.2.7-build.74",
