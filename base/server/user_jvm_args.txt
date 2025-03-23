@@ -1,6 +1,6 @@
  -Xms@ram@
  -Xmx@ram@
- -Djava.net.preferIPv4Stack=true
+ -Djava.net.preferIPv4Stack=false
  -Dlog4j2.formatMsgNoLookups=true
  -Dfml.readTimeout=1800
  -Dfml.loginTimeout=36000
