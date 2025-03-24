@@ -28,7 +28,7 @@ rec {
       ./base/e34_5
     ];
     extraServerDirs = [
-	  ./base/e34_5-server
+      ./base/e34_5-server
       ./base/server
     ];
     manifest = ./manifest/e34_5.json;
