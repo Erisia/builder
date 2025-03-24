@@ -2015,19 +2015,6 @@
     "sha256": "8e114bd7e18355f49befba23d4197c62bcb8eb785a43aa7afc82c8b2d5076c69"
   },
   {
-    "name": "ftbbackups2-neoforge-1.21-1.0.28",
-    "title": "ftbbackups2-neoforge-1.21-1.0.28",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "ftbbackups2-neoforge-1.21-1.0.28.jar",
-    "encoded": "ftbbackups2-neoforge-1.21-1.0.28.jar",
-    "src": "https://edge.forgecdn.net/files/5501/351/ftbbackups2-neoforge-1.21-1.0.28.jar",
-    "size": 1936882,
-    "md5": "ed1a0d8d71a44e84d7c9eeb561cfb1a4",
-    "sha256": "03f8e0c2f2a7b5140e3cfd362fca1613f311d7b5175096a41b030a6389796630"
-  },
-  {
     "name": "ftbmaterials-neoforge-21.1.0-beta.7",
     "title": "ftbmaterials-neoforge-21.1.0-beta.7",
     "side": "both",

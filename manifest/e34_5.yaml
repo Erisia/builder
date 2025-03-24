@@ -1014,11 +1014,6 @@ nodes:
         location: 'https://edge.forgecdn.net/files/6002/746/more-immersive-wires-1.21.1-1.1.6.jar'
         filename: 'more-immersive-wires-1.21.1-1.1.6.jar'
         side: both
-      - name: 'ftbbackups2-neoforge-1.21-1.0.28'
-        source: url
-        location: 'https://edge.forgecdn.net/files/5501/351/ftbbackups2-neoforge-1.21-1.0.28.jar'
-        filename: 'ftbbackups2-neoforge-1.21-1.0.28.jar'
-        side: both
       - name: 'modular-routers-13.2.1+mc1.21.1'
         source: url
         location: 'https://edge.forgecdn.net/files/6130/459/modular-routers-13.2.1%2bmc1.21.1.jar'
