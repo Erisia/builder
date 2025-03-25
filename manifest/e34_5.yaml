@@ -9,6 +9,11 @@ nodes:
         id: 'rbJ7eS5V'
         file_id: 'Tvnxofx4'
         side: server
+      - name: 'no-chat-reports'
+        source: modrinth
+        id: 'qQyHxfxd'
+        file_id: 'ZV8eL55E'
+        side: both
       - name: 'farmingforblockheads-neoforge-1.21.1-21.1.7'
         source: url
         location: 'https://edge.forgecdn.net/files/6185/977/farmingforblockheads-neoforge-1.21.1-21.1.7.jar'

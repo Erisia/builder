@@ -2808,6 +2808,19 @@
     "sha256": "15af9b8784371947a7d1e7709684b4d347486d1d8542f716316ed65fd9249e88"
   },
   {
+    "name": "no-chat-reports",
+    "title": "No Chat Reports",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar",
+    "encoded": "NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar",
+    "src": "https://cdn.modrinth.com/data/qQyHxfxd/versions/ZV8eL55E/NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar",
+    "size": 306668,
+    "md5": "07496752e6b64dd33d68cd5166818402",
+    "sha256": "866ac9a47afcd829bdb03890b5d8f80bb4c6f47332c64717b6e909bee51337b6"
+  },
+  {
     "name": "obsidianboat-neo-21.1.2+mc1.21.1",
     "title": "obsidianboat-neo-21.1.2+mc1.21.1",
     "side": "both",
