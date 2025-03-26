@@ -143,6 +143,8 @@ fi
 
 echo $$ > server.pid
 
+stty sane # Reset the terminal
+
 if [[ -e fabric ]]; then
     # This is a Fabric server. Use newer Java.
     nix run nixpkgs#jre -- \
