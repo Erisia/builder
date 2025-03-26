@@ -8,7 +8,7 @@ rec {
   packs = {
     # e33 = buildPack e33;
     # e33_5 = buildPack e33_5;
-    e34 = buildPack e34;
+    # e34 = buildPack e34;
     e34_5 = buildPack e34_5;
   };
 
