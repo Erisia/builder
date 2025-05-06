@@ -4,8 +4,6 @@ weight: 20
 menu: main
 ---
 
-# Mod list
-
 The current iteration (e31) is based on TPPI2, with some modifications.
 
 - Advanced Generators

@@ -4,8 +4,6 @@ weight: 10
 menu: main
 ---
 
-# Getting started
-
 Erisia uses the [MCUpdater](http://mcupdater.com/) framework for distributing pack updates. Using this is moderately complex, compared to e.g. ATLauncher, but it also allows for quick updates.
 
 To get started:
