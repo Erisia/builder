@@ -1,26 +1,92 @@
-/* Custom styles for Erisia website */
+/* Custom dark mode styles for Erisia website */
+
+:root {
+  --bg-dark: #121212;
+  --bg-content: #1e1e1e;
+  --text-primary: #e0e0e0;
+  --text-secondary: #b0b0b0;
+  --accent-primary: #8ba1b4;
+  --accent-hover: #a9c1d9;
+  --border-color: #383838;
+  --jumbotron-bg: #222222;
+  --card-bg: #2a2a2a;
+  --code-bg: #2d2d2d;
+}
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
+  background-color: var(--bg-dark);
+  color: var(--text-primary);
+}
+
+a {
+  color: var(--accent-primary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
 }
 
 .jumbotron {
-  background-color: #343a40;
-  color: white;
+  background-color: var(--jumbotron-bg);
+  color: var(--text-primary);
   padding: 2rem;
   margin-bottom: 2rem;
   border-radius: 0.5rem;
+  border: 1px solid var(--border-color);
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 1.5rem;
   margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+.content {
+  background-color: var(--bg-content);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border-color);
 }
 
 .content img {
   max-width: 100%;
   height: auto;
+}
+
+/* Maps and tabs styling */
+.nav-tabs {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.nav-tabs .nav-link {
+  color: var(--text-secondary);
+  border: 1px solid transparent;
+}
+
+.nav-tabs .nav-link:hover {
+  border-color: var(--border-color);
+  color: var(--text-primary);
+}
+
+.nav-tabs .nav-link.active {
+  background-color: var(--card-bg);
+  color: var(--text-primary);
+  border-color: var(--border-color);
+  border-bottom-color: var(--card-bg);
+}
+
+.tab-content {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-top: none;
+  padding: 1rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
 }
 
 /* Make sure the footer stays at the bottom */
@@ -39,4 +105,31 @@ main {
 
 footer {
   flex-shrink: 0;
+  background-color: var(--bg-dark) !important;
+  border-top: 1px solid var(--border-color);
+}
+
+/* Override Bootstrap navbar colors */
+.navbar {
+  background-color: var(--bg-dark) !important;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: var(--text-secondary);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+  color: var(--accent-primary);
+}
+
+/* Style lists */
+ul, ol {
+  color: var(--text-primary);
+}
+
+/* Override any Bootstrap classes */
+.bg-dark {
+  background-color: var(--bg-dark) !important;
 }
