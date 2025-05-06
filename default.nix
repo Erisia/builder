@@ -137,7 +137,15 @@ rec {
       (path: type: type != "symlink")
       ./web-hugo;
     buildInputs = [ hugo ];
-  } "cd $src; hugo --minify --destination $out";
+  } ''
+    # Create temp directory for Hugo to build in
+    TEMP_DIR=$(mktemp -d)
+    cp -r $src/* $TEMP_DIR/
+    cd $TEMP_DIR
+    
+    # Build without lock file
+    hugo --minify --destination $out --ignoreCache
+  '';
   
   # Default website (can switch between implementations)
   web = web-hugo;
