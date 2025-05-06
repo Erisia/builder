@@ -97,8 +97,18 @@ cleanup() {
     if [[ -n "$(jobs -p)" ]]; then
         echo 'Killing all subprocesses...'
         kill $(jobs -p) || true
-        wait
     fi
+    
+    if [[ -f server-jvm.pid ]]; then
+        JAVA_PID=$(cat server-jvm.pid)
+        if kill -0 $JAVA_PID 2>/dev/null; then
+            echo "Killing Java process ($JAVA_PID)..."
+            kill $JAVA_PID || true
+        fi
+	rm -f server-jvm.pid
+    fi
+    
+    wait
 }
 
 antiChunkChurn() {
@@ -122,8 +132,8 @@ antiChunkChurn() {
 set -x
 
 # TODO: Factor in scripts.sh, and other scripts.
+trap cleanup EXIT
 if [[ $EXTRAS -eq 1 ]]; then
-    trap cleanup EXIT
     dailyRestart &
 #    antiChunkChurn &
 fi
@@ -174,5 +184,7 @@ else
 	  -jar $FORGE nogui &
 fi
 
-echo $! > server-jvm.pid
-fg
+JAVA_PID=$!
+echo $JAVA_PID > server-jvm.pid
+wait $JAVA_PID || true
+rm -f server-jvm.pid
