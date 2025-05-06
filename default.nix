@@ -129,5 +129,16 @@ rec {
     urlBase = "http://" + hostname + "/";
   };
 
-  web = callPackage ./web {};
+  # Website options
+  web-jekyll = callPackage ./web {};
+  
+  web-hugo = runCommand "erisia-website-hugo" {
+    src = builtins.filterSource
+      (path: type: type != "symlink")
+      ./web-hugo;
+    buildInputs = [ hugo ];
+  } "cd $src; hugo --minify --destination $out";
+  
+  # Default website (can switch between implementations)
+  web = web-hugo;
 }
