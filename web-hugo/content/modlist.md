@@ -1,0 +1,192 @@
+---
+title: Mod List
+weight: 20
+menu: main
+---
+
+# Mod list
+
+The current iteration (e31) is based on TPPI2, with some modifications.
+
+- Advanced Generators
+- AE2 Stuff
+- Akashic Tome
+- Another One Bites the Dust
+- Antique Atlas
+- AppleCore
+- Applied Energistics 2
+- AquaTweaks
+- ArmorStatusHUD
+- Automagy
+- AutoRegLib
+- Baubles
+- BdLib
+- BiblioCraft
+- BiblioCraft: BiblioWoods Biomes O'Plenty Edition
+- BiblioCraft: BiblioWoods Forestry Edition
+- Big Reactors
+- Binnie's Mods
+- Biomes O' Plenty
+- Blood Magic
+- Botania
+- bspkrsCore
+- Buildcraft
+- Buildcraft Compat
+- Carpenter's Blocks
+- Catwalks 2
+- Chameleon
+- Chisel
+- ChiselTones
+- ChromatiCraft
+- CodeChicken Lib GTNH
+- CodeChickenCore GTNH
+- CoFH World
+- CoFH Core
+- Compact Machines
+- CookieCore
+- Cooking for Blockheads
+- Crafting Tweaks
+- CraftTweaker
+- CustomThings
+- Dense Ores
+- Ding
+- DiscordIntegration
+- DragonAPI
+- Dynamic Surroundings
+- Dynmap-Forge/Fabric
+- Electrical Age
+- ElectriCraft
+- Ender IO
+- Ender Storage
+- EnderCore
+- Extra Utilities
+- ExtraCells2
+- ExtraTiC
+- Farseek
+- FastCraft
+- FlatSigns
+- Flaxbeard's Steam Power
+- FoamFix
+- Forbidden Magic
+- Forestry
+- Forge Multi Part
+- FoxLib
+- FTB Library (Forge) (Legacy)
+- FTB Utilities (Forge)
+- Fullscreen Windowed (Borderless) for Minecraft
+- Garden Stuff
+- Gendustry
+- Guide-API
+- Hardcore Ender Expansion
+- Hats
+- Hwyla
+- iChunUtil
+- Illuminated Bows
+- Immersive Engineering
+- Immersive Floofs
+- Immersive Integration
+- Industrial Craft
+- INpureCore
+- Inventory Tweaks [1.12 only] 
+- Iron Chests
+- IvToolkit
+- Jabba
+- JourneyMap
+- Just Enough Calculation
+- Just Enough Items (JEI)
+- Just Enough Resources (JER)
+- KitchenCraft
+- Logistics Pipes
+- LookingGlass
+- LunatriusCore
+- Magic Bees
+- MalisisCore
+- MalisisDoors
+- Mantle
+- McJtyLib
+- Minefactory Reloaded
+- MmmMmmMmmMmm (Target Dummy)
+- MobiusCore
+- ModTweaker
+- Modular Armour
+- MoreChisels
+- Morph
+- Mouse Tweaks
+- MrTJPCore
+- MTLib
+- Natura
+- NEI Addons
+- NEI Integration
+- NetherOres
+- Not Enough Wands
+- NotEnoughCodecs
+- NotEnoughItems Unofficial
+- NotEnoughResources
+- Nuclear Control 2
+- OpenBlocks
+- OpenComputers
+- OpenEye
+- OpenModsLib
+- Opis
+- p455w0rd's Library
+- Pam's HarvestCraft
+- Pressure Pipes
+- Project Red - Core
+- Project Red - Compat
+- Project Red - Fabrication
+- Project Red - Integration
+- Project Red - Illumination
+- Prometheus Integration
+- Railcraft
+- Random Things
+- ReAuth
+- Recurrent Complex
+- Redstone Armory
+- Redstone Arsenal
+- Redstone Flux
+- Refined Relocation
+- Reliquary Reincarnations
+- RFTools
+- RotaryCraft
+- Sanguimancy
+- Schematica
+- Shadowfacts' Forgelin
+- Signal-Catcher
+- Signposts
+- Sound Filters
+- Steve's Addons
+- Steve's Carts 2
+- Steve's Factory Manager
+- Storage Drawers: Biomes O' Plenty Pack
+- Storage Drawers: Forestry Pack
+- Storage Drawers GTNH
+- Streams
+- Super Massive Tech
+- Tails
+- Thaumcraft
+- Thaumic Inventory Scanning (Thaumcraft Addon)
+- Thaumcraft NEI Plugin
+- Thaumic Energistics
+- Thaumic Exploration
+- Thaumic Tinkerer
+- Thermal Dynamics
+- Thermal Foundation
+- Thermal Expansion
+- Thump
+- TiC Tooltips
+- TickProfiler
+- Tinkers Construct
+- Tinkers' Mechworks
+- Tinkers' Steelworks (fork)
+- TIS-3D
+- Tombenpotter's Icarus
+- Tool Belt
+- Translocators
+- UsefulTNT
+- Waila
+- WAILA Plugins
+- Wawla - What Are We Looking At
+- Wireless Crafting Terminal
+- Witchery
+- WR-CBE-Universal
+- Ztones
