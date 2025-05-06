@@ -1,0 +1,34 @@
+baseURL: "https://erisia.example.com/"
+languageCode: "en-us"
+title: "Erisia Minecraft Server"
+disableKinds: ["taxonomy", "term"]
+
+params:
+  description: "Erisia Minecraft server community website"
+
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 0
+    - name: "Getting Started"
+      url: "/getting-started/"
+      weight: 1
+    - name: "Admin"
+      url: "/admin/"
+      weight: 2
+    - name: "Groups"
+      url: "/groups/"
+      weight: 3
+    - name: "IRC"
+      url: "/irc/"
+      weight: 4
+    - name: "Map"
+      url: "/map/"
+      weight: 5
+    - name: "Modlist"
+      url: "/modlist/"
+      weight: 6
+    - name: "Ores"
+      url: "/ores/"
+      weight: 7
