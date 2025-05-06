@@ -11,3 +11,5 @@ cursetool/cursetool-0.1
 *.iml
 *.ipr
 *.iws
+
+**/.claude/settings.local.json
