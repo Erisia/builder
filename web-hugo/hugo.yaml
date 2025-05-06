@@ -6,4 +6,10 @@ disableKinds: ["taxonomy", "term"]
 params:
   description: "Erisia Minecraft server community website"
 
+# Allow unsafe HTML rendering for gallery and other components
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 # Remove the menu definition here since we're using frontmatter instead

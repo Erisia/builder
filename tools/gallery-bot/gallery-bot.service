@@ -1,0 +1,13 @@
+[Unit]
+Description=Erisia Gallery Discord Bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/home/minecraft/builder/tools/gallery-bot/run.sh
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target
