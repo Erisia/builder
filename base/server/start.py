@@ -395,6 +395,8 @@ def main():
         if session_name == "no server running":
             console.print("[yellow]Warning:[/] Not running inside a tmux session, or tmux is unavailable.")
             console.print("[yellow]Maintenance scripts (like daily restart) will not be run.[/]")
+            console.print("[red]Press ctrl-c to exit, or return to continue.")
+            input()
         elif session_name == TMUX_TARGET_SESSION_NAME:
             console.print(f"[green]Running in correct tmux session: {session_name}. Extras enabled.[/]")
             run_extras = True
