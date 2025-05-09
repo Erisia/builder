@@ -1,7 +1,0 @@
-markdown:         redcarpet
-highlighter:      pygments
-
-title:            'Erisia'
-url:              https://madoka.brage.info
-enforce_ssl:      madoka.brage.info
-baseurl:          /

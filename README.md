@@ -19,23 +19,14 @@ $ builder/update-and-start.sh
 
 ### Website
 
-The Erisia website is available in two implementations:
-- **Jekyll** (legacy): In the `web/` directory 
-- **Hugo** (modern): In the `web-hugo/` directory
-
 To build and serve the website locally:
 ```
-# Jekyll version
-$ nix build -f . web-jekyll && cd result && python -m http.server
-
 # Hugo version (default)
 $ nix build -f . web && cd result && python -m http.server
 
 # Hugo development server (with live reload)
-$ cd web-hugo && ./serve.sh
+$ cd web && ./serve.sh
 ```
-
-The default website implementation is set in `default.nix` with the `web = web-hugo;` line.
 
 ## Updating manifests
 

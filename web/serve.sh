@@ -1,6 +1,6 @@
 #!/usr/bin/env nix-shell
-#!nix-shell -i bash -p jekyll
+#!nix-shell -i bash -p hugo
 
 set -e
 cd $(dirname $0)
-jekyll server -d $(mktemp -d)
+hugo server --bind=0.0.0.0 --port=1313

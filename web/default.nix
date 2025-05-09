@@ -1,8 +1,16 @@
-{ runCommand, jekyll }:
+{ pkgs ? import <nixpkgs> {} }:
 
-runCommand "erisia-website" {
-  src = builtins.filterSource
-    (path: type: type != "symlink")
-    ./.;
-  buildInputs = [ jekyll ];
-} "cd $src; jekyll build --safe --trace -d $out"
+pkgs.stdenv.mkDerivation {
+  name = "erisia-website";
+  src = ./.;
+  
+  buildInputs = [ pkgs.hugo ];
+  
+  buildPhase = ''
+    hugo --minify
+  '';
+  
+  installPhase = ''
+    cp -r public $out
+  '';
+}

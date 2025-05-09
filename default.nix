@@ -129,13 +129,11 @@ rec {
     urlBase = "http://" + hostname + "/";
   };
 
-  # Website options
-  web-jekyll = callPackage ./web {};
-  
-  web-hugo = runCommand "erisia-website-hugo" {
+  # Website
+  web = runCommand "erisia-website-hugo" {
     src = builtins.filterSource
       (path: type: type != "symlink")
-      ./web-hugo;
+      ./web;
     buildInputs = [ hugo ];
   } ''
     # Create temp directory for Hugo to build in
@@ -146,7 +144,4 @@ rec {
     # Build without lock file
     hugo --minify --destination $out --ignoreCache
   '';
-  
-  # Default website (can switch between implementations)
-  web = web-hugo;
 }
