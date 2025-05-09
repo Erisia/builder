@@ -1,0 +1,31 @@
+{
+	"gui.blue_skies.item.ability.ethereal.0": "Grants a 10%% movement speed increase.",
+	"gui.blue_skies.item.ability.ethereal.1": "Grants a 15%% movement speed increase.",
+	"gui.blue_skies.item.ability.ethereal.2": "Grants a 20%% movement speed increase.",
+	"gui.blue_skies.item.ability.ethereal.3": "Grants a 25%% movement speed increase.",
+
+	"gui.blue_skies.item.ability.dusk.0": "Grants invisibility while sneaking with smoke.",
+	"gui.blue_skies.item.ability.dusk.1": "Grants invisibility while sneaking with reduced smoke.",
+	"gui.blue_skies.item.ability.dusk.2": "Grants invisibility while sneaking without smoke.",
+	"gui.blue_skies.item.ability.dusk.3": "Grants invisibility and hides armor while sneaking without smoke.",
+
+	"gui.blue_skies.item.ability.nature.0": "Provides 1 extra heart.",
+	"gui.blue_skies.item.ability.nature.1": "Provides 2 extra hearts.",
+	"gui.blue_skies.item.ability.nature.2": "Provides 3 extra hearts.",
+	"gui.blue_skies.item.ability.nature.3": "Provides 4 extra hearts.",
+
+	"gui.blue_skies.item.ability.poison.0": "[DISABLED] Increases damage dealt by 1 when poisoned.",
+	"gui.blue_skies.item.ability.poison.1": "[DISABLED] Increases damage dealt by 2 when poisoned.",
+	"gui.blue_skies.item.ability.poison.2": "[DISABLED] Increases damage dealt by 3 when poisoned.",
+	"gui.blue_skies.item.ability.poison.3": "[DISABLED] Increases damage dealt by 4 when poisoned.",
+
+	"gui.blue_skies.item.ability.aquatic.0": "Grants a 10%% swim speed increase.",
+	"gui.blue_skies.item.ability.aquatic.1": "Grants a 20%% swim speed increase.",
+	"gui.blue_skies.item.ability.aquatic.2": "Grants a 20%% swim speed increase, and decreases burn time at double the speed.",
+	"gui.blue_skies.item.ability.aquatic.3": "Grants a 20%% swim speed increase, and decreases burn time at triple the speed.",
+
+	"gui.blue_skies.item.ability.life.0": "Decreased fire damage when at 2 hearts or lower.",
+	"gui.blue_skies.item.ability.life.1": "Decreased fire damage when at 4 hearts or lower.",
+	"gui.blue_skies.item.ability.life.2": "Decreased fire damage when at 6 hearts or lower.",
+	"gui.blue_skies.item.ability.life.3": "Decreased fire damage when at 6 hearts or lower. Has a chance to remove negative potion effects."
+}

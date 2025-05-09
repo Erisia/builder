@@ -1,0 +1,11 @@
+{
+	"gateways.ice_maze": "Gateway of the Ice Maze",
+	"gateways.illager_invasion": "Gateway of the Raiders",
+    "gateways.endless/blaze": "Ghast Gateway",
+	"gateways.endless/labyrinth": "Gateway of the Labyrinth",
+	"gateways.endless/darkness": "Gateway of Darkness",
+	"gateways.basic/zombie": "Zombie Gateway",
+	"gateways.basic/witch": "Witch Gateway",
+    "rewards.gateways.loot_table.drops": "Combat Loot",
+    "rewards.gateways.loot_table.professions": "Professions Loot"
+}

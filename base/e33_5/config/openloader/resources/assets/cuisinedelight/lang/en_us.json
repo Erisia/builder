@@ -1,0 +1,17 @@
+{
+  "cuisinedelight.info.max_time": "Maximum Cooking Time: %s sec",
+  "cuisinedelight.info.min_time": "Minimum Cooking Time: %s sec",
+  "cuisinedelight.info.nutrition": "Nutrition: %s Per Serving",
+  "cuisinedelight.info.overcook_penalty": "Overcook Penalty: -%s%%",
+  "cuisinedelight.info.raw_penalty": "Raw Penalty: -%s%%",
+  "cuisinedelight.info.size": "Serving Size: %s Servings",
+  "cuisinedelight.info.stir_time": "Maximum Stir Interval: %s sec",
+  "cuisinedelight.msg.place_help": "Hold crouch to place.",
+  "cuisinedelight.tooltip.burnt": "Ingredient %s is burnt...",
+  "cuisinedelight.tooltip.good": "Ingredient %s is cooked well!",
+  "cuisinedelight.tooltip.overcooked": "Ingredient %s is overcooked.",
+  "cuisinedelight.tooltip.raw": "Ingredient %s is a bit raw.",
+  "cuisinedelight.tooltip.score": "Quality: %s%%",
+  "cuisinedelight.tooltip.shift": "Hold Shift for Culinary Details",
+  "cuisinedelight.tooltip.size": "Serving Size: %s"
+}

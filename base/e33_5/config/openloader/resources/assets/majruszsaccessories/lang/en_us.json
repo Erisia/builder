@@ -1,0 +1,6 @@
+{
+  "majruszsaccessories.bonuses.potion_amplifier": "Makes created non-Mine and Slash potions %1$s level(s) stronger.",
+  "majruszsaccessories.bonuses.potion_duration": "Decreases duration of created non-Mine and Slash potions by %1$s.",
+  "majruszsaccessories.boosters.drop_chance": "%1$sIncreases Majrusz accessory drop chance by %2$s.",
+  "majruszsaccessories.boosters.experience_bonus": "%1$sIncreases Vanilla experience gained by %2$s."
+}

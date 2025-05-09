@@ -1,0 +1,6 @@
+{
+	"tooltip.paraglider.heart_container.1": "Increases maximum Health by %s (2 Health), up to %s times.",
+	"tooltip.paraglider.heart_container.1.hearts": "1 Heart",
+	"tooltip.paraglider.stamina_vessel.1": "Increases maximum Stamina by 300, up to %s times.",
+	"tooltip.paraglider.anti_vessel.0": "Retrieves all Heart Containers and Stamina Vessels you've consumed."
+}
