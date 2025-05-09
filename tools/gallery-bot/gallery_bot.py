@@ -12,6 +12,7 @@ import datetime
 import mimetypes
 import json
 import re
+import uuid
 from pathlib import Path
 import aiohttp
 from aiohttp import web
@@ -364,6 +365,24 @@ def extract_image_urls(content):
     
     return unique_urls
 
+def get_extension_from_content_type(content_type):
+    """Get file extension based on content type."""
+    content_type = content_type.lower()
+    if content_type == 'image/jpeg' or content_type == 'image/jpg':
+        return '.jpg'
+    elif content_type == 'image/png':
+        return '.png'
+    elif content_type == 'image/gif':
+        return '.gif'
+    elif content_type == 'image/webp':
+        return '.webp'
+    elif content_type == 'image/bmp':
+        return '.bmp'
+    elif content_type == 'image/tiff':
+        return '.tiff'
+    # Default extension if we can't determine from content type
+    return '.jpg'
+
 async def download_image(url, filename, username=None):
     """Download an image from URL and save it to the images directory."""
     try:
@@ -372,12 +391,23 @@ async def download_image(url, filename, username=None):
                 if response.status == 200:
                     # Verify that the content is actually an image
                     content_type = response.headers.get('Content-Type', '').lower()
+                    
+                    # Check if content is an image
                     if not content_type.startswith('image/'):
                         # Check if the URL ends with a known image extension
                         ext = url.split('.')[-1].lower()
                         if ext not in ['png', 'jpg', 'jpeg', 'gif', 'webp', 'bmp', 'tiff', 'tif']:
                             logger.warning(f"URL {url} does not appear to be an image (Content-Type: {content_type})")
                             return False
+                    
+                    # Update filename extension if the current one is temporary (.tmp) or 
+                    # doesn't match the content type
+                    current_extension = os.path.splitext(filename)[1].lower()
+                    if current_extension == '.tmp' and content_type.startswith('image/'):
+                        proper_extension = get_extension_from_content_type(content_type)
+                        filename_base = os.path.splitext(filename)[0]
+                        filename = f"{filename_base}{proper_extension}"
+                        logger.info(f"Updated filename extension based on content type: {filename}")
                     
                     data = await response.read()
                     file_path = IMAGE_DIR / filename
@@ -426,9 +456,11 @@ async def on_message(message):
     for attachment in message.attachments:
         if any(attachment.filename.lower().endswith(ext) for ext in config["allowed_extensions"]):
             has_image = True
-            # Generate unique filename
+            # Generate UUID-based filename while preserving file extension
             timestamp = int(datetime.datetime.now().timestamp())
-            unique_filename = f"{timestamp}_{attachment.filename}"
+            file_extension = os.path.splitext(attachment.filename)[1].lower()
+            unique_uuid = str(uuid.uuid4())
+            unique_filename = f"{unique_uuid}{file_extension}"
             
             # Download the image
             success = await download_image(attachment.url, unique_filename, str(message.author))
@@ -468,10 +500,27 @@ async def on_message(message):
         if image_urls:
             logger.info(f"Found {len(image_urls)} image URLs in message from {message.author}")
             for url in image_urls:
-                # Extract the filename from the URL
-                url_filename = url.split('/')[-1].split('?')[0]  # Remove query parameters
+                # We'll just create a UUID-based filename with a temporary extension
+                # The actual content-type will be checked during download
                 timestamp = int(datetime.datetime.now().timestamp())
-                unique_filename = f"{timestamp}_{url_filename}"
+                unique_uuid = str(uuid.uuid4())
+                
+                # Try to extract extension from URL, fallback to .tmp
+                # We'll update this with the correct extension based on content-type during download if needed
+                url_filename = url.split('/')[-1].split('?')[0]  # Remove query parameters
+                file_extension = os.path.splitext(url_filename)[1].lower()
+                
+                # Validate extension
+                if not file_extension or len(file_extension) < 2:
+                    # Try to determine from URL path or use .tmp as temporary fallback
+                    for ext in config["allowed_extensions"]:
+                        if url.lower().endswith(ext):
+                            file_extension = ext
+                            break
+                    else:
+                        file_extension = '.tmp'  # Temporary extension, will update after download
+                
+                unique_filename = f"{unique_uuid}{file_extension}"
                 
                 # Download the image
                 success = await download_image(url, unique_filename, str(message.author))
