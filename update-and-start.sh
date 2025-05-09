@@ -26,4 +26,4 @@ fi
 nix-build $GITDIR -A "packs.$(cat server.nix-target).server" -o server --show-trace
 nix-build $GITDIR -A ServerPack -o pack --show-trace
 
-exec server/start.sh
+exec server/start.py

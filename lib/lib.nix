@@ -116,7 +116,7 @@ rec {
 
       postBuild = ''
         cd $out
-        for i in *.sh *.service config/prometheus-integration.cfg *.txt; do
+        for i in *.py *.sh *.service config/prometheus-integration.cfg *.txt; do
           substituteAll "$i" "$i".tmp
 	  mv "$i".tmp "$i"
           chmod +x "$i"

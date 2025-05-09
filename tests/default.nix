@@ -28,7 +28,7 @@ let
     export SKIP_TMUX=1
     export KILL_PROMETHEUS=1
 
-    echo | timeout -s 9 900 bash server/start.sh -Dfml.queryResult=confirm &
+    echo | timeout -s 9 900 bash server/start.py -Dfml.queryResult=confirm &
     sleep 3
 
     terminate() {

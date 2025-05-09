@@ -104,7 +104,7 @@ impl Server {
         if let Some(bash_param) = cmdline.get(1) {
             let actual = std::path::PathBuf::from(bash_param);
             let mut expected = std::env::current_dir()?;
-            expected.push("server/start.sh");
+            expected.push("server/start.py");
 
             if expected != actual {
                 bail!("server.pid does not match a running Erisia instance");
