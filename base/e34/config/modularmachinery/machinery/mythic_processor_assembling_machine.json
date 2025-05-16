@@ -8,18 +8,37 @@
             "x": 0,
             "y": 3,
             "z": 1,
-            "description": "Multiplies amounts processed by 4",
+            "description": "Multiplies amounts processed by 8",
             "modifiers": [{
                 "io": "output",
                 "target": "modularmachinery:item",
                 "operation": 1,
-                "multiplier": 4
+                "multiplier": 8
             },
             {
                 "io": "input",
                 "target": "modularmachinery:item",
                 "operation": 1,
-                "multiplier": 4
+                "multiplier": 8
+            }]
+        },
+        {
+            "elements": "contenttweaker:mythic_coil_t3@0",
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "description": "Multiplies amounts processed by 64",
+            "modifiers": [{
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 64
+            },
+            {
+                "io": "input",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 64
             }]
         }
     ],

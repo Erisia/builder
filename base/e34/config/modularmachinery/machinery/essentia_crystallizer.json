@@ -15,6 +15,19 @@
                 "operation": 1,
                 "multiplier": 4
             }
+        },
+        {
+            "elements": "contenttweaker:echo_warren_stone@0",
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "description": "Replace middle block to increase item output by 20",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 20
+            }
         }
     ],
     "parts": [
