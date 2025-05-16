@@ -100,7 +100,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:ayeraco_heart>.addTooltip(format.red("Found in the Shulker Altar in the End"));
 
-<minecraft:totem_of_undying>.addTooltip(format.red("Evoker spawn eggs are craftable"));
+<minecraft:totem_of_undying>.addTooltip(format.red("Recursive papers are your friend"));
 
 <thaumcraft:curio:6>.addTooltip(format.red("Crimson Portals can be found in the overworld"));
 
@@ -110,15 +110,10 @@ import crafttweaker.item.IItemCondition;
 
 <thermalfoundation:ore:8>.addTooltip(format.red("Found in the Elemental Chamber in the Nether"));
 
-<contenttweaker:apichisi_warper>.addTooltip(format.red("Opens a temporary wormhole, CAREFUL, you will not be able to get back with this!"));
 
-<contenttweaker:vibe_warper>.addTooltip(format.red("Opens a temporary wormhole, CAREFUL, you will not be able to get back with this!"));
 
-<contenttweaker:furatto_warper>.addTooltip(format.red("Opens a temporary wormhole, CAREFUL, you will not be able to get back with this!"));
 
-<contenttweaker:taerrapiatta_warper>.addTooltip(format.red("Opens a temporary wormhole, CAREFUL, you will not be able to get back with this!"));
 
-<contenttweaker:diamerisma_warper>.addTooltip(format.red("Opens a temporary wormhole, CAREFUL, you will not be able to get back with this!"));
 
 <contenttweaker:pixonia_infusion_key>.addTooltip(format.red("Found in the swamp tower on Pixonia"));
 
@@ -1114,6 +1109,7 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:mortum_star>.addTooltip(format.red("Have you uncovered the secret of the sacred palace?"));
 
 <contenttweaker:sacred_acorn>.addTooltip(format.red("Combine with the right tree barks to obtain the two sacred saplings"));
+<contenttweaker:sacred_acorn>.addTooltip(format.red("The Sacred Callstone will guide you"));
 
 <extrabotany:allforone>.addTooltip(format.red("Most likely will not work (forge bug)"));
 
@@ -1417,13 +1413,13 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:dimensional_ingot>.addTooltip(format.red("Found in the Deep Dark"));
 
-<techreborn:rebattery>.addTooltip(format.red("Cannot be autocrafted in AE2 due to bug, put on passive if needed"));
+<techreborn:rebattery>.addTooltip(format.red("Cannot be autocrafted in AE2 due to bug, use the Better version"));
 
-<techreborn:energycrystal>.addTooltip(format.red("Cannot be autocrafted in AE2 due to bug, put on passive if needed"));
+<techreborn:energycrystal>.addTooltip(format.red("Cannot be autocrafted in AE2 due to bug, use the Better version"));
 
-<techreborn:lapotroncrystal>.addTooltip(format.red("Cannot be autocrafted in AE2 due to bug, put on passive if needed"));
+<techreborn:lapotroncrystal>.addTooltip(format.red("Cannot be autocrafted in AE2 due to bug, use the Better version"));
 
-<techreborn:lapotronicorb>.addTooltip(format.red("Cannot be autocrafted in AE2 due to bug, put on passive if needed"));
+<techreborn:lapotronicorb>.addTooltip(format.red("Cannot be autocrafted in AE2 due to bug, use the Better version"));
 
 <contenttweaker:skeletal_callstone>.addTooltip(format.red("Your first callstone! Right click to summon a dungeon!"));
 
@@ -1471,7 +1467,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:matrix_ore>.addTooltip(format.red("Use the ore excavator in Shyrelands, Matrix vein"));
 
-<contenttweaker:everlasting_fusor>.addTooltip(format.red("Make four of these"));
+<contenttweaker:everlasting_fusor>.addTooltip(format.red("Five are required for the canon ending"));
 
 <materialpart:abyssite:ingot>.addTooltip(format.red("You can pump plasma out of a fusion reactor"));
 
@@ -2065,6 +2061,7 @@ import crafttweaker.item.IItemCondition;
 
 <betterbuilderswands:wandunbreakable>.addTooltip(format.red("Use Z to change mode, shift + Z to change fluid mode"));
 <betterbuilderswands:wandunbreakable>.addTooltip(format.red("Use /wandOops to undo last step"));
+<betterbuilderswands:wandunbreakable>.addTooltip(format.red("WARNING: do not use on blocks with inventories and other tile entities"));
 
 <contenttweaker:bubbell_banner>.addTooltip(format.red("Obtained from the orbital callstone"));
 <contenttweaker:bubbell_banner>.addTooltip(format.red("Thanks to Reclipse for the texture!"));
@@ -2279,7 +2276,7 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:dream_projector_gem>.addTooltip(format.red("Combine the right tinker's parts (4) with a projector gem - Vethea recipes will guide you!"));
 
-<contenttweaker:dream_projector_gem>.addTooltip(format.red("The recursive life essence is from the hidden power callstone!"));
+<contenttweaker:dream_projector_gem>.addTooltip(format.red("The Living recursive Essence is from the Hidden Power Callstone"));
 
 <contenttweaker:tainted_heart>.addTooltip(format.red("Found in Vibe"));
 
@@ -2692,7 +2689,7 @@ import crafttweaker.item.IItemCondition;
 
 <divinerpg:altar_of_corruption>.addTooltip(format.red("Works like an enchanting table, but it doesn't need bookshelves!"));
 
-<modularmachinery:itemblueprint>.addTooltip(format.red("To autobuild a multiblock, right click the colored controller with a stick!"));
+<modularmachinery:itemblueprint>.addTooltip(format.red("To autobuild a multiblock, right click the colored controller with a Multiblock Sticc!"));
 
 <contenttweaker:bloodmaster_metal_chest>.addTooltip(format.red("Thanks to WearyCat for helping with lore!"));
 
@@ -2986,7 +2983,7 @@ import crafttweaker.item.IItemCondition;
 <thermaldynamics:duct_0:5>.addTooltip(format.red("WARNING: do not connect to radiation scrubbers, it may corrupt your world"));
 <enderio:item_endergy_conduit:11>.addTooltip(format.red("WARNING: do not connect to radiation scrubbers, it may corrupt your world"));
 
-<aether_legacy:life_shard>.addTooltip(format.red("Adds 20 HP, found as chest loot in the Aether (more common in bronze dungeons)"));
+<aether_legacy:life_shard>.addTooltip(format.red("Adds 2 HP, found as chest loot in the Aether (more common in gold dungeons)"));
 
 
 <contenttweaker:crown_of_the_energy_queen>.addTooltip(format.red("Thank you NerdySpider for the texture!"));
@@ -3643,7 +3640,6 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:nuclearcraft_fission_interior>.addTooltip(format.red("Use the modular controllers in these recipes to auto-build reactor interiors for each fuel!"));
 <contenttweaker:nuclearcraft_fission_interior>.addTooltip(format.red("Thanks to cry for coming up with the idea!"));
 
-<modularmachinery:safe_fission_tbu_controller>.addTooltip(format.red("This will work well with a bunch of other fuels!"));
 
 <contenttweaker:active_cryotheum_cooler>.addTooltip(format.red("Replace this with an active cooler from nuclearcraft!"));
 <contenttweaker:active_cryotheum_cooler>.addTooltip(format.red("Use buffers on the reactor wall instead of casing, pipe your fluids in there!"));

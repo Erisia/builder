@@ -452,50 +452,19 @@ mods.jei.JEI.addDescription(<iceandfire:fire_dragon_heart>,
     "The faster your item transfer, condenser rate, and crafter, the faster your EMC production."
 ]);
 
-mods.jei.JEI.addDescription(<draconicevolution:celestial_manipulator>,
+mods.jei.JEI.addDescription([<draconicevolution:celestial_manipulator>, <contenttweaker:skip_day>, <minecraft:lapis_block>, <contenttweaker:make_it_night>, <contenttweaker:hammock>],
 [
-    "There are two main ways of skipping days and making it night in this pack!",
+    "There are four main ways of skipping days and making it night in this pack!",
     "",
     "The lapis imperfect ritual from Blood Magic lets you skip the day manually.",
     "",
-    "The Celestial Manipulator from Draconic Evolution can do it automatically with some redstone!"
+    "The Eclipsed Clock consumes time from Time in a Bottle to speed up the day/night cycle.",
+    "",
+    "The Celestial Manipulator from Draconic Evolution can do it automatically with some redstone!",
+    "",
+    "The Time Manipulator spell from Electroblob."
 ]);
 
-mods.jei.JEI.addDescription(<minecraft:lapis_block>,
-[
-    "There are two main ways of skipping days and making it night in this pack!",
-    "",
-    "The lapis imperfect ritual from Blood Magic lets you skip the day manually.",
-    "",
-    "The Celestial Manipulator from Draconic Evolution can do it automatically with some redstone!"
-]);
-
-mods.jei.JEI.addDescription(<contenttweaker:make_it_night>,
-[
-    "There are two main ways of skipping days and making it night in this pack!",
-    "",
-    "The lapis imperfect ritual from Blood Magic lets you skip the day manually.",
-    "",
-    "The Celestial Manipulator from Draconic Evolution can do it automatically with some redstone!"
-]);
-
-mods.jei.JEI.addDescription(<contenttweaker:hammock>,
-[
-    "There are two main ways of skipping days and making it night in this pack!",
-    "",
-    "The lapis imperfect ritual from Blood Magic lets you skip the day manually.",
-    "",
-    "The Celestial Manipulator from Draconic Evolution can do it automatically with some redstone!"
-]);
-
-mods.jei.JEI.addDescription(<contenttweaker:skip_day>,
-[
-    "There are two main ways of skipping days and making it night in this pack!",
-    "",
-    "The lapis imperfect ritual from Blood Magic lets you skip the day manually.",
-    "",
-    "The Celestial Manipulator from Draconic Evolution can do it automatically with some redstone!"
-]);
 
 mods.jei.JEI.addDescription([<buildcraftsilicon:assembly_table>, <buildcraftsilicon:laser>],
 [
@@ -1775,6 +1744,20 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_orcus>,
     "All swords are found in orcus."
 ]);
 
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_dimensionalascension>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "I don't think you are ready...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Wouldn't you like to know?!? Well, too bad..."
+]);
+
+
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_furnacedim>,
 [
     "Come on! At least try to solve the puzzle!",
@@ -2485,9 +2468,9 @@ mods.jei.JEI.addDescription(<contenttweaker:farming_unattuned_celestial_crystals
     "",
     "This process can be automated in two ways: ",
     "",
-    "1. [Slightly more laggy, but easier] By using an Auto-Placer to keep a block space with an attuned celestial crystal full of Starlight. A properly-filtered Vacuum Chest can collect the unattuned crystals that will result from the splitting, while leaving the attuned crystal to endlessly replicate more unattuned ones.",
+    "1. [Slightly more laggy, but easier] By using an Fluid Placer to keep a block space with an attuned celestial crystal full of Starlight. A properly-filtered Vacuum Chest can collect the unattuned crystals that will result from the splitting, while leaving the attuned crystal to endlessly replicate more unattuned ones.",
     "",
-    "2. By using an Auto-Placer to keep a block space full of Starlight and using an Entity Detector from Cyclic to send a redstone signal to a collector when two entities (aka two crystals) are present in the designated block space. The system can be set up to pick up only one of the two crystals, or to pick up both, and drop one of them back into the Starlight."
+    "2. By using an Fluid Placer to keep a block space full of Starlight and using an Entity Detector from Cyclic to send a redstone signal to a collector when two entities (aka two crystals) are present in the designated block space. The system can be set up to pick up only one of the two crystals, or to pick up both, and drop one of them back into the Starlight."
 ]);
 
 mods.jei.JEI.addDescription([<contenttweaker:levelling_up_crystals>,
@@ -2587,7 +2570,10 @@ mods.jei.JEI.addDescription([<contenttweaker:dimension_ids>],
     "Earth (Lost Cities): 111",
     "Gallifrey: 624",
     "RFTools Dimensions: 900 (and consecutive numbers)",
-    "Kashan: 190"
+    "Kashan: 190",
+    "Trinitas: 191",
+    "Fuhai: 192",
+    "Travixte: 193"
 ]);
 
 
@@ -3627,7 +3613,7 @@ mods.jei.JEI.addDescription([
     "",
     "See the multiblock preview for a preview of the exterior design of a heat exchanger.",
     "",
-    "To function, a heat exchanger needs hot and cold fluid inputs. All that's needed for progression is to use water as the cold fluid and Hot NaK of any type as the hot fluids.",
+    "To function, a heat exchanger needs hot and cold fluid inputs.",
     "",
     "Inside a heat exchanger, fluids are transported using heat exchanger tubes (used for both hot and cold). These act like Fission Vessels or Coolant Heaters in salt reactors.",
     "",
@@ -3672,6 +3658,21 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_stage1anomaly>,
     "Obsidian",
     "Obsidian with four iron blocks making a plus sign"
 ]);
+
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_cherubim>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "The Realmshifter Cherubims are summoned on certain colored terracotta blocks...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Right click the Cherubims summoned by the Terracotta that has the same color: Lover = red, Loved = green, Love = blue"
+]);
+
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_warrenblindfold>,
 [
@@ -3732,7 +3733,7 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_truepowerabomination
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
     "Imagine not trying to connect the dots...",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Craft the Minted Fluix Crystal, the Touch of The Arbiter, the Aeldunari, and the Abominable Egg with the following Mob Souls from Animus: Jungle Spider, Hell Spider, Soul Spider, Ender Spider, Sea Spider."
+    "Craft the Minted Fluix Crystal, the Touch of The Arbiter, the Heart of the Dark Dragon, and the Abominable Egg with the following Mob Souls from Animus: Jungle Spider, Hell Spider, Soul Spider, Ender Spider, Sea Spider."
 ]);
 
 
@@ -4008,6 +4009,20 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_biomeritual>,
     "TS TH ST AF TS",
     "BV CC SB NW MY"
 ]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_freedskystone>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Possessed Sky Stone and Master Spells, wonder if the two go together...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Use the Master Spell: Ordo around placed Possessed Sky Stone. This can be automated with a Mechanical User."
+]);
+
 
 mods.jei.JEI.addDescription([
     <fluxnetworks:fluxplug>,
@@ -4640,6 +4655,48 @@ mods.jei.JEI.addDescription([
     "It is a good idea to use other energy transfer (Fluxducts, Conduits, Energy Lasers) to connect a single Point/Plug to multiple machines/generators. Just make sure your transfer rates are high enough to keep up."
 ]);
 
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_undeadsoil>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Travixte has 7 different biomes, with 7 different surface blocks...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Craft the Staff of the Lord of Gluttony with these blocks: Borean Grass, Iromine Grass, Celeve Grass, Runic Grass, Baron Ground, Mysterium Grass, Snow"
+]);
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_vowtodeath>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "The Dark Ethaxium Bricks are not right. Certain mobs may hold the answer on what to use to replace them. Weirdly enough, they do not drop, but I am sure there are ways to get them through other means...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Replace the Dark Ethaxium with the following blocks (marked by direction):",
+    "N: Block of Cobalt (OneTeuFiv)",
+    "S: Block of Platinum (OneTeuFiv)",
+    "E: Block of Electrum (OneTeuFiv)",
+    "W: Block of Bronze (OneTeuFiv)",
+    "",
+    "NNE: Zyth 11",
+    "NNW: Zyth 7",
+    "",
+    "SSE: Zome 5",
+    "SSW: Zome 12",
+    "",
+    "ENE: Zone 2",
+    "ESE: Zone 15",
+    "",
+    "WNW: Zech 3",
+    "WSW: Zech 16"
+]);
+
 
 mods.jei.JEI.addDescription([
     <contenttweaker:passive_crafting_subnets>],
@@ -4727,3 +4784,19 @@ mods.jei.JEI.addDescription([
     "",
     "After being emptied, the Reactor will not refill unless it is turned off and back on. Redstone circuitry can be used to periodically toggle the fusion reactor on and off to replenish it."
 ]);
+
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:multiblock_input_swapping>],
+[
+    "The pack uses quite a few multiblocks that do not consume inputs. The Enchanted Greenhouse and Mechanized Coop are examples of this.",
+    "",
+    "The multiblocks will only process a single recipe, even when multiple inputs are present. Items placed in Input Hatches from Modular Machinery cannot be extracted automatically.",
+    "",
+    "To automatically extract items from Item Inputs, though, Phantomfaces still work.",
+    "",
+    "By exploiting this principle, it is possible to build contraptions that automatically swap the inputs to these types of multiblocks, so that you can process multiple recipes without having to build multiple machines."
+]);
+
+
+
