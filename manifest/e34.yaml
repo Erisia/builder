@@ -28,6 +28,10 @@ nodes:
         source: curse
         side: client
         required: false
+      - name: extreme-sound-muffler-legacy
+        source: curse
+        side: client
+        required: false
   # Specify mods to exclude
   - id: excluded-mods
     value:

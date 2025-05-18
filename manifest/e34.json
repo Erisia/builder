@@ -312,6 +312,19 @@
     "sha256": "34a864afeceb60f744b5071ba625de5d294143f7c08740642cb21482b288bd7e"
   },
   {
+    "name": "arlib",
+    "title": "ARLib",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "ARLib-17-09-2024.jar",
+    "encoded": "ARLib-17-09-2024.jar",
+    "src": "https://edge.forgecdn.net/files/5732/205/ARLib-17-09-2024.jar",
+    "size": 537411,
+    "md5": "b045d04278c9dbd645416b74a31d31eb",
+    "sha256": "8e8779f21aab2eb6d4900f1446c8e8fdd0d1817181594836feaf9ff6156aa688"
+  },
+  {
     "name": "armoreablemobs",
     "title": "ArmoreableMobs",
     "side": "both",
@@ -1796,8 +1809,8 @@
   {
     "name": "extreme-sound-muffler-legacy",
     "title": "Extreme Sound Muffler: Legacy",
-    "side": "both",
-    "required": true,
+    "side": "client",
+    "required": false,
     "default": true,
     "filename": "esm-legacy-1.12.2-1.0.3.jar",
     "encoded": "esm-legacy-1.12.2-1.0.3.jar",
@@ -2533,19 +2546,6 @@
     "size": 413920,
     "md5": "220b67b80ac5b7700b8198227caf1d96",
     "sha256": "9118c4d601638e014a3c5b28ad4540c7a0ab6396aa6b7c2435fce1a9f15e225c"
-  },
-  {
-    "name": "library-for-ar-reworked",
-    "title": "ARLib",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "ARLib-17-09-2024.jar",
-    "encoded": "ARLib-17-09-2024.jar",
-    "src": "https://edge.forgecdn.net/files/5732/205/ARLib-17-09-2024.jar",
-    "size": 537411,
-    "md5": "b045d04278c9dbd645416b74a31d31eb",
-    "sha256": "8e8779f21aab2eb6d4900f1446c8e8fdd0d1817181594836feaf9ff6156aa688"
   },
   {
     "name": "llibrary",
