@@ -141,7 +141,7 @@ def sync_server_files():
             dest_item = APP_ROOT_DIR / item_name
             if source_item.exists():
                 console.print(f"Rsyncing [blue]{item_name}[/] from {source_item} to {dest_item}...")
-                run_command(['rsync', '-acL', '--delete', str(source_item) + '/', str(dest_item)]) # Append / to source for content copy
+                run_command(['rsync', '-acL', str(source_item) + '/', str(dest_item)]) # Append / to source for content copy
             else:
                 console.print(f"[yellow]Warning:[/] Source for {item_name} ({source_item}) not found. Skipping rsync.")
                 dest_item.mkdir(parents=True, exist_ok=True) # Ensure dir exists
