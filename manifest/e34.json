@@ -1482,19 +1482,6 @@
     "sha256": "e3d2215286984be17bf5fef2ac3e2f8ddc62a35ad4d7f1e25b91cd5520347335"
   },
   {
-    "name": "dynmap",
-    "title": "Dynmap®",
-    "side": "server",
-    "required": true,
-    "default": true,
-    "filename": "Dynmap-3.7-beta-4-forge-1.12.2.jar",
-    "encoded": "Dynmap-3.7-beta-4-forge-1.12.2.jar",
-    "src": "https://cdn.modrinth.com/data/fRQREgAc/versions/oonqFE15/Dynmap-3.7-beta-4-forge-1.12.2.jar",
-    "size": 11511369,
-    "md5": "9522c4cec036f2ae1d518d652bee0099",
-    "sha256": "0378331647c8d38f00c8ec39cef6216e2c6ae691c1c141bc05e15b3a3b6a6bc2"
-  },
-  {
     "name": "electroblobs-wizardry",
     "title": "Electroblob's Wizardry",
     "side": "both",

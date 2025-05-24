@@ -71,10 +71,10 @@ nodes:
         source: modrinth
         side: server
         file_id: 'xLuSqQki'
-      - name: dynmap
-        source: modrinth
-        side: server
-        file_id: 'oonqFE15'
+#      - name: dynmap
+#        source: modrinth
+#        side: server
+#        file_id: 'oonqFE15'
       - name: lootr
         source: modrinth
         side: both
