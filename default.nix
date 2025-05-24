@@ -20,7 +20,7 @@ rec {
     prometheusPort = 1224;
     minecraft = "1.12.2";
     cleanroom = {
-      major = "0.3.4";
+      major = "0.3.0";
       minor = "alpha";
     };
     client-forge = {
