@@ -481,19 +481,6 @@
     "sha256": "b385f1a6f3f908673324ef03ed15b6bb5f588ce2e36443acc7273a6263cca045"
   },
   {
-    "name": "bed-patch",
-    "title": "Bed Patch",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "bedpatch-2.2-1.12.2.jar",
-    "encoded": "bedpatch-2.2-1.12.2.jar",
-    "src": "https://edge.forgecdn.net/files/2532/663/bedpatch-2.2-1.12.2.jar",
-    "size": 21613,
-    "md5": "336fea80502d84a94a04791c64f1b071",
-    "sha256": "e57dbe0b427e49d35a9184b5d541d0e6ea504128673c8645b8fe7e4a99ebedba"
-  },
-  {
     "name": "beebetteratbees",
     "title": "BeeBetterAtBees",
     "side": "both",
@@ -544,19 +531,6 @@
     "size": 864681,
     "md5": "7db208487613e3f248b5c1b479d5ae0e",
     "sha256": "567cbeb69e77bbf9e776045c790436c65f6477162b07457607a172b075d8ebfe"
-  },
-  {
-    "name": "better-placement",
-    "title": "Better Placement",
-    "side": "client",
-    "required": false,
-    "default": true,
-    "filename": "BetterPlacement-1.0.0-1.jar",
-    "encoded": "BetterPlacement-1.0.0-1.jar",
-    "src": "https://edge.forgecdn.net/files/2481/852/BetterPlacement-1.0.0-1.jar",
-    "size": 7025,
-    "md5": "f4518692cd397dd5beda3903289352f7",
-    "sha256": "ddd028a561c6e417969aca8c3b1cfc957c4421348fba2f9bc742095253fabcf9"
   },
   {
     "name": "better-questing-unofficial",
@@ -1066,19 +1040,6 @@
     "sha256": "7a57dfffe50b7f9b0a9122eb095018664dea35cb01bddf43db1162683566d8eb"
   },
   {
-    "name": "clumps",
-    "title": "Clumps",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "Clumps-3.1.2.jar",
-    "encoded": "Clumps-3.1.2.jar",
-    "src": "https://cdn.modrinth.com/data/Wnxd13zP/versions/nZvGITpT/Clumps-3.1.2.jar",
-    "size": 13792,
-    "md5": "e0c4c4f04aeb0e0a48fc7534f9e7d6be",
-    "sha256": "f3ce670e0087f4c6b770fd05ae5c3dfd8462f74c62397932ea72954d1c6c8df4"
-  },
-  {
     "name": "codechicken-lib-1-8",
     "title": "CodeChicken Lib 1.8.+",
     "side": "both",
@@ -1159,8 +1120,8 @@
   {
     "name": "configanytime",
     "title": "ConfigAnytime",
-    "side": "client",
-    "required": false,
+    "side": "both",
+    "required": true,
     "default": true,
     "filename": "!configanytime-3.0.jar",
     "encoded": "%21configanytime-3.0.jar",
@@ -2106,19 +2067,6 @@
     "sha256": "be766981657ae0402169cc058ed6d22e29ee0a086d01a77a3918d4aab2df860a"
   },
   {
-    "name": "helpfixer",
-    "title": "HelpFixer",
-    "side": "server",
-    "required": true,
-    "default": true,
-    "filename": "HelpFixer-1.12.1-1.5.18.jar",
-    "encoded": "HelpFixer-1.12.1-1.5.18.jar",
-    "src": "https://edge.forgecdn.net/files/2479/308/HelpFixer-1.12.1-1.5.18.jar",
-    "size": 6778,
-    "md5": "52a1b001b58e67022b5465be12bc278f",
-    "sha256": "a3cc25bd00e3d63724f667f569889001be461eb8f383c03b931104ec42833cd5"
-  },
-  {
     "name": "holoinventory",
     "title": "HoloInventory",
     "side": "both",
@@ -2732,8 +2680,8 @@
   {
     "name": "mixin-booter",
     "title": "MixinBooter",
-    "side": "client",
-    "required": false,
+    "side": "both",
+    "required": true,
     "default": true,
     "filename": "!mixinbooter-10.6.jar",
     "encoded": "%21mixinbooter-10.6.jar",
@@ -2901,8 +2849,8 @@
   {
     "name": "mouse-tweaks-unofficial",
     "title": "Mouse Tweaks Unofficial",
-    "side": "client",
-    "required": false,
+    "side": "both",
+    "required": true,
     "default": true,
     "filename": "mousetweaks-1.12.2-3.1.5.jar",
     "encoded": "mousetweaks-1.12.2-3.1.5.jar",
@@ -3079,19 +3027,6 @@
     "size": 19451,
     "md5": "31ae3b6fbaa52499be80e469ad97af62",
     "sha256": "9349ae338fab0b1bd265a84f3a0832dc6c4a6689c27fc0b2216eeefbe0d7370f"
-  },
-  {
-    "name": "netherportalfix",
-    "title": "NetherPortalFix",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "NetherPortalFix_1.12.1-5.3.17.jar",
-    "encoded": "NetherPortalFix_1.12.1-5.3.17.jar",
-    "src": "https://edge.forgecdn.net/files/2612/52/NetherPortalFix_1.12.1-5.3.17.jar",
-    "size": 109445,
-    "md5": "97ff3e60aa9725cedbc64f19e179f813",
-    "sha256": "f8c46dfa9f1c11641d2f7400efa52c97be954e8e178d0ef346cc601c320b414f"
   },
   {
     "name": "new-tardis-mod",
@@ -3599,19 +3534,6 @@
     "size": 3292861,
     "md5": "b91502e1810cdf13dfd5fb3b4e15e5ad",
     "sha256": "acf78a9096a6a7f8fe67e3310d07d03cdbcb9ebd9e2cb15a54a6b4d1263aab3a"
-  },
-  {
-    "name": "randompatches-forge",
-    "title": "RandomPatches (Forge)",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "randompatches-1.12.2-1.22.1.10.jar",
-    "encoded": "randompatches-1.12.2-1.22.1.10.jar",
-    "src": "https://edge.forgecdn.net/files/3133/651/randompatches-1.12.2-1.22.1.10.jar",
-    "size": 293231,
-    "md5": "dfbb30ff396e6426ba9a284b04c7bcf3",
-    "sha256": "c6d836b4d14223999afcd9df143076a5a709ff2009d6604382c346d1a258284b"
   },
   {
     "name": "randomtweaker",

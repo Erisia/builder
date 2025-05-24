@@ -17,17 +17,6 @@ nodes:
         source: curse
         side: client
         required: false
-      # mixin-booter and configanytime are required with Forge, but should not be used with Cleanroom.
-      # These should be moved back to excluded-mods if we get Cleanroom working in MCU.
-      # For now, they are set to required: false, for ease of use if symlinking into a Prism instance with Cleanroom.
-      - name: mixin-booter
-        source: curse
-        side: client
-        required: false
-      - name: configanytime
-        source: curse
-        side: client
-        required: false
       - name: extreme-sound-muffler-legacy
         source: curse
         side: client
@@ -35,30 +24,11 @@ nodes:
   # Specify mods to exclude
   - id: excluded-mods
     value:
-      #- mixin-booter
-      #- configanytime
       - aromabackup
       - aroma1997core
-      - mouse-tweaks-unofficial # Manually adding updated version
   # Specify extra mods to add
   - id: extra-mods
     value:
-      - name: clumps
-        source: modrinth
-        file_id: 'nZvGITpT'
-      - name: randompatches-forge
-        source: curse
-        file_id: 3133651
-      - name: helpfixer
-        source: curse
-        side: server
-        file_id: 2479308
-      - name: netherportalfix
-        source: curse
-        file_id: 2612052
-      - name: bed-patch
-        source: curse
-        file_id: 2532663
       - name: chunkpregenerator
         source: curse
         file_id: 5632153
@@ -70,10 +40,6 @@ nodes:
         id: 254573
         side: server
         file_id: 2519411
-      - name: morpheus
-        source: curse
-        side: server
-        file_id: 2664449
       - name: dynamic-surroundings
         source: curse
         side: client
@@ -95,11 +61,6 @@ nodes:
         required: false
         default: false
         file_id: 3393955
-      - name: better-placement
-        source: curse
-        side: client
-        required: false
-        file_id: 2481852
       - name: fullscreen-windowed-borderless-for-minecraft
         source: curse
         side: client
@@ -118,12 +79,6 @@ nodes:
         source: modrinth
         side: both
         file_id: 'fTrJqmfv'
-      - name: mouse-tweaks-unofficial
-        source: curse
-        side: client
-        id: 461660
-        file_id: 5876158
-        required: false
 
   # Build processing graph:
   # Download modpack and unzip
