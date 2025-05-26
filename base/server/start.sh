@@ -154,7 +154,7 @@ elif [[ -e forge/run.sh ]]; then
 	# Use the provided run script. This implicitly invokes user_jvm_args, and works with newer Java.
 	nix shell 'nixpkgs#jre' --command forge/run.sh &
 elif find forge/ -name 'cleanroom*.jar' -printf 1 -quit | grep -q 1; then
-    nix run nixpkgs#zulu24 -- \
+    nix run nixpkgs#jre -- \
         "$@" \
         $(cat user_jvm_args.txt) \
         -jar forge/cleanroom-*.jar nogui &

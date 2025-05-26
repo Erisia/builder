@@ -1,15 +1,16 @@
  -Xms@ram@
  -Xmx@ram@
- -XX:+UnlockExperimentalVMOptions
- -XX:+UseCompactObjectHeaders
- -XX:+AlwaysPreTouch
- -XX:+DisableExplicitGC
- -XX:+UseStringDeduplication
- -XX:+UseZGC
- -Dfml.queryResult=confirm
  -Djava.net.preferIPv4Stack=true
  -Dlog4j2.formatMsgNoLookups=true
  -Dfml.readTimeout=1800
  -Dfml.loginTimeout=36000
  -Dfml.doNotBackup=true
+ -XX:+UseTransparentHugePages
+ -XX:+AlwaysPreTouch
+ -XX:+DisableExplicitGC
+ -XX:MaxGCPauseMillis=500
+ -XX:+StartAttachListener
+ -XX:+UnlockExperimentalVMOptions
+ -XX:SymbolTableSize=1M
+ -XX:StringTableSize=1M
  -XX:+PrintStringTableStatistics
