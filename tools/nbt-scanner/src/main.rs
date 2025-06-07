@@ -10,6 +10,13 @@ use std::path::{Path, PathBuf};
 use std::sync::atomic::{AtomicUsize, Ordering};
 use walkdir::WalkDir;
 
+#[derive(Debug, Clone)]
+struct Match {
+    file_path: PathBuf,
+    line_number: Option<usize>,
+    content: Option<String>,
+}
+
 #[derive(Parser, Debug)]
 #[command(author, version, about, long_about = None)]
 struct Args {
@@ -33,8 +40,6 @@ fn main() -> Result<()> {
     println!("Directory: {}", args.directory.display());
     println!();
     
-    let found_count = AtomicUsize::new(0);
-    
     // Collect all file paths first
     let files: Vec<_> = WalkDir::new(&args.directory)
         .follow_links(true)
@@ -45,44 +50,68 @@ fn main() -> Result<()> {
         .collect();
     println!("Found {} files", files.len());
     
-    // Process files in parallel
-    files.par_iter().for_each(|path| {
-        if let Ok(matches) = scan_file(path, &args.uuid, &uuid_regex, args.verbose) {
-            found_count.fetch_add(matches, Ordering::Relaxed);
-        }
-    });
+    // Process files in parallel and collect matches
+    let all_matches: Vec<Match> = files
+        .par_iter()
+        .filter_map(|path| {
+            scan_file(path, &args.uuid, &uuid_regex, args.verbose, &args.directory).ok()
+        })
+        .flatten()
+        .collect();
     
-    println!("\nTotal matches found: {}", found_count.load(Ordering::Relaxed));
+    // Sort matches by file path
+    let mut sorted_matches = all_matches;
+    sorted_matches.sort_by(|a, b| a.file_path.cmp(&b.file_path));
+    
+    // Print sorted results
+    let mut current_file: Option<&PathBuf> = None;
+    for match_item in &sorted_matches {
+        if args.verbose {
+            println!("Found in {} (line {}): {}", 
+                match_item.file_path.display(), 
+                match_item.line_number.unwrap_or(0), 
+                match_item.content.as_deref().unwrap_or("")
+            );
+        } else {
+            // Only print file path once for non-verbose mode
+            if current_file != Some(&match_item.file_path) {
+                println!("{}", match_item.file_path.display());
+                current_file = Some(&match_item.file_path);
+            }
+        }
+    }
+    
+    println!("\nTotal matches found: {}", sorted_matches.len());
     
     Ok(())
 }
 
-fn scan_file(path: &Path, uuid: &str, uuid_regex: &Regex, verbose: bool) -> Result<usize> {
+fn scan_file(path: &Path, uuid: &str, uuid_regex: &Regex, verbose: bool, base_dir: &Path) -> Result<Vec<Match>> {
     let mut file = File::open(path)?;
     let mut data = Vec::new();
     file.read_to_end(&mut data)?;
     
+    let relative_path = path.strip_prefix(base_dir).unwrap_or(path).to_path_buf();
+    
     // First, try to parse as NBT
     if let Ok(nbt_value) = from_reader::<_, nbt::Value>(&mut &data[..]) {
         if search_nbt_value(&nbt_value, &uuid.to_lowercase()) {
-            if verbose {
-                println!("Found UUID in NBT file: {}", path.display());
-            } else {
-                println!("Found UUID in NBT file: {}", 
-                    path.file_name().unwrap_or_default().to_string_lossy());
-            }
-            return Ok(1);
+            return Ok(vec![Match {
+                file_path: relative_path,
+                line_number: None,
+                content: None,
+            }]);
         }
-        return Ok(0);
+        return Ok(vec![]);
     }
     
     // If NBT parsing failed, try to decompress with gzip and search
     if let Ok(decompressed) = decompress_gzip(&data) {
-        return search_text(&decompressed, path, uuid_regex, verbose);
+        return search_text(&decompressed, &relative_path, uuid_regex, verbose);
     }
     
     // If decompression failed, just search the raw data
-    search_text(&data, path, uuid_regex, verbose)
+    search_text(&data, &relative_path, uuid_regex, verbose)
 }
 
 fn decompress_gzip(data: &[u8]) -> Result<Vec<u8>> {
@@ -92,29 +121,30 @@ fn decompress_gzip(data: &[u8]) -> Result<Vec<u8>> {
     Ok(decompressed)
 }
 
-fn search_text(data: &[u8], path: &Path, uuid_regex: &Regex, verbose: bool) -> Result<usize> {
+fn search_text(data: &[u8], file_path: &PathBuf, uuid_regex: &Regex, verbose: bool) -> Result<Vec<Match>> {
     let content = String::from_utf8_lossy(data);
-    let mut matches = 0;
+    let mut matches = Vec::new();
     
     for (line_num, line) in content.lines().enumerate() {
         if uuid_regex.is_match(line) {
-            matches += 1;
-            if verbose {
-                println!("Found in {} (line {}): {}", 
-                    path.display(), 
-                    line_num + 1, 
-                    line.trim()
-                );
-            } else {
-                println!("Found in {} (line {})", 
-                    path.file_name().unwrap_or_default().to_string_lossy(), 
-                    line_num + 1
-                );
-            }
+            matches.push(Match {
+                file_path: file_path.clone(),
+                line_number: Some(line_num + 1),
+                content: if verbose { Some(line.trim().to_string()) } else { None },
+            });
         }
     }
     
-    Ok(matches)
+    // If we have matches but not in verbose mode, return just one match per file
+    if !matches.is_empty() && !verbose {
+        Ok(vec![Match {
+            file_path: file_path.clone(),
+            line_number: None,
+            content: None,
+        }])
+    } else {
+        Ok(matches)
+    }
 }
 
 fn search_nbt_value(value: &nbt::Value, uuid: &str) -> bool {
