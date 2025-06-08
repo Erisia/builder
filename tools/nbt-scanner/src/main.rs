@@ -94,7 +94,17 @@ fn main() -> Result<()> {
     
     // Print sorted results
     let mut sorted_files: Vec<_> = file_totals.into_iter().collect();
-    sorted_files.sort_by(|a, b| a.0.cmp(b.0));
+    sorted_files.sort_by(|a, b| {
+        // Sort by estimated size first (ascending), then by file path (ascending)
+        match (a.1.1, b.1.1) {
+            (Some(size_a), Some(size_b)) => {
+                size_a.cmp(&size_b).then_with(|| a.0.cmp(b.0))
+            }
+            (Some(_), None) => std::cmp::Ordering::Greater,
+            (None, Some(_)) => std::cmp::Ordering::Less,
+            (None, None) => a.0.cmp(b.0),
+        }
+    });
     
     for (file_path, (count, total_size, percentiles)) in sorted_files {
         let mut output = format!("{}", file_path.display());
