@@ -6,7 +6,7 @@ use rayon::prelude::*;
 use regex::Regex;
 use serde_json::Value as JsonValue;
 use std::collections::HashMap;
-use std::fs::File;
+use std::fs::{File, metadata};
 use std::io::Read;
 use std::path::{Path, PathBuf};
 use walkdir::WalkDir;
@@ -27,6 +27,7 @@ enum MatchType {
     JsonKey(String),
     JsonValue(String),
     TextMatch(String),
+    FilenameMatch(String),
 }
 
 fn load_nbt_from_file(path: &Path) -> Result<nbt::Map<String, nbt::Value>> {
@@ -132,6 +133,7 @@ fn main() -> Result<()> {
                 MatchType::JsonKey(key) => output.push_str(&format!(" (JSON key: {})", key)),
                 MatchType::JsonValue(val) => output.push_str(&format!(" (JSON value: {})", val)),
                 MatchType::TextMatch(line) => output.push_str(&format!(" (text: {})", line.trim())),
+                MatchType::FilenameMatch(filename) => output.push_str(&format!(" (filename: {})", filename)),
             }
             
             if let (Some(size), Some(percentile)) = (match_item.size, match_item.percentile) {
@@ -173,52 +175,117 @@ fn main() -> Result<()> {
     Ok(())
 }
 
+fn get_sibling_file_sizes(file_path: &Path) -> Result<Vec<u64>> {
+    let parent_dir = file_path.parent().ok_or_else(|| anyhow::anyhow!("No parent directory"))?;
+    let mut sizes = Vec::new();
+    
+    for entry in std::fs::read_dir(parent_dir)? {
+        let entry = entry?;
+        if entry.path().is_file() {
+            if let Ok(metadata) = entry.metadata() {
+                sizes.push(metadata.len());
+            }
+        }
+    }
+    
+    Ok(sizes)
+}
+
+fn calculate_file_percentile(target_size: u64, all_sizes: &[u64]) -> f64 {
+    if all_sizes.is_empty() {
+        return 0.0;
+    }
+    
+    let smaller_count = all_sizes.iter().filter(|&&size| size < target_size).count();
+    (smaller_count as f64 / all_sizes.len() as f64) * 100.0
+}
+
 fn scan_file(path: &Path, uuid: &str, uuid_regex: &Regex, base_dir: &Path) -> Result<Vec<Match>> {
     let mut file = File::open(path)?;
     let mut data = Vec::new();
     file.read_to_end(&mut data)?;
     
     let relative_path = path.strip_prefix(base_dir).unwrap_or(path).to_path_buf();
+    let mut matches = Vec::new();
     
-    // First, try to parse as NBT using our reusable function
+    // First, check if the filename contains the UUID
+    if let Some(filename) = path.file_name().and_then(|f| f.to_str()) {
+        if uuid_regex.is_match(filename) {
+            // Get file size and sibling file sizes for percentile calculation
+            if let Ok(file_metadata) = metadata(path) {
+                let file_size = file_metadata.len();
+                
+                if let Ok(sibling_sizes) = get_sibling_file_sizes(path) {
+                    let percentile = calculate_file_percentile(file_size, &sibling_sizes);
+                    
+                    matches.push(Match {
+                        file_path: relative_path.clone(),
+                        size: Some(file_size as usize),
+                        percentile: Some(percentile),
+                        match_type: MatchType::FilenameMatch(filename.to_string()),
+                        location: "filename".to_string(),
+                    });
+                } else {
+                    // If we can't get sibling sizes, still record the filename match
+                    matches.push(Match {
+                        file_path: relative_path.clone(),
+                        size: Some(file_size as usize),
+                        percentile: None,
+                        match_type: MatchType::FilenameMatch(filename.to_string()),
+                        location: "filename".to_string(),
+                    });
+                }
+            }
+        }
+    }
+    
+    // Then, try to parse as NBT using our reusable function
     if let Ok(nbt_compound) = load_nbt_from_file(path) {
-        let matches = search_nbt_map(&nbt_compound, &uuid.to_lowercase());
-        if !matches.is_empty() {
-            return Ok(matches.into_iter().map(|(size, percentile, match_type, location)| Match {
+        let nbt_matches = search_nbt_map(&nbt_compound, &uuid.to_lowercase());
+        if !nbt_matches.is_empty() {
+            let mut content_matches: Vec<Match> = nbt_matches.into_iter().map(|(size, percentile, match_type, location)| Match {
                 file_path: relative_path.clone(),
                 size: Some(size),
                 percentile: Some(percentile),
                 match_type,
                 location,
-            }).collect());
+            }).collect();
+            matches.append(&mut content_matches);
         }
-        return Ok(vec![]);
+        return Ok(matches);
     }
     
     // If NBT parsing failed, try JSON parsing
     if let Ok(content) = std::str::from_utf8(&data) {
         if let Ok(json_value) = serde_json::from_str::<JsonValue>(content) {
-            let matches = search_json_value(&json_value, &uuid.to_lowercase());
-            if !matches.is_empty() {
-                return Ok(matches.into_iter().map(|(size, percentile, match_type, location)| Match {
+            let json_matches = search_json_value(&json_value, &uuid.to_lowercase());
+            if !json_matches.is_empty() {
+                let mut content_matches: Vec<Match> = json_matches.into_iter().map(|(size, percentile, match_type, location)| Match {
                     file_path: relative_path.clone(),
                     size: Some(size),
                     percentile: Some(percentile),
                     match_type,
                     location,
-                }).collect());
+                }).collect();
+                matches.append(&mut content_matches);
             }
-            return Ok(vec![]);
+            return Ok(matches);
         }
     }
     
     // If JSON parsing failed, try to decompress with gzip and search
     if let Ok(decompressed) = decompress_gzip(&data) {
-        return search_text(&decompressed, &relative_path, uuid_regex);
+        if let Ok(mut text_matches) = search_text(&decompressed, &relative_path, uuid_regex) {
+            matches.append(&mut text_matches);
+        }
+        return Ok(matches);
     }
     
     // If decompression failed, just search the raw data
-    search_text(&data, &relative_path, uuid_regex)
+    if let Ok(mut text_matches) = search_text(&data, &relative_path, uuid_regex) {
+        matches.append(&mut text_matches);
+    }
+    Ok(matches)
 }
 
 fn decompress_gzip(data: &[u8]) -> Result<Vec<u8>> {
@@ -526,5 +593,38 @@ mod tests {
         assert!(!matches.is_empty(), "Should find 'uuid' key pattern");
         
         println!("JSON search test passed!");
+    }
+
+    #[test]
+    fn test_filename_matching() {
+        use std::path::PathBuf;
+        use regex::Regex;
+        
+        let test_uuid = "2fc94059-0209-4e20-b2b9-42d38760c811";
+        let uuid_regex = Regex::new(&format!(r"(?i){}", regex::escape(test_uuid))).unwrap();
+        let test_file = PathBuf::from("testdata/2fc94059-0209-4e20-b2b9-42d38760c811.dat");
+        let base_dir = PathBuf::from("testdata");
+        
+        // Test that we can find filename matches
+        let matches = scan_file(&test_file, test_uuid, &uuid_regex, &base_dir)
+            .expect("Should be able to scan file");
+        
+        // Should find at least one match (the filename match)
+        assert!(!matches.is_empty(), "Should find filename match");
+        
+        // Check that we have a FilenameMatch
+        let filename_matches: Vec<_> = matches.iter()
+            .filter(|m| matches!(m.match_type, MatchType::FilenameMatch(_)))
+            .collect();
+        
+        assert!(!filename_matches.is_empty(), "Should have filename match");
+        
+        // Verify the match has size and percentile information
+        let filename_match = &filename_matches[0];
+        assert!(filename_match.size.is_some(), "Filename match should have size");
+        assert!(filename_match.percentile.is_some(), "Filename match should have percentile");
+        assert_eq!(filename_match.location, "filename");
+        
+        println!("Filename matching test passed!");
     }
 }
