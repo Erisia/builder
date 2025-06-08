@@ -1,7 +1,7 @@
 use anyhow::{Context, Result};
 use clap::Parser;
 use flate2::read::GzDecoder;
-use nbt::de::from_reader;
+use nbt::de::{from_gzip_reader, from_reader};
 use rayon::prelude::*;
 use regex::Regex;
 use std::collections::HashMap;
@@ -14,6 +14,20 @@ use walkdir::WalkDir;
 struct Match {
     file_path: PathBuf,
     size: Option<usize>,
+}
+
+fn load_nbt_from_file(path: &Path) -> Result<nbt::Map<String, nbt::Value>> {
+    let file = File::open(path)?;
+    
+    // Try to read as gzipped NBT first
+    match from_gzip_reader(file) {
+        Ok(compound) => Ok(compound),
+        Err(_) => {
+            // If gzip fails, try reading as uncompressed NBT
+            let file = File::open(path)?;
+            from_reader(file).context("Failed to parse NBT data")
+        }
+    }
 }
 
 #[derive(Parser, Debug)]
@@ -96,9 +110,9 @@ fn scan_file(path: &Path, uuid: &str, uuid_regex: &Regex, base_dir: &Path) -> Re
     
     let relative_path = path.strip_prefix(base_dir).unwrap_or(path).to_path_buf();
     
-    // First, try to parse as NBT
-    if let Ok(nbt_value) = from_reader::<_, nbt::Value>(&mut &data[..]) {
-        if let Some(size) = search_nbt_value(&nbt_value, &uuid.to_lowercase()) {
+    // First, try to parse as NBT using our reusable function
+    if let Ok(nbt_compound) = load_nbt_from_file(path) {
+        if let Some(size) = search_nbt_map(&nbt_compound, &uuid.to_lowercase()) {
             return Ok(vec![Match {
                 file_path: relative_path,
                 size: Some(size),
@@ -163,6 +177,27 @@ fn estimate_nbt_size(value: &nbt::Value) -> usize {
     }
 }
 
+fn search_nbt_map(map: &nbt::Map<String, nbt::Value>, uuid: &str) -> Option<usize> {
+    // Check if any key contains the UUID
+    for (key, _) in map {
+        if key.to_lowercase().contains(uuid) {
+            return Some(estimate_nbt_map_size(map));
+        }
+    }
+    
+    // Check if any value contains the UUID
+    for (_, value) in map {
+        if let Some(_) = search_nbt_value(value, uuid) {
+            return Some(estimate_nbt_map_size(map));
+        }
+    }
+    None
+}
+
+fn estimate_nbt_map_size(map: &nbt::Map<String, nbt::Value>) -> usize {
+    map.iter().map(|(key, val)| 1 + 2 + key.len() + estimate_nbt_size(val)).sum::<usize>() + 1
+}
+
 fn search_nbt_value(value: &nbt::Value, uuid: &str) -> Option<usize> {
     use nbt::Value;
     
@@ -208,5 +243,34 @@ fn search_nbt_value(value: &nbt::Value, uuid: &str) -> Option<usize> {
             }
         }
         _ => None,
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use std::path::PathBuf;
+
+    #[test]
+    fn test_nbt_deserializer() {
+        let test_file = PathBuf::from("testdata/playerdata.dat");
+        
+        // Test that we can load the NBT file
+        let nbt_data = load_nbt_from_file(&test_file)
+            .expect("Should be able to load NBT from test file");
+        
+        // Verify it's a Map with String keys and NBT Values
+        assert!(!nbt_data.is_empty(), "NBT data should not be empty");
+        
+        // Print some info about the loaded data for verification
+        println!("Loaded NBT data with {} top-level keys", nbt_data.len());
+        for (key, _) in nbt_data.iter().take(5) {
+            println!("  Key: {}", key);
+        }
+        
+        // Test that we can search through the data (this exercises the search functions)
+        let _search_result = search_nbt_map(&nbt_data, "test_uuid");
+        
+        println!("NBT deserializer test passed!");
     }
 }
