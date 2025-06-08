@@ -4,6 +4,7 @@ use flate2::read::GzDecoder;
 use nbt::de::{from_gzip_reader, from_reader};
 use rayon::prelude::*;
 use regex::Regex;
+use serde_json::Value as JsonValue;
 use std::collections::HashMap;
 use std::fs::File;
 use std::io::Read;
@@ -103,7 +104,7 @@ fn main() -> Result<()> {
         let mut parts = Vec::new();
         
         if let Some(size) = total_size {
-            parts.push(format!("NBT size: {} bytes", size));
+            parts.push(format!("size: {} bytes", size));
         }
         
         parts.push(format!("{} matches", count));
@@ -145,7 +146,22 @@ fn scan_file(path: &Path, uuid: &str, uuid_regex: &Regex, base_dir: &Path) -> Re
         return Ok(vec![]);
     }
     
-    // If NBT parsing failed, try to decompress with gzip and search
+    // If NBT parsing failed, try JSON parsing
+    if let Ok(content) = std::str::from_utf8(&data) {
+        if let Ok(json_value) = serde_json::from_str::<JsonValue>(content) {
+            let matches = search_json_value(&json_value, &uuid.to_lowercase());
+            if !matches.is_empty() {
+                return Ok(matches.into_iter().map(|(size, percentile)| Match {
+                    file_path: relative_path.clone(),
+                    size: Some(size),
+                    percentile: Some(percentile),
+                }).collect());
+            }
+            return Ok(vec![]);
+        }
+    }
+    
+    // If JSON parsing failed, try to decompress with gzip and search
     if let Ok(decompressed) = decompress_gzip(&data) {
         return search_text(&decompressed, &relative_path, uuid_regex);
     }
@@ -176,6 +192,109 @@ fn search_text(data: &[u8], file_path: &PathBuf, uuid_regex: &Regex) -> Result<V
     }
     
     Ok(matches)
+}
+
+fn estimate_json_size(value: &JsonValue) -> usize {
+    match value {
+        JsonValue::Null => 4, // "null"
+        JsonValue::Bool(b) => if *b { 4 } else { 5 }, // "true" or "false"
+        JsonValue::Number(n) => n.to_string().len(),
+        JsonValue::String(s) => 2 + s.len(), // quotes + content
+        JsonValue::Array(arr) => {
+            2 + arr.iter().map(|v| estimate_json_size(v)).sum::<usize>() + 
+            if arr.len() > 1 { arr.len() - 1 } else { 0 } // brackets + commas
+        }
+        JsonValue::Object(map) => {
+            let content_size: usize = map.iter()
+                .map(|(k, v)| 3 + k.len() + estimate_json_size(v)) // "key": + value
+                .sum();
+            let comma_size = if map.len() > 1 { map.len() - 1 } else { 0 };
+            2 + content_size + comma_size // braces + content + commas
+        }
+    }
+}
+
+fn search_json_value(value: &JsonValue, uuid: &str) -> Vec<(usize, f64)> {
+    match value {
+        JsonValue::Object(map) => search_json_object(map, uuid),
+        _ => {
+            // For non-object root values, just check if they contain the UUID
+            if check_json_value_contains_uuid(value, uuid) {
+                vec![(estimate_json_size(value), 0.0)]
+            } else {
+                vec![]
+            }
+        }
+    }
+}
+
+fn search_json_object(map: &serde_json::Map<String, JsonValue>, uuid: &str) -> Vec<(usize, f64)> {
+    let all_key_sizes = get_json_key_sizes_in_map(map);
+    let mut matches = Vec::new();
+    
+    // Check if any key contains the UUID
+    for (key, val) in map {
+        if key.to_lowercase().contains(uuid) {
+            let target_size = 3 + key.len() + estimate_json_size(val); // "key": + value
+            let percentile = calculate_percentile(target_size, &all_key_sizes);
+            matches.push((estimate_json_object_size(map), percentile));
+        }
+    }
+    
+    // Check if any value contains the UUID
+    for (key, value) in map {
+        if check_json_value_contains_uuid(value, uuid) {
+            let target_size = 3 + key.len() + estimate_json_size(value); // "key": + value
+            let percentile = calculate_percentile(target_size, &all_key_sizes);
+            matches.push((estimate_json_object_size(map), percentile));
+        }
+    }
+    
+    matches
+}
+
+fn estimate_json_object_size(map: &serde_json::Map<String, JsonValue>) -> usize {
+    let content_size: usize = map.iter()
+        .map(|(k, v)| 3 + k.len() + estimate_json_size(v)) // "key": + value
+        .sum();
+    let comma_size = if map.len() > 1 { map.len() - 1 } else { 0 };
+    2 + content_size + comma_size // braces + content + commas
+}
+
+fn get_json_key_sizes_in_map(map: &serde_json::Map<String, JsonValue>) -> Vec<usize> {
+    map.iter()
+        .map(|(key, val)| 3 + key.len() + estimate_json_size(val)) // "key": + value
+        .collect()
+}
+
+fn check_json_value_contains_uuid(value: &JsonValue, uuid: &str) -> bool {
+    match value {
+        JsonValue::String(s) => s.to_lowercase().contains(uuid),
+        JsonValue::Object(map) => {
+            // Check if any key contains the UUID
+            for (key, _) in map {
+                if key.to_lowercase().contains(uuid) {
+                    return true;
+                }
+            }
+            // Check if any value contains the UUID
+            for (_, val) in map {
+                if check_json_value_contains_uuid(val, uuid) {
+                    return true;
+                }
+            }
+            false
+        }
+        JsonValue::Array(arr) => {
+            for item in arr {
+                if check_json_value_contains_uuid(item, uuid) {
+                    return true;
+                }
+            }
+            false
+        }
+        _ => false,
+    }
 }
 
 fn estimate_nbt_size(value: &nbt::Value) -> usize {
@@ -320,5 +439,38 @@ mod tests {
         let _search_results = search_nbt_map(&nbt_data, "test_uuid");
         
         println!("NBT deserializer test passed!");
+    }
+
+    #[test]
+    fn test_json_search() {
+        let test_file = PathBuf::from("testdata/json.json");
+        
+        // Load the JSON file
+        let data = std::fs::read(&test_file)
+            .expect("Should be able to read JSON test file");
+        
+        let content = std::str::from_utf8(&data)
+            .expect("Should be valid UTF-8");
+        
+        let json_value = serde_json::from_str::<JsonValue>(content)
+            .expect("Should be valid JSON");
+        
+        // Test searching for a UUID that exists in the file
+        let matches = search_json_value(&json_value, "2fc94059-0209-4e20-b2b9-42d38760c811");
+        assert!(!matches.is_empty(), "Should find the UUID in JSON");
+        
+        // Test searching for a partial UUID
+        let matches = search_json_value(&json_value, "2fc94059");
+        assert!(!matches.is_empty(), "Should find partial UUID in JSON");
+        
+        // Test searching for a UUID that doesn't exist
+        let matches = search_json_value(&json_value, "00000000-0000-0000-0000-000000000000");
+        assert!(matches.is_empty(), "Should not find non-existent UUID");
+        
+        // Test searching for key that contains UUID-like pattern
+        let matches = search_json_value(&json_value, "uuid");
+        assert!(!matches.is_empty(), "Should find 'uuid' key pattern");
+        
+        println!("JSON search test passed!");
     }
 }
