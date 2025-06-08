@@ -16,6 +16,17 @@ struct Match {
     file_path: PathBuf,
     size: Option<usize>,
     percentile: Option<f64>,
+    match_type: MatchType,
+    location: String,
+}
+
+#[derive(Debug, Clone)]
+enum MatchType {
+    NbtKey(String),
+    NbtValue(String),
+    JsonKey(String),
+    JsonValue(String),
+    TextMatch(String),
 }
 
 fn load_nbt_from_file(path: &Path) -> Result<nbt::Map<String, nbt::Value>> {
@@ -41,6 +52,8 @@ struct Args {
     #[arg(help = "Directory to scan")]
     directory: PathBuf,
 
+    #[arg(short, long, help = "Print individual matches")]
+    verbose: bool,
 }
 
 fn main() -> Result<()> {
@@ -106,29 +119,53 @@ fn main() -> Result<()> {
         }
     });
     
-    for (file_path, (count, total_size, percentiles)) in sorted_files {
-        let mut output = format!("{}", file_path.display());
-        
-        output.push_str(" (");
-        
-        let mut parts = Vec::new();
-        
-        if let Some(size) = total_size {
-            parts.push(format!("size: {} bytes", size));
+    if args.verbose {
+        // Print individual matches
+        for match_item in &sorted_matches {
+            let mut output = format!("{}", match_item.file_path.display());
+            output.push_str(" - ");
+            output.push_str(&match_item.location);
+            
+            match &match_item.match_type {
+                MatchType::NbtKey(key) => output.push_str(&format!(" (NBT key: {})", key)),
+                MatchType::NbtValue(desc) => output.push_str(&format!(" (NBT value: {})", desc)),
+                MatchType::JsonKey(key) => output.push_str(&format!(" (JSON key: {})", key)),
+                MatchType::JsonValue(val) => output.push_str(&format!(" (JSON value: {})", val)),
+                MatchType::TextMatch(line) => output.push_str(&format!(" (text: {})", line.trim())),
+            }
+            
+            if let (Some(size), Some(percentile)) = (match_item.size, match_item.percentile) {
+                output.push_str(&format!(" [size: {} bytes, percentile: {:.1}%]", size, percentile));
+            }
+            
+            println!("{}", output);
         }
-        
-        parts.push(format!("{} matches", count));
-        
-        if !percentiles.is_empty() {
-            let percentile_str: Vec<String> = percentiles.iter()
-                .map(|p| format!("{:.1}%", p))
-                .collect();
-            parts.push(format!("percentiles: [{}]", percentile_str.join(", ")));
+    } else {
+        // Print summary by file
+        for (file_path, (count, total_size, percentiles)) in sorted_files {
+            let mut output = format!("{}", file_path.display());
+            
+            output.push_str(" (");
+            
+            let mut parts = Vec::new();
+            
+            if let Some(size) = total_size {
+                parts.push(format!("size: {} bytes", size));
+            }
+            
+            parts.push(format!("{} matches", count));
+            
+            if !percentiles.is_empty() {
+                let percentile_str: Vec<String> = percentiles.iter()
+                    .map(|p| format!("{:.1}%", p))
+                    .collect();
+                parts.push(format!("percentiles: [{}]", percentile_str.join(", ")));
+            }
+            
+            output.push_str(&parts.join(", "));
+            output.push(')');
+            println!("{}", output);
         }
-        
-        output.push_str(&parts.join(", "));
-        output.push(')');
-        println!("{}", output);
     }
     
     println!("\nTotal matches found: {}", sorted_matches.len());
@@ -147,10 +184,12 @@ fn scan_file(path: &Path, uuid: &str, uuid_regex: &Regex, base_dir: &Path) -> Re
     if let Ok(nbt_compound) = load_nbt_from_file(path) {
         let matches = search_nbt_map(&nbt_compound, &uuid.to_lowercase());
         if !matches.is_empty() {
-            return Ok(matches.into_iter().map(|(size, percentile)| Match {
+            return Ok(matches.into_iter().map(|(size, percentile, match_type, location)| Match {
                 file_path: relative_path.clone(),
                 size: Some(size),
                 percentile: Some(percentile),
+                match_type,
+                location,
             }).collect());
         }
         return Ok(vec![]);
@@ -161,10 +200,12 @@ fn scan_file(path: &Path, uuid: &str, uuid_regex: &Regex, base_dir: &Path) -> Re
         if let Ok(json_value) = serde_json::from_str::<JsonValue>(content) {
             let matches = search_json_value(&json_value, &uuid.to_lowercase());
             if !matches.is_empty() {
-                return Ok(matches.into_iter().map(|(size, percentile)| Match {
+                return Ok(matches.into_iter().map(|(size, percentile, match_type, location)| Match {
                     file_path: relative_path.clone(),
                     size: Some(size),
                     percentile: Some(percentile),
+                    match_type,
+                    location,
                 }).collect());
             }
             return Ok(vec![]);
@@ -191,12 +232,14 @@ fn search_text(data: &[u8], file_path: &PathBuf, uuid_regex: &Regex) -> Result<V
     let content = String::from_utf8_lossy(data);
     let mut matches = Vec::new();
     
-    for line in content.lines() {
+    for (line_num, line) in content.lines().enumerate() {
         if uuid_regex.is_match(line) {
             matches.push(Match {
                 file_path: file_path.clone(),
                 size: None,
                 percentile: None,
+                match_type: MatchType::TextMatch(line.to_string()),
+                location: format!("line {}", line_num + 1),
             });
         }
     }
@@ -224,13 +267,13 @@ fn estimate_json_size(value: &JsonValue) -> usize {
     }
 }
 
-fn search_json_value(value: &JsonValue, uuid: &str) -> Vec<(usize, f64)> {
+fn search_json_value(value: &JsonValue, uuid: &str) -> Vec<(usize, f64, MatchType, String)> {
     match value {
         JsonValue::Object(map) => search_json_object(map, uuid),
         _ => {
             // For non-object root values, just check if they contain the UUID
             if check_json_value_contains_uuid(value, uuid) {
-                vec![(estimate_json_size(value), 0.0)]
+                vec![(estimate_json_size(value), 0.0, MatchType::JsonValue(format!("{:?}", value)), "root".to_string())]
             } else {
                 vec![]
             }
@@ -238,7 +281,7 @@ fn search_json_value(value: &JsonValue, uuid: &str) -> Vec<(usize, f64)> {
     }
 }
 
-fn search_json_object(map: &serde_json::Map<String, JsonValue>, uuid: &str) -> Vec<(usize, f64)> {
+fn search_json_object(map: &serde_json::Map<String, JsonValue>, uuid: &str) -> Vec<(usize, f64, MatchType, String)> {
     let all_key_sizes = get_json_key_sizes_in_map(map);
     let mut matches = Vec::new();
     
@@ -247,7 +290,7 @@ fn search_json_object(map: &serde_json::Map<String, JsonValue>, uuid: &str) -> V
         if key.to_lowercase().contains(uuid) {
             let target_size = 3 + key.len() + estimate_json_size(val); // "key": + value
             let percentile = calculate_percentile(target_size, &all_key_sizes);
-            matches.push((estimate_json_object_size(map), percentile));
+            matches.push((estimate_json_object_size(map), percentile, MatchType::JsonKey(key.clone()), format!("key: {}", key)));
         }
     }
     
@@ -256,7 +299,7 @@ fn search_json_object(map: &serde_json::Map<String, JsonValue>, uuid: &str) -> V
         if check_json_value_contains_uuid(value, uuid) {
             let target_size = 3 + key.len() + estimate_json_size(value); // "key": + value
             let percentile = calculate_percentile(target_size, &all_key_sizes);
-            matches.push((estimate_json_object_size(map), percentile));
+            matches.push((estimate_json_object_size(map), percentile, MatchType::JsonValue(format!("{:?}", value)), format!("value at key: {}", key)));
         }
     }
     
@@ -332,7 +375,7 @@ fn estimate_nbt_size(value: &nbt::Value) -> usize {
     }
 }
 
-fn search_nbt_map(map: &nbt::Map<String, nbt::Value>, uuid: &str) -> Vec<(usize, f64)> {
+fn search_nbt_map(map: &nbt::Map<String, nbt::Value>, uuid: &str) -> Vec<(usize, f64, MatchType, String)> {
     let all_key_sizes = get_key_sizes_in_map(map);
     let mut matches = Vec::new();
     
@@ -341,16 +384,16 @@ fn search_nbt_map(map: &nbt::Map<String, nbt::Value>, uuid: &str) -> Vec<(usize,
         if key.to_lowercase().contains(uuid) {
             let target_size = 1 + 2 + key.len() + estimate_nbt_size(val);
             let percentile = calculate_percentile(target_size, &all_key_sizes);
-            matches.push((estimate_nbt_map_size(map), percentile));
+            matches.push((estimate_nbt_map_size(map), percentile, MatchType::NbtKey(key.clone()), format!("key: {}", key)));
         }
     }
     
     // Check if any value contains the UUID
     for (key, value) in map {
-        if let Some(_) = search_nbt_value(value, uuid) {
+        if let Some(value_desc) = search_nbt_value(value, uuid) {
             let target_size = 1 + 2 + key.len() + estimate_nbt_size(value);
             let percentile = calculate_percentile(target_size, &all_key_sizes);
-            matches.push((estimate_nbt_map_size(map), percentile));
+            matches.push((estimate_nbt_map_size(map), percentile, MatchType::NbtValue(value_desc.clone()), format!("value at key: {}", key)));
         }
     }
     matches
@@ -375,13 +418,13 @@ fn get_key_sizes_in_map(map: &nbt::Map<String, nbt::Value>) -> Vec<usize> {
         .collect()
 }
 
-fn search_nbt_value(value: &nbt::Value, uuid: &str) -> Option<usize> {
+fn search_nbt_value(value: &nbt::Value, uuid: &str) -> Option<String> {
     use nbt::Value;
     
     match value {
         Value::String(s) => {
             if s.to_lowercase().contains(uuid) {
-                Some(2 + s.len()) // String size: 2 bytes length prefix + string bytes
+                Some(format!("String: {}", s))
             } else {
                 None
             }
@@ -390,22 +433,22 @@ fn search_nbt_value(value: &nbt::Value, uuid: &str) -> Option<usize> {
             // Check if any key contains the UUID
             for (key, _) in map {
                 if key.to_lowercase().contains(uuid) {
-                    return Some(estimate_nbt_size(value)); // Return size of entire compound
+                    return Some(format!("Compound key: {}", key));
                 }
             }
             
             // Check if any value contains the UUID
-            for (_, val) in map {
-                if let Some(_) = search_nbt_value(val, uuid) {
-                    return Some(estimate_nbt_size(value)); // Return size of entire compound
+            for (key, val) in map {
+                if let Some(desc) = search_nbt_value(val, uuid) {
+                    return Some(format!("Compound[{}] -> {}", key, desc));
                 }
             }
             None
         }
         Value::List(list) => {
-            for item in list {
-                if let Some(_) = search_nbt_value(item, uuid) {
-                    return Some(estimate_nbt_size(value)); // Return size of entire list
+            for (idx, item) in list.iter().enumerate() {
+                if let Some(desc) = search_nbt_value(item, uuid) {
+                    return Some(format!("List[{}] -> {}", idx, desc));
                 }
             }
             None
@@ -414,7 +457,7 @@ fn search_nbt_value(value: &nbt::Value, uuid: &str) -> Option<usize> {
             let bytes_u8: Vec<u8> = bytes.iter().map(|&b| b as u8).collect();
             let content = std::string::String::from_utf8_lossy(&bytes_u8);
             if content.to_lowercase().contains(uuid) {
-                Some(4 + bytes.len()) // ByteArray size: 4 bytes length + data
+                Some(format!("ByteArray: {}", content))
             } else {
                 None
             }
