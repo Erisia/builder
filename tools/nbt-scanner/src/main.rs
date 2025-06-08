@@ -14,6 +14,7 @@ use walkdir::WalkDir;
 struct Match {
     file_path: PathBuf,
     size: Option<usize>,
+    percentile: Option<f64>,
 }
 
 fn load_nbt_from_file(path: &Path) -> Result<nbt::Map<String, nbt::Value>> {
@@ -75,14 +76,18 @@ fn main() -> Result<()> {
     sorted_matches.sort_by(|a, b| a.file_path.cmp(&b.file_path));
     
     // Group matches by file and calculate totals
-    let mut file_totals: HashMap<&PathBuf, (usize, Option<usize>)> = HashMap::new();
+    let mut file_totals: HashMap<&PathBuf, (usize, Option<usize>, Vec<f64>)> = HashMap::new();
     
     for match_item in &sorted_matches {
-        let entry = file_totals.entry(&match_item.file_path).or_insert((0, None));
+        let entry = file_totals.entry(&match_item.file_path).or_insert((0, None, Vec::new()));
         entry.0 += 1; // Count of matches
         
         if let Some(size) = match_item.size {
             *entry.1.get_or_insert(0) += size; // Sum NBT sizes
+        }
+        
+        if let Some(percentile) = match_item.percentile {
+            entry.2.push(percentile); // Collect percentiles
         }
     }
     
@@ -90,12 +95,29 @@ fn main() -> Result<()> {
     let mut sorted_files: Vec<_> = file_totals.into_iter().collect();
     sorted_files.sort_by(|a, b| a.0.cmp(b.0));
     
-    for (file_path, (count, total_size)) in sorted_files {
+    for (file_path, (count, total_size, percentiles)) in sorted_files {
+        let mut output = format!("{}", file_path.display());
+        
+        output.push_str(" (");
+        
+        let mut parts = Vec::new();
+        
         if let Some(size) = total_size {
-            println!("{} (NBT size: {} bytes, {} matches)", file_path.display(), size, count);
-        } else {
-            println!("{} ({} matches)", file_path.display(), count);
+            parts.push(format!("NBT size: {} bytes", size));
         }
+        
+        parts.push(format!("{} matches", count));
+        
+        if !percentiles.is_empty() {
+            let percentile_str: Vec<String> = percentiles.iter()
+                .map(|p| format!("{:.1}%", p))
+                .collect();
+            parts.push(format!("percentiles: [{}]", percentile_str.join(", ")));
+        }
+        
+        output.push_str(&parts.join(", "));
+        output.push(')');
+        println!("{}", output);
     }
     
     println!("\nTotal matches found: {}", sorted_matches.len());
@@ -112,11 +134,13 @@ fn scan_file(path: &Path, uuid: &str, uuid_regex: &Regex, base_dir: &Path) -> Re
     
     // First, try to parse as NBT using our reusable function
     if let Ok(nbt_compound) = load_nbt_from_file(path) {
-        if let Some(size) = search_nbt_map(&nbt_compound, &uuid.to_lowercase()) {
-            return Ok(vec![Match {
-                file_path: relative_path,
+        let matches = search_nbt_map(&nbt_compound, &uuid.to_lowercase());
+        if !matches.is_empty() {
+            return Ok(matches.into_iter().map(|(size, percentile)| Match {
+                file_path: relative_path.clone(),
                 size: Some(size),
-            }]);
+                percentile: Some(percentile),
+            }).collect());
         }
         return Ok(vec![]);
     }
@@ -139,17 +163,19 @@ fn decompress_gzip(data: &[u8]) -> Result<Vec<u8>> {
 
 fn search_text(data: &[u8], file_path: &PathBuf, uuid_regex: &Regex) -> Result<Vec<Match>> {
     let content = String::from_utf8_lossy(data);
+    let mut matches = Vec::new();
     
     for line in content.lines() {
         if uuid_regex.is_match(line) {
-            return Ok(vec![Match {
+            matches.push(Match {
                 file_path: file_path.clone(),
                 size: None,
-            }]);
+                percentile: None,
+            });
         }
     }
     
-    Ok(vec![])
+    Ok(matches)
 }
 
 fn estimate_nbt_size(value: &nbt::Value) -> usize {
@@ -177,25 +203,47 @@ fn estimate_nbt_size(value: &nbt::Value) -> usize {
     }
 }
 
-fn search_nbt_map(map: &nbt::Map<String, nbt::Value>, uuid: &str) -> Option<usize> {
+fn search_nbt_map(map: &nbt::Map<String, nbt::Value>, uuid: &str) -> Vec<(usize, f64)> {
+    let all_key_sizes = get_key_sizes_in_map(map);
+    let mut matches = Vec::new();
+    
     // Check if any key contains the UUID
-    for (key, _) in map {
+    for (key, val) in map {
         if key.to_lowercase().contains(uuid) {
-            return Some(estimate_nbt_map_size(map));
+            let target_size = 1 + 2 + key.len() + estimate_nbt_size(val);
+            let percentile = calculate_percentile(target_size, &all_key_sizes);
+            matches.push((estimate_nbt_map_size(map), percentile));
         }
     }
     
     // Check if any value contains the UUID
-    for (_, value) in map {
+    for (key, value) in map {
         if let Some(_) = search_nbt_value(value, uuid) {
-            return Some(estimate_nbt_map_size(map));
+            let target_size = 1 + 2 + key.len() + estimate_nbt_size(value);
+            let percentile = calculate_percentile(target_size, &all_key_sizes);
+            matches.push((estimate_nbt_map_size(map), percentile));
         }
     }
-    None
+    matches
 }
 
 fn estimate_nbt_map_size(map: &nbt::Map<String, nbt::Value>) -> usize {
     map.iter().map(|(key, val)| 1 + 2 + key.len() + estimate_nbt_size(val)).sum::<usize>() + 1
+}
+
+fn calculate_percentile(target_size: usize, all_sizes: &[usize]) -> f64 {
+    if all_sizes.is_empty() {
+        return 0.0;
+    }
+    
+    let smaller_count = all_sizes.iter().filter(|&&size| size < target_size).count();
+    (smaller_count as f64 / all_sizes.len() as f64) * 100.0
+}
+
+fn get_key_sizes_in_map(map: &nbt::Map<String, nbt::Value>) -> Vec<usize> {
+    map.iter()
+        .map(|(key, val)| 1 + 2 + key.len() + estimate_nbt_size(val))
+        .collect()
 }
 
 fn search_nbt_value(value: &nbt::Value, uuid: &str) -> Option<usize> {
@@ -269,7 +317,7 @@ mod tests {
         }
         
         // Test that we can search through the data (this exercises the search functions)
-        let _search_result = search_nbt_map(&nbt_data, "test_uuid");
+        let _search_results = search_nbt_map(&nbt_data, "test_uuid");
         
         println!("NBT deserializer test passed!");
     }
