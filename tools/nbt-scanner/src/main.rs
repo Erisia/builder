@@ -272,8 +272,8 @@ fn search_json_value(value: &JsonValue, uuid: &str) -> Vec<(usize, f64, MatchTyp
         JsonValue::Object(map) => search_json_object(map, uuid),
         _ => {
             // For non-object root values, just check if they contain the UUID
-            if check_json_value_contains_uuid(value, uuid) {
-                vec![(estimate_json_size(value), 0.0, MatchType::JsonValue(format!("{:?}", value)), "root".to_string())]
+            if let Some(match_size) = get_json_match_size(value, uuid) {
+                vec![(match_size, 0.0, MatchType::JsonValue(format!("{:?}", value)), "root".to_string())]
             } else {
                 vec![]
             }
@@ -288,31 +288,25 @@ fn search_json_object(map: &serde_json::Map<String, JsonValue>, uuid: &str) -> V
     // Check if any key contains the UUID
     for (key, val) in map {
         if key.to_lowercase().contains(uuid) {
-            let target_size = 3 + key.len() + estimate_json_size(val); // "key": + value
+            let match_size = 3 + key.len() + estimate_json_size(val); // Size of entire key-value pair
+            let target_size = match_size; // Same as match_size for percentile calculation
             let percentile = calculate_percentile(target_size, &all_key_sizes);
-            matches.push((estimate_json_object_size(map), percentile, MatchType::JsonKey(key.clone()), format!("key: {}", key)));
+            matches.push((match_size, percentile, MatchType::JsonKey(key.clone()), format!("key: {}", key)));
         }
     }
     
     // Check if any value contains the UUID
     for (key, value) in map {
-        if check_json_value_contains_uuid(value, uuid) {
+        if let Some(match_size) = get_json_match_size(value, uuid) {
             let target_size = 3 + key.len() + estimate_json_size(value); // "key": + value
             let percentile = calculate_percentile(target_size, &all_key_sizes);
-            matches.push((estimate_json_object_size(map), percentile, MatchType::JsonValue(format!("{:?}", value)), format!("value at key: {}", key)));
+            matches.push((match_size, percentile, MatchType::JsonValue(format!("{:?}", value)), format!("value at key: {}", key)));
         }
     }
     
     matches
 }
 
-fn estimate_json_object_size(map: &serde_json::Map<String, JsonValue>) -> usize {
-    let content_size: usize = map.iter()
-        .map(|(k, v)| 3 + k.len() + estimate_json_size(v)) // "key": + value
-        .sum();
-    let comma_size = if map.len() > 1 { map.len() - 1 } else { 0 };
-    2 + content_size + comma_size // braces + content + commas
-}
 
 fn get_json_key_sizes_in_map(map: &serde_json::Map<String, JsonValue>) -> Vec<usize> {
     map.iter()
@@ -320,35 +314,42 @@ fn get_json_key_sizes_in_map(map: &serde_json::Map<String, JsonValue>) -> Vec<us
         .collect()
 }
 
-fn check_json_value_contains_uuid(value: &JsonValue, uuid: &str) -> bool {
+fn get_json_match_size(value: &JsonValue, uuid: &str) -> Option<usize> {
     match value {
-        JsonValue::String(s) => s.to_lowercase().contains(uuid),
+        JsonValue::String(s) => {
+            if s.to_lowercase().contains(uuid) {
+                Some(s.len()) // Size of the matching string
+            } else {
+                None
+            }
+        }
         JsonValue::Object(map) => {
             // Check if any key contains the UUID
             for (key, _) in map {
                 if key.to_lowercase().contains(uuid) {
-                    return true;
+                    return Some(key.len());
                 }
             }
             // Check if any value contains the UUID
             for (_, val) in map {
-                if check_json_value_contains_uuid(val, uuid) {
-                    return true;
+                if let Some(size) = get_json_match_size(val, uuid) {
+                    return Some(size);
                 }
             }
-            false
+            None
         }
         JsonValue::Array(arr) => {
             for item in arr {
-                if check_json_value_contains_uuid(item, uuid) {
-                    return true;
+                if let Some(size) = get_json_match_size(item, uuid) {
+                    return Some(size);
                 }
             }
-            false
+            None
         }
-        _ => false,
+        _ => None,
     }
 }
+
 
 fn estimate_nbt_size(value: &nbt::Value) -> usize {
     use nbt::Value;
@@ -382,26 +383,24 @@ fn search_nbt_map(map: &nbt::Map<String, nbt::Value>, uuid: &str) -> Vec<(usize,
     // Check if any key contains the UUID
     for (key, val) in map {
         if key.to_lowercase().contains(uuid) {
-            let target_size = 1 + 2 + key.len() + estimate_nbt_size(val);
+            let match_size = 1 + 2 + key.len() + estimate_nbt_size(val); // Size of entire key-value pair
+            let target_size = match_size; // Same as match_size for percentile calculation
             let percentile = calculate_percentile(target_size, &all_key_sizes);
-            matches.push((estimate_nbt_map_size(map), percentile, MatchType::NbtKey(key.clone()), format!("key: {}", key)));
+            matches.push((match_size, percentile, MatchType::NbtKey(key.clone()), format!("key: {}", key)));
         }
     }
     
     // Check if any value contains the UUID
     for (key, value) in map {
-        if let Some(value_desc) = search_nbt_value(value, uuid) {
+        if let Some((match_size, value_desc)) = search_nbt_value_with_size(value, uuid) {
             let target_size = 1 + 2 + key.len() + estimate_nbt_size(value);
             let percentile = calculate_percentile(target_size, &all_key_sizes);
-            matches.push((estimate_nbt_map_size(map), percentile, MatchType::NbtValue(value_desc.clone()), format!("value at key: {}", key)));
+            matches.push((match_size, percentile, MatchType::NbtValue(value_desc.clone()), format!("value at key: {}", key)));
         }
     }
     matches
 }
 
-fn estimate_nbt_map_size(map: &nbt::Map<String, nbt::Value>) -> usize {
-    map.iter().map(|(key, val)| 1 + 2 + key.len() + estimate_nbt_size(val)).sum::<usize>() + 1
-}
 
 fn calculate_percentile(target_size: usize, all_sizes: &[usize]) -> f64 {
     if all_sizes.is_empty() {
@@ -418,13 +417,13 @@ fn get_key_sizes_in_map(map: &nbt::Map<String, nbt::Value>) -> Vec<usize> {
         .collect()
 }
 
-fn search_nbt_value(value: &nbt::Value, uuid: &str) -> Option<String> {
+fn search_nbt_value_with_size(value: &nbt::Value, uuid: &str) -> Option<(usize, String)> {
     use nbt::Value;
     
     match value {
         Value::String(s) => {
             if s.to_lowercase().contains(uuid) {
-                Some(format!("String: {}", s))
+                Some((s.len(), format!("String: {}", s)))
             } else {
                 None
             }
@@ -433,22 +432,22 @@ fn search_nbt_value(value: &nbt::Value, uuid: &str) -> Option<String> {
             // Check if any key contains the UUID
             for (key, _) in map {
                 if key.to_lowercase().contains(uuid) {
-                    return Some(format!("Compound key: {}", key));
+                    return Some((key.len(), format!("Compound key: {}", key)));
                 }
             }
             
             // Check if any value contains the UUID
             for (key, val) in map {
-                if let Some(desc) = search_nbt_value(val, uuid) {
-                    return Some(format!("Compound[{}] -> {}", key, desc));
+                if let Some((match_size, desc)) = search_nbt_value_with_size(val, uuid) {
+                    return Some((match_size, format!("Compound[{}] -> {}", key, desc)));
                 }
             }
             None
         }
         Value::List(list) => {
             for (idx, item) in list.iter().enumerate() {
-                if let Some(desc) = search_nbt_value(item, uuid) {
-                    return Some(format!("List[{}] -> {}", idx, desc));
+                if let Some((match_size, desc)) = search_nbt_value_with_size(item, uuid) {
+                    return Some((match_size, format!("List[{}] -> {}", idx, desc)));
                 }
             }
             None
@@ -457,7 +456,8 @@ fn search_nbt_value(value: &nbt::Value, uuid: &str) -> Option<String> {
             let bytes_u8: Vec<u8> = bytes.iter().map(|&b| b as u8).collect();
             let content = std::string::String::from_utf8_lossy(&bytes_u8);
             if content.to_lowercase().contains(uuid) {
-                Some(format!("ByteArray: {}", content))
+                // Return the length of the matching portion, not the entire byte array
+                Some((uuid.len(), format!("ByteArray: {}", content)))
             } else {
                 None
             }
@@ -465,6 +465,7 @@ fn search_nbt_value(value: &nbt::Value, uuid: &str) -> Option<String> {
         _ => None,
     }
 }
+
 
 #[cfg(test)]
 mod tests {
