@@ -312,19 +312,6 @@
     "sha256": "34a864afeceb60f744b5071ba625de5d294143f7c08740642cb21482b288bd7e"
   },
   {
-    "name": "arlib",
-    "title": "ARLib",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "ARLib-17-09-2024.jar",
-    "encoded": "ARLib-17-09-2024.jar",
-    "src": "https://edge.forgecdn.net/files/5732/205/ARLib-17-09-2024.jar",
-    "size": 537411,
-    "md5": "b045d04278c9dbd645416b74a31d31eb",
-    "sha256": "8e8779f21aab2eb6d4900f1446c8e8fdd0d1817181594836feaf9ff6156aa688"
-  },
-  {
     "name": "armoreablemobs",
     "title": "ArmoreableMobs",
     "side": "both",
@@ -830,19 +817,6 @@
     "size": 247749,
     "md5": "73a6c68dd571538dd3302d2337a74daf",
     "sha256": "c225bd756d2decf1a686567720de93513885d4125de11df0e7ccfcf7651caffc"
-  },
-  {
-    "name": "buildcraft-rf",
-    "title": "BuildCraft RF: ReFluxified",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "BuildCraftRF-2.1.4.jar",
-    "encoded": "BuildCraftRF-2.1.4.jar",
-    "src": "https://edge.forgecdn.net/files/4631/742/BuildCraftRF-2.1.4.jar",
-    "size": 28012,
-    "md5": "5532b5144ed1275b5f9279a44640498b",
-    "sha256": "7adef53dbad20cc62c5d2690937533bed639202e5d6dc1c714c9cf21eeb07dea"
   },
   {
     "name": "buildcraft-silicon",
@@ -1409,12 +1383,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "DimensionalDoors-1.12.2-3.0.12.jar",
-    "encoded": "DimensionalDoors-1.12.2-3.0.12.jar",
-    "src": "https://edge.forgecdn.net/files/3926/161/DimensionalDoors-1.12.2-3.0.12.jar",
-    "size": 7716327,
-    "md5": "0c9ffbbeb1d8d6474c29f1a8f6ff74ae",
-    "sha256": "41eb672440a3fbbb058e1b83357abab0fbfa18af610a4f4edd0ee4c6a24e1fc4"
+    "filename": "Dimensional Doors-3.2.3.jar",
+    "encoded": "Dimensional%20Doors-3.2.3.jar",
+    "src": "https://edge.forgecdn.net/files/6386/37/Dimensional%20Doors-3.2.3.jar",
+    "size": 8422511,
+    "md5": "a396ec1ec91a3f5adb0401f2b62766df",
+    "sha256": "2d993ece142a686813252bf655e7409ab3722d3179f5b5235325a4e7edbb1e8d"
   },
   {
     "name": "dme",
@@ -2483,6 +2457,19 @@
     "sha256": "9118c4d601638e014a3c5b28ad4540c7a0ab6396aa6b7c2435fce1a9f15e225c"
   },
   {
+    "name": "library-for-ar-reworked",
+    "title": "ARLib",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "ARLib-17-09-2024.jar",
+    "encoded": "ARLib-17-09-2024.jar",
+    "src": "https://edge.forgecdn.net/files/5732/205/ARLib-17-09-2024.jar",
+    "size": 537411,
+    "md5": "b045d04278c9dbd645416b74a31d31eb",
+    "sha256": "8e8779f21aab2eb6d4900f1446c8e8fdd0d1817181594836feaf9ff6156aa688"
+  },
+  {
     "name": "llibrary",
     "title": "LLibrary",
     "side": "both",
@@ -2665,6 +2652,19 @@
     "sha256": "79fbec636adf078e087778c78be592b9d64e8042aa66c9efbac125c838576150"
   },
   {
+    "name": "minieffects-legacy-extended-life",
+    "title": "MiniEffects-Legacy Extended Life",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "minieffects-2.3.2.jar",
+    "encoded": "minieffects-2.3.2.jar",
+    "src": "https://edge.forgecdn.net/files/6143/104/minieffects-2.3.2.jar",
+    "size": 27102,
+    "md5": "54b333a9fb85d01287ee48b35770327d",
+    "sha256": "d5b11e1fd8cfc3ad9b54e9773f37a41060f5b8e98e12139bb7d97876b21a2fbe"
+  },
+  {
     "name": "mixin-booter",
     "title": "MixinBooter",
     "side": "both",
@@ -2769,6 +2769,19 @@
     "sha256": "2c2db905cae947092fe46dba301d1f6777fdab9cc8e79140c050b09fe62dda7a"
   },
   {
+    "name": "modular-machinery-community-edition-addons",
+    "title": "Modular Machinery Community Edition: Addons",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "ModularMachinery-Addons-1.0.0.jar",
+    "encoded": "ModularMachinery-Addons-1.0.0.jar",
+    "src": "https://edge.forgecdn.net/files/6423/266/ModularMachinery-Addons-1.0.0.jar",
+    "size": 228758,
+    "md5": "7b788c8e577b034d45601500d19bd52d",
+    "sha256": "5f5c1dd5649fb8502c7dc05b1e481455a0c084fa24ee95bc9d455727d0779d74"
+  },
+  {
     "name": "modular-routers",
     "title": "Modular Routers",
     "side": "both",
@@ -2793,6 +2806,19 @@
     "size": 2039980,
     "md5": "f639e62bb121945bcccf4510495ddcd6",
     "sha256": "081043b4d5c7ae3edd03f40277b664a6787a3bd6859be210e4f5b0a8e42efdd9"
+  },
+  {
+    "name": "modularui",
+    "title": "ModularUI",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "modularui-2.5.0-rc5.jar",
+    "encoded": "modularui-2.5.0-rc5.jar",
+    "src": "https://edge.forgecdn.net/files/6535/584/modularui-2.5.0-rc5.jar",
+    "size": 1602456,
+    "md5": "9279f890c27c417cc7c88987b6b75e83",
+    "sha256": "fb44ae8fb72fb411a87e005912762a9789bd20264fb8680f9cdd65d7933326e2"
   },
   {
     "name": "more-overlays",
@@ -3242,12 +3268,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "PackagedExCrafting-1.12.2-1.0.2.27.jar",
-    "encoded": "PackagedExCrafting-1.12.2-1.0.2.27.jar",
-    "src": "https://edge.forgecdn.net/files/6293/114/PackagedExCrafting-1.12.2-1.0.2.27.jar",
-    "size": 198547,
-    "md5": "b5bb2c180ac2e6b5dd6af732be854729",
-    "sha256": "2798e1278ae5de3ac78430cad93cef065bf51046cd7cb3279eebca2f16c4a4e8"
+    "filename": "PackagedExCrafting-1.12.2-1.0.2.28.jar",
+    "encoded": "PackagedExCrafting-1.12.2-1.0.2.28.jar",
+    "src": "https://edge.forgecdn.net/files/6425/299/PackagedExCrafting-1.12.2-1.0.2.28.jar",
+    "size": 198636,
+    "md5": "e2419fd4630b75ddce2d62f0f5a765f6",
+    "sha256": "816e180b0d2425f1e96a6e40c84c02c6fbb29dc0250e4031d9012ed9e1b8f392"
   },
   {
     "name": "particle-culling",
@@ -3502,12 +3528,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "RailwayDepotWorker-1.9.1+build.22.jar",
-    "encoded": "RailwayDepotWorker-1.9.1%2Bbuild.22.jar",
-    "src": "https://edge.forgecdn.net/files/6475/425/RailwayDepotWorker-1.9.1%2bbuild.22.jar",
-    "size": 46165,
-    "md5": "803e1ff30a93d507fe303f45207e138a",
-    "sha256": "bfd7475d66b575fc4dec1888a089c0ab67960e08bb9177c66c9057a639122d18"
+    "filename": "RailwayDepotWorker-1.9.2+build.23.jar",
+    "encoded": "RailwayDepotWorker-1.9.2%2Bbuild.23.jar",
+    "src": "https://edge.forgecdn.net/files/6492/533/RailwayDepotWorker-1.9.2%2bbuild.23.jar",
+    "size": 50176,
+    "md5": "41dc3f0b46491cf40518606f805ee242",
+    "sha256": "b56ccd6f2f4c6ab4af281a7fcd05c162f8a30db5c3dfd0ccaa786840eb7d324f"
   },
   {
     "name": "random-things",
@@ -3729,6 +3755,19 @@
     "size": 21409,
     "md5": "642897bdfb9bc7608742ad948c8ab193",
     "sha256": "07c0a8d5152c422f5977e71b4b1bc5122c3c316eb93fc0855776cb73be189a6c"
+  },
+  {
+    "name": "retro-sophisticated-backpacks",
+    "title": "Retro Sophisticated Backpacks",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "Retro-Sophisticated-Backpacks-1.0.2.jar",
+    "encoded": "Retro-Sophisticated-Backpacks-1.0.2.jar",
+    "src": "https://edge.forgecdn.net/files/6359/328/Retro-Sophisticated-Backpacks-1.0.2.jar",
+    "size": 766220,
+    "md5": "490274fa07852db4eed487b28f43d87a",
+    "sha256": "ba0b1ccb6ec883026f794e78619edf34fbe361fe1e7e80c762cc0cee3e2c7fde"
   },
   {
     "name": "rftools",
@@ -3991,6 +4030,19 @@
     "sha256": "26337559bad06539175f0a5fe886db816f0f6045d96be4737493a0e669117e2f"
   },
   {
+    "name": "super-factory-manager",
+    "title": "Super Factory Manager ( SFM )",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "SuperFactoryManager-1.12.2-2.0.25.jar",
+    "encoded": "SuperFactoryManager-1.12.2-2.0.25.jar",
+    "src": "https://edge.forgecdn.net/files/3357/967/SuperFactoryManager-1.12.2-2.0.25.jar",
+    "size": 720288,
+    "md5": "30fcfd6919083baf11f22f6fc0fb65b0",
+    "sha256": "7d1e6d0008a991dc70e40d4843213943562fdd0c3565e6c8d8c0e25db537739e"
+  },
+  {
     "name": "super-sound-muffler-revived",
     "title": "Super Sound Muffler: Revived",
     "side": "both",
@@ -4126,12 +4178,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "thaumictinkerer-1.12.2-5.9.3-Unofficial.jar",
-    "encoded": "thaumictinkerer-1.12.2-5.9.3-Unofficial.jar",
-    "src": "https://edge.forgecdn.net/files/6203/112/thaumictinkerer-1.12.2-5.9.3-Unofficial.jar",
-    "size": 2645545,
-    "md5": "3e5256192fcd1cf99839c437bb46883b",
-    "sha256": "1c20078326c461023ceb77a1efdbc62772404b723ad4dbc503199a5d73430fa1"
+    "filename": "thaumictinkerer-1.12.2-5.9.5-Unofficial.jar",
+    "encoded": "thaumictinkerer-1.12.2-5.9.5-Unofficial.jar",
+    "src": "https://edge.forgecdn.net/files/6564/586/thaumictinkerer-1.12.2-5.9.5-Unofficial.jar",
+    "size": 2648963,
+    "md5": "a7f8f7a13d6d4e14c6995c2779287b55",
+    "sha256": "04a57d1443de85022083f83067d98d483ab9bd3baf23fb5d1b7d224f0377669d"
   },
   {
     "name": "thaumic-wonders",
@@ -4277,17 +4329,17 @@
     "sha256": "8720278b67082b8a93ac6fd761ad12ecb947f5715e43ed476f61644a3f843301"
   },
   {
-    "name": "tinkers-construct",
-    "title": "Tinkers Construct",
+    "name": "tinkers-antique",
+    "title": "Tinkers' Antique",
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "TConstruct-1.12.2-2.13.0.183.jar",
-    "encoded": "TConstruct-1.12.2-2.13.0.183.jar",
-    "src": "https://edge.forgecdn.net/files/2902/483/TConstruct-1.12.2-2.13.0.183.jar",
-    "size": 4023372,
-    "md5": "710d64342d41042b7d6ced891448e727",
-    "sha256": "707107f746ffc9d2bf35912953ae1ce780f7b7c4b7cf86b4821a1a151bcf9f6f"
+    "filename": "TinkersAntique-1.12.2-2.13.0.200.jar",
+    "encoded": "TinkersAntique-1.12.2-2.13.0.200.jar",
+    "src": "https://edge.forgecdn.net/files/6587/738/TinkersAntique-1.12.2-2.13.0.200.jar",
+    "size": 4486284,
+    "md5": "53be764f887a64598857bc9f35b84056",
+    "sha256": "85f26cb79e4a36d256867f35aed6cff331c4e65b2c6463aa90a3c281fcc4f139"
   },
   {
     "name": "tinkers-jei",
@@ -4529,12 +4581,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "vintagefix-0.5.6.jar",
-    "encoded": "vintagefix-0.5.6.jar",
-    "src": "https://edge.forgecdn.net/files/6412/986/vintagefix-0.5.6.jar",
-    "size": 1024293,
-    "md5": "c4eb5e3493846a164d105842720e47a8",
-    "sha256": "960d73233bbba3f62a393e4c936fe7f8f51f1c22f2fdd602a9484891058700c6"
+    "filename": "vintagefix-0.6.2.jar",
+    "encoded": "vintagefix-0.6.2.jar",
+    "src": "https://edge.forgecdn.net/files/6609/247/vintagefix-0.6.2.jar",
+    "size": 1034861,
+    "md5": "cfedc172905099f24805712852b029a4",
+    "sha256": "03a946ed9b6dcc459f4e9765fe4aad61a7fcaf9886ac115e8ba1902fbddbf60c"
   },
   {
     "name": "wanionlib",
@@ -4620,12 +4672,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "XU2-Patcher-1.0.1.jar",
-    "encoded": "XU2-Patcher-1.0.1.jar",
-    "src": "https://edge.forgecdn.net/files/6259/473/XU2-Patcher-1.0.1.jar",
-    "size": 93187,
-    "md5": "4854c4dd99c92e3203b4d5dfb00d41ef",
-    "sha256": "a719627422de556efe20daaa49bd584cc41b21058ee5503a43dedaaa20d1ef8e"
+    "filename": "XU2-Patcher-1.0.2.jar",
+    "encoded": "XU2-Patcher-1.0.2.jar",
+    "src": "https://edge.forgecdn.net/files/6596/160/XU2-Patcher-1.0.2.jar",
+    "size": 104614,
+    "md5": "2431fb7584c52fa2f41ca939e61eea5c",
+    "sha256": "40bad056dd6efa96b95c9bd5a2df86f3df2baf075de0a490c1166583a75b74af"
   },
   {
     "name": "zenkorium-creatures",
@@ -4646,12 +4698,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "zenutils-1.21.10.jar",
-    "encoded": "zenutils-1.21.10.jar",
-    "src": "https://edge.forgecdn.net/files/6482/213/zenutils-1.21.10.jar",
-    "size": 570702,
-    "md5": "daa9715793baf5e03334ce1aa37bdd18",
-    "sha256": "1ea7cb7d2a5e3b08b50db766f59b4ba2807f1fc6babfdc35471a07a8cd0a3c40"
+    "filename": "zenutils-1.22.3.jar",
+    "encoded": "zenutils-1.22.3.jar",
+    "src": "https://edge.forgecdn.net/files/6610/683/zenutils-1.22.3.jar",
+    "size": 586757,
+    "md5": "255d36f6bec4a7482c71d6f688f35da1",
+    "sha256": "3f7e1b8cda386376a7bfa2577f2375abb7d3ddddf9e5946b7fae27dadabed423"
   },
   {
     "name": "zerocore",
