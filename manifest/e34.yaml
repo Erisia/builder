@@ -26,9 +26,13 @@ nodes:
     value:
       - aromabackup
       - aroma1997core
+      - modular-machinery-community-edition-addons
   # Specify extra mods to add
   - id: extra-mods
     value:
+      - name: modular-machinery-community-edition-addons
+        source: curse
+        file_id: 6681775
       - name: chunkpregenerator
         source: curse
         file_id: 5632153

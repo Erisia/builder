@@ -2774,12 +2774,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "ModularMachinery-Addons-1.0.0.jar",
-    "encoded": "ModularMachinery-Addons-1.0.0.jar",
-    "src": "https://edge.forgecdn.net/files/6423/266/ModularMachinery-Addons-1.0.0.jar",
-    "size": 228758,
-    "md5": "7b788c8e577b034d45601500d19bd52d",
-    "sha256": "5f5c1dd5649fb8502c7dc05b1e481455a0c084fa24ee95bc9d455727d0779d74"
+    "filename": "ModularMachinery-Addons-1.0.2.jar",
+    "encoded": "ModularMachinery-Addons-1.0.2.jar",
+    "src": "https://edge.forgecdn.net/files/6681/775/ModularMachinery-Addons-1.0.2.jar",
+    "size": 229229,
+    "md5": "ab8ed2204416fad37bfa697e04ec6ee6",
+    "sha256": "a4a65c83e92076279cc1f46d98e65a8b21f6497a3a468551aefd4d68b4bc286e"
   },
   {
     "name": "modular-routers",
