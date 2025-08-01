@@ -111,13 +111,13 @@ stoneofdimensionalascension.itemRightClick = function(stack, world, player, hand
         return "FAIL";
     }
 
-    if ((getBlockMatchAtPosition("aether_legacy:aether_grass", playerPos, [4,0,4], world) == 0) || (getBlockMatchAtPosition("aether_legacy:aether_grass:3", playerPos, [4,0,4], world) == 0)) {
-        player.sendChat("Place a block of Aether Grass south relative to the End Stone, one block away [4,0,4]");
+    if (getBlockMatchAtPosition("aether_legacy:skyroot_plank", playerPos, [4,0,4], world) == 0) {
+        player.sendChat("Place a block of Skyroot Planks south relative to the End Stone, one block away [4,0,4]");
         return "FAIL";
     }
 
     if (getBlockMatchAtPosition("erebus:umberstone", playerPos, [4,0,6], world) == 0) {
-        player.sendChat("Place a block of Umberstone south relative to the Aether Grass, one block away [4,0,6]");
+        player.sendChat("Place a block of Umberstone south relative to the Skyroot Planks, one block away [4,0,6]");
         return "FAIL";
     }
 
@@ -171,8 +171,8 @@ stoneofdimensionalascension.itemRightClick = function(stack, world, player, hand
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("tile.stone.name", playerPos, [10,0,22], world) == 0) {
-        player.sendChat("Good job, Abyssalcraft has another dimension, covered with a certain dark block, I think you can figure out where to place it");
+    if (getBlockMatchAtPosition("abyssalcraft:darkstone_brick", playerPos, [10,0,22], world) == 0) {
+        player.sendChat("Good job, Abyssalcraft has another dimension, covered with a certain dark block. It can be made into bricks. I think you can figure out where to place it!");
         return "FAIL";
     }
 
@@ -237,7 +237,7 @@ stoneofdimensionalascension.itemRightClick = function(stack, world, player, hand
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("minecraft:emerald_block:8", playerPos, [8,0,14], world) == 0) {
+    if (getBlockMatchAtPosition("chisel:emerald:8", playerPos, [8,0,14], world) == 0) {
         player.sendChat("Radiation was an interesting one, to be honest. It's definitely not everybody's cup of tea, but I like that it forces some sort of base building logic");
         player.sendChat("With regards to the next block, I'm not even going to say anything, I think you can do the next couple of steps by yourself.");
         return "FAIL";
@@ -327,7 +327,7 @@ stoneofdimensionalascension.itemRightClick = function(stack, world, player, hand
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("aoa3:aqua_cotton_candy", playerPos, [18,0,2], world) == 0 || getBlockMatchAtPosition("aoa3:pink_cotton_candy", playerPos, [18,0,2], world) == 0) {
+    if (getBlockMatchAtPosition("aoa3:candyland_grass", playerPos, [18,0,2], world) == 0 ) {
         player.sendChat("I get it that DivineRPG dimensions kind of look all the same, but I hope that the custom structures helped at bring in a bit more variety.");
         player.sendChat("Second mythic shell! We start to the south-east of the Lightwood, one block away [18,0,2]");
         return "FAIL";
@@ -393,8 +393,14 @@ stoneofdimensionalascension.itemRightClick = function(stack, world, player, hand
         return "FAIL";
     }
 
-    if (getBlockMatchAtPosition("aoa3:borean_grass", playerPos, [22,0,2], world) == 0) {
+    if (getBlockMatchAtPosition("advancedrocketry:charcoallog", playerPos, [22,0,-4], world) == 0) {
         player.sendChat("I really like starfield glass as a building block, unfortunately it is a bit too laggy for being used extensively.");
+        player.sendChat("Lyndenwrym has some neat fog effects and lots of things that want to kill you, one block north [22,0,-4]");
+        return "FAIL";
+    }
+
+    if (getBlockMatchAtPosition("aoa3:borean_grass", playerPos, [22,0,2], world) == 0) {
+        player.sendChat("Fun fact! Lyndenwyrm has been in the pack ever since very early alpha, but it was inaccessible due to a crash related to the Stormlands biome. Thankfully, the mod was forked and the issue fixed!");
         player.sendChat("Third mythic shell time! It starts to the south-east of the Scorned Bricks, one block away [22,0,2]");
         return "FAIL";
     }
