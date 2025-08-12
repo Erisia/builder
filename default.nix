@@ -10,6 +10,33 @@ rec {
     # e33_5 = buildPack e33_5;
     # e34 = buildPack e34;
     e34_5 = buildPack e34_5;
+    e35 = buildPack e35;
+  };
+
+  e35 = {
+    name = "E35";
+    tmuxName = "e35";
+    description = "E35: TODO Fancy title";
+    ram = "8G";
+    port = 25565;
+    prometheusPort = 1224;
+    minecraft = "1.18.2";
+    fabric = {
+      loader = "0.16.3";
+      installer = "1.1.0";
+    };
+    extraDirs = [
+      ./base/e35
+    ];
+    extraServerDirs = [
+      ./base/e35-server
+      ./base/server
+    ];
+    extraClientDirs = [
+      ./base/e35-client
+      ./base/client
+    ];
+    manifest = ./manifest/e35.json;
   };
 
   e34_5 = {

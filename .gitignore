@@ -13,3 +13,4 @@ cursetool/cursetool-0.1
 *.iws
 
 **/.claude/settings.local.json
+*.log

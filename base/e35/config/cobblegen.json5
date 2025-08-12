@@ -1,0 +1,42 @@
+{
+	"formatVersion": "1.0",
+	"cobbleGen": [
+		{
+			"id": "minecraft:cobblestone",
+			"weight": 100.0,
+		}
+	],
+	"stoneGen": [
+		{
+			"id": "minecraft:stone",
+			"weight": 100.0,
+		},
+	],
+	"basaltGen": [
+		{
+			"id": "minecraft:basalt",
+			"weight": 100.0,
+		},
+	],
+	"customGen": { 
+    "stoneGen": {
+      "minecraft:bedrock": [
+        {
+          "id": "minecraft:stone",
+          "weight": 40.0
+        },
+        {
+          "id": "minecraft:diorite",
+          "weight": 20.0
+        },
+        {
+          "id": "minecraft:andesite",
+          "weight": 20.0
+        },
+        {
+          "id": "minecraft:granite",
+          "weight": 20.0
+        }
+      ]
+    }},
+}

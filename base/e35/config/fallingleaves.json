@@ -1,0 +1,667 @@
+{
+  "version": 1,
+  "displayDebugData": false,
+  "leafSize": 5,
+  "leafLifespan": 200,
+  "leafSpawnRate": 10,
+  "coniferLeafSpawnRate": 5,
+  "dropFromPlayerPlacedBlocks": true,
+  "minimumFreeSpaceBelow": 1,
+  "windEnabled": true,
+  "windlessDimensions": [
+    "minecraft:the_end",
+    "minecraft:the_nether"
+  ],
+  "leafSettings": {
+    "minecraft:jungle_leaves": {
+      "spawnRateFactor": 0.0,
+      "isConiferBlock": false
+    },
+    "minecraft:flowering_azalea_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "tconstruct:ender_slime_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "minecraft:azalea_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "minecraft:birch_leaves": {
+      "spawnRateFactor": 0.0,
+      "isConiferBlock": false
+    },
+    "tconstruct:earth_slime_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "tconstruct:sky_slime_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "minecraft:acacia_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "minecraft:oak_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "ad_astra:glacian_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "minecraft:dark_oak_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "minecraft:spruce_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": true
+    },
+    "techreborn:rubber_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "edenring:auritis_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:birch_leaves_4": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:acacia_leaves_9": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:birch_leaves_3": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:acacia_leaves_8": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:birch_leaves_6": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:acacia_leaves_7": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:birch_leaves_5": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:acacia_leaves_6": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:acacia_leaves_5": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:acacia_leaves_4": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:birch_leaves_2": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:acacia_leaves_3": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:birch_leaves_1": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:spruce_leaves_12": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:birch_leaves_12": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:spruce_leaves_10": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:birch_leaves_10": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:spruce_leaves_11": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:birch_leaves_11": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:acacia_leaves_2": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:acacia_leaves_1": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:dark_oak_leaves_5": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:dark_oak_leaves_6": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:dark_oak_leaves_3": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:dark_oak_leaves_4": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:dark_oak_leaves_1": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:dark_oak_leaves_2": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:jungle_leaves_1": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:jungle_leaves_2": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:jungle_leaves_3": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:jungle_leaves_4": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:jungle_leaves_5": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:jungle_leaves_6": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:jungle_leaves_7": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:jungle_leaves_8": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:birch_leaves_8": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:jungle_leaves_9": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:birch_leaves_7": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:birch_leaves_9": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:acacia_leaves_10": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:acacia_leaves_11": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:acacia_leaves_12": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:dark_oak_leaves_12": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:dark_oak_leaves_11": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:dark_oak_leaves_10": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:dark_oak_leaves_9": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:dark_oak_leaves_7": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:dark_oak_leaves_8": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:oak_leaves_6": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:oak_leaves_7": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:oak_leaves_4": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:oak_leaves_5": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:jungle_leaves_10": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:oak_leaves_2": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:oak_leaves_3": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:jungle_leaves_12": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:jungle_leaves_11": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:oak_leaves_1": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:oak_leaves_10": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:spruce_leaves_4": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:spruce_leaves_3": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:oak_leaves_12": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:spruce_leaves_2": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:oak_leaves_11": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:spruce_leaves_1": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:spruce_leaves_8": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:spruce_leaves_7": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:spruce_leaves_6": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:oak_leaves_8": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:spruce_leaves_5": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:oak_leaves_9": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "chipped:spruce_leaves_9": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:red_oak_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:redwood_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": true
+    },
+    "byg:white_cherry_leaves": {
+      "spawnRateFactor": 1.4,
+      "isConiferBlock": false
+    },
+    "byg:palm_leaves": {
+      "spawnRateFactor": 0.0,
+      "isConiferBlock": false
+    },
+    "byg:lament_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:brown_oak_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:cika_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:yellow_birch_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:jacaranda_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:nightshade_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:brown_birch_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:pine_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": true
+    },
+    "byg:silver_maple_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:indigo_jacaranda_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:cypress_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": true
+    },
+    "byg:yellow_spruce_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": true
+    },
+    "byg:blue_spruce_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": true
+    },
+    "byg:willow_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:flowering_orchard_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:flowering_nightshade_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:holly_berry_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:firecracker_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:flowering_indigo_jacaranda_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:ripe_joshua_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:ether_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:mahogany_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:flowering_jacaranda_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:blooming_witch_hazel_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:pink_cherry_leaves": {
+      "spawnRateFactor": 1.4,
+      "isConiferBlock": false
+    },
+    "byg:green_apple_skyris_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:rainbow_eucalyptus_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:ebony_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:witch_hazel_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:fir_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": true
+    },
+    "byg:maple_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:withering_oak_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:brown_zelkova_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:orchard_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:orange_spruce_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": true
+    },
+    "byg:joshua_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:holly_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:red_spruce_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": true
+    },
+    "byg:orange_oak_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:mangrove_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:flowering_palo_verde_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:blue_enchanted_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:green_enchanted_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:aspen_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:zelkova_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:ripe_orchard_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:red_maple_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:skyris_leaves": {
+      "spawnRateFactor": 1.4,
+      "isConiferBlock": false
+    },
+    "byg:palo_verde_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:orange_birch_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:red_birch_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:araucaria_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:baobab_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "terrestria:sakura_leaves": {
+      "spawnRateFactor": 1.4,
+      "isConiferBlock": false
+    },
+    "traverse:red_autumnal_leaves": {
+      "spawnRateFactor": 1.8,
+      "isConiferBlock": false
+    },
+    "traverse:orange_autumnal_leaves": {
+      "spawnRateFactor": 1.8,
+      "isConiferBlock": false
+    },
+    "traverse:fir_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": true
+    },
+    "terrestria:cypress_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": true
+    },
+    "terrestria:japanese_maple_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "terrestria:willow_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "terrestria:dark_japanese_maple_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "terrestria:jungle_palm_leaves": {
+      "spawnRateFactor": 0.0,
+      "isConiferBlock": false
+    },
+    "terrestria:rubber_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "terrestria:rainbow_eucalyptus_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "terrestria:japanese_maple_shrub_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "traverse:yellow_autumnal_leaves": {
+      "spawnRateFactor": 1.8,
+      "isConiferBlock": false
+    },
+    "terrestria:yucca_palm_leaves": {
+      "spawnRateFactor": 0.0,
+      "isConiferBlock": false
+    },
+    "traverse:brown_autumnal_leaves": {
+      "spawnRateFactor": 1.8,
+      "isConiferBlock": false
+    },
+    "terrestria:redwood_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": true
+    },
+    "terrestria:hemlock_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": true
+    },
+    "minecraft:warped_wart_block": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    }
+  },
+  "leafSpawners": [],
+  "fallSpawnRateFactor": 1.8,
+  "winterSpawnRateFactor": 0.1,
+  "startingSpawnRadius": 0,
+  "decaySpawnRateFactor": 2.6,
+  "maxDecayLeaves": 9
+}
