@@ -1,5 +1,18 @@
 [
   {
+    "name": "accurate-block-placement",
+    "title": "Accurate Block Placement",
+    "side": "client",
+    "required": false,
+    "default": true,
+    "filename": "accurate-block-placement-1.0.12.jar",
+    "encoded": "accurate-block-placement-1.0.12.jar",
+    "src": "https://edge.forgecdn.net/files/3673/256/accurate-block-placement-1.0.12.jar",
+    "size": 22639,
+    "md5": "67c60a3fb2bcd6456406929a0865a3cd",
+    "sha256": "db51f8d966365c6ad11f3e8caefef61fa49f269281807db6ae41732d1ce717e1"
+  },
+  {
     "name": "ad-astra",
     "title": "Ad Astra",
     "side": "both",
@@ -364,6 +377,19 @@
     "sha256": "b1c9fc0c456496fcca76956056d913a7b46d9f4b9a7e8a2296a02b3cb8177485"
   },
   {
+    "name": "chunk-pregenerator-fabric",
+    "title": "Fabric Chunk Pregenerator",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "fabric-chunkpregen-0.3.4.jar",
+    "encoded": "fabric-chunkpregen-0.3.4.jar",
+    "src": "https://edge.forgecdn.net/files/3344/527/fabric-chunkpregen-0.3.4.jar",
+    "size": 17104,
+    "md5": "1765b7e3510ce83b0a51f535452e9dd1",
+    "sha256": "de2c4fb6aa77838bddfd86e4ce07938ff8d349e47d4e6879366d756332a57aa2"
+  },
+  {
     "name": "chunky-pregenerator",
     "title": "Chunky (Fabric)",
     "side": "both",
@@ -650,6 +676,19 @@
     "sha256": "89f4a6356e88b1ca7ae51b449a6c2e59cbc2edc0ced632c80ef71d6d7c9b8e03"
   },
   {
+    "name": "cubes-without-borders",
+    "title": "Cubes Without Borders",
+    "side": "client",
+    "required": false,
+    "default": false,
+    "filename": "cwb-fabric-3.0.0+mc1.18.jar",
+    "encoded": "cwb-fabric-3.0.0%2Bmc1.18.jar",
+    "src": "https://cdn.modrinth.com/data/ETlrkaYF/versions/FshScXwu/cwb-fabric-3.0.0%2Bmc1.18.jar",
+    "size": 79452,
+    "md5": "f3b072f3300ce7243abf06ac4a02f7d8",
+    "sha256": "fe170d8681916dcd98b335604ae057124a5a27c54ce9e5ad79b5897c6448609a"
+  },
+  {
     "name": "cull-less-leaves",
     "title": "Cull Less Leaves",
     "side": "both",
@@ -713,6 +752,19 @@
     "size": 1135026,
     "md5": "d8bae0880192c0dc6089deef0dd9ac6f",
     "sha256": "0a430ac5f16ddc31897d0e6d9ce42073a875822590850029ec7dbc682f49ed0d"
+  },
+  {
+    "name": "dcintegration",
+    "title": "Discord Integration",
+    "side": "server",
+    "required": true,
+    "default": true,
+    "filename": "dcintegration-fabric-3.0.7-1.18.2.jar",
+    "encoded": "dcintegration-fabric-3.0.7-1.18.2.jar",
+    "src": "https://cdn.modrinth.com/data/rbJ7eS5V/versions/viNyyNfK/dcintegration-fabric-3.0.7-1.18.2.jar",
+    "size": 15011358,
+    "md5": "9e98e2fd7c7f7efb575a7814d81a9f8d",
+    "sha256": "4c15f1cab12d5e269dbd20966b5734a166851d398ca9851fe38ae579e78c71cc"
   },
   {
     "name": "debugify",
@@ -791,6 +843,19 @@
     "size": 505422,
     "md5": "398edfb31605de35f5d063189e15e668",
     "sha256": "161a8d15adfdaa0b36456b922fec8bc91c8fc2046bf572c7a94d08f866229195"
+  },
+  {
+    "name": "dynmap",
+    "title": "Dynmap®",
+    "side": "server",
+    "required": true,
+    "default": true,
+    "filename": "Dynmap-3.7-beta-4-fabric-1.18.2.jar",
+    "encoded": "Dynmap-3.7-beta-4-fabric-1.18.2.jar",
+    "src": "https://cdn.modrinth.com/data/fRQREgAc/versions/C8MFrjne/Dynmap-3.7-beta-4-fabric-1.18.2.jar",
+    "size": 11592930,
+    "md5": "27f84f48834f2af52de08a0e96a3b00a",
+    "sha256": "0b1bb5498cb4fddf73afc12f92a83eedffb9d9fcd60bf4fd8edde9bc7b23b97f"
   },
   {
     "name": "ears",
@@ -1612,6 +1677,19 @@
     "sha256": "58195ce05e79980c32e47a3e7ac9f325dde402f3493f1e90dc619238fe1904bc"
   },
   {
+    "name": "mouse-tweaks",
+    "title": "Mouse Tweaks",
+    "side": "client",
+    "required": false,
+    "default": true,
+    "filename": "MouseTweaks-fabric-mc1.18-2.22.jar",
+    "encoded": "MouseTweaks-fabric-mc1.18-2.22.jar",
+    "src": "https://cdn.modrinth.com/data/aC3cM3Vq/versions/1.18-2.22-fabric/MouseTweaks-fabric-mc1.18-2.22.jar",
+    "size": 77650,
+    "md5": "628892304ad21f6a4adf8142630d21d3",
+    "sha256": "aa02606fb77e560cd3d77b6f22cd4d26aa66903fcb021f18a645abb981af8a98"
+  },
+  {
     "name": "mystical-oak-tree",
     "title": "Mystical Oak Tree",
     "side": "both",
@@ -1649,6 +1727,19 @@
     "size": 300530,
     "md5": "4971695322c84fd43cf3614905d132b7",
     "sha256": "631d1e378271905d7a334309927fcd250a229a5c7e973daa6409ce1b13590a85"
+  },
+  {
+    "name": "netherportalfix",
+    "title": "NetherPortalFix",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "netherportalfix-fabric-1.18.2-9.0.1.jar",
+    "encoded": "netherportalfix-fabric-1.18.2-9.0.1.jar",
+    "src": "https://cdn.modrinth.com/data/nPZr02ET/versions/Aa31SP8V/netherportalfix-fabric-1.18.2-9.0.1.jar",
+    "size": 215970,
+    "md5": "643348e641e3cfd1c156b276354a2822",
+    "sha256": "bc1022d9b6e9307580520e7b157fdc1d3e012b3c81d6d314a8f7dec598845ad9"
   },
   {
     "name": "notenoughrecipebook",
@@ -2117,6 +2208,19 @@
     "size": 329818,
     "md5": "85e9ac4608159fe75b59518f18d75cc0",
     "sha256": "bd7cda2621da8a2d6429e2a506072a72c6eeaeeaccf6f4c0de712498a45dbb68"
+  },
+  {
+    "name": "sound-physics-remastered",
+    "title": "Sound Physics Remastered",
+    "side": "client",
+    "required": false,
+    "default": false,
+    "filename": "soundphysics-fabric-1.18.2-1.0.6.jar",
+    "encoded": "soundphysics-fabric-1.18.2-1.0.6.jar",
+    "src": "https://edge.forgecdn.net/files/3804/243/soundphysics-fabric-1.18.2-1.0.6.jar",
+    "size": 101638,
+    "md5": "75f84b201fcf78525d39e2245898f2d1",
+    "sha256": "4e33911b808d9c90a8299a012bb8ea61858c22fdcf1b4b1f97cd29ccf430500a"
   },
   {
     "name": "spark",

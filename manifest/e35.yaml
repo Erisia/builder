@@ -18,10 +18,10 @@ nodes:
         side: client
         required: false
   # Specify project IDs to exclude from manifest (before CurseResolver)
-  - id: excluded-project-ids
+  - id: manifest-excluded-project-ids
     value:
       - "550579"  # ServerCore - has corrupted CurseForge API response
-  
+
   # Specify mods to exclude by name (after CurseResolver)
   - id: excluded-mods
     value:
@@ -30,6 +30,7 @@ nodes:
       - aromabackup
       - aroma1997core
       - mouse-tweaks-unofficial # Manually adding updated version
+      - ftbbackups2-fabric
   # Specify extra mods to add
   - id: extra-mods
     value:
@@ -38,9 +39,9 @@ nodes:
         location: 'https://mediafilez.forgecdn.net/files/4492/100/servercore-fabric-1.3.5%2B1.18.2.jar'
         filename: 'servercore-fabric-1.3.5+1.18.2.jar'
         side: both
-#      - name: clumps
-#        source: modrinth
-#        file_id: 'nZvGITpT'
+      - name: clumps
+        source: modrinth
+        file_id: 'hwWceR4m'
 #      - name: randompatches-forge
 #        source: curse
 #        file_id: 3133651
@@ -48,28 +49,33 @@ nodes:
 #        source: curse
 #        side: server
 #        file_id: 2479308
-#      - name: netherportalfix
-#        source: curse
-#        file_id: 2612052
+      - name: netherportalfix
+        source: modrinth
+        file_id: 'Aa31SP8V'
 #      - name: bed-patch
 #        source: curse
 #        file_id: 2532663
-#      - name: chunkpregenerator
-#        source: curse
-#        file_id: 5632153
+      - name: chunk-pregenerator-fabric
+        source: curse
+        file_id: 3344527
 #      - name: carbon-config # chunkpregenerator dependency
 #        source: curse
 #        file_id: 5504476
-#      - name: prometheus-integration
-#        source: curse
-#        id: 254573
-#        side: server
-#        file_id: 2519411
-#      - name: morpheus
+      - name: prometheus-exporter
+        source: curse
+        side: server
+        file_id: 3804243
+#      - name: morpheus # not need with minecraft 1.17+
 #        source: curse
 #        side: server
 #        file_id: 2664449
-#      - name: dynamic-surroundings
+#       name: dynamic-surroundings replacement
+      - name: sound-physics-remastered
+        source: curse
+        side: client
+        required: false
+        default: false
+        file_id: 3804243
 #        source: curse
 #        side: client
 #        required: false
@@ -79,46 +85,45 @@ nodes:
 #        source: curse
 #        side: client
 #        file_id: 2820815
-#      - name: nofov
+#      - name: nofov  # didn't find for post 1.12
 #        source: curse
 #        side: client
 #        required: false
 #        file_id: 2432421
-#      - name: better-foliage
+#      - name: better-foliage # doesn't exist for fabric
 #        source: curse
 #        side: client
 #        required: false
 #        default: false
 #        file_id: 3393955
-#      - name: better-placement
-#        source: curse
-#        side: client
-#        required: false
-#        file_id: 2481852
-#      - name: fullscreen-windowed-borderless-for-minecraft
-#        source: curse
-#        side: client
-#        required: false
-#        default: false
-#        file_id: 2456007
-#      - name: dcintegration
-#        source: modrinth
-#        side: server
-#        file_id: 'xLuSqQki'
-#      - name: dynmap
-#        source: modrinth
-#        side: server
-#        file_id: 'oonqFE15'
+      - name: accurate-block-placement
+        source: curse
+        side: client
+        required: false
+        file_id: 3673256
+      - name: cubes-without-borders
+        source: modrinth
+        side: client
+        required: false
+        default: false
+        file_id: 'FshScXwu'
+      - name: dcintegration
+        source: modrinth
+        side: server
+        file_id: 'viNyyNfK'
+      - name: dynmap
+        source: modrinth
+        side: server
+        file_id: 'C8MFrjne'
 #      - name: lootr
 #        source: modrinth
 #        side: both
-#        file_id: 'fTrJqmfv'
-#      - name: mouse-tweaks-unofficial
-#        source: curse
-#        side: client
-#        id: 461660
-#        file_id: 5876158
-#        required: false
+#        file_id: 'w2hEo5la'
+      - name: mouse-tweaks
+        source: modrinth
+        side: client
+        file_id: '475fj6e8'
+        required: false
 
   # Build processing graph:
   # Download modpack and unzip
@@ -137,7 +142,7 @@ nodes:
     kind: ManifestFilter
     input:
       manifest: picker
-      excluded_project_ids: excluded-project-ids
+      excluded_project_ids: manifest-excluded-project-ids
   # Resolve all mods from the filtered modpack manifest
   - id: resolve-curse-pack
     kind: CurseResolver
