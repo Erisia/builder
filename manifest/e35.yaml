@@ -107,18 +107,14 @@ nodes:
         required: false
         default: false
         file_id: 'FshScXwu'
-      - name: dcintegration
-        source: modrinth
-        side: server
-        file_id: 'viNyyNfK'
-      - name: dynmap
-        source: modrinth
-        side: server
-        file_id: 'C8MFrjne'
-#      - name: lootr
+#      - name: dcintegration
 #        source: modrinth
-#        side: both
-#        file_id: 'w2hEo5la'
+#        side: server
+#        file_id: 'viNyyNfK'
+#      - name: dynmap
+#        source: modrinth
+#        side: server
+#        file_id: 'C8MFrjne'
       - name: mouse-tweaks
         source: modrinth
         side: client

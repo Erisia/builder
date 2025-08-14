@@ -754,19 +754,6 @@
     "sha256": "0a430ac5f16ddc31897d0e6d9ce42073a875822590850029ec7dbc682f49ed0d"
   },
   {
-    "name": "dcintegration",
-    "title": "Discord Integration",
-    "side": "server",
-    "required": true,
-    "default": true,
-    "filename": "dcintegration-fabric-3.0.7-1.18.2.jar",
-    "encoded": "dcintegration-fabric-3.0.7-1.18.2.jar",
-    "src": "https://cdn.modrinth.com/data/rbJ7eS5V/versions/viNyyNfK/dcintegration-fabric-3.0.7-1.18.2.jar",
-    "size": 15011358,
-    "md5": "9e98e2fd7c7f7efb575a7814d81a9f8d",
-    "sha256": "4c15f1cab12d5e269dbd20966b5734a166851d398ca9851fe38ae579e78c71cc"
-  },
-  {
     "name": "debugify",
     "title": "Debugify",
     "side": "both",
@@ -843,19 +830,6 @@
     "size": 505422,
     "md5": "398edfb31605de35f5d063189e15e668",
     "sha256": "161a8d15adfdaa0b36456b922fec8bc91c8fc2046bf572c7a94d08f866229195"
-  },
-  {
-    "name": "dynmap",
-    "title": "Dynmap®",
-    "side": "server",
-    "required": true,
-    "default": true,
-    "filename": "Dynmap-3.7-beta-4-fabric-1.18.2.jar",
-    "encoded": "Dynmap-3.7-beta-4-fabric-1.18.2.jar",
-    "src": "https://cdn.modrinth.com/data/fRQREgAc/versions/C8MFrjne/Dynmap-3.7-beta-4-fabric-1.18.2.jar",
-    "size": 11592930,
-    "md5": "27f84f48834f2af52de08a0e96a3b00a",
-    "sha256": "0b1bb5498cb4fddf73afc12f92a83eedffb9d9fcd60bf4fd8edde9bc7b23b97f"
   },
   {
     "name": "ears",
@@ -2124,8 +2098,8 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "servercore-1.3.7+1.18.2.jar",
-    "encoded": "servercore-1.3.7%2B1.18.2.jar",
+    "filename": "servercore-fabric-1.3.5+1.18.2.jar",
+    "encoded": "servercore-fabric-1.3.5%2B1.18.2.jar",
     "src": "https://mediafilez.forgecdn.net/files/4492/100/servercore-fabric-1.3.5%2B1.18.2.jar",
     "size": 645948,
     "md5": "0654386f22b5f7fd1f0768daf57e2d96",
