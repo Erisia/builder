@@ -38,87 +38,87 @@ nodes:
         location: 'https://mediafilez.forgecdn.net/files/4492/100/servercore-fabric-1.3.5%2B1.18.2.jar'
         filename: 'servercore-fabric-1.3.5+1.18.2.jar'
         side: both
-      - name: clumps
-        source: modrinth
-        file_id: 'nZvGITpT'
-      - name: randompatches-forge
-        source: curse
-        file_id: 3133651
-      - name: helpfixer
-        source: curse
-        side: server
-        file_id: 2479308
-      - name: netherportalfix
-        source: curse
-        file_id: 2612052
-      - name: bed-patch
-        source: curse
-        file_id: 2532663
-      - name: chunkpregenerator
-        source: curse
-        file_id: 5632153
-      - name: carbon-config # chunkpregenerator dependency
-        source: curse
-        file_id: 5504476
-      - name: prometheus-integration
-        source: curse
-        id: 254573
-        side: server
-        file_id: 2519411
-      - name: morpheus
-        source: curse
-        side: server
-        file_id: 2664449
-      - name: dynamic-surroundings
-        source: curse
-        side: client
-        required: false
-        default: false
-        file_id: 3497269
-      - name: orelib # dynamic surroundings dependency
-        source: curse
-        side: client
-        file_id: 2820815
-      - name: nofov
-        source: curse
-        side: client
-        required: false
-        file_id: 2432421
-      - name: better-foliage
-        source: curse
-        side: client
-        required: false
-        default: false
-        file_id: 3393955
-      - name: better-placement
-        source: curse
-        side: client
-        required: false
-        file_id: 2481852
-      - name: fullscreen-windowed-borderless-for-minecraft
-        source: curse
-        side: client
-        required: false
-        default: false
-        file_id: 2456007
-      - name: dcintegration
-        source: modrinth
-        side: server
-        file_id: 'xLuSqQki'
-      - name: dynmap
-        source: modrinth
-        side: server
-        file_id: 'oonqFE15'
-      - name: lootr
-        source: modrinth
-        side: both
-        file_id: 'fTrJqmfv'
-      - name: mouse-tweaks-unofficial
-        source: curse
-        side: client
-        id: 461660
-        file_id: 5876158
-        required: false
+#      - name: clumps
+#        source: modrinth
+#        file_id: 'nZvGITpT'
+#      - name: randompatches-forge
+#        source: curse
+#        file_id: 3133651
+#      - name: helpfixer
+#        source: curse
+#        side: server
+#        file_id: 2479308
+#      - name: netherportalfix
+#        source: curse
+#        file_id: 2612052
+#      - name: bed-patch
+#        source: curse
+#        file_id: 2532663
+#      - name: chunkpregenerator
+#        source: curse
+#        file_id: 5632153
+#      - name: carbon-config # chunkpregenerator dependency
+#        source: curse
+#        file_id: 5504476
+#      - name: prometheus-integration
+#        source: curse
+#        id: 254573
+#        side: server
+#        file_id: 2519411
+#      - name: morpheus
+#        source: curse
+#        side: server
+#        file_id: 2664449
+#      - name: dynamic-surroundings
+#        source: curse
+#        side: client
+#        required: false
+#        default: false
+#        file_id: 3497269
+#      - name: orelib # dynamic surroundings dependency
+#        source: curse
+#        side: client
+#        file_id: 2820815
+#      - name: nofov
+#        source: curse
+#        side: client
+#        required: false
+#        file_id: 2432421
+#      - name: better-foliage
+#        source: curse
+#        side: client
+#        required: false
+#        default: false
+#        file_id: 3393955
+#      - name: better-placement
+#        source: curse
+#        side: client
+#        required: false
+#        file_id: 2481852
+#      - name: fullscreen-windowed-borderless-for-minecraft
+#        source: curse
+#        side: client
+#        required: false
+#        default: false
+#        file_id: 2456007
+#      - name: dcintegration
+#        source: modrinth
+#        side: server
+#        file_id: 'xLuSqQki'
+#      - name: dynmap
+#        source: modrinth
+#        side: server
+#        file_id: 'oonqFE15'
+#      - name: lootr
+#        source: modrinth
+#        side: both
+#        file_id: 'fTrJqmfv'
+#      - name: mouse-tweaks-unofficial
+#        source: curse
+#        side: client
+#        id: 461660
+#        file_id: 5876158
+#        required: false
 
   # Build processing graph:
   # Download modpack and unzip

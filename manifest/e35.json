@@ -221,19 +221,6 @@
     "sha256": "0ecd5e8a8693cac96a8e96f18121416495c016ed42e17674ffecc469f904ef8c"
   },
   {
-    "name": "bed-patch",
-    "title": "Bed Patch",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "bedpatch-2.2-1.12.2.jar",
-    "encoded": "bedpatch-2.2-1.12.2.jar",
-    "src": "https://edge.forgecdn.net/files/2532/663/bedpatch-2.2-1.12.2.jar",
-    "size": 21613,
-    "md5": "336fea80502d84a94a04791c64f1b071",
-    "sha256": "e57dbe0b427e49d35a9184b5d541d0e6ea504128673c8645b8fe7e4a99ebedba"
-  },
-  {
     "name": "better-advancements",
     "title": "Better Advancements",
     "side": "both",
@@ -260,32 +247,6 @@
     "sha256": "05a039c3b477401a6d117060cbe109a458cc57383d856eb9be7c62ea93bc340a"
   },
   {
-    "name": "better-foliage",
-    "title": "Better Foliage",
-    "side": "client",
-    "required": false,
-    "default": false,
-    "filename": "BetterFoliage-MC1.12-2.3.3.jar",
-    "encoded": "BetterFoliage-MC1.12-2.3.3.jar",
-    "src": "https://edge.forgecdn.net/files/3393/955/BetterFoliage-MC1.12-2.3.3.jar",
-    "size": 864681,
-    "md5": "7db208487613e3f248b5c1b479d5ae0e",
-    "sha256": "567cbeb69e77bbf9e776045c790436c65f6477162b07457607a172b075d8ebfe"
-  },
-  {
-    "name": "better-placement",
-    "title": "Better Placement",
-    "side": "client",
-    "required": false,
-    "default": true,
-    "filename": "BetterPlacement-1.0.0-1.jar",
-    "encoded": "BetterPlacement-1.0.0-1.jar",
-    "src": "https://edge.forgecdn.net/files/2481/852/BetterPlacement-1.0.0-1.jar",
-    "size": 7025,
-    "md5": "f4518692cd397dd5beda3903289352f7",
-    "sha256": "ddd028a561c6e417969aca8c3b1cfc957c4421348fba2f9bc742095253fabcf9"
-  },
-  {
     "name": "blahaj-fabric",
     "title": "Blahaj (Fabric)",
     "side": "both",
@@ -310,19 +271,6 @@
     "size": 810575,
     "md5": "86425d7da722e4d50205828383f4cf28",
     "sha256": "7d58bedd02bcdfb4e8814242d49ab0866b7cb26e3f9398d44c14ded206babae5"
-  },
-  {
-    "name": "carbon-config",
-    "title": "Carbon Config",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "CarbonConfig-1.12.2-1.2.4.jar",
-    "encoded": "CarbonConfig-1.12.2-1.2.4.jar",
-    "src": "https://edge.forgecdn.net/files/5504/476/CarbonConfig-1.12.2-1.2.4.jar",
-    "size": 1176455,
-    "md5": "18c74e042b5557d063361252f75a44d4",
-    "sha256": "54af9fd35de2a315eb0c9facbdc27ddbefc31af32544d778aad7db092768d757"
   },
   {
     "name": "cardinal-components-api",
@@ -414,19 +362,6 @@
     "size": 20239424,
     "md5": "2ee4e6d6b27e71a49de1a89c179e5f4d",
     "sha256": "b1c9fc0c456496fcca76956056d913a7b46d9f4b9a7e8a2296a02b3cb8177485"
-  },
-  {
-    "name": "chunkpregenerator",
-    "title": "Chunk-Pregenerator",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "Chunk-Pregenerator-1.12.2-4.4.9.jar",
-    "encoded": "Chunk-Pregenerator-1.12.2-4.4.9.jar",
-    "src": "https://edge.forgecdn.net/files/5632/153/Chunk-Pregenerator-1.12.2-4.4.9.jar",
-    "size": 799115,
-    "md5": "5df89327e04490ca9fa1ef7d2b52aa53",
-    "sha256": "57ff73d584d0dafee3cea30843c58ed291fc72aa95bc6bc5693a5c478f9278bc"
   },
   {
     "name": "chunky-pregenerator",
@@ -780,19 +715,6 @@
     "sha256": "0a430ac5f16ddc31897d0e6d9ce42073a875822590850029ec7dbc682f49ed0d"
   },
   {
-    "name": "dcintegration",
-    "title": "Discord Integration",
-    "side": "server",
-    "required": true,
-    "default": true,
-    "filename": "dcintegration-forge-2.4.7.1-1.12.jar",
-    "encoded": "dcintegration-forge-2.4.7.1-1.12.jar",
-    "src": "https://cdn.modrinth.com/data/rbJ7eS5V/versions/xLuSqQki/dcintegration-forge-2.4.7.1-1.12.jar",
-    "size": 16401788,
-    "md5": "9099a5019ea7e0213f141ce7765e3d0c",
-    "sha256": "3403636d2d355b16dd5c60a6cda15fb59f0821b9c2aeaaeb5d434cc79405694c"
-  },
-  {
     "name": "debugify",
     "title": "Debugify",
     "side": "both",
@@ -869,32 +791,6 @@
     "size": 505422,
     "md5": "398edfb31605de35f5d063189e15e668",
     "sha256": "161a8d15adfdaa0b36456b922fec8bc91c8fc2046bf572c7a94d08f866229195"
-  },
-  {
-    "name": "dynamic-surroundings",
-    "title": "Dynamic Surroundings",
-    "side": "client",
-    "required": false,
-    "default": false,
-    "filename": "DynamicSurroundings-1.12.2-3.6.3.jar",
-    "encoded": "DynamicSurroundings-1.12.2-3.6.3.jar",
-    "src": "https://edge.forgecdn.net/files/3497/269/DynamicSurroundings-1.12.2-3.6.3.jar",
-    "size": 15778870,
-    "md5": "77e815ce9c8dd68ecba4eb884d6db4d2",
-    "sha256": "e5c9fbc101dae923a49800761c901831c1f085685c20a229d7dcf98f37d70b85"
-  },
-  {
-    "name": "dynmap",
-    "title": "Dynmap®",
-    "side": "server",
-    "required": true,
-    "default": true,
-    "filename": "Dynmap-3.7-beta-4-forge-1.12.2.jar",
-    "encoded": "Dynmap-3.7-beta-4-forge-1.12.2.jar",
-    "src": "https://cdn.modrinth.com/data/fRQREgAc/versions/oonqFE15/Dynmap-3.7-beta-4-forge-1.12.2.jar",
-    "size": 11511369,
-    "md5": "9522c4cec036f2ae1d518d652bee0099",
-    "sha256": "0378331647c8d38f00c8ec39cef6216e2c6ae691c1c141bc05e15b3a3b6a6bc2"
   },
   {
     "name": "ears",
@@ -1183,19 +1079,6 @@
     "sha256": "afaedb51ae9542814bd6a0e353f5e526efb0c28db4288fc37b0c454fdf682e89"
   },
   {
-    "name": "fullscreen-windowed-borderless-for-minecraft",
-    "title": "Fullscreen Windowed (Borderless) for Minecraft",
-    "side": "client",
-    "required": false,
-    "default": false,
-    "filename": "FullscreenWindowed-1.12-1.6.0.jar",
-    "encoded": "FullscreenWindowed-1.12-1.6.0.jar",
-    "src": "https://edge.forgecdn.net/files/2456/7/FullscreenWindowed-1.12-1.6.0.jar",
-    "size": 18396,
-    "md5": "c7679200bdf1f6cb71361555407a4c7f",
-    "sha256": "ab7843fc1cd459ea75d2e8f858e254de0e2b669dfe0372ac8e8d959a4d36724b"
-  },
-  {
     "name": "gearreborn",
     "title": "Gear Reborn",
     "side": "both",
@@ -1233,19 +1116,6 @@
     "size": 290256,
     "md5": "7c09a96043ec3c7025313fbf4b786b31",
     "sha256": "339e3a3ae5ee32a575dc285a71bbae13c0da45bc39e1046fcde74e94251122ea"
-  },
-  {
-    "name": "helpfixer",
-    "title": "HelpFixer",
-    "side": "server",
-    "required": true,
-    "default": true,
-    "filename": "HelpFixer-1.12.1-1.5.18.jar",
-    "encoded": "HelpFixer-1.12.1-1.5.18.jar",
-    "src": "https://edge.forgecdn.net/files/2479/308/HelpFixer-1.12.1-1.5.18.jar",
-    "size": 6778,
-    "md5": "52a1b001b58e67022b5465be12bc278f",
-    "sha256": "a3cc25bd00e3d63724f667f569889001be461eb8f383c03b931104ec42833cd5"
   },
   {
     "name": "hephaestus-fabric",
@@ -1625,19 +1495,6 @@
     "sha256": "8653e3708215f53462cab2210ae1ddca23b6a055fe342ce7e777926bf22bf6c5"
   },
   {
-    "name": "lootr",
-    "title": "Lootr",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "lootr-1.12.2-0.6.2.jar",
-    "encoded": "lootr-1.12.2-0.6.2.jar",
-    "src": "https://cdn.modrinth.com/data/EltpO5cN/versions/fTrJqmfv/lootr-1.12.2-0.6.2.jar",
-    "size": 183508,
-    "md5": "558c6e4a8600c62244c6c6264b4b70c8",
-    "sha256": "294d4af16a558f2fca3aa4e3e7234fd7ea005d4aaf53c84b04c92908f9342c2d"
-  },
-  {
     "name": "lootr-fabric",
     "title": "Lootr (Fabric)",
     "side": "both",
@@ -1755,32 +1612,6 @@
     "sha256": "58195ce05e79980c32e47a3e7ac9f325dde402f3493f1e90dc619238fe1904bc"
   },
   {
-    "name": "morpheus",
-    "title": "Morpheus",
-    "side": "server",
-    "required": true,
-    "default": true,
-    "filename": "Morpheus-1.12.2-3.5.106.jar",
-    "encoded": "Morpheus-1.12.2-3.5.106.jar",
-    "src": "https://edge.forgecdn.net/files/2664/449/Morpheus-1.12.2-3.5.106.jar",
-    "size": 21508,
-    "md5": "357dc3701a8c7d4109147c666f6a4300",
-    "sha256": "1904c32a8e0077e005bfefe005c26834c2df09881bc075a7deadce8da97fb457"
-  },
-  {
-    "name": "mouse-tweaks-unofficial",
-    "title": "Mouse Tweaks Unofficial",
-    "side": "client",
-    "required": false,
-    "default": true,
-    "filename": "mousetweaks-1.12.2-3.1.5.jar",
-    "encoded": "mousetweaks-1.12.2-3.1.5.jar",
-    "src": "https://edge.forgecdn.net/files/5876/158/mousetweaks-1.12.2-3.1.5.jar",
-    "size": 201591,
-    "md5": "842b6b4c23cb6a7db7c6cef231c5c9b2",
-    "sha256": "4874dc0e614ea47f4c049875ffffc4a48b79dceebb5b76f41945b42dfd624175"
-  },
-  {
     "name": "mystical-oak-tree",
     "title": "Mystical Oak Tree",
     "side": "both",
@@ -1820,32 +1651,6 @@
     "sha256": "631d1e378271905d7a334309927fcd250a229a5c7e973daa6409ce1b13590a85"
   },
   {
-    "name": "netherportalfix",
-    "title": "NetherPortalFix",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "NetherPortalFix_1.12.1-5.3.17.jar",
-    "encoded": "NetherPortalFix_1.12.1-5.3.17.jar",
-    "src": "https://edge.forgecdn.net/files/2612/52/NetherPortalFix_1.12.1-5.3.17.jar",
-    "size": 109445,
-    "md5": "97ff3e60aa9725cedbc64f19e179f813",
-    "sha256": "f8c46dfa9f1c11641d2f7400efa52c97be954e8e178d0ef346cc601c320b414f"
-  },
-  {
-    "name": "nofov",
-    "title": "NoFov",
-    "side": "client",
-    "required": false,
-    "default": true,
-    "filename": "NoFov-MC1.12-1.0.1.jar",
-    "encoded": "NoFov-MC1.12-1.0.1.jar",
-    "src": "https://edge.forgecdn.net/files/2432/421/NoFov-MC1.12-1.0.1.jar",
-    "size": 1722,
-    "md5": "f97c4fbf422b513b0103eedca7a31a0e",
-    "sha256": "42cf02c3f268a3a3a7244215de621a151d2fa7ec7ddebcd10b6f61670b19da13"
-  },
-  {
     "name": "notenoughrecipebook",
     "title": "Not Enough Recipe Book [NERB]",
     "side": "both",
@@ -1883,19 +1688,6 @@
     "size": 9588851,
     "md5": "b723dbf16c7fd91020b9eaf1aa7875f8",
     "sha256": "52d8a8e4e289df9772282d374dd2378200349059b2159596498beacef33a24e1"
-  },
-  {
-    "name": "orelib",
-    "title": "OreLib",
-    "side": "client",
-    "required": true,
-    "default": true,
-    "filename": "OreLib-1.12.2-3.6.0.1.jar",
-    "encoded": "OreLib-1.12.2-3.6.0.1.jar",
-    "src": "https://edge.forgecdn.net/files/2820/815/OreLib-1.12.2-3.6.0.1.jar",
-    "size": 341728,
-    "md5": "00cce3b240365458adcad3e77782358a",
-    "sha256": "4483d8cc2b0334b82b7d0f5bb6354a2020a0e00ce63a48379e8ba5eb7d79eef9"
   },
   {
     "name": "packages",
@@ -2093,19 +1885,6 @@
     "sha256": "d5670bdc9ed48095a05deedbd77070aa6b5a90815b408bb39de8f09aab333f2a"
   },
   {
-    "name": "prometheus-integration",
-    "title": "Prometheus Integration",
-    "side": "server",
-    "required": true,
-    "default": true,
-    "filename": "prometheus-integration-0.2.2.jar",
-    "encoded": "prometheus-integration-0.2.2.jar",
-    "src": "https://edge.forgecdn.net/files/2519/411/prometheus-integration-0.2.2.jar",
-    "size": 96067,
-    "md5": "f3e834d363536c11894ea1e6625698bf",
-    "sha256": "f1dbd22fb30e14070c34d13bf4894099ce7cc395227f75e84e0f7cfd23f3d788"
-  },
-  {
     "name": "puzzle",
     "title": "Puzzle",
     "side": "both",
@@ -2143,19 +1922,6 @@
     "size": 120246,
     "md5": "295de6c9482a7df45709cf855679b75d",
     "sha256": "604e7a49ea157244f8ab449c9eb1d389f7814ffbedce29a0f7c6f89e8720e811"
-  },
-  {
-    "name": "randompatches-forge",
-    "title": "RandomPatches (Forge)",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "randompatches-1.12.2-1.22.1.10.jar",
-    "encoded": "randompatches-1.12.2-1.22.1.10.jar",
-    "src": "https://edge.forgecdn.net/files/3133/651/randompatches-1.12.2-1.22.1.10.jar",
-    "size": 293231,
-    "md5": "dfbb30ff396e6426ba9a284b04c7bcf3",
-    "sha256": "c6d836b4d14223999afcd9df143076a5a709ff2009d6604382c346d1a258284b"
   },
   {
     "name": "reeses-sodium-options",
@@ -2280,8 +2046,8 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "servercore-1.3.7+1.18.2.jar",
-    "encoded": "servercore-1.3.7%2B1.18.2.jar",
+    "filename": "servercore-fabric-1.3.5+1.18.2.jar",
+    "encoded": "servercore-fabric-1.3.5%2B1.18.2.jar",
     "src": "https://mediafilez.forgecdn.net/files/4492/100/servercore-fabric-1.3.5%2B1.18.2.jar",
     "size": 645948,
     "md5": "0654386f22b5f7fd1f0768daf57e2d96",

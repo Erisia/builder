@@ -150,7 +150,7 @@ def sync_server_files():
         # Original: ln -sf "$f" . (where $f is $BASE/$b, $b is forge or resources)
         # $BASE/$b -> $CWD/$b (symlink)
         # Then rsync "$f"/libraries . ($BASE/$b/libraries -> $CWD/libraries)
-        for item_name in ["forge", "resources"]:
+        for item_name in ["forge", "resources", "mods"]:
             source_dir = BASE_DIR / item_name # This is $f in original script
             dest_symlink = APP_ROOT_DIR / item_name
 
