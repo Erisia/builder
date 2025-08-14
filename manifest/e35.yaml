@@ -30,7 +30,7 @@ nodes:
       - aromabackup
       - aroma1997core
       - mouse-tweaks-unofficial # Manually adding updated version
-      - ftbbackups2-fabric
+      - ftb-backups-2
   # Specify extra mods to add
   - id: extra-mods
     value:

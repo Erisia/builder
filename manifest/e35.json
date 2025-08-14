@@ -1079,19 +1079,6 @@
     "sha256": "50bae68fdd7c1689a461775782f7bf9b67cd7d99d1772115ffd48e27de46cd3c"
   },
   {
-    "name": "ftb-backups-2",
-    "title": "FTB Backups 2",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "ftbbackups2-fabric-1.18.2-1.0.23.jar",
-    "encoded": "ftbbackups2-fabric-1.18.2-1.0.23.jar",
-    "src": "https://edge.forgecdn.net/files/4834/390/ftbbackups2-fabric-1.18.2-1.0.23.jar",
-    "size": 2594044,
-    "md5": "80e1f34bafd8d80947effa1eff31c9fc",
-    "sha256": "e77781718f641a778f22272d4170aa6157bc7fd9c9af5b233f06f9c4ffeba9dd"
-  },
-  {
     "name": "ftb-chunks-fabric",
     "title": "FTB Chunks (Fabric)",
     "side": "both",
@@ -2137,8 +2124,8 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "servercore-fabric-1.3.5+1.18.2.jar",
-    "encoded": "servercore-fabric-1.3.5%2B1.18.2.jar",
+    "filename": "servercore-1.3.7+1.18.2.jar",
+    "encoded": "servercore-1.3.7%2B1.18.2.jar",
     "src": "https://mediafilez.forgecdn.net/files/4492/100/servercore-fabric-1.3.5%2B1.18.2.jar",
     "size": 645948,
     "md5": "0654386f22b5f7fd1f0768daf57e2d96",
