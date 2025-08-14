@@ -16,7 +16,7 @@ rec {
   e35 = {
     name = "E35";
     tmuxName = "e35";
-    description = "E35: TODO Fancy title";
+    description = "E35: Per fragore ad astra";
     ram = "8G";
     port = 25565;
     prometheusPort = 1224;
@@ -156,6 +156,13 @@ rec {
     hostname = "localhost:8000";
     urlBase = "http://" + hostname + "/";
   };
+
+  ServerPackE35 = buildServerPack rec {
+    inherit packs;
+    hostname = "madoka.brage.info";
+    urlBase = "https://madoka.brage.info/e35/result/";
+  };
+
 
   # Website
   web = runCommand "erisia-website-hugo" {
