@@ -38,6 +38,9 @@ SERVER_JVM_PID_FILE = APP_ROOT_DIR / "server-jvm.pid" # Java server PID (if not 
 LOGS_DIR = APP_ROOT_DIR / "logs"
 GC_LOG_PATH = APP_ROOT_DIR / "gc.log"
 
+# Directories to rsync from BASE_DIR to APP_ROOT_DIR (need write access)
+RSYNC_DIRS = ["config", "world", "journeymap", "schematics", "defaultconfigs", "configureddefaults", "kubejs"]
+
 # --- Global State ---
 java_server_process = None # Popen object for systemd-run or direct Java process
 using_systemd = False
@@ -136,7 +139,7 @@ def sync_server_files():
         # Items to rsync from BASE_DIR/ to APP_ROOT_DIR/
         # Original: rsync -acL server/$b . (where $b is config or world)
         # $BASE/server/$b -> $CWD/$b
-        for item_name in ["config", "world"]:
+        for item_name in RSYNC_DIRS:
             source_item = BASE_DIR / item_name
             dest_item = APP_ROOT_DIR / item_name
             if source_item.exists():
@@ -150,7 +153,7 @@ def sync_server_files():
         # Original: ln -sf "$f" . (where $f is $BASE/$b, $b is forge or resources)
         # $BASE/$b -> $CWD/$b (symlink)
         # Then rsync "$f"/libraries . ($BASE/$b/libraries -> $CWD/libraries)
-        for item_name in ["forge", "resources", "mods"]:
+        for item_name in ["forge", "resources", "mods", "resourcepacks", "shaderpacks"]:
             source_dir = BASE_DIR / item_name # This is $f in original script
             dest_symlink = APP_ROOT_DIR / item_name
 
@@ -204,8 +207,9 @@ def sync_server_files():
         #        shutil.copy2(source_f, dest_f, follow_symlinks=True)
 
         # The original script had a blanket `fixperms "$b"` for all processed $b (destination paths).
-        # Let's ensure key destination directories have execute permissions if they were created.
-        for key_dir in [APP_ROOT_DIR / "config", APP_ROOT_DIR / "world", APP_ROOT_DIR / "mods", LOGS_DIR]:
+        # Fix permissions for all rsync'd directories plus logs directory
+        dirs_to_fix = [APP_ROOT_DIR / item_name for item_name in RSYNC_DIRS] + [LOGS_DIR]
+        for key_dir in dirs_to_fix:
             if key_dir.is_dir(): # Check if it was actually created/synced
                 fix_permissions(str(key_dir))
 
