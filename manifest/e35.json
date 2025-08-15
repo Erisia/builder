@@ -2173,9 +2173,9 @@
   {
     "name": "sound-physics-remastered",
     "title": "Sound Physics Remastered",
-    "side": "client",
-    "required": false,
-    "default": false,
+    "side": "server",
+    "required": true,
+    "default": true,
     "filename": "soundphysics-fabric-1.18.2-1.0.6.jar",
     "encoded": "soundphysics-fabric-1.18.2-1.0.6.jar",
     "src": "https://edge.forgecdn.net/files/3804/243/soundphysics-fabric-1.18.2-1.0.6.jar",

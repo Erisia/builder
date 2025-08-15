@@ -70,12 +70,12 @@ nodes:
 #        side: server
 #        file_id: 2664449
 #       name: dynamic-surroundings replacement
-      - name: sound-physics-remastered
-        source: curse
-        side: client
-        required: false
-        default: false
-        file_id: 3804243
+#      - name: sound-physics-remastered - right now crashes due to incompat with Create
+#        source: curse
+#        side: client
+#        required: false
+#        default: false
+#        file_id: 3804243
 #        source: curse
 #        side: client
 #        required: false
