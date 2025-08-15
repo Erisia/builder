@@ -754,6 +754,19 @@
     "sha256": "0a430ac5f16ddc31897d0e6d9ce42073a875822590850029ec7dbc682f49ed0d"
   },
   {
+    "name": "dcintegration",
+    "title": "Discord Integration",
+    "side": "server",
+    "required": true,
+    "default": true,
+    "filename": "dcintegration-fabric-3.0.7-1.18.2.jar",
+    "encoded": "dcintegration-fabric-3.0.7-1.18.2.jar",
+    "src": "https://cdn.modrinth.com/data/rbJ7eS5V/versions/viNyyNfK/dcintegration-fabric-3.0.7-1.18.2.jar",
+    "size": 15011358,
+    "md5": "9e98e2fd7c7f7efb575a7814d81a9f8d",
+    "sha256": "4c15f1cab12d5e269dbd20966b5734a166851d398ca9851fe38ae579e78c71cc"
+  },
+  {
     "name": "debugify",
     "title": "Debugify",
     "side": "both",
@@ -830,6 +843,19 @@
     "size": 505422,
     "md5": "398edfb31605de35f5d063189e15e668",
     "sha256": "161a8d15adfdaa0b36456b922fec8bc91c8fc2046bf572c7a94d08f866229195"
+  },
+  {
+    "name": "dynmap",
+    "title": "Dynmap®",
+    "side": "server",
+    "required": true,
+    "default": true,
+    "filename": "Dynmap-3.7-beta-4-fabric-1.18.2.jar",
+    "encoded": "Dynmap-3.7-beta-4-fabric-1.18.2.jar",
+    "src": "https://cdn.modrinth.com/data/fRQREgAc/versions/C8MFrjne/Dynmap-3.7-beta-4-fabric-1.18.2.jar",
+    "size": 11592930,
+    "md5": "27f84f48834f2af52de08a0e96a3b00a",
+    "sha256": "0b1bb5498cb4fddf73afc12f92a83eedffb9d9fcd60bf4fd8edde9bc7b23b97f"
   },
   {
     "name": "ears",
@@ -1937,6 +1963,19 @@
     "sha256": "d5670bdc9ed48095a05deedbd77070aa6b5a90815b408bb39de8f09aab333f2a"
   },
   {
+    "name": "prometheus-exporter",
+    "title": "Prometheus Exporter",
+    "side": "server",
+    "required": true,
+    "default": true,
+    "filename": "Prometheus-Exporter-1.18.2-fabric-1.2.1.jar",
+    "encoded": "Prometheus-Exporter-1.18.2-fabric-1.2.1.jar",
+    "src": "https://edge.forgecdn.net/files/6333/682/Prometheus-Exporter-1.18.2-fabric-1.2.1.jar",
+    "size": 464405,
+    "md5": "23c4b9036645ef38383e261a856e5006",
+    "sha256": "8bbc2c34ba2522f007ea15f4bbc31089b7f7ec260195bcad5e5f0e0e5d1a5481"
+  },
+  {
     "name": "puzzle",
     "title": "Puzzle",
     "side": "both",
@@ -2169,19 +2208,6 @@
     "size": 329818,
     "md5": "85e9ac4608159fe75b59518f18d75cc0",
     "sha256": "bd7cda2621da8a2d6429e2a506072a72c6eeaeeaccf6f4c0de712498a45dbb68"
-  },
-  {
-    "name": "sound-physics-remastered",
-    "title": "Sound Physics Remastered",
-    "side": "server",
-    "required": true,
-    "default": true,
-    "filename": "soundphysics-fabric-1.18.2-1.0.6.jar",
-    "encoded": "soundphysics-fabric-1.18.2-1.0.6.jar",
-    "src": "https://edge.forgecdn.net/files/3804/243/soundphysics-fabric-1.18.2-1.0.6.jar",
-    "size": 101638,
-    "md5": "75f84b201fcf78525d39e2245898f2d1",
-    "sha256": "4e33911b808d9c90a8299a012bb8ea61858c22fdcf1b4b1f97cd29ccf430500a"
   },
   {
     "name": "spark",

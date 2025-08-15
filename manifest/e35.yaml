@@ -64,7 +64,7 @@ nodes:
       - name: prometheus-exporter
         source: curse
         side: server
-        file_id: 3804243
+        file_id: 6333682
 #      - name: morpheus # not need with minecraft 1.17+
 #        source: curse
 #        side: server
@@ -107,14 +107,14 @@ nodes:
         required: false
         default: false
         file_id: 'FshScXwu'
-#      - name: dcintegration
-#        source: modrinth
-#        side: server
-#        file_id: 'viNyyNfK'
-#      - name: dynmap
-#        source: modrinth
-#        side: server
-#        file_id: 'C8MFrjne'
+      - name: dcintegration
+        source: modrinth
+        side: server
+        file_id: 'viNyyNfK'
+      - name: dynmap
+        source: modrinth
+        side: server
+        file_id: 'C8MFrjne'
       - name: mouse-tweaks
         source: modrinth
         side: client
