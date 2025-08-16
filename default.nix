@@ -22,7 +22,7 @@ rec {
     prometheusPort = 1224;
     minecraft = "1.18.2";
     fabric = {
-      loader = "0.16.3";
+      loader = "0.16.9";
       installer = "1.1.0";
       yarnBuild = "build.4";
     };

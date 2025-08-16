@@ -156,6 +156,19 @@
     "sha256": "420e436249a277187f6b7f92dcc2bcc46f1397e8f6003e1ffef57d4e084fde6f"
   },
   {
+    "name": "astralbot",
+    "title": "AstralBot",
+    "side": "server",
+    "required": true,
+    "default": true,
+    "filename": "astralbot-fabric-1.18.2-1.5.5.jar",
+    "encoded": "astralbot-fabric-1.18.2-1.5.5.jar",
+    "src": "https://cdn.modrinth.com/data/NE7Gptcf/versions/lvSar19s/astralbot-fabric-1.18.2-1.5.5.jar",
+    "size": 26544437,
+    "md5": "8b084026d03686e085b6983f4c9feb7b",
+    "sha256": "283a61d7b07baf9f1420268e6d6379ee26a45801e09ed1b639f6cc18e78a5b58"
+  },
+  {
     "name": "auto-config-updated-api",
     "title": "Auto Config Updated API",
     "side": "both",
@@ -349,19 +362,6 @@
     "size": 87444,
     "md5": "870c174a420c197965e68fd7eef29169",
     "sha256": "59fb06e0e7afab3ff106743ce7d5c77b15ccb145e501d43eee34efb5bcf580e9"
-  },
-  {
-    "name": "chat-heads",
-    "title": "Chat Heads",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "chat_heads-0.6.0-fabric-1.18.1.jar",
-    "encoded": "chat_heads-0.6.0-fabric-1.18.1.jar",
-    "src": "https://edge.forgecdn.net/files/3570/678/chat_heads-0.6.0-fabric-1.18.1.jar",
-    "size": 25497,
-    "md5": "3cc3c37a8785c5c3105c6ea6ea2056bc",
-    "sha256": "574bbe72e37469cf9f7fd803a8717b0ccebb963e068bbf8363ef66372caa9a1b"
   },
   {
     "name": "chipped",
@@ -754,19 +754,6 @@
     "sha256": "0a430ac5f16ddc31897d0e6d9ce42073a875822590850029ec7dbc682f49ed0d"
   },
   {
-    "name": "dcintegration",
-    "title": "Discord Integration",
-    "side": "server",
-    "required": true,
-    "default": true,
-    "filename": "dcintegration-fabric-3.0.7-1.18.2.jar",
-    "encoded": "dcintegration-fabric-3.0.7-1.18.2.jar",
-    "src": "https://cdn.modrinth.com/data/rbJ7eS5V/versions/viNyyNfK/dcintegration-fabric-3.0.7-1.18.2.jar",
-    "size": 15011358,
-    "md5": "9e98e2fd7c7f7efb575a7814d81a9f8d",
-    "sha256": "4c15f1cab12d5e269dbd20966b5734a166851d398ca9851fe38ae579e78c71cc"
-  },
-  {
     "name": "debugify",
     "title": "Debugify",
     "side": "both",
@@ -990,15 +977,15 @@
   {
     "name": "fabric-language-kotlin",
     "title": "Fabric Language Kotlin",
-    "side": "both",
+    "side": "server",
     "required": true,
     "default": true,
-    "filename": "fabric-language-kotlin-1.10.19+kotlin.1.9.23.jar",
-    "encoded": "fabric-language-kotlin-1.10.19%2Bkotlin.1.9.23.jar",
-    "src": "https://edge.forgecdn.net/files/5166/475/fabric-language-kotlin-1.10.19%2bkotlin.1.9.23.jar",
-    "size": 6734779,
-    "md5": "aa6ae207640288876f5b8551f5e33459",
-    "sha256": "4cc86a5ca56236f776ec9b84370fb02ac4f7cdf88a3c82886da9c558e1e4f39c"
+    "filename": "fabric-language-kotlin-1.13.1+kotlin.2.1.10.jar",
+    "encoded": "fabric-language-kotlin-1.13.1%2Bkotlin.2.1.10.jar",
+    "src": "https://edge.forgecdn.net/files/6133/24/fabric-language-kotlin-1.13.1%2bkotlin.2.1.10.jar",
+    "size": 7107488,
+    "md5": "93f482c99cce35eeca5e1c974c936129",
+    "sha256": "6d79823235ac5b64eeb0a9cb5711a4c8661c01f70e22546dde6a4db15fe59713"
   },
   {
     "name": "falling-leaves-fabric",

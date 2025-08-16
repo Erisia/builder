@@ -31,6 +31,8 @@ nodes:
       - aroma1997core
       - mouse-tweaks-unofficial # Manually adding updated version
       - ftb-backups-2
+      - chat-heads
+      - fabric-language-kotlin
   # Specify extra mods to add
   - id: extra-mods
     value:
@@ -107,10 +109,18 @@ nodes:
         required: false
         default: false
         file_id: 'FshScXwu'
-      - name: dcintegration
+#      - name: dcintegration
+#        source: modrinth
+#        side: server
+#        file_id: 'viNyyNfK'
+      - name: astralbot
         source: modrinth
         side: server
-        file_id: 'viNyyNfK'
+        file_id: 'lvSar19s'
+      - name: fabric-language-kotlin
+        source: curse
+        side: server
+        file_id: 6133024
       - name: dynmap
         source: modrinth
         side: server
