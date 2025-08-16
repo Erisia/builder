@@ -119,7 +119,7 @@ nodes:
         file_id: 'lvSar19s'
       - name: fabric-language-kotlin
         source: curse
-        side: server
+        side: both
         file_id: 6133024
       - name: dynmap
         source: modrinth

@@ -977,7 +977,7 @@
   {
     "name": "fabric-language-kotlin",
     "title": "Fabric Language Kotlin",
-    "side": "server",
+    "side": "both",
     "required": true,
     "default": true,
     "filename": "fabric-language-kotlin-1.13.1+kotlin.2.1.10.jar",
