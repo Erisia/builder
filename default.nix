@@ -164,6 +164,30 @@ rec {
   };
 
 
+  # MCUpdater Flake Repository
+  mcupdaterFlakeRepo = runCommand "mcupdater-flake-repo" {
+    src = ./mcupdater-nixos;
+    buildInputs = [ git ];
+    bootstrapHash = builtins.hashFile "sha256" "${ServerPack}/MCUpdater-Bootstrap.jar";
+  } ''
+    # Create git repo with flake
+    cp -r $src/* .
+    
+    # Substitute the bootstrap hash
+    substituteInPlace flake.nix \
+      --replace-fail "@BOOTSTRAP_HASH@" "$bootstrapHash"
+    
+    # Initialize git repo
+    git init -b master
+    git config user.name "Erisia Builder"
+    git config user.email "builder@madoka.brage.info"
+    git add .
+    git commit -m "MCUpdater flake for Erisia servers"
+    git update-server-info
+
+    mv .git $out
+  '';
+
   # Website
   web = runCommand "erisia-website-hugo" {
     src = builtins.filterSource
@@ -178,5 +202,8 @@ rec {
     
     # Build without lock file
     hugo --minify --destination $out --ignoreCache
+    
+    # Add mcupdater flake repo
+    ln -s ${mcupdaterFlakeRepo} $out/mcupdater-nixos
   '';
 }

@@ -10,7 +10,7 @@ To get started:
 
 1. First of all, make sure you join chat. The preferred option is [Discord](https://discord.gg/VW9x7sR). This channel is linked to the servers, and is an excellent place to get help or generally hang out.
 2. Make sure you have 64-bit Java 17 (or newer) installed.
-3. Download and run [MCU-Bootstrap](MCU-Bootstrap.jar).
+3. Download and run [MCU-Bootstrap](/MCU-Bootstrap.jar).
 4. Select the correct instance from the instance list, on the left.
 5. Take a look at the mods list. Many of these are optional. Defaults have been provided, but use your own judgement.
 6. Click update
