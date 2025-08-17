@@ -143,7 +143,7 @@ rec {
     manifest = ./manifest/e33.json;
   };
 
-  ServerPack = buildServerPack rec {
+  ServerPack = buildServerPack {
     inherit packs;
     hostname = "minecraft.brage.info";
     urlBase = "https://madoka.brage.info/pack/";
@@ -157,7 +157,7 @@ rec {
     urlBase = "http://" + hostname + "/";
   };
 
-  ServerPackE35 = buildServerPack rec {
+  ServerPackE35 = buildServerPack {
     inherit packs;
     hostname = "madoka.brage.info";
     urlBase = "https://madoka.brage.info/e35/result/";
