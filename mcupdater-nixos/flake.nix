@@ -14,57 +14,87 @@
     in
     {
       packages.${system} = {
-        mcupdater = pkgs.stdenv.mkDerivation rec {
-          pname = "erisia-mcupdater";
-          version = "1.0.0";
-
-          src = pkgs.fetchurl {
-            url = "https://madoka.brage.info/pack/MCUpdater-Bootstrap.jar";
-            sha256 = "@BOOTSTRAP_HASH@"; # Will be substituted during build
-          };
-
-          nativeBuildInputs = with pkgs; [
-            makeWrapper
-            unzip
-          ];
-
-          buildInputs = with pkgs; [
+        mcupdater = pkgs.buildFHSEnv {
+          name = "erisia-mcupdater";
+          
+          targetPkgs = pkgs: with pkgs; [
+            # Java runtime
             jdk17
-            # Graphics and X11 libraries for JavaFX
+            
+            # Essential libraries that Minecraft and MCUpdater need
             xorg.libX11
             xorg.libXext
             xorg.libXi
             xorg.libXrender
             xorg.libXtst
             xorg.libXxf86vm
+            xorg.libXrandr
             libGL
+            mesa
+            
             # Audio support
             alsa-lib
+            pulseaudio
+            
             # Font rendering
             fontconfig
             freetype
+            
+            # System utilities that Minecraft might invoke
+            bash
+            coreutils
+            glibc
+            
+            # Network tools
+            curl
+            wget
+            
+            # Archive tools (for mod downloads)
+            unzip
+            zip
+            
+            # Libraries commonly needed by native Minecraft components
+            zlib
+            libpng
+            libjpeg
+            
+            # OpenGL and graphics
+            libdrm
+            wayland
+            
+            # GTK for some Java applications
+            gtk3
+            gtk2
           ];
-
-          unpackPhase = ''
-            mkdir -p $out/share/mcupdater
-            cp $src $out/share/mcupdater/MCUpdater-Bootstrap.jar
+          
+          multiPkgs = pkgs: with pkgs; [
+            # 32-bit libraries that might be needed
+            libGL
+            alsa-lib
+            zlib
+          ];
+          
+          runScript = let
+            mcupdaterJar = pkgs.fetchurl {
+              url = "https://madoka.brage.info/pack/MCUpdater-Bootstrap.jar";
+              sha256 = "@BOOTSTRAP_HASH@"; # Will be substituted during build
+            };
+          in pkgs.writeScript "erisia-mcupdater" ''
+            #!${pkgs.bash}/bin/bash
+            export JAVA_HOME="${pkgs.jdk17}"
+            export _JAVA_AWT_WM_NONREPARENTING=1
+            export _JAVA_OPTIONS="-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true"
+            
+            # Create a writable directory for MCUpdater data
+            export MCUPDATER_HOME="''${XDG_DATA_HOME:-$HOME/.local/share}/mcupdater"
+            mkdir -p "$MCUPDATER_HOME"
+            cd "$MCUPDATER_HOME"
+            
+            exec ${pkgs.jdk17}/bin/java -jar ${mcupdaterJar} "$@"}
           '';
-
-          installPhase = ''
-            mkdir -p $out/bin
-
-            # Create wrapper script
-            makeWrapper ${pkgs.jdk17}/bin/java $out/bin/erisia-mcupdater \
-              --add-flags "-jar $out/share/mcupdater/MCUpdater-Bootstrap.jar" \
-              --prefix LD_LIBRARY_PATH : "${pkgs.lib.makeLibraryPath buildInputs}" \
-              --set JAVA_HOME "${pkgs.jdk17}" \
-              --set _JAVA_AWT_WM_NONREPARENTING 1 \
-              --set _JAVA_OPTIONS "-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true" \
-              --prefix PATH : "${pkgs.lib.makeBinPath [ pkgs.xorg.xrandr ]}"
-          '';
-
+          
           meta = with pkgs.lib; {
-            description = "MCUpdater bootstrap configured for Erisia Minecraft servers";
+            description = "MCUpdater bootstrap configured for Erisia Minecraft servers (FHS environment)";
             homepage = "https://madoka.brage.info/";
             license = licenses.asl20; # MCUpdater is Apache 2.0 licensed
             platforms = platforms.linux;
