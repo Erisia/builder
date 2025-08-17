@@ -1442,7 +1442,7 @@ mods.jei.JEI.addDescription(<contenttweaker:ae2_base_management>,
 [
     "You should follow these practices when setting up an AE2 network!",
     "",
-    "Make sure the entirety of your network (every single cabe and bus) is chunkloaded! FTB chunks sometimes can be unreliable, so chunk and spot loaders are better!",
+    "Make sure the entirety of your network (every single cable and bus) is chunkloaded! FTB chunks sometimes can be unreliable, so chunk and spot loaders are better!",
     "",
     "Do not loop cables! Just don't do it! Colored cables and anchors are your friends!",
     "",
@@ -3880,7 +3880,7 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_stoneofanima>,
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
     "Imagine not trying to connect the dots...",
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
-    "Combine a Chalcedony Ingot with the following Tablets: Sight, Stength, Vitality, Pressure, Satiation, Cleansing, Distortion, Sanctity."
+    "Combine a Chalcedony Ingot with the following Tablets: Sight, Strength, Vitality, Pressure, Satiation, Cleansing, Distortion, Sanctity."
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_ghoulspirit>,
@@ -4034,7 +4034,7 @@ mods.jei.JEI.addDescription([
 [
     "Flux Networks are used to transfer energy wirelessly, and are the preferred energy transfer method in the pack.",
     "",
-    "To create your own Flux Network, you need a Controller. You can specify the name of teh network and a color in the Controller GUI. Each Flux Networks machine will have to be bound to a network to function.",
+    "To create your own Flux Network, you need a Controller. You can specify the name of the network and a color in the Controller GUI. Each Flux Networks machine will have to be bound to a network to function.",
     "",
     "Flux Plugs are used to move energy from a source to a network.",
     "",
@@ -4201,7 +4201,7 @@ mods.jei.JEI.addDescription([
     "",
     "Be proactive with automation! The best way to expand your infrastructure is to set up automations for new materials and recipes as soon as you unlock them! If a material shows up in a side quest, it's a good idea to automate it!",
     "",
-    "Take your time! Completing and automating things from side quests, or for general base convenience, before doing more main line content is almost always the best way to do things! You will run into many hard 'wall' recipes, and the side quests will prepare you for these! This refers to weapond and armor upgrades too, side content often provides good upgrades for your gear!",
+    "Take your time! Completing and automating things from side quests, or for general base convenience, before doing more main line content is almost always the best way to do things! You will run into many hard 'wall' recipes, and the side quests will prepare you for these! This refers to weapon and armor upgrades too, side content often provides good upgrades for your gear!",
     "",
     "Take your time with JEI! Many items have multiple recipes and ways of obtaining, some will be easier than others at different points in progression!",
     "",
@@ -4259,7 +4259,7 @@ mods.jei.JEI.addDescription([
 [
     "Bibliocraft allows to duplicate enchanted books! To use the Typesetting Table and Printing Press, make sure you a wearing a Monocle, otherwise you won't see XP costs!",
     "",
-    "Right click the desired enchanted book in the Typesetting Table near left slot, and a Chase in the far slot. Shift right click the Typesetting Table with an empty hand to create an enchanted plate. This will consume XP based on the enchantment type and level.",
+    "Right click the desired enchanted book in the Typesetting Table near left slot, and a Chase in the far slot. Shift right click the Enchanted Book in the table with an empty hand to create an enchanted plate. This will consume XP based on the enchantment type and level.",
     "",
     "Right click the enchanted plate in the back slot of the Printing Press, together with a bunch of ink sacks. Right click normal vanilla Books on the near left slot, and they will be transformed into enchanted books of the desired type! A single enchanted press can make up to 3 enchanted books, as it has durability, but it can be repaired using various modded tools."
 ]);
@@ -4327,7 +4327,7 @@ mods.jei.JEI.addDescription([
     "",
     "This method is slow, for fast automation passive packaged auto is recommended (it has its own JEI info box), but this method is simpler, and fast enough for some resources.",
     "",
-    "Place an Automation Interface on top of an extended crafting table (including the Ender Crafting Table), and click 'Save Recipe' to set the ercipe to be automated.",
+    "Place an Automation Interface on top of an extended crafting table (including the Ender Crafting Table), and click 'Save Recipe' to set the recipe to be automated.",
     "",
     "The Automation Interface can be set to auto-pull under 'Config'.",
     "",
@@ -4698,6 +4698,26 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_vowtodeath>,
 ]);
 
 
+
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_recfocusfab>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "There is an anagram in the center... Single biome...Dimension IDs",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Use the following biome markers:",
+    "N: Cherry Blossom Grove",
+    "S: Eden",
+    "E: Abyssal Wasteland (from the Abyss)",
+    "W: Immortallis"
+]);
+
+
+
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_rainbowcore>,
 [
     "Come on! At least try to solve the puzzle!",
@@ -4809,17 +4829,6 @@ mods.jei.JEI.addDescription([
 ]);
 
 
-mods.jei.JEI.addDescription([
-    <contenttweaker:multiblock_input_swapping>],
-[
-    "The pack uses quite a few multiblocks that do not consume inputs. The Enchanted Greenhouse and Mechanized Coop are examples of this.",
-    "",
-    "The multiblocks will only process a single recipe, even when multiple inputs are present. Items placed in Input Hatches from Modular Machinery cannot be extracted automatically.",
-    "",
-    "To automatically extract items from Item Inputs, though, Phantomfaces still work.",
-    "",
-    "By exploiting this principle, it is possible to build contraptions that automatically swap the inputs to these types of multiblocks, so that you can process multiple recipes without having to build multiple machines."
-]);
 
 
 mods.jei.JEI.addDescription([

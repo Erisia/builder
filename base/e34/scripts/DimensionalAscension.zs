@@ -479,13 +479,13 @@ stoneofdimensionalascension.itemRightClick = function(stack, world, player, hand
 
     if (getBlockMatchAtPosition("minecraft:dirt", playerPos, [30,0,2], world) == 0) {
         player.sendChat("Zoi was a bit of a strange one, I switched between different esthetics for the dimensions as the pack developed, so it's not as distinct as the others.");
-        player.sendChat("Dynatos time! The block for Nero is located to the south-east of the Dream Grass, one block away [30,0,2]");
+        player.sendChat("Dynatos time! The block for Akathartos is located to the south-east of the Dream Grass, one block away [30,0,2]");
         return "FAIL";
     }
 
     if (getBlockMatchAtPosition("minecraft:pumpkin", playerPos, [30,0,4], world) == 0) {
-        player.sendChat("Akathartos was very fun to make, I really dig the looks of the Crmson Cult, and I thought they deserved their own dimension!");
-        player.sendChat("Dynatos time! The block for Pauram is located to the south of the Dirt, one block away [30,0,4]");
+        player.sendChat("Akathartos was very fun to make, I really dig the esthetics of the Crmson Cult, and I thought they deserved their own dimension!");
+        player.sendChat("Dynatos time! The block for Pauram, facing south, is located to the south of the Dirt, one block away [30,0,4]");
         return "FAIL";
     }
 
