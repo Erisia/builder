@@ -5,28 +5,54 @@ This flake provides a NixOS-friendly way to run MCUpdater for the Erisia Minecra
 ## Quick Start
 
 ```bash
-# Run MCUpdater directly
-nix run github:path/to/this/flake
+# Run MCUpdater directly from Erisia's server
+nix run git+https://madoka.brage.info/mcupdater-nixos
 
-# Or if you have this flake locally
+# Or clone and run locally
+git clone https://madoka.brage.info/mcupdater-nixos
+cd mcupdater-nixos
 nix run .
 ```
 
 ## Installation
 
-To install permanently:
+### Add to your system flake
+
+Add this to your `flake.nix` inputs:
+
+```nix
+{
+  inputs = {
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    erisia-mcupdater = {
+      url = "git+https://madoka.brage.info/mcupdater-nixos";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+  };
+
+  outputs = { self, nixpkgs, erisia-mcupdater }: {
+    # Add to your system packages or home-manager
+    nixosConfigurations.yourhost = nixpkgs.lib.nixosSystem {
+      system = "x86_64-linux";
+      modules = [
+        {
+          environment.systemPackages = [
+            erisia-mcupdater.packages.x86_64-linux.mcupdater
+          ];
+        }
+      ];
+    };
+  };
+}
+```
+
+### Or install to your profile
 
 ```bash
-# Clone this repository
-git clone <this-repo-url>
-cd mcupdater-nixos
-
-# Install to your profile
-nix profile install .
-
-# Then run with
-erisia-mcupdater
+nix profile install git+https://madoka.brage.info/mcupdater-nixos
 ```
+
+Then run with `erisia-mcupdater`.
 
 ## Usage
 
@@ -49,13 +75,13 @@ This flake provides:
 
 ## Updating
 
-When the Erisia server updates their MCUpdater bootstrap, you'll need to update the hash in `flake.nix`:
+The flake is automatically updated when Erisia deploys new server configurations. Simply update your flake inputs:
 
 ```bash
-nix-prefetch-url https://madoka.brage.info/pack/MCUpdater-Bootstrap.jar
+nix flake update
 ```
 
-Then replace the `sha256` value in the flake.
+The bootstrap hash is automatically calculated during the build process, so no manual hash updates are needed.
 
 ## Troubleshooting
 
@@ -65,7 +91,7 @@ If you encounter issues:
 
 2. **Network Issues**: Make sure you can access `https://madoka.brage.info` from your network.
 
-3. **Hash Mismatch**: If you get a hash mismatch error, the server's bootstrap has been updated. Use `nix-prefetch-url` as shown above to get the new hash.
+3. **Hash Mismatch**: If you get a hash mismatch error, run `nix flake update` to get the latest version with the correct hash.
 
 ## Contributing
 
