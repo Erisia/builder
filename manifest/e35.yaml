@@ -113,10 +113,11 @@ nodes:
 #        source: modrinth
 #        side: server
 #        file_id: 'viNyyNfK'
-      - name: astralbot
-        source: modrinth
-        side: server
-        file_id: 'lvSar19s'
+# provided via file in mods
+#      - name: astralbot
+#        source: modrinth
+#        side: server
+#        file_id: 'lvSar19s'
       - name: fabric-language-kotlin
         source: curse
         side: both

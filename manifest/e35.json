@@ -156,19 +156,6 @@
     "sha256": "420e436249a277187f6b7f92dcc2bcc46f1397e8f6003e1ffef57d4e084fde6f"
   },
   {
-    "name": "astralbot",
-    "title": "AstralBot",
-    "side": "server",
-    "required": true,
-    "default": true,
-    "filename": "astralbot-fabric-1.18.2-1.5.5.jar",
-    "encoded": "astralbot-fabric-1.18.2-1.5.5.jar",
-    "src": "https://cdn.modrinth.com/data/NE7Gptcf/versions/lvSar19s/astralbot-fabric-1.18.2-1.5.5.jar",
-    "size": 26544437,
-    "md5": "8b084026d03686e085b6983f4c9feb7b",
-    "sha256": "283a61d7b07baf9f1420268e6d6379ee26a45801e09ed1b639f6cc18e78a5b58"
-  },
-  {
     "name": "auto-config-updated-api",
     "title": "Auto Config Updated API",
     "side": "both",
