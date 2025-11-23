@@ -82,6 +82,9 @@
 
 <iceandfire:lightning_dragon_blood>.addTooltip(format.red("Tinker Modifier: lightning strikes target"));
 
+<contenttweaker:aesir_gemstone>.addTooltip(format.red("Tinker Modifier: chance of dropping Arcanium Blocks and Arcanium Clusters (max level 10)"));
+
+
 <modularmachinery:blockstarlightproviderinput>.addTooltip(format.red("Power using collector crystals and a linking tool"));
 
 <contenttweaker:call_of_enigma>.addTooltip(format.red("Right click for a free cookie"));
@@ -836,7 +839,7 @@
 
 <contenttweaker:hand_framing_tool>.addTooltip(format.red("Many thanks to the Nomifactory team for creating this!"));
 
-<contenttweaker:cosmic_fabric>.addTooltip(format.red("Aedial and Miles wanted more goodies, I agree!"));
+<contenttweaker:cosmic_fabric>.addTooltip(format.red("Aedial and cloecat34 wanted more goodies, I agree!"));
 
 <gendustry:honey_comb:14020>.addTooltip(format.red("Obtained from the Soul-Sucking Callstone"));
 
@@ -981,10 +984,10 @@
 <contenttweaker:defined_ingot>.addTooltip(format.red("IaM_Hybrid, _Syphex, Sl4g, Miyeonn (team)"));
 <contenttweaker:defined_ingot>.addTooltip(format.red("shadow46x2 (solo)"));
 <contenttweaker:defined_ingot>.addTooltip(format.red("Aedial (solo)"));
-<contenttweaker:defined_ingot>.addTooltip(format.red("Milesnyan34 (solo)"));
+<contenttweaker:defined_ingot>.addTooltip(format.red("chloecat34 (solo)"));
 <contenttweaker:defined_ingot>.addTooltip(format.red("NerdySpider & Herr_Dr_Uber (team)"));
 <contenttweaker:defined_ingot>.addTooltip(format.red("P_applexx, Matatabi_TRAX, johrangmal, FELLAL1, Aerlyt (team)"));
-<contenttweaker:defined_ingot>.addTooltip(format.red("Chaika_In_Paanic (solo)"));
+<contenttweaker:defined_ingot>.addTooltip(format.red("Chaika_In_Paanic & rfhb21 (team)"));
 <contenttweaker:defined_ingot>.addTooltip(format.red("Artemis & CyberDrain (team) (automated with thaumcraft golems)"));
 <contenttweaker:defined_ingot>.addTooltip(format.red("CDPlayuur & DalaxyBruh (team)"));
 <contenttweaker:defined_ingot>.addTooltip(format.red("Mathias & MillerGaming321 (in spirit)"));
@@ -1878,6 +1881,7 @@
 <contenttweaker:quark_neutronium_module>.addTooltip(format.red("Multiblock Upgrade, Quark Decomposer and High Impulse Accelerator: 5X speed"));
 <contenttweaker:well_defined_machine_case>.addTooltip(format.red("Multiblock Upgrade, the CUBE: 5X speed"));
 <contenttweaker:ascended_fluix_etcher>.addTooltip(format.red("Multiblock Upgrade, Processor Clean Room: 10X speed"));
+<contenttweaker:universal_fluix_etcher>.addTooltip(format.red("Multiblock Upgrade, Processor Clean Room: 100X speed"));
 <contenttweaker:naquadah_casing>.addTooltip(format.red("Multiblock Upgrade, Relativistic Collapser: 200X speed"));
 <contenttweaker:dyson_extruder>.addTooltip(format.red("Multiblock Upgrade, Particle Accelerator & Mythic Accelerator: 20X speed"));
 <contenttweaker:trinity_neutronium_casing>.addTooltip(format.red("Multiblock Upgrade, Neutronium Cannon & Bombarder: 20X speed"));
@@ -1898,6 +1902,13 @@
 <contenttweaker:miniature_white_hole>.addTooltip(format.red("Multiblock Upgrade, Chaotic Striker: 2X output"));
 <contenttweaker:sanguine_neural_network>.addTooltip(format.red("Multiblock Upgrade, Hostile Computing Unit: 4X output"));
 <contenttweaker:matrix_plasma_fusor>.addTooltip(format.red("Multiblock Upgrade, Inertial Confinement Reactor: 4X parallelization"));
+<contenttweaker:chromodynamic_condenser>.addTooltip(format.red("Multiblock Upgrade, Quantum Condenser: 4X parallelization"));
+<contenttweaker:ordered_eigenstate_condenser>.addTooltip(format.red("Multiblock Upgrade, Quantum Condenser: 16X parallelization"));
+<contenttweaker:event_horizon_condenser>.addTooltip(format.red("Multiblock Upgrade, Quantum Condenser: 64X parallelization"));
+<contenttweaker:nightmare_machine_case>.addTooltip(format.red("Multiblock Upgrade, Arc Reactor: 4X item output"));
+<contenttweaker:defined_machine_case>.addTooltip(format.red("Multiblock Upgrade, Arc Reactor: 16X item output"));
+<contenttweaker:well_defined_machine_case>.addTooltip(format.red("Multiblock Upgrade, Arc Reactor: 64X item output"));
+<contenttweaker:balanced_machine_casing>.addTooltip(format.red("Multiblock Upgrade, Arc Reactor: 256X item output"));
 
 
 <thebetweenlands:lurker_skin_pouch>.addTooltip(format.red("This will let you bring your items into Vethea (yippee)"));
@@ -2188,8 +2199,8 @@
 <contenttweaker:hungering_world_soul>.addTooltip(format.red("A Mark of the Fallen tower for 50000"));
 
 
+<buildcraftsilicon:laser>.addTooltip(format.red("NOTE: the MK2 version is faster, and less laggy"));
 <buildcraftsilicon:laser>.addTooltip(format.red("Face towards the Assembly Table to power it"));
-<buildcraftsilicon:laser>.addTooltip(format.red("Connect to EnderIO conduits, fluxducts often disconnect!"));
 
 <contenttweaker:singular_gravity_honey>.addTooltip(format.red("Allows creative flight in all dimensions up to Sedna"));
 <contenttweaker:singular_gravity_honey>.addTooltip(format.red("Light wanted some inventory space!"));
@@ -2504,9 +2515,6 @@
 
 <aoa3:immortal_banner>.addTooltip(format.red("Obtained from the Token Collector in the Immortallis entrance"));
 
-<contenttweaker:charm_of_the_falling_tower>.addTooltip(format.red("Thanks to ChaosStrikez for the help implementing this!"));
-<contenttweaker:charm_of_the_falling_tower>.addTooltip(format.red("Right click while in the overworld to summon a blood magic meteor"));
-<contenttweaker:charm_of_the_falling_tower>.addTooltip(format.red("This can be automated with a mechanical user, some obsidian, and a bit of setup"));
 
 <contenttweaker:infinite_plate_stamp>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
 <contenttweaker:cuendillar_plate>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
@@ -2536,6 +2544,8 @@
 <contenttweaker:oath_of_the_seven_undead_lords>.addTooltip(format.red("This item will get consumes, so make multiples"));
 
 <avaritia:matter_cluster>.addTooltip(format.red("Obtained from the right click functions of the Avaritia tools"));
+
+<contenttweaker:recursive_meatball>.addTooltip(format.green("Reusable for Scorched Bone Dust"));
 
 
 <aoa3:abyssal_upgrade_kit>.addTooltip(format.red("Found in the shyre structures in all dimensions in chapter 4, 5, 6, and 7"));
@@ -2571,6 +2581,10 @@
 <contenttweaker:fractallium_ingot>.addTooltip(format.red("Thanks to NerdySpider for the Texture!"));
 <contenttweaker:holy_shimmer>.addTooltip(format.red("Thanks to NerdySpider for the Texture!"));
 <contenttweaker:holy_sludge_crystal>.addTooltip(format.red("Thanks to NerdySpider for the Texture!"));
+
+<contenttweaker:pale_metal>.addTooltip(format.red("Craft with certain armor pieces and shields to make them unbreakable"));
+
+<woot:factory>.addTooltip(format.red("Check uses to see suggested drops to farm with Woot"));
 
 
 
@@ -2989,7 +3003,16 @@
 <gendustry:gene_sample>.addTooltip(format.red("Craft with a Genetic Templete to make custom combinations of genes"));
 
 <avaritiaitem:cosmic_balance>.addTooltip(format.red("They who achieved eternal glory:"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("TheWizardHaxer"));
+<avaritiaitem:cosmic_balance>.addTooltip(format.red("TheWizardHaxer (solo)"));
+<avaritiaitem:cosmic_balance>.addTooltip(format.red("adrin58 (solo)"));
+<avaritiaitem:cosmic_balance>.addTooltip(format.red("ElaDiDu (solo)"));
+<avaritiaitem:cosmic_balance>.addTooltip(format.red("Mine_Antoine (automaster) (solo)"));
+<avaritiaitem:cosmic_balance>.addTooltip(format.red("Paronity & Kherune (autocrafting challenge) (team)"));
+<avaritiaitem:cosmic_balance>.addTooltip(format.red("Chaika_In_Paanic, rfhb21, Nezer_Stra (team)"));
+<avaritiaitem:cosmic_balance>.addTooltip(format.red("迪奥-布兰多 & 0160 (team)"));
+<avaritiaitem:cosmic_balance>.addTooltip(format.red("zalee (solo)"));
+<avaritiaitem:cosmic_balance>.addTooltip(format.red("Sømêøne (reasonably EMCless) (solo)"));
+<avaritiaitem:cosmic_balance>.addTooltip(format.red("KawaiiPotatoKing & RandTheGrayMan (team)"));
 
 
 <contenttweaker:spren_summoner_faith>.addTooltip(format.red("Used in Kashan, Ancient Cavern biome"));
@@ -3023,15 +3046,131 @@
 
 <contenttweaker:dna_primer>.addTooltip(format.red("You can use any Bee/Tree/Butterfly species"));
 
+<contenttweaker:core_sample_hand_drill>.addTooltip(format.red("Right click to see the Immersive veins in a given chunk"));
+
+<contenttweaker:seal_of_the_arbiter_defender>.addTooltip(format.red("Thanks to adrin58 for the help with this!"));
+
+
+<bewitchment:stone_leonard_statue>.addTooltip(format.red("Place it on top of thw Witches Altar to boost it"));
+<bewitchment:nether_brick_leonard_statue>.addTooltip(format.red("Place it on top of thw Witches Altar to boost it"));
+<bewitchment:scorned_brick_leonard_statue>.addTooltip(format.red("Place it on top of thw Witches Altar to boost it"));
+<bewitchment:gold_leonard_statue>.addTooltip(format.red("Place it on top of thw Witches Altar to boost it"));
+<bewitchment:stone_lilith_statue>.addTooltip(format.red("Place it on top of thw Witches Altar to boost it"));
+<bewitchment:nether_brick_lilith_statue>.addTooltip(format.red("Place it on top of thw Witches Altar to boost it"));
+<bewitchment:scorned_brick_lilith_statue>.addTooltip(format.red("Place it on top of thw Witches Altar to boost it"));
+<bewitchment:gold_lilith_statue>.addTooltip(format.red("Place it on top of thw Witches Altar to boost it"));
+<bewitchment:stone_baphomet_statue>.addTooltip(format.red("Place it on top of thw Witches Altar to boost it"));
+<bewitchment:nether_brick_baphomet_statue>.addTooltip(format.red("Place it on top of thw Witches Altar to boost it"));
+<bewitchment:scorned_brick_baphomet_statue>.addTooltip(format.red("Place it on top of thw Witches Altar to boost it"));
+<bewitchment:gold_baphomet_statue>.addTooltip(format.red("Place it on top of thw Witches Altar to boost it"));
+<bewitchment:stone_leonard_statue>.addTooltip(format.red("Place it on top of thw Witches Altar to boost it"));
+<bewitchment:stone_herne_statue>.addTooltip(format.red("Place it on top of thw Witches Altar to boost it"));
+<bewitchment:nether_brick_herne_statue>.addTooltip(format.red("Place it on top of thw Witches Altar to boost it"));
+<bewitchment:scorned_brick_herne_statue>.addTooltip(format.red("Place it on top of thw Witches Altar to boost it"));
+<bewitchment:gold_herne_statue>.addTooltip(format.red("Place it on top of thw Witches Altar to boost it"));
+<bewitchment:stone_moloch_statue>.addTooltip(format.red("Place it on top of thw Witches Altar to boost it"));
+<bewitchment:nether_brick_moloch_statue>.addTooltip(format.red("Place it on top of thw Witches Altar to boost it"));
+<bewitchment:scorned_brick_moloch_statue>.addTooltip(format.red("Place it on top of thw Witches Altar to boost it"));
+<bewitchment:gold_moloch_statue>.addTooltip(format.red("Place it on top of thw Witches Altar to boost it"));
+
+<modularmachinery:blood_altar_ziggurat_controller>.addTooltip(format.red("Use me to autobuild the Blood Altar structure for tier 6"));
+
+<contenttweaker:high_capacity_heat_exchanger>.addTooltip(format.red("Use this if you have big (BIG) salt reactors"));
+
+<advancedrocketry:oxygencharger>.addTooltip(format.red("WARNING: items inside the Gas Charge Pad may get deleted if it is broken"));
+
+<contenttweaker:arcane_terraformer_noob>.addTooltip(format.red("Right click this if you are struggling with the Rhenia biome puzzle"));
+
+<botania:manaresource:9>.addTooltip(format.red("NOTE: there are better recipes that make full blocks later on"));
+<botania:manaresource:7>.addTooltip(format.red("NOTE: there are better recipes that make full blocks later on"));
+
+<contenttweaker:starstruck_sentient_meatball>.addTooltip(format.red("Legoman187 had an idea..."));
+
+<contenttweaker:plea_to_nature>.addTooltip(format.red("Right click the Gaia Guardian during the fight"));
+
+<integrateddynamics:menril_sapling>.addTooltip(format.red("Found in Battle Towers"));
+
+<integrateddynamics:menril_log>.addTooltip(format.red("Found in Battle Towers"));
+
+<integrateddynamics:menril_berries>.addTooltip(format.red("Found in Battle Towers"));
+
+<contenttweaker:chunk_of_infinite_wishes>.addTooltip(format.red("The higher the level of the Terra Shatterer, the larger the number of drops"));
+<contenttweaker:chunk_of_infinite_wishes>.addTooltip(format.red("Automate using the sequential fabricator"));
+
+<contenttweaker:bloodhunter_modifier>.addTooltip(format.red("Tinker Modifier: broken blocks have a chance of dropping XP"));
+<contenttweaker:bloodhunter_modifier>.addTooltip(format.red("Combine with Mending Moss for self-repair"));
+<contenttweaker:bloodhunter_modifier>.addTooltip(format.red("I: 50%"));
+<contenttweaker:bloodhunter_modifier>.addTooltip(format.red("II: 75%"));
+<contenttweaker:bloodhunter_modifier>.addTooltip(format.red("III: 87.5%"));
+
+<contenttweaker:a_smithys_tablet>.addTooltip(format.red("Tinker's Construct is a powerful mod, but it has so many materials, and it may get confusing"));
+<contenttweaker:a_smithys_tablet>.addTooltip(format.red("If you are struggling making decisions, take a look at the Tinkerer's Toolbox quests!"));
+
+<contenttweaker:notes_of_a_mines_yearner>.addTooltip(format.red("Are you struggling with mobs and fighting?"));
+<contenttweaker:notes_of_a_mines_yearner>.addTooltip(format.red("Gearing up may take some effort, but it will be worth it!"));
+<contenttweaker:notes_of_a_mines_yearner>.addTooltip(format.red("For suggestions, check out the quests in the Armory and Faber Ferrarius!"));
+
+
+<contenttweaker:bound_lunar_stone>.addTooltip(format.red("Cutting fluid can be auto-repaired ;)"));
+
+<contenttweaker:alchemical_ore>.addTooltip(format.red("Cutting fluid can be auto-repaired ;)"));
+
+<contenttweaker:abyssal_harvester>.addTooltip(format.red("Tinker Modifier: chance of dropping the corresponding Matter"));
+<contenttweaker:dreadful_harvester>.addTooltip(format.red("Tinker Modifier: chance of dropping the corresponding Matter"));
+<contenttweaker:omothol_harvester>.addTooltip(format.red("Tinker Modifier: chance of dropping the corresponding Matter"));
+
+<contenttweaker:alien_material_manual>.addTooltip(format.green("Reusable"));
+<contenttweaker:controller_manual>.addTooltip(format.green("Reusable"));
+<contenttweaker:everbloody_flask>.addTooltip(format.green("Reusable"));
+<contenttweaker:construct_of_natural_balance>.addTooltip(format.green("Reusable in Tree of Life"));
+
+<contenttweaker:alchemical_crag>.addTooltip(format.red("Other inputs are not consumed"));
+<contenttweaker:compressed_alchemical_crag>.addTooltip(format.red("Other inputs are not consumed"));
+<contenttweaker:double_compressed_alchemical_crag>.addTooltip(format.red("Other inputs are not consumed"));
+<contenttweaker:triple_compressed_alchemical_crag>.addTooltip(format.red("Other inputs are not consumed"));
+<contenttweaker:quadruple_compressed_alchemical_crag>.addTooltip(format.red("Other inputs are not consumed"));
+
+
+<contenttweaker:scream_of_pauram>.addTooltip(format.red("Right click the mob from the Anemic Callstone"));
+
+<contenttweaker:investiture_of_the_eleint>.addTooltip(format.red("Right click your pet dragon, with at least one bucket of Eternal Dragon Fire placed nearby"));
+<contenttweaker:investiture_of_the_eleint>.addTooltip(format.red("They are going to love it, don't worry :)"));
+
+<contenttweaker:pale_sky_stone_pebble>.addTooltip(format.red("Does special things if clicked on certain mobs"));
+<contenttweaker:pale_sky_stone_pebble>.addTooltip(format.red("This will be used in multiple puzzles"));
+
+<minecraft:fish>.addTooltip(format.red("Can be Super-Enchanted"));
+
+<contenttweaker:geo_fragment>.addTooltip(format.red("The Antlion Hive Callstone spawns a mob that does not belong"));
+<contenttweaker:geo_fragment>.addTooltip(format.red("Right click that mob type (spawned from any source) with a certain Pebble"));
+
+<contenttweaker:gluttonous_bell>.addTooltip(format.red("The Unfathomable Prison spawns a certain mob"));
+<contenttweaker:gluttonous_bell>.addTooltip(format.red("Right click that mob type (spawned from any source) with a certain Pebble"));
+
+<contenttweaker:medallion_of_undead_repellence>.addTooltip(format.red("Nether Fortresses spawns a certain mob"));
+<contenttweaker:medallion_of_undead_repellence>.addTooltip(format.red("Right click that mob type (spawned from any source) with a certain Pebble"));
+
+<contenttweaker:recursive_mind_shield>.addTooltip(format.red("Have you travelled through certain warpers??"));
+
+<contenttweaker:flesh_of_the_orb>.addTooltip(format.red("Obtained from the Meaty Orb"));
+<contenttweaker:flesh_of_the_orb>.addTooltip(format.red("It required 250 Victus, Aqua, Alienis to start"));
 
 
 
 
+<contenttweaker:double_compressed_aeternalis_fuel>.addTooltip(format.red("These can be uncompacted using a compacting drawer"));
+<contenttweaker:triple_compressed_aeternalis_fuel>.addTooltip(format.red("These can be uncompacted using a compacting drawer"));
+<contenttweaker:quadruple_compressed_aeternalis_fuel>.addTooltip(format.red("These can be uncompacted using a compacting drawer"));
+<contenttweaker:quintuple_compressed_aeternalis_fuel>.addTooltip(format.red("These can be uncompacted using a compacting drawer"));
+<contenttweaker:sextuple_compressed_aeternalis_fuel>.addTooltip(format.red("These can be uncompacted using a compacting drawer"));
+<contenttweaker:septuple_compressed_aeternalis_fuel>.addTooltip(format.red("These can be uncompacted using a compacting drawer"));
 
 
 
 
+<draconicevolution:crafting_injector:*>.addTooltip(format.red("For increased charging speed, Injectors can be powered through Cryo-Stabilized Fluxducts connected to multiple Flux Points"));
 
+<aoa3:flaming_fury>.addTooltip(format.red("KurryCat is not confused by strange number formats"));
 
 
 
