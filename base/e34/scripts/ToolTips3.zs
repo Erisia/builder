@@ -64,3 +64,16 @@ import crafttweaker.item.IItemCondition;
 
 
 <ebwizardry:spell_book:*>.addTooltip(format.red("Easily stored in the Spellcaster's Archives"));
+
+<libvulpes:productgem:0>.addTooltip(format.red("Thanks to Capn for fixing a bunch of Advanced Rockery bugs!"));
+
+<contenttweaker:yggdrasil_wood>.addTooltip(format.red("Adrin58 likes fo fix bugs FAST"));
+
+<contenttweaker:investiture_of_the_direwolf>.addTooltip(format.red("Right click on your pet wolf"));
+<contenttweaker:investiture_of_the_direwolf>.addTooltip(format.red("Don't worry, they'll love it"));
+
+
+
+
+
+

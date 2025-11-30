@@ -57,12 +57,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "AdvancedRocketry-1.12.2-2.1.4-9.jar",
-    "encoded": "AdvancedRocketry-1.12.2-2.1.4-9.jar",
-    "src": "https://edge.forgecdn.net/files/6007/708/AdvancedRocketry-1.12.2-2.1.4-9.jar",
-    "size": 7002069,
-    "md5": "e8a1b0f269f17d8a5f8feef2995a9095",
-    "sha256": "81d370d91f06a43138ab89779dd1031c08ed7cbb3667fc183f332b29baa4a4b2"
+    "filename": "AdvancedRocketry-1.12.2-2.2.1-1.jar",
+    "encoded": "AdvancedRocketry-1.12.2-2.2.1-1.jar",
+    "src": "https://edge.forgecdn.net/files/7247/470/AdvancedRocketry-1.12.2-2.2.1-1.jar",
+    "size": 7294170,
+    "md5": "6559c4c8e0d2426013eb25f8669f1649",
+    "sha256": "28dfbb67653a2f7357d1fff5c55cf11824eec2a76a6a240a6cb33ce2f39b9159"
   },
   {
     "name": "advent-of-ascension-nevermine",
@@ -577,12 +577,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "betterp2p-1.12.2-1.3.2.jar",
-    "encoded": "betterp2p-1.12.2-1.3.2.jar",
-    "src": "https://edge.forgecdn.net/files/4928/154/betterp2p-1.12.2-1.3.2.jar",
-    "size": 247704,
-    "md5": "6e2355c1c5cad08c0a186f75898ebebb",
-    "sha256": "219fa97931f66958f06798855168a41e977fc10ea5dac9917a36f557f4dbb009"
+    "filename": "betterp2p-1.12.2-1.3.3.jar",
+    "encoded": "betterp2p-1.12.2-1.3.3.jar",
+    "src": "https://edge.forgecdn.net/files/7231/397/betterp2p-1.12.2-1.3.3.jar",
+    "size": 251793,
+    "md5": "4e30ec542a9e977fefab183d17f14a54",
+    "sha256": "2a43e45309dc8276683f73811187dfbb906a26570b9422d896b1332de515b5af"
   },
   {
     "name": "bewitchment-legacy",
@@ -2657,9 +2657,9 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "output.jar",
-    "encoded": "output.jar",
-    "src": "https://edge.forgecdn.net/files/7198/155/output.jar",
+    "filename": "ProjectEZ.jar",
+    "encoded": "ProjectEZ.jar",
+    "src": "https://edge.forgecdn.net/files/7262/762/ProjectEZ.jar",
     "size": 389201,
     "md5": "cc02c4ae4e585c121a8af7e580814006",
     "sha256": "26bff66660f5212cdd12f4c046a9d85cb7342f2db6ad1640beccf81352cdada2"
@@ -4035,12 +4035,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "spellarchives-0.4.4.jar",
-    "encoded": "spellarchives-0.4.4.jar",
-    "src": "https://edge.forgecdn.net/files/7231/323/spellarchives-0.4.4.jar",
-    "size": 198373,
-    "md5": "1a2898bbfac996c8dc29beb7265d6165",
-    "sha256": "7bf58b19cfc06d3e48f0528f9d748a5a24b51781892c75513e9d2ba393196610"
+    "filename": "spellarchives-0.5.2.jar",
+    "encoded": "spellarchives-0.5.2.jar",
+    "src": "https://edge.forgecdn.net/files/7259/894/spellarchives-0.5.2.jar",
+    "size": 225704,
+    "md5": "cdbd244d73b98c2100814425b37e7446",
+    "sha256": "4cc8f6fea6cea9942ac97b90292e25182a8849e1f66f0d3bf438bb8a86aae654"
   },
   {
     "name": "spice-of-life-carrot-edition",
@@ -4425,12 +4425,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "TinkersAntique-1.12.2-2.13.0.203.jar",
-    "encoded": "TinkersAntique-1.12.2-2.13.0.203.jar",
-    "src": "https://edge.forgecdn.net/files/7077/817/TinkersAntique-1.12.2-2.13.0.203.jar",
-    "size": 4517464,
-    "md5": "0847438a6603a84f98fce133b2c380e5",
-    "sha256": "36edde3d99811b8ab80bad90aaa867e2d66779597265b0d459b0f4b281bb5937"
+    "filename": "TinkersAntique-1.12.2-2.13.0.204.jar",
+    "encoded": "TinkersAntique-1.12.2-2.13.0.204.jar",
+    "src": "https://edge.forgecdn.net/files/7242/538/TinkersAntique-1.12.2-2.13.0.204.jar",
+    "size": 4554998,
+    "md5": "c1a75953b5bfa0af34818ffdc1487a3d",
+    "sha256": "d7ca6a89ece64e3397dfa7b644dd6cfc9aaf2470b0600d5a1a80cd96dbea55e5"
   },
   {
     "name": "tinkers-tool-leveling",

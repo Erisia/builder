@@ -927,3 +927,11 @@ siliconball.remove(<enderio:item_material:5>);
 val zincingot = <ore:ingotZinc>;
 zincingot.remove(<railcraft:ingot:8>);
 
+
+//==================================================================
+// silver
+val alumiteingot = <ore:ingotAlumite>;
+alumiteingot.remove(<plustic:alumiteingot>);
+
+
+
