@@ -766,7 +766,7 @@ mods.jei.JEI.addDescription([
 	"Abyssal Wasteland uses Abyssal Cobblestone",
 	"Dreadlands uses Dreadstone Cobblestone",
 	"Omothol uses Ethaxium Bricks",
-	"Darkl Realm uses Dark Ethaxium Bricks"
+	"Dark Realm uses Dark Ethaxium Bricks"
 ]);
 
 
@@ -3988,26 +3988,20 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_biomeritual>,
     "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
     "This lists the various biomes, how many blocks you need in square brackets, and the coordinates to change in parentheses.",
     "",
-    "MY: mysterium [2](-2,-2)(2,2)",
-    "NW: nuclear wasteland [2](-1,-2)(1,2)",
-    "SB: storage biome [2](0,-2)(0,2)",
-    "CC: crystal chasms [2](1,-2)(-1,2)",
-    "BV: dangerous black void [2](2,-2)(-2,2)",
-    "TS: twilight steam [4](-2,-1)(2,-1)(-2,1)(2,1)",
-    "AF: alien forest [2] (-1,-1)(1,1)",
-    "ST: stormland [2] (0,-1)(0,1)",
-    "TH: thornlands [2](1,-1)(-1,1)",
-    "TL: tainted lands [2](-2,0)(2,0)",
-    "IR: iromine [2](-1,0)(1,0)",
+    "MY: mysterium [8](6,0)(7,0)(-6,0)(-7,0)(0,6)(0,7)(0,-6)(0,-7)",
+    "NW: nuclear wasteland [12](5,5)(5,4)(4,5)(-5,5)(-5,4)(-4,5)(5,-5)(5,-4)(4,-5)(-5,-5)(-5,-4)(-4,-5)",
+    "SB: storage biome [4](4,4)(-4,4)(4,-4)(-4,-4)",
+    "CC: crystal chasms [8](3,4)(-3,4)(3,-4)(-3,-4)(4,3)(-4,3)(4,-3)(-4,-3)",
+    "BV: dangerous black void [8](2,4)(-2,4)(2,-4)(-2,-4)(4,2)(-4,2)(4,-2)(-4,-2)",
+    "TS: twilight steam [24](4,0)(-4,0)(0,4)(0,-4)(5,0)(-5,0)(0,5)(0,-5)(1,4)(-1,4)(1,-4)(-1,-4)(4,1)(-4,1)(4,-1)(-4,-1)(1,5)(-1,5)(1,-5)(-1,-5)(5,1)(-5,1)(5,-1)(-5,-1)",
+    "AF: alien forest [4](0,3)(0,-3)(3,0)(-3,0)",
+    "ST: stormland [4](0,1)(0,-1)(1,0)(-1,0)",
+    "TH: thornlands [4](0,2)(0,-2)(2,0)(-2,0)",
+    "TL: tainted lands [4](2,2)(-2,2)(2,-2)(-2,-2)",
+    "IR: iromine [32](1,1)(-1,1)(1,-1)(-1,-1)(1,2)(-1,2)(1,-2)(-1,-2)(2,1)(-2,1)(2,-1)(-2,-1)(1,3)(-1,3)(1,-3)(-1,-3)(3,1)(-3,1)(3,-1)(-3,-1)(2,3)(-2,3)(2,-3)(-2,-3)(3,2)(-3,2)(3,-2)(-3,-2)(3,3)(-3,3)(3,-3)(-3,-3)",
     "BO: bog [1](0,0)",
     "",
-    "Use the Terraformassiflora in Europa, in the center of the following pattern of biomes (top = north = -z) (left = west = -x) (bottom = south = +z) (right = east = +x)",
-    "",
-    "MY NW SB CC BV",
-    "TS AF ST TH TS",
-    "TL IR BO IR TL",
-    "TS TH ST AF TS",
-    "BV CC SB NW MY"
+    "Use the Terraformassiflora in Europa, placing biomes in the loactions as listed above. If you look at the shape in the biome ritual callstone, you may see some ways to do multiple regions with one terraformer placement."
 ]);
 
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_freedskystone>,
@@ -4612,7 +4606,7 @@ mods.jei.JEI.addDescription([
 mods.jei.JEI.addDescription([
     <contenttweaker:gaia_4_tips>],
 [
-    "Here are some tips for fighting the tier 3 Gaia Guardian:",
+    "Here are some tips for fighting the tier 4 Gaia Guardian:",
     "",
     "The boss copies all positive buffs you have (resistance, regeneration, etc). DO NOT buff yourself using effects!",
     "",
@@ -4754,6 +4748,27 @@ mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_hollowstag>,
     "Right click a Stag Beetle with a Pale Sky Stone Pebble"
 ]);
 
+mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_sunderingtwilitcurse>,
+[
+    "Come on! At least try to solve the puzzle!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "","",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Seriously! It's more fun to do the puzzles! Extra hint on next page!",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "No partial hints here, I literally could not be any more clear without spoilers :)",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "Imagine not trying to connect the dots...",
+    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",  "",    "",    "",    "",    "",    "",    "",    "",    "",    "", 
+    "These are the mobs you are looking for:", 
+    "Giant Miner, in the Cloud Islands;", 
+    "Troll, in the Giant Obsidian Caves;", 
+    "Helmet Crab, in the Stronghold;", 
+    "Minotaur, in the Mazestone Maze;", 
+    "Redcap Goblin, in the Hollow Hills;", 
+    "Raven, pretty much everywhere;", 
+    "Hedge Spider, in the Hedge Mazes;", 
+    "Death Tome, in the Lich Tower, or in the Overworld."
+]);
+
 mods.jei.JEI.addDescription(<contenttweaker:puzzle_solution_homeseeker>,
 [
     "Come on! At least try to solve the puzzle!",
@@ -4785,9 +4800,9 @@ mods.jei.JEI.addDescription([
     "",
     "1) The crafting setup for a single machine (Interface with patters on a machine, Packager and Unpackager with configured recipe setup, etc.). If you want to automate more than one machine with this method, build multiple of these subnets! For higher processing speed, build multiples of the same crafting setup, with the exact same Pattern or Recipe Package.",
     "",
-    "2) Some sort of storage for just the inputs to your recipes; this can also be a storage bus placed on a configured interface coming from the main AE2 network.",
+    "2) Some sort of storage for just the inputs to your recipes; this can be a configured storage bus placed on an interface coming from the main AE2 network; it can be from EMC links directly; it can be from a drawer wall, although this one can be less performant.",
     "",
-    "3) Storage for the resuts of your recipes; drawers with storage buses are a good idea here.",
+    "3) Storage for the resuts of your recipes; partitioned cells from C.E.L.L.S., configured with a Cell Terminal are the best option here, but you can also use a Drawer wall with a storage bus.",
     "",
     "4) A Level Maintainer configured for the desired recipes and the desired amounts. "
 ]);
@@ -4891,17 +4906,29 @@ mods.jei.JEI.addDescription([
 mods.jei.JEI.addDescription([
     <contenttweaker:infusion_pseudo_automation>],
 [
-    "To help streamline repetitive Thaumcraft Infusion recipes, modular routers can be used as a tool to help with batch crafting.",
+    "Thaumcraft infusion can be automated using the Infusion Claw, alongside Modular Routers.",
+    "",
+    "The Infusion Claw, when placed above a Runic Matrix, enables the automation of thaumcraft infusion recipes using a redstone signal.",
     "",
     "The Sender Module can be bound to the central Arcane Pedestal, while all the surrounding Pedestals can be bound using Distributor Modules.",
     "",
     "Note that, depending on your setup, you want to coordinate the order of items inserted into the Router with the location of the Sender Module within the Router. If the Sender Module is first, the central item should always be done first.",
     "",
-    "Once all the items are positioned within the pedestals, you can just use your gauntlet to start the recipe. Just make sure you have enough essentia and stabilization.",
+    "Once all the items are positioned within the pedestals, you can just send a Redstone signal to the Claw to start the recipe. Just make sure you have enough essentia and stabilization.",
     "",
     "A method like this can be used together with recipes in ME Interfaces. Just make sure you don't send in multiple recipes on the same infusion setup.",
     "",
     "Also, if you took the time to read this, the Temporal Bee works with thaumcraft infusion ;)"
+]);
+
+mods.jei.JEI.addDescription([
+    <gadothaumy:infusion_claw>],
+[
+    "The infusion claw is a block that, when placed above a Runic Matrix, enables the automation of thaumcraft infusion recipes.",
+    "",
+    "If the right essentia and item ingredients are present, a redstone signal sent to the claw will start the infusion as if the Matrix had been clicked by a Gauntlet.",
+    "",
+    "Note that the infusion will still follow instability rules, as well as failure if the right essentia is not present."
 ]);
 
 
@@ -4942,5 +4969,7 @@ mods.jei.JEI.addDescription([
     "",
     "3. Being a crazy person; both limited item filters and retrievers will place the right amounts of each item, but not in the right place; just have systems that do not respect orders, and build a filtering system that throws away the shulker boxes with the wrong inventory :)"
 ]);
+
+
 
 

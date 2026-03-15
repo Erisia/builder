@@ -1,5 +1,6 @@
 import mods.astralsorcery.Utils;
 import crafttweaker.item.IItemStack;
+import mods.thaumcraft.Crucible;
 
 
 recipes.removeShaped(<divinerpg:shuriken>);
@@ -266,36 +267,6 @@ recipes.addShaped(<bewitchment:dragons_blood_trapdoor>*2,
 [<bewitchment:dragons_blood_planks>, <minecraft:trapdoor>, <bewitchment:dragons_blood_planks>],
 [null, <bewitchment:dragons_blood_planks>, null]]);
 
-recipes.addShaped(<malisisdoors:trapdoor_acacia>*2,
-[[null, <minecraft:planks:4>, null],
-[<minecraft:planks:4>, <minecraft:trapdoor>, <minecraft:planks:4>],
-[null, <minecraft:planks:4>, null]]);
-
-recipes.addShaped(<malisisdoors:trapdoor_birch>*2,
-[[null, <minecraft:planks:2>, null],
-[<minecraft:planks:2>, <minecraft:trapdoor>, <minecraft:planks:2>],
-[null, <minecraft:planks:2>, null]]);
-
-recipes.addShaped(<malisisdoors:trapdoor_dark_oak>*2,
-[[null, <minecraft:planks:5>, null],
-[<minecraft:planks:5>, <minecraft:trapdoor>, <minecraft:planks:5>],
-[null, <minecraft:planks:5>, null]]);
-
-recipes.addShaped(<malisisdoors:trapdoor_jungle>*2,
-[[null, <minecraft:planks:3>, null],
-[<minecraft:planks:3>, <minecraft:trapdoor>, <minecraft:planks:3>],
-[null, <minecraft:planks:3>, null]]);
-
-recipes.addShaped(<malisisdoors:trapdoor_spruce>*2,
-[[null, <minecraft:planks:1>, null],
-[<minecraft:planks:1>, <minecraft:trapdoor>, <minecraft:planks:1>],
-[null, <minecraft:planks:1>, null]]);
-
-recipes.addShaped(<malisisdoors:trapdoor_birch>*2,
-[[null, <minecraft:planks:2>, null],
-[<minecraft:planks:2>, <minecraft:trapdoor>, <minecraft:planks:2>],
-[null, <minecraft:planks:2>, null]]);
-
 recipes.addShaped(<thebetweenlands:weedwood_trapdoor>*2,
 [[null, <thebetweenlands:weedwood_planks>, null],
 [<thebetweenlands:weedwood_planks>, <minecraft:trapdoor>, <thebetweenlands:weedwood_planks>],
@@ -510,7 +481,7 @@ mods.nuclearcraft.melter.addRecipe([<tconstruct:ingots:3>, <fluid:knightslime>*1
 
 mods.astralsorcery.StarlightInfusion.addInfusion(<contenttweaker:vibrating_stone>, <aether_legacy:zanite_ore>, true, 0.5, 10);
 
-mods.nuclearcraft.alloy_furnace.addRecipe([<ore:clay>, <ore:gravel>, <enderio:item_alloy_endergy_ingot:0>*2,1.0, 1.0, 0.00001]);
+mods.nuclearcraft.alloy_furnace.addRecipe([<ore:clay>, <ore:gravel>, <enderio:item_alloy_endergy_ingot:0>*2]);
 
 recipes.addShapeless(<natura:overworld_seeds:1>,
 [<natura:materials:3>]);
@@ -2417,6 +2388,10 @@ recipes.addShapeless(<contenttweaker:hiddenpowercallstone_loot>,
 
 mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:hiddenpowercallstone_loot>, <fluid:water>, <fluid:recursive_life_essence>]);
 
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:diamerisma_jackpump>, <fluid:water>, <fluid:pulsating_starlight>]);
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:hiddenpowercallstone_loot>, <fluid:water>, <fluid:pulsating_starlight>]);
+
 mods.nuclearcraft.dissolver.addRecipe([<immersivepetroleum:metal_multiblock:3>, <fluid:water>, <fluid:stormlight>]);
 
 
@@ -2558,20 +2533,31 @@ recipes.addShapeless(<divinerpg:halite_phaser>,
 
 
 recipes.addShapeless(<thaumadditions:mithrillium_ingot>,
-[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <thaumcraft:caster_basic>]);
+[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <gadothaumy:infusion_claw>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
 
 recipes.addShapeless(<contenttweaker:halite_bejewelled_ichorium_catalyst>,
-[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <thaumcraft:caster_basic>]);
+[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <gadothaumy:infusion_claw>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
 
 recipes.addShapeless(<contenttweaker:catalyst_of_the_warrens>,
-[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <thaumcraft:caster_basic>]);
+[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <gadothaumy:infusion_claw>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
 
 recipes.addShapeless(<contenttweaker:trinuum_catalyst>,
-[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <thaumcraft:caster_basic>]);
+[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <gadothaumy:infusion_claw>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
 
 recipes.addShapeless(<contenttweaker:infinitely_wishful_catalyst>,
-[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <thaumcraft:caster_basic>]);
+[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <gadothaumy:infusion_claw>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
 
+recipes.addShapeless(<contenttweaker:ascended_eleint_catalyst>,
+[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <gadothaumy:infusion_claw>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
+
+recipes.addShapeless(<thaumcraft:elemental_pick>,
+[<contenttweaker:infusion_pseudo_automation>, <modularrouters:item_router>, <modularrouters:module:17>, <gadothaumy:infusion_claw>, <gendustry:gene_sample>.withTag({species: "rootBees", chromosome: 12, allele: "careerbees.effect.accelerate"})]);
+
+
+recipes.addShaped(<erebus:materials:66>*64,
+[[<erebus:materials:0>, <erebus:materials:0>, <erebus:materials:0>],
+[<erebus:materials:0>, <erebus:materials:66>, <erebus:materials:0>],
+[<erebus:materials:0>, <contenttweaker:pale_metal_dust>, <erebus:materials:0>]]);
 
 
 recipes.addShaped(<techreborn:part:7>,
@@ -2579,7 +2565,7 @@ recipes.addShaped(<techreborn:part:7>,
 [<ore:ingotTin>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "helium", Amount: 1000}}), <ore:ingotTin>],
 [null, <ore:ingotTin>, null]]);
 
-recipes.addShapeless(<extendedcrafting:material:36>,
+recipes.addShapeless(<extendedcrafting:material:36>*9,
 [<extendedcrafting:storage:5>]);
 
 furnace.addRecipe(<bewitchment:cold_iron_ingot>*4, <contenttweaker:stone_of_constraint>);
@@ -2679,3 +2665,66 @@ recipes.addShaped(<minecraft:sign>*3,
 [[null, <ore:stickWood>, null],
 [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
 [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
+
+
+recipes.addShapeless(<contenttweaker:nethersky_steel_ingot>,
+[<contenttweaker:mythic_processor_centrifuge>]);
+
+
+recipes.addShaped(<contenttweaker:flame_of_actualization>*2,
+[[<contenttweaker:actualization_aspected_eleint_scale>, <contenttweaker:actualization_aspected_eleint_scale>, <contenttweaker:actualization_aspected_eleint_scale>],
+[<contenttweaker:actualization_aspected_eleint_scale>, <contenttweaker:flame_of_actualization>, <contenttweaker:actualization_aspected_eleint_scale>],
+[<contenttweaker:actualization_aspected_eleint_scale>, <contenttweaker:actualization_aspected_eleint_scale>, <contenttweaker:actualization_aspected_eleint_scale>]]);
+
+
+
+
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:mythic_processor_centrifuge>, <fluid:water>, <fluid:decay_inducing_matter>]);
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:mythic_processor_centrifuge>, <fluid:water>, <fluid:energetic_ogerite>]);
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:mythic_processor_centrifuge>, <fluid:water>, <fluid:einstenium_254>]);
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:mythic_processor_centrifuge>, <fluid:water>, <fluid:einstenium_253>]);
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:mythic_processor_centrifuge>, <fluid:water>, <fluid:neon>]);
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:mythic_processor_centrifuge>, <fluid:water>, <fluid:nethengeic_fluid>]);
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:mythic_processor_centrifuge>, <fluid:water>, <fluid:overworldian_fluid>]);
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:mythic_processor_centrifuge>, <fluid:water>, <fluid:dimensional_essence>]);
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:mythic_processor_centrifuge>, <fluid:water>, <fluid:liquid_void>]);
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:mythic_processor_centrifuge>, <fluid:water>, <fluid:lithium6>]);
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:mythic_processor_centrifuge>, <fluid:water>, <fluid:lithium7>]);
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:mythic_processor_centrifuge>, <fluid:water>, <fluid:boron10>]);
+mods.nuclearcraft.dissolver.addRecipe([<contenttweaker:mythic_processor_centrifuge>, <fluid:water>, <fluid:boron11>]);
+
+
+recipes.addShaped(<mowziesmobs:spear>,
+[[null, null, <contenttweaker:living_gold>],
+[null, <ore:stickWood>, null],
+[<ore:stickWood>, null, null]]);
+
+
+recipes.addShaped(<contenttweaker:sympan_spirit>*2,
+[[<botania:manaresource:14>, <botania:manaresource:14>, <botania:manaresource:14>],
+[<botania:manaresource:14>, <contenttweaker:sympan_spirit>, <botania:manaresource:14>],
+[<botania:manaresource:14>, <botania:manaresource:14>, <botania:manaresource:14>]]);
+
+
+mods.thaumcraft.Crucible.registerRecipe("cruciblefromcrucible", "", <thaumcraft:crucible>, <minecraft:cauldron>, [<aspect:metallum>*15, <aspect:ordo>*10, <aspect:aqua>*5, <aspect:ignis>*5]);
+
+
+recipes.addShaped(<contenttweaker:beekeper_archive>,
+[[<ore:bookshelf>, <ore:bookshelf>, <ore:bookshelf>],
+[<ore:bookshelf>, <ore:beeComb>, <ore:bookshelf>],
+[<ore:bookshelf>, <ore:bookshelf>, <ore:bookshelf>]]);
+
+
+recipes.addShapeless(<contenttweaker:respect_of_death>*2,
+[<contenttweaker:oath_of_the_lord_of_gluttony>, <contenttweaker:respect_of_death>]);
+
+
+recipes.addShapeless(<contenttweaker:oath_of_the_lord_of_gluttony>*6,
+[<contenttweaker:harbinger_sentient_flesh>, <contenttweaker:harbinger_sentient_flesh>, <contenttweaker:harbinger_sentient_flesh>, <contenttweaker:oath_of_the_lord_of_gluttony>]);
+
+
+recipes.remove(<chisel:paper:0>);
+recipes.addShaped(<chisel:paper:0>*16,
+[[<ore:paper>, <ore:paper>, <ore:paper>],
+[<ore:paper>, <ore:stickWood>, <ore:paper>],
+[<ore:paper>, <ore:paper>, <ore:paper>]]);

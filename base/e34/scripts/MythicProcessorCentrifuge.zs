@@ -138,3 +138,98 @@ mythproccentsep117.addItemOutput(<divinerpg:bloodgem_ore>*8);
 mythproccentsep117.addItemOutput(<minecraft:dirt>);	
 mythproccentsep117.addItemOutput(<minecraft:dirt>);	
 mythproccentsep117.build();
+
+
+
+
+
+val mythproccentsep118 = RecipeBuilder.newBuilder("mythproccentsep118","mythic_processor_centrifuge",2);	
+mythproccentsep118.addEnergyPerTickInput(70000);	
+mythproccentsep118.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "boron", Amount: 1000}})*3);	
+mythproccentsep118.addItemInput(<techreborn:dynamiccell>);	
+mythproccentsep118.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "boron11", Amount: 1000}})*3);	
+mythproccentsep118.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "boron10", Amount: 1000}}));	
+mythproccentsep118.build();
+
+val mythproccentsep119 = RecipeBuilder.newBuilder("mythproccentsep119","mythic_processor_centrifuge",2);	
+mythproccentsep119.addEnergyPerTickInput(70000);	
+mythproccentsep119.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "lithium", Amount: 1000}})*3);	
+mythproccentsep119.addItemInput(<techreborn:dynamiccell>);	
+mythproccentsep119.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "lithium7", Amount: 1000}})*3);	
+mythproccentsep119.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "lithium6", Amount: 1000}}));	
+mythproccentsep119.build();
+
+val mythproccentsep120 = RecipeBuilder.newBuilder("mythproccentsep120","mythic_processor_centrifuge",2);	
+mythproccentsep120.addEnergyPerTickInput(70000);	
+mythproccentsep120.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidlithium", Amount: 1000}})*3);	
+mythproccentsep120.addItemInput(<techreborn:dynamiccell>);	
+mythproccentsep120.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "lithium7", Amount: 1000}})*3);	
+mythproccentsep120.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "lithium6", Amount: 1000}}));	
+mythproccentsep120.build();
+
+val mythproccentsep121 = RecipeBuilder.newBuilder("mythproccentsep121","mythic_processor_centrifuge",2);	
+mythproccentsep121.addEnergyPerTickInput(70000);	
+mythproccentsep121.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "sednanite", Amount: 1000}})*1);	
+mythproccentsep121.addItemInput(<techreborn:dynamiccell>*27);	
+mythproccentsep121.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "dimensional_essence", Amount: 1000}})*7);	
+mythproccentsep121.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "liquid_void", Amount: 1000}})*7);	
+mythproccentsep121.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "overworldian_fluid", Amount: 1000}})*7);	
+mythproccentsep121.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "nethengeic_fluid", Amount: 1000}})*7);	
+mythproccentsep121.build();
+
+val mythproccentsep122 = RecipeBuilder.newBuilder("mythproccentsep122","mythic_processor_centrifuge",2);	
+mythproccentsep122.addEnergyPerTickInput(70000);	
+mythproccentsep122.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "mildly_recursive_goo", Amount: 1000}})*1);	
+mythproccentsep122.addItemInput(<techreborn:dynamiccell>*39);	
+mythproccentsep122.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "dimensional_essence", Amount: 1000}})*10);	
+mythproccentsep122.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "liquid_void", Amount: 1000}})*10);	
+mythproccentsep122.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "overworldian_fluid", Amount: 1000}})*10);	
+mythproccentsep122.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "nethengeic_fluid", Amount: 1000}})*10);	
+mythproccentsep122.build();
+
+val mythproccentsep123 = RecipeBuilder.newBuilder("mythproccentsep123","mythic_processor_centrifuge",2);	
+mythproccentsep123.addEnergyPerTickInput(70000);	
+mythproccentsep123.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "supercooled_noble_gas_mix", Amount: 1000}})*2);	
+mythproccentsep123.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "krypton_xenon_mix", Amount: 1000}})*1);	
+mythproccentsep123.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "neon", Amount: 1000}})*1);	
+mythproccentsep123.build();
+
+val mythproccentsep124 = RecipeBuilder.newBuilder("mythproccentsep124","mythic_processor_centrifuge",2);	
+mythproccentsep124.addEnergyPerTickInput(70000);	
+mythproccentsep124.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "einstenium", Amount: 1000}})*2);	
+mythproccentsep124.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "einstenium_253", Amount: 1000}})*1);	
+mythproccentsep124.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "einstenium_254", Amount: 1000}})*1);	
+mythproccentsep124.build();
+
+val mythproccentsep125 = RecipeBuilder.newBuilder("mythproccentsep125","mythic_processor_centrifuge",2);	
+mythproccentsep125.addEnergyPerTickInput(70000);	
+mythproccentsep125.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "primal_ogerite", Amount: 1000}})*2);	
+mythproccentsep125.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "decay_inducing_matter", Amount: 1000}})*1);	
+mythproccentsep125.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "energetic_ogerite", Amount: 1000}})*1);	
+mythproccentsep125.build();
+
+val mythproccentsep126 = RecipeBuilder.newBuilder("mythproccentsep126","mythic_processor_centrifuge",2);	
+mythproccentsep126.addEnergyPerTickInput(70000);	
+mythproccentsep126.addItemInput(<gendustry:honey_comb:13337>);	
+mythproccentsep126.addItemOutput(<gendustry:honey_drop:13337>);	
+mythproccentsep126.addItemOutput(<forestry:beeswax>);	
+mythproccentsep126.build();
+
+val mythproccentsep127 = RecipeBuilder.newBuilder("mythproccentsep127","mythic_processor_centrifuge",2);	
+mythproccentsep127.addEnergyPerTickInput(70000);	
+mythproccentsep127.addItemInput(<extrabees:honey_comb:3>);	
+mythproccentsep127.addItemOutput(<extrabees:propolis:1>);	
+mythproccentsep127.addItemOutput(<forestry:honey_drop:0>);	
+mythproccentsep127.build();
+
+
+
+
+
+
+
+
+
+
+
+
