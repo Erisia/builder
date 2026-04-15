@@ -150,6 +150,10 @@ def CreateServerPackXML(packs_json: dict, hostname: str, url_base: str, output_p
 
     def MkServer(server_name, server, hostname):
         revision = hashlib.sha256(json.dumps(server).encode('utf-8')).hexdigest()
+        # Defaults for vanilla (no modloader)
+        imports = []
+        loader = None
+        main_class = None
         if 'fabric' in server:
             fabric = server["fabric"]
             imports = [MkFabricImport(server["minecraft"], fabric["loader"], fabric["yarnBuild"])] if fabric is not None else []
