@@ -512,6 +512,11 @@ def main():
         )
         nix_jre_package = "jre"
         server_specific_args = ['-jar', str(vanilla_jar), 'nogui']
+        # Vanilla won't start without eula=true; create it in the runtime dir if absent
+        eula_file = APP_ROOT_DIR / "eula.txt"
+        if not eula_file.exists():
+            eula_file.write_text("eula=true\n")
+            console.print("[green]Created eula.txt (EULA accepted)[/]")
     else:
         # Check for older Forge
         forge_jars_in_base = list(BASE_DIR.glob(FORGE_JAR_PATTERN))
