@@ -507,10 +507,10 @@ def main():
     elif (BASE_DIR / "vanilla" / "server.jar").is_file():
         vanilla_jar = BASE_DIR / "vanilla" / "server.jar"
         server_type_panel = Panel(
-            f"[bold]Vanilla Server[/]\nJAR: {vanilla_jar}\nJRE: Latest",
+            f"[bold]Vanilla Server[/]\nJAR: {vanilla_jar}\nJRE: Java 25",
             style="green"
         )
-        nix_jre_package = "jre"
+        nix_jre_package = "jdk25"
         server_specific_args = ['-jar', str(vanilla_jar), 'nogui']
         # Vanilla won't start without eula=true; create it in the runtime dir if absent
         eula_file = APP_ROOT_DIR / "eula.txt"
