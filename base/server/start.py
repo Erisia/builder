@@ -187,6 +187,7 @@ def sync_server_files():
                 if not dest_file.exists():
                     console.print(f"Copying [blue]{source_file.name}[/] from {source_file} to {dest_file} (as it's non-existent)...")
                     shutil.copy2(source_file, dest_file, follow_symlinks=True) # follow_symlinks=True for -L effect
+                    dest_file.chmod(0o644) # Nix store files are 444; make writable for the server
 
         # Default copy for other files from BASE_DIR to APP_ROOT_DIR
         # Original: [[ -e "$b" ]] && fixperms "$b" && rm -rf "$b"; cp -aL "$f" .
