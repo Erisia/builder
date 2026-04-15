@@ -19,7 +19,7 @@ rec {
     tmuxName = "vanilla";
     description = "Vanilla Minecraft 1.21.11";
     ram = "4G";
-    port = 25567;
+    port = 25566;
     prometheusPort = 1226;
     minecraft = "1.21.11";
     vanilla = true;
