@@ -34,6 +34,7 @@ rec {
     forge ? null,
     neoforge ? null,
     cleanroom ? null,
+    vanilla ? false,
     client-forge ? null,
     ram ? "4000m",
     manifest,
@@ -90,11 +91,16 @@ rec {
         loader = fabric.loader;
         installer = fabric.installer;
       });
-      forgeDir = wrapDir "forge" (if neoforge != null then fetchNeoForge neoforge 
+      vanillaDir = wrapDir "vanilla" (fetchVanilla {
+        minecraft = minecraft;
+      });
+      forgeDir = wrapDir "forge" (if neoforge != null then fetchNeoForge neoforge
                                   else if cleanroom != null then fetchCleanroom cleanroom
                                   else fetchForge forge
       );
-    in if fabric != null then fabricDir else forgeDir;
+    in if fabric != null then fabricDir
+       else if vanilla then vanillaDir
+       else forgeDir;
 
     serverMods = filterManifest {
       side = "server";
@@ -141,6 +147,47 @@ rec {
     mkdir $out
     cd $out
     wget $url --ca-certificate=${cacert}/etc/ssl/certs/ca-bundle.crt --output-document=fabric-launcher.jar
+  '';
+
+  fetchVanilla = { minecraft }: runLocally "vanilla-${minecraft}" {
+    inherit minecraft;
+    __noChroot = 1;
+    buildInputs = [ wget cacert python3 ];
+  } ''
+    # Download version manifest
+    wget "https://launchermeta.mojang.com/mc/game/version_manifest_v2.json" \
+      --ca-certificate=${cacert}/etc/ssl/certs/ca-bundle.crt \
+      -O manifest.json
+
+    # Find version-specific JSON URL
+    VERSION_URL=$(python3 -c "
+import json, sys
+data = json.load(open('manifest.json'))
+v = next((x for x in data['versions'] if x['id'] == '$minecraft'), None)
+if not v:
+    sys.stderr.write('Version $minecraft not found in manifest\n')
+    sys.exit(1)
+print(v['url'])
+")
+
+    # Download version JSON
+    wget "$VERSION_URL" \
+      --ca-certificate=${cacert}/etc/ssl/certs/ca-bundle.crt \
+      -O version.json
+
+    # Extract server JAR URL
+    SERVER_URL=$(python3 -c "
+import json
+data = json.load(open('version.json'))
+print(data['downloads']['server']['url'])
+")
+
+    mkdir $out
+    wget "$SERVER_URL" \
+      --ca-certificate=${cacert}/etc/ssl/certs/ca-bundle.crt \
+      -O $out/server.jar
+
+    rm manifest.json version.json
   '';
 
   fetchForgeLike = { type, major, minor }: runLocally "forge-${major}-${minor}" {

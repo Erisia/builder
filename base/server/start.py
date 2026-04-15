@@ -181,7 +181,7 @@ def sync_server_files():
         # *.properties, *.json: Copy from BASE_DIR to APP_ROOT_DIR if non-existent in APP_ROOT_DIR
         # Original: [[ -e "$b" ]] || cp -aL "$f" "$b"
         # $BASE/$b -> $CWD/$b
-        for pattern in ["*.properties", "*.json"]:
+        for pattern in ["*.properties", "*.json", "*.txt"]:
             for source_file in BASE_DIR.glob(pattern):
                 dest_file = APP_ROOT_DIR / source_file.name
                 if not dest_file.exists():
@@ -504,6 +504,14 @@ def main():
         )
         nix_jre_package = "jre"
         server_specific_args = ['-jar', str(selected_cleanroom_jar), 'nogui']
+    elif (BASE_DIR / "vanilla" / "server.jar").is_file():
+        vanilla_jar = BASE_DIR / "vanilla" / "server.jar"
+        server_type_panel = Panel(
+            f"[bold]Vanilla Server[/]\nJAR: {vanilla_jar}\nJRE: Latest",
+            style="green"
+        )
+        nix_jre_package = "jre"
+        server_specific_args = ['-jar', str(vanilla_jar), 'nogui']
     else:
         # Check for older Forge
         forge_jars_in_base = list(BASE_DIR.glob(FORGE_JAR_PATTERN))

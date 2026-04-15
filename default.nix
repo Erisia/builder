@@ -11,6 +11,23 @@ rec {
     # e34 = buildPack e34;
     e34_5 = buildPack e34_5;
     e35 = buildPack e35;
+    vanilla = buildPack vanilla;
+  };
+
+  vanilla = {
+    name = "Vanilla";
+    tmuxName = "vanilla";
+    description = "Vanilla Minecraft 26.1.2";
+    ram = "4G";
+    port = 25567;
+    prometheusPort = 1226;
+    minecraft = "26.1.2";
+    vanilla = true;
+    extraServerDirs = [
+      ./base/vanilla-server
+      ./base/server
+    ];
+    manifest = ./manifest/vanilla.json;
   };
 
   e35 = {
