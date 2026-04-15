@@ -17,11 +17,11 @@ rec {
   vanilla = {
     name = "Vanilla";
     tmuxName = "vanilla";
-    description = "Vanilla Minecraft 26.1.2";
+    description = "Vanilla Minecraft 1.21.11";
     ram = "4G";
     port = 25567;
     prometheusPort = 1226;
-    minecraft = "26.1.2";
+    minecraft = "1.21.11";
     vanilla = true;
     extraServerDirs = [
       ./base/vanilla-server
