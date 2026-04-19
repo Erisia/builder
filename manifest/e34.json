@@ -57,12 +57,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "advancedrocketry-2.2.4.jar",
-    "encoded": "advancedrocketry-2.2.4.jar",
-    "src": "https://edge.forgecdn.net/files/7739/110/advancedrocketry-2.2.4.jar",
-    "size": 7358038,
-    "md5": "15c61503b3e7a7fbbfbd64ca325f684b",
-    "sha256": "48c76046dc8e2e538d16736ebb24b4aa1062077a86a47916ad38124106fdd28a"
+    "filename": "advancedrocketry-2.2.5hotfix.jar",
+    "encoded": "advancedrocketry-2.2.5hotfix.jar",
+    "src": "https://edge.forgecdn.net/files/7905/438/advancedrocketry-2.2.5hotfix.jar",
+    "size": 7382682,
+    "md5": "8b23d9426a59df9e473326b38965992a",
+    "sha256": "8522cde0fb55fdc7c4ba3d4ea65c6f56c7a1f11d7b25418c635ea43436045b70"
   },
   {
     "name": "advent-of-ascension-nevermine",
@@ -83,12 +83,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "BetterMagnetCard-v1.1.0.jar",
-    "encoded": "BetterMagnetCard-v1.1.0.jar",
-    "src": "https://edge.forgecdn.net/files/7708/951/BetterMagnetCard-v1.1.0.jar",
-    "size": 58324,
-    "md5": "beb394d9a12be4c8abd33d201cdc1eb5",
-    "sha256": "b86bf636ecccb2cd93d4504767adcef4fcb7575263947db0f4c87dac6267b92c"
+    "filename": "BetterMagnetCard-1.1.2.jar",
+    "encoded": "BetterMagnetCard-1.1.2.jar",
+    "src": "https://edge.forgecdn.net/files/7793/461/BetterMagnetCard-1.1.2.jar",
+    "size": 65717,
+    "md5": "25f0edffc2a80468860a687c1311a1e6",
+    "sha256": "55898426e1cc437cf1004fd0806c1f516106926db3417128c55ebed72bf48da3"
   },
   {
     "name": "ae2-crafting-tree-legacy",
@@ -148,12 +148,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "ae2-powertools-1.5.0-beta4.jar",
-    "encoded": "ae2-powertools-1.5.0-beta4.jar",
-    "src": "https://edge.forgecdn.net/files/7731/728/ae2-powertools-1.5.0-beta4.jar",
-    "size": 399074,
-    "md5": "0515638db5cf3bc8ceecaaf8d82d0be3",
-    "sha256": "cd7afd9ed1506a6cb3214431bdf5d6064d624583b16838ab172fb0e1532545c8"
+    "filename": "ae2powertools-1.5.1.jar",
+    "encoded": "ae2powertools-1.5.1.jar",
+    "src": "https://edge.forgecdn.net/files/7831/472/ae2powertools-1.5.1.jar",
+    "size": 412119,
+    "md5": "824111947cf830980685b946031e26c8",
+    "sha256": "a24e0f048d7b2aa3b099edd7a994a2a36bfe4834c5d56e7a9c4e6dc9e39fa731"
   },
   {
     "name": "ae2-stuff-unofficial",
@@ -336,6 +336,19 @@
     "size": 925535,
     "md5": "7017f0fe04ffd2aef0904478b4fc8b73",
     "sha256": "34a864afeceb60f744b5071ba625de5d294143f7c08740642cb21482b288bd7e"
+  },
+  {
+    "name": "arlib",
+    "title": "ARLib",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "libvulpes-0.5.1.jar",
+    "encoded": "libvulpes-0.5.1.jar",
+    "src": "https://edge.forgecdn.net/files/7873/132/libvulpes-0.5.1.jar",
+    "size": 538356,
+    "md5": "26ce9053dfdc6d174d871521af156cf7",
+    "sha256": "7007280f4244c411a63f4a1f6ad11d9fc90bfaa5cf7d04830411dc46523a498f"
   },
   {
     "name": "armoreablemobs",
@@ -564,12 +577,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "BetterQuestingUnofficial-4.2.7.jar",
-    "encoded": "BetterQuestingUnofficial-4.2.7.jar",
-    "src": "https://edge.forgecdn.net/files/7421/294/BetterQuestingUnofficial-4.2.7.jar",
-    "size": 2029459,
-    "md5": "a0e50a940bf77e6e429aaeced677d133",
-    "sha256": "0dcf4675c6622521af704358a073fbdf67c5ff1c0b5105acb3c65005fd09ae64"
+    "filename": "BetterQuestingUnofficial-4.3.1.jar",
+    "encoded": "BetterQuestingUnofficial-4.3.1.jar",
+    "src": "https://edge.forgecdn.net/files/7859/791/BetterQuestingUnofficial-4.3.1.jar",
+    "size": 2036021,
+    "md5": "10c272b6f7d55eab1cb1d12d5b1b77ac",
+    "sha256": "ddd5626e2acb63a776d23262368da4382452d9644039a721313327e65c857376"
   },
   {
     "name": "betterbedrockgen",
@@ -967,25 +980,25 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "cell-terminal-1.5.1.jar",
-    "encoded": "cell-terminal-1.5.1.jar",
-    "src": "https://edge.forgecdn.net/files/7752/921/cell-terminal-1.5.1.jar",
-    "size": 641085,
-    "md5": "d77f654a8db9606231b2781122d72091",
-    "sha256": "befcfc87e210f66cdaca7eaf2e021a72152f729b1cc52dcb527a02dd23f2d1ba"
+    "filename": "cell-terminal-1.5.3.jar",
+    "encoded": "cell-terminal-1.5.3.jar",
+    "src": "https://edge.forgecdn.net/files/7812/586/cell-terminal-1.5.3.jar",
+    "size": 661796,
+    "md5": "f9172aca09d98aa92d1842f00f6a537e",
+    "sha256": "64abdb7bfd155848bc96bbc5668a2faf6f2d4a4c525f62c8fa548d9a3526fb70"
   },
   {
     "name": "cells",
-    "title": "C.E.L.L.S.",
+    "title": "C.E.L.L.S",
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "cells-0.5.7.jar",
-    "encoded": "cells-0.5.7.jar",
-    "src": "https://edge.forgecdn.net/files/7752/690/cells-0.5.7.jar",
-    "size": 1075287,
-    "md5": "13295131db96094f3697584afc799c90",
-    "sha256": "4024e012b088c9f4e87f1ba64915888a86a07f75c6a703a78ff8622d480f35ef"
+    "filename": "cells-0.5.14-beta2.jar",
+    "encoded": "cells-0.5.14-beta2.jar",
+    "src": "https://edge.forgecdn.net/files/7921/511/cells-0.5.14-beta2.jar",
+    "size": 1200058,
+    "md5": "f363f49b3b77659dff2797cbe060c100",
+    "sha256": "79c186c33cdb24fec8bbfeb7b8983a473778867212b676042f135c15dac14d1c"
   },
   {
     "name": "chameleon",
@@ -1812,12 +1825,12 @@
     "side": "client",
     "required": false,
     "default": true,
-    "filename": "esm-legacy-1.12.2-1.0.5.jar",
-    "encoded": "esm-legacy-1.12.2-1.0.5.jar",
-    "src": "https://edge.forgecdn.net/files/7026/689/esm-legacy-1.12.2-1.0.5.jar",
-    "size": 391726,
-    "md5": "141f3bad48a62f3b27e1ea757c2f9f27",
-    "sha256": "bf528c0d4d9fb5d267451b200ec3b1a2d65866439071d7b3d7f9873a32c1ac3a"
+    "filename": "esm-legacy-1.12.2-1.0.7.jar",
+    "encoded": "esm-legacy-1.12.2-1.0.7.jar",
+    "src": "https://edge.forgecdn.net/files/7894/473/esm-legacy-1.12.2-1.0.7.jar",
+    "size": 399746,
+    "md5": "646411b7270831b2e2fb871c5aaa4889",
+    "sha256": "5ae5cd594ae817520e580af7e6ae902b47e7e28839b0050ac7de3b2e89a53d1a"
   },
   {
     "name": "fermiumbooter",
@@ -2013,6 +2026,19 @@
     "size": 54375,
     "md5": "f23a48edb7d65edd2196da4c10c76b13",
     "sha256": "b37fcec582a97dd65a0b795b135886efcd1d59a39f2cd7cb3b17029ecb5fda45"
+  },
+  {
+    "name": "geckolib",
+    "title": "GeckoLib",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "geckolib-forge-1.12.2-3.0.31.jar",
+    "encoded": "geckolib-forge-1.12.2-3.0.31.jar",
+    "src": "https://edge.forgecdn.net/files/4020/277/geckolib-forge-1.12.2-3.0.31.jar",
+    "size": 3702893,
+    "md5": "67c60191c4736b3857e5129282a206cd",
+    "sha256": "b00bc9de4e3e94cea0455f8d58b295c1464272135e842bdf3170c2c955c871a5"
   },
   {
     "name": "gendustry",
@@ -2561,19 +2587,6 @@
     "sha256": "9118c4d601638e014a3c5b28ad4540c7a0ab6396aa6b7c2435fce1a9f15e225c"
   },
   {
-    "name": "library-for-ar-reworked",
-    "title": "ARLib",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "ARLib-17-09-2024.jar",
-    "encoded": "ARLib-17-09-2024.jar",
-    "src": "https://edge.forgecdn.net/files/5732/205/ARLib-17-09-2024.jar",
-    "size": 537411,
-    "md5": "b045d04278c9dbd645416b74a31d31eb",
-    "sha256": "8e8779f21aab2eb6d4900f1446c8e8fdd0d1817181594836feaf9ff6156aa688"
-  },
-  {
     "name": "llibrary",
     "title": "LLibrary",
     "side": "both",
@@ -2891,12 +2904,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "modularui-3.1.3.jar",
-    "encoded": "modularui-3.1.3.jar",
-    "src": "https://edge.forgecdn.net/files/7622/979/modularui-3.1.3.jar",
-    "size": 2316329,
-    "md5": "0cb9df6774d27c50c2725f430c560a4e",
-    "sha256": "a2f91deccbb34d2752f68508d753f91c010772bdc600f26b1929f2210ca33082"
+    "filename": "modularui-3.1.5.jar",
+    "encoded": "modularui-3.1.5.jar",
+    "src": "https://edge.forgecdn.net/files/7779/814/modularui-3.1.5.jar",
+    "size": 2331094,
+    "md5": "287540b3955deab13b9211ae4b699f67",
+    "sha256": "faed2f57c620b180f7730ea4767a7bfde7a54a94997626577ed53cd264616ce4"
   },
   {
     "name": "more-overlays",
@@ -3614,6 +3627,19 @@
     "sha256": "f1dbd22fb30e14070c34d13bf4894099ce7cc395227f75e84e0f7cfd23f3d788"
   },
   {
+    "name": "quantum-things",
+    "title": "Quantum Things",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "QuantumThings-MC-1.12.2-1.1.0.jar",
+    "encoded": "QuantumThings-MC-1.12.2-1.1.0.jar",
+    "src": "https://edge.forgecdn.net/files/7889/767/QuantumThings-MC-1.12.2-1.1.0.jar",
+    "size": 2706067,
+    "md5": "891a0ed0d96abfb8cddeaf3048038078",
+    "sha256": "0b791a1fa1662cdeeb3a1241c282cd9958372a7a9338ec2718805fbcfc0c9e76"
+  },
+  {
     "name": "railcraft",
     "title": "Railcraft",
     "side": "both",
@@ -3638,19 +3664,6 @@
     "size": 53508,
     "md5": "ec750e61bf94d601afae25d059e60127",
     "sha256": "2e4ccc4c4e6398eda59074d7bcac5bae4c46542a9dc2a257aaa8f9b706554825"
-  },
-  {
-    "name": "random-things",
-    "title": "Random Things",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "RandomThings-MC1.12.2-4.2.7.4.jar",
-    "encoded": "RandomThings-MC1.12.2-4.2.7.4.jar",
-    "src": "https://edge.forgecdn.net/files/2905/241/RandomThings-MC1.12.2-4.2.7.4.jar",
-    "size": 3292861,
-    "md5": "b91502e1810cdf13dfd5fb3b4e15e5ad",
-    "sha256": "acf78a9096a6a7f8fe67e3310d07d03cdbcb9ebd9e2cb15a54a6b4d1263aab3a"
   },
   {
     "name": "randomtweaker",
@@ -3801,12 +3814,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "RoughlyEnoughIDs-2.2.4.jar",
-    "encoded": "RoughlyEnoughIDs-2.2.4.jar",
-    "src": "https://edge.forgecdn.net/files/7571/353/RoughlyEnoughIDs-2.2.4.jar",
-    "size": 787358,
-    "md5": "adc7be08975d4bd798a3449280cfdadd",
-    "sha256": "15d8386faae384470f5fcc4fb2877dd8641687c860acfe6849e08132e2831818"
+    "filename": "RoughlyEnoughIDs-2.3.0.jar",
+    "encoded": "RoughlyEnoughIDs-2.3.0.jar",
+    "src": "https://edge.forgecdn.net/files/7801/299/RoughlyEnoughIDs-2.3.0.jar",
+    "size": 800706,
+    "md5": "0e7678f206b65c909317e9c129490557",
+    "sha256": "00c96666451d7a88e39670e09755e6eae1593abb5f6eaa22f819b660013d25ef"
   },
   {
     "name": "reliquary-reincarnations",
@@ -4061,12 +4074,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "spellarchives-0.5.5.jar",
-    "encoded": "spellarchives-0.5.5.jar",
-    "src": "https://edge.forgecdn.net/files/7543/827/spellarchives-0.5.5.jar",
-    "size": 225967,
-    "md5": "795d49538bc72f59f011e8c58684d697",
-    "sha256": "e031bbe3368dfbbaee1ee98d2ab6caa3963ba748fca4ad759815a3bd2af49581"
+    "filename": "spellarchives-0.5.6.jar",
+    "encoded": "spellarchives-0.5.6.jar",
+    "src": "https://edge.forgecdn.net/files/7769/743/spellarchives-0.5.6.jar",
+    "size": 225926,
+    "md5": "20aad5573eb900ee64b7b4a54e79f743",
+    "sha256": "bdafc6726ff7cb2df4f0c5a1ee66b5f3ce1e00d4157c8c2bc34b75fb65971aba"
   },
   {
     "name": "spice-of-life-carrot-edition",
@@ -4152,12 +4165,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "supermobtracker-1.2.4.jar",
-    "encoded": "supermobtracker-1.2.4.jar",
-    "src": "https://edge.forgecdn.net/files/7539/422/supermobtracker-1.2.4.jar",
-    "size": 282853,
-    "md5": "3863582cbd57a013913a1d884db67ac2",
-    "sha256": "5d39e2c1b9b50633c3b85b42d294a85d2a537422587ab68e73711a5664103c21"
+    "filename": "supermobtracker-1.2.5.jar",
+    "encoded": "supermobtracker-1.2.5.jar",
+    "src": "https://edge.forgecdn.net/files/7887/144/supermobtracker-1.2.5.jar",
+    "size": 290662,
+    "md5": "55e1a9255c73ff826a83de6e83527c0e",
+    "sha256": "e90bf0d29f1ddecdde12c7c4b2c8eda76d4c23fb626e77743e9452bea3d53855"
   },
   {
     "name": "techreborn",
@@ -4646,12 +4659,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "UniversalTweaks-1.12.2-1.18.0.jar",
-    "encoded": "UniversalTweaks-1.12.2-1.18.0.jar",
-    "src": "https://edge.forgecdn.net/files/7403/701/UniversalTweaks-1.12.2-1.18.0.jar",
-    "size": 1808058,
-    "md5": "6134720dbe981564fc9b77e06ce90bb3",
-    "sha256": "ce1282f4a830de7ee4f6226eb54bb983a04f2052c9a6049195fe5da4e77ca05f"
+    "filename": "UniversalTweaks-1.12.2-1.19.1.jar",
+    "encoded": "UniversalTweaks-1.12.2-1.19.1.jar",
+    "src": "https://edge.forgecdn.net/files/7849/634/UniversalTweaks-1.12.2-1.19.1.jar",
+    "size": 1885737,
+    "md5": "3f3883f5125f1edac2e600a6882d7c77",
+    "sha256": "d931fd608878c7173bc2b808889f8887470de3325645ef7b3fe6d643db5fbf9a"
   },
   {
     "name": "unknownlibs",
@@ -4854,11 +4867,11 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "XNet-1.8.17.jar",
-    "encoded": "XNet-1.8.17.jar",
-    "src": "https://edge.forgecdn.net/files/6937/672/XNet-1.8.17.jar",
-    "size": 514419,
-    "md5": "6f2f39225b015e06b684e594fefc75a4",
-    "sha256": "3c610a8f3ddeca3cfd26f102b370d2bc9e187bb86fc298c04c20de720faa3ed7"
+    "filename": "XNet-1.8.18.jar",
+    "encoded": "XNet-1.8.18.jar",
+    "src": "https://edge.forgecdn.net/files/7864/55/XNet-1.8.18.jar",
+    "size": 517913,
+    "md5": "7171160f0dec3765fee3792aaac6bb43",
+    "sha256": "3fd551257e87e1ad8ca724a0d2e7c09aa96ec0e8f3285f47ac0ae8eed3029776"
   }
 ]

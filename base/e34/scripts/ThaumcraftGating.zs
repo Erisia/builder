@@ -1,6 +1,7 @@
 import mods.modularmachinery.RecipeBuilder;
 import mods.thaumcraft.Infusion;
 import mods.thaumcraft.Crucible;
+import mods.thaumcraft.ArcaneWorkbench;
 
 mods.thaumcraft.Crucible.registerRecipe("crucibledupeimpetus", "", <thaumicaugmentation:material:5>*7, <thaumicaugmentation:material:5>, [<aspect:potentia>*10, <aspect:ordo>*20, <aspect:vitium>*5]);
 mods.thaumcraft.Crucible.registerRecipe("crucibledupeimpetus2", "", <thaumicaugmentation:material:5>*15, <contenttweaker:impetus_crystal>, [<aspect:potentia>*10, <aspect:ordo>*20, <aspect:vitium>*5]);
@@ -149,5 +150,10 @@ val makefluxcontrolled = RecipeBuilder.newBuilder("makefluxcontrolled","vibratin
 makefluxcontrolled.addItemInput(<extrautils2:compresseddirt:1>);
 makefluxcontrolled.addFluxOutput(10.0);
 makefluxcontrolled.build();
+
+
+
+
+
 
 

@@ -1828,7 +1828,7 @@
 
 <tinker_io:smart_output>.addTooltip(format.red("Now faster thanks to Lashmak"));
 
-<thaumictinkerer:ichorium_pick_adv>.addTooltip(format.red("Left click bedrock at the bottom of the overworld to enter the bedrock dimension"));
+//<thaumictinkerer:ichorium_pick_adv>.addTooltip(format.red("Left click bedrock at the bottom of the overworld to enter the bedrock dimension"));
 
 <mowziesmobs:naga_fang>.addTooltip(format.red("Dropped by Wyverns in Lyndenwym"));
 <mowziesmobs:naga_fang>.addTooltip(format.red("Rare natural spawns, and found around a certain structure ;)"));
@@ -2183,7 +2183,7 @@
 <contenttweaker:freed_sky_stone>.addTooltip(format.red("Mechanical User friendly :)"));
 
 
-<bewitchment:bottled_hellfire>.addTooltip(format.red("WARNING: if the output of the Distillery has only one free slot, crafting this will cause a crash"));
+//<bewitchment:bottled_hellfire>.addTooltip(format.red("WARNING: if the output of the Distillery has only one free slot, crafting this will cause a crash"));
 
 <contenttweaker:sword_shield>.addTooltip(format.red("To automate the duplication recipe, use the Sequential Fabricator"));
 
@@ -2478,7 +2478,6 @@
 <contenttweaker:quasar_core>.addTooltip(format.red("Stand on top of a sednanite stabilizer"));
 
 
-<tardis:key>.addTooltip(format.red("Obtained from a fully grown TARDIS Coral"));
 
 <contenttweaker:nineteen_blocks>.addTooltip(format.red("The preview only shows 4 blocks, but there are 19"));
 
@@ -2695,7 +2694,7 @@
 
 <contenttweaker:cuendillar_plate>.addTooltip(format.red("NOTE: to automate this, follow the tips in the JEI info box"));
 <contenttweaker:cuendillar_plate>.addTooltip(format.red("Use these Super-Enchants as starters:"));
-<contenttweaker:cuendillar_plate>.addTooltip(format.red("Zenith"));
+<contenttweaker:cuendillar_plate>.addTooltip(format.red("Rosidian Sword"));
 <contenttweaker:cuendillar_plate>.addTooltip(format.red("Explochron Sword"));
 <contenttweaker:cuendillar_plate>.addTooltip(format.red("Brightsteel Armor"));
 

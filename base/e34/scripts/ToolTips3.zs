@@ -80,6 +80,8 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:black_hole_juice>.addTooltip(format.red("They who achieved eternal glory:"));
 <contenttweaker:black_hole_juice>.addTooltip(format.red("Morph & Shinko (team)"));
 <contenttweaker:black_hole_juice>.addTooltip(format.red("Origami10004 & _TheOrangeJuice_ (team)"));
+<contenttweaker:black_hole_juice>.addTooltip(format.red("alltheanova & Randomism (team)"));
+<contenttweaker:black_hole_juice>.addTooltip(format.red("Ariel_Shigure (solo)"));
 
 
 <avaritia:infinity_sword>.addTooltip(format.red("They who achieved eternal glory:"));
@@ -191,9 +193,9 @@ import crafttweaker.item.IItemCondition;
 
 <divinerpg:bedrock_pickaxe:*>.addTooltip(format.red("Adds 10 Foraging XP every time a block is broken"));
 
-<thaumictinkerer:ichorium_pick:*>.addTooltip(format.red("Adds 100 Foraging XP every time a block is broken"));
+//<thaumictinkerer:ichorium_pick:*>.addTooltip(format.red("Adds 100 Foraging XP every time a block is broken"));
 
-<thaumictinkerer:ichorium_pick_adv:*>.addTooltip(format.red("Adds 200 Foraging XP every time a block is broken"));
+//<thaumictinkerer:ichorium_pick_adv:*>.addTooltip(format.red("Adds 200 Foraging XP every time a block is broken"));
 
 <aoa3:rock_pick_sword:*>.addTooltip(format.red("Adds 150 Foraging XP every time a block is broken"));
 
@@ -267,6 +269,9 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:infinite_loving_plate>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
 <contenttweaker:ingot_of_omnibelevolence>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
 <contenttweaker:summons_of_ragnarok>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<thaumictinkerer:kamiresource:3>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<thaumictinkerer:kamiresource:4>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<thaumictinkerer:kamiresource:2>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
 
 <contenttweaker:stone_of_the_divine_love>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
 <contenttweaker:stone_of_natural_might>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
@@ -275,8 +280,6 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:stone_of_boundless_curiosity>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
 
 <contenttweaker:flood_stone>.addTooltip(format.red("Have you been to dynatos?"));
-
-<extrabotany:firstfractal>.addTooltip(format.red("We like hard mode, and we like the Rod of Lyssa"));
 
 <contenttweaker:astral_mastery_tome>.addTooltip(format.red("They who achieved eternal glory:"));
 <contenttweaker:astral_mastery_tome>.addTooltip(format.red("legoman187 (solo)"));
@@ -289,9 +292,61 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:blue_matter>.addTooltip(format.red("The first one is obtained in the Valonite Gateway"));
 
+<bewitchment:oak_spirit>.addTooltip(format.red("NOTE: multiblock recipes with this as an input may not work, you can use the bottle version instead"));
+<bewitchment:spruce_heart>.addTooltip(format.red("NOTE: multiblock recipes with this as an input may not work, you can use the bottle version instead"));
+<bewitchment:birch_soul>.addTooltip(format.red("NOTE: multiblock recipes with this as an input may not work, you can use the bottle version instead"));
+<bewitchment:cloudy_oil>.addTooltip(format.red("NOTE: multiblock recipes with this as an input may not work, you can use the bottle version instead"));
+<bewitchment:acacia_resin>.addTooltip(format.red("NOTE: multiblock recipes with this as an input may not work, you can use the bottle version instead"));
+<bewitchment:ebb_of_death>.addTooltip(format.red("NOTE: multiblock recipes with this as an input may not work, you can use the bottle version instead"));
+<bewitchment:droplet_of_wisdom>.addTooltip(format.red("NOTE: multiblock recipes with this as an input may not work, you can use the bottle version instead"));
+<bewitchment:liquid_witchcraft>.addTooltip(format.red("NOTE: multiblock recipes with this as an input may not work, you can use the bottle version instead"));
+<bewitchment:essence_of_vitality>.addTooltip(format.red("NOTE: multiblock recipes with this as an input may not work, you can use the bottle version instead"));
+<bewitchment:cleansing_balm>.addTooltip(format.red("NOTE: multiblock recipes with this as an input may not work, you can use the bottle version instead"));
+<bewitchment:demonic_elixir>.addTooltip(format.red("NOTE: multiblock recipes with this as an input may not work, you can use the bottle version instead"));
+<bewitchment:fiery_unguent>.addTooltip(format.red("NOTE: multiblock recipes with this as an input may not work, you can use the bottle version instead"));
+<bewitchment:swirl_of_depths>.addTooltip(format.red("NOTE: multiblock recipes with this as an input may not work, you can use the bottle version instead"));
+<bewitchment:oil_of_vitriol>.addTooltip(format.red("NOTE: multiblock recipes with this as an input may not work, you can use the bottle version instead"));
+<bewitchment:otherworldly_tears>.addTooltip(format.red("NOTE: multiblock recipes with this as an input may not work, you can use the bottle version instead"));
+<bewitchment:heaven_extract>.addTooltip(format.red("NOTE: multiblock recipes with this as an input may not work, you can use the bottle version instead"));
+<bewitchment:stone_ichor>.addTooltip(format.red("NOTE: multiblock recipes with this as an input may not work, you can use the bottle version instead"));
 
 
+<contenttweaker:kitty_paw>.addTooltip(format.red("Time Lord Relic"));
+<contenttweaker:white_bangs>.addTooltip(format.red("Time Lord Relic"));
+<contenttweaker:green_eyebrows>.addTooltip(format.red("Time Lord Relic"));
+<contenttweaker:grayscale>.addTooltip(format.red("Time Lord Relic"));
+<contenttweaker:voxel_camel>.addTooltip(format.red("Time Lord Relic"));
+<contenttweaker:cute_rabbit_ears>.addTooltip(format.red("Time Lord Relic"));
 
+<ore:itemSonicScrewdriver>.addTooltip(format.green("Reusable"));
+
+<tardis:gallifreyan_stone>.addTooltip(format.red("Masters of spellcraft may know how to get this early"));
+
+<contenttweaker:infinite_plate_stamp>.addTooltip(format.green("Reusable"));
+
+<contenttweaker:radiation_absorbing_plate_stamp>.addTooltip(format.green("Reusable"));
+
+<ore:itemSonicScrewdriver>.addTooltip(format.red("Obtained from the Time Lords Callstone"));
+<tardis:temporal_grace_circuits>.addTooltip(format.red("Obtained from the Time Lords Callstone"));
+
+<contenttweaker:utopic_spires_special_drop>.addTooltip(format.red("Depending on the miniature stral body in the center of the orb in the Utopic Spires, special drops will be produced"));
+
+<contenttweaker:spam_free_americium_241>.addTooltip(format.red("Thanks to Soren for compiling the chain"));
+
+<contenttweaker:one_power_aspected_emerald>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
+<contenttweaker:bloodstone_of_the_great_snake>.addTooltip(format.red("Thanks to GalacticSilver for the texture!"));
+
+<contenttweaker:scattering_alloy_ingot>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:threefold_stellar_ingot>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:fiery_eleint_ingot>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:ingot_of_shadesmar>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:voxel_camel>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:kitty_paw>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:green_eyebrows>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:cute_rabbit_ears>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:grayscale>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:white_bangs>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:blue_planet>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
 
 
 

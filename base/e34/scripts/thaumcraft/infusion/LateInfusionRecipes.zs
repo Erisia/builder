@@ -18,6 +18,41 @@ This is to keep the recipe available in the research page.
 var tcAdditions = "thaumadditions";
 var tcTinkerer = "thaumictinkerer";
 var tcGado = "gadothaumy";
+
+
+# Fix crystal crusher in JEI
+registerInfusionRecipeFromAddon(`${tcAdditions}:crystal_crusher`, "TAR_CRYSTAL_CRUSHER", 
+  <thaumadditions:crystal_crusher>, 3,
+  [
+    <aspect:fabrico> * 20, <aspect:exitium> * 20, <aspect:instrumentum> * 20
+  ],
+  <thaumcraft:mechanism_complex>,
+  [
+    makeCrystal(<aspect:aer>), makeCrystal(<aspect:terra>), makeCrystal(<aspect:ignis>),
+    makeCrystal(<aspect:aqua>), makeCrystal(<aspect:ordo>), makeCrystal(<aspect:perditio>),
+    <thaumcraft:plate:2>, <thaumcraft:plate:2>, <thaumcraft:plate:2>,
+    <thaumcraft:slab_arcane_stone>, <thaumcraft:slab_arcane_stone>, <thaumcraft:slab_arcane_stone>,
+    <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "praemunio"}]}), <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "praemunio"}]})
+  ]
+);
+
+# Unify brass plates
+registerInfusionRecipeFromAddon(`${tcAdditions}:crystal_bore`, "TAR_CRYSTAL_BORE",
+  <thaumadditions:crystal_bore>, 5,
+  [
+    <aspect:exitium> * 20, <aspect:terra> * 10, <aspect:perditio> * 30
+  ],
+  <thaumcraft:morphic_resonator>,
+  [
+    <thaumcraft:stone_arcane>, <techreborn:plates:18>, <thaumcraft:stone_arcane>,
+    <techreborn:plates:18>, <thaumcraft:stone_arcane>, <thaumcraft:mechanism_complex>
+  ]
+);
+
+
+
+
+
 # infusion claw
 registerInfusionRecipeFromAddon(`${tcGado}:infusion_claw`, "INFUSION_CLAW",
   <gadothaumy:infusion_claw>, 32, 
@@ -89,35 +124,6 @@ registerInfusionRecipeFromAddon(`${tcTinkerer}:kami_boots`, "TT_KAMIBOOTS",
     <thaumictinkerer:kamiresource:2>, <minecraft:chorus_fruit_popped>, <minecraft:golden_boots>,
     <minecraft:grass>, <minecraft:wheat_seeds>, <thaumcraft:lamp_growth>,
     <thaumcraft:turret:2>, <minecraft:wool:0>, <minecraft:lead>
-  ]
-);
-
-# Fix crystal crusher in JEI
-registerInfusionRecipeFromAddon(`${tcAdditions}:crystal_crusher`, "TAR_CRYSTAL_CRUSHER", 
-  <thaumadditions:crystal_crusher>, 3,
-  [
-    <aspect:fabrico> * 20, <aspect:exitium> * 20, <aspect:instrumentum> * 20
-  ],
-  <thaumcraft:mechanism_complex>,
-  [
-    makeCrystal(<aspect:aer>), makeCrystal(<aspect:terra>), makeCrystal(<aspect:ignis>),
-    makeCrystal(<aspect:aqua>), makeCrystal(<aspect:ordo>), makeCrystal(<aspect:perditio>),
-    <thaumcraft:plate:2>, <thaumcraft:plate:2>, <thaumcraft:plate:2>,
-    <thaumcraft:slab_arcane_stone>, <thaumcraft:slab_arcane_stone>, <thaumcraft:slab_arcane_stone>,
-    <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "praemunio"}]}), <thaumadditions:salt_essence>.withTag({Aspects: [{amount: 1, key: "praemunio"}]})
-  ]
-);
-
-# Unify brass plates
-registerInfusionRecipeFromAddon(`${tcAdditions}:crystal_bore`, "TAR_CRYSTAL_BORE",
-  <thaumadditions:crystal_bore>, 5,
-  [
-    <aspect:exitium> * 20, <aspect:terra> * 10, <aspect:perditio> * 30
-  ],
-  <thaumcraft:morphic_resonator>,
-  [
-    <thaumcraft:stone_arcane>, <techreborn:plates:18>, <thaumcraft:stone_arcane>,
-    <techreborn:plates:18>, <thaumcraft:stone_arcane>, <thaumcraft:mechanism_complex>
   ]
 );
 

@@ -28,6 +28,24 @@
 <contenttweaker:tabula_rasa>.addTooltip(format.green("Thanks and meme tooltips go here"));
 
 
+<tardis:tardis_coral>.addTooltip(format.gold("Use:"));
+<tardis:tardis_coral>.addTooltip(format.yellow("  Place on grass, and wait a couple of days to let it grow (time in a bottle works)"));
+<tardis:tardis_coral>.addTooltip(format.darkRed("WARNINGS:"));
+<tardis:tardis_coral>.addTooltip(format.red("  Placing this will cause FPS lag, put far away from your base"));
+<tardis:tardis_coral>.addTooltip(format.white("------------------"));
+<tardis:tardis_coral>.addTooltip(format.green("Those who achieved Eternal Glory:"));
+<tardis:tardis_coral>.addTooltip(format.green("< ᛊᚢᛉᛗᛞ > (solo)"));
+
+
+<tardis:key>.addTooltip(format.darkAqua("Obtained:"));
+<tardis:key>.addTooltip(format.aqua("  Obtained from a fully grown TARDIS Coral"));
+<tardis:key>.addTooltip(format.white("------------------"));
+<tardis:key>.addTooltip(format.green("To those determined enough, or perhaps insane enough, to reach this point, congratulations, you made it! You deserve this moment. That said, however, so long and thanks for all the... balanced casings?"));
+<tardis:key>.addTooltip(format.green(" - < ᛊᚢᛉᛗᛞ >"));
+
+
+
+
 <contenttweaker:whisper_of_freedom_troll>.addTooltip(format.darkAqua("Puzzle:"));
 <contenttweaker:whisper_of_freedom_troll>.addTooltip(format.aqua("  Where the obsidian is giant, ...face"));
 
@@ -498,6 +516,15 @@
 <avaritia:block_resource:0>.addTooltip(format.gold("Multiblock Upgrade:"));
 <avaritia:block_resource:0>.addTooltip(format.aqua("  Mythic Excavation Reactor"));
 <avaritia:block_resource:0>.addTooltip(format.white("     Machine Speed x5"));
+
+<deepmoblearningbm:block_blood_infused_glitch_ingot>.addTooltip(format.gold("Multiblock Upgrade:"));
+<deepmoblearningbm:block_blood_infused_glitch_ingot>.addTooltip(format.aqua("  Mythic Excavation Reactor"));
+<deepmoblearningbm:block_blood_infused_glitch_ingot>.addTooltip(format.white("     Machine Speed x100"));
+
+<contenttweaker:screaming_blood_infused_glitch_block>.addTooltip(format.gold("Multiblock Upgrade:"));
+<contenttweaker:screaming_blood_infused_glitch_block>.addTooltip(format.aqua("  Mythic Excavation Reactor"));
+<contenttweaker:screaming_blood_infused_glitch_block>.addTooltip(format.white("     Machine Speed x100"));
+<contenttweaker:screaming_blood_infused_glitch_block>.addTooltip(format.white("     6x Parallelization"));
 
 <avaritia:block_resource:1>.addTooltip(format.gold("Multiblock Upgrade:"));
 <avaritia:block_resource:1>.addTooltip(format.aqua("  Steel Thermal Mixer"));
@@ -1079,6 +1106,11 @@
 <aoa3:holy_sword>.addTooltip(format.aqua("  Max out all Gods tribute on the same day"));
 
 
+<contenttweaker:void_ichorium_rift_cap>.addTooltip(format.gold("Multiblock Upgrade:"));
+<contenttweaker:void_ichorium_rift_cap>.addTooltip(format.aqua("  Arcane Autoworkbench"));
+<contenttweaker:void_ichorium_rift_cap>.addTooltip(format.white("     Machine Speed x60"));
+<contenttweaker:void_ichorium_rift_cap>.addTooltip(format.aqua("  Arcane Autoinfuser"));
+<contenttweaker:void_ichorium_rift_cap>.addTooltip(format.white("     Machine Speed x20"));
 
 
 

@@ -744,3 +744,15 @@ inf69.addItemInput(<contenttweaker:master_spell_focus>);
 inf69.addItemInput(<thaumadditions:mithminite_fabric>);
 inf69.addItemOutput(<contenttweaker:master_spell_vinculum>);
 inf69.build();
+
+
+
+
+val inf71 = RecipeBuilder.newBuilder("inf71","arcane_autoinfuser",120);
+inf71.addEnergyPerTickInput(100);
+inf71.addItemInput(<contenttweaker:exanimis_vis_condensate>);
+inf71.addItemInput(<twilightforest:naga_scale>);
+inf71.addItemInput(<contenttweaker:master_spell_focus>);
+inf71.addItemInput(<thaumadditions:mithminite_fabric>);
+inf71.addItemOutput(<contenttweaker:master_spell_exanimis>);
+inf71.build();

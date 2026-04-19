@@ -4744,8 +4744,8 @@ dreadcleansingcallstone.itemRightClick = function(stack, world, player, hand) {
         return "FAIL";
     }
 
-    if(player.getDimension() != 19) {
-        player.sendChat("You gotta be in the Bedrock Dimension");
+    if(player.getDimension() != 14676) {
+        player.sendChat("You gotta be in the Emptiness");
         return "FAIL";
     }
 

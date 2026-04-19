@@ -6,7 +6,7 @@ nodes:
   # Define constant values:
   # URL where client modpack for the Curse launcher can be downloaded
   - id: modpack-uri
-    value: 'https://mediafilez.forgecdn.net/files/7777/773/Meatballcraft-prerelease-0.18.4-hotfix5.zip'
+    value: 'https://mediafilez.forgecdn.net/files/7923/326/Meatballcraft-prerelease-0.18.5-hotfix2.zip'
   # Path inside the downloaded modpack zip where the manifest is located
   - id: manifest-location
     value: 'manifest.json'

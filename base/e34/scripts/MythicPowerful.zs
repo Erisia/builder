@@ -694,11 +694,11 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 	.add("minecraft:smite",20);
 	
 	//	Recipe
-	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<extrabotany:firstfractal>.withTag({display: {Name:"§6§oPlaguesword§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistPlagueswordWrapped).getItem(), 
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<aoa3:rosidian_sword>.withTag({display: {Name:"§6§oPlaguesword§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistPlagueswordWrapped).getItem(), 
 		[[<contenttweaker:eden_star>, <contenttweaker:infused_dread_shard>, null, null, null, <contenttweaker:infused_dread_shard>, <contenttweaker:eden_star>], 
 		[<contenttweaker:infused_dread_shard>, <iceandfire:dread_shard>, <iceandfire:dread_shard>, null, <iceandfire:dread_shard>, <iceandfire:dread_shard>, <contenttweaker:infused_dread_shard>], 
 		[null, <iceandfire:dread_shard>, <contenttweaker:fiery_rhenium_ingot>, <aoa3:runium_chunk>, <contenttweaker:fiery_rhenium_ingot>, <iceandfire:dread_shard>, null], 
-		[null, null, <aoa3:runium_chunk>, <extrabotany:firstfractal>, <aoa3:runium_chunk>, null, null], 
+		[null, null, <aoa3:runium_chunk>, <aoa3:rosidian_sword>, <aoa3:runium_chunk>, null, null], 
 		[null, <iceandfire:dread_shard>, <contenttweaker:fiery_rhenium_ingot>, <aoa3:runium_chunk>, <contenttweaker:fiery_rhenium_ingot>, <iceandfire:dread_shard>, null], 
 		[<contenttweaker:infused_dread_shard>, <iceandfire:dread_shard>, <iceandfire:dread_shard>, null, <iceandfire:dread_shard>, <iceandfire:dread_shard>, <contenttweaker:infused_dread_shard>], 
 		[<contenttweaker:eden_star>, <contenttweaker:infused_dread_shard>, null, null, null, <contenttweaker:infused_dread_shard>, <contenttweaker:eden_star>]]);  
@@ -1834,7 +1834,7 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 		[<contenttweaker:exitium_vis_condensate>, <contenttweaker:ignis_vis_condensate>, <contenttweaker:self_actualizing_warren_rift>, <contenttweaker:ignis_vis_condensate>, <contenttweaker:exitium_vis_condensate>],
 		[<aoa3:occult_pickaxe>, <contenttweaker:self_actualizing_warren_rift>, <avaritia:infinity_pickaxe>, <contenttweaker:self_actualizing_warren_rift>, <aoa3:energistic_pickaxe>],
 		[<contenttweaker:exitium_vis_condensate>, <contenttweaker:ignis_vis_condensate>, <contenttweaker:self_actualizing_warren_rift>, <contenttweaker:ignis_vis_condensate>, <contenttweaker:exitium_vis_condensate>],
-		[<contenttweaker:ascended_starlight_sphere>, <contenttweaker:lux_vis_condensate>, <thaumictinkerer:ichorium_pick_adv>, <contenttweaker:lux_vis_condensate>, <contenttweaker:ascended_starlight_sphere>]]); 
+		[<contenttweaker:ascended_starlight_sphere>, <contenttweaker:lux_vis_condensate>, <thaumadditions:void_elemental_pickaxe>, <contenttweaker:lux_vis_condensate>, <contenttweaker:ascended_starlight_sphere>]]); 
 
 }
 
@@ -2067,3 +2067,20 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 }
 
 
+
+//	Chance
+{
+
+	val enchlistChance as EnchantMap = EnchantMap()
+	.add("mod_lavacow:corrosive",5);
+	
+	//	Recipe
+	mods.extendedcrafting.TableCrafting.addShaped(SuperEnchantedItem(<extrabotany:excaliber>.withTag({display: {Name:"§6§oChance§r",Lore:["§d§oSuper-Enchanted§r"]}}), enchlistChance).getItem(), 
+		[[<contenttweaker:spinel_ring>, null, <contenttweaker:spinel_ring>, null, <contenttweaker:spinel_ring>, null, <contenttweaker:spinel_ring>], 
+		[null, <contenttweaker:demon_stone>, null, <contenttweaker:innerved_sky_stone>, null, <contenttweaker:demon_stone>, null], 
+		[<contenttweaker:spinel_ring>, null, <contenttweaker:prosperous_rock>, <contenttweaker:prosperous_rock>, <contenttweaker:prosperous_rock>, null, <contenttweaker:spinel_ring>], 
+		[null, <contenttweaker:innerved_sky_stone>, <contenttweaker:prosperous_rock>, <extrabotany:excaliber>, <contenttweaker:prosperous_rock>, <contenttweaker:innerved_sky_stone>, null], 
+		[<contenttweaker:spinel_ring>, null, <contenttweaker:prosperous_rock>, <contenttweaker:prosperous_rock>, <contenttweaker:prosperous_rock>, null, <contenttweaker:spinel_ring>], 
+		[null, <contenttweaker:demon_stone>, null, <contenttweaker:innerved_sky_stone>, null, <contenttweaker:demon_stone>, null], 
+		[<contenttweaker:spinel_ring>, null, <contenttweaker:spinel_ring>, null, <contenttweaker:spinel_ring>, null, <contenttweaker:spinel_ring>]]);
+}
