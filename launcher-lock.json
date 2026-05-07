@@ -1,0 +1,23 @@
+{
+  "vanilla": {
+    "1.21.11": {
+      "url": "https://piston-data.mojang.com/v1/objects/64bb6d763bed0a9f1d632ec347938594144943ed/server.jar",
+      "sha256": "sha256-+DuOCThlgG+THH40quQbF31MB2M1Jj3RJMddbWXdFyY="
+    }
+  },
+  "fabric": {
+    "1.18.2-0.16.9-1.1.0": {
+      "url": "https://meta.fabricmc.net/v2/versions/loader/1.18.2/0.16.9/1.1.0/server/jar",
+      "sha256": "sha256-3zfPFrCoRk1tc+1M9oRwekjhVeXmtZkAGaecENb4wUM="
+    }
+  },
+  "forge": {},
+  "neoforge": {
+    "21.1.122-21.1.122": {
+      "installerUrl": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.122/neoforge-21.1.122-installer.jar",
+      "installerSha256": "sha256-/IIRj8AW8jJGpAf0DG01Cq7uHUUuMoL7cH8wqxHkNTA=",
+      "outputHash": "sha256-9wIXZW5/07BXbUMOWfUOqAXUrNMHICM8h9ACYugcB20="
+    }
+  },
+  "cleanroom": {}
+}

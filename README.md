@@ -1,11 +1,9 @@
-# Erisia server-builder <a href="https://travis-ci.org/Erisia/builder"><img align="right" src="https://travis-ci.org/Erisia/builder.svg?branch=master"></a>
+# Erisia server-builder
 Build scripts for the server
 
 ## Dependencies
 
-The only real dependency is Nix. You *can* acquire this by installing NixOS, but you probably won't want to. <a href="https://nixos.org/nix/">Nix</a> can be installed on any Linux system, following the instructions on that page.
-
-It also works in Windows WSL, but you'll need to first follow <a href="https://github.com/NixOS/nix/issues/1203#issuecomment-275089112">these instructions</a> to work around a current bug in WSL.
+The only real dependency is Nix with flakes enabled.
 
 ## Quick start
 
@@ -17,16 +15,43 @@ $ jj git clone https://github.com/Erisia/builder.git builder
 $ builder/update-and-start.sh
 ```
 
+Common build targets:
+```
+$ nix build .#e34_5-server
+$ nix build .#e35-server
+$ nix build .#vanilla-server
+$ nix build .#serverPackLocal
+```
+
+Legacy `nix-build -f .` entry points are still supported for the main builder attributes,
+including nested targets such as `packs.e35.server`.
+
 ### Website
 
 To build and serve the website locally:
 ```
 # Hugo version (default)
-$ nix build -f . web && cd result && python -m http.server
+$ nix build .#web && cd result && python -m http.server
 
 # Hugo development server (with live reload)
 $ cd web && ./serve.sh
 ```
+
+## Launcher lock
+
+Minecraft, Fabric, and Forge-like launchers are pinned in `launcher-lock.json`.
+Direct launcher jars use fixed `fetchurl` hashes. Forge-like installers are fixed-output
+derivations with recursive output hashes, because the installer downloads its own
+Maven/Mojang dependency graph during installation.
+
+To refresh a Forge-like launcher, set its `outputHash` in `launcher-lock.json` to a
+fake hash such as `sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=`, then build
+the launcher:
+```
+$ nix build .#e34_5-launcherDir
+```
+Nix will report the real recursive hash in the fixed-output mismatch error; copy that
+value back into `launcher-lock.json`.
 
 ## Updating manifests
 
@@ -46,7 +71,7 @@ Requires nix package manager and a unix environment (You can also use nixos!) of
 
 1. Clone this repository
 1. Create a directory to house the server
-1. Navigate into it and run `../path/to/repository/update_and_start.sh` Choose the server you intend to build
+1. Navigate into it and run `../path/to/repository/update-and-start.sh`. Choose the server you intend to build.
 1. Assuming all this succeeds, you can use any text editor to edit the files under manifest and base in the builder folder.  These files are the ones that influence what mods the server is running as well as the configs that get deployed to the client.
 
    Changing the manifest will not automatically change the running mods. See `Updating Manifests` for how to do that, and how to update mods to newer versions.
@@ -56,7 +81,7 @@ Once you've updated with cursetool and tried your changes with `update_and_start
 ## Useful tips
 
 * Dynmap quickly creates gigabytes of rendered map tiles. You might want to disable it while debugging.
-* You aren't limited to running only the server. To test a new client configuration, look at the `ServerPackLocal` stance at the bottom of default.nix.
+* You aren't limited to running only the server. To test a new client configuration, build `.#serverPackLocal`.
 
 # License
 

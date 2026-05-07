@@ -23,7 +23,13 @@ if [[ ! -f server.nix-target ]]; then
 fi
 
 # Start the server.
-nix-build $GITDIR -A "packs.$(cat server.nix-target).server" -o server --show-trace
-nix-build $GITDIR -A ServerPack -o pack --show-trace
+SERVER="$(cat server.nix-target)"
+if nix flake metadata "$GITDIR" >/dev/null 2>&1; then
+    nix build "$GITDIR#$SERVER-server" -o server --show-trace
+    nix build "$GITDIR#serverPack" -o pack --show-trace
+else
+    nix-build "$GITDIR" -A "packs.$SERVER.server" -o server --show-trace
+    nix-build "$GITDIR" -A ServerPack -o pack --show-trace
+fi
 
 exec server/start.py

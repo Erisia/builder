@@ -4,6 +4,7 @@
 with stdenv;
 
 rec {
+  launcherLock = builtins.fromJSON (builtins.readFile ../launcher-lock.json);
 
   /**
    * Extends a pack definition with all its derivations.
@@ -131,66 +132,40 @@ rec {
     };
   });
 
-  fetchFabric = { minecraft, loader, installer }: runLocally "fabric-${minecraft}-${loader}-${installer}" {
-    inherit minecraft loader installer;
-
-    url = "https://meta.fabricmc.net/v2/versions/loader/${minecraft}/${loader}/${installer}/server/jar";
-
-    # The installer needs web access. Since it does, let's download it w/o a
-    # hash. We're using HTTPS anyway.
-    #
-    # If you get an error referring to this, you're probably using a strict
-    # sandbox.  Disable it, or set it to 'relaxed'.
-    __noChroot = 1;
-    buildInputs = [ wget cacert ];
+  fetchFabric = { minecraft, loader, installer }: let
+    key = "${minecraft}-${loader}-${installer}";
+    locked = launcherLock.fabric.${key};
+    launcher = fetchurl {
+      name = "fabric-${key}-launcher.jar";
+      inherit (locked) url sha256;
+    };
+  in runCommand "fabric-${key}" {
+    inherit launcher;
   } ''
     mkdir $out
-    cd $out
-    wget $url --ca-certificate=${cacert}/etc/ssl/certs/ca-bundle.crt --output-document=fabric-launcher.jar
+    cp $launcher $out/fabric-launcher.jar
   '';
 
-  fetchVanilla = { minecraft }: runLocally "vanilla-${minecraft}" {
-    inherit minecraft;
-    __noChroot = 1;
-    buildInputs = [ wget cacert python3 ];
+  fetchVanilla = { minecraft }: let
+    locked = launcherLock.vanilla.${minecraft};
+    serverJar = fetchurl {
+      name = "minecraft-server-${minecraft}.jar";
+      inherit (locked) url sha256;
+    };
+  in runCommand "vanilla-${minecraft}" {
+    inherit serverJar;
   } ''
-    # Download version manifest
-    wget "https://launchermeta.mojang.com/mc/game/version_manifest_v2.json" \
-      --ca-certificate=${cacert}/etc/ssl/certs/ca-bundle.crt \
-      -O manifest.json
-
-    # Find version-specific JSON URL
-    VERSION_URL=$(python3 -c "
-import json, sys
-data = json.load(open('manifest.json'))
-v = next((x for x in data['versions'] if x['id'] == '$minecraft'), None)
-if not v:
-    sys.stderr.write('Version $minecraft not found in manifest\n')
-    sys.exit(1)
-print(v['url'])
-")
-
-    # Download version JSON
-    wget "$VERSION_URL" \
-      --ca-certificate=${cacert}/etc/ssl/certs/ca-bundle.crt \
-      -O version.json
-
-    # Extract server JAR URL
-    SERVER_URL=$(python3 -c "
-import json
-data = json.load(open('version.json'))
-print(data['downloads']['server']['url'])
-")
-
     mkdir $out
-    wget "$SERVER_URL" \
-      --ca-certificate=${cacert}/etc/ssl/certs/ca-bundle.crt \
-      -O $out/server.jar
-
-    rm manifest.json version.json
+    cp $serverJar $out/server.jar
   '';
 
-  fetchForgeLike = { type, major, minor }: runLocally "forge-${major}-${minor}" {
+  fetchForgeLike = { type, major, minor }: let
+    lockType =
+      if type == "forge" then "forge"
+      else if type == "neoforge" then "neoforge"
+      else "cleanroom";
+    key = "${major}-${minor}";
+    locked = launcherLock.${lockType}.${key};
     url =
       if type == "forge" && major == "1.7.10"
       then "https://files.minecraftforge.net/maven/net/minecraftforge/forge/${major}-${minor}-${major}/forge-${major}-${minor}-${major}-installer.jar"
@@ -201,23 +176,32 @@ print(data['downloads']['server']['url'])
       else if type == "cleanroom"
       then "https://github.com/CleanroomMC/Cleanroom/releases/download/${major}-${minor}/cleanroom-${major}-${minor}-installer.jar"
       else "https://maven.neoforged.net/releases/net/neoforged/neoforge/${minor}/neoforge-${minor}-installer.jar";
-
-
-    # The installer needs web access. Since it does, let's download it w/o a
-    # hash. We're using HTTPS anyway.
-    #
-    # If you get an error referring to this, you're probably using a strict
-    # sandbox.  Disable it, or set it to 'relaxed'.
-    __noChroot = 1;
+  in runCommand "${type}-${major}-${minor}" {
+    url = locked.installerUrl or url;
     buildInputs = [ jre wget cacert ];
+    preferLocalBuild = true;
+    allowSubstitutes = false;
+    outputHashMode = "recursive";
+    outputHashAlgo = "sha256";
+    outputHash = locked.outputHash;
   } ''
     mkdir $out
     cd $out
     wget $url --ca-certificate=${cacert}/etc/ssl/certs/ca-bundle.crt
     mkdir mods
     INSTALLER=$(echo *.jar)
-    java -jar $INSTALLER --installServer
+    export _JAVA_OPTIONS="-Djava.net.preferIPv4Stack=true -Djava.net.preferIPv6Addresses=false ''${_JAVA_OPTIONS:-}"
+    for attempt in 1 2 3; do
+      if java -jar $INSTALLER --installServer; then
+        break
+      fi
+      if [ "$attempt" = 3 ]; then
+        exit 1
+      fi
+      sleep $((attempt * 5))
+    done
     rm -r $INSTALLER mods
+    rm -f *.log
   '';
 
   fetchForge = { major, minor }: fetchForgeLike { inherit major minor; type = "forge"; };
