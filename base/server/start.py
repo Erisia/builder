@@ -1,5 +1,5 @@
 #!/usr/bin/env nix-shell
-#!nix-shell -i python3 -p python3 python3Packages.psutil python3Packages.rich rsync tmux systemd
+#!nix-shell -i python3 -p python3 python3Packages.psutil python3Packages.rich rsync systemd
 
 import os
 import sys
