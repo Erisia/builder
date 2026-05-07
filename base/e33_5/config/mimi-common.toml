@@ -1,7 +1,0 @@
-
-["World Generation"]
-	#Toggles whether Instrumentalist shops should generate in villages.
-	enableInstrumentalistShop = true
-	#Comma-separated list of mobs that can be given instruments to hold
-	allowedInstrumentMobs = "minecraft:zombie,minecraft:husk,minecraft:skeleton,minecraft:stray,minecraft:wither_skeleton"
-

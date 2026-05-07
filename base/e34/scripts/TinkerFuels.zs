@@ -1,1 +1,0 @@
-mods.tconstruct.Fuel.registerFuel(<fluid:liquidantimatter> * 1, 1000);

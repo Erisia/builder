@@ -1,8 +1,0 @@
-{
-  "id": "spell_has_tag_slice_is_false",
-  "is": false,
-  "ser": "spell_has_tag",
-  "tag": {
-    "id": "slice"
-  }
-}

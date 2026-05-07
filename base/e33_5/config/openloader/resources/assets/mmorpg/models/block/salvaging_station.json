@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/orientable",
-  "textures": {
-    "front": "mmorpg:block/station/salvage_front",
-    "side": "mmorpg:block/station/salvage_side",
-    "top": "mmorpg:block/station/salvage_top"
-  }
-}

@@ -1,1 +1,0 @@
-If custom keybinds are not applying, you can copy options_default.txt into your modpack folder, rename it to options.txt and overwrite the existing one. You can also hit "reset keybinds" in the keybinds menu in Minecraft.

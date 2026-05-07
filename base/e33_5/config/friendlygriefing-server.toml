@@ -1,8 +1,0 @@
-
-#General settings
-[general]
-	#Mob ids to allow griefing
-	#Ids have the pattern "minecraft/mod:entity"
-	#Default is "minecraft:villager"
-	friendlyGriefing = ["minecraft:villager","minecraft:piglin"]
-

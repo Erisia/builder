@@ -1,7 +1,0 @@
-{
-  "can_proc_from_procs": true,
-  "id": "proc_spell_lightning_bolt",
-  "pos": "TARGET",
-  "ser": "proc_spell",
-  "spellId": "lightning_bolt"
-}
