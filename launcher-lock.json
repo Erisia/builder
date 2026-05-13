@@ -1,4 +1,10 @@
 {
+  "paper": {
+    "1.21.11": {
+      "url": "https://api.papermc.io/v2/projects/paper/versions/1.21.11/builds/69/downloads/paper-1.21.11-69.jar",
+      "sha256": "sha256-zzdPKvnXHfzHU0Pze3IqerywkcV0ExuV47E8b8LLj64="
+    }
+  },
   "vanilla": {
     "1.21.11": {
       "url": "https://piston-data.mojang.com/v1/objects/64bb6d763bed0a9f1d632ec347938594144943ed/server.jar",

@@ -24,7 +24,7 @@ rec {
     port = 25566;
     prometheusPort = 1226;
     minecraft = "1.21.11";
-    vanilla = true;
+    paper = true;
     extraServerDirs = [
       ./base/vanilla-server
       ./base/server
