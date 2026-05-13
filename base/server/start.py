@@ -380,7 +380,10 @@ def main():
     server_info.add_row("Script PID", str(os.getpid()))
     console.print(server_info)
 
-    if check_systemd():
+    if os.environ.get("SKIP_SYSTEMD"):
+        console.print("[yellow]SKIP_SYSTEMD is set. Skipping systemd-run; using direct process management.[/]")
+        using_systemd = False
+    elif check_systemd():
         console.print("[green]systemd detected. Will use systemd-run for managing the server process.[/]")
         using_systemd = True
     else:
