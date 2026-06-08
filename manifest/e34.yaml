@@ -79,6 +79,16 @@ nodes:
         source: modrinth
         side: both
         file_id: 'fTrJqmfv'
+      - name: laggoggles
+        source: curse
+        side: both
+        id: 283525
+        file_id: 4493884 # 1.12.2-5.9-140
+      - name: tickcentral # LagGoggles dependency
+        source: curse
+        side: both
+        id: 377201
+        file_id: 3140670 # 3.2
 
   # Build processing graph:
   # Download modpack and unzip

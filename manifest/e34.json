@@ -2535,6 +2535,19 @@
     "sha256": "0223a857235e9c0db492f5d885f22b492638208abcc041cf5e229696cb77e26d"
   },
   {
+    "name": "laggoggles",
+    "title": "LagGoggles",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "LagGoggles-1.12.2-5.9-140.jar",
+    "encoded": "LagGoggles-1.12.2-5.9-140.jar",
+    "src": "https://edge.forgecdn.net/files/4493/884/LagGoggles-1.12.2-5.9-140.jar",
+    "size": 179329,
+    "md5": "582e447803ef4883adbd6e3cfd9d7827",
+    "sha256": "bc69907451119c14efaca9bfb124beef178be1932ddb32d7f98f7bb8f637f8ed"
+  },
+  {
     "name": "lazy-ae2",
     "title": "Lazy AE2",
     "side": "both",
@@ -4470,6 +4483,19 @@
     "size": 182379,
     "md5": "320accf690ccc1c8a23679beb63fb615",
     "sha256": "5c72f0db4476dab72c5c9cb68e9ef21ddb45f7b4cbedf4673d069f7d194b9886"
+  },
+  {
+    "name": "tickcentral",
+    "title": "TickCentral",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "TickCentral-3.2.jar",
+    "encoded": "TickCentral-3.2.jar",
+    "src": "https://edge.forgecdn.net/files/3140/670/TickCentral-3.2.jar",
+    "size": 53554,
+    "md5": "3d92957c560795cf2107c491dc1eb2ed",
+    "sha256": "87f0f163162522c8379dce1ce7f802b46f7fe1c167905965037c3f42908fd19c"
   },
   {
     "name": "tinker-i-o",
