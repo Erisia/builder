@@ -16,6 +16,10 @@ nodes:
         id: Mcvy3mxt
         file_id: qfpl5Ak1
         source: modrinth
+      - name: quantified-api
+        id: z4G4OIuV
+        file_id: iYpbwIvL
+        source: modrinth
       - name: enhancedvisuals
         id: KjL0jE2w
         file_id: m3cjYtkA

@@ -481,6 +481,19 @@
     "sha256": "05f7b5d52f6b8f0fd7f8b4822fa07a192d1394d83a264309c9d221d6d4fd21c5"
   },
   {
+    "name": "quantifiedapi",
+    "title": "Quantified API",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "quantified api-forge-1.20.1-1.4.2-HOTFIX.jar",
+    "encoded": "quantified%20api-forge-1.20.1-1.4.2-HOTFIX.jar",
+    "src": "https://cdn.modrinth.com/data/z4G4OIuV/versions/iYpbwIvL/quantified%20api-forge-1.20.1-1.4.2-HOTFIX.jar",
+    "size": 8576866,
+    "md5": "497291fa9ecca6515f596cceb185f9c1",
+    "sha256": "188d9917c72e82fcc04ca0a40c1f4ef918ee407865be5730b5b7d15fc0627c5a"
+  },
+  {
     "name": "rpl",
     "title": "Ritchie's Projectile Library",
     "side": "both",
