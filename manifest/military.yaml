@@ -1,0 +1,223 @@
+config:
+  minecraft_version: '1.20.1'
+  modloader: 'forge'
+nodes:
+  - id: modlist
+    value:
+      - name: the-lost-cities
+        id: 8VDCUS3b
+        file_id: sT3Y8s4v
+        source: modrinth
+      - name: enhancedvisuals
+        id: KjL0jE2w
+        file_id: m3cjYtkA
+        source: modrinth
+        side: client
+      - name: sound-physics-remastered
+        id: qyVF9oeo
+        file_id: x0sJ9PeR
+        source: modrinth
+      - name: geckolib
+        id: 8BmcQJ2H
+        file_id: aC5KMoNg
+        source: modrinth
+      - name: selene
+        id: twkfQtEc
+        file_id: 4f5Vm2TE
+        source: modrinth
+      - name: immersive-weathering-forge
+        id: jkskOO9i
+        file_id: Fl2lADP9
+        source: modrinth
+      - name: timeless-and-classics-zero
+        id: SzzJttH8
+        file_id: 3NpuJ7TJ
+        source: modrinth
+      - name: explosion-overhaul-a-new-level-of-destruction
+        id: sOxnTLKl
+        file_id: 93XGK0uB
+        source: modrinth
+      - name: superb-warfare
+        id: Cd3DYqzn
+        file_id: DdiwkiSV
+        source: modrinth
+      - name: security-craft
+        id: v8jzRtAt
+        file_id: UDbRAGQU
+        source: modrinth
+      - name: keerdm-zombie-apocalypse-essentials
+        id: 3fQsJ7YN
+        file_id: rL9Eu5oo
+        source: modrinth
+      - name: fracture-point
+        id: N4vy2cag
+        file_id: kbNxcDSk
+        source: modrinth
+      - name: sbw-vintage-vehicle-pack
+        id: ScHJEcrM
+        file_id: qEek1Ufk
+        source: modrinth
+      - name: tacz-lesraisins-tactical-equipements
+        id: AiwNM9O0
+        file_id: wMn7gapK
+        source: modrinth
+      - name: simple-voice-chat
+        id: 9eGKb6K1
+        file_id: OSpqxBWh
+        source: modrinth
+      - name: curios
+        id: vvuO3ImH
+        file_id: IPQlZkz1
+        source: modrinth
+      - name: cloth-config
+        id: 9s6osm5g
+        file_id: t8TXrZvZ
+        source: modrinth
+      - name: veb-aws
+        id: BPmM9RTx
+        file_id: lUAacLNx
+        source: modrinth
+      - name: simple-traps
+        id: 4SoAQNgX
+        file_id: VXBSymGc
+        source: modrinth
+      - name: creativecore
+        id: OsZiaDHq
+        file_id: p6pvilEm
+        source: modrinth
+      - name: lesraisins-armor
+        id: iSupMfXz
+        file_id: ATTGMqiB
+        source: modrinth
+      - name: create
+        id: LNytGWDc
+        file_id: 8amzvn9x
+        source: modrinth
+      - name: createaddition
+        id: kU1G12Nn
+        file_id: 9LgyB6Yb
+        source: modrinth
+      - name: create-big-cannons
+        id: GWp4jCJj
+        file_id: ZRgu5o3x
+        source: modrinth
+      - name: create-deco
+        id: sMvUb4Rb
+        file_id: e9gaSRMd
+        source: modrinth
+      - name: create-copycats
+        id: UT2M39wf
+        file_id: z7s54cjL
+        source: modrinth
+      - name: immersiveengineering
+        id: tIm2nV03
+        file_id: WUzj4tgJ
+        source: modrinth
+      - name: ritchies-projectile-lib
+        id: B3pb093D
+        file_id: PdGBsNte
+        source: modrinth
+      - name: create-steam-n-rails
+        id: ZzjhlDgM
+        file_id: I6GhUCyk
+        source: modrinth
+      - name: create-tacz-automation
+        id: ODSZapix
+        file_id: ckyJb2XR
+        source: modrinth
+      - name: corpse
+        id: WrpuIfhw
+        file_id: 7fc0hJN6
+        source: modrinth
+      - name: jei
+        id: u6dRKJwZ
+        file_id: p5mYHvjx
+        source: modrinth
+      - name: jade
+        id: nvQzSEkH
+        file_id: LecuGude
+        source: modrinth
+      - name: sophisticated-core
+        id: nmoqTijg
+        file_id: 6l5pbJ0I
+        source: modrinth
+      - name: sophisticated-backpacks
+        id: TyCTlI4b
+        file_id: U1yKLvta
+        source: modrinth
+      - name: farmers-delight
+        id: R2OftAxM
+        file_id: CsjS7EkP
+        source: modrinth
+      - name: balm
+        id: MBAkmtvl
+        file_id: 8rz04Kha
+        source: modrinth
+      - name: waystones
+        id: LOpKHB2A
+        file_id: sKoHLGbK
+        source: modrinth
+      - name: iron-chests
+        id: n2de3t2z
+        file_id: BlgpMWjV
+        source: modrinth
+      - name: xaeros-minimap
+        id: 1bokaNcj
+        file_id: LHQz9XA1
+        source: modrinth
+        side: client
+      - name: xaeros-world-map
+        id: NcUtCpym
+        file_id: wciL1Yas
+        source: modrinth
+        side: client
+      - name: embeddium
+        id: sk9rgfiA
+        file_id: UTbfe5d1
+        source: modrinth
+        side: client
+      - name: ferritecore
+        id: uXXizFIs
+        file_id: DG5Fn9Sz
+        source: modrinth
+      - name: modernfix
+        id: nmDcB62a
+        file_id: JUhfu5Dq
+        source: modrinth
+      - name: entityculling
+        id: NNAgCjsB
+        file_id: MloBcsQQ
+        source: modrinth
+        side: client
+      - name: clumps
+        id: Wnxd13zP
+        file_id: nAHGB5ls
+        source: modrinth
+      - name: patchouli
+        id: nU0bVIaL
+        file_id: 94dtOLgZ
+        source: modrinth
+      - name: open-parties-and-claims
+        id: gF3BGWvG
+        file_id: BOfbzRMc
+        source: modrinth
+      - name: antixray
+        id: sml2FMaA
+        file_id: ruAUEszF
+        source: modrinth
+        side: server
+      - name: mod-whitelist
+        id: uqa8tezN
+        file_id: 3Ui3awew
+        source: modrinth
+        side: server
+  - id: resolver
+    kind: ModResolver
+    input:
+      mods: modlist
+  - id: writer
+    kind: ModWriter
+    input:
+      resolved: 'resolver'
+  - filename: military.json
+    source: 'writer::json'

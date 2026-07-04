@@ -1,0 +1,230 @@
+
+#Sound system settings
+[Sounds]
+	#Enable advanced sound speed system for explosions. If disabled, sound always travels at 343 m/s.
+	enableAdvancedSoundSpeed = false
+
+#
+#Player shake settings
+["Player Shake"]
+	#Enables or disables the player shake effect from explosions.
+	enablePlayerShake = true
+	#Amplifier for the player shake intensity. 0.0 = no shake, 1.0 = default, 10.0 = maximum shake.
+	#Range: 0.0 ~ 10.0
+	playerShakeAmplifier = 1.0
+
+#Common settings that will be synced from server to client.
+[General]
+	#Enables or disables blocks being launched from explosions.
+	#If false, explosions will still destroy blocks but won't create falling block entities.
+	enableFallingBlocks = true
+	#Enables or disables the clustering of nearby explosives into a single, more powerful explosion.
+	#If true, multiple TNT blocks/entities close together will merge into one explosion with increased power.
+	enableExplosionClustering = true
+	#Maximum total power for clustered TNT explosions.
+	#4 = minimum (single TNT), 100 = default, 1000 = extreme (high crash risk).
+	#WARNING: Values above 150 may cause rendering lag. Values above 500 risk game crashes.
+	#Range: 4 ~ 1000
+	maxClusterPower = 100
+	#Enables or disables the falling effect for pointed dripstone near explosions.
+	enableDripstoneFalling = true
+	#Enables or disables the destruction of blocks, creating craters.
+	#If false, explosions will still cause visual and sound effects, but won't break blocks.
+	enableCraterDestruction = true
+	#Enables or disables glass being shattered by the explosion's shockwave.
+	enableGlassBreaking = true
+	#Enables or disables the flickering effect on Redstone Lamps near explosions.
+	enableLampFlicker = true
+
+#
+#Dripstone Falling
+["Dripstone Falling"]
+	#The radius around the explosion in which to search for pointed dripstone to fall.
+	#Warning: High values on servers with many players and dripstones can cause lag.
+	#Range: 1 ~ 100
+	dripstoneFallingSearchRadius = 50
+
+#
+#Fine-tuning for the glass breaking effect. High values can impact performance.
+["Glass Breaking"]
+	#The interval in game ticks between each glass breaking cycle.
+	#1 tick = 0.05 seconds. Lower values make the effect smoother but use more server resources.
+	#Default: 1
+	#Range: 1 ~ 20
+	glassBreakingIntervalTicks = 1
+	#The maximum number of glass blocks that can be broken in a single processing cycle.
+	#This prevents server lag from massive explosions. Higher values can handle large glass structures better but may cause spikes.
+	#Default: 70
+	#Range: 10 ~ 500
+	glassBlocksPerCycle = 70
+
+#
+#Crater Customization
+["Crater Settings"]
+	#Multiplier for the radius of the explosion crater.
+	#Affects both crater size and the number of generated particles.
+	#1.0 = default size.
+	#Range: 0.1 ~ 50.0
+	craterSizeMultiplier = 0.88
+	#For explosions with power 40+, this controls the shape of the crater.
+	#Determines the size of the solid 'core' relative to the total radius.
+	#0.1 = very ray-like, 0.95 = almost a perfect sphere.
+	#Default: 0.7 (70%)
+	#Range: 0.1 ~ 0.95
+	craterCoreRatio = 0.7
+
+#
+#Async crater pipeline (off-thread ray geometry + main-thread batched application)
+["Async Crater"]
+	#Enable the asynchronous crater pipeline.
+	#Compute crater geometry off-thread and apply block changes in small batches per tick to keep TPS smooth on large explosions.
+	#
+	#WARNING: When asynchronous and multi-threaded mode is enabled - destruction of VS objects - does not work.
+	enableAsyncCrater = true
+	#Maximum number of threads for off-thread crater geometry precomputation.
+	#0 = Auto (use all available: 32)
+	#1 = Single-threaded
+	#2-32 = Custom thread count for this system
+	#Range: 0 ~ 32
+	craterMaxThreads = 0
+	#Maximum number of blocks to evaluate/apply per server tick when building a crater.
+	#Higher values complete faster but can cause small TPS dips.
+	#Lower values keep TPS flatter but take longer.
+	#Range: 0 ~ 150000
+	craterApplyBlocksPerTick = 50000
+	#Limit of falling block entities to spawn per tick during crater application (visual debris).
+	#Set to 0 to disable spawning via the async pipeline.
+	#Range: 0 ~ 2000
+	craterMaxFallingBlocksPerTick = 500
+	#Directly write block states into chunk sections during crater application (much faster).
+	#When enabled, bypasses Level#setBlock and updates heightmaps/light manually.
+	#Note: This skips Forge block events and neighbor updates.
+	enableDirectChunkWrites = false
+	#Maximum number of chunks to process per tick when direct writes are enabled.
+	#Used along with block budget to smooth TPS.
+	#Range: 0 ~ 500
+	craterChunksPerTick = 120
+
+#
+#Redstone Lamp Flickering
+["Lamp Flickering"]
+	#The radius around the player in which to search for lamps to flicker.
+	#Warning: High values on servers with many players and lamps can cause lag.
+	#Range: 1 ~ 100
+	lampFlickerSearchRadius = 50
+
+#Settings for the ambient explosion system, creating a 'battlefield' atmosphere.
+[Ambient]
+	#Globally enables or disables the ambient explosion sound system.
+	enableAmbientExplosions = false
+	#Minimum time in ticks between ambient explosion events (20 ticks = 1 second).
+	#Range: 100 ~ 72000
+	minTimeBetweenExplosions = 1200
+	#Maximum time in ticks between ambient explosion events.
+	#Range: 200 ~ 72000
+	maxTimeBetweenExplosions = 6000
+	#Minimum distance in blocks from the player where an ambient sound can originate.
+	#Range: 100 ~ 10000
+	minExplosionDistance = 501
+	#Maximum distance in blocks from the player where an ambient sound can originate.
+	#Range: 200 ~ 10000
+	maxExplosionDistance = 5001
+	#The maximum power a random 'Cataclysm' tier explosion can have.
+	#Range: 40.0 ~ 200.0
+	maxAmbientExplosionPower = 80.0
+
+	#
+	#Configuration for different ambient event scenarios.
+	#The chance for a scenario is (its_weight / sum_of_all_scenario_weights).
+	[Ambient.Scenarios]
+		#Weight for a standard, single explosion event.
+		#Range: 0 ~ 1000
+		singleExplosionWeight = 70
+		#Weight for a 'Chain Reaction' event (a series of increasingly powerful explosions).
+		#Range: 0 ~ 1000
+		chainReactionWeight = 15
+		#Weight for an 'Artillery Shelling' event (a quiet shot followed by a delayed, loud impact).
+		#Range: 0 ~ 1000
+		shellingWeight = 15
+
+		#
+		#Settings for the 'Chain Reaction' scenario.
+		[Ambient.Scenarios.ChainReaction]
+			#Range: 2 ~ 20
+			minChainReactionShots = 3
+			#Range: 2 ~ 20
+			maxChainReactionShots = 7
+			#Range: 5 ~ 200
+			minTimeBetweenChainShots = 10
+			#Range: 10 ~ 400
+			maxTimeBetweenChainShots = 40
+
+		#
+		#Settings for the 'Artillery Shelling' scenario.
+		[Ambient.Scenarios.Shelling]
+			#Minimum delay in ticks between the 'shot' sound and the 'impact' sound (20 ticks = 1s).
+			#Range: 20 ~ 400
+			minShellingDelay = 40
+			#Maximum delay in ticks between the 'shot' and 'impact' sounds.
+			#Range: 20 ~ 400
+			maxShellingDelay = 140
+
+	#
+	#Weighted chances for explosion power tiers (for single and shelling events).
+	#The chance for a tier is (its_weight / sum_of_all_weights). Set a weight to 0 to disable that tier.
+	[Ambient.Power_Tiers_Weight]
+		#Weight for 'Background Noise' (Power 1-4)
+		#Range: 0 ~ 1000
+		tier1_weight = 50
+		#Weight for 'Local Skirmish' (Power 5-15)
+		#Range: 0 ~ 1000
+		tier2_weight = 25
+		#Weight for 'Serious Battle' (Power 16-40)
+		#Range: 0 ~ 1000
+		tier3_weight = 15
+		#Weight for 'Epicenter' (Power 41-80)
+		#Range: 0 ~ 1000
+		tier4_weight = 8
+		#Weight for 'Cataclysm' (Power 81+)
+		#Range: 0 ~ 1000
+		tier5_weight = 2
+
+	#
+	#Enable or disable specific types of ambient sound environments.
+	[Ambient.Sound_Types]
+		#Surface: A clear explosion sound in an open area.
+		enableSurfaceSounds = true
+		#Cave: A loud, reverberating sound when both player and explosion are in a cave.
+		enableCaveSounds = true
+		#If enabled, an ambient cave explosion will cause a visual dust effect to fall from the ceiling.
+		enableAmbientCaveDust = true
+
+#Settings for chunk scanning and block indexing system.
+#System detected: 32 CPU threads available
+#Configuration ranges are automatically adjusted for your system
+[Scan]
+	#Maximum number of threads to use for chunk scanning.
+	#Available range for your system: 0-32 threads
+	#0 = Auto-detect (recommended): uses all 32 available threads
+	#1 = Single-threaded (slowest but safest)
+	#2-32 = Custom thread count for this system
+	#Your system supports up to 32 concurrent threads
+	#Range: 0 ~ 32
+	maxScanThreads = 0
+	#How much CPU power to use for chunk scanning (1-100%).
+	#100% = Maximum speed, uses all available threads intensively
+	#50% = Balanced, leaves room for other server processes
+	#25% = Conservative, minimal impact on server performance
+	#Lower values add delays between chunk processing to reduce CPU load.
+	#Range: 1 ~ 100
+	cpuUsagePercent = 25
+	#Enables or disables the block indexing system.
+	#When enabled, chunks are automatically scanned for Redstone Lamps and Pointed Dripstone.
+	#When disabled, only manual registration/unregistration of blocks will occur.
+	#This affects Redstone Lamp flickering and Pointed Dripstone falling effects near explosions.
+	enableBlockIndexing = false
+	#Controls visibility of the scanning progress HUD.
+	#When disabled, no progress bar will be shown even if scanning is enabled.
+	#Shows percentage of chunks scanned during world initialization and automatically hides when complete.
+	showScanProgressHUD = false
+

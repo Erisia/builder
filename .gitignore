@@ -14,3 +14,6 @@ cursetool/cursetool-0.1
 
 **/.claude/settings.local.json
 *.log
+
+# Local research cache (bulky, regenerable; conclusions are in docs/research/*.md)
+docs/research/data/

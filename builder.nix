@@ -13,23 +13,32 @@ rec {
     # e34 = buildPack e34;
     e34_5 = buildPack e34_5;
     e35 = buildPack e35;
-    vanilla = buildPack vanilla;
+    military = buildPack military;
   };
 
-  vanilla = {
-    name = "Vanilla";
-    tmuxName = "vanilla";
-    description = "Vanilla Minecraft 1.21.11";
-    ram = "4G";
+  military = {
+    name = "Military";
+    tmuxName = "military";
+    description = "Kids Military Games";
+    ram = "6G";
     port = 25566;
     prometheusPort = 1226;
-    minecraft = "1.21.11";
-    vanilla = true;
+    minecraft = "1.20.1";
+    forge = {
+      major = "1.20.1";
+      minor = "47.4.10";
+    };
+    extraDirs = [
+      ./base/military
+    ];
     extraServerDirs = [
-      ./base/vanilla-server
+      ./base/military-server
       ./base/server
     ];
-    manifest = ./manifest/vanilla.json;
+    extraClientDirs = [
+      ./base/military-client
+    ];
+    manifest = ./manifest/military.json;
   };
 
   e35 = {
