@@ -8,6 +8,10 @@ nodes:
         id: 8VDCUS3b
         file_id: sT3Y8s4v
         source: modrinth
+      - name: lost-worlds-lc
+        id: i1l8grqP
+        file_id: fwIDyGLO
+        source: modrinth
       - name: enhancedvisuals
         id: KjL0jE2w
         file_id: m3cjYtkA

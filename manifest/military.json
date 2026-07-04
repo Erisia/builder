@@ -377,6 +377,19 @@
     "sha256": "cae5f556c1722de1b1cc3ff112eef9cd6054fdc16e77d879eaabadb6bf0a1670"
   },
   {
+    "name": "lost-worlds-lc",
+    "title": "Lost Worlds LC",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "lostworlds-1.20-0.0.3.jar",
+    "encoded": "lostworlds-1.20-0.0.3.jar",
+    "src": "https://cdn.modrinth.com/data/i1l8grqP/versions/fwIDyGLO/lostworlds-1.20-0.0.3.jar",
+    "size": 647000,
+    "md5": "1c29b31b49b5dbeded37e6ad1573d3b9",
+    "sha256": "c57b5ad425f68d7c82d089eedc32ef8561044c187b34abd715713f3ba1bdd5bc"
+  },
+  {
     "name": "lr-tactical",
     "title": "[TACZ] LesRaisins Tactical Equipements",
     "side": "both",
