@@ -405,7 +405,7 @@
   {
     "name": "mod-whitelist",
     "title": "Mod Whitelist",
-    "side": "server",
+    "side": "both",
     "required": true,
     "default": true,
     "filename": "mod_whitelist-1.1.0.jar",

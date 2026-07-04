@@ -214,7 +214,7 @@ nodes:
         id: uqa8tezN
         file_id: 3Ui3awew
         source: modrinth
-        side: server
+        side: both
   - id: resolver
     kind: ModResolver
     input:
