@@ -364,19 +364,6 @@
     "sha256": "660e4304359a5721bde68c621a93a657f72a3f2a1f6439af4635410f70d5ec7a"
   },
   {
-    "name": "lc2h",
-    "title": "LC²H [Lost Cities: Multithreaded]",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "lc2h-3.5.0.jar",
-    "encoded": "lc2h-3.5.0.jar",
-    "src": "https://cdn.modrinth.com/data/Mcvy3mxt/versions/qfpl5Ak1/lc2h-3.5.0.jar",
-    "size": 1234199,
-    "md5": "4e91f2d67377ca2fef78090ff055059b",
-    "sha256": "f8dd3548033db0825ca0dbe26dfe974469b78f5e3a0fe532be1b45b55df2199d"
-  },
-  {
     "name": "lesraisins-armor",
     "title": "LesRaisins Armor",
     "side": "both",
@@ -479,19 +466,6 @@
     "size": 642732,
     "md5": "78bd223d069fa9491e940d99a8f426b3",
     "sha256": "05f7b5d52f6b8f0fd7f8b4822fa07a192d1394d83a264309c9d221d6d4fd21c5"
-  },
-  {
-    "name": "quantifiedapi",
-    "title": "Quantified API",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "quantified api-forge-1.20.1-1.4.2-HOTFIX.jar",
-    "encoded": "quantified%20api-forge-1.20.1-1.4.2-HOTFIX.jar",
-    "src": "https://cdn.modrinth.com/data/z4G4OIuV/versions/iYpbwIvL/quantified%20api-forge-1.20.1-1.4.2-HOTFIX.jar",
-    "size": 8576866,
-    "md5": "497291fa9ecca6515f596cceb185f9c1",
-    "sha256": "188d9917c72e82fcc04ca0a40c1f4ef918ee407865be5730b5b7d15fc0627c5a"
   },
   {
     "name": "rpl",
