@@ -115,10 +115,74 @@ docker exec erisia-build sh -c '
   done'
 ```
 
+## Launching the server (not just building) in Docker — the one-shot script
+
+Steps 5-6 above are the **manual** flow. The whole build+assemble+boot+wait sequence
+is packaged in **[`tools/docker-run-server.sh`](../tools/docker-run-server.sh)** (host-side;
+drives `docker exec` against the running `erisia-build` container). It is the
+recommended path and is idempotent:
+
+```bash
+tools/docker-run-server.sh up      military   # build + assemble + boot, wait for "Done"
+tools/docker-run-server.sh status  military   # is it up? + last Done/error line
+tools/docker-run-server.sh stop    military   # send "stop" (clean shutdown)
+tools/docker-run-server.sh logs    military   # tail boot.log
+tools/docker-run-server.sh clean   military   # stop + remove the working dir
+# command defaults to `up`, pack defaults to `military`.
+# Env: CONTAINER (erisia-build), RAM (4G), JAVA_MAJOR (auto), BOOT_TIMEOUT (300).
+```
+
+A green run ends with:
+
+```
+SUCCESS:
+[..:..:..] [Server thread/INFO] [minecraft/DedicatedServer]: Done (13.6s)! For help, type "help"
+server is UP and staying up (pid NNNN).
+```
+
+The script requires `manifest/<pack>.json` to already exist (resolve it with MMMM,
+steps 2-4). What it encodes — and why — matters even if you run the manual flow:
+
+- **Never build `packs.<pack>.server`.** That pulls in the Rust `control` tool, which
+  fails on the crates.io 403 (see gotcha). The script builds only
+  `packs.<pack>.serverModsDir` + `packs.<pack>.launcherDir` and assembles the server
+  dir itself (launcher + mods + `base/<pack>*` / `base/server` configs + `eula.txt`),
+  which is all a Minecraft server needs to boot. The control tool is only
+  systemd/tmux/prometheus management wrappers.
+- **Java version must match the pack's Minecraft version.** The script auto-detects from
+  `builder.nix` (`minecraft = "…"`): **Java 17** for 1.16–1.20.4 (incl. military's
+  1.20.1/Forge 47.4.10), **21** for 1.20.5 / 1.21+, **8** for 1.7/1.12. It builds
+  `nixpkgs#temurin-jre-bin-<major>`. Booting 1.20.1 under Java 21 fails.
+- **stdin-EOF fix (critical).** A Forge server reads stdin; launched with no stdin
+  (plain `nohup … &`, whose stdin is effectively closed) it reads **EOF and immediately
+  "Stopping server"** — never reaching a usable state. `tmux`/`script`/`setsid` are all
+  **absent** from the minimal `nixos/nix` image, so the script feeds Forge a kept-open
+  **FIFO**: `mkfifo stdin.fifo; nohup sleep 86400 > stdin.fifo & ; java … < stdin.fifo`.
+  The holder keeps the write end open so the server never sees EOF and stays up after
+  "Done". Sending `stop` is then just `printf 'stop\n' > stdin.fifo`.
+- **Liveness check must reject zombies.** Under the container's `pid 1 = sleep infinity`
+  (which never reaps orphans), a JVM that exits after `stop` lingers as a **zombie** —
+  and `kill -0 <pid>` *succeeds* on zombies. So "is it still up?" reads the state field
+  of `/proc/<pid>/stat` and treats `Z`/`X` as dead. Otherwise a cleanly-stopped server
+  looks like it's still running.
+- **Detached background jobs must not hold the `docker exec` pipe.** The FIFO holder and
+  the JVM are backgrounded with **all** std streams redirected (`< /dev/null`,
+  `> log`/`> fifo`, `2>&1`/`2>/dev/null`); an undetached background process keeps the
+  exec's stdout open and hangs the call until it exits.
+- `docker exec` needs **`-i`** to feed a script on stdin (`bash -s`); without it `bash`
+  reads nothing and silently exits 0.
+
+If you run the manual step 6 instead, add the FIFO stdin redirect — the bare
+`nohup java … nogui > boot.log 2>&1 &` shown above will EOF-stop.
+
 ## Gotchas (hard-won)
 
 | Problem | Cause / fix |
 |---|---|
+| **Server reaches setup then immediately "Stopping server"** | Forge reads **stdin**; with no stdin (plain `nohup`/redirect) it hits **EOF** and stops. Feed it a kept-open FIFO (`mkfifo`; `nohup sleep 86400 > fifo &`; `java … < fifo`). No `tmux`/`script`/`setsid` in `nixos/nix`. |
+| **Cleanly-stopped server still looks "running"** | `kill -0 <pid>` returns success on **zombies**, and container `pid1=sleep infinity` never reaps orphans. Check the state field of `/proc/<pid>/stat` and reject `Z`/`X`. |
+| **`docker exec … bash -s` runs but does nothing (exit 0)** | Missing **`-i`** → stdin not attached → `bash -s` reads an empty script. Add `docker exec -i`. |
+| **`docker exec` hangs and never returns after boot** | A backgrounded child (FIFO holder / JVM) inherited the exec's stdout pipe. Redirect **all** std streams of every background job (`</dev/null >… 2>…`). |
 | **MMMM submodule won't clone** | `.gitmodules` uses an SSH URL → clone via **HTTPS** (step 2). |
 | **MMMM: "Failed to obtain a channel for an output"** | Manifest needs a **`ModWriter`** node and output `source: 'writer::json'` — the stale `e33_5.yaml` template uses `resolver::json`. Copy `e34_5.yaml`'s tail. |
 | **MMMM panics: `invalid type: null, expected a string`** | A curse mod has **API distribution disabled** (`downloadUrl: null`). Switch it to `source: url` with a forgecdn link: `https://edge.forgecdn.net/files/<id[:4]>/<int(id[4:])>/<filename>` (get filename+sha1 from CF API `/v1/mods/{id}/files/{fid}`). |
