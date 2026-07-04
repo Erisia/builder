@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+<defs>
+  <radialGradient id="bg" cx="50%" cy="42%" r="72%">
+    <stop offset="0%" stop-color="#4f9a5e"/>
+    <stop offset="100%" stop-color="#245536"/>
+  </radialGradient>
+  <linearGradient id="tan" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#f0d59c"/>
+    <stop offset="100%" stop-color="#e2c184"/>
+  </linearGradient>
+  
+</defs>
+<rect x="0" y="0" width="512" height="512" rx="96" fill="url(#bg)"/>
+
+<g transform="translate(256,256) rotate(0.0) translate(0,-152)"><rect x="-24.0" y="-31.0" width="48" height="62" rx="14" fill="#e2c184" stroke="#3a2c15" stroke-width="9"/></g>
+<g transform="translate(256,256) rotate(30.0) translate(0,-152)"><rect x="-24.0" y="-31.0" width="48" height="62" rx="14" fill="#e2c184" stroke="#3a2c15" stroke-width="9"/></g>
+<g transform="translate(256,256) rotate(60.0) translate(0,-152)"><rect x="-24.0" y="-31.0" width="48" height="62" rx="14" fill="#e2c184" stroke="#3a2c15" stroke-width="9"/></g>
+<g transform="translate(256,256) rotate(90.0) translate(0,-152)"><rect x="-24.0" y="-31.0" width="48" height="62" rx="14" fill="#e2c184" stroke="#3a2c15" stroke-width="9"/></g>
+<g transform="translate(256,256) rotate(120.0) translate(0,-152)"><rect x="-24.0" y="-31.0" width="48" height="62" rx="14" fill="#e2c184" stroke="#3a2c15" stroke-width="9"/></g>
+<g transform="translate(256,256) rotate(150.0) translate(0,-152)"><rect x="-24.0" y="-31.0" width="48" height="62" rx="14" fill="#e2c184" stroke="#3a2c15" stroke-width="9"/></g>
+<g transform="translate(256,256) rotate(180.0) translate(0,-152)"><rect x="-24.0" y="-31.0" width="48" height="62" rx="14" fill="#e2c184" stroke="#3a2c15" stroke-width="9"/></g>
+<g transform="translate(256,256) rotate(210.0) translate(0,-152)"><rect x="-24.0" y="-31.0" width="48" height="62" rx="14" fill="#e2c184" stroke="#3a2c15" stroke-width="9"/></g>
+<g transform="translate(256,256) rotate(240.0) translate(0,-152)"><rect x="-24.0" y="-31.0" width="48" height="62" rx="14" fill="#e2c184" stroke="#3a2c15" stroke-width="9"/></g>
+<g transform="translate(256,256) rotate(270.0) translate(0,-152)"><rect x="-24.0" y="-31.0" width="48" height="62" rx="14" fill="#e2c184" stroke="#3a2c15" stroke-width="9"/></g>
+<g transform="translate(256,256) rotate(300.0) translate(0,-152)"><rect x="-24.0" y="-31.0" width="48" height="62" rx="14" fill="#e2c184" stroke="#3a2c15" stroke-width="9"/></g>
+<g transform="translate(256,256) rotate(330.0) translate(0,-152)"><rect x="-24.0" y="-31.0" width="48" height="62" rx="14" fill="#e2c184" stroke="#3a2c15" stroke-width="9"/></g>
+<circle cx="256" cy="256" r="152" fill="url(#tan)" stroke="#3a2c15" stroke-width="10"/>
+<circle cx="256" cy="256" r="118" fill="#f6ecd2" stroke="#3a2c15" stroke-width="9"/>
+<circle cx="256" cy="256" r="116" fill="none" stroke="#f4b731" stroke-width="6" opacity="0.55"/>
+<polygon points="256.0,138.0 284.8,214.4 366.3,218.2 302.6,269.1 324.2,347.8 256.0,303.0 187.8,347.8 209.4,269.1 145.7,218.2 227.2,214.4" fill="#3f7d4c" stroke="#2b5c37" stroke-width="9" stroke-linejoin="round"/>
+
+</svg>
