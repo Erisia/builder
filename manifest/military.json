@@ -104,6 +104,19 @@
     "sha256": "cff8c3426a77f9e7412262b6d79e423979eff3831e010b3b1ea9677e1ecd74cd"
   },
   {
+    "name": "cooking-for-blockheads",
+    "title": "Cooking for Blockheads",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "cookingforblockheads-forge-1.20.1-16.0.15.jar",
+    "encoded": "cookingforblockheads-forge-1.20.1-16.0.15.jar",
+    "src": "https://cdn.modrinth.com/data/vJnhuDde/versions/W87tG8sG/cookingforblockheads-forge-1.20.1-16.0.15.jar",
+    "size": 837809,
+    "md5": "675eb6cc564479f3d433f756389fdd07",
+    "sha256": "3928d41d933ad5f2dc5b1cfbb5b5df5dfbdc19875b30e9bb65a45b5b5728a966"
+  },
+  {
     "name": "copycats",
     "title": "Create: Copycats+",
     "side": "both",

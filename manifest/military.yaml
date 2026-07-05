@@ -284,6 +284,11 @@ nodes:
         file_id: WAuDF3CQ
         source: modrinth
         side: both
+      - name: cooking-for-blockheads
+        id: vJnhuDde
+        file_id: W87tG8sG
+        source: modrinth
+        side: both
   - id: resolver
     kind: ModResolver
     input:
