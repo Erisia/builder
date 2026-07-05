@@ -269,6 +269,11 @@ nodes:
         file_id: bukhH8Vp
         source: modrinth
         side: server
+      - name: pipez
+        id: iRmWy6ga
+        file_id: Mtjt7u5h
+        source: modrinth
+        side: both
   - id: resolver
     kind: ModResolver
     input:

@@ -572,6 +572,19 @@
     "sha256": "05f7b5d52f6b8f0fd7f8b4822fa07a192d1394d83a264309c9d221d6d4fd21c5"
   },
   {
+    "name": "pipez",
+    "title": "Pipez",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "pipez-forge-1.20.1-1.2.26.jar",
+    "encoded": "pipez-forge-1.20.1-1.2.26.jar",
+    "src": "https://cdn.modrinth.com/data/iRmWy6ga/versions/Mtjt7u5h/pipez-forge-1.20.1-1.2.26.jar",
+    "size": 431616,
+    "md5": "051f03af19707ad8e9a29a0d6cb31f67",
+    "sha256": "ba7ad7cb23d0c4851321eba93692589810f9cf5ce6d9e1edc2673bb4f0045c4f"
+  },
+  {
     "name": "rapid-leaf-decay",
     "title": "Rapid Leaf Decay",
     "side": "server",
