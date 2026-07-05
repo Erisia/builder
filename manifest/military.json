@@ -520,6 +520,19 @@
     "sha256": "6c27d16aa715ac6613a55fc463739e2c7b78279e4e4c4cede299e4a2d4a70f08"
   },
   {
+    "name": "nemos-inventory-sorting",
+    "title": "Nemo's Inventory Sorting",
+    "side": "client",
+    "required": true,
+    "default": true,
+    "filename": "nemos-inventory-sorting-Forge-1.20.1-1.14.5-all.jar",
+    "encoded": "nemos-inventory-sorting-Forge-1.20.1-1.14.5-all.jar",
+    "src": "https://cdn.modrinth.com/data/JHgf35QL/versions/K0FguJ4J/nemos-inventory-sorting-Forge-1.20.1-1.14.5-all.jar",
+    "size": 305743,
+    "md5": "c4c259ca9b58474156eb45ea90425024",
+    "sha256": "e3693cc5fbc809560f85ad9c8a713f8c5dbf4d2dc5929f3fec3f0714e11d6ef9"
+  },
+  {
     "name": "open-parties-and-claims",
     "title": "Open Parties and Claims",
     "side": "both",

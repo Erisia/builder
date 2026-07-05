@@ -229,6 +229,11 @@ nodes:
         file_id: 7JVXOe3K
         source: modrinth
         side: client
+      - name: nemos-inventory-sorting
+        id: JHgf35QL
+        file_id: K0FguJ4J
+        source: modrinth
+        side: client
       - name: chat-heads
         id: Wb5oqrBJ
         file_id: raixMXoT
