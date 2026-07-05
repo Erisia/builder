@@ -274,14 +274,14 @@ nodes:
         file_id: Mtjt7u5h
         source: modrinth
         side: both
-      - name: silent-lib
-        id: BQhuHQo4
-        file_id: WGt4877n
+      - name: libx
+        id: qEH6GYul
+        file_id: YHTMDq85
         source: modrinth
         side: both
-      - name: silent-gear
-        id: 73mSSnCf
-        file_id: 2Chvw4VA
+      - name: simply-tools
+        id: v7uAVl86
+        file_id: WAuDF3CQ
         source: modrinth
         side: both
   - id: resolver
