@@ -259,6 +259,16 @@ nodes:
         file_id: xo6HmgWj
         source: modrinth
         side: client
+      - name: rapid-leaf-decay
+        id: jSQXzmcf
+        file_id: 4HT3hgJf
+        source: modrinth
+        side: server
+      - name: corecommands
+        id: XQWm8sZ2
+        file_id: bukhH8Vp
+        source: modrinth
+        side: server
   - id: resolver
     kind: ModResolver
     input:

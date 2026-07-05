@@ -117,6 +117,19 @@
     "sha256": "bc59446d8aff50924f805286927a1bda3df16c6f4e6f893865f410e581b62f1a"
   },
   {
+    "name": "corecommands",
+    "title": "CoreCommands",
+    "side": "server",
+    "required": true,
+    "default": true,
+    "filename": "corecommands-2.0.1.jar",
+    "encoded": "corecommands-2.0.1.jar",
+    "src": "https://cdn.modrinth.com/data/XQWm8sZ2/versions/bukhH8Vp/corecommands-2.0.1.jar",
+    "size": 65108,
+    "md5": "ceae1858a77ae826bf9f6e35285521f8",
+    "sha256": "42bbfd7a0b79554963b5aca038a87a4035086892e7c9eafb340f97426494fae6"
+  },
+  {
     "name": "corpse",
     "title": "Corpse",
     "side": "both",
@@ -557,6 +570,19 @@
     "size": 642732,
     "md5": "78bd223d069fa9491e940d99a8f426b3",
     "sha256": "05f7b5d52f6b8f0fd7f8b4822fa07a192d1394d83a264309c9d221d6d4fd21c5"
+  },
+  {
+    "name": "rapid-leaf-decay",
+    "title": "Rapid Leaf Decay",
+    "side": "server",
+    "required": true,
+    "default": true,
+    "filename": "RapidLeafDecay-1.20.1-2.0.2.jar",
+    "encoded": "RapidLeafDecay-1.20.1-2.0.2.jar",
+    "src": "https://cdn.modrinth.com/data/jSQXzmcf/versions/4HT3hgJf/RapidLeafDecay-1.20.1-2.0.2.jar",
+    "size": 65406,
+    "md5": "cee47e52d5ab5de2b18273e548f0f704",
+    "sha256": "9d428bc9378f830ba87d798c41f772fbdb7649c67f9956dc4e8415d7a76bab2b"
   },
   {
     "name": "refined-storage",
