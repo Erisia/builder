@@ -13,6 +13,19 @@
     "sha256": "d8ced4101b1d90adfc4df223f9e28bbc0884b43fd83a0820ea8caab1e3918e23"
   },
   {
+    "name": "appleskin",
+    "title": "AppleSkin",
+    "side": "client",
+    "required": true,
+    "default": true,
+    "filename": "appleskin-forge-mc1.20.1-2.5.1.jar",
+    "encoded": "appleskin-forge-mc1.20.1-2.5.1.jar",
+    "src": "https://cdn.modrinth.com/data/EsAfCjCV/versions/XdXDExVF/appleskin-forge-mc1.20.1-2.5.1.jar",
+    "size": 47428,
+    "md5": "dae63cea9c951dda542a4005ceef3953",
+    "sha256": "e12419e43e3babc810af289403c5cd96bd7f09809b389acc6bb2f122b4b2a426"
+  },
+  {
     "name": "balm",
     "title": "Balm",
     "side": "both",
@@ -24,6 +37,32 @@
     "size": 591398,
     "md5": "2ff18975f2b4d0570f8eeeae85b66e42",
     "sha256": "1f5222d5c0ab72b1f60d83c5b371faa9cf733635810efb2695a7bd56dbfa4458"
+  },
+  {
+    "name": "betterf3",
+    "title": "BetterF3",
+    "side": "client",
+    "required": true,
+    "default": true,
+    "filename": "BetterF3-7.0.2-Forge-1.20.1.jar",
+    "encoded": "BetterF3-7.0.2-Forge-1.20.1.jar",
+    "src": "https://cdn.modrinth.com/data/8shC1gFX/versions/xo6HmgWj/BetterF3-7.0.2-Forge-1.20.1.jar",
+    "size": 468517,
+    "md5": "7411ae023390cf6b148f05a6b685279f",
+    "sha256": "e46ced73bdf78a59573a7188cfbe7256353f21a67eef752dc39b5e5816fc61c0"
+  },
+  {
+    "name": "chat-heads",
+    "title": "Chat Heads",
+    "side": "client",
+    "required": true,
+    "default": true,
+    "filename": "chat_heads-0.15.2-forge-1.20.jar",
+    "encoded": "chat_heads-0.15.2-forge-1.20.jar",
+    "src": "https://cdn.modrinth.com/data/Wb5oqrBJ/versions/raixMXoT/chat_heads-0.15.2-forge-1.20.jar",
+    "size": 722643,
+    "md5": "4a52fd19e9b20fe5f399d7d435f0f32b",
+    "sha256": "68bec6d15bc7fce18dcc1b98a3c0d943e6697fcfbf9d7259db5156a7ea324556"
   },
   {
     "name": "cloth-config",
@@ -50,6 +89,19 @@
     "size": 20300,
     "md5": "7a71806a1167d866608fc2e8c7d62041",
     "sha256": "8af01712c0dc32cebaff31795ca6d223fddff2ea9b1f5efbd9c3a586a0dacbc0"
+  },
+  {
+    "name": "controlling",
+    "title": "Controlling",
+    "side": "client",
+    "required": true,
+    "default": true,
+    "filename": "Controlling-forge-1.20.1-12.0.2.jar",
+    "encoded": "Controlling-forge-1.20.1-12.0.2.jar",
+    "src": "https://cdn.modrinth.com/data/xv94TkTM/versions/LH6Bi6Am/Controlling-forge-1.20.1-12.0.2.jar",
+    "size": 115280,
+    "md5": "dc94fc03e516d96aad393b26910c81ad",
+    "sha256": "cff8c3426a77f9e7412262b6d79e423979eff3831e010b3b1ea9677e1ecd74cd"
   },
   {
     "name": "copycats",
@@ -338,6 +390,19 @@
     "sha256": "31949971a7a8d5a5bc95ad9d400cbedfd2d65ffbfb3cea7c0b2fa3b47431a0a5"
   },
   {
+    "name": "jade-addons-forge",
+    "title": "Jade Addons (Neo/Forge)",
+    "side": "client",
+    "required": true,
+    "default": true,
+    "filename": "JadeAddons-1.20.1-Forge-5.5.1.jar",
+    "encoded": "JadeAddons-1.20.1-Forge-5.5.1.jar",
+    "src": "https://cdn.modrinth.com/data/xuDOzCLy/versions/l9IrZYLt/JadeAddons-1.20.1-Forge-5.5.1.jar",
+    "size": 91754,
+    "md5": "b5f939a79e57f78a3ef0e6c1cfd6ea59",
+    "sha256": "faf39cd0326e5127004be0b0c96ba7d52fa40cf9c7f85854bd47e3ebfc402f4c"
+  },
+  {
     "name": "jei",
     "title": "Just Enough Items (JEI)",
     "side": "both",
@@ -442,6 +507,19 @@
     "sha256": "46ee59799b38da7b87b734e4f6f11be886a15cab51cbf78614bb50f9e43b3278"
   },
   {
+    "name": "mouse-tweaks",
+    "title": "Mouse Tweaks",
+    "side": "client",
+    "required": true,
+    "default": true,
+    "filename": "MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+    "encoded": "MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+    "src": "https://cdn.modrinth.com/data/aC3cM3Vq/versions/7JVXOe3K/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+    "size": 76237,
+    "md5": "ce4b5bbb9ef6a7905c458ab599ef4cb2",
+    "sha256": "6c27d16aa715ac6613a55fc463739e2c7b78279e4e4c4cede299e4a2d4a70f08"
+  },
+  {
     "name": "open-parties-and-claims",
     "title": "Open Parties and Claims",
     "side": "both",
@@ -468,6 +546,19 @@
     "sha256": "05f7b5d52f6b8f0fd7f8b4822fa07a192d1394d83a264309c9d221d6d4fd21c5"
   },
   {
+    "name": "refined-storage",
+    "title": "Refined Storage",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "refinedstorage-1.12.4.jar",
+    "encoded": "refinedstorage-1.12.4.jar",
+    "src": "https://cdn.modrinth.com/data/KDvYkUg3/versions/ZITLFjjf/refinedstorage-1.12.4.jar",
+    "size": 3300191,
+    "md5": "17684bd6edc033897a41a81da0666fba",
+    "sha256": "afda49a01e5ac8e20706032eb80699cc3b50d3b346478324ead62503cb774acd"
+  },
+  {
     "name": "rpl",
     "title": "Ritchie's Projectile Library",
     "side": "both",
@@ -492,6 +583,19 @@
     "size": 26055359,
     "md5": "b3b2a2513471b9598c253229f477a7c2",
     "sha256": "a6ae198be71e970a5b28c3ed4336d4cf787ead65f39c9c8545a6951c90b799e6"
+  },
+  {
+    "name": "searchables",
+    "title": "Searchables",
+    "side": "client",
+    "required": true,
+    "default": true,
+    "filename": "Searchables-forge-1.20.1-1.0.3.jar",
+    "encoded": "Searchables-forge-1.20.1-1.0.3.jar",
+    "src": "https://cdn.modrinth.com/data/fuuu3xnx/versions/PM9yAW1G/Searchables-forge-1.20.1-1.0.3.jar",
+    "size": 77732,
+    "md5": "68fb3fa702de7e10194c5b8a3d25b5b0",
+    "sha256": "461add180eb595004d3c9f5ac0ce337752e403077f96b38304800eadf01fb825"
   },
   {
     "name": "security-craft",

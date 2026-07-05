@@ -215,6 +215,45 @@ nodes:
         file_id: 3Ui3awew
         source: modrinth
         side: both
+      - name: refined-storage
+        id: KDvYkUg3
+        file_id: ZITLFjjf
+        source: modrinth
+      - name: appleskin
+        id: EsAfCjCV
+        file_id: XdXDExVF
+        source: modrinth
+        side: client
+      - name: mouse-tweaks
+        id: aC3cM3Vq
+        file_id: 7JVXOe3K
+        source: modrinth
+        side: client
+      - name: chat-heads
+        id: Wb5oqrBJ
+        file_id: raixMXoT
+        source: modrinth
+        side: client
+      - name: controlling
+        id: xv94TkTM
+        file_id: LH6Bi6Am
+        source: modrinth
+        side: client
+      - name: searchables
+        id: fuuu3xnx
+        file_id: PM9yAW1G
+        source: modrinth
+        side: client
+      - name: jade-addons-forge
+        id: xuDOzCLy
+        file_id: l9IrZYLt
+        source: modrinth
+        side: client
+      - name: betterf3
+        id: 8shC1gFX
+        file_id: xo6HmgWj
+        source: modrinth
+        side: client
   - id: resolver
     kind: ModResolver
     input:
