@@ -274,6 +274,16 @@ nodes:
         file_id: Mtjt7u5h
         source: modrinth
         side: both
+      - name: silent-lib
+        id: BQhuHQo4
+        file_id: WGt4877n
+        source: modrinth
+        side: both
+      - name: silent-gear
+        id: 73mSSnCf
+        file_id: 2Chvw4VA
+        source: modrinth
+        side: both
   - id: resolver
     kind: ModResolver
     input:

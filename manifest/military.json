@@ -663,6 +663,32 @@
     "sha256": "ec601ba570c5351c353fc1ee0eb2f4823d1c026d265a96d3ec802070a50b6ebd"
   },
   {
+    "name": "silent-gear",
+    "title": "Silent Gear",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "silent-gear-1.20.1-3.6.7.jar",
+    "encoded": "silent-gear-1.20.1-3.6.7.jar",
+    "src": "https://cdn.modrinth.com/data/73mSSnCf/versions/2Chvw4VA/silent-gear-1.20.1-3.6.7.jar",
+    "size": 2747490,
+    "md5": "ad1c965e6ede3e866d9b9911f0a843f1",
+    "sha256": "0f438b1919544e6ba0b4e44ee4496d7dfab878f90c9ab02cca46507217e0dc5a"
+  },
+  {
+    "name": "silent-lib",
+    "title": "Silent Lib",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "silent-lib-1.20.1-8.0.0.jar",
+    "encoded": "silent-lib-1.20.1-8.0.0.jar",
+    "src": "https://cdn.modrinth.com/data/BQhuHQo4/versions/WGt4877n/silent-lib-1.20.1-8.0.0.jar",
+    "size": 225948,
+    "md5": "4ac76c6245f8ca76ab0b20a0eca13ea1",
+    "sha256": "c1ea062ee42eb3d9cd7113de92d02f4412722ad0f7d129192d61ef98f1ad0ee1"
+  },
+  {
     "name": "simple-traps",
     "title": "Simple Traps",
     "side": "both",
