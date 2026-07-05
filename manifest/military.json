@@ -364,6 +364,19 @@
     "sha256": "4518779a31b6c2abb92c98b5ad17ef3d60177df68626bfc86c44de2764913c2b"
   },
   {
+    "name": "hephaestools",
+    "title": "HephaesTools",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "hephaestools-1.3.jar",
+    "encoded": "hephaestools-1.3.jar",
+    "src": "https://cdn.modrinth.com/data/m5w6xC5L/versions/IIE5EnHs/hephaestools-1.3.jar",
+    "size": 451668,
+    "md5": "cb31ecfbf57a3763ea442b104390f898",
+    "sha256": "5328f3b0fe38fd87af97f2662df5893e59f2f642cc61a796381ffead96b23826"
+  },
+  {
     "name": "immersive-weathering",
     "title": "Immersive Weathering",
     "side": "both",
@@ -466,19 +479,6 @@
     "size": 887220,
     "md5": "98f60ace7ad33f65522270fffe87b0bb",
     "sha256": "cae5f556c1722de1b1cc3ff112eef9cd6054fdc16e77d879eaabadb6bf0a1670"
-  },
-  {
-    "name": "libx",
-    "title": "LibX",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "LibX-1.20.1-5.0.14.jar",
-    "encoded": "LibX-1.20.1-5.0.14.jar",
-    "src": "https://cdn.modrinth.com/data/qEH6GYul/versions/YHTMDq85/LibX-1.20.1-5.0.14.jar",
-    "size": 1258082,
-    "md5": "3c0c0cdac0482e1f78a28614bebce36a",
-    "sha256": "6b795bbeeb320a4fc44438bec23f7937e8c70f7b87e809e044872e37a9ac1b27"
   },
   {
     "name": "lost-worlds-lc",
@@ -713,19 +713,6 @@
     "size": 4911858,
     "md5": "efcd21ffbcbdd36a6ebfabc9bc3f31a7",
     "sha256": "6229285ebbd98bf62568387daa999a241cc9f2418b16ece641d238a9efcae4fb"
-  },
-  {
-    "name": "simply-tools",
-    "title": "Simply Tools",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "SimplyTools-1.20.1-2.0.8.jar",
-    "encoded": "SimplyTools-1.20.1-2.0.8.jar",
-    "src": "https://cdn.modrinth.com/data/v7uAVl86/versions/WAuDF3CQ/SimplyTools-1.20.1-2.0.8.jar",
-    "size": 264758,
-    "md5": "4428039010650dbf28756372a83295ec",
-    "sha256": "8dc41fd86cf2335fccd3d75d9932f7b2499fbf11ca8f5c09bdd5e20cce57da7b"
   },
   {
     "name": "sophisticated-backpacks",
