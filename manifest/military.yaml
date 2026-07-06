@@ -65,10 +65,6 @@ nodes:
         id: AiwNM9O0
         file_id: wMn7gapK
         source: modrinth
-      - name: simple-voice-chat
-        id: 9eGKb6K1
-        file_id: OSpqxBWh
-        source: modrinth
       - name: curios
         id: vvuO3ImH
         file_id: IPQlZkz1

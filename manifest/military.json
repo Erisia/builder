@@ -702,19 +702,6 @@
     "sha256": "d06ad519b331fecba678d4ee28b1a10266a0ab7817b5af7582f581303d2b17d6"
   },
   {
-    "name": "simple-voice-chat",
-    "title": "Simple Voice Chat",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "voicechat-forge-1.20.1-2.6.20.jar",
-    "encoded": "voicechat-forge-1.20.1-2.6.20.jar",
-    "src": "https://cdn.modrinth.com/data/9eGKb6K1/versions/OSpqxBWh/voicechat-forge-1.20.1-2.6.20.jar",
-    "size": 4911858,
-    "md5": "efcd21ffbcbdd36a6ebfabc9bc3f31a7",
-    "sha256": "6229285ebbd98bf62568387daa999a241cc9f2418b16ece641d238a9efcae4fb"
-  },
-  {
     "name": "simply-tools",
     "title": "Simply Tools",
     "side": "both",
