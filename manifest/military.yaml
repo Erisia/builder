@@ -279,6 +279,16 @@ nodes:
         file_id: W87tG8sG
         source: modrinth
         side: both
+      - name: libx
+        id: qEH6GYul
+        file_id: YHTMDq85
+        source: modrinth
+        side: both
+      - name: simply-tools
+        id: v7uAVl86
+        file_id: WAuDF3CQ
+        source: modrinth
+        side: both
   - id: resolver
     kind: ModResolver
     input:
