@@ -641,11 +641,11 @@
 		#When not empty, used in some places as the name for the parties that you create.
 		name = ""
 		#When enabled, your position in the game is shared with players from the same party as you, which can be used by other mods, e.g. to display party members on a map.
-		shareLocationWithParty = true
+		shareLocationWithParty = false
 		#When enabled, your position in the game is shared with the mutual ally parties of the party that you are in, which can be used by other mods, e.g. to display party members on a map.
 		shareLocationWithMutualAllyParties = false
 		#When enabled, the sharable positions of players from the same party as you are shared with your game client, which can be used by other mods, e.g. to display party members on a map.
-		receiveLocationsFromParty = true
+		receiveLocationsFromParty = false
 		#When enabled, the sharable positions of players from the mutual ally parties of the party that you are in are shared with your game client, which can be used by other mods, e.g. to display allies on a map.
 		receiveLocationsFromMutualAllyParties = false
 
