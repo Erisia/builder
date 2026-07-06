@@ -130,19 +130,6 @@
     "sha256": "bc59446d8aff50924f805286927a1bda3df16c6f4e6f893865f410e581b62f1a"
   },
   {
-    "name": "corecommands",
-    "title": "CoreCommands",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "corecommands-2.0.1.jar",
-    "encoded": "corecommands-2.0.1.jar",
-    "src": "https://cdn.modrinth.com/data/XQWm8sZ2/versions/bukhH8Vp/corecommands-2.0.1.jar",
-    "size": 65108,
-    "md5": "ceae1858a77ae826bf9f6e35285521f8",
-    "sha256": "42bbfd7a0b79554963b5aca038a87a4035086892e7c9eafb340f97426494fae6"
-  },
-  {
     "name": "corpse",
     "title": "Corpse",
     "side": "both",
