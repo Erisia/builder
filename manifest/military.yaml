@@ -274,11 +274,6 @@ nodes:
         file_id: Mtjt7u5h
         source: modrinth
         side: both
-      - name: hephaestools
-        id: m5w6xC5L
-        file_id: IIE5EnHs
-        source: modrinth
-        side: both
       - name: cooking-for-blockheads
         id: vJnhuDde
         file_id: W87tG8sG

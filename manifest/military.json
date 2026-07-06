@@ -364,19 +364,6 @@
     "sha256": "4518779a31b6c2abb92c98b5ad17ef3d60177df68626bfc86c44de2764913c2b"
   },
   {
-    "name": "hephaestools",
-    "title": "HephaesTools",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "hephaestools-1.3.jar",
-    "encoded": "hephaestools-1.3.jar",
-    "src": "https://cdn.modrinth.com/data/m5w6xC5L/versions/IIE5EnHs/hephaestools-1.3.jar",
-    "size": 451668,
-    "md5": "cb31ecfbf57a3763ea442b104390f898",
-    "sha256": "5328f3b0fe38fd87af97f2662df5893e59f2f642cc61a796381ffead96b23826"
-  },
-  {
     "name": "immersive-weathering",
     "title": "Immersive Weathering",
     "side": "both",
