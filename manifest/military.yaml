@@ -263,12 +263,12 @@ nodes:
         id: jSQXzmcf
         file_id: 4HT3hgJf
         source: modrinth
-        side: server
+        side: both
       - name: corecommands
         id: XQWm8sZ2
         file_id: bukhH8Vp
         source: modrinth
-        side: server
+        side: both
       - name: pipez
         id: iRmWy6ga
         file_id: Mtjt7u5h

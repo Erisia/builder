@@ -132,7 +132,7 @@
   {
     "name": "corecommands",
     "title": "CoreCommands",
-    "side": "server",
+    "side": "both",
     "required": true,
     "default": true,
     "filename": "corecommands-2.0.1.jar",
@@ -613,7 +613,7 @@
   {
     "name": "rapid-leaf-decay",
     "title": "Rapid Leaf Decay",
-    "side": "server",
+    "side": "both",
     "required": true,
     "default": true,
     "filename": "RapidLeafDecay-1.20.1-2.0.2.jar",
