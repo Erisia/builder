@@ -830,5 +830,18 @@
     "size": 1390482,
     "md5": "8e5480d7ea106fb6da96e3a84f8dfe03",
     "sha256": "abe167275d74585112deb55ce9a09f1472f08d7e8cfde84776c99db2584d4bda"
+  },
+  {
+    "name": "yetanotherhome",
+    "title": "yetanotherhome",
+    "side": "server",
+    "required": true,
+    "default": true,
+    "filename": "yetanotherhome-1.0.0.jar",
+    "encoded": "yetanotherhome-1.0.0.jar",
+    "src": "https://cdn.modrinth.com/data/vbd0ThlJ/versions/fWpnaGdA/yetanotherhome-1.0.0.jar",
+    "size": 42070,
+    "md5": "030fd1bdd104d1ff0de6ae67a5af2d16",
+    "sha256": "9756ce8ff864458840840f058348848e2736c78acd683245afaea9574c35232c"
   }
 ]

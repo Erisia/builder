@@ -280,6 +280,10 @@ nodes:
         file_id: WAuDF3CQ
         source: modrinth
         side: both
+      - name: yetanotherhome
+        source: url
+        location: https://cdn.modrinth.com/data/vbd0ThlJ/versions/fWpnaGdA/yetanotherhome-1.0.0.jar
+        side: server
   - id: resolver
     kind: ModResolver
     input:
