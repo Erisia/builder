@@ -19,12 +19,5 @@
     },
     "count": 2
   },
-  "secondaries": [
-    {
-      "chance": 0.5,
-      "output": {
-        "tag": "forge:dusts/gold"
-      }
-    }
-  ]
+  "secondaries": []
 }

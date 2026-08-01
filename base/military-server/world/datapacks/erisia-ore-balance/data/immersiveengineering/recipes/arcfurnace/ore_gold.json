@@ -19,7 +19,15 @@
       "base_ingredient": {
         "tag": "forge:ingots/gold"
       },
-      "count": 3
+      "count": 2
+    }
+  ],
+  "secondaries": [
+    {
+      "chance": 0.5,
+      "output": {
+        "tag": "forge:ingots/gold"
+      }
     }
   ],
   "slag": {

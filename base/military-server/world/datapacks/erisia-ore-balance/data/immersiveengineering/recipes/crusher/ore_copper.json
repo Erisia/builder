@@ -17,14 +17,7 @@
     "base_ingredient": {
       "tag": "forge:dusts/copper"
     },
-    "count": 2
+    "count": 7
   },
-  "secondaries": [
-    {
-      "chance": 0.5,
-      "output": {
-        "tag": "forge:dusts/copper"
-      }
-    }
-  ]
+  "secondaries": []
 }

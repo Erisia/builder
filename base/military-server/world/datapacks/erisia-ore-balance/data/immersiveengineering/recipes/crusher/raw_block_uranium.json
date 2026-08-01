@@ -9,15 +9,15 @@
       }
     }
   ],
-  "energy": 6000,
+  "energy": 54000,
   "input": {
-    "tag": "forge:ores/uranium"
+    "tag": "forge:storage_blocks/raw_uranium"
   },
   "result": {
     "base_ingredient": {
       "tag": "forge:dusts/uranium"
     },
-    "count": 2
+    "count": 18
   },
   "secondaries": []
 }

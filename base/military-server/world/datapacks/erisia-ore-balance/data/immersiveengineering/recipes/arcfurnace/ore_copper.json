@@ -19,7 +19,15 @@
       "base_ingredient": {
         "tag": "forge:ingots/copper"
       },
-      "count": 3
+      "count": 8
+    }
+  ],
+  "secondaries": [
+    {
+      "chance": 0.75,
+      "output": {
+        "tag": "forge:ingots/copper"
+      }
     }
   ],
   "slag": {
