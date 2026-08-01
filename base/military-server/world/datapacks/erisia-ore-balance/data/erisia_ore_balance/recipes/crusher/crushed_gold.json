@@ -1,0 +1,27 @@
+{
+  "type": "immersiveengineering:crusher",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:dusts/gold"
+      }
+    }
+  ],
+  "energy": 4000,
+  "input": {
+    "item": "create:crushed_raw_gold"
+  },
+  "result": {
+    "tag": "forge:dusts/gold"
+  },
+  "secondaries": [
+    {
+      "chance": 0.5,
+      "output": {
+        "tag": "forge:dusts/gold"
+      }
+    }
+  ]
+}

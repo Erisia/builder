@@ -195,19 +195,6 @@
     "sha256": "7d6dd0094d18d6bab64fcd7de680ea736015d1a1ffc472d3fe03122bc7aa0864"
   },
   {
-    "name": "create-enchantable-machinery",
-    "title": "Create: Enchantable Machinery",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "createenchantablemachinery-3.6.0+mc1.20.1-forge.jar",
-    "encoded": "createenchantablemachinery-3.6.0%2Bmc1.20.1-forge.jar",
-    "src": "https://cdn.modrinth.com/data/eqrvp4NK/versions/xfc5brGW/createenchantablemachinery-3.6.0%2Bmc1.20.1-forge.jar",
-    "size": 585417,
-    "md5": "4cb3722caa15bdebac20b0cb572291b6",
-    "sha256": "df751272f3201233e41ee068f743ce6eecbf56de001d569e0a21ea69ae71581a"
-  },
-  {
     "name": "create-enchantment-industry",
     "title": "Create: Enchantment Industry",
     "side": "both",
@@ -531,19 +518,6 @@
     "size": 241869,
     "md5": "b2cadbd5a8b5215b6bc8a69164b190c5",
     "sha256": "660e4304359a5721bde68c621a93a657f72a3f2a1f6439af4635410f70d5ec7a"
-  },
-  {
-    "name": "kotlin-for-forge",
-    "title": "Kotlin for Forge",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "kotlinforforge-4.12.0-all.jar",
-    "encoded": "kotlinforforge-4.12.0-all.jar",
-    "src": "https://cdn.modrinth.com/data/ordsPcFz/versions/Zsh14XeQ/kotlinforforge-4.12.0-all.jar",
-    "size": 7442998,
-    "md5": "d6a40dede74edbe646b34a1bafd53b4d",
-    "sha256": "6a66c6a68ec09f8717cdbf06883394f0ee24d7cd826b7134a0f81839e8e720ae"
   },
   {
     "name": "lesraisins-armor",

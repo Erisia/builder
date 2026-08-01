@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:raw_materials/copper"
+    },
+    {
+      "tag": "forge:raw_materials/copper"
+    },
+    {
+      "tag": "forge:raw_materials/copper"
+    },
+    {
+      "tag": "forge:raw_materials/copper"
+    },
+    {
+      "item": "ore_hammer:crushing_hammer"
+    }
+  ],
+  "result": {
+    "item": "ore_hammer:copper_dust",
+    "count": 5
+  }
+}

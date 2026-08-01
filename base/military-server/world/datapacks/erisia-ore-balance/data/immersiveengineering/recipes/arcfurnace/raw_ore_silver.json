@@ -1,0 +1,37 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/silver"
+      }
+    }
+  ],
+  "additives": [],
+  "energy": 25600,
+  "input": {
+    "tag": "forge:raw_materials/silver"
+  },
+  "results": [
+    {
+      "base_ingredient": {
+        "tag": "forge:ingots/silver"
+      },
+      "count": 2
+    }
+  ],
+  "secondaries": [
+    {
+      "chance": 0.5,
+      "output": {
+        "tag": "forge:ingots/silver"
+      }
+    }
+  ],
+  "slag": {
+    "tag": "forge:slag"
+  },
+  "time": 100
+}

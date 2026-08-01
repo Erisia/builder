@@ -1,0 +1,23 @@
+{
+  "type": "immersiveengineering:crusher",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:dusts/iron"
+      }
+    }
+  ],
+  "energy": 6000,
+  "input": {
+    "tag": "forge:raw_materials/iron"
+  },
+  "result": {
+    "base_ingredient": {
+      "tag": "forge:dusts/iron"
+    },
+    "count": 2
+  },
+  "secondaries": []
+}

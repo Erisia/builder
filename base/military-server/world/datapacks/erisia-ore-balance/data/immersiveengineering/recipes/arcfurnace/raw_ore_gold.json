@@ -1,0 +1,37 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/gold"
+      }
+    }
+  ],
+  "additives": [],
+  "energy": 25600,
+  "input": {
+    "tag": "forge:raw_materials/gold"
+  },
+  "results": [
+    {
+      "base_ingredient": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 2
+    }
+  ],
+  "secondaries": [
+    {
+      "chance": 0.5,
+      "output": {
+        "tag": "forge:ingots/gold"
+      }
+    }
+  ],
+  "slag": {
+    "tag": "forge:slag"
+  },
+  "time": 100
+}

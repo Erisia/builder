@@ -1,0 +1,29 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/uranium"
+      }
+    }
+  ],
+  "additives": [],
+  "energy": 20480,
+  "input": {
+    "item": "create:crushed_raw_uranium"
+  },
+  "results": [
+    {
+      "base_ingredient": {
+        "tag": "forge:ingots/uranium"
+      },
+      "count": 2
+    }
+  ],
+  "slag": {
+    "tag": "forge:slag"
+  },
+  "time": 100
+}

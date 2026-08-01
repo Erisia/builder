@@ -1,0 +1,37 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/aluminum"
+      }
+    }
+  ],
+  "additives": [],
+  "energy": 25600,
+  "input": {
+    "tag": "forge:raw_materials/aluminum"
+  },
+  "results": [
+    {
+      "base_ingredient": {
+        "tag": "forge:ingots/aluminum"
+      },
+      "count": 2
+    }
+  ],
+  "secondaries": [
+    {
+      "chance": 0.5,
+      "output": {
+        "tag": "forge:ingots/aluminum"
+      }
+    }
+  ],
+  "slag": {
+    "tag": "forge:slag"
+  },
+  "time": 100
+}

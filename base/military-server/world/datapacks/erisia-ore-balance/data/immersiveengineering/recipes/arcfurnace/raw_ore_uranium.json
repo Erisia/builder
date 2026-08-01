@@ -1,0 +1,37 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/uranium"
+      }
+    }
+  ],
+  "additives": [],
+  "energy": 25600,
+  "input": {
+    "tag": "forge:raw_materials/uranium"
+  },
+  "results": [
+    {
+      "base_ingredient": {
+        "tag": "forge:ingots/uranium"
+      },
+      "count": 2
+    }
+  ],
+  "secondaries": [
+    {
+      "chance": 0.5,
+      "output": {
+        "tag": "forge:ingots/uranium"
+      }
+    }
+  ],
+  "slag": {
+    "tag": "forge:slag"
+  },
+  "time": 100
+}

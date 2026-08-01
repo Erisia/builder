@@ -1,0 +1,27 @@
+{
+  "type": "immersiveengineering:crusher",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:dusts/lead"
+      }
+    }
+  ],
+  "energy": 4000,
+  "input": {
+    "item": "create:crushed_raw_lead"
+  },
+  "result": {
+    "tag": "forge:dusts/lead"
+  },
+  "secondaries": [
+    {
+      "chance": 0.5,
+      "output": {
+        "tag": "forge:dusts/lead"
+      }
+    }
+  ]
+}

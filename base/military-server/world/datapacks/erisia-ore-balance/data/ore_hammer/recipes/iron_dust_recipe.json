@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:raw_materials/iron"
+    },
+    {
+      "tag": "forge:raw_materials/iron"
+    },
+    {
+      "tag": "forge:raw_materials/iron"
+    },
+    {
+      "tag": "forge:raw_materials/iron"
+    },
+    {
+      "item": "ore_hammer:crushing_hammer"
+    }
+  ],
+  "result": {
+    "item": "ore_hammer:iron_dust",
+    "count": 5
+  }
+}

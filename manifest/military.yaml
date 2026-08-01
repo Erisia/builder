@@ -280,16 +280,6 @@ nodes:
         file_id: WAuDF3CQ
         source: modrinth
         side: both
-      - name: kotlin-for-forge
-        id: ordsPcFz
-        file_id: Zsh14XeQ
-        source: modrinth
-        side: both
-      - name: create-enchantable-machinery
-        id: eqrvp4NK
-        file_id: xfc5brGW
-        source: modrinth
-        side: both
       - name: create-enchantment-industry
         id: JWGBpFUP
         file_id: fBncZZdn

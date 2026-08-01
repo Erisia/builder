@@ -1,0 +1,23 @@
+{
+  "type": "immersiveengineering:crusher",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:dusts/silver"
+      }
+    }
+  ],
+  "energy": 6000,
+  "input": {
+    "tag": "forge:raw_materials/silver"
+  },
+  "result": {
+    "base_ingredient": {
+      "tag": "forge:dusts/silver"
+    },
+    "count": 2
+  },
+  "secondaries": []
+}

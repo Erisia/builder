@@ -1,0 +1,23 @@
+{
+  "type": "immersiveengineering:crusher",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:dusts/zinc"
+      }
+    }
+  ],
+  "energy": 6000,
+  "input": {
+    "tag": "forge:raw_materials/zinc"
+  },
+  "result": {
+    "base_ingredient": {
+      "tag": "forge:dusts/zinc"
+    },
+    "count": 2
+  },
+  "secondaries": []
+}
