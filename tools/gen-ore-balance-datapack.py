@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 """Generate the erisia ore-balance datapack for the military pack.
 
+Output lands in base/military/moonlight-global-datapacks/, which Moonlight (Selene)
+loads into every world on both sides -- so singleplayer worlds made from the mrpack
+get the same ladder as the server.
+
 Ladder (per raw ore):
   furnace                     1.0x
   crushing wheels             1.5x  (1 crushed + 50% second, + 75% xp nugget)
@@ -14,7 +18,7 @@ Ladder (per raw ore):
 import json, os, shutil
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.join(HERE, '..', 'base', 'military-server', 'world', 'datapacks', 'erisia-ore-balance')
+ROOT = os.path.join(HERE, '..', 'base', 'military', 'moonlight-global-datapacks', 'erisia-ore-balance')
 METALS = ['iron', 'copper', 'gold', 'zinc', 'aluminum', 'lead', 'nickel', 'silver', 'uranium']
 HAMMER_METALS = ['iron', 'copper', 'gold']
 
