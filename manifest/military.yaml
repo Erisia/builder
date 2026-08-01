@@ -290,6 +290,11 @@ nodes:
         file_id: ANzThiOe
         source: modrinth
         side: both
+      - name: mafglib
+        id: SKI34J7B
+        file_id: 6lS8JYz3
+        source: modrinth
+        side: client
       - name: forgematica
         id: dCKRaeBC
         file_id: YncE2C0Y

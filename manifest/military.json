@@ -572,6 +572,19 @@
     "sha256": "98c86c584d56adba158343edf9090d18bf86bb6a06dc54488bbfdd183d0a2556"
   },
   {
+    "name": "mafglib",
+    "title": "MaFgLib",
+    "side": "client",
+    "required": true,
+    "default": true,
+    "filename": "MaFgLib-0.1.13-mc1.20.1.jar",
+    "encoded": "MaFgLib-0.1.13-mc1.20.1.jar",
+    "src": "https://cdn.modrinth.com/data/SKI34J7B/versions/6lS8JYz3/MaFgLib-0.1.13-mc1.20.1.jar",
+    "size": 521351,
+    "md5": "36866875120ec3ed767aedb3050aed2e",
+    "sha256": "ab7cc18b455edf4a186135a0b1a0931f469ea936831599e836c48e50eb325988"
+  },
+  {
     "name": "mod-whitelist",
     "title": "Mod Whitelist",
     "side": "both",
