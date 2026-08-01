@@ -85,6 +85,8 @@ The Nix build system creates several artifacts:
 4. Test changes locally
 5. Commit changes
 
+**Military commit/release convention:** prefix a commit `server-side:` (→ `military: server-side: …`) when it doesn't change the client `.mrpack` (server-only mods, `world/serverconfig`, whitelist); Modrinth publishes are tagged `military/<version>`.
+
 For CurseForge mods, configure API access in `mmmm.toml` with either:
 - `curse_api_key`: API key from console.curseforge.com
 - `curse_proxy_url`: Proxy service URL
