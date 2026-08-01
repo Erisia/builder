@@ -72,7 +72,7 @@
 		claimBonusPerPartyMember = 100
 		#How much the party's forceload limit should be increased per party member when option "partyOwnedClaims" is enabled.
 		#Range: > 0
-		forceloadBonusPerPartyMember = 2
+		forceloadBonusPerPartyMember = 0
 		#How much the party's claim limit should be increased when a player's party has at least another member and
 		#"partyOwnedClaims" is enabled. This bonus is added on top of "claimBonusPerPartyMember". The main use for this
 		#is to prevent players from claiming until they have started a party with another player ("maxPlayerClaims" should be 0).
@@ -98,7 +98,7 @@
 		#The maximum number of claimed chunks that a player can forceload. Additional forceloads can be configured in the player config.
 		#This value can be overridden with a player permission.
 		#Range: > 0
-		maxPlayerClaimForceloads = 10
+		maxPlayerClaimForceloads = 0
 		#The permission that should override the default "maxPlayerClaims" value. Set it to an empty string to never check permissions. The used permission system can be configured with "permissionSystem".
 		maxPlayerClaimsPermission = "xaero.pac_max_claims"
 		#The permission that should override the default "maxPlayerClaimForceloads" value. Set it to an empty string to never check permissions.

@@ -65,6 +65,19 @@
     "sha256": "68bec6d15bc7fce18dcc1b98a3c0d943e6697fcfbf9d7259db5156a7ea324556"
   },
   {
+    "name": "chunk-loaders",
+    "title": "Chunk Loaders",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "chunkloaders-1.2.9-forge-mc1.20.1.jar",
+    "encoded": "chunkloaders-1.2.9-forge-mc1.20.1.jar",
+    "src": "https://cdn.modrinth.com/data/t1VgucWo/versions/hfQ3VSpz/chunkloaders-1.2.9-forge-mc1.20.1.jar",
+    "size": 155478,
+    "md5": "c5522e61b188ce0637ea042116e39e85",
+    "sha256": "c2dcafcf63a4141f97e512a2b1c352de918a3e0b915e20d0c1496513235331ce"
+  },
+  {
     "name": "cloth-config",
     "title": "Cloth Config API",
     "side": "both",
@@ -180,6 +193,32 @@
     "size": 3509013,
     "md5": "3e0976b862fd087493c7356f623f5cd7",
     "sha256": "7d6dd0094d18d6bab64fcd7de680ea736015d1a1ffc472d3fe03122bc7aa0864"
+  },
+  {
+    "name": "create-enchantable-machinery",
+    "title": "Create: Enchantable Machinery",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "createenchantablemachinery-3.6.0+mc1.20.1-forge.jar",
+    "encoded": "createenchantablemachinery-3.6.0%2Bmc1.20.1-forge.jar",
+    "src": "https://cdn.modrinth.com/data/eqrvp4NK/versions/xfc5brGW/createenchantablemachinery-3.6.0%2Bmc1.20.1-forge.jar",
+    "size": 585417,
+    "md5": "4cb3722caa15bdebac20b0cb572291b6",
+    "sha256": "df751272f3201233e41ee068f743ce6eecbf56de001d569e0a21ea69ae71581a"
+  },
+  {
+    "name": "create-enchantment-industry",
+    "title": "Create: Enchantment Industry",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "create_enchantment_industry-1.4.0-for-create-6.0.8.jar",
+    "encoded": "create_enchantment_industry-1.4.0-for-create-6.0.8.jar",
+    "src": "https://cdn.modrinth.com/data/JWGBpFUP/versions/fBncZZdn/create_enchantment_industry-1.4.0-for-create-6.0.8.jar",
+    "size": 494161,
+    "md5": "97a32c262007a3c93aba33762df9faba",
+    "sha256": "b483586f7f337971004ee6eeb0835e26ccdd294934298933a5aa2df7d90575ef"
   },
   {
     "name": "create-steam-n-rails",
@@ -325,6 +364,19 @@
     "sha256": "9c2c9396a49e796d88497758caa4637d2bcbb433c318e2dd9cebcffbaf0f6c54"
   },
   {
+    "name": "forgematica",
+    "title": "Forgematica",
+    "side": "client",
+    "required": true,
+    "default": true,
+    "filename": "Forgematica-0.1.13-mc1.20.1.jar",
+    "encoded": "Forgematica-0.1.13-mc1.20.1.jar",
+    "src": "https://cdn.modrinth.com/data/dCKRaeBC/versions/YncE2C0Y/Forgematica-0.1.13-mc1.20.1.jar",
+    "size": 997501,
+    "md5": "8def10203e22c87e5820ecf2efd14184",
+    "sha256": "d2c7c9c9075ee4bd6a60e75bfcb14ea397a054ec441029960fc6890f330e539f"
+  },
+  {
     "name": "fracturepoint",
     "title": "Fracture Point",
     "side": "both",
@@ -349,6 +401,19 @@
     "size": 1038209,
     "md5": "1b8bd851bc57e2b87e285b98a7d92c76",
     "sha256": "4518779a31b6c2abb92c98b5ad17ef3d60177df68626bfc86c44de2764913c2b"
+  },
+  {
+    "name": "immersive-fixes",
+    "title": "Immersive Fixes",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "immersivefixes-1.6.1.jar",
+    "encoded": "immersivefixes-1.6.1.jar",
+    "src": "https://cdn.modrinth.com/data/AWRXGq2t/versions/Usc2uYH1/immersivefixes-1.6.1.jar",
+    "size": 40356,
+    "md5": "d1147600d74340fa82d8f717f12dd504",
+    "sha256": "dde89f1e076c7b2af5458eda61c06c189199f3011cb1c21b8f40f981b35a37bf"
   },
   {
     "name": "immersive-weathering",
@@ -429,6 +494,32 @@
     "sha256": "d9f60b5c16e778d7a27a3dddda0b8d3b693cfba6cf1b48ef4be3d8471b83fed9"
   },
   {
+    "name": "just-enough-professions-jep",
+    "title": "Just Enough Professions (JEP)",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "JustEnoughProfessions-forge-1.20.1-3.0.1.jar",
+    "encoded": "JustEnoughProfessions-forge-1.20.1-3.0.1.jar",
+    "src": "https://cdn.modrinth.com/data/kB56GtWA/versions/ANKVJC3T/JustEnoughProfessions-forge-1.20.1-3.0.1.jar",
+    "size": 24607,
+    "md5": "bee91e2889507c9264155b4eb8e1b864",
+    "sha256": "85b644b2f6cbcc3a73d240229065692717713e3d2cd2b60cb0c8eea9946f0535"
+  },
+  {
+    "name": "just-enough-resources-jer",
+    "title": "Just Enough Resources (JER)",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "JustEnoughResources-1.20.1-1.4.0.247.jar",
+    "encoded": "JustEnoughResources-1.20.1-1.4.0.247.jar",
+    "src": "https://cdn.modrinth.com/data/uEfK2CXF/versions/jW52tbTk/JustEnoughResources-1.20.1-1.4.0.247.jar",
+    "size": 276231,
+    "md5": "413f7d427a16254ec8e08f78094a206d",
+    "sha256": "cfea462b5ab4f15b38da6003f7d151bdbb68fa5af30084ae81b8ac0970d7aaae"
+  },
+  {
     "name": "keerdm-zombie-apocolypse-essentials",
     "title": "Keerdm Zombie Apocolypse  Essentials",
     "side": "both",
@@ -440,6 +531,19 @@
     "size": 241869,
     "md5": "b2cadbd5a8b5215b6bc8a69164b190c5",
     "sha256": "660e4304359a5721bde68c621a93a657f72a3f2a1f6439af4635410f70d5ec7a"
+  },
+  {
+    "name": "kotlin-for-forge",
+    "title": "Kotlin for Forge",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "kotlinforforge-4.12.0-all.jar",
+    "encoded": "kotlinforforge-4.12.0-all.jar",
+    "src": "https://cdn.modrinth.com/data/ordsPcFz/versions/Zsh14XeQ/kotlinforforge-4.12.0-all.jar",
+    "size": 7442998,
+    "md5": "d6a40dede74edbe646b34a1bafd53b4d",
+    "sha256": "6a66c6a68ec09f8717cdbf06883394f0ee24d7cd826b7134a0f81839e8e720ae"
   },
   {
     "name": "lesraisins-armor",
@@ -572,6 +676,19 @@
     "sha256": "5975e16a590a860c34aaf488b8e9a69eb404fe313f7456fe01e77dede567c1c1"
   },
   {
+    "name": "ore-hammer",
+    "title": "Ore Hammer",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "ore_hammer-2.1.0-forge-1.20.1.jar",
+    "encoded": "ore_hammer-2.1.0-forge-1.20.1.jar",
+    "src": "https://cdn.modrinth.com/data/Ik4HlYeI/versions/ANzThiOe/ore_hammer-2.1.0-forge-1.20.1.jar",
+    "size": 281347,
+    "md5": "d3302e9d67047e49a5ce767de840db3b",
+    "sha256": "fc30a1d084e0e08bc53cc2d95e2a7d430f6a7a91723007d71a0984870411765f"
+  },
+  {
     "name": "patchouli",
     "title": "Patchouli",
     "side": "both",
@@ -583,6 +700,19 @@
     "size": 642732,
     "md5": "78bd223d069fa9491e940d99a8f426b3",
     "sha256": "05f7b5d52f6b8f0fd7f8b4822fa07a192d1394d83a264309c9d221d6d4fd21c5"
+  },
+  {
+    "name": "ping-wheel",
+    "title": "Ping Wheel",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "Ping-Wheel-1.12.1-forge-1.20.1.jar",
+    "encoded": "Ping-Wheel-1.12.1-forge-1.20.1.jar",
+    "src": "https://cdn.modrinth.com/data/QQXAdCzh/versions/OIvI752z/Ping-Wheel-1.12.1-forge-1.20.1.jar",
+    "size": 157314,
+    "md5": "1881c256b86f5a4f744df7a1df362143",
+    "sha256": "71692ad5d2b410ebcfbe3bb6bdf151c40ea75d012c75aff3c6c1a37abf9e8057"
   },
   {
     "name": "pipez",
@@ -707,12 +837,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "sophisticatedbackpacks-1.20.1-3.24.58.1934.jar",
-    "encoded": "sophisticatedbackpacks-1.20.1-3.24.58.1934.jar",
-    "src": "https://cdn.modrinth.com/data/TyCTlI4b/versions/U1yKLvta/sophisticatedbackpacks-1.20.1-3.24.58.1934.jar",
-    "size": 1129076,
-    "md5": "94d90bcf9ba1ee6de6dd24b4523f7e0f",
-    "sha256": "1f56a799c108bcf05af27ee73e7a2233853997990bd952285267fd76bafad36e"
+    "filename": "sophisticatedbackpacks-1.20.1-3.24.62.2017.jar",
+    "encoded": "sophisticatedbackpacks-1.20.1-3.24.62.2017.jar",
+    "src": "https://cdn.modrinth.com/data/TyCTlI4b/versions/yTarLjsD/sophisticatedbackpacks-1.20.1-3.24.62.2017.jar",
+    "size": 1130879,
+    "md5": "97ed79fcf7e11a5cfa28bb126323087e",
+    "sha256": "2611134f64d665bdfa3592566a29afabdd22ed5d9572941c9fefd363975f185a"
   },
   {
     "name": "sophisticated-core",
@@ -720,12 +850,25 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "sophisticatedcore-1.20.1-1.3.58.2078.jar",
-    "encoded": "sophisticatedcore-1.20.1-1.3.58.2078.jar",
-    "src": "https://cdn.modrinth.com/data/nmoqTijg/versions/6l5pbJ0I/sophisticatedcore-1.20.1-1.3.58.2078.jar",
-    "size": 1607800,
-    "md5": "fa25ee6553900b27a169b1211b1ce0eb",
-    "sha256": "5833d07d70b74da8c388dd347120405cebeaaf1707351cfc5874722f29bcc37a"
+    "filename": "sophisticatedcore-1.20.1-1.3.73.2192.jar",
+    "encoded": "sophisticatedcore-1.20.1-1.3.73.2192.jar",
+    "src": "https://cdn.modrinth.com/data/nmoqTijg/versions/caACbM4f/sophisticatedcore-1.20.1-1.3.73.2192.jar",
+    "size": 1622706,
+    "md5": "10ac096be9fb84cea2ae63b6886d26fa",
+    "sha256": "1f14063c410dfe4fcae6b1f85a20ab913e00d6c5b085d30f48e931bad80e98a4"
+  },
+  {
+    "name": "sophisticated-storage",
+    "title": "Sophisticated Storage",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "sophisticatedstorage-1.20.1-1.4.78.2029.jar",
+    "encoded": "sophisticatedstorage-1.20.1-1.4.78.2029.jar",
+    "src": "https://cdn.modrinth.com/data/hMlaZH8f/versions/9zc0TRvC/sophisticatedstorage-1.20.1-1.4.78.2029.jar",
+    "size": 1822732,
+    "md5": "b6945040148928fcd8abbd2764607916",
+    "sha256": "8ed5f6c602ee42685107a199edd12de37af4448a25b8a019dc76ea09755a6b45"
   },
   {
     "name": "sound-physics-remastered",
@@ -752,6 +895,32 @@
     "size": 25670356,
     "md5": "b6726823c0e411c177e4702d1f725212",
     "sha256": "dd5d66221097de2da5be685f3b6200b5203cc2845fbde26cb815fc0fe4a13a81"
+  },
+  {
+    "name": "supermartijn642s-config-lib",
+    "title": "SuperMartijn642's Config Lib",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+    "encoded": "supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+    "src": "https://cdn.modrinth.com/data/LN9BxssP/versions/ZKor79dR/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+    "size": 206584,
+    "md5": "cbece61946d4e059e90806c19dd66082",
+    "sha256": "bea425ef7e9cd27a7fc0f4b89e00cbd0a1ee050f071ecaa9f28f7238f400f0a3"
+  },
+  {
+    "name": "supermartijn642s-core-lib",
+    "title": "SuperMartijn642's Core Lib",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "supermartijn642corelib-1.1.22-forge-mc1.20.1.jar",
+    "encoded": "supermartijn642corelib-1.1.22-forge-mc1.20.1.jar",
+    "src": "https://cdn.modrinth.com/data/rOUBggPv/versions/xYgfoDL5/supermartijn642corelib-1.1.22-forge-mc1.20.1.jar",
+    "size": 555653,
+    "md5": "623e437f6970841bb3b7313ac284d595",
+    "sha256": "a3479421dca11efb172d47df5f0e4ccc645ccca209bf9211992d03d92408fb33"
   },
   {
     "name": "the-lost-cities",

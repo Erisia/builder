@@ -139,11 +139,11 @@ nodes:
         source: modrinth
       - name: sophisticated-core
         id: nmoqTijg
-        file_id: 6l5pbJ0I
+        file_id: caACbM4f
         source: modrinth
       - name: sophisticated-backpacks
         id: TyCTlI4b
-        file_id: U1yKLvta
+        file_id: yTarLjsD
         source: modrinth
       - name: farmers-delight
         id: R2OftAxM
@@ -278,6 +278,71 @@ nodes:
       - name: simply-tools
         id: v7uAVl86
         file_id: WAuDF3CQ
+        source: modrinth
+        side: both
+      - name: kotlin-for-forge
+        id: ordsPcFz
+        file_id: Zsh14XeQ
+        source: modrinth
+        side: both
+      - name: create-enchantable-machinery
+        id: eqrvp4NK
+        file_id: xfc5brGW
+        source: modrinth
+        side: both
+      - name: create-enchantment-industry
+        id: JWGBpFUP
+        file_id: fBncZZdn
+        source: modrinth
+        side: both
+      - name: ore-hammer
+        id: Ik4HlYeI
+        file_id: ANzThiOe
+        source: modrinth
+        side: both
+      - name: forgematica
+        id: dCKRaeBC
+        file_id: YncE2C0Y
+        source: modrinth
+        side: client
+      - name: immersive-fixes
+        id: AWRXGq2t
+        file_id: Usc2uYH1
+        source: modrinth
+        side: both
+      - name: sophisticated-storage
+        id: hMlaZH8f
+        file_id: 9zc0TRvC
+        source: modrinth
+        side: both
+      - name: just-enough-professions
+        id: kB56GtWA
+        file_id: ANKVJC3T
+        source: modrinth
+        side: both
+      - name: ping-wheel
+        id: QQXAdCzh
+        file_id: OIvI752z
+        source: modrinth
+        side: both
+      - name: just-enough-resources-jer
+        id: uEfK2CXF
+        file_id: jW52tbTk
+        source: modrinth
+        side: both
+      - name: supermartijn642s-core-lib
+        id: rOUBggPv
+        file_id: xYgfoDL5
+        source: modrinth
+        side: both
+      - name: supermartijn642s-config-lib
+        id: LN9BxssP
+        file_id: ZKor79dR
+        source: modrinth
+        side: both
+      - name: chunk-loaders
+        id: t1VgucWo
+        file_id: hfQ3VSpz
         source: modrinth
         side: both
       - name: yetanotherhome
