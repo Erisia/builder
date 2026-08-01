@@ -1,0 +1,36 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "fail_chance": 0.1,
+  "ores": [
+    {
+      "chance": 0.6,
+      "output": {
+        "item": "kubejs:bedrock_diamond_ore_chunk"
+      }
+    },
+    {
+      "chance": 0.4,
+      "output": {
+        "item": "minecraft:clay"
+      }
+    }
+  ],
+  "spoils": [
+    {
+      "chance": 0.5,
+      "output": {
+        "item": "minecraft:cobblestone"
+      }
+    },
+    {
+      "chance": 0.5,
+      "output": {
+        "item": "minecraft:gravel"
+      }
+    }
+  ],
+  "weight": 8
+}

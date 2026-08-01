@@ -1,0 +1,48 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "fail_chance": 0.05,
+  "ores": [
+    {
+      "chance": 0.35,
+      "output": {
+        "item": "kubejs:bedrock_iron_ore_chunk"
+      }
+    },
+    {
+      "chance": 0.35,
+      "output": {
+        "item": "kubejs:bedrock_nickel_ore_chunk"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "tag": "forge:dusts/sulfur"
+      }
+    }
+  ],
+  "spoils": [
+    {
+      "chance": 0.2,
+      "output": {
+        "item": "minecraft:gravel"
+      }
+    },
+    {
+      "chance": 0.5,
+      "output": {
+        "item": "minecraft:cobblestone"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "item": "minecraft:cobbled_deepslate"
+      }
+    }
+  ],
+  "weight": 25
+}

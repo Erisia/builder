@@ -29,6 +29,30 @@ nodes:
         id: twkfQtEc
         file_id: 4f5Vm2TE
         source: modrinth
+      - name: architectury-api
+        id: lhGA9TYQ
+        file_id: 1MKTLiiG
+        source: modrinth
+      - name: rhino
+        id: sk9knFPE
+        file_id: uNALdylI
+        source: modrinth
+      - name: kubejs
+        id: umyGl7zF
+        file_id: hVR2xUSr
+        source: modrinth
+      - name: immersive-convergence
+        id: qb6tndiJ
+        file_id: tB08ui56
+        source: modrinth
+      - name: immersive-fixes
+        id: AWRXGq2t
+        file_id: N5I2j613
+        source: modrinth
+      - name: mct-immersive-technology
+        id: DvaEUke2
+        file_id: P70iUKlf
+        source: modrinth
       - name: immersive-weathering-forge
         id: jkskOO9i
         file_id: Fl2lADP9
@@ -113,6 +137,10 @@ nodes:
         id: tIm2nV03
         file_id: WUzj4tgJ
         source: modrinth
+      - name: engineered-schematics
+        id: t4meWc1o
+        file_id: GcTWh1Fm
+        source: modrinth
       - name: ritchies-projectile-lib
         id: B3pb093D
         file_id: PdGBsNte
@@ -133,6 +161,11 @@ nodes:
         id: u6dRKJwZ
         file_id: p5mYHvjx
         source: modrinth
+      - name: jei-multiblocks
+        id: ffLYPaWN
+        file_id: h8VFHckm
+        source: modrinth
+        side: client
       - name: jade
         id: nvQzSEkH
         file_id: LecuGude

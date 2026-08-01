@@ -26,6 +26,19 @@
     "sha256": "e12419e43e3babc810af289403c5cd96bd7f09809b389acc6bb2f122b4b2a426"
   },
   {
+    "name": "architectury-api",
+    "title": "Architectury API",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "architectury-9.2.14-forge.jar",
+    "encoded": "architectury-9.2.14-forge.jar",
+    "src": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
+    "size": 580602,
+    "md5": "76b40d407b6bf0257dd1dab6d3d395d5",
+    "sha256": "218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af"
+  },
+  {
     "name": "balm",
     "title": "Balm",
     "side": "both",
@@ -260,6 +273,19 @@
     "sha256": "eed3d1325f2acc2fd4e69bb495e5ccb91d962126ac5330f0582ebc2a3daf47fb"
   },
   {
+    "name": "engineered-schematics",
+    "title": "Engineered Schematics",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "EngineeredSchematics-1.2.4.jar",
+    "encoded": "EngineeredSchematics-1.2.4.jar",
+    "src": "https://cdn.modrinth.com/data/t4meWc1o/versions/GcTWh1Fm/EngineeredSchematics-1.2.4.jar",
+    "size": 281436,
+    "md5": "76f4350b4ff0b6b47bfb0818f27d2b5f",
+    "sha256": "1fb054b0d528b9cad451a736c6ec4c51854fc7b121848b4301fa30c9157a54e8"
+  },
+  {
     "name": "enhancedvisuals",
     "title": "EnhancedVisuals",
     "side": "client",
@@ -351,6 +377,32 @@
     "sha256": "4518779a31b6c2abb92c98b5ad17ef3d60177df68626bfc86c44de2764913c2b"
   },
   {
+    "name": "immersive-convergence",
+    "title": "Immersive Convergence",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "ImmersiveConvergence-1.20.1-1.0.0-b31-beta.jar",
+    "encoded": "ImmersiveConvergence-1.20.1-1.0.0-b31-beta.jar",
+    "src": "https://cdn.modrinth.com/data/qb6tndiJ/versions/tB08ui56/ImmersiveConvergence-1.20.1-1.0.0-b31-beta.jar",
+    "size": 193063,
+    "md5": "c5b8a53ead57605b5495d4023e0848c2",
+    "sha256": "1914b65d29b0acec486ff8b9813e373c59642d12f8d75c251026316c148339bb"
+  },
+  {
+    "name": "immersive-fixes",
+    "title": "Immersive Fixes",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "immersivefixes-1.0.5p3.jar",
+    "encoded": "immersivefixes-1.0.5p3.jar",
+    "src": "https://cdn.modrinth.com/data/AWRXGq2t/versions/N5I2j613/immersivefixes-1.0.5p3.jar",
+    "size": 29133,
+    "md5": "1951e4f93f72b441e74e2b7e638ea7ff",
+    "sha256": "4d31897e144c2b9442d5f8810f6d9b8ec58ba2a5ed70203afa8c128c59a80095"
+  },
+  {
     "name": "immersive-weathering",
     "title": "Immersive Weathering",
     "side": "both",
@@ -429,6 +481,19 @@
     "sha256": "d9f60b5c16e778d7a27a3dddda0b8d3b693cfba6cf1b48ef4be3d8471b83fed9"
   },
   {
+    "name": "jei-multiblocks",
+    "title": "Just Enough Immersive Multiblocks",
+    "side": "client",
+    "required": true,
+    "default": true,
+    "filename": "jeimultiblocks-1.20.1-1.0.6.jar",
+    "encoded": "jeimultiblocks-1.20.1-1.0.6.jar",
+    "src": "https://cdn.modrinth.com/data/ffLYPaWN/versions/h8VFHckm/jeimultiblocks-1.20.1-1.0.6.jar",
+    "size": 15818,
+    "md5": "1f25284e85703ddcb200cc46f18d028a",
+    "sha256": "d7da29387d477adb67e100275f00917b2cb102737c1c11e2a8271ad96e1578d4"
+  },
+  {
     "name": "keerdm-zombie-apocolypse-essentials",
     "title": "Keerdm Zombie Apocolypse  Essentials",
     "side": "both",
@@ -440,6 +505,19 @@
     "size": 241869,
     "md5": "b2cadbd5a8b5215b6bc8a69164b190c5",
     "sha256": "660e4304359a5721bde68c621a93a657f72a3f2a1f6439af4635410f70d5ec7a"
+  },
+  {
+    "name": "kubejs",
+    "title": "KubeJS",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "kubejs-forge-2001.6.5-build.26.jar",
+    "encoded": "kubejs-forge-2001.6.5-build.26.jar",
+    "src": "https://cdn.modrinth.com/data/umyGl7zF/versions/hVR2xUSr/kubejs-forge-2001.6.5-build.26.jar",
+    "size": 1658792,
+    "md5": "64ee6615f19fb9b2b11fee8b7385eaaf",
+    "sha256": "1769312192fbf9d72f45054ba61130523bfb471b5f480a4bff8c210ec09400bb"
   },
   {
     "name": "lesraisins-armor",
@@ -492,6 +570,19 @@
     "size": 5193935,
     "md5": "73f94347bbc9050c0a28cb9aff3c3d26",
     "sha256": "98c86c584d56adba158343edf9090d18bf86bb6a06dc54488bbfdd183d0a2556"
+  },
+  {
+    "name": "mct-immersive-technology",
+    "title": "Immersive Technology",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "MCT-ImmersiveTechnology-1.20.1-2.1.0-b6935-release.jar",
+    "encoded": "MCT-ImmersiveTechnology-1.20.1-2.1.0-b6935-release.jar",
+    "src": "https://cdn.modrinth.com/data/DvaEUke2/versions/P70iUKlf/MCT-ImmersiveTechnology-1.20.1-2.1.0-b6935-release.jar",
+    "size": 11948780,
+    "md5": "1fb7eabd7b2bcf00821cb6eeb7912fbc",
+    "sha256": "395408d4e427d17e7e4899d168e95b634a85ff5d86681985fb326edd57f28114"
   },
   {
     "name": "mod-whitelist",
@@ -622,6 +713,19 @@
     "size": 3300191,
     "md5": "17684bd6edc033897a41a81da0666fba",
     "sha256": "afda49a01e5ac8e20706032eb80699cc3b50d3b346478324ead62503cb774acd"
+  },
+  {
+    "name": "rhino",
+    "title": "Rhino",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "rhino-forge-2001.2.3-build.10.jar",
+    "encoded": "rhino-forge-2001.2.3-build.10.jar",
+    "src": "https://cdn.modrinth.com/data/sk9knFPE/versions/uNALdylI/rhino-forge-2001.2.3-build.10.jar",
+    "size": 1798244,
+    "md5": "59387620b0ef6becbff02c7c1636ad3e",
+    "sha256": "fed2211429301bf043864183cab9ab8e92d4cc4dbb9e488ce6c75217c54584a6"
   },
   {
     "name": "rpl",
