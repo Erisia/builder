@@ -7,10 +7,14 @@ give @s comforts:sleeping_bag_green
 give @s minecraft:red_bed
 give @s minecraft:torch 32
 give @s minecraft:bread 32
-give @s minecraft:stone_pickaxe
-give @s minecraft:stone_axe
-give @s minecraft:stone_shovel
-give @s minecraft:stone_sword
+give @s minecraft:iron_pickaxe
+give @s minecraft:iron_axe
+give @s minecraft:iron_shovel
+give @s minecraft:iron_sword
+give @s minecraft:iron_helmet
+give @s minecraft:iron_chestplate
+give @s minecraft:iron_leggings
+give @s minecraft:iron_boots
 give @s patchouli:guide_book{"patchouli:book":"patchouli:erisia_welcome"}
 
 # Czech, because the players are Czech kids. Mod UIs stay English -- this message
