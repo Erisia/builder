@@ -1,0 +1,32 @@
+{
+  "name": "JEI naplno",
+  "icon": "minecraft:crafting_table",
+  "category": "patchouli:pokrocile",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Základ znáš z první kapitoly: $(l)R$() = jak se to vyrábí, $(l)U$() = k čemu to je.$(br2)JEI toho ale umí víc a v modpacku s osmdesáti mody se to fakt vyplatí. U některých věcí najdeš i $(o)popisek$(), co s nimi."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Hledat podle modu",
+      "text": "Do hledání napiš $(l)@$() a jméno modu – třeba $(o)@create$() nebo $(o)@guns$().$(br2)Ukáže ti to jen věci z toho jednoho modu. Dobré, když víš, který mod má nějakou věc, ale netrefíš anglický název."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Výroba z receptu",
+      "text": "Když se díváš na recept a chceš ho vyrobit, zmáčkni tlačítko $(l)+$().$(br2)JEI ti suroviny samo naskládá do mřížky. Co ti chybí, $(o)zčervená$() – hned vidíš, co si ještě musíš sehnat."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Zaměnitelné suroviny",
+      "text": "Některé věci jdou v receptech $(o)navzájem nahradit$(). Napiš do hledání $(l)$cobblestone$() a uvidíš celou takovou skupinu.$(br2)Recept bude akceptovat kteroukoliv z nich. JEI je automaticky nahrazuje."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Záložky",
+      "text": "Najeď myší na věc a zmáčkni $(l)A$(). Objeví se vlevo v seznamu záložek.$(br2)Totéž jde udělat i z detailu receptu – tlačítkem záložky.$(br2)Používej to na věci, ke kterým se propracováváš: máš je pořád na očích a nemusíš je znovu hledat."
+    }
+  ]
+}

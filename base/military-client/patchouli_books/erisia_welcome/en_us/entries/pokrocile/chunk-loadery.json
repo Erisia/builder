@@ -1,0 +1,33 @@
+{
+  "name": "Chunk loadery",
+  "icon": "chunkloaders:basic_chunk_loader",
+  "category": "patchouli:pokrocile",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Minecraft počítá svět jen $(o)tam, kde zrovna někdo je$(). Jakmile odejdeš, tvoje farma přestane růst, pece dohasnou a stroje se zastaví – i když mají energie dost.$(br2)$(thing)Chunk Loader$() je krabice, která kus světa $(o)nechá běžet dál$(), i když jsi na druhé straně mapy nebo vůbec ve hře."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "chunkloaders:basic_chunk_loader",
+      "title": "Jak se používá",
+      "text": "Polož ho a klikni na něj $(o)pravým tlačítkem$(). Otevře se mapka okolních chunků.$(br2)Kliknutím chunk $(l)zapneš$() – od té chvíle běží pořád. Zeleně vidíš, co máš zapnuté, a co si zabral někdo jiný."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Čtyři velikosti",
+      "text": "$(li)$(item)Single$() – jeden chunk$(li)$(item)Basic$(), $(item)Advanced$(), $(item)Ultimate$() – čím dál větší čtverec$(br2)Kolik chunků daný loader umí, je napsané $(o)přímo v jeho popisku$() – najeď na něj myší v JEI.$(br2)Na jednu farmu úplně stačí Single. Větší si nech na velkou továrnu."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Co je dobré vědět",
+      "text": "$(li)Loader má $(o)majitele$().$(li)Klávesou (nastav si ji v $(l)Ovládání$()) si zobrazíš $(o)všechny svoje loadery$(), ať nezapomeneš, kde jsi jaký nechal.$(li)Když dlouho nehraješ, samy se vypnou – server tak netočí farmy donekonečna."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Nepřežeň to",
+      "text": "Každý zapnutý chunk stojí server výkon, a ten je společný. Když si každý zabere půlku mapy, bude to $(o)sekat všem$().$(br2)Zapínej jen to, co opravdu musí běžet: farma, drtička, ropa. Barák a sklad běžet nemusí."
+    }
+  ]
+}

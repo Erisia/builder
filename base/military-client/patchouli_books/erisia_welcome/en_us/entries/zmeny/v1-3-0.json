@@ -1,0 +1,12 @@
+{
+  "name": "Verze 1.3.0",
+  "icon": "minecraft:spyglass",
+  "category": "patchouli:zmeny",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Verze o velkých strojích.$(br2)$(li)$(thing)Immersive Petroleum$() – ropa, nafta a hlavně $(item)Engineer's Projector$(), který ti multiblok promítne do světa jako hologram.$(li)$(thing)JEI Immersive Multiblocks$() – stavbu si prohlédneš přímo v JEI, vrstvu po vrstvě.$(br2)Takže crusher už nemusíš stavět podle obrázku z internetu."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Jak si cokoli najít",
+  "icon": "minecraft:crafting_table",
+  "category": "patchouli:zaklady",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Modů je tu přes sto a nikdo je nezná všechny. Nemusíš se je učit – hra ti odpoví sama.$(br2)Menu modů jsou anglicky, ale tyhle tři věci jsou hlavně o klávese a obrázku."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "JEI – recepty",
+      "text": "Seznam všech věcí ve hře vpravo v inventáři.$(br2)$(li)Najeď myší na věc a zmáčkni $(l)R$() – $(o)jak se vyrábí$()$(li)Zmáčkni $(l)U$() – $(o)k čemu je$()$(br2)Nahoře se dá hledat, ale piš anglicky (třeba \"iron ore\")."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Ponder – animace",
+      "text": "U věcí z modu $(thing)Create$() najeď myší a zmáčkni $(l)W$().$(br2)Spustí se animace, která ti ukáže, jak se ta věc staví a co dělá. Že je popisek anglicky nevadí – jde o ten obrázek."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Jade – co to je?",
+      "text": "Když se na něco díváš, nahoře uprostřed je jméno bloku a mod, ze kterého je.$(br2)Takže když netušíš, na co koukáš, mrkni nahoru a to jméno pak zadej do JEI."
+    }
+  ]
+}

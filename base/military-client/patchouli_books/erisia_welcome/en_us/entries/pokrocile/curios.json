@@ -1,0 +1,17 @@
+{
+  "name": "Curios: sloty navíc",
+  "icon": "minecraft:amethyst_shard",
+  "category": "patchouli:pokrocile",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Některé věci $(o)nefungují v inventáři ani v ruce$() – musí být nasazené ve zvláštním slotu. Prsteny, opasky, brýle, batoh na zádech.$(br2)Od toho je $(thing)Curios$(). Není to mod, se kterým se hraje – je to ta obrazovka, kde se ty věci nosí."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "V inventáři je vedle postavičky $(o)malé tlačítko$(), které ji otevře.$(br2)Jde na to nastavit i klávesa – v $(l)Nastavení – Ovládání$() hledej $(o)Curios$().$(br2)Když ti nějaká věc nic nedělá, zkus ji dát sem. Většinou je to přesně ono.",
+      "title": "Jak ji otevřít"
+    }
+  ]
+}

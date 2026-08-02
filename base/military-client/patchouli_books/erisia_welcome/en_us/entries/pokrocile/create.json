@@ -1,0 +1,70 @@
+{
+  "name": "Create naplno",
+  "icon": "create:cogwheel",
+  "category": "patchouli:pokrocile",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Na $(thing)Create$() je hezké, že pořád vypadá jako vanilla – žádné blikající kabely a menu přes půl obrazovky.$(br2)Jsou to obyčejné díly: hřídel, kolo, pás. Teprve když je $(o)poskládáš dohromady$(), vznikne z nich stavba, která dělá práci za tebe."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "create:mechanical_harvester",
+      "title": "Příklad: farma sama pro sebe",
+      "text": "$(item)Mechanical Harvester$() sklidí obilí, když kolem něj projede. Přidělej ho na pohyblivou stavbu, pusť ji přes pole – a farma se sklízí sama.$(br2)Stejně jde udělat i farma na dřevo, jen místo něj vezmeš pilu.$(br2)Najeď na něj a zmáčkni $(l)R$() na recept, $(l)W$() na animaci."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Radši se podívej",
+      "text": "Tohle se čte blbě a kouká se na to skvěle. Zkus třeba tohle video:$(br2)$(l:https://www.youtube.com/watch?v=0DD45Bqy7MA)Create – automatické farmy$()$(br2)Pak už ti Ponder ($(l)W$()) ve hře doplní zbytek."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Dvě čísla, na kterých to stojí",
+      "text": "$(li)$(l)Rychlost (RPM)$() – jak rychle se to točí. Některé stroje chtějí minimum otáček.$(li)$(l)Stress (SU)$() – kolik síly stroje ubírají. Generátory ji dávají, stroje ji berou.$(br2)Když stroje chtějí víc, než generátor dá, $(o)celá síť se zastaví$(). Nerozbije se nic, jen to stojí."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "create:goggles",
+      "title": "Brýle",
+      "text": "$(item)Engineer's Goggles$() si nasaď na hlavu. Když se pak podíváš na díl, uvidíš, $(o)kolik síly bere nebo dává$() a jak je na tom celá síť.$(br2)Bez nich hádáš, s nimi vidíš. Jsou levné, vyrob si je hned."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "create:wrench",
+      "title": "Klíč",
+      "text": "$(item)Wrench$() otočí díl do jiného směru a $(o)pravým tlačítkem sundá$() celý kus, aniž bys ho rozbil.$(br2)Když ti něco běží obráceně, nerozebírej to – otoč to klíčem."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "create:water_wheel",
+      "title": "Odkud brát otáčky",
+      "text": "$(item)Water Wheel$() dej do tekoucí vody a máš energii zadarmo. Je to úplně první generátor, který postavíš.$(br2)Víc síly pak dá $(item)Steam Engine$(), ale ten chce kotel a palivo – nech si ho na později."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "create:shaft",
+      "title": "Rozvod síly",
+      "text": "$(item)Shaft$() (hřídel) vede otáčky rovně, $(item)Cogwheel$() (ozubené kolo) je předá vedle a $(o)obrátí směr$().$(br2)Velké a malé kolo vedle sebe navíc mění rychlost – tím se dá stroji přidat nebo ubrat otáčky."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "create:crushing_wheel",
+      "title": "První stroj, co postav",
+      "text": "$(item)Crushing Wheels$() se stavějí ve dvojici proti sobě a drtí rudu na drcenou – z jedné rudy pak máš $(l)1,5x$() víc kovu.$(br2)Je to nejrychleji vydělaná práce v celém packu. Víc v kapitole $(o)Z jedné rudy tři ingoty$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "create:andesite_alloy",
+      "title": "Postup materiálem 1",
+      "text": "$(item)Andesite Alloy$() je základ všeho začátečního – hřídele, kola, pásy, jednoduché stroje.$(br2)Dělá se z andezitu a železa, takže první, co budeš potřebovat, je $(o)hodně železa$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "create:brass_ingot",
+      "title": "Postup materiálem 2",
+      "text": "$(item)Brass Ingot$() odemyká přesnější stroje – drtiče, lisy, mechanické ruce.$(br2)Mosaz potřebuje $(o)zinek$(), a toho je nejvíc dole v deepslate – viz kapitola $(o)Kde kopat$().$(br2)Pak už jen stavíš to samé, ale větší a rychlejší."
+    }
+  ]
+}

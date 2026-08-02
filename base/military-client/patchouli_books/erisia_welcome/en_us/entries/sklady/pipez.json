@@ -1,0 +1,25 @@
+{
+  "name": "Pipez: přesouvání věcí",
+  "icon": "pipez:item_pipe",
+  "category": "patchouli:sklady",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "pipez:item_pipe",
+      "title": "Trubky",
+      "text": "$(thing)Pipez$() umí přenášet věci, tekutiny i energii. Pro každé je jedna trubka – $(item)Item$(), $(item)Fluid$(), $(item)Energy$() – a $(item)Universal Pipe$() umí všechno najednou.$(br2)Natáhni je mezi truhlu a stroj a ono si to samo poteče."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "pipez:wrench",
+      "title": "Nastavení klíčem",
+      "text": "$(item)Wrench$() je to důležité. Klikni s ním na konec trubky u stroje a otevře se nastavení:$(li)jestli tam věci $(o)dává$() nebo je $(o)bere$()$(li)$(l)filtr$() – ať jde do pece jen ruda a ne krumpáč$(li)jak rychle a po kolika kusech"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Trubka bez upgradu je pomalá. $(item)Basic$(), $(item)Improved$(), $(item)Advanced$() a $(item)Ultimate Upgrade$() zrychlují a zvyšují, kolik toho projde.$(br2)Dávají se do toho samého nastavení jako filtr.",
+      "title": "Vylepšení"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "IE: dráty a napětí",
+  "icon": "immersiveengineering:wirecoil_copper",
+  "category": "patchouli:pokrocile",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Elektřina v $(thing)Immersive Engineering$() se vede $(o)dráty mezi konektory$(), ne trubkami z bloků.$(br2)Jsou tři úrovně – $(l)LV$(), $(l)MV$() a $(l)HV$(). Každá má svůj drát a svůj konektor a $(o)navzájem se nespojí$(). Začíná se na LV a jde se nahoru, až když ti přestane stačit."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "immersiveengineering:wirecoil_copper",
+      "title": "LV – měď",
+      "text": "$(item)LV Wire Coil$() přenese $(l)2 048$() energie za tik a natáhne se na $(l)16 bloků$().$(br2)Na první generátor a pár strojů to bohatě stačí. Konektor k němu je $(item)LV Connector$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "immersiveengineering:wirecoil_electrum",
+      "title": "MV – elektrum",
+      "text": "$(item)MV Wire Coil$() přenese $(l)8 192$() za tik, taky na $(l)16 bloků$() – čtyřikrát víc než měď.$(br2)Na tohle přejdeš, až ti LV drát přestane stíhat zásobovat stroje."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "immersiveengineering:wirecoil_steel",
+      "title": "HV – ocel",
+      "text": "$(item)HV Wire Coil$() přenese $(l)32 768$() za tik a natáhne se až na $(l)32 bloků$().$(br2)Tímhle se vede proud na dálku – od generátorů k základně. Na malé stroje je to zbytečné."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "immersiveengineering:wirecoil_copper_ins",
+      "title": "Izolace: nesahej na dráty",
+      "text": "$(o)Holý drát pod proudem tě zraní$(), když do něj vlezeš. Nejsou to redstone dráty na zemi – vedou vzduchem přesně tam, kudy chodíš.$(br2)$(item)Insulated LV$() a $(item)Insulated MV$() jsou to samé, jen $(o)bezpečné na dotek$(). Přenesou úplně stejně.$(br2)Izoluje se $(item)Tough Fabric$() – ta se dělá z $(o)konopí$(), takže si ho napřed musíš vypěstovat. Z jednoho drátu a osmi látek jsou čtyři izolované.$(br2)$(l)HV izolovat nejde$() – ten veď vysoko nad hlavou."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Ztráty na délce",
+      "text": "Čím delší drát, tím víc energie se cestou $(o)ztratí$(). Proto se nevyplatí táhnout dlouhé vedení na LV.$(br2)Pravidlo: $(li)krátké rozvody u strojů – LV nebo MV$(li)dlouhá trasa – HV, a teprve u základny to přes transformátor sundej dolů$(br2)Kolik přesně drát unese, ti řekne $(o)Engineer's Manual$() – to je ta druhá knížka od IE."
+    }
+  ]
+}

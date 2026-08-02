@@ -104,6 +104,19 @@
     "sha256": "8af01712c0dc32cebaff31795ca6d223fddff2ea9b1f5efbd9c3a586a0dacbc0"
   },
   {
+    "name": "comforts",
+    "title": "Comforts",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "comforts-forge-6.4.0+1.20.1.jar",
+    "encoded": "comforts-forge-6.4.0%2B1.20.1.jar",
+    "src": "https://cdn.modrinth.com/data/SaCpeal4/versions/gBDsc134/comforts-forge-6.4.0%2B1.20.1.jar",
+    "size": 382083,
+    "md5": "a88fcc168de1a0f9b2ae4e7cbe8a8408",
+    "sha256": "56398103e0e3821c98f21a5b556d57deb0686b9f50868b4278ecb73cc9d2f42c"
+  },
+  {
     "name": "controlling",
     "title": "Controlling",
     "side": "client",
@@ -349,6 +362,19 @@
     "size": 123034,
     "md5": "f52f538207a4829d7060550092ce2383",
     "sha256": "9c2c9396a49e796d88497758caa4637d2bcbb433c318e2dd9cebcffbaf0f6c54"
+  },
+  {
+    "name": "forge-config-screens",
+    "title": "Forge Config Screens",
+    "side": "client",
+    "required": true,
+    "default": true,
+    "filename": "ForgeConfigScreens-v8.0.2-1.20.1-Forge.jar",
+    "encoded": "ForgeConfigScreens-v8.0.2-1.20.1-Forge.jar",
+    "src": "https://cdn.modrinth.com/data/5WeWGLoJ/versions/YUDLu26S/ForgeConfigScreens-v8.0.2-1.20.1-Forge.jar",
+    "size": 230578,
+    "md5": "29eeec02d540835f4bd22c21e7cae861",
+    "sha256": "0e2f3e6b962071da3c98292b3836bbfe5b03b8236a83043137a7e29b530ebd8e"
   },
   {
     "name": "forgematica",
@@ -1016,7 +1042,7 @@
   {
     "name": "yetanotherhome",
     "title": "yetanotherhome",
-    "side": "server",
+    "side": "both",
     "required": true,
     "default": true,
     "filename": "yetanotherhome-1.0.0.jar",

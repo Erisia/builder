@@ -1,0 +1,27 @@
+{
+  "name": "Mapa",
+  "icon": "minecraft:filled_map",
+  "category": "patchouli:zaklady",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Mapu si tu nemusíš vyrábět, máš ji hned.$(br2)$(li)V rohu obrazovky běží $(o)minimapa$()$(li)Klávesa $(l)M$() ji otevře $(o)přes celou obrazovku$()$(br2)Pod minimapou vidíš svoje souřadnice včetně $(l)Y$() – podle toho poznáš, jak hluboko kopeš."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Značky (waypointy)",
+      "text": "Nejrychlejší je klávesa $(l),$() – udělá značku $(o)tam, kde zrovna stojíš$().$(br2)Na velké mapě jde kliknout i $(o)pravým tlačítkem$() a dát $(l)Create waypoint$() kamkoli.$(br2)Značka je pak vidět i ve světě, i přes bloky. Klávesa $(l)U$() ukáže seznam všech."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Co si označit",
+      "text": "$(li)základnu$(li)vchod do jeskyně, kde jsi nechal věci$(li)město, které chceš vyrabovat$(li)místo, kde jsi umřel, než tam doběhneš$(br2)Značka stojí dvě vteřiny a ušetří ti půl hodiny bloudění."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Zabrat si chunk",
+      "text": "Na velké mapě klikni $(o)pravým tlačítkem$() a dej $(l)Claim selected$().$(br2)Zabraný chunk je $(o)chráněný$(): ostatní hráči v něm nerozbijou bloky a nezničí ti ho ani creeper.$(br2)Takže až si postavíš základnu, zaber si ji. Víc pokročilá ochrana je pak SecurityCraft"
+    }
+  ]
+}

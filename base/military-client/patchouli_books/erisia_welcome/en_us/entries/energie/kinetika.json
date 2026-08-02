@@ -1,0 +1,22 @@
+{
+  "name": "Create",
+  "icon": "minecraft:water_bucket",
+  "category": "patchouli:energie",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Create$() nejede na redstone ani na drátech. Jede na $(o)otáčení$(): něco se točí a hřídelemi a ozubenými koly to roztočí stroje.$(br2)Je to první energie, kterou tady budeš mít, a nic k ní nepotřebuješ."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Odkud brát otáčky",
+      "text": "$(li)$(item)Water Wheel$() – do tekoucí vody, funguje hned a dají se řetězit za sebe$(li)$(item)Windmill$() – plachty na hřídeli, vysoko nad zemí$(li)$(item)Steam Engine$() – později, ale dá mnohem víc$(br2)Pak už jen $(item)hřídele$() a $(item)ozubená kola$() vedou otáčky tam, kam potřebuješ."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Jak se v Create vyznat",
+      "text": "Každý blok z Create má animaci – najeď na něj v inventáři a drž $(l)W$().$(br2)Uvidíš přesně, jak se staví a co dělá. U Create je to fakt nejrychlejší cesta."
+    }
+  ]
+}

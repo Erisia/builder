@@ -1,0 +1,17 @@
+{
+  "name": "Když umřeš",
+  "icon": "minecraft:skeleton_skull",
+  "category": "patchouli:zaklady",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Věci se ti tu $(o)nevysypou po zemi$() a nezmizí za pět minut jako ve vanille.$(br2)Na místě smrti se objeví $(thing)hrob$() (mod Corpse). Jsou v něm všechny tvoje věci i zkušenosti, počká tam na tebe a nikdo jiný ho jen tak nevybere. Stačí na něj kliknout."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Jak se k hrobu dostat",
+      "text": "Napiš $(l)/back$() a server tě teleportuje zpátky na místo, kde jsi umřel.$(br2)Pořád tam ale může být to, co tě zabilo. Klidně si nejdřív skoč přes $(l)/home$() pro nové nářadí a teprve pak dej $(l)/back$()."
+    }
+  ]
+}

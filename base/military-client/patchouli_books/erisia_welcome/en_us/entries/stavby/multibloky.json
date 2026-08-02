@@ -1,0 +1,23 @@
+{
+  "name": "Jak postavit multiblok",
+  "icon": "minecraft:anvil",
+  "category": "patchouli:stavby",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Velké stroje z $(thing)Immersive Engineering$() (crusher, arc furnace, rafinerie) nejsou jeden blok. Musíš postavit $(o)přesnou stavbu$() z desítek bloků a pak do ní bouchnout $(item)Engineer's Hammerem$().$(br2)Když je jeden blok vedle, nestane se nic. Proto na to máš dva pomocníky."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "immersivepetroleum:projector",
+      "title": "Projector",
+      "text": "$(item)Projector$() (z Immersive Petroleum) ti stavbu $(o)promítne do světa$() jako průsvitný hologram.$(li)pravým tlačítkem otevřeš menu a vybereš stroj$(li)namíříš na zem a stavíš do obrysu$(li)$(o)Shift + kolečko$() ho otočí$(br2)Pak bouchni kladivem a stroj naskočí. Zdaleka nejjednodušší cesta."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Multiblocks v JEI",
+      "text": "Když si stavbu chceš jen $(o)prohlédnout$(), najdi stroj v JEI a klikni na něj. Ukáže ti ho jeho obrázek s materiálem, který potřebuješ.$(br2)Hodí se, když si chceš předem nachystat, kolik čeho vyrobit."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Průvodce Erisií",
+  "subtitle": "Server Kids Military Games",
+  "landing_text": "Vítej! Tahle knížka je celá česky a je v ní všechno, co potřebuješ vědět, než tě zabije první zombie. Vyber si kategorii.",
+  "book_texture": "patchouli:textures/gui/book_blue.png",
+  "model": "patchouli:book_blue",
+  "index_icon": "minecraft:red_bed",
+  "version": "1",
+  "show_progress": false,
+  "i18n": false
+}

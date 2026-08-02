@@ -197,6 +197,21 @@ nodes:
         id: nU0bVIaL
         file_id: 94dtOLgZ
         source: modrinth
+      # Sleeping bags: lets a new player skip the night before they have a base,
+      # without moving their respawn point.
+      - name: comforts
+        id: SaCpeal4
+        file_id: gBDsc134
+        source: modrinth
+      # In-game config editor, so JEI's "Install the Configured mod to access the
+      # in-game config" prompt has something to open. MrCrayfish's Configured is
+      # CurseForge-only for Forge 1.20.1, and the pack must stay all-Modrinth;
+      # this provides the same Forge config screens.
+      - name: forge-config-screens
+        id: 5WeWGLoJ
+        file_id: YUDLu26S
+        source: modrinth
+        side: client
       - name: open-parties-and-claims
         id: gF3BGWvG
         file_id: BOfbzRMc
@@ -353,7 +368,7 @@ nodes:
       - name: yetanotherhome
         source: url
         location: https://cdn.modrinth.com/data/vbd0ThlJ/versions/fWpnaGdA/yetanotherhome-1.0.0.jar
-        side: server
+        side: both
   - id: resolver
     kind: ModResolver
     input:

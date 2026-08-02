@@ -1,0 +1,27 @@
+{
+  "name": "Z jedné rudy tři ingoty",
+  "icon": "minecraft:iron_ingot",
+  "category": "patchouli:tezba",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "V peci dostaneš z jedné rudy jeden ingot, jako ve vanille. Tady se to dá vylepšit až na $(o)tři$().$(br2)Chce to práci si postavit ty stroje, ale ve výsledku je to rychlejší a zábavnější než kopat ručně."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Žebřík vylepšení",
+      "text": "$(li)pec – $(l)1,0x$()$(li)$(item)Crushing Hammer$() – $(l)1,25x$() (4 rudy + kladivo = 5 prachu, jen kovy)$(li)$(thing)Crushing Wheels$() (Create) – $(l)1,5x$()$(li)$(thing)Crusher$() (IE) – $(l)2,0x$()$(li)$(thing)Arc Furnace$() (IE) – $(l)2,5x$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Zapoj je za sebe",
+      "text": "Stroje se dají $(o)řetězit$(). Rudu nejdřív rozdrť Crushing Wheels a to drcené teprve pošli dál:$(br2)$(li)kola → IE crusher = $(l)2,25x$()$(li)kola → arc furnace = $(l)3,0x$()$(br2)Trojnásobek je strop, víc už z toho nedostaneš."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "V jakém pořadí to stavět",
+      "text": "$(li)Hned na začátku $(item)Crushing Hammer$() – je levné a máš o čtvrtinu víc kovu.$(li)Jakmile máš vodní kolo a trochu mosazi z Create, $(thing)Crushing Wheels$().$(li)Arc furnace až budeš mít elektřinu.$(br2)Recept ti ukáže JEI ($(l)R$())."
+    }
+  ]
+}

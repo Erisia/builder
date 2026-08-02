@@ -15,6 +15,7 @@
     "chunkloaders",
     "cloth_config",
     "clumps",
+    "comforts",
     "controlling",
     "cookingforblockheads",
     "copycats",
@@ -35,6 +36,7 @@
     "ferritecore",
     "flywheel",
     "forge",
+    "forgeconfigscreens",
     "forgematica",
     "geckolib",
     "immersive_weathering",
@@ -94,7 +96,8 @@
     "waystones",
     "xaerolib",
     "xaerominimap",
-    "xaeroworldmap"
+    "xaeroworldmap",
+    "yetanotherhome"
   ],
   "CLIENT_MOD_BLACKLIST": [
     "aristois",

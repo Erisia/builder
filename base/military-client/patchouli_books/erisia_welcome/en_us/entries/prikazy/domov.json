@@ -1,0 +1,17 @@
+{
+  "name": "Domov a návrat",
+  "icon": "minecraft:compass",
+  "category": "patchouli:prikazy",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Tyhle příkazy umí server, ne Minecraft – ve vanille je nenajdeš. Píšou se do chatu (klávesa $(l)T$()).$(br2)$(li)$(l)/sethome$() – uloží místo, kde zrovna stojíš$(li)$(l)/home$() – teleportuje tě na uložené místo$(li)$(l)/back$() – teleportuje tě tam, kde jsi byl předtím (i po smrti)"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "K čemu je to dobré",
+      "text": "Nemusíš stavět portály ani běhat přes půl mapy.$(br2)Máš plný batoh v jeskyni? $(l)/home$(), vysyp truhlu, $(l)/back$() a kopeš dál na stejném místě."
+    }
+  ]
+}

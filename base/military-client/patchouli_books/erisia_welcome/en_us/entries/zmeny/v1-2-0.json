@@ -1,0 +1,17 @@
+{
+  "name": "Verze 1.2.0",
+  "icon": "minecraft:iron_pickaxe",
+  "category": "patchouli:zmeny",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Verze o kopání.$(br2)$(li)$(o)Rudy jde násobit$() – drtící kola, crusher a arc furnace dávají z jedné rudy až tři ingoty.$(li)Přibyl $(item)Crushing Hammer$() pro úplný začátek.$(li)Když v JEI zmáčkneš $(l)R$() na rudě, uvidíš naměřený graf, kde ta ruda v tomhle světě opravdu je."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Dál v 1.2.0",
+      "text": "$(li)$(item)Chunk loadery$() – kus světa ti běží dál, i když tam nejsi.$(li)Pár věcí pro pohodlí: třídění inventáře, jména u chatu, minimapa."
+    }
+  ]
+}
