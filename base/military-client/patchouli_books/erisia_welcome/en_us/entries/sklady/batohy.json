@@ -8,23 +8,18 @@
       "type": "patchouli:spotlight",
       "item": "sophisticatedbackpacks:backpack",
       "title": "Batoh",
-      "text": "$(item)Backpack$() nosíš s sebou a otevřeš pravým tlačítkem. Dá se nosit i $(o)na zádech$() (přes Curios) a otevírat klávesou.$(br2)Vylepšuje se po úrovních – měď, železo, zlato, diamant – a každá úroveň má víc místa."
+      "text": "Otevřeš klávesou $(l)B$().$(br2)Dej ho v $(thing)Curios$() do slotu $(o)na záda$() – nezabírá místo."
     },
     {
       "type": "patchouli:text",
-      "title": "Nos ho na zádech",
-      "text": "Batoh nemusíš mít v ruce. Otevři si $(thing)Curios$() (tlačítko v inventáři) a dej ho do slotu $(o)na záda$() – tam nezabírá místo a je pořád s tebou.$(br2)Otevřeš ho pak klávesou $(l)B$(), ať už ho máš na zádech nebo jen v inventáři. Klávesa jde přenastavit v $(l)Ovládání$()."
-    },
-    {
-      "type": "patchouli:text",
-      "text": "V batohu je $(o)postranní záložka na upgrady$(). Tam je celý smysl modu:$(li)$(l)Pickup$() – co sebereš, jde rovnou do batohu$(li)$(l)Magnet$() – přitáhne věci ze země kolem tebe$(li)$(l)Stack$() – do jednoho slotu se vejde víc než 64$(li)$(l)Filter$() – pustí dovnitř jen to, co chceš",
-      "title": "To hlavní jsou vylepšení"
+      "title": "Vylepšení = celý smysl",
+      "text": "V batohu je $(o)záložka na upgrady$():$(li)$(l)Pickup$() – co sebereš, jde do batohu$(li)$(l)Magnet$() – přitáhne věci$(li)$(l)Stack$() – víc než 64 na slot$(li)$(l)Filter$() – jen to, co chceš"
     },
     {
       "type": "patchouli:spotlight",
       "item": "sophisticatedbackpacks:magnet_upgrade",
-      "title": "Kombinace na těžbu",
-      "text": "$(item)Magnet$() + $(item)Pickup$() + $(item)Filter$() na kámen a hlínu.$(br2)Kopeš a nemusíš nic sbírat ani vyhazovat – v batohu ti přistane jen ruda.$(br2)Vylepšení se dají $(o)vypínat klávesou$(), takže magnet nemusíš mít pořád zapnutý."
+      "title": "Na těžbu",
+      "text": "$(item)Magnet$() + $(item)Pickup$() + $(item)Filter$() na kámen.$(br2)Kopeš a v batohu ti přistane jen ruda."
     }
   ]
 }

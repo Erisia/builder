@@ -7,19 +7,14 @@
     {
       "type": "patchouli:spotlight",
       "item": "waystones:waystone",
-      "title": "Kámen, který si pamatuje",
-      "text": "$(item)Waystone$() postav a $(o)pravým tlačítkem$() ho aktivuj a pojmenuj.$(br2)Od té chvíle se k němu můžeš teleportovat z $(o)každého jiného$() aktivovaného kamene. Najdeš je i ve světě – vždycky na ně klikni, i když zrovna nikam nejdeš."
-    },
-    {
-      "type": "patchouli:text",
-      "text": "$(l)/home$() je jeden bod a máš ho hned. Waystones jsou $(o)síť$() – domov, důl, město, základna kamaráda.$(br2)Používej obojí: $(l)/home$() na rychlý návrat, kameny na místa, kam jezdíš pravidelně.",
-      "title": "Waystones vs. /home"
+      "title": "Kámen, co si pamatuje",
+      "text": "Postav a $(o)pravým tlačítkem$() aktivuj.$(br2)Pak se k němu teleportuješ z každého jiného. $(o)Klikni na každý, co potkáš.$()"
     },
     {
       "type": "patchouli:spotlight",
       "item": "waystones:warp_stone",
-      "title": "Teleport bez chození",
-      "text": "$(item)Warp Stone$() tě přenese na waystone, aniž bys k nějakému musel dojít. Dá se použít znovu a znovu, jen má po použití pauzu.$(br2)$(item)Warp Scroll$() dělá to samé, ale je na jedno použití – dobrý nouzový útěk do batohu."
+      "title": "Bez chození",
+      "text": "$(item)Warp Stone$() tě přenese na waystone odkudkoli. Má pauzu.$(br2)$(item)Warp Scroll$() to samé, ale na jedno použití."
     }
   ]
 }

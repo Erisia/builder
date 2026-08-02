@@ -6,27 +6,17 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(thing)Forgematica$() ti do světa promítne $(o)plán stavby$() jako průsvitný hologram a ty ho pak jen obstavíš.$(br2)Je to to samé, co dělá Projector u strojů z IE – jenže pro $(o)cokoli$(). Stáhneš si hotový dům nebo si uložíš vlastní stavbu a postavíš ji jinde."
+      "text": "Promítne ti $(o)plán stavby$() jako hologram a ty ho obstavíš.$(br2)Soubor $(o).litematic$() dej do složky $(o)schematics$(), pak ho v menu načti a umísti."
     },
     {
       "type": "patchouli:text",
-      "text": "$(li)Sežeň si soubor $(o).litematic$() (nebo si ho udělej z vlastní stavby)$(li)Dej ho do složky $(o)schematics$() ve svém Minecraftu$(li)V menu modu ho $(l)načti$() a $(l)umísti$() do světa$(li)Stav do hologramu, dokud nezčervená nic navíc",
-      "title": "Postup"
+      "title": "M je jako Ctrl",
+      "text": "$(li)$(l)M$() $(o)ťukni a pusť$() – menu$(li)$(l)M$() $(o)podrž$() + klávesa – zkratka (menu se neotevře)$(br2)Třeba $(l)M+A$() označí oblast."
     },
     {
       "type": "patchouli:text",
-      "text": "Forgematica $(o)není v Ovládání$() – má vlastní klávesy i vlastní nastavení.$(br2)$(l)M$() $(o)ťukni a pusť$() – otevře se menu.$(br2)$(l)M$() $(o)podrž$() a k tomu zmáčkni další klávesu – to je zkratka a menu se $(o)neotevře$(). Třeba $(l)M+A$() označí oblast, $(l)M+L$() ukáže seznam materiálu.$(br2)M je tu jako Ctrl – sama o sobě dělá menu, s něčím dalším dělá zkratku.",
-      "title": "Kde je menu"
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Napřed si přenastav klávesy",
-      "text": "Na $(l)M$() visí víc věcí naráz – menu Forgematicy, $(o)mapa$() a $(o)Mirror Projection$() od projektoru. Promiň, tohle si musíš jednou přenastavit sám.$(br2)$(li)$(l)Nastavení – Ovládání$()$(li)do hledání napiš $(l)key:M$()$(li)vyskočí ti všechno, co je na M$(br2)Pak to rozházej jinam. Já mám mapu na $(l).$() a Mirror Projection na $(l)\\$().$(br2)Forgematice $(o)M nech$() – všechny její zkratky jsou M+něco."
-    },
-    {
-      "type": "patchouli:text",
-      "text": "Na malou boudu je to zbytečné. Vyplatí se, když:$(li)stavíš něco velkého a symetrického$(li)chceš postavit to samé podruhé jinde$(li)stahuješ si stavbu, kterou udělal někdo jiný$(br2)Do survivalu ti nic nedá zadarmo – bloky si pořád musíš sehnat a položit sám.",
-      "title": "Kdy to použít"
+      "title": "Napřed přenastav klávesy",
+      "text": "Na $(l)M$() visí i mapa a Mirror Projection. Musíš to jednou přehodit sám:$(br2)$(li)$(l)Ovládání$() → hledej $(l)key:M$()$(li)já mám mapu na $(l).$() a Mirror na $(l)\\$()$(br2)Forgematice $(o)M nech$()."
     }
   ]
 }

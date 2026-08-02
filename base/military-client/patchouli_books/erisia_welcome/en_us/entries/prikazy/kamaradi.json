@@ -6,12 +6,12 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Taky serverová věc – teleport za jiným hráčem.$(br2)$(li)Ty napíšeš $(l)/tpa jméno$()$(li)Jemu se ukáže žádost$(li)Napíše $(l)/tpaccept$() a ty se u něj objevíš$(br2)Když nechce, dá $(l)/tpdeny$()."
+      "text": "$(li)ty: $(l)/tpa jméno$()$(li)on: $(l)/tpaccept$()$(li)nechce? $(l)/tpdeny$()"
     },
     {
       "type": "patchouli:text",
       "title": "Ukázat, kam koukáš",
-      "text": "$(thing)Ping Wheel$(): zmáčkni klávesu pro ping (defaultně tlačítko myši $(l)forward$() - ale musíš mít myš s 5 tlačítky) a označíš místo, na které se díváš. Ostatní ho uvidí přes bloky.$(br2)Rychlejší než diktovat souřadnice."
+      "text": "$(thing)Ping Wheel$() – klávesa pro ping označí místo. Ostatní ho vidí přes bloky.$(br2)Defaultně je na tlačítku myši $(o)forward$()."
     }
   ]
 }

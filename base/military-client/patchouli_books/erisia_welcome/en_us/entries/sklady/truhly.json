@@ -7,18 +7,13 @@
     {
       "type": "patchouli:spotlight",
       "item": "sophisticatedstorage:barrel",
-      "title": "Sud, který roste s tebou",
-      "text": "$(thing)Sophisticated Storage$() jsou truhly a sudy, které se dají $(o)vylepšovat$() – místo stavění dalších a dalších truhel jednu zvětšíš.$(br2)Berou stejné upgrady jako batohy, takže co ses naučil tam, platí i tady."
+      "title": "Sud, co roste",
+      "text": "Místo dalších truhel jednu $(o)vylepšíš$().$(br2)Bere stejné upgrady jako batoh."
     },
     {
       "type": "patchouli:text",
-      "text": "$(li)$(l)Tier upgrade$() – víc slotů$(li)$(l)Stack upgrade$() – víc kusů v jednom slotu$(li)$(l)Hopper / Pump$() – samo si to bere a dává$(li)$(l)Auto-smelting$() – co dáš dovnitř, samo se vypeče$(br2)Na truhle je vidět, co je uvnitř, takže nemusíš otevírat každou.",
-      "title": "Co se vyplatí"
-    },
-    {
-      "type": "patchouli:text",
-      "text": "Truhly stačí, dokud si pamatuješ, kde co je.$(br2)Až budeš toho mít tolik, že se v nich začneš ztrácet, je čas na $(thing)Refined Storage$() – to je hned další kapitola tady v Skladování.",
-      "title": "Kam to zapadá"
+      "title": "Co se vyplatí",
+      "text": "$(li)$(l)Tier$() – víc slotů$(li)$(l)Stack$() – víc kusů na slot$(li)$(l)Auto-smelting$() – samo peče$(br2)Na truhle je vidět, co je uvnitř."
     }
   ]
 }

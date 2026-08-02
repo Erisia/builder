@@ -6,29 +6,19 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Zabraný chunk (kapitola $(o)Mapa$() – Zabrat si chunk) je rychlá ochrana a na začátek stačí.$(br2)$(thing)SecurityCraft$() je ta druhá cesta: je to $(o)víc práce$(), ale postavíš si bázi, do které se nedostane vůbec nikdo. A je to zábavnější než kliknout na mapu."
+      "text": "Claim na mapě je rychlý. SecurityCraft je $(o)víc práce$(), ale do báze se nedostane vůbec nikdo."
     },
     {
       "type": "patchouli:spotlight",
       "item": "securitycraft:universal_block_reinforcer_lvl1",
-      "title": "Základní nástroj",
-      "text": "$(item)Universal Block Reinforcer$() (je ve třech úrovních, LvL1 až LvL3).$(br2)$(o)Levým tlačítkem$() klikneš na blok a ten se stane $(l)zesíleným$(). Od té chvíle ho rozbiješ $(o)jen ty$() – nikdo jiný.$(br2)Najeď na něj a zmáčkni $(l)R$(), ať vidíš, jak se vyrábí."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Odolá i Witherovi",
-      "text": "Zesílené bloky nezničí $(o)ani Wither$().$(br2)Toho se dá pěkně využít: postav si z nich místnost na souboj s Witherem. On z ní neuletí a nerozbije ji, ty se můžeš kdykoli stáhnout do chodby.$(br2)Je to zdaleka nejbezpečnější způsob, jak ho zabít."
+      "title": "Zesil si bloky",
+      "text": "$(o)Levým tlačítkem$() na blok a rozbiješ ho $(l)jen ty$().$(br2)Zesílené bloky nezničí ani Wither."
     },
     {
       "type": "patchouli:spotlight",
       "item": "securitycraft:keypad_door_item",
       "title": "Dveře na heslo",
-      "text": "$(item)Keypad Door$() se otevřou až po zadání $(o)hesla$(), které si nastavíš ty.$(br2)Stejně fungují i truhly, pece a další věci – v JEI si najdi $(o)keypad$() a uvidíš celou řadu.$(br2)Takže do báze pustíš jen toho, komu heslo řekneš."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Kde začít",
-      "text": "$(li)Zaber si chunk – to je pět vteřin práce.$(li)Zesil stěny a dveře báze Reinforcerem.$(li)Cennosti dej do truhly na heslo.$(br2)První krok ti zastaví ostatní hráče a creepery. Zbytek je na to, aby se k tobě nedostal ani někdo, kdo se opravdu snaží."
+      "text": "Otevřou se až po zadání hesla.$(br2)Stejně fungují truhly a pece – hledej v JEI $(o)keypad$()."
     }
   ]
 }

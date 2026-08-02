@@ -6,27 +6,17 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Kdy budou tanky? $(o)Ne hned$().$(br2)Zbraně z $(thing)TaCZ$() a vozidla ze $(thing)Superb Warfare$() vyžadují hodně ironu."
+      "text": "$(o)Ne hned.$() Nejdřív železo → Create → víc kovu → elektřina → ocel → teprve zbraně."
     },
     {
       "type": "patchouli:text",
-      "title": "Pořadí, ve kterém to jde",
-      "text": "$(li)dřevo, kámen, železo$(li)Create: vodní kolo a drtící kola$(li)víc kovu ze stejné rudy$(li)IE: kladivo, generátor, dráty$(li)ocel a elektrické stroje$(li)$(o)zbraně, munice, vozidla$()$(br2)Každý krok je spíš na pár večerů než na pár minut."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Zkratka: vyrabuj město",
-      "text": "Vyrobit zbraň je dlouhá cesta. $(o)Najít$() ji je rychlá.$(br2)V rozbořených městech jsou bedny a v nich se dají $(l)najít i zbraně a náboje$(). Klidně můžeš celou technickou cestu přeskočit a jít do města rovnou – pokud to přežiješ."
+      "title": "Zkratka",
+      "text": "Ve městech jsou bedny a v nich $(o)zbraně a náboje$(). Můžeš jít rovnou tam – jestli to přežiješ."
     },
     {
       "type": "patchouli:text",
       "title": "Háček",
-      "text": "Bedny se $(o)neobnovují$(). Co jednou někdo vybere, je pryč – ve městech blízko spawnu už nejspíš nic není.$(br2)Vyplatí se jít daleko od míst, kde ostatní staví. A ber si s sebou spacák a jídlo, město plné zombíků není procházka.$(br2)Technická cesta se pak stejně vyplatí – ta ti dá zbraní kolik chceš, ne kolik jich zbylo."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Co dělat mezitím",
-      "text": "$(li)Náboje se spotřebovávají po stovkách – automatizace se vyplatí dřív než samotná zbraň.$(li)Vozidla jedou na energii, ne na naftu – bez elektřiny se nerozjedou, začni s ní včas.$(li)Najdi si v JEI recept zbraně, kterou chceš, a $(o)odzadu$() dohledej, co ti k ní chybí."
+      "text": "Bedny se $(o)neobnovují$(). U spawnu je nejspíš prázdno – jdi daleko.$(br2)Náboje se žerou po stovkách, takže si je stejně budeš chtít vyrábět."
     }
   ]
 }

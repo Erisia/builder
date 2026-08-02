@@ -6,22 +6,17 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(thing)Immersive Engineering$() je druhý stupeň. Tady se vyrábí $(o)elektřina$() a vede se $(item)dráty$() mezi sloupy, klidně přes celou základnu.$(br2)Bez ní se nedostaneš k těžkým strojům ani k tomu, co potřebují vozidla."
+      "text": "Druhý stupeň: $(o)elektřina$(), vede se dráty mezi sloupy.$(br2)Bez ní nejsou těžké stroje ani vozidla."
     },
     {
       "type": "patchouli:text",
       "title": "Cesta k proudu",
-      "text": "$(li)Vyrob $(item)Engineer's Hammer$() – budeš ho potřebovat k manipulaci se složitějšími stroji.$(li)Postav $(item)Thermoelectric Generator$() nebo $(o)Water Wheel$() s $(item)Kinetic Dynamo$(). Později si můžeš udělat větší automatizaci a pálit naftu nebo bionaftu v $(item)Diesel Generatoru$() - pro představu Water Wheel vyrábí zhruba 60 energie, Diesel Generator přes 4 tisíce.$(li)Táhni dráty přes $(item)sloupy$() do $(item)konektorů$()."
+      "text": "$(li)vyrob $(item)Engineer's Hammer$()$(li)$(item)Water Wheel$() + $(item)Kinetic Dynamo$() (~60/t)$(li)později $(item)Diesel Generator$() (přes 4000/t)$(li)dráty přes sloupy do konektorů"
     },
     {
       "type": "patchouli:text",
-      "title": "Nafta a ropa",
-      "text": "$(thing)Immersive Petroleum$() umí hledat a čerpat ropu a dělat z ní naftu.$(br2)$(o)Naftu ale do tanku nenaliješ.$() Vozidla nádrž na palivo nemají – jedou na $(o)energii$() (FE). Nafta se pálí v $(item)Diesel Generatoru$() a ten z ní dělá právě tu energii."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Jak nabít tank",
-      "text": "Vozidla se dobíjejí z $(item)Charging Station$() (Superb Warfare). Postav ji k vozidlu a ono se nabije samo, když je v dosahu.$(br2)Nakrmit ji jde dvěma způsoby:$(li)hodíš do ní $(o)palivo nebo jídlo$() – funguje hned, ale je to pomalé$(li)přivedeš do ní $(o)proud$() z generátorů – tohle chceš dlouhodobě$(br2)Takže cesta k jezdícímu tanku vede přes elektřinu."
+      "title": "Tank nejede na naftu",
+      "text": "Vozidla jedou na $(o)energii$(), ne na palivo.$(br2)Postav k němu $(item)Charging Station$() a pusť do ní proud. Nabije se sama."
     }
   ]
 }

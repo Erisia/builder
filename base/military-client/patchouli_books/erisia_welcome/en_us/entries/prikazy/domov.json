@@ -6,12 +6,12 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Tyhle příkazy umí server, ne Minecraft – ve vanille je nenajdeš. Píšou se do chatu (klávesa $(l)T$()).$(br2)$(li)$(l)/sethome$() – uloží místo, kde zrovna stojíš$(li)$(l)/home$() – teleportuje tě na uložené místo$(li)$(l)/back$() – teleportuje tě tam, kde jsi byl předtím (i po smrti)"
+      "text": "Do chatu ($(l)T$()):$(br2)$(li)$(l)/sethome$() – ulož místo$(li)$(l)/home$() – vrať mě tam$(li)$(l)/back$() – vrať mě, kde jsem byl"
     },
     {
       "type": "patchouli:text",
-      "title": "K čemu je to dobré",
-      "text": "Nemusíš stavět portály ani běhat přes půl mapy.$(br2)Máš plný batoh v jeskyni? $(l)/home$(), vysyp truhlu, $(l)/back$() a kopeš dál na stejném místě."
+      "title": "Trik",
+      "text": "Plný batoh v jeskyni? $(l)/home$(), vysyp truhlu, $(l)/back$() a kopeš dál."
     }
   ]
 }

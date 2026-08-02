@@ -6,12 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Verze pro nováčky – tedy nejspíš pro tebe.$(br2)$(li)$(o)Startovní balíček$() při prvním připojení: spacák, postel, pochodně, jídlo, nářadí a tahle knížka.$(li)Uvítací zpráva v chatu, která ti rovnou řekne příkazy serveru."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Dál v 1.4.0",
-      "text": "$(li)$(o)Noc se přeskočí, když spí jeden hráč$() – nemusíte na sebe čekat.$(li)$(thing)Comforts$() – spacáky a houpací sítě. Vyspíš se v nich kdekoli a nepřepíše ti to respawn.$(li)Tahle příručka, celá česky, i s kapitolou o změnách."
+      "text": "$(li)startovní balíček při prvním připojení$(li)$(o)spí jeden, noc se přeskočí všem$()$(li)$(thing)Comforts$() – spacáky$(li)tahle příručka"
     }
   ]
 }

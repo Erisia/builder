@@ -6,35 +6,18 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Až budeš mít třicet truhel a pořád nebudeš vědět, kde je měď, přijde na řadu $(thing)Refined Storage$().$(br2)Věci se uloží na $(o)disky$() a ty pak máš $(o)terminál$(), ve kterém je vidět úplně všechno a dá se v tom hledat jako v JEI."
+      "text": "Jedno okno, ve kterém je $(o)všechno$() a dá se v tom hledat.$(br2)Až budeš mít třicet truhel, chceš tohle."
     },
     {
       "type": "patchouli:spotlight",
       "item": "refinedstorage:controller",
-      "title": "Srdce systému",
-      "text": "$(item)Controller$() je srdce sítě a $(o)potřebuje energii$() (FE) – tu už umíš vyrobit z IE.$(br2)Od něj vedou $(item)Cable$() ke všemu ostatnímu. Samotný Grid postavený bez controlleru $(o)nedělá vůbec nic$() – to není rozbité, jen to ještě není síť."
-    },
-    {
-      "type": "patchouli:spotlight",
-      "item": "refinedstorage:disk_drive",
-      "title": "Kam se to ukládá",
-      "text": "$(item)Disk Drive$() připoj kabelem a dej do něj $(item)Storage Disk$().$(br2)Disky mají velikosti (1k, 4k, 16k…). Čím větší, tím víc věcí – a dají se kdykoli přidat další."
-    },
-    {
-      "type": "patchouli:spotlight",
-      "item": "refinedstorage:grid",
-      "title": "Okno do skladu",
-      "text": "$(item)Grid$() je obrazovka, přes kterou k věcem přijdeš – s hledáním nahoře.$(br2)$(item)Crafting Grid$() umí navíc rovnou vyrábět z toho, co je ve skladu. Ten chceš."
+      "title": "Napřed proud",
+      "text": "$(item)Controller$() $(o)potřebuje energii$() (FE).$(br2)Grid bez controlleru $(o)nedělá nic$() – to není rozbité, jen to není síť."
     },
     {
       "type": "patchouli:text",
-      "text": "$(li)Controller (a proud do něj)$(li)pár kabelů$(li)Disk Drive + jeden disk$(li)Crafting Grid$(br2)To je všechno. Až pak přidávej $(item)Importer$() a $(item)Exporter$(), aby se do skladu věci vkládaly samy.",
-      "title": "Minimální sestava"
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Když to přestane fungovat",
-      "text": "Skoro vždycky je to $(o)proud$(). Controller si drží jen malou zásobu, takže když ti vypadne generátor, síť zhasne a věci ze skladu zmizí z okna.$(br2)$(o)Nic se neztratilo$() – jsou pořád na discích. Jakmile dáš proud zpátky, všechno se vrátí."
+      "title": "Minimální sestava",
+      "text": "$(li)$(item)Controller$() + proud$(li)pár $(item)Cable$()$(li)$(item)Disk Drive$() + disk$(li)$(item)Crafting Grid$()$(br2)Když vypadne proud, věci zmizí z okna. Nic se neztratilo."
     }
   ]
 }

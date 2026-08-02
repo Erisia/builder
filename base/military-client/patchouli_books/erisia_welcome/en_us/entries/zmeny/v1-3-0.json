@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Verze o velkých strojích.$(br2)$(li)$(thing)Immersive Petroleum$() – ropa, nafta a hlavně $(item)Engineer's Projector$(), který ti multiblok promítne do světa jako hologram.$(li)$(thing)JEI Immersive Multiblocks$() – stavbu si prohlédneš přímo v JEI, vrstvu po vrstvě.$(br2)Takže crusher už nemusíš stavět podle obrázku z internetu."
+      "text": "$(li)$(thing)Immersive Petroleum$() – ropa a nafta$(li)$(item)Projector$() – multiblok jako hologram$(li)multibloky v JEI"
     }
   ]
 }

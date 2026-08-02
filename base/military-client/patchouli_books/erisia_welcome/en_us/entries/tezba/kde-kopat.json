@@ -6,28 +6,18 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Kopat se tu dá jako ve vanille, ale $(o)jsou tu rudy, které možná neznáš$().$(br2)Když si v JEI vpravo zadáš $(o)ore$(), najdeš všechny rudy ve hře. Když na rudu najedeš myší a zmáčkneš $(l)R$(), zobrazí se ti graf, ze kterého poznáš nejlepší Y pro kopání. Tvoje aktuální Y vidíš pod minimapou.$(br2)Rudy mají dvě verze – kamennou a deepslate. Graf je u obou stejný, takže je jedno, kterou otevřeš."
+      "text": "$(li)$(l)y = 8 až 23$() – železo (nejlepší $(l)y=15$())$(li)$(l)y = -56 až -49$() – diamanty$(br2)$(o)Hlouběji na železo nechoď$() – je ho tam 5x míň."
     },
     {
       "type": "patchouli:text",
-      "title": "Železo: y = 8 až 23",
-      "text": "Nejlepší pásmo na železo je $(l)y = 8 až 23$(), nejlepší jediná hladina $(l)y = 15$().$(br2)$(o)Nechoď hlouběji.$() Dole v deepslate (y = -38 až -23) je tu železa asi $(l)5x míň$(). Zkus si to potvrdit v JEI, vyhledej $(o)iron ore$()."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Diamanty: y = -56 až -49",
-      "text": "Diamanty se chovají normálně, nejvíc jich je kolem $(l)y = -56 až -49$().$(br2)Zinek, galenit a scheelit (rudy z modů, budeš je potřebovat) jsou taky nejvíc dole v deepslate. Opět si najdi $(o)diamond ore$() v JEI."
+      "title": "Ověř si to",
+      "text": "V JEI zadej $(o)ore$(), najeď na rudu a dej $(l)R$() – uvidíš graf pro tenhle svět.$(br2)Kamenná i deepslate verze mají stejný graf."
     },
     {
       "type": "patchouli:spotlight",
       "item": "simplytools:stone_hammer",
       "title": "Kopej 3x3",
-      "text": "$(thing)Simply Tools$() přidává $(item)Hammer$() (kámen a rudy) a $(item)Excavator$() (hlína, štěrk, písek). Oba berou $(o)celé 3x3 najednou$(), takže chodbu uděláš na jeden zásek.$(br2)Vyrábí se z hlavy nástroje a klacků – zmáčkni $(l)R$() na recept. Kladiva jsou ve stejných úrovních jako krumpáče."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Trik s kladivy",
-      "text": "Kamenné kladivo je levné a rychle se sedře. Neber si dolů jedno – vezmi si $(o)klacky a materiál$() a vyrob si další rovnou v jeskyni, až se to první rozbije.$(br2)$(o)Pozor na jména:$() $(item)Hammer$() kope 3x3. $(item)Crushing Hammer$() je něco úplně jiného – ten drtí rudu na prach a je o něm další kapitola."
+      "text": "$(item)Hammer$() (kámen, rudy) a $(item)Excavator$() (hlína) berou $(o)3x3 najednou$().$(br2)$(o)Pozor:$() $(item)Crushing Hammer$() je něco jiného – ten drtí rudu."
     }
   ]
 }

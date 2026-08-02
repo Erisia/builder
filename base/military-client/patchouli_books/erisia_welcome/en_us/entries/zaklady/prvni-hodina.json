@@ -6,23 +6,18 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Při prvním připojení jsi dostal $(o)spacák, postel, 32 pochodní, chleba a kamenné nářadí$(). To není náhoda – tenhle svět je po $(thing)apokalypse$(): je tu tma, rozbořená města a zombie, které umí víc než ve vanille.$(br2)Plán na první hodinu je jako ve vanille."
+      "text": "Svět po apokalypse: tma, rozbořená města, zlé zombie.$(br2)Dostal jsi spacák, postel, pochodně, jídlo a nářadí."
     },
     {
       "type": "patchouli:text",
-      "title": "Postup",
-      "text": "$(li)Najdi si místo pro bázi nebo si udělej díru v kopci jako obvykle.$(li)Na cestách pokud tě zastihne noc, polož $(item)spacák$() na zem a $(o)vyspi se$() dřív, než tě sežerou zombíci.$(li)Až si najdeš bezpečné místo, polož $(item)postel$() a napiš $(l)/sethome$() - tím si uložíš místo, kam se pak můžeš zpátky teleportovat napsaním $(l)/home$()."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Noc přeskočíte",
-      "text": "Na tomhle serveru stačí, aby si šel spát $(o)jeden hráč$() – noc se přeskočí všem. Nemusíte se domlouvat ani na sebe čekat.$(br2)Takže když je venku tma a zombie, prostě si lehni. Nikoho tím nezdržuješ – naopak."
+      "title": "Plán",
+      "text": "$(li)vykopej díru, zeď za sebou$(li)polož $(item)spacák$(), vyspi se$(li)v bezpečí polož $(item)postel$() a dej $(l)/sethome$()$(br2)Spí jeden – noc se přeskočí všem."
     },
     {
       "type": "patchouli:spotlight",
       "item": "comforts:sleeping_bag_green",
       "title": "Spacák vs. postel",
-      "text": "$(item)Spacák$() (Comforts) polož kdekoli, vyspi se a zase ho seber. $(o)Nepřepíše ti místo, kde se objevíš po smrti$() – proto je ideální na cesty a na první noc.$(br2)$(item)Postel$() dělá to samé, ale navíc $(o)nastaví respawn$(). Tu si nech až do základny."
+      "text": "$(item)Spacák$(): spíš kdekoli, $(o)respawn nemění$().$(br2)$(item)Postel$(): nastaví respawn. Tu až do báze."
     }
   ]
 }

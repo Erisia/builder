@@ -6,17 +6,17 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(thing)Create$() nejede na redstone ani na drátech. Jede na $(o)otáčení$(): něco se točí a hřídelemi a ozubenými koly to roztočí stroje.$(br2)Je to první energie, kterou tady budeš mít, a nic k ní nepotřebuješ."
+      "text": "Create nejede na drátech, ale na $(o)otáčení$().$(br2)Točí se to → hřídele a kola to rozvedou do strojů."
     },
     {
       "type": "patchouli:text",
-      "title": "Odkud brát otáčky",
-      "text": "$(li)$(item)Water Wheel$() – do tekoucí vody, funguje hned a dají se řetězit za sebe$(li)$(item)Windmill$() – plachty na hřídeli, vysoko nad zemí$(li)$(item)Steam Engine$() – později, ale dá mnohem víc$(br2)Pak už jen $(item)hřídele$() a $(item)ozubená kola$() vedou otáčky tam, kam potřebuješ."
+      "title": "Odkud otáčky",
+      "text": "$(li)$(item)Water Wheel$() – do tekoucí vody, hned$(li)$(item)Windmill$() – plachty, vysoko$(li)$(item)Steam Engine$() – později, dá nejvíc"
     },
     {
       "type": "patchouli:text",
-      "title": "Jak se v Create vyznat",
-      "text": "Každý blok z Create má animaci – najeď na něj v inventáři a drž $(l)W$().$(br2)Uvidíš přesně, jak se staví a co dělá. U Create je to fakt nejrychlejší cesta."
+      "title": "Nečti, kominej",
+      "text": "Najeď na díl a dej $(l)W$(). Animace ti ukáže, jak se staví a co dělá."
     }
   ]
 }

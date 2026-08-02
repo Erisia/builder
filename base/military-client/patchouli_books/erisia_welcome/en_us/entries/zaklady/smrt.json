@@ -6,12 +6,12 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Věci se ti tu $(o)nevysypou po zemi$() a nezmizí za pět minut jako ve vanille.$(br2)Na místě smrti se objeví $(thing)hrob$() (mod Corpse). Jsou v něm všechny tvoje věci i zkušenosti, počká tam na tebe a nikdo jiný ho jen tak nevybere. Stačí na něj kliknout."
+      "text": "Věci se $(o)nevysypou$(). Na místě smrti je $(thing)hrob$() – klikni na něj a máš všechno zpátky."
     },
     {
       "type": "patchouli:text",
-      "title": "Jak se k hrobu dostat",
-      "text": "Napiš $(l)/back$() a server tě teleportuje zpátky na místo, kde jsi umřel.$(br2)Pořád tam ale může být to, co tě zabilo. Klidně si nejdřív skoč přes $(l)/home$() pro nové nářadí a teprve pak dej $(l)/back$()."
+      "title": "Jak se tam dostat",
+      "text": "$(l)/back$() tě vrátí na místo smrti.$(br2)Může tam být to, co tě zabilo. Klidně napřed $(l)/home$() pro nářadí."
     }
   ]
 }
