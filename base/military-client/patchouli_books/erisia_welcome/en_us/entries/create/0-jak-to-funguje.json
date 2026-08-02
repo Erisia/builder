@@ -1,0 +1,17 @@
+{
+  "name": "Jak to funguje",
+  "icon": "create:cogwheel",
+  "category": "patchouli:create",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Create nejede na drátech. Jede na $(o)otáčivém pohybu$().$(br2)$(l)zdroj$() → $(item)hřídele$() a $(item)kola$() → $(l)stroj$()$(br2)To je celý mod. Zbytek jsou detaily."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Dvě čísla",
+      "text": "$(li)$(l)Rychlost$() – jak rychle se to točí$(li)$(l)Stress$() – kolik to bere síly$(br2)Obojí uvidíš, když si nasadíš brýle."
+    }
+  ]
+}

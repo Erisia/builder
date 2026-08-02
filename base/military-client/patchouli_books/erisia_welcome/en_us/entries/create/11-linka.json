@@ -1,0 +1,33 @@
+{
+  "name": "Linka: víc kroků za sebou",
+  "icon": "create:belt_connector",
+  "category": "patchouli:create",
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Když věc potřebuje $(o)víc kroků$(), nemusíš ji přenášet z jednoho stroje do druhého.$(br2)Postav stroje $(o)za sebou podél jednoho pásu$(). Hodíš surovinu na začátek a na konci vypadne hotová věc."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "create:encased_fan",
+      "title": "Stroje, co pracují na páse",
+      "text": "$(li)$(item)Mechanical Press$() – nad pásem$(li)$(item)Mechanical Saw$() – řeže, co jede kolem$(li)$(item)Deployer$() – použije na věc nástroj$(li)$(item)Encased Fan$() – fouká přes blok před sebou"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Ventilátor umí tři věci",
+      "text": "Podle toho, co mu dáš $(o)před sebe$():$(li)$(l)voda$() – myje$(li)$(l)oheň$() – udí$(li)$(l)láva$() – taví$(br2)Fouká skrz pás, takže věci se zpracují za jízdy."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Hotový příklad",
+      "text": "$(li)ruda spadne mezi $(item)Crushing Wheels$()$(li)drcená ruda dopadne na pás$(li)pás ji veze pod $(item)Encased Fan$() foukající přes vodu$(br2)Vypadne $(l)9 nugetů$() a k tomu často $(item)redstone$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Video",
+      "text": "$(l:https://www.youtube.com/watch?v=68TciXvd6ac)Jak se to staví$()$(br2)Pak už jen přidáváš další stroje na stejný pás."
+    }
+  ]
+}

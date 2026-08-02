@@ -1,0 +1,25 @@
+{
+  "name": "Pohyblivé stavby",
+  "icon": "create:mechanical_bearing",
+  "category": "patchouli:create",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "create:mechanical_bearing",
+      "title": "Roztoč barák",
+      "text": "$(item)Mechanical Bearing$() přilepí stavbu a $(o)otáčí s ní$().$(br2)$(item)Mechanical Piston$() s ní zase posouvá."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "create:mechanical_harvester",
+      "title": "Farma, co se sklidí sama",
+      "text": "Dej $(item)Mechanical Harvester$() na pohyblivou stavbu a pusť ji přes pole.$(br2)$(item)Mechanical Saw$() na stavbě zase pokácí stromy."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Video",
+      "text": "$(l:https://www.youtube.com/watch?v=0DD45Bqy7MA)Automatické farmy$()$(br2)V packu je i $(thing)Steam'n'Rails$() – vlaky."
+    }
+  ]
+}

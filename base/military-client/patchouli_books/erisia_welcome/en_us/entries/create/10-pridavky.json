@@ -1,0 +1,32 @@
+{
+  "name": "Co ke Create ještě máš",
+  "icon": "createdeco:andesite_catwalk",
+  "category": "patchouli:create",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "createtaczauto:casing_9mm",
+      "title": "Vyrábět náboje",
+      "text": "$(thing)Create TaCZ Automation$() umí nábojnice pro $(o)všechny ráže$() – 9mm, 5.56, .50 BMG, 40mm i RPG.$(br2)Z mosazného plechu, přes Create stroje. Když hodně střílíš, tohle je odpověď."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "create_enchantment_industry:disenchanter",
+      "title": "Enchanty ve velkém",
+      "text": "$(thing)Enchantment Industry$():$(li)$(item)Disenchanter$() – vytáhne enchant z věci jako $(o)tekuté zkušenosti$()$(li)$(item)Experience Rotor$() – ze zkušeností udělá otáčky$(li)$(item)Printer$() – kopíruje enchantované knížky"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "railways:blue_conductor_cap",
+      "title": "Vlaky",
+      "text": "$(thing)Steam'n'Rails$() přidává opravdové vlaky – koleje, spřáhla a $(item)Conductor's Cap$(), po kterém ti vlak řídí panďulák.$(br2)A hromadu kovových bloků na stavbu nádraží."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "copycats:copycat_stairs",
+      "title": "Stavění",
+      "text": "$(thing)Create Deco$() – lávky, plechy, lampy, kontejnery.$(br2)$(thing)Copycats+$() – blok, který si $(o)vezme vzhled jiného bloku$(). Schody z čehokoli."
+    }
+  ]
+}

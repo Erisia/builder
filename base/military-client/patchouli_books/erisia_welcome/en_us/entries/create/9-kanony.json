@@ -1,0 +1,30 @@
+{
+  "name": "Kanóny",
+  "icon": "createbigcannons:cast_iron_cannon_barrel",
+  "category": "patchouli:create",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Create: Big Cannons$() přidává $(o)opravdová děla$(). Ne dekoraci – tyhle střílejí a boří.$(br2)Je to $(o)velký projekt$(): hlaveň se nejdřív odlije z roztaveného kovu a pak vyvrtá vrtačkou na otáčky."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "createbigcannons:cannon_mount",
+      "title": "Postavit a zaměřit",
+      "text": "Hotové díly polož na $(item)Cannon Mount$().$(br2)$(li)redstone na $(o)hammer face$() – dělo se sestaví$(li)signál do mountu s ním $(o)míří$() nahoru a dolů$(li)signál na $(o)svítící stranu$() = výstřel"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "createbigcannons:powder_charge",
+      "title": "Nabíjení – tady pozor",
+      "text": "Do hlavně jde $(item)Powder Charge$() a před něj střela.$(br2)$(li)$(o)málo prachu$() – střela se zasekne v hlavni$(li)$(o)moc prachu$() – dělo $(l)vybouchne$()$(br2)Litinové unese $(l)2 prachy$(). Silnější kov unese víc."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "createbigcannons:autocannon_ammo_container",
+      "title": "Autocannon",
+      "text": "Rychlopalná verze. Nábojnice mu dáš v $(item)Ammo Containeru$() – klikni s ním na breech.$(br2)$(li)$(o)silnější redstone = rychlejší palba$()$(li)$(item)Wrench$() na breech přidá $(o)držadla$() – pak střílíš sám a dá se přidat i sedačka"
+    }
+  ]
+}

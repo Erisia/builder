@@ -1,0 +1,31 @@
+{
+  "name": "První stroje",
+  "icon": "create:millstone",
+  "category": "patchouli:create",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "create:millstone",
+      "title": "Mlýnek",
+      "text": "$(item)Millstone$() mele $(o)obilí na mouku$(), semínka na olej a podobně. $(o)Rudu nemele$().$(br2)Nahoru dej $(item)Hand Crank$() a toč ručně – funguje i bez jakéhokoli zdroje."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "create:crushing_wheel",
+      "title": "Drtící kola",
+      "text": "Na $(o)rudu$() jsou tyhle. Dvě $(item)Crushing Wheels$() proti sobě = $(l)1,5x$() víc kovu.$(br2)Kvůli tomuhle to celé stavíš."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "A dál",
+      "text": "$(li)$(item)Mechanical Press$() – plechy$(li)$(item)Mechanical Mixer$() + $(item)Basin$() – míchání, auto-potions$(li)$(item)Mechanical Saw$() – prkna a dřevo$(br2)Recept: $(l)R$(). Jak to funguje: $(l)W$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "create:brass_ingot",
+      "title": "Progrese materiálů",
+      "text": "$(item)Andesite Alloy$() → $(item)Brass Ingot$() → přesnější stroje.$(br2)Na mosaz potřebuješ $(o)zinek$() – ten je dole v deepslate."
+    }
+  ]
+}

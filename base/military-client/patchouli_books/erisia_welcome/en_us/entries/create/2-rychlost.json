@@ -1,0 +1,25 @@
+{
+  "name": "Rychlost a směr",
+  "icon": "create:large_cogwheel",
+  "category": "patchouli:create",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "create:cogwheel",
+      "title": "Kola točí opačně",
+      "text": "Dvě kola vedle sebe se točí $(o)proti sobě$(). Rychlost zůstane stejná.$(br2)$(item)Shaft$() vede otáčky rovně a nemění nic."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "create:large_cogwheel",
+      "title": "Zrychlení a zpomalení",
+      "text": "Velké a malé kolo se spojí jen $(o)přes roh$(), ne vedle sebe.$(br2)$(li)velké → malé = $(l)2x rychleji$()$(li)malé → velké = $(l)2x pomaleji$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Stroje chtějí minimum",
+      "text": "V popisku stroje je $(l)Speed Requirement$(): $(o)Slow / Moderate / Fast$().$(br2)Když se točí pomaleji, stroj stojí. Přidej mu otáčky přes malé kolo."
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "name": "IE: dráty a napětí",
   "icon": "immersiveengineering:wirecoil_copper",
   "category": "patchouli:pokrocile",
-  "sortnum": 3,
+  "sortnum": 2,
   "pages": [
     {
       "type": "patchouli:text",

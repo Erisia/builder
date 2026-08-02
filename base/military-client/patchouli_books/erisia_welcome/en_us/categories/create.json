@@ -1,0 +1,6 @@
+{
+  "name": "Create",
+  "description": "Stroje na otáčení. Nejdřív ti to zdvojnásobí rudu, potom ti to postaví farmu.",
+  "icon": "create:cogwheel",
+  "sortnum": 3
+}

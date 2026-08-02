@@ -1,0 +1,30 @@
+{
+  "name": "Jak do stroje dostat věci",
+  "icon": "create:belt_connector",
+  "category": "patchouli:create",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(o)Zapomeň na hoppery.$() Create má na přesouvání vlastní věci."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "create:belt_connector",
+      "title": "Pás",
+      "text": "Vezmi $(item)Belt$() a klikni na $(o)dvě hřídele$() pod sebou nebo vedle sebe – mezi nimi se natáhne pás.$(br2)Věci po něm jedou a stroje ty věci zpracovávají (např. lis: ingot=>plát)."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "create:andesite_funnel",
+      "title": "Trychtýř",
+      "text": "$(item)Funnel$() sype věci $(o)dovnitř$() truhly nebo je z ní $(o)bere ven$().$(br2)Má směr – $(item)Wrenchem$() ho otočíš. Špatně otočený trychtýř je nejčastější chyba."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "create:depot",
+      "title": "Depot a chute",
+      "text": "$(item)Depot$() je stolek na $(o)jeden předmět$(). Položíš na něj věc a lis na ni shora klepne.$(br2)Použij ho, když nechceš pás – třeba u jednoho lisu.$(br2)$(item)Chute$() je svislá roura pro věci padající dolů."
+    }
+  ]
+}

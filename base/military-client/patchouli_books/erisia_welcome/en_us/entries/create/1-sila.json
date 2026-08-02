@@ -1,0 +1,37 @@
+{
+  "name": "Odkud brát sílu",
+  "icon": "create:water_wheel",
+  "category": "patchouli:create",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "create:water_wheel",
+      "title": "1. Vodní kolo",
+      "text": "Do $(o)tekoucí vody$(), nic víc nepotřebuje. Dá $(l)32 SU$().$(br2)Dají se $(o)řetězit$() – postav jich vedle sebe kolik chceš na jednu hřídel a síla se sčítá."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "create:large_water_wheel",
+      "title": "Velké vodní kolo",
+      "text": "$(item)Large Water Wheel$() dá $(l)128 SU$() – čtyři malá v jednom."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "create:windmill_bearing",
+      "title": "2. Větrník",
+      "text": "$(item)Windmill Bearing$() + plachty, nahoře nad zemí. Dá $(l)512 SU$().$(br2)Potřebuje $(o)aspoň 8 plachet$(), každých 8 přidá 1 otáčku.$(br2)$(l:https://www.youtube.com/shorts/CS_2mtyUyTg)Video: větrník za minutu$()"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "create:steam_engine",
+      "title": "3. Parní stroj",
+      "text": "$(item)Steam Engine$() na $(item)Fluid Tank$() s vodou, pod ním $(item)Blaze Burner$(). Jeden dá $(l)1024 SU$().$(br2)$(l:https://www.youtube.com/watch?v=F1fOt9LS98E)Video: nejjednodušší parní stroj$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Až vyrosteš",
+      "text": "Kotel se dá stavět i pořádně velký, s hromadou strojů na jednom tanku.$(br2)$(l:https://www.youtube.com/watch?v=X_NPdaYHVKk)Video: velký parní stroj$()$(br2)Tohle fakt nepotřebuješ hned."
+    }
+  ]
+}

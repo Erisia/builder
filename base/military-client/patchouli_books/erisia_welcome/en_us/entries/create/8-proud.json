@@ -1,0 +1,20 @@
+{
+  "name": "Převod otáčení na energii",
+  "icon": "createaddition:alternator",
+  "category": "patchouli:create",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "createaddition:alternator",
+      "title": "Otáčení → elektřina",
+      "text": "$(item)Alternator$() nasaď na hřídel a ten otáčení převede $(o)elektřinu$() (FE).$(br2)Vodní kolo ti tak napájí i stroje z IE."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "createaddition:electric_motor",
+      "title": "Elektřina → otáčení",
+      "text": "$(item)Electric Motor$() to umí obráceně.$(br2)Rychlost mu nastavíš $(item)Wrenchem$()."
+    }
+  ]
+}

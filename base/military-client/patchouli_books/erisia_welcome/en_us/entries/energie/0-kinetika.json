@@ -1,0 +1,17 @@
+{
+  "name": "Create",
+  "icon": "minecraft:water_bucket",
+  "category": "patchouli:energie",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "První energie, kterou tady budeš mít, je $(o)otáčení$() – ne dráty.$(br2)Vodní kolo, hřídele, ozubená kola, stroje."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Víc v kapitole Create",
+      "text": "Má vlastní sekci v téhle knížce.$(br2)Nejdůležitější je z ní $(thing)Crushing Wheels$() – ty ti zdvojnásobí kov z rudy."
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "name": "Waystones: cestování",
   "icon": "waystones:waystone",
   "category": "patchouli:pokrocile",
-  "sortnum": 5,
+  "sortnum": 4,
   "pages": [
     {
       "type": "patchouli:spotlight",

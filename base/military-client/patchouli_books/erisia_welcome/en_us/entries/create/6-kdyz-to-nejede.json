@@ -1,0 +1,22 @@
+{
+  "name": "Když to nejede",
+  "icon": "create:stressometer",
+  "category": "patchouli:create",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Projdi to odshora, je to skoro vždycky jedno z toho."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Checklist",
+      "text": "$(li)$(l)Overstressed$()? – málo síly, přidej zdroj$(li)točí se to $(o)pomalu$()? – stroj má minimum$(li)velké a malé kolo musí být $(o)přes roh$(), ne vedle sebe$(li)$(item)Funnel$() otočený špatně$(li)hřídel od zdroje nikam nevede"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Nejrychlejší kontrola",
+      "text": "Nasaď $(item)Engineer's Goggles$() a koukni na díl.$(br2)Uvidíš rychlost i sílu a hned poznáš, kde to končí."
+    }
+  ]
+}

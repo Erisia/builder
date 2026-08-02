@@ -1,0 +1,23 @@
+{
+  "name": "Stress",
+  "icon": "create:goggles",
+  "category": "patchouli:create",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Zdroj dává sílu, stroj ji bere.$(br2)Když stroje chtějí víc, celá síť se $(o)zastaví$() a bliká $(l)Overstressed$().$(br2)Nic se nerozbije. Jen to stojí."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "create:goggles",
+      "title": "Nasaď si brýle",
+      "text": "S $(item)Engineer's Goggles$() vidíš u každého dílu, kolik bere a kolik zbývá.$(br2)Bez nich jenom hádáš."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Když je málo síly",
+      "text": "$(li)přidej další zdroj – síla se $(o)sčítá$()$(li)nebo vypni, co zrovna nepotřebuješ$(br2)Stačí nová kola připojit na tu samou $(item)hřídel$()."
+    }
+  ]
+}

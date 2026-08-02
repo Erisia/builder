@@ -2,7 +2,7 @@
   "name": "Chunk loadery",
   "icon": "chunkloaders:basic_chunk_loader",
   "category": "patchouli:pokrocile",
-  "sortnum": 7,
+  "sortnum": 6,
   "pages": [
     {
       "type": "patchouli:text",

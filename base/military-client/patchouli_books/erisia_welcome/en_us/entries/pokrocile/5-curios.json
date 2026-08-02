@@ -2,7 +2,7 @@
   "name": "Curios: sloty navíc",
   "icon": "minecraft:amethyst_shard",
   "category": "patchouli:pokrocile",
-  "sortnum": 6,
+  "sortnum": 5,
   "pages": [
     {
       "type": "patchouli:text",

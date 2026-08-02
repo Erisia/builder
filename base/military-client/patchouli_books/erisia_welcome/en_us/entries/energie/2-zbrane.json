@@ -16,7 +16,7 @@
     {
       "type": "patchouli:text",
       "title": "Háček",
-      "text": "Bedny se $(o)neobnovují$(). U spawnu je nejspíš prázdno – jdi daleko.$(br2)Náboje se žerou po stovkách, takže si je stejně budeš chtít vyrábět."
+      "text": "Bedny se $(o)neobnovují$(). U spawnu je nejspíš prázdno – jdi daleko.$(br2)Náboje se žerou po stovkách – vyrábět se dají přes Create, viz kapitola $(o)Co ke Create ještě máš$()."
     }
   ]
 }

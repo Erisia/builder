@@ -2,7 +2,7 @@
   "name": "Forgematica",
   "icon": "minecraft:scaffolding",
   "category": "patchouli:pokrocile",
-  "sortnum": 4,
+  "sortnum": 3,
   "pages": [
     {
       "type": "patchouli:text",
