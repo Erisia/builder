@@ -20,6 +20,10 @@ import json, os, shutil
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.join(HERE, '..', 'base', 'military', 'moonlight-global-datapacks', 'erisia-ore-balance')
 METALS = ['iron', 'copper', 'gold', 'zinc', 'aluminum', 'lead', 'nickel', 'silver', 'uranium']
+# Superb Warfare's scheelite is forge:raw_materials/tungsten, but Create has no
+# crushed_raw_tungsten, so tungsten gets the IE tiers only -- no wheels step and
+# no crushed intermediate.
+IE_ONLY_METALS = ['tungsten']
 HAMMER_METALS = ['iron', 'copper', 'gold']
 
 def w(path, obj):
@@ -58,12 +62,15 @@ if os.path.isdir(ROOT):
 
 w('pack.mcmeta', {"pack": {"pack_format": 15, "description": "Erisia military: ore processing balance"}})
 
-for m in METALS:
+for m in METALS + IE_ONLY_METALS:
     crushed = f"create:crushed_raw_{m}"
     dust, ingot, raw = f"forge:dusts/{m}", f"forge:ingots/{m}", f"forge:raw_materials/{m}"
 
+    create_ok = m not in IE_ONLY_METALS
+
     # --- Create: crushing wheels, raw ore -> 1.5x
-    w(f'data/create/recipes/crushing/raw_{m}.json', {
+    if create_ok:
+      w(f'data/create/recipes/crushing/raw_{m}.json', {
         "type": "create:crushing",
         "ingredients": [{"tag": raw}],
         "processingTime": 400,
@@ -72,7 +79,7 @@ for m in METALS:
             {"chance": 0.5, "item": crushed},
             {"chance": 0.75, "item": "create:experience_nugget"},
         ],
-    })
+      })
 
     # --- IE crusher: raw ore -> 2.0x
     w(f'data/immersiveengineering/recipes/crusher/raw_ore_{m}.json', {
@@ -85,7 +92,7 @@ for m in METALS:
     })
 
     # --- IE crusher: crushed -> 1.5x per crushed (2.25x via wheels)
-    w(f'data/erisia_ore_balance/recipes/crusher/crushed_{m}.json', {
+    if create_ok: w(f'data/erisia_ore_balance/recipes/crusher/crushed_{m}.json', {
         "type": "immersiveengineering:crusher",
         "conditions": [not_empty(dust)],
         "energy": 4000,
@@ -108,7 +115,7 @@ for m in METALS:
     })
 
     # --- IE arc furnace: crushed -> 2.0x per crushed (3.0x via wheels)
-    w(f'data/erisia_ore_balance/recipes/arcfurnace/crushed_{m}.json', {
+    if create_ok: w(f'data/erisia_ore_balance/recipes/arcfurnace/crushed_{m}.json', {
         "type": "immersiveengineering:arc_furnace",
         "conditions": [not_empty(ingot)],
         "additives": [],
@@ -120,7 +127,7 @@ for m in METALS:
     })
 
     # --- raw storage blocks: 9x the raw-ore ratios
-    w(f'data/create/recipes/crushing/raw_{m}_block.json', {
+    if create_ok: w(f'data/create/recipes/crushing/raw_{m}_block.json', {
         "type": "create:crushing",
         "ingredients": [{"tag": f"forge:storage_blocks/raw_{m}"}],
         "processingTime": 400,
