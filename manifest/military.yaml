@@ -300,6 +300,16 @@ nodes:
         file_id: YncE2C0Y
         source: modrinth
         side: client
+      - name: immersivepetroleum
+        id: MOw5TN6u
+        file_id: iOSlao7R
+        source: modrinth
+        side: both
+      - name: jei-multiblocks
+        id: ffLYPaWN
+        file_id: h8VFHckm
+        source: modrinth
+        side: both
       - name: immersive-fixes
         id: AWRXGq2t
         file_id: Usc2uYH1

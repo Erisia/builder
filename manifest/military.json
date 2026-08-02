@@ -429,6 +429,19 @@
     "sha256": "061dd0e8e066dc39277736d5607a47a18fee4aff428de3363882f96e5c405aaa"
   },
   {
+    "name": "immersivepetroleum",
+    "title": "Immersive Petroleum",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "ImmersivePetroleum-1.20.1-4.3.1-36b.jar",
+    "encoded": "ImmersivePetroleum-1.20.1-4.3.1-36b.jar",
+    "src": "https://cdn.modrinth.com/data/MOw5TN6u/versions/iOSlao7R/ImmersivePetroleum-1.20.1-4.3.1-36b.jar",
+    "size": 1975671,
+    "md5": "277f1f0efb250a1121cb0444b49c6b28",
+    "sha256": "cec000b892ae56452c54471a6411ee8f7afcec9b37eb7a3fb0319cf015983173"
+  },
+  {
     "name": "ironchests",
     "title": "Iron Chests: Restocked",
     "side": "both",
@@ -479,6 +492,19 @@
     "size": 1409767,
     "md5": "0a9943e374cbd9d6318bade4891e51e0",
     "sha256": "d9f60b5c16e778d7a27a3dddda0b8d3b693cfba6cf1b48ef4be3d8471b83fed9"
+  },
+  {
+    "name": "jei-multiblocks",
+    "title": "Just Enough Immersive Multiblocks",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "jeimultiblocks-1.20.1-1.0.6.jar",
+    "encoded": "jeimultiblocks-1.20.1-1.0.6.jar",
+    "src": "https://cdn.modrinth.com/data/ffLYPaWN/versions/h8VFHckm/jeimultiblocks-1.20.1-1.0.6.jar",
+    "size": 15818,
+    "md5": "1f25284e85703ddcb200cc46f18d028a",
+    "sha256": "d7da29387d477adb67e100275f00917b2cb102737c1c11e2a8271ad96e1578d4"
   },
   {
     "name": "just-enough-professions-jep",
