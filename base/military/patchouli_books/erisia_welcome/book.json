@@ -7,5 +7,6 @@
   "index_icon": "minecraft:red_bed",
   "version": "1",
   "show_progress": false,
-  "i18n": false
+  "i18n": false,
+  "creative_tab": "minecraft:tools_and_utilities"
 }
