@@ -26,9 +26,25 @@
 #     tells you and stops — run MMMM per the runbook (steps 2-4).
 #
 # Usage:
-#   tools/docker-run-server.sh [command] [pack]
+#   tools/docker-run-server.sh [command] [pack] [options]
 #     command : up (default) | stop | status | logs | clean
 #     pack    : pack name from builder.nix (default: military)
+#
+#   Options:
+#     --world <dir|tar.gz>  boot on a copy of an existing world instead of a
+#                           fresh one. Accepts an unpacked dir containing world/,
+#                           a world/ dir itself, or a backup tarball from the
+#                           mc-erisia backup runbook. Installed AFTER assembly.
+#     --no-assemble         reuse the existing server dir instead of rebuilding
+#                           and wiping it. Use this to reboot after swapping a
+#                           world in, since a plain `up` discards it.
+#
+#   Testing a world-mutating operation against real data (full runbook in
+#   mc-erisia/docs/world-ops-on-a-prod-clone.md):
+#     tools/docker-run-server.sh up military --world /tmp/military-world.tar.gz
+#     docker exec erisia-build bash -c 'echo "<cmd>" > /root/military-serve/stdin.fifo'
+#     tools/docker-run-server.sh stop military
+#     tools/docker-run-server.sh up military --no-assemble   # reboot, world intact
 #
 #   `up` is idempotent: it (re)builds the nix targets, assembles a fresh server
 #   dir ONLY if no server is already running, boots it, and waits for "Done".
@@ -44,8 +60,23 @@
 set -euo pipefail
 
 CONTAINER="${CONTAINER:-erisia-build}"
-CMD="${1:-up}"
-PACK="${2:-${PACK:-military}}"
+CMD="up"
+PACK="${PACK:-military}"
+WORLD_SRC=""
+NO_ASSEMBLE=0
+_positional=0
+while [ $# -gt 0 ]; do
+  case "$1" in
+    --world)       WORLD_SRC="${2:?--world needs a path}"; shift 2;;
+    --world=*)     WORLD_SRC="${1#*=}"; shift;;
+    --no-assemble) NO_ASSEMBLE=1; shift;;
+    -h|--help)     sed -n '2,50p' "$0"; exit 0;;
+    --*)           echo "unknown option: $1" >&2; exit 2;;
+    *)             _positional=$((_positional+1))
+                   if [ $_positional -eq 1 ]; then CMD="$1"; else PACK="$1"; fi
+                   shift;;
+  esac
+done
 RAM="${RAM:-4G}"
 JAVA_MAJOR="${JAVA_MAJOR:-auto}"
 BOOT_TIMEOUT="${BOOT_TIMEOUT:-300}"
@@ -62,6 +93,7 @@ cexec() {
   docker exec -i \
     -e PACK="$PACK" -e RAM="$RAM" -e JAVA_MAJOR="$JAVA_MAJOR" \
     -e BOOT_TIMEOUT="$BOOT_TIMEOUT" -e SUBCMD="$1" \
+    -e NO_ASSEMBLE="$NO_ASSEMBLE" -e WORLD_STAGED="$WORLD_STAGED" \
     "$CONTAINER" bash -s <<'CONTAINER_SCRIPT'
 set -euo pipefail
 export NIX_CONFIG="experimental-features = nix-command flakes"
@@ -136,6 +168,15 @@ if server_alive; then
   status; exit 0
 fi
 
+NO_ASSEMBLE="${NO_ASSEMBLE:-0}"
+WORLD_STAGED="${WORLD_STAGED:-}"
+
+if [ "$NO_ASSEMBLE" = "1" ]; then
+  # Reboot the existing server dir as-is. This is the mode you want after
+  # swapping in a world: a normal `up` would rm -rf the dir and discard it.
+  [ -d "$SRV" ] || { echo "ERROR: --no-assemble but $SRV does not exist; run 'up' once first." >&2; exit 1; }
+  echo "==> --no-assemble: reusing existing $SRV ($(ls "$SRV/mods" 2>/dev/null | wc -l) mods)"
+else
 MANIFEST="/repo/manifest/${PACK}.json"
 if [ ! -f "$MANIFEST" ]; then
   echo "ERROR: $MANIFEST not found. Resolve it with MMMM first (runbook steps 2-4):" >&2
@@ -147,6 +188,7 @@ echo "==> building serverModsDir + launcherDir for '$PACK' (skips control tool)"
 cd /repo
 nix build -f . "packs.${PACK}.serverModsDir" "packs.${PACK}.launcherDir" -o "$MODS_OUT"
 # -o writes $MODS_OUT (first target = mods) and $LAUNCH_OUT (second = launcher)
+fi
 
 # --- pick the JRE (Forge 1.20.1 needs Java 17; map by MC version) ----------
 if [ "$JAVA_MAJOR" = "auto" ]; then
@@ -163,6 +205,9 @@ echo "==> ensuring Temurin JRE $JAVA_MAJOR"
 nix build "nixpkgs#temurin-jre-bin-${JAVA_MAJOR}" -o "$JRE"
 
 # --- assemble a fresh, writable server dir ---------------------------------
+if [ "$NO_ASSEMBLE" = "1" ]; then
+  echo "==> skipping assemble"
+else
 echo "==> assembling $SRV"
 rm -rf "$SRV"; mkdir -p "$SRV/mods"
 # 1) base config dirs, lowest precedence first so higher-precedence wins on
@@ -180,6 +225,16 @@ for j in "$MODS_OUT"/*.jar; do cp -L "$j" "$SRV/mods/"; done
 chmod -R u+w "$SRV"
 echo "eula=true" > "$SRV/eula.txt"   # local test only; real deploy accepts EULA separately
 echo "    mods: $(ls "$SRV/mods" | wc -l)"
+fi   # end of assemble
+
+# --- install a staged world (see mc-erisia/docs/world-ops-on-a-prod-clone.md) ---
+# Done AFTER assembly, because assembly wipes $SRV.
+if [ -n "$WORLD_STAGED" ] && [ -d "$WORLD_STAGED/world" ]; then
+  echo "==> installing staged world into $SRV/world"
+  rm -rf "$SRV/world"
+  cp -a "$WORLD_STAGED/world" "$SRV/world"
+  echo "    regions: $(ls "$SRV/world/region"/*.mca 2>/dev/null | wc -l)"
+fi
 
 # Locate the Forge/NeoForge arg file (loader-agnostic within forge-likes).
 ARGS="$(cd "$SRV" && find -L libraries -name unix_args.txt 2>/dev/null | head -1)"
@@ -227,5 +282,29 @@ done
 echo "TIMEOUT after ${BOOT_TIMEOUT}s. Tail:"; tail -25 "$LOG"; exit 1
 CONTAINER_SCRIPT
 }
+
+# --- stage a world into the container before running the container program ---
+# Copying happens HOST-side because docker cp cannot run from inside the container.
+WORLD_STAGED=""
+if [ -n "$WORLD_SRC" ]; then
+  [ -e "$WORLD_SRC" ] || { echo "ERROR: --world path not found: $WORLD_SRC" >&2; exit 1; }
+  WORLD_STAGED="/tmp/${PACK}-world-staged"
+  echo "==> staging world from $WORLD_SRC"
+  docker exec "$CONTAINER" rm -rf "$WORLD_STAGED"
+  docker exec "$CONTAINER" mkdir -p "$WORLD_STAGED"
+  case "$WORLD_SRC" in
+    *.tar.gz|*.tgz)
+      docker cp "$WORLD_SRC" "$CONTAINER:$WORLD_STAGED/world.tar.gz"
+      # tarballs from the backup runbook contain a top-level world/ dir
+      docker exec "$CONTAINER" tar -xzf "$WORLD_STAGED/world.tar.gz" -C "$WORLD_STAGED"
+      docker exec "$CONTAINER" rm -f "$WORLD_STAGED/world.tar.gz"
+      ;;
+    *)
+      docker cp "$WORLD_SRC" "$CONTAINER:$WORLD_STAGED/world"
+      ;;
+  esac
+  docker exec "$CONTAINER" sh -c "ls -d $WORLD_STAGED/world >/dev/null" \
+    || { echo "ERROR: staged world has no world/ dir (tarball layout?)" >&2; exit 1; }
+fi
 
 cexec "$CMD"
