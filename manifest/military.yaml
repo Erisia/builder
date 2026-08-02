@@ -325,6 +325,24 @@ nodes:
         file_id: h8VFHckm
         source: modrinth
         side: both
+      # KubeJS + deps, server-only: used to retrogen Immersive Petroleum oil
+      # reservoirs into chunks generated before IP was added (2026-08-02).
+      # IP's reservoirs are a worldgen Feature, so pre-existing chunks have none.
+      - name: kubejs
+        id: umyGl7zF
+        file_id: hVR2xUSr
+        source: modrinth
+        side: server
+      - name: rhino
+        id: sk9knFPE
+        file_id: uNALdylI
+        source: modrinth
+        side: server
+      - name: architectury-api
+        id: lhGA9TYQ
+        file_id: 1MKTLiiG
+        source: modrinth
+        side: server
       - name: immersive-fixes
         id: AWRXGq2t
         file_id: Usc2uYH1

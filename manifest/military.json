@@ -26,6 +26,19 @@
     "sha256": "e12419e43e3babc810af289403c5cd96bd7f09809b389acc6bb2f122b4b2a426"
   },
   {
+    "name": "architectury-api",
+    "title": "Architectury API",
+    "side": "server",
+    "required": true,
+    "default": true,
+    "filename": "architectury-9.2.14-forge.jar",
+    "encoded": "architectury-9.2.14-forge.jar",
+    "src": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
+    "size": 580602,
+    "md5": "76b40d407b6bf0257dd1dab6d3d395d5",
+    "sha256": "218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af"
+  },
+  {
     "name": "balm",
     "title": "Balm",
     "side": "both",
@@ -572,6 +585,19 @@
     "sha256": "660e4304359a5721bde68c621a93a657f72a3f2a1f6439af4635410f70d5ec7a"
   },
   {
+    "name": "kubejs",
+    "title": "KubeJS",
+    "side": "server",
+    "required": true,
+    "default": true,
+    "filename": "kubejs-forge-2001.6.5-build.26.jar",
+    "encoded": "kubejs-forge-2001.6.5-build.26.jar",
+    "src": "https://cdn.modrinth.com/data/umyGl7zF/versions/hVR2xUSr/kubejs-forge-2001.6.5-build.26.jar",
+    "size": 1658792,
+    "md5": "64ee6615f19fb9b2b11fee8b7385eaaf",
+    "sha256": "1769312192fbf9d72f45054ba61130523bfb471b5f480a4bff8c210ec09400bb"
+  },
+  {
     "name": "lesraisins-armor",
     "title": "LesRaisins Armor",
     "side": "both",
@@ -791,6 +817,19 @@
     "size": 3300191,
     "md5": "17684bd6edc033897a41a81da0666fba",
     "sha256": "afda49a01e5ac8e20706032eb80699cc3b50d3b346478324ead62503cb774acd"
+  },
+  {
+    "name": "rhino",
+    "title": "Rhino",
+    "side": "server",
+    "required": true,
+    "default": true,
+    "filename": "rhino-forge-2001.2.3-build.10.jar",
+    "encoded": "rhino-forge-2001.2.3-build.10.jar",
+    "src": "https://cdn.modrinth.com/data/sk9knFPE/versions/uNALdylI/rhino-forge-2001.2.3-build.10.jar",
+    "size": 1798244,
+    "md5": "59387620b0ef6becbff02c7c1636ad3e",
+    "sha256": "fed2211429301bf043864183cab9ab8e92d4cc4dbb9e488ce6c75217c54584a6"
   },
   {
     "name": "rpl",
