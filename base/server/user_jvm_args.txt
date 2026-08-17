@@ -5,12 +5,4 @@
  -Dfml.readTimeout=1800
  -Dfml.loginTimeout=36000
  -Dfml.doNotBackup=true
- -XX:+UseTransparentHugePages
- -XX:+AlwaysPreTouch
- -XX:+DisableExplicitGC
- -XX:MaxGCPauseMillis=500
- -XX:+StartAttachListener
- -XX:+UnlockExperimentalVMOptions
- -XX:SymbolTableSize=1M
- -XX:StringTableSize=1M
- -XX:+PrintStringTableStatistics
+ -XX:+UseZGC
