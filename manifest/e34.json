@@ -1,5 +1,18 @@
 [
   {
+    "name": "ae2-overclocked-crafting",
+    "title": "AE2 Overclocked Crafting",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "AE2OverclockedCrafting-release-1.3.jar",
+    "encoded": "AE2OverclockedCrafting-release-1.3.jar",
+    "src": "https://mediafilez.forgecdn.net/files/8532/898/AE2OverclockedCrafting-release-1.3.jar",
+    "size": 222551,
+    "md5": "034adedd8f72c7667bc45ad410d1ca89",
+    "sha256": "2ae8e023caa4ec7b5cf14267e4ed063d359c6ee291a750397e484423acf6aec8"
+  },
+  {
     "name": "abyssalcraft",
     "title": "AbyssalCraft",
     "side": "both",
@@ -1259,6 +1272,19 @@
     "size": 34383,
     "md5": "0fce6c9a123523205ac4af5e4b616dea",
     "sha256": "f5edd4793f96cd5a6f31aecbd3030093b367a51afba5d6f7281756d0f9c03786"
+  },
+  {
+    "name": "corail-tombstone",
+    "title": "Corail Tombstone",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "tombstone-1.12.2-4.7.6.jar",
+    "encoded": "tombstone-1.12.2-4.7.6.jar",
+    "src": "https://mediafilez.forgecdn.net/files/8284/661/tombstone-1.12.2-4.7.6.jar",
+    "size": 1584211,
+    "md5": "99c4470dc1f14d7d77581fed159c510e",
+    "sha256": "8e8456d6c6b166dd560464b1d55f0defd57ac45082c5d9a44a0126674b1963e3"
   },
   {
     "name": "cosmetic-armor-reworked",
