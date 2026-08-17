@@ -154,6 +154,35 @@ mods.DimensionStages.addDimensionStage("dynatos", 173);
 mods.DimensionStages.addDimensionStage("alkemia", 174);
 mods.DimensionStages.addDimensionStage("extendedcrafting", -1);
 
+
+mods.DimensionStages.addDimensionStage("divinestage", 818);
+mods.DimensionStages.addDimensionStage("divinestage", 802);
+mods.DimensionStages.addDimensionStage("divinestage", 815);
+mods.DimensionStages.addDimensionStage("divinestage", 805);
+mods.DimensionStages.addDimensionStage("divinestage", 807);
+mods.DimensionStages.addDimensionStage("divinestage", 800);
+
+mods.DimensionStages.addDimensionStage("draconicstage", 803);
+mods.DimensionStages.addDimensionStage("draconicstage", 809);
+mods.DimensionStages.addDimensionStage("draconicstage", 804);
+mods.DimensionStages.addDimensionStage("draconicstage", 806);
+mods.DimensionStages.addDimensionStage("draconicstage", 811);
+mods.DimensionStages.addDimensionStage("draconicstage", 813);
+mods.DimensionStages.addDimensionStage("draconicstage", 817);
+mods.DimensionStages.addDimensionStage("draconicstage", 821);
+
+mods.DimensionStages.addDimensionStage("draconicstage", 814);
+mods.DimensionStages.addDimensionStage("draconicstage", 819);
+mods.DimensionStages.addDimensionStage("draconicstage", 816);
+
+mods.DimensionStages.addDimensionStage("brightsteelforging", 801);
+mods.DimensionStages.addDimensionStage("brightsteelforging", 812);
+mods.DimensionStages.addDimensionStage("brightsteelforging", 810);
+mods.DimensionStages.addDimensionStage("brightsteelforging", 808);
+
+mods.DimensionStages.addDimensionStage("dynatos", 820);
+
+
 mods.recipestages.Recipes.addShaped("makedivinestonesedna", "sedna", <divinerpg:divine_rock>, [
     [<aether_legacy:enchanted_gravitite>, <materialpart:sednanite:ingot>, <aether_legacy:enchanted_gravitite>],
     [<materialpart:sednanite:ingot>, <contenttweaker:divine_star>, <materialpart:sednanite:ingot>],

@@ -28,8 +28,6 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:charm_of_the_falling_tower>.addTooltip(format.red("Thanks to ChaosStrikez for the help implementing this!"));
 
 
-<contenttweaker:toy_sword>.addTooltip(format.red("Quality of life is always nice to have!"));
-<contenttweaker:toy_sword>.addTooltip(format.red("Check out the quests in Personal Augmentation and Tooling Shmooving, they suggest lots of useful tools!"));
 
 
 <contenttweaker:sideral_living_gemstone>.addTooltip(format.red("Super Factory Manager is your friend"));
@@ -38,7 +36,6 @@ import crafttweaker.item.IItemCondition;
 <spellarchives:spell_archive>.addTooltip(format.red("Aedial is a genius!"));
 
 
-<ebwizardry:spell_book:*>.addTooltip(format.red("Easily stored in the Spellcaster's Archives"));
 
 <libvulpes:productgem:0>.addTooltip(format.red("Thanks to Capn for fixing a bunch of Advanced Rockery bugs!"));
 
@@ -58,24 +55,6 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:will_ensnaring_fabrial>.addTooltip(format.red("Resistance: Nether Wart, Ender Pearl, Obsidian, Glowstone Dust"));
 
 
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("They who achieved eternal glory:"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("TheWizardHaxer (solo)"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("adrin58 (solo)"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("< ᛊᚢᛉᛗᛞ > (solo) (first passive)"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("ElaDiDu (solo)"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("Mine_Antoine (automaster) (solo)"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("Paronity & Kherune (autocrafting challenge) (team)"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("Chaika_In_Paanic, rfhb21, Nezer_Stra (team)"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("迪奥-布兰多 & 0160 (team)"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("zalee (solo)"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("Sømêøne (reasonably EMCless) (solo)"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("KawaiiPotatoKing & RandTheGrayMan (team)"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("HadlC & Laino21 (team)"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("talentgoesby (solo)"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("ラルセイ, FireDreadlord, JrffK (team)"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("whox1, wydao, ChineseboyXLB (team)"));
-<avaritiaitem:cosmic_balance>.addTooltip(format.red("Kevin Incorporated & Bemvaras (team)"));
 
 <contenttweaker:black_hole_juice>.addTooltip(format.red("They who achieved eternal glory:"));
 <contenttweaker:black_hole_juice>.addTooltip(format.red("Morph & Shinko (team)"));
@@ -119,6 +98,7 @@ import crafttweaker.item.IItemCondition;
 <superfactorymanager:manager>.addTooltip(format.red("mewmaister really wanted this!"));
 <superfactorymanager:manager>.addTooltip(format.red("NerdySpider wrote the documntation, thanks!"));
 <superfactorymanager:manager>.addTooltip(format.red("Thanks to Mei for backporting SFM4 features!"));
+<superfactorymanager:manager>.addTooltip(format.red("Soren and Arch use this way too much"));
 
 <cells:import_interface>.addTooltip(format.red("Thanks to Aedial for giving us more AE2 goodies!"));
 <ae2powertools:better_level_maintainer>.addTooltip(format.red("Thanks to Aedial for giving us more AE2 goodies!"));
@@ -144,10 +124,6 @@ import crafttweaker.item.IItemCondition;
 
 <botania:rainbowrod>.addTooltip(format.green("Reusable"));
 
-<contenttweaker:tracker_binoculars>.addTooltip(format.red("Having trouble finding a certain mob?"));
-<contenttweaker:tracker_binoculars>.addTooltip(format.red("Click the 'Super Mob Tracker' button in your inventory, and search the mob you want to find"));
-<contenttweaker:tracker_binoculars>.addTooltip(format.red("Double click the desired mob name, and if any matching entities are present within 100 blocks, they will start glowing"));
-<contenttweaker:tracker_binoculars>.addTooltip(format.red("Double click again to stop tracking"));
 
 <contenttweaker:twilit_freedom_fabrial>.addTooltip(format.red("Replace the top middle portal block in the Crepuscular Callstone with a Twilit Freedom Fabrial"));
 <contenttweaker:twilit_freedom_fabrial>.addTooltip(format.red("Stand on top of it, and use the Summons of the Twilit Hero"));
@@ -180,59 +156,9 @@ import crafttweaker.item.IItemCondition;
 
 <contenttweaker:void_shriek>.addTooltip(format.red("Right click a Void Walker in the Erebus, and see what happens"));
 
-<divinerpg:corrupted_pickaxe:*>.addTooltip(format.red("Adds 20 Foraging XP every time a block is broken"));
-<divinerpg:corrupted_pickaxe:*>.addTooltip(format.red("Soren had a fun idea!"));
-
-<abyssalcraft:ethaxiumpickaxe:*>.addTooltip(format.red("Adds 40 Foraging XP every time a block is broken"));
-
-<astralsorcery:itemcrystalpickaxe:*>.addTooltip(format.red("Adds 40 Foraging XP every time a block is broken"));
-
-<bloodmagic:bound_pickaxe:*>.addTooltip(format.red("Adds 40 Foraging XP every time a block is broken"));
-
-<thaumcraft:elemental_pick:*>.addTooltip(format.red("Adds 40 Foraging XP every time a block is broken"));
-
-<divinerpg:bedrock_pickaxe:*>.addTooltip(format.red("Adds 10 Foraging XP every time a block is broken"));
-
-//<thaumictinkerer:ichorium_pick:*>.addTooltip(format.red("Adds 100 Foraging XP every time a block is broken"));
-
-//<thaumictinkerer:ichorium_pick_adv:*>.addTooltip(format.red("Adds 200 Foraging XP every time a block is broken"));
-
-<aoa3:rock_pick_sword:*>.addTooltip(format.red("Adds 150 Foraging XP every time a block is broken"));
-
-<aoa3:skeletal_pickaxe:*>.addTooltip(format.red("Adds 150 Foraging XP every time a block is broken"));
-
-<divinerpg:eden_pickaxe:*>.addTooltip(format.red("Adds 100 Foraging XP every time a block is broken"));
-
-<divinerpg:wildwood_pickaxe:*>.addTooltip(format.red("Adds 200 Foraging XP every time a block is broken"));
-
-<divinerpg:apalachia_pickaxe:*>.addTooltip(format.red("Adds 300 Foraging XP every time a block is broken"));
-
-<divinerpg:skythern_pickaxe:*>.addTooltip(format.red("Adds 400 Foraging XP every time a block is broken"));
-
-<divinerpg:mortum_pickaxe:*>.addTooltip(format.red("Adds 500 Foraging XP every time a block is broken"));
-
-<divinerpg:dream_pickaxe:*>.addTooltip(format.red("Adds 500 Foraging XP every time a block is broken"));
-
-<aoa3:ornamyte_pickaxe:*>.addTooltip(format.red("Adds 100 Foraging XP every time a block is broken"));
-
-<aoa3:goofy_pickaxe:*>.addTooltip(format.red("Adds 400 Foraging XP every time a block is broken"));
-
-<aoa3:pickmax:*>.addTooltip(format.red("Adds 6000 Foraging XP every time a block is broken"));
-
-<aoa3:soulstone_pickaxe:*>.addTooltip(format.red("Adds 3000 Foraging XP every time a block is broken"));
-
-<aoa3:energistic_pickaxe:*>.addTooltip(format.red("Adds 8000 Foraging XP every time a block is broken"));
-
-<aoa3:occult_pickaxe:*>.addTooltip(format.red("Adds 30000 Foraging XP every time a block is broken"));
 
 
 
-
-<contenttweaker:running_bandana>.addTooltip(format.red("The expedition skill will give you random speed boosts, which can be annoying in many situations..."));
-<contenttweaker:running_bandana>.addTooltip(format.red("To disable this, you can open up the AoA skill menu [DELETE] and click on the expedition icon!"));
-
-<contenttweaker:nuclear_engineers_goggles>.addTooltip(format.red("Nuclear wastelands are radioactive!"));
-<contenttweaker:nuclear_engineers_goggles>.addTooltip(format.red("For now, stay away from them!"));
 
 <contenttweaker:hyperuranion_ingot>.addTooltip(format.red("Thanks to GalcticSilver for the texture!"));
 <contenttweaker:actualizing_hyperuranion_ingot>.addTooltip(format.red("Thanks to GalcticSilver for the texture!"));
@@ -256,14 +182,11 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:roaring_warren_alloy>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
 <contenttweaker:self_actualizing_metal>.addTooltip(format.red("Thanks to NerdySpider for the ingot textures!"));
 <contenttweaker:crying_obsidian_powder>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
-<contenttweaker:nuclear_engineers_goggles>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
-<contenttweaker:running_bandana>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
 <contenttweaker:hollow_soul>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
 <contenttweaker:hopebringer_fabrial>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
 <contenttweaker:mask_of_definition>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
 <contenttweaker:defined_disk>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
 <contenttweaker:impetus_gemstone>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
-<contenttweaker:tracker_binoculars>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
 <contenttweaker:sundered_crimson_heart>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
 <contenttweaker:galactic_dust>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
 <contenttweaker:infinite_loving_plate>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
@@ -347,6 +270,32 @@ import crafttweaker.item.IItemCondition;
 <contenttweaker:grayscale>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
 <contenttweaker:white_bangs>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
 <contenttweaker:blue_planet>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:crystevia_geode>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:crimson_metal_ingot>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+
+
+<contenttweaker:trinity_ingot>.addTooltip(format.red("Thanks to NerdySpider for the texture!"));
+<contenttweaker:trinity_ingot>.addTooltip(format.red("Thanks to cry for molten fluid textures!"));
+
+
+<contenttweaker:totally_real_tardis>.addTooltip(format.red("Mizzy did not achieve eternal glory"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

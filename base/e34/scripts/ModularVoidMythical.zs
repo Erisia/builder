@@ -1878,9 +1878,9 @@ mods.techreborn.vacuumFreezer.addRecipe(<materialpart:vibranium_alloy:ingot>, <m
 
 mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:complex_crank_shaft>, 
 [[<ore:plateElectrumFlux>, <ore:plateIridium>, <ore:plateEnderium>, <ore:plateIridium>, <ore:plateElectrumFlux>], 
-[null, <tconstruct:arrow_shaft>.withTag({Material: "fierymetal"}), null, null, <tconstruct:arrow_shaft>.withTag({Material: "enderium_plustic"})], 
+[null, <tconstruct:arrow_shaft>.withTag({Material: "fierymetal"}), null, null, <tconstruct:arrow_shaft>.withTag({Material: "enderium"})], 
 [<ore:plateMagnalium>, <ore:plateMithrillium>, <materialpart:dreaded_steel:rod>, <ore:plateMithrillium>, <ore:plateMagnalium>], 
-[<tconstruct:arrow_shaft>.withTag({Material: "enderium_plustic"}), null, null, <tconstruct:arrow_shaft>.withTag({Material: "fierymetal"}), null], 
+[<tconstruct:arrow_shaft>.withTag({Material: "enderium"}), null, null, <tconstruct:arrow_shaft>.withTag({Material: "fierymetal"}), null], 
 [<ore:plateElectrumFlux>, <ore:plateIridium>, <ore:plateEnderium>, <ore:plateIridium>, <ore:plateElectrumFlux>]]);  
 
 mods.techreborn.assemblingMachine.addRecipe(<contenttweaker:high_strength_transmission>, <contenttweaker:complex_gearbox>, <contenttweaker:complex_crank_shaft>, 60, 512);
@@ -1896,8 +1896,8 @@ mith21.addItemOutput(<aoa3:borean_tokens>*64);
 mith21.setChance(0.99);
 mith21.addItemOutput(<aoa3:borean_tokens>*64);
 mith21.setChance(0.99);
-mith21.addItemOutput(<aoa3:coral_stone>*30);
-mith21.setChance(0.5);
+mith21.addItemOutput(<aoa3:coral_stone>*60);
+mith21.setChance(0.9);
 mith21.addItemOutput(<aoa3:bubble_berries>*30);
 mith21.setChance(0.15);
 mith21.addItemOutput(<aoa3:water_rune>*60);
@@ -2576,6 +2576,8 @@ mith24.addItemOutput(<aoa3:raw_charger_shank>*64);
 mith24.setChance(0.99);
 mith24.addItemOutput(<aoa3:raw_ursa_meat>*64);
 mith24.setChance(0.99);
+mith24.addItemOutput(<contenttweaker:calcite_gem>*64);
+mith24.setChance(0.95);
 mith24.addItemOutput(<contenttweaker:tier24_token>);
 mith24.build();
 
@@ -2604,6 +2606,8 @@ mith25.setChance(0.35);
 mith25.addItemOutput(<contenttweaker:immortallis_garnet>);
 mith25.setChance(0.25);
 mith25.addItemOutput(<aoa3:fragmented_anima_stone>*64);
+mith25.setChance(0.9);
+mith25.addItemOutput(<contenttweaker:calcite_gem>*64);
 mith25.setChance(0.9);
 mith25.addItemOutput(<aoa3:dungeon_tokens>*64);
 mith25.setChance(0.99);
@@ -2654,8 +2658,8 @@ mith26.addItemOutput(<aoa3:greckon_tokens>*64);
 mith26.setChance(0.99);
 mith26.addItemOutput(<aoa3:haunted_flower>*30);
 mith26.setChance(0.45);
-mith26.addItemOutput(<aoa3:ghoulasm>*10);
-mith26.setChance(0.15);
+mith26.addItemOutput(<aoa3:ghoulasm>*50);
+mith26.setChance(0.55);
 mith26.addItemOutput(<aoa3:distortion_rune>*60);
 mith26.setChance(0.1);
 mith26.addItemOutput(<aoa3:strike_rune>*60);
@@ -2820,7 +2824,9 @@ mith28.setChance(0.9);
 mith28.addItemOutput(<divinerpg:honeysuckle>*64);
 mith28.setChance(0.9);
 mith28.addItemOutput(<contenttweaker:dream_brick>*64);
-mith28.setChance(0.9);
+mith28.setChance(0.99);
+mith28.addItemOutput(<contenttweaker:dream_brick>*64);
+mith28.setChance(0.99);
 mith28.addItemOutput(<divinerpg:acid>*64);
 mith28.setChance(0.9);
 mith28.addItemOutput(<divinerpg:clean_pearls>*64);
@@ -3228,8 +3234,10 @@ mith29.addItemOutput(<aoa3:fragmented_anima_stone>*64);
 mith29.setChance(0.7);
 mith29.addItemOutput(<aoa3:fragmented_anima_stone>*64);
 mith29.setChance(0.7);
-mith29.addItemOutput(<contenttweaker:mother_pixon_soul>*10);
-mith29.setChance(0.3);
+mith29.addItemOutput(<contenttweaker:calcite_gem>*64);
+mith29.setChance(0.95);
+mith29.addItemOutput(<contenttweaker:mother_pixon_soul>*50);
+mith29.setChance(0.8);
 mith29.addItemOutput(<divinerpg:bluefire_stone>*40);
 mith29.setChance(0.8);
 mith29.addItemOutput(<divinerpg:divine_stone>*40);
@@ -3273,7 +3281,7 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("MeatballCraft:shaped/internal/alta
 	<extendedcrafting:material:32>, <extendedcrafting:material:32>, <extendedcrafting:material:32>, <extendedcrafting:material:32>,<extendedcrafting:material:32>, 
 	<extendedcrafting:material:32>,<divinerpg:divine_shards>, <divinerpg:divine_shards>,<divinerpg:divine_shards>, <divinerpg:divine_shards>,
 	//Outer Items, indices 25+
-	<ore:HighTierSingularity>, <ore:HighTierSingularity>, <ore:HighTierSingularity>, <ore:HighTierSingularity>
+	<ore:HighTierSingularity>, <extendedcrafting:singularity_custom:999>, <ore:HighTierSingularity>, <extendedcrafting:singularity_custom:999>, <ore:HighTierSingularity>, <extendedcrafting:singularity_custom:999>, <ore:HighTierSingularity>, <extendedcrafting:singularity_custom:999>
 ],
 "astralsorcery.constellation.armara");
 
@@ -3302,10 +3310,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:arbiterite_c
 
 // mods.techreborn.implosionCompressor.addRecipe(<contenttweaker:defined_plate>, <minecraft:stone:0>, <contenttweaker:defined_ingot>, <contenttweaker:bloodmaster_block>*4, 60, 512);
 
-mods.extendedcrafting.EnderCrafting.addShaped(<contenttweaker:defined_gear>, 
-[[<contenttweaker:shyre_crystal>, <contenttweaker:defined_plate>, <contenttweaker:shyre_crystal>], 
-[<contenttweaker:defined_plate>, <materialpart:chalcedony:ingot>, <contenttweaker:defined_plate>], 
-[<contenttweaker:shyre_crystal>, <contenttweaker:defined_plate>, <contenttweaker:shyre_crystal>]], 3);
 
 recipes.addShaped(<contenttweaker:definer_core>,
 [[<avaritia:resource:5>, <contenttweaker:defined_gear>, <avaritia:resource:5>],

@@ -359,7 +359,7 @@ thaumrepl18.build();
 
 
 val thaumrepl18me = RecipeBuilder.newBuilder("thaumrepl18me","thaumic_replicator",800);
-thaumrepl18me.addAspectInput("caeles",20);
+thaumrepl18me.addEssentiaInput("caeles",20);
 thaumrepl18me.addFluidInput(<fluid:pre_baryonic_plasma>*100);
 thaumrepl18me.addFluidInput(<fluid:divine_resonance>*100);
 thaumrepl18me.addItemInput(<contenttweaker:freedomsteel_ingot>*4);
@@ -373,3 +373,9 @@ thaumrepl19.addAspectInput("aqua",1);
 thaumrepl19.addItemInput(<chickens:liquid_egg:0>);
 thaumrepl19.addFluidOutput(<fluid:water>*20000);
 thaumrepl19.build();
+
+val thaumrepl19me = RecipeBuilder.newBuilder("thaumrepl19me","thaumic_replicator",800);
+thaumrepl19me.addEssentiaInput("aqua",1);
+thaumrepl19me.addItemInput(<chickens:liquid_egg:0>);
+thaumrepl19me.addFluidOutput(<fluid:water>*20000);
+thaumrepl19me.build();

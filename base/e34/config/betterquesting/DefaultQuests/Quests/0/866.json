@@ -39,11 +39,19 @@
         },
         "4:10": {
           "Count:3": 1,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "crazyae:improved_molecular_assembler",
-            "orig_meta:3": 0
-          }
+          "id:8": "ae2overclocked:molecular_assembler_tier_1"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "ae2overclocked:molecular_assembler_tier_2"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "ae2overclocked:molecular_assembler_tier_3"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "id:8": "ae2overclocked:molecular_assembler_tier_4"
         }
       },
       "taskID:8": "bq_standard:retrieval"

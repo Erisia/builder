@@ -492,9 +492,9 @@ cleanroom49.build();
 
 val cleanroom50 = RecipeBuilder.newBuilder("cleanroom50","processor_clean_room",10);
 cleanroom50.addEnergyPerTickInput(40000);
-cleanroom50.addItemInput(<appliedenergistics2:material:20>*80);
-cleanroom50.addItemInput(<minecraft:redstone>*10);
-cleanroom50.addItemOutput(<cells:compressed_silicon_print:0>*10);
+cleanroom50.addItemInput(<appliedenergistics2:material:20>*144);
+cleanroom50.addItemInput(<ore:blockRedstone>*2);
+cleanroom50.addItemOutput(<cells:compressed_silicon_print:0>*18);
 cleanroom50.build();
 
 val cleanroom51 = RecipeBuilder.newBuilder("cleanroom51","processor_clean_room",10);
@@ -879,7 +879,7 @@ val cleanroom97 = RecipeBuilder.newBuilder("cleanroom97","processor_clean_room",
 cleanroom97.addEnergyPerTickInput(40000);
 cleanroom97.addItemInput(<contenttweaker:ascended_sky_stone>*1);
 cleanroom97.addItemInput(<minecraft:diamond>*64);
-cleanroom97.addItemInput(<ore:dustEnder>*64);
+cleanroom97.addItemInput(<ore:dustEnderPearl>*64);
 cleanroom97.addItemOutput(<threng:material:5>*64);
 cleanroom97.build();
 

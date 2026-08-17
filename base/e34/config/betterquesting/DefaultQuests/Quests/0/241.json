@@ -9,7 +9,7 @@
         "Count:3": 1,
         "id:8": "contenttweaker:aeldunari"
       },
-      "name:8": "Aeldunari"
+      "name:8": "Dark Dragon Remains"
     }
   },
   "questID:3": 241,
@@ -51,13 +51,14 @@
     },
     "1:10": {
       "index:3": 1,
+      "optional:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "id:8": "contenttweaker:ritual_mass_enchanting"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

@@ -235,6 +235,7 @@ mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery
 mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:innerved_essenceifier_controller>);
 mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:mythic_processor_infuser_controller>);
 mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:mythic_processor_chemical_reactor_controller>);
+mods.chisel.Carving.addVariation("mythicprocessorscontroller", <modularmachinery:mythic_processor_enricher_controller>);
 
 
 mods.chisel.Carving.addGroup("bigresourcegeneratorscontroller");

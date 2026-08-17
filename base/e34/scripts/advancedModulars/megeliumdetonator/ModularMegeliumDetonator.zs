@@ -27,7 +27,7 @@ megeliumboomdraconium.addBiomeInput("minecraft:sky")
       megeliumDetonatorRecipeStart(event.controller, "aoa3:ancient_rock", "bnkrblks:megelium_stone");
     }
   )
-  .addRecipeTooltip(["Ancient Rock blocks placed around the Reactor Core will be converted to megelium through an reactor explosion","The explosion will be toggled if the correct block is placed on top of the core"])
+  .addRecipeTooltip([" "," "," ","Ancient Rock blocks placed around the Reactor Core ","will be converted to megelium through a reactor explosion ","The explosion will be toggled if the correct block","is placed on top of the core"])
   .build();
 
 
@@ -58,11 +58,11 @@ function megeliumDetonatorRecipeStart(controller as IMachineController, initialB
 // replace blocks around reactor
 function replaceBoomBlock(controller as IMachineController, initialBlock as string, finalBlock as string, pos as IBlockPos, sender as ICommandSender) {
 	var facing = controller.facing;
-	server.commandManager.executeCommand(sender, "fill " + (pos.x - 1) + " " + (pos.y - 1) + " " + (pos.z - 1) + " " + (pos.x + 1) + " " + (pos.y + 1) + " " + (pos.z + 1) + " " + finalBlock + " 0 replace " + initialBlock);
-	server.commandManager.executeCommand(sender, "fill " + (pos.x + 2) + " " + (pos.y - 1) + " " + (pos.z - 1) + " " + (pos.x + 2) + " " + (pos.y + 1) + " " + (pos.z + 1) + " " + finalBlock + " 0 replace " + initialBlock);
-	server.commandManager.executeCommand(sender, "fill " + (pos.x - 2) + " " + (pos.y - 1) + " " + (pos.z - 1) + " " + (pos.x - 2) + " " + (pos.y + 1) + " " + (pos.z + 1) + " " + finalBlock + " 0 replace " + initialBlock);
-	server.commandManager.executeCommand(sender, "fill " + (pos.x - 1) + " " + (pos.y + 2) + " " + (pos.z - 1) + " " + (pos.x + 1) + " " + (pos.y + 2) + " " + (pos.z + 1) + " " + finalBlock + " 0 replace " + initialBlock);
-	server.commandManager.executeCommand(sender, "fill " + (pos.x - 1) + " " + (pos.y - 2) + " " + (pos.z - 1) + " " + (pos.x + 1) + " " + (pos.y - 2) + " " + (pos.z + 1) + " " + finalBlock + " 0 replace " + initialBlock);
-	server.commandManager.executeCommand(sender, "fill " + (pos.x - 1) + " " + (pos.y - 1) + " " + (pos.z - 2) + " " + (pos.x + 1) + " " + (pos.y + 1) + " " + (pos.z - 2) + " " + finalBlock + " 0 replace " + initialBlock);
-	server.commandManager.executeCommand(sender, "fill " + (pos.x - 1) + " " + (pos.y - 1) + " " + (pos.z + 2) + " " + (pos.x + 1) + " " + (pos.y + 1) + " " + (pos.z + 2) + " " + finalBlock + " 0 replace " + initialBlock);
+	server.commandManager.executeCommand(sender, "fill " + (pos.x - 1) + " " + (pos.y - 2) + " " + (pos.z - 1) + " " + (pos.x + 1) + " " + (pos.y + 0) + " " + (pos.z + 1) + " " + finalBlock + " 0 replace " + initialBlock);
+	server.commandManager.executeCommand(sender, "fill " + (pos.x + 2) + " " + (pos.y - 2) + " " + (pos.z - 1) + " " + (pos.x + 2) + " " + (pos.y + 0) + " " + (pos.z + 1) + " " + finalBlock + " 0 replace " + initialBlock);
+	server.commandManager.executeCommand(sender, "fill " + (pos.x - 2) + " " + (pos.y - 2) + " " + (pos.z - 1) + " " + (pos.x - 2) + " " + (pos.y + 0) + " " + (pos.z + 1) + " " + finalBlock + " 0 replace " + initialBlock);
+	server.commandManager.executeCommand(sender, "fill " + (pos.x - 1) + " " + (pos.y + 1) + " " + (pos.z - 1) + " " + (pos.x + 1) + " " + (pos.y + 1) + " " + (pos.z + 1) + " " + finalBlock + " 0 replace " + initialBlock);
+	server.commandManager.executeCommand(sender, "fill " + (pos.x - 1) + " " + (pos.y - 3) + " " + (pos.z - 1) + " " + (pos.x + 1) + " " + (pos.y - 3) + " " + (pos.z + 1) + " " + finalBlock + " 0 replace " + initialBlock);
+	server.commandManager.executeCommand(sender, "fill " + (pos.x - 1) + " " + (pos.y - 2) + " " + (pos.z - 2) + " " + (pos.x + 1) + " " + (pos.y + 0) + " " + (pos.z - 2) + " " + finalBlock + " 0 replace " + initialBlock);
+	server.commandManager.executeCommand(sender, "fill " + (pos.x - 1) + " " + (pos.y - 2) + " " + (pos.z + 2) + " " + (pos.x + 1) + " " + (pos.y + 0) + " " + (pos.z + 2) + " " + finalBlock + " 0 replace " + initialBlock);
 }

@@ -560,7 +560,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmachinery:blockinputbus@6"
+                "treeoflife_item_input"
             ]
         },
         {
@@ -5072,7 +5072,7 @@
             "y": 0,
             "z": 5,
             "elements": [
-                "modularmachinery:blockinputbus@6"
+                "treeoflife_item_input"
             ]
         },
         {
@@ -10344,7 +10344,7 @@
             "y": 0,
             "z": 13,
             "elements": [
-                "modularmachinery:blockinputbus@6"
+                "treeoflife_item_input"
             ]
         },
         {
@@ -11112,7 +11112,7 @@
             "y": 0,
             "z": 16,
             "elements": [
-                "modularmachinery:blockinputbus@6"
+                "treeoflife_item_input"
             ]
         },
         {

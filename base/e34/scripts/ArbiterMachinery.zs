@@ -482,7 +482,7 @@ recipes.addShaped(<contenttweaker:hyperuranion_actualizer_raremetals>,
 
 recipes.addShaped(<contenttweaker:hyperuranion_actualizer_radioactive>,
 [[<ore:blockLudicrite>, <ore:blockLudicrite>, <ore:blockLudicrite>],
-[<bloodmagic:blood_tank:10>.withTag({Fluid: {FluidName: "uranium", Amount: 16384000}}), <contenttweaker:hyperuranon_actualizing_fabrial>, <bloodmagic:blood_tank:10>.withTag({Fluid: {FluidName: "uranium", Amount: 16384000}})],
+[<bloodmagic:blood_tank:10>.withTag({Fluid: {FluidName: "uranium", Amount: 16384000}}), <contenttweaker:hyperuranon_actualizing_fabrial>, <bloodmagic:blood_tank:10>.withTag({Fluid: {FluidName: "thorium", Amount: 16384000}})],
 [<ore:blockLudicrite>, <ore:blockLudicrite>, <ore:blockLudicrite>]]);
 
 
@@ -1186,7 +1186,7 @@ spatialcruc7_better1.addItemInput(<contenttweaker:universal_realgar>);
 spatialcruc7_better1.addFluidOutput(<fluid:universal_matter>*600000);
 spatialcruc7_better1.build();
 
-recipes.addShaped(<contenttweaker:blade_of_the_samurai_queen>.withTag({HideFlags:2,AttributeModifiers:[{UUIDMost: 121000 as long, UUIDLeast: 120000 as long,Slot: "mainhand",AttributeName: "generic.attackDamage", Operation: 0, Name: "generic.attackDamage",Amount: 100},{UUIDMost: 121001 as long, UUIDLeast: 120001 as long ,Amount: 1.2 ,Slot: "mainhand", AttributeName: "generic.attackSpeed",Operation: 0, Name: "generic.attackSpeed"}]}),
+recipes.addShaped(<contenttweaker:blade_of_the_samurai_queen>.withTag({HideFlags:2,AttributeModifiers:[{UUIDMost: 121000 as long, UUIDLeast: 120000 as long,Slot: "mainhand",AttributeName: "generic.attackDamage", Operation: 0, Name: "generic.attackDamage",Amount: 77},{UUIDMost: 121001 as long, UUIDLeast: 120001 as long ,Amount: 1.2 ,Slot: "mainhand", AttributeName: "generic.attackSpeed",Operation: 0, Name: "generic.attackSpeed"}]}),
 [[null, <contenttweaker:sword_shield>, null],
 [<contenttweaker:projector_gem>, <contenttweaker:sword_shield>, <contenttweaker:projector_gem>],
 [null, <immersiveengineering:material:0>, null]]);

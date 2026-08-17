@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7§oWelcome to chapter 2!\n\n§7§oThe magical mastery tab will provide info on how to progress through each magic mod!\n\n§fYES! Mana was indeed the key to more power! Now I can build even better and more powerful machines.",
+      "desc:8": "§7§oWelcome to chapter 2!\n\n§7§oIf you are adept with magic mods in this Minecraft version, you can go straight to the quests above this one, and figure out the rest on your own!\n\nIf you would like a bit more guidance, the §cmagical mastery §7§otab will provide info on how to progress through each magic mod!\n\n§fYES! Mana was indeed the key to more power! Now I can build even better and more powerful machines.",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
@@ -36,6 +36,10 @@
             "resolved:1": 1,
             "title:8": "Smart Backups"
           }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "contenttweaker:tiny_brick_wall"
         }
       }
     }
@@ -54,13 +58,14 @@
     },
     "1:10": {
       "index:3": 1,
+      "optional:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "id:8": "contenttweaker:how_to_finish_meatballcraft"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

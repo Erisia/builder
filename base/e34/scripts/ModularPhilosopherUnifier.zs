@@ -620,6 +620,7 @@ philounit56.addEnergyPerTickInput(100);
 philounit56.addItemInput(<aoa3:sapphire>*3);
 philounit56.addItemInput(<aoa3:jade>*3);
 philounit56.addItemInput(<aoa3:amethyst>*3);
+philounit56.addItemInput(<ore:nuggetIron>);
 philounit56.addItemOutput(<contenttweaker:alchemical_crystal>*1);
 philounit56.build();
 

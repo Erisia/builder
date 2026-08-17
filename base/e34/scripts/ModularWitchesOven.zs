@@ -510,3 +510,112 @@ honeysmelt36.build();
 
 
 
+val honeysmelt37 = RecipeBuilder.newBuilder("honeysmelt37","honeysmelter_oven",5);
+honeysmelt37.addFluidInput(<fluid:for.honey>*100);
+honeysmelt37.addItemInput(<aoa3:runic_bush>*64);
+honeysmelt37.addItemInput(<bewitchment:empty_jar>*64);
+honeysmelt37.addItemOutput(<bewitchment:wood_ash>*64);
+honeysmelt37.addItemOutput(<bewitchment:liquid_witchcraft>*64);
+honeysmelt37.build();
+
+val honeysmelt37a = RecipeBuilder.newBuilder("honeysmelt37a","honeysmelter_oven",5);
+honeysmelt37a.addFluidInput(<fluid:for.honey>*100);
+honeysmelt37a.addItemInput(<aoa3:runic_bush>*64);
+honeysmelt37a.addItemInput(<minecraft:glass_bottle>*64);
+honeysmelt37a.addItemOutput(<bewitchment:wood_ash>*64);
+honeysmelt37a.addItemOutput(<contenttweaker:liquid_witchcraft_bottle>*64);
+honeysmelt37a.build();
+
+
+val honeysmelt38 = RecipeBuilder.newBuilder("honeysmelt38","honeysmelter_oven",5);
+honeysmelt38.addFluidInput(<fluid:for.honey>*100);
+honeysmelt38.addItemInput(<aoa3:lunosso_sapling>*64);
+honeysmelt38.addItemInput(<bewitchment:empty_jar>*64);
+honeysmelt38.addItemOutput(<bewitchment:wood_ash>*64);
+honeysmelt38.addItemOutput(<bewitchment:acacia_resin>*64);
+honeysmelt38.build();
+
+val honeysmelt38a = RecipeBuilder.newBuilder("honeysmelt38a","honeysmelter_oven",5);
+honeysmelt38a.addFluidInput(<fluid:for.honey>*100);
+honeysmelt38a.addItemInput(<aoa3:lunosso_sapling>*64);
+honeysmelt38a.addItemInput(<minecraft:glass_bottle>*64);
+honeysmelt38a.addItemOutput(<bewitchment:wood_ash>*64);
+honeysmelt38a.addItemOutput(<contenttweaker:acacia_resin_bottle>*64);
+honeysmelt38a.build();
+
+
+val honeysmelt39 = RecipeBuilder.newBuilder("honeysmelt39","honeysmelter_oven",5);
+honeysmelt39.addFluidInput(<fluid:for.honey>*100);
+honeysmelt39.addItemInput(<divinerpg:raw_empowered_meat>*6);
+honeysmelt39.addItemOutput(<divinerpg:empowered_meat>*6);
+honeysmelt39.addItemOutput(<bewitchment:tallow>*6);
+honeysmelt39.build();
+
+val honeysmelt40 = RecipeBuilder.newBuilder("honeysmelt40","honeysmelter_oven",5);
+honeysmelt40.addFluidInput(<fluid:for.honey>*100);
+honeysmelt40.addItemInput(<aoa3:raw_halycon_beef>*8);
+honeysmelt40.addItemOutput(<aoa3:halycon_beef>*8);
+honeysmelt40.addItemOutput(<bewitchment:tallow>*8);
+honeysmelt40.build();
+
+val honeysmelt41 = RecipeBuilder.newBuilder("honeysmelt41","honeysmelter_oven",5);
+honeysmelt41.addFluidInput(<fluid:for.honey>*100);
+honeysmelt41.addItemInput(<abyssalcraft:shoggothflesh:0>*6);
+honeysmelt41.addItemOutput(<minecraft:rotten_flesh>*6);
+honeysmelt41.addItemOutput(<bewitchment:tallow>*6);
+honeysmelt41.build();
+
+val honeysmelt42 = RecipeBuilder.newBuilder("honeysmelt42","honeysmelter_oven",5);
+honeysmelt42.addFluidInput(<fluid:for.honey>*100);
+honeysmelt42.addItemInput(<abyssalcraft:shoggothflesh:1>*6);
+honeysmelt42.addItemOutput(<minecraft:rotten_flesh>*6);
+honeysmelt42.addItemOutput(<bewitchment:tallow>*6);
+honeysmelt42.build();
+
+val honeysmelt43 = RecipeBuilder.newBuilder("honeysmelt43","honeysmelter_oven",5);
+honeysmelt43.addFluidInput(<fluid:for.honey>*100);
+honeysmelt43.addItemInput(<abyssalcraft:shoggothflesh:2>*6);
+honeysmelt43.addItemOutput(<minecraft:rotten_flesh>*6);
+honeysmelt43.addItemOutput(<bewitchment:tallow>*6);
+honeysmelt43.build();
+
+val honeysmelt44 = RecipeBuilder.newBuilder("honeysmelt44","honeysmelter_oven",5);
+honeysmelt44.addFluidInput(<fluid:for.honey>*100);
+honeysmelt44.addItemInput(<abyssalcraft:shoggothflesh:3>*6);
+honeysmelt44.addItemOutput(<minecraft:rotten_flesh>*6);
+honeysmelt44.addItemOutput(<bewitchment:tallow>*6);
+honeysmelt44.build();
+
+val honeysmelt45 = RecipeBuilder.newBuilder("honeysmelt45","honeysmelter_oven",5);
+honeysmelt45.addFluidInput(<fluid:for.honey>*100);
+honeysmelt45.addItemInput(<abyssalcraft:shoggothflesh:4>*6);
+honeysmelt45.addItemOutput(<minecraft:rotten_flesh>*6);
+honeysmelt45.addItemOutput(<bewitchment:tallow>*6);
+honeysmelt45.build();
+
+val honeysmelt46 = RecipeBuilder.newBuilder("honeysmelt46","honeysmelter_oven",5);
+honeysmelt46.addFluidInput(<fluid:for.honey>*100);
+honeysmelt46.addItemInput(<contenttweaker:eye_of_flesh_manipulation>);
+honeysmelt46.setChance(0.0);
+honeysmelt46.addItemInput(<contenttweaker:sentient_shoggoth_flesh>*12);
+honeysmelt46.addItemOutput(<minecraft:rotten_flesh>*12);
+honeysmelt46.addItemOutput(<bewitchment:tallow>*12);
+honeysmelt46.build();
+
+val honeysmelt47 = RecipeBuilder.newBuilder("honeysmelt47","honeysmelter_oven",5);
+honeysmelt47.addFluidInput(<fluid:for.honey>*100);
+honeysmelt47.addItemInput(<contenttweaker:gluttonous_flesh_singularity>);
+honeysmelt47.setChance(0.0);
+honeysmelt47.addItemInput(<contenttweaker:sentient_shoggoth_flesh>*18);
+honeysmelt47.addItemOutput(<minecraft:rotten_flesh>*18);
+honeysmelt47.addItemOutput(<bewitchment:tallow>*18);
+honeysmelt47.build();
+
+val honeysmelt48 = RecipeBuilder.newBuilder("honeysmelt48","honeysmelter_oven",5);
+honeysmelt48.addFluidInput(<fluid:for.honey>*100);
+honeysmelt48.addItemInput(<contenttweaker:sundered_crimson_heart>);
+honeysmelt48.setChance(0.0);
+honeysmelt48.addItemInput(<contenttweaker:sentient_shoggoth_flesh>*24);
+honeysmelt48.addItemOutput(<minecraft:rotten_flesh>*24);
+honeysmelt48.addItemOutput(<bewitchment:tallow>*24);
+honeysmelt48.build();

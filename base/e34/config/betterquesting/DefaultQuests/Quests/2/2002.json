@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "§7§oIn case you want to come up with your own designs, here is some math explanations!\n\nTo build a heat exchanger, first calculate how much NaK coolant you\u0027re heating from your MSR. The MSR heats 1 mB of coolant per Coolant Heater, multiplied by the efficiency, e.g. an MSR at 150% efficiency heats 1.5 mB/t per Coolant Heater.\n\nEach coolant requires a different amount of heat to be exchanged to cool it, and coolants take a different amount of heat to warm. In JEI, cooling recipes have a red to blue arrow and heating recipes have a blue to red arrow, which, upon hover, shows the Heat Required. Those numbers determine the rate at which coolant can be processed, at 1/Coolant Tube Conductivity mB * Heat Required to Cool / Heat Required to Warm per face touching hot and cold liquids.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "nuclearcraft:heat_exchanger_tube_thermoconducting"
@@ -30,13 +30,14 @@
     },
     "1:10": {
       "index:3": 1,
+      "optional:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "id:8": "contenttweaker:heat_exchanger_math"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

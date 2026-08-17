@@ -395,7 +395,7 @@ mythpulv65.build();
 
 val mythpulv66 = RecipeBuilder.newBuilder("mythpulv66","mythic_processor_pulverizer",2);
 mythpulv66.addEnergyPerTickInput(60000);
-mythpulv66.addItemInput(<techreborn:ingot:1>*16);
+mythpulv66.addItemInput(<ore:ingotBrass>*16);
 mythpulv66.addItemOutput(<techreborn:dust:6>*16);
 mythpulv66.build();
 
@@ -1435,3 +1435,17 @@ mythpulv228.addItemInput(<contenttweaker:superconducting_fluix>*1);
 mythpulv228.addItemInput(<redstonearsenal:material:0>*128);
 mythpulv228.addItemOutput(<contenttweaker:superconducting_fluix_blend>*128);
 mythpulv228.build();
+
+val mythpulv229 = RecipeBuilder.newBuilder("mythpulv229","mythic_processor_pulverizer",2);
+mythpulv229.addEnergyPerTickInput(60000);
+mythpulv229.addItemInput(<ore:oreCertusQuartz>*16);
+mythpulv229.addItemOutput(<appliedenergistics2:material:0>*72);
+mythpulv229.addItemOutput(<appliedenergistics2:material:2>*32);
+mythpulv229.build();
+
+
+val mythpulv230 = RecipeBuilder.newBuilder("mythpulv230","mythic_processor_pulverizer",2);
+mythpulv230.addEnergyPerTickInput(60000);
+mythpulv230.addItemInput(<railcraft:ore_magic:0>*16);
+mythpulv230.addItemOutput(<railcraft:firestone_raw>*32);
+mythpulv230.build();

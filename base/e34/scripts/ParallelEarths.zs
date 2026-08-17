@@ -344,7 +344,7 @@ imstuckgetmehome.itemRightClick = function(stack, world, player, hand) {
     player.sendChat("This will get you to spawn if you are stuck somewhere, and do no want to use cheats");
 
 
-	Commands.call("spawn", player, world, true, true);
+	Commands.call("/cofh tpx @p ~ 200 ~ 0", player, world, true, true);
 	return "Pass";
 };
 imstuckgetmehome.register();

@@ -180,7 +180,8 @@ var controllers as IItemStack[] = [
     <modularmachinery:megelium_detonator_controller>,
     <modularmachinery:plith_of_ascension_controller>,
     <modularmachinery:t4_woot_farm_controller>,
-    <modularmachinery:plated_thermofabricator_controller>
+    <modularmachinery:plated_thermofabricator_controller>,
+    <modularmachinery:aesir_resonator_controller>
 ];
 
 // Add shapeless recipes for each controller

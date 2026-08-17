@@ -168,7 +168,7 @@
             "y": 0,
             "z": 6,
             "elements": [
-                "modularmachinery:blockmeitemoutputbus@0"
+                "warren_extractor_output"
             ]
         },
         {

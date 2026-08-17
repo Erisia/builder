@@ -20,10 +20,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "thaumicaugmentation:fracture_locator"
-        },
-        "1:10": {
-          "Count:3": 1,
           "ForgeCaps:10": {
             "Parent:10": {
               "augment:10": {},
@@ -47,6 +43,7 @@
     },
     "1:10": {
       "index:3": 1,
+      "optional:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -78,9 +75,16 @@
             },
             "color:3": 2498903
           }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "thaumicaugmentation:fracture_locator",
+          "tag:10": {
+            "found:1": 0
+          }
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

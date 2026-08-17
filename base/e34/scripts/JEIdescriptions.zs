@@ -2582,7 +2582,7 @@ mods.jei.JEI.addDescription([<appliedenergistics2:part:460>, <betterp2p:advanced
 [
     "P2P buses are used to connect transport of items, redstone, fluids, light, energy, and AE2 channels using AE2.",
     "",
-    "Right click with the following items to change mode:",
+    "Craft with the following items to change mode:",
     "Bucket for fluid mode,",
     "Chest for item mode,",
     "Smart cable for channel mode,",
@@ -2619,7 +2619,7 @@ mods.jei.JEI.addDescription([<bigreactors:turbinecontroller>, <bigreactors:turbi
     "",
     "There are multiple multiblock previews to show how each component works! Turbines can be made nearly any size. Right click the Controller with an empty hand to check if a given turbine structure is valid.",
     "",
-    "You can search 'turbine coil' in JEI for a list of the available coils. Ludicrite blocks are the best!",
+    "Ludicrite blocks are the best!",
     "",
     "To run the turbine, input steam into one Fluid Port, and it will be consumed and turned into Water. You will need to set the other Access Port to Output Mode to auto extract Water.",
     "",
@@ -4077,19 +4077,19 @@ mods.jei.JEI.addDescription([
     "The ore inputs are dropped in from the top, and the machine will drop outputs from the front."
 ]);
 
-mods.jei.JEI.addDescription([
-    <contenttweaker:primordial_accelerator>],
-[
-    "The primordial accelerator is used to break Primordial Pearls into Primordial Grains.",
-    "",
-    "It is a multiblock of variable length, see the JEI preview for the multiblock structure, the more Tunnels, the more Grains can be produced (with diminishing returns). The maximum length is 10.",
-    "",
-    "Primordial pearls can be piped into the Accelerator.",
-    "",
-    "Use a redstone pulse to activate the machine, Primordial Grains will be dropped out around the Terminus.",
-    "",
-    "Grains can be turned back into full Pearls for an endless loop, with a bit of crucible automation."
-]);
+//mods.jei.JEI.addDescription([
+//    <contenttweaker:primordial_accelerator>],
+//[
+//    "The primordial accelerator is used to break Primordial Pearls into Primordial Grains.",
+//    "",
+//    "It is a multiblock of variable length, see the JEI preview for the multiblock structure, the more Tunnels, the more Grains can be produced (with diminishing returns). The maximum length is 10.",
+//    "",
+//    "Primordial pearls can be piped into the Accelerator.",
+//    "",
+//    "Use a redstone pulse to activate the machine, Primordial Grains will be dropped out around the Terminus.",
+//    "",
+//    "Grains can be turned back into full Pearls for an endless loop, with a bit of crucible automation."
+//]);
 
 mods.jei.JEI.addDescription([
     <contenttweaker:heat_exchanger_math>],
@@ -4990,4 +4990,15 @@ mods.jei.JEI.addDescription([
     "Second Chain, less steps, more isotope separators:",
     "1. MOX-239",
     "2. HEP-239"
+]);
+
+
+mods.jei.JEI.addDescription([
+    <contenttweaker:jei_info_box>],
+[
+    "Look at you, you are checking this out! ",
+    "",
+    "Lots of people skip on reading the initial pieces of documentation, and then they get confused and complain about it.",
+    "",
+    "But you are a reader, I like you ;)"
 ]);

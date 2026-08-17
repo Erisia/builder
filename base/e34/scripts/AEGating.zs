@@ -757,7 +757,7 @@ recipes.removeShaped(<cells:import_interface>);
 mods.extendedcrafting.TableCrafting.addShaped(<cells:import_interface>, 
 [[<extendedcrafting:material:16>, null, <appliedenergistics2:quartz_glass>, null, <extendedcrafting:material:16>], 
 [null, null, <extendedcrafting:material:8>, null, null], 
-[<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:44>, <appliedenergistics2:material:12>, <appliedenergistics2:material:44>, <appliedenergistics2:quartz_glass>], 
+[<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:44>, <cells:singularity_processor:2>, <appliedenergistics2:material:44>, <appliedenergistics2:quartz_glass>], 
 [null, null, <appliedenergistics2:part:240>, null, null], 
 [<extendedcrafting:material:16>, null, <appliedenergistics2:quartz_glass>, null, <extendedcrafting:material:16>]]); 
 
@@ -765,7 +765,7 @@ recipes.removeShaped(<cells:import_fluid_interface>);
 mods.extendedcrafting.TableCrafting.addShaped(<cells:import_fluid_interface>, 
 [[<extendedcrafting:material:16>, null, <appliedenergistics2:quartz_glass>, null, <extendedcrafting:material:16>], 
 [null, null, <extendedcrafting:material:8>, null, null], 
-[<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:44>, <appliedenergistics2:material:12>, <appliedenergistics2:material:44>, <appliedenergistics2:quartz_glass>], 
+[<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:44>, <cells:singularity_processor:2>, <appliedenergistics2:material:44>, <appliedenergistics2:quartz_glass>], 
 [null, null, <appliedenergistics2:part:241>, null, null], 
 [<extendedcrafting:material:16>, null, <appliedenergistics2:quartz_glass>, null, <extendedcrafting:material:16>]]); 
 
@@ -773,7 +773,7 @@ recipes.removeShaped(<cells:export_interface>);
 mods.extendedcrafting.TableCrafting.addShaped(<cells:export_interface>, 
 [[<extendedcrafting:material:16>, null, <appliedenergistics2:quartz_glass>, null, <extendedcrafting:material:16>], 
 [null, null, <extendedcrafting:material:8>, null, null], 
-[<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:43>, <appliedenergistics2:material:12>, <appliedenergistics2:material:43>, <appliedenergistics2:quartz_glass>], 
+[<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:43>, <cells:singularity_processor:2>, <appliedenergistics2:material:43>, <appliedenergistics2:quartz_glass>], 
 [null, null, <appliedenergistics2:part:260>, null, null], 
 [<extendedcrafting:material:16>, null, <appliedenergistics2:quartz_glass>, null, <extendedcrafting:material:16>]]); 
 
@@ -781,7 +781,7 @@ recipes.removeShaped(<cells:export_fluid_interface>);
 mods.extendedcrafting.TableCrafting.addShaped(<cells:export_fluid_interface>, 
 [[<extendedcrafting:material:16>, null, <appliedenergistics2:quartz_glass>, null, <extendedcrafting:material:16>], 
 [null, null, <extendedcrafting:material:8>, null, null], 
-[<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:43>, <appliedenergistics2:material:12>, <appliedenergistics2:material:43>, <appliedenergistics2:quartz_glass>], 
+[<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:43>, <cells:singularity_processor:2>, <appliedenergistics2:material:43>, <appliedenergistics2:quartz_glass>], 
 [null, null, <appliedenergistics2:part:261>, null, null], 
 [<extendedcrafting:material:16>, null, <appliedenergistics2:quartz_glass>, null, <extendedcrafting:material:16>]]); 
 
@@ -1032,16 +1032,16 @@ recipes.removeShaped(<cells:export_essentia_interface>);
 mods.extendedcrafting.TableCrafting.addShaped(<cells:export_essentia_interface>, 
 [[<extendedcrafting:material:16>, null, <thaumcraft:jar_normal>, null, <extendedcrafting:material:16>], 
 [null, null, <extendedcrafting:material:8>, null, null], 
-[<thaumcraft:jar_normal>, <appliedenergistics2:material:43>, <appliedenergistics2:material:12>, <appliedenergistics2:material:43>, <thaumcraft:jar_normal>], 
+[<thaumcraft:jar_normal>, <appliedenergistics2:material:43>, <cells:singularity_processor:2>, <appliedenergistics2:material:43>, <thaumcraft:jar_normal>], 
 [null, null, <thaumicenergistics:essentia_export>, null, null], 
 [<extendedcrafting:material:16>, null, <thaumcraft:jar_normal>, null, <extendedcrafting:material:16>]]); 
 
 
 recipes.removeShaped(<cells:import_essentia_interface>);
-mods.extendedcrafting.TableCrafting.addShaped(<cells:export_essentia_interface>, 
+mods.extendedcrafting.TableCrafting.addShaped(<cells:import_essentia_interface>, 
 [[<extendedcrafting:material:16>, null, <thaumcraft:jar_normal>, null, <extendedcrafting:material:16>], 
 [null, null, <extendedcrafting:material:8>, null, null], 
-[<thaumcraft:jar_normal>, <appliedenergistics2:material:44>, <appliedenergistics2:material:12>, <appliedenergistics2:material:44>, <thaumcraft:jar_normal>], 
+[<thaumcraft:jar_normal>, <appliedenergistics2:material:44>, <cells:singularity_processor:2>, <appliedenergistics2:material:44>, <thaumcraft:jar_normal>], 
 [null, null, <thaumicenergistics:essentia_import>, null, null], 
 [<extendedcrafting:material:16>, null, <thaumcraft:jar_normal>, null, <extendedcrafting:material:16>]]); 
 
@@ -1060,5 +1060,80 @@ recipes.addShaped(<cells:push_card>,
 
 
 
+recipes.addShaped(<nae2:part:1>,
+[[<appliedenergistics2:material:52>, <appliedenergistics2:interface>, <appliedenergistics2:material:52>],
+[<appliedenergistics2:material:52>, <appliedenergistics2:part:460>, <appliedenergistics2:material:52>],
+[<appliedenergistics2:material:52>, <cells:compressed_silicon_print>, <appliedenergistics2:material:52>]]);
 
 
+recipes.remove(<ae2overclocked:import_bus_tier_1>);
+recipes.remove(<ae2overclocked:import_bus_tier_2>);
+recipes.remove(<ae2overclocked:import_bus_tier_3>);
+recipes.remove(<ae2overclocked:import_bus_tier_4>);
+recipes.remove(<ae2overclocked:import_bus_tier_5>);
+recipes.remove(<ae2overclocked:import_bus_tier_6>);
+
+recipes.remove(<ae2overclocked:export_bus_tier_1>);
+recipes.remove(<ae2overclocked:export_bus_tier_2>);
+recipes.remove(<ae2overclocked:export_bus_tier_3>);
+recipes.remove(<ae2overclocked:export_bus_tier_1>);
+recipes.remove(<ae2overclocked:export_bus_tier_5>);
+recipes.remove(<ae2overclocked:export_bus_tier_6>);
+
+recipes.remove(<ae2overclocked:crafting_coprocessor_tier_1>);
+recipes.remove(<ae2overclocked:crafting_coprocessor_tier_2>);
+recipes.remove(<ae2overclocked:crafting_coprocessor_tier_3>);
+recipes.remove(<ae2overclocked:crafting_coprocessor_tier_4>);
+recipes.remove(<ae2overclocked:crafting_coprocessor_tier_5>);
+recipes.remove(<ae2overclocked:crafting_coprocessor_tier_6>);
+
+recipes.remove(<ae2overclocked:inscriber_tier_1>);
+recipes.remove(<ae2overclocked:inscriber_tier_2>);
+recipes.remove(<ae2overclocked:inscriber_tier_3>);
+recipes.remove(<ae2overclocked:inscriber_tier_4>);
+recipes.remove(<ae2overclocked:inscriber_tier_5>);
+recipes.remove(<ae2overclocked:inscriber_tier_6>);
+
+recipes.remove(<ae2overclocked:interface_tier_1>);
+recipes.remove(<ae2overclocked:interface_tier_2>);
+recipes.remove(<ae2overclocked:interface_tier_3>);
+recipes.remove(<ae2overclocked:interface_tier_4>);
+
+recipes.remove(<ae2overclocked:fluid_interface_tier_1>);
+recipes.remove(<ae2overclocked:fluid_interface_tier_2>);
+recipes.remove(<ae2overclocked:fluid_interface_tier_3>);
+recipes.remove(<ae2overclocked:fluid_interface_tier_4>);
+
+recipes.remove(<ae2overclocked:dual_interface_tier_1>);
+recipes.remove(<ae2overclocked:dual_interface_tier_2>);
+recipes.remove(<ae2overclocked:dual_interface_tier_3>);
+recipes.remove(<ae2overclocked:dual_interface_tier_4>);
+
+
+recipes.remove(<ae2overclocked:molecular_assembler_tier_1>);
+recipes.addShaped(<ae2overclocked:molecular_assembler_tier_1>,
+[[<appliedenergistics2:material:30>, <threng:big_assembler:3>, <appliedenergistics2:material:30>],
+[<appliedenergistics2:molecular_assembler>, <cells:singularity_processor:0>, <appliedenergistics2:molecular_assembler>],
+[<appliedenergistics2:material:30>, <appliedenergistics2:molecular_assembler>, <appliedenergistics2:material:30>]]);
+
+recipes.remove(<ae2overclocked:molecular_assembler_tier_2>);
+recipes.addShaped(<ae2overclocked:molecular_assembler_tier_2>,
+[[<appliedenergistics2:material:30>, <threng:big_assembler:3>, <appliedenergistics2:material:30>],
+[<ae2overclocked:molecular_assembler_tier_1>, <cells:singularity_processor:0>, <ae2overclocked:molecular_assembler_tier_1>],
+[<appliedenergistics2:material:30>, <ae2overclocked:molecular_assembler_tier_1>, <appliedenergistics2:material:30>]]);
+
+recipes.remove(<ae2overclocked:molecular_assembler_tier_3>);
+recipes.addShaped(<ae2overclocked:molecular_assembler_tier_3>,
+[[<appliedenergistics2:material:30>, <threng:big_assembler:3>, <appliedenergistics2:material:30>],
+[<ae2overclocked:molecular_assembler_tier_2>, <cells:singularity_processor:0>, <ae2overclocked:molecular_assembler_tier_2>],
+[<appliedenergistics2:material:30>, <ae2overclocked:molecular_assembler_tier_2>, <appliedenergistics2:material:30>]]);
+
+recipes.remove(<ae2overclocked:molecular_assembler_tier_4>);
+recipes.addShaped(<ae2overclocked:molecular_assembler_tier_4>,
+[[<appliedenergistics2:material:30>, <threng:big_assembler:3>, <appliedenergistics2:material:30>],
+[<ae2overclocked:molecular_assembler_tier_3>, <cells:singularity_processor:0>, <ae2overclocked:molecular_assembler_tier_3>],
+[<appliedenergistics2:material:30>, <threng:big_assembler:3>, <appliedenergistics2:material:30>]]);
+
+recipes.remove(<ae2overclocked:molecular_assembler_tier_5>);
+
+recipes.remove(<ae2overclocked:molecular_assembler_tier_6>);

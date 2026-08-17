@@ -504,7 +504,7 @@ mythassmac65.build();
 val mythassmac66 = RecipeBuilder.newBuilder("mythassmac66","mythic_processor_assembling_machine",2);
 mythassmac66.addEnergyPerTickInput(40000);
 mythassmac66.addItemInput(<techreborn:plates:36>*4);
-mythassmac66.addItemInput(<libvulpes:productrod:6>*48);
+mythassmac66.addItemInput(<ore:stickSteel>*48);
 mythassmac66.addItemOutput(<advancedrocketry:structuretower>*4);
 mythassmac66.build();
 
@@ -590,7 +590,7 @@ mythassmac77.build();
 
 val mythassmac78 = RecipeBuilder.newBuilder("mythassmac78","mythic_processor_assembling_machine",2);
 mythassmac78.addEnergyPerTickInput(40000);
-mythassmac78.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidpotassiun", Amount: 1000}})*8);
+mythassmac78.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidpotassium", Amount: 1000}})*8);
 mythassmac78.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidsodium", Amount: 1000}})*8);
 mythassmac78.addItemInput(<ore:ingotTin>*16);
 mythassmac78.addItemInput(<techreborn:part:36>*4);

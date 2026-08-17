@@ -168,3 +168,108 @@ recipes.addShaped(<deepmoblearning:data_model_beastsofmortum>.withTag({tier: 4, 
 [<gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>, <gendustry:honey_comb:14018>]]);
 
 
+
+
+
+recipes.addShaped(<mysticalagriculture:sheep_seeds>.withTag({agri_analyzed: 0 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "mysticalagriculture:sheep_plant", agri_growth: 10 as byte}),
+[[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <mysticalagriculture:sheep_seeds>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>]]);
+
+recipes.addShaped(<mysticalagriculture:cow_seeds>.withTag({agri_analyzed: 0 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "mysticalagriculture:cow_plant", agri_growth: 10 as byte}),
+[[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <mysticalagriculture:cow_seeds>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>]]);
+
+recipes.addShaped(<mysticalagriculture:chicken_seeds>.withTag({agri_analyzed: 0 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "mysticalagriculture:chicken_plant", agri_growth: 10 as byte}),
+[[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <mysticalagriculture:chicken_seeds>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>]]);
+
+recipes.addShaped(<mysticalagriculture:pig_seeds>.withTag({agri_analyzed: 0 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "mysticalagriculture:pig_plant", agri_growth: 10 as byte}),
+[[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <mysticalagriculture:pig_seeds>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>]]);
+
+recipes.addShaped(<mysticalagriculture:experience_seeds>.withTag({agri_analyzed: 0 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "mysticalagriculture:experience_plant", agri_growth: 10 as byte}),
+[[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <mysticalagriculture:experience_seeds>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>]]);
+
+recipes.addShaped(<mysticalagriculture:zombie_seeds>.withTag({agri_analyzed: 0 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "mysticalagriculture:zombie_plant", agri_growth: 10 as byte}),
+[[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <mysticalagriculture:zombie_seeds>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>]]);
+
+recipes.addShaped(<mysticalagriculture:skeleton_seeds>.withTag({agri_analyzed: 0 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "mysticalagriculture:skeleton_plant", agri_growth: 10 as byte}),
+[[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <mysticalagriculture:skeleton_seeds>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>]]);
+
+recipes.addShaped(<mysticalagriculture:creeper_seeds>.withTag({agri_analyzed: 0 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "mysticalagriculture:creeper_plant", agri_growth: 10 as byte}),
+[[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <mysticalagriculture:creeper_seeds>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>]]);
+
+recipes.addShaped(<mysticalagriculture:spider_seeds>.withTag({agri_analyzed: 0 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "mysticalagriculture:spider_plant", agri_growth: 10 as byte}),
+[[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <mysticalagriculture:spider_seeds>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>]]);
+
+recipes.addShaped(<mysticalagriculture:rabbit_seeds>.withTag({agri_analyzed: 0 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "mysticalagriculture:rabbit_plant", agri_growth: 10 as byte}),
+[[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <mysticalagriculture:rabbit_seeds>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>]]);
+
+recipes.addShaped(<mysticalagriculture:guardian_seeds>.withTag({agri_analyzed: 0 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "mysticalagriculture:guardian_plant", agri_growth: 10 as byte}),
+[[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <mysticalagriculture:guardian_seeds>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>]]);
+
+recipes.addShaped(<mysticalagriculture:ghast_seeds>.withTag({agri_analyzed: 0 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "mysticalagriculture:ghast_plant", agri_growth: 10 as byte}),
+[[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <mysticalagriculture:ghast_seeds>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>]]);
+
+recipes.addShaped(<mysticalagriculture:blaze_seeds>.withTag({agri_analyzed: 0 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "mysticalagriculture:blaze_plant", agri_growth: 10 as byte}),
+[[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <mysticalagriculture:blaze_seeds>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>]]);
+
+recipes.addShaped(<mysticalagriculture:enderman_seeds>.withTag({agri_analyzed: 0 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "mysticalagriculture:enderman_plant", agri_growth: 10 as byte}),
+[[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <mysticalagriculture:enderman_seeds>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>]]);
+
+recipes.addShaped(<mysticalagriculture:wither_skeleton_seeds>.withTag({agri_analyzed: 0 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "mysticalagriculture:wither_skeleton_plant", agri_growth: 10 as byte}),
+[[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <mysticalagriculture:wither_skeleton_seeds>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>]]);
+
+recipes.addShaped(<mysticalagriculture:blizz_seeds>.withTag({agri_analyzed: 0 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "mysticalagriculture:blizz_plant", agri_growth: 10 as byte}),
+[[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <mysticalagriculture:blizz_seeds>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>]]);
+
+recipes.addShaped(<mysticalagriculture:blitz_seeds>.withTag({agri_analyzed: 0 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "mysticalagriculture:blitz_plant", agri_growth: 10 as byte}),
+[[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <mysticalagriculture:blitz_seeds>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>]]);
+
+recipes.addShaped(<mysticalagriculture:basalz_seeds>.withTag({agri_analyzed: 0 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "mysticalagriculture:basalz_plant", agri_growth: 10 as byte}),
+[[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <mysticalagriculture:basalz_seeds>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>]]);
+
+recipes.addShaped(<mysticalagriculture:rubber_seeds>.withTag({agri_analyzed: 0 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "mysticalagriculture:rubber_plant", agri_growth: 10 as byte}),
+[[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <mysticalagriculture:rubber_seeds>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>]]);
+
+recipes.addShaped(<mysticalagriculture:manasteel_seeds>.withTag({agri_analyzed: 0 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "mysticalagriculture:manasteel_plant", agri_growth: 10 as byte}),
+[[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <mysticalagriculture:manasteel_seeds>, <gendustry:honey_comb:14012>],
+[<gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>, <gendustry:honey_comb:14012>]]);
+
+
+

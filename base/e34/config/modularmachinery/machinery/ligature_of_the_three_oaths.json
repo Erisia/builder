@@ -2792,7 +2792,7 @@
             "y": -36,
             "z": 4,
             "elements": [
-                "modularmachinery:blockinputbus@0"
+                "single_item_input"
             ]
         },
         {
@@ -3360,7 +3360,7 @@
             "y": -36,
             "z": 0,
             "elements": [
-                "modularmachinery:blockinputbus@0"
+                "single_item_input"
             ]
         },
         {
@@ -4048,7 +4048,7 @@
             "y": -36,
             "z": 8,
             "elements": [
-                "modularmachinery:blockinputbus@0"
+                "single_item_input"
             ]
         },
         {
@@ -4272,7 +4272,7 @@
             "y": -36,
             "z": 2,
             "elements": [
-                "modularmachinery:blockinputbus@0"
+                "single_item_input"
             ]
         },
         {
@@ -4944,7 +4944,7 @@
             "y": -36,
             "z": 6,
             "elements": [
-                "modularmachinery:blockinputbus@0"
+                "single_item_input"
             ]
         },
         {
@@ -5312,7 +5312,7 @@
             "y": -36,
             "z": 5,
             "elements": [
-                "modularmachinery:blockinputbus@0"
+                "single_item_input"
             ]
         },
         {
@@ -5336,7 +5336,7 @@
             "y": -36,
             "z": 2,
             "elements": [
-                "modularmachinery:blockinputbus@0"
+                "single_item_input"
             ]
         },
         {
@@ -5688,7 +5688,7 @@
             "y": -36,
             "z": 6,
             "elements": [
-                "modularmachinery:blockinputbus@0"
+                "single_item_input"
             ]
         },
         {
@@ -6488,7 +6488,7 @@
             "y": -36,
             "z": 3,
             "elements": [
-                "modularmachinery:blockinputbus@0"
+                "single_item_input"
             ]
         },
         {
@@ -6672,7 +6672,7 @@
             "y": -36,
             "z": 4,
             "elements": [
-                "modularmachinery:blockinputbus@0"
+                "single_item_input"
             ]
         },
         {
@@ -7000,7 +7000,7 @@
             "y": -36,
             "z": 4,
             "elements": [
-                "modularmachinery:blockinputbus@0"
+                "single_item_input"
             ]
         },
         {

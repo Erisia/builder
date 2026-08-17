@@ -199,7 +199,7 @@ mythinfus28.build();
 val mythinfus29 = RecipeBuilder.newBuilder("mythinfus29","mythic_processor_infuser",2);
 mythinfus29.addEnergyPerTickInput(1000000);
 mythinfus29.addFluidInput(<fluid:molten_blood_infused_iron>*1440);
-mythinfus29.addItemInput(<ore:nuggetGold>*10);
+mythinfus29.addItemInput(<bloodmagic:demon_crystal:4>*10);
 mythinfus29.addItemOutput(<contenttweaker:samarium_dust>*10);
 mythinfus29.build();
 
@@ -1372,11 +1372,75 @@ mythinfus171.addItemInput(<contenttweaker:actualized_chunk>*128);
 mythinfus171.addItemOutput(<contenttweaker:twilight_horde_historical_chunk>*128);
 mythinfus171.build();
 
+val mythinfus172 = RecipeBuilder.newBuilder("mythinfus172","mythic_processor_infuser",2);
+mythinfus172.addEnergyPerTickInput(1000000);
+mythinfus172.addFluidInput(<fluid:sideral_life_essence>*1000);
+mythinfus172.addItemInput(<techreborn:dynamiccell>*1);
+mythinfus172.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "sideral_life_essence", Amount: 1000}}));
+mythinfus172.build();
 
+val mythinfus173 = RecipeBuilder.newBuilder("mythinfus173","mythic_processor_infuser",2);
+mythinfus173.addEnergyPerTickInput(1000000);
+mythinfus173.addFluidInput(<fluid:fiery_peat>*1000);
+mythinfus173.addItemInput(<forestry:bee_combs:15>*1);
+mythinfus173.addItemOutput(<forestry:peat>*12);
+mythinfus173.build();
 
+val mythinfus174 = RecipeBuilder.newBuilder("mythinfus174","mythic_processor_infuser",2);
+mythinfus174.addEnergyPerTickInput(1000000);
+mythinfus174.addFluidInput(<fluid:fluidnitrodiesel>*16000);
+mythinfus174.addItemInput(<openblocks:tank>);
+mythinfus174.addItemOutput(<openblocks:tank>.withTag({tank: {FluidName: "fluidnitrodiesel", Amount: 16000}}));
+mythinfus174.build();
 
+val mythinfus175 = RecipeBuilder.newBuilder("mythinfus175","mythic_processor_infuser",2);
+mythinfus175.addEnergyPerTickInput(1000000);
+mythinfus175.addFluidInput(<fluid:rutherfordium_chloride>*1000);
+mythinfus175.addItemInput(<techreborn:dynamiccell>*1);
+mythinfus175.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "rutherfordium_chloride", Amount: 1000}}));
+mythinfus175.build();
 
+val mythinfus176 = RecipeBuilder.newBuilder("mythinfus176","mythic_processor_infuser",2);
+mythinfus176.addEnergyPerTickInput(1000000);
+mythinfus176.addFluidInput(<fluid:depleted_fuel_leu_235>*1000);
+mythinfus176.addItemInput(<techreborn:dynamiccell>*1);
+mythinfus176.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "depleted_fuel_leu_235", Amount: 1000}}));
+mythinfus176.build();
 
+val mythinfus177 = RecipeBuilder.newBuilder("mythinfus177","mythic_processor_infuser",2);
+mythinfus177.addEnergyPerTickInput(1000000);
+mythinfus177.addFluidInput(<fluid:radioactive_ethereal_goo>*1000);
+mythinfus177.addItemInput(<techreborn:dynamiccell>*1);
+mythinfus177.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "radioactive_ethereal_goo", Amount: 1000}}));
+mythinfus177.build();
+
+val mythinfus178 = RecipeBuilder.newBuilder("mythinfus178","mythic_processor_infuser",2);
+mythinfus178.addEnergyPerTickInput(1000000);
+mythinfus178.addFluidInput(<fluid:liquidhelium_nak>*1000);
+mythinfus178.addItemInput(<minecraft:bucket>);
+mythinfus178.addItemOutput(<forge:bucketfilled>.withTag({FluidName: "liquidhelium_nak", Amount: 1000}));
+mythinfus178.build();
+
+val mythinfus179 = RecipeBuilder.newBuilder("mythinfus179","mythic_processor_infuser",2);
+mythinfus179.addEnergyPerTickInput(1000000);
+mythinfus179.addFluidInput(<fluid:harmonic_fluid_lattice>*1000);
+mythinfus179.addItemInput(<minecraft:bucket>);
+mythinfus179.addItemOutput(<forge:bucketfilled>.withTag({FluidName: "harmonic_fluid_lattice", Amount: 1000}));
+mythinfus179.build();
+
+val mythinfus180 = RecipeBuilder.newBuilder("mythinfus180","mythic_processor_infuser",2);
+mythinfus180.addEnergyPerTickInput(1000000);
+mythinfus180.addFluidInput(<fluid:harmonic_fluid_lattice>*1000);
+mythinfus180.addItemInput(<techreborn:dynamiccell>*1);
+mythinfus180.addItemOutput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "harmonic_fluid_lattice", Amount: 1000}}));
+mythinfus180.build();
+
+val mythinfus181 = RecipeBuilder.newBuilder("mythinfus181","mythic_processor_infuser",2);
+mythinfus181.addEnergyPerTickInput(1000000);
+mythinfus181.addFluidInput(<fluid:harmonic_fluid_lattice>*16000);
+mythinfus181.addItemInput(<openblocks:tank>*1);
+mythinfus181.addItemOutput(<openblocks:tank>.withTag({tank: {FluidName: "harmonic_fluid_lattice", Amount: 16000}}));
+mythinfus181.build();
 
 
 
@@ -1458,24 +1522,24 @@ mythextrac10.addItemOutput(<forestry:mulch>*10);
 mythextrac10.addFluidOutput(<fluid:seed.oil>*500);
 mythextrac10.build();
 
-val mythextrac11 = RecipeBuilder.newBuilder("mythextrac11","mythic_processor_infuser",2);
-mythextrac11.addEnergyPerTickInput(1000000);
-mythextrac11.addItemInput(<ore:cropChestnut>*10);
-mythextrac11.addItemOutput(<forestry:mulch>*10);
-mythextrac11.addFluidOutput(<fluid:seed.oil>*2200);
-mythextrac11.build();
+//val mythextrac11 = RecipeBuilder.newBuilder("mythextrac11","mythic_processor_infuser",2);
+//mythextrac11.addEnergyPerTickInput(1000000);
+//mythextrac11.addItemInput(<ore:cropChestnut>*10);
+//mythextrac11.addItemOutput(<forestry:mulch>*10);
+//mythextrac11.addFluidOutput(<fluid:seed.oil>*2200);
+//mythextrac11.build();
 
-val mythextrac12 = RecipeBuilder.newBuilder("mythextrac12","mythic_processor_infuser",2);
-mythextrac12.addEnergyPerTickInput(1000000);
-mythextrac12.addItemInput(<ore:cropWalnut>*10);
-mythextrac12.addItemOutput(<forestry:mulch>*10);
-mythextrac12.addFluidOutput(<fluid:seed.oil>*1800);
-mythextrac12.build();
+//val mythextrac12 = RecipeBuilder.newBuilder("mythextrac12","mythic_processor_infuser",2);
+//mythextrac12.addEnergyPerTickInput(1000000);
+//mythextrac12.addItemInput(<ore:cropWalnut>*10);
+//mythextrac12.addItemOutput(<forestry:mulch>*10);
+//mythextrac12.addFluidOutput(<fluid:seed.oil>*1800);
+//mythextrac12.build();
 
 
 val mythextrac13 = RecipeBuilder.newBuilder("mythextrac13","mythic_processor_infuser",2);
 mythextrac13.addEnergyPerTickInput(1000000);
-mythextrac13.addItemInput(<extratrees:food:35>*10);
+mythextrac13.addItemInput(<ore:cropOlive>*10);
 mythextrac13.addItemOutput(<forestry:mulch>*10);
 mythextrac13.addFluidOutput(<fluid:binnie.juice.olive>*500);
 mythextrac13.build();
@@ -1936,6 +2000,96 @@ mythextrac78.addItemOutput(<techreborn:dynamiccell>);
 mythextrac78.addFluidOutput(<fluid:potassium>*1000);
 mythextrac78.build();
 
+val mythextrac79 = RecipeBuilder.newBuilder("mythextrac79","mythic_processor_infuser",2);
+mythextrac79.addEnergyPerTickInput(1000000);
+mythextrac79.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "rutherfordium", Amount: 1000}}));
+mythextrac79.addItemOutput(<techreborn:dynamiccell>);
+mythextrac79.addFluidOutput(<fluid:rutherfordium>*1000);
+mythextrac79.build();
+
+val mythextrac80 = RecipeBuilder.newBuilder("mythextrac80","mythic_processor_infuser",2);
+mythextrac80.addEnergyPerTickInput(1000000);
+mythextrac80.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "chlorine", Amount: 1000}}));
+mythextrac80.addItemOutput(<techreborn:dynamiccell>);
+mythextrac80.addFluidOutput(<fluid:chlorine>*1000);
+mythextrac80.build();
+
+val mythextrac81 = RecipeBuilder.newBuilder("mythextrac81","mythic_processor_infuser",2);
+mythextrac81.addEnergyPerTickInput(1000000);
+mythextrac81.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "molten_scandium", Amount: 1000}}));
+mythextrac81.addItemOutput(<techreborn:dynamiccell>);
+mythextrac81.addFluidOutput(<fluid:molten_scandium>*1000);
+mythextrac81.build();
+
+val mythextrac82 = RecipeBuilder.newBuilder("mythextrac82","mythic_processor_infuser",2);
+mythextrac82.addEnergyPerTickInput(1000000);
+mythextrac82.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "uranium_235", Amount: 1000}}));
+mythextrac82.addItemOutput(<techreborn:dynamiccell>);
+mythextrac82.addFluidOutput(<fluid:uranium_235>*1000);
+mythextrac82.build();
+
+val mythextrac83 = RecipeBuilder.newBuilder("mythextrac83","mythic_processor_infuser",2);
+mythextrac83.addEnergyPerTickInput(1000000);
+mythextrac83.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "uranium_238", Amount: 1000}}));
+mythextrac83.addItemOutput(<techreborn:dynamiccell>);
+mythextrac83.addFluidOutput(<fluid:uranium_238>*1000);
+mythextrac83.build();
+
+val mythextrac84 = RecipeBuilder.newBuilder("mythextrac84","mythic_processor_infuser",2);
+mythextrac84.addEnergyPerTickInput(1000000);
+mythextrac84.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "astatine", Amount: 1000}}));
+mythextrac84.addItemOutput(<techreborn:dynamiccell>);
+mythextrac84.addFluidOutput(<fluid:astatine>*1000);
+mythextrac84.build();
+
+val mythextrac85 = RecipeBuilder.newBuilder("mythextrac85","mythic_processor_infuser",2);
+mythextrac85.addEnergyPerTickInput(1000000);
+mythextrac85.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "neptunium_237", Amount: 1000}}));
+mythextrac85.addItemOutput(<techreborn:dynamiccell>);
+mythextrac85.addFluidOutput(<fluid:neptunium_237>*1000);
+mythextrac85.build();
+
+val mythextrac86 = RecipeBuilder.newBuilder("mythextrac86","mythic_processor_infuser",2);
+mythextrac86.addEnergyPerTickInput(1000000);
+mythextrac86.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "neptunium_236", Amount: 1000}}));
+mythextrac86.addItemOutput(<techreborn:dynamiccell>);
+mythextrac86.addFluidOutput(<fluid:neptunium_236>*1000);
+mythextrac86.build();
+
+val mythextrac87 = RecipeBuilder.newBuilder("mythextrac87","mythic_processor_infuser",2);
+mythextrac87.addEnergyPerTickInput(1000000);
+mythextrac87.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "thorium", Amount: 1000}}));
+mythextrac87.addItemOutput(<techreborn:dynamiccell>);
+mythextrac87.addFluidOutput(<fluid:thorium>*1000);
+mythextrac87.build();
+
+val mythextrac88 = RecipeBuilder.newBuilder("mythextrac88","mythic_processor_infuser",2);
+mythextrac88.addEnergyPerTickInput(1000000);
+mythextrac88.addItemInput(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "harmonic_fluid_lattice", Amount: 1000}}));
+mythextrac88.addItemOutput(<techreborn:dynamiccell>);
+mythextrac88.addFluidOutput(<fluid:harmonic_fluid_lattice>*1000);
+mythextrac88.build();
+
+val mythextrac89 = RecipeBuilder.newBuilder("mythextrac89","mythic_processor_infuser",2);
+mythextrac89.addEnergyPerTickInput(1000000);
+mythextrac89.addItemInput(<forge:bucketfilled>.withTag({Fluid: {FluidName: "harmonic_fluid_lattice", Amount: 1000}}));
+mythextrac89.addItemOutput(<minecraft:bucket>);
+mythextrac89.addFluidOutput(<fluid:harmonic_fluid_lattice>*1000);
+mythextrac89.build();
+
+val mythextrac90 = RecipeBuilder.newBuilder("mythextrac90","mythic_processor_infuser",2);
+mythextrac90.addEnergyPerTickInput(1000000);
+mythextrac90.addItemInput(<openblocks:tank>.withTag({tank: {FluidName: "harmonic_fluid_lattice", Amount: 16000}}));
+mythextrac90.addItemOutput(<openblocks:tank>);
+mythextrac90.addFluidOutput(<fluid:harmonic_fluid_lattice>*16000);
+mythextrac90.build();
+
+val mythextrac91 = RecipeBuilder.newBuilder("mythextrac91","mythic_processor_infuser",2);
+mythextrac91.addEnergyPerTickInput(1000000);
+mythextrac91.addItemInput(<openblocks:tank>.withTag({tank: {FluidName: "harmonic_temporal_lattice", Amount: 16000}}));
+mythextrac91.addItemOutput(<openblocks:tank>);
+mythextrac91.addFluidOutput(<fluid:harmonic_temporal_lattice>*16000);
+mythextrac91.build();
 
 
 
@@ -1950,273 +2104,3 @@ mythextrac78.build();
 
 
 
-
-val mythenrich1 = RecipeBuilder.newBuilder("mythenrich1","mythic_processor_infuser",2);
-mythenrich1.addEnergyPerTickInput(1000000);
-mythenrich1.addItemInput(<nuclearcraft:compound:1>*10);
-mythenrich1.addFluidInput(<fluid:wet_steam>*100);
-mythenrich1.addFluidOutput(<fluid:high_particulate_steam>*150);
-mythenrich1.build();
-
-val mythenrich2 = RecipeBuilder.newBuilder("mythenrich2","mythic_processor_infuser",2);
-mythenrich2.addEnergyPerTickInput(1000000);
-mythenrich2.addItemInput(<nuclearcraft:gem_dust:5>*10);
-mythenrich2.addFluidInput(<fluid:water>*10000);
-mythenrich2.addFluidOutput(<fluid:fluorite_water>*6660);
-mythenrich2.build();
-
-val mythenrich3 = RecipeBuilder.newBuilder("mythenrich3","mythic_processor_infuser",2);
-mythenrich3.addEnergyPerTickInput(1000000);
-mythenrich3.addItemInput(<bewitchment:salt>*10);
-mythenrich3.addFluidInput(<fluid:water>*1000);
-mythenrich3.addFluidOutput(<fluid:salt_water>*1000);
-mythenrich3.build();
-
-val mythenrich4 = RecipeBuilder.newBuilder("mythenrich4","mythic_processor_infuser",2);
-mythenrich4.addEnergyPerTickInput(1000000);
-mythenrich4.addItemInput(<ore:dustRhenium>*10);
-mythenrich4.addFluidInput(<fluid:unbalanced_negative_matter>*500);
-mythenrich4.addFluidOutput(<fluid:bohrium>*400);
-mythenrich4.build();
-
-val mythenrich5 = RecipeBuilder.newBuilder("mythenrich5","mythic_processor_infuser",2);
-mythenrich5.addEnergyPerTickInput(1000000);
-mythenrich5.addItemInput(<contenttweaker:lanthanum_salt>*10);
-mythenrich5.addFluidInput(<fluid:fierymetal>*1440);
-mythenrich5.addFluidOutput(<fluid:lanthanum>*400);
-mythenrich5.build();
-
-val mythenrich6 = RecipeBuilder.newBuilder("mythenrich6","mythic_processor_infuser",2);
-mythenrich6.addEnergyPerTickInput(1000000);
-mythenrich6.addItemInput(<contenttweaker:hempcrete_dust>*10);
-mythenrich6.addFluidInput(<fluid:hydrochloric_acid>*50);
-mythenrich6.addFluidOutput(<fluid:inorganic_remains>*200);
-mythenrich6.build();
-
-val mythenrich7 = RecipeBuilder.newBuilder("mythenrich7","mythic_processor_infuser",2);
-mythenrich7.addEnergyPerTickInput(1000000);
-mythenrich7.addItemInput(<contenttweaker:imperfect_neutronium_nugget>*10);
-mythenrich7.addFluidInput(<fluid:fluix_plasma>*10000);
-mythenrich7.addFluidOutput(<fluid:fluix_plasma>*11000);
-mythenrich7.build();
-
-val mythenrich8 = RecipeBuilder.newBuilder("mythenrich8","mythic_processor_infuser",2);
-mythenrich8.addEnergyPerTickInput(1000000);
-mythenrich8.addItemInput(<contenttweaker:actualizing_stone>*10);
-mythenrich8.addFluidInput(<fluid:hyperdense_plasma>*1000);
-mythenrich8.addFluidOutput(<fluid:high_entropy_hyperdense_plasma>*40000);
-mythenrich8.build();
-
-val mythenrich9 = RecipeBuilder.newBuilder("mythenrich9","mythic_processor_infuser",2);
-mythenrich9.addEnergyPerTickInput(1000000);
-mythenrich9.addItemInput(<extratrees:misc:0>*40);
-mythenrich9.addFluidInput(<fluid:jeweled_blend>*1500);
-mythenrich9.addFluidOutput(<fluid:innerved_jeweled_blend>*1500);
-mythenrich9.build();
-
-val mythenrich10 = RecipeBuilder.newBuilder("mythenrich10","mythic_processor_infuser",2);
-mythenrich10.addEnergyPerTickInput(1000000);
-mythenrich10.addItemInput(<appliedenergistics2:material:45>*120);
-mythenrich10.addFluidInput(<fluid:innerved_jeweled_blend>*1500);
-mythenrich10.addFluidOutput(<fluid:ouranic_jeweled_blend>*1500);
-mythenrich10.build();
-
-val mythenrich11 = RecipeBuilder.newBuilder("mythenrich11","mythic_processor_infuser",2);
-mythenrich11.addEnergyPerTickInput(1000000);
-mythenrich11.addItemInput(<minecraft:gunpowder>*640);
-mythenrich11.addFluidInput(<fluid:ouranic_jeweled_blend>*1500);
-mythenrich11.addFluidOutput(<fluid:eikaic_jeweled_blend>*1500);
-mythenrich11.build();
-
-val mythenrich12 = RecipeBuilder.newBuilder("mythenrich12","mythic_processor_infuser",2);
-mythenrich12.addEnergyPerTickInput(1000000);
-mythenrich12.addItemInput(<contenttweaker:dust_of_infinite_wishes>*10);
-mythenrich12.addFluidInput(<fluid:hint_of_divinity>*40000);
-mythenrich12.addFluidOutput(<fluid:infinite_divine_wish>*80000);
-mythenrich12.build();
-
-val mythenrich13 = RecipeBuilder.newBuilder("mythenrich13","mythic_processor_infuser",2);
-mythenrich13.addEnergyPerTickInput(1000000);
-mythenrich13.addItemInput(<contenttweaker:dust_of_infinite_wishes>*10);
-mythenrich13.addFluidInput(<fluid:hint_of_insanity>*40000);
-mythenrich13.addFluidOutput(<fluid:infinite_insane_wish>*80000);
-mythenrich13.build();
-
-val mythenrich14 = RecipeBuilder.newBuilder("mythenrich14","mythic_processor_infuser",2);
-mythenrich14.addEnergyPerTickInput(1000000);
-mythenrich14.addItemInput(<contenttweaker:infused_dread_shard>*10);
-mythenrich14.addFluidInput(<fluid:essence_of_betrayal>*500);
-mythenrich14.addFluidOutput(<fluid:essence_of_betrayal>*1000);
-mythenrich14.build();
-
-val mythenrich15 = RecipeBuilder.newBuilder("mythenrich15","mythic_processor_infuser",2);
-mythenrich15.addEnergyPerTickInput(1000000);
-mythenrich15.addItemInput(<contenttweaker:stone_of_constraint>*10);
-mythenrich15.addFluidInput(<fluid:essence_of_ilarity>*100);
-mythenrich15.addFluidOutput(<fluid:matter_of_restraining>*40000);
-mythenrich15.build();
-
-val mythenrich16 = RecipeBuilder.newBuilder("mythenrich16","mythic_processor_infuser",2);
-mythenrich16.addEnergyPerTickInput(1000000);
-mythenrich16.addItemInput(<contenttweaker:vial_of_ilarity>*10);
-mythenrich16.addFluidInput(<fluid:essence_of_ilarity>*100);
-mythenrich16.addFluidOutput(<fluid:essence_of_ilarity>*40000);
-mythenrich16.build();
-
-val mythenrich17 = RecipeBuilder.newBuilder("mythenrich17","mythic_processor_infuser",2);
-mythenrich17.addEnergyPerTickInput(1000000);
-mythenrich17.addItemInput(<contenttweaker:divine_resonance_fabrial>*10);
-mythenrich17.addFluidInput(<fluid:hint_of_divinity>*80000);
-mythenrich17.addFluidOutput(<fluid:divine_resonant_hint>*80000);
-mythenrich17.build();
-
-val mythenrich18 = RecipeBuilder.newBuilder("mythenrich18","mythic_processor_infuser",2);
-mythenrich18.addEnergyPerTickInput(1000000);
-mythenrich18.addItemInput(<avaritia:resource:5>*10);
-mythenrich18.addFluidInput(<fluid:divine_resonant_hint>*80000);
-mythenrich18.addFluidOutput(<fluid:divine_resonance>*80000);
-mythenrich18.build();
-
-val mythenrich19 = RecipeBuilder.newBuilder("mythenrich19","mythic_processor_infuser",2);
-mythenrich19.addEnergyPerTickInput(1000000);
-mythenrich19.addItemInput(<contenttweaker:bismuth_cluster>*10);
-mythenrich19.addFluidInput(<fluid:hydrochloric_acid>*100);
-mythenrich19.addFluidOutput(<fluid:bismuth>*1440);
-mythenrich19.build();
-
-val mythenrich20 = RecipeBuilder.newBuilder("mythenrich20","mythic_processor_infuser",2);
-mythenrich20.addEnergyPerTickInput(1000000);
-mythenrich20.addItemInput(<contenttweaker:dream_projector_gem>*1);
-mythenrich20.addFluidInput(<fluid:marginal_pearlized_essence>*2000);
-mythenrich20.addFluidOutput(<fluid:marginal_pearlized_catalyst>*2000);
-mythenrich20.build();
-
-val mythenrich21 = RecipeBuilder.newBuilder("mythenrich21","mythic_processor_infuser",2);
-mythenrich21.addEnergyPerTickInput(1000000);
-mythenrich21.addItemInput(<contenttweaker:cursed_dragon_egg>*1);
-mythenrich21.addFluidInput(<fluid:weak_pearlized_essence>*2000);
-mythenrich21.addFluidOutput(<fluid:weak_pearlized_catalyst>*2000);
-mythenrich21.build();
-
-val mythenrich22 = RecipeBuilder.newBuilder("mythenrich22","mythic_processor_infuser",2);
-mythenrich22.addEnergyPerTickInput(1000000);
-mythenrich22.addItemInput(<contenttweaker:strange_stone_essence>*1);
-mythenrich22.addFluidInput(<fluid:moderate_pearlized_essence>*2000);
-mythenrich22.addFluidOutput(<fluid:moderate_pearlized_catalyst>*2000);
-mythenrich22.build();
-
-val mythenrich23 = RecipeBuilder.newBuilder("mythenrich23","mythic_processor_infuser",2);
-mythenrich23.addEnergyPerTickInput(1000000);
-mythenrich23.addItemInput(<contenttweaker:infinity_fragment>*4);
-mythenrich23.addFluidInput(<fluid:strong_pearlized_essence>*2000);
-mythenrich23.addFluidOutput(<fluid:strong_pearlized_catalyst>*2000);
-mythenrich23.build();
-
-val mythenrich24 = RecipeBuilder.newBuilder("mythenrich24","mythic_processor_infuser",2);
-mythenrich24.addEnergyPerTickInput(1000000);
-mythenrich24.addItemInput(<twilightforest:cinder_log>*64);
-mythenrich24.addFluidInput(<fluid:hot_spring_water>*64000);
-mythenrich24.addFluidOutput(<fluid:sacred_spring_fire>*64000);
-mythenrich24.build();
-
-val mythenrich25 = RecipeBuilder.newBuilder("mythenrich25","mythic_processor_infuser",2);
-mythenrich25.addEnergyPerTickInput(1000000);
-mythenrich25.addItemInput(<contenttweaker:neutronium_pearl>*1);
-mythenrich25.addItemInput(<contenttweaker:cosmic_string_primer>*1);
-mythenrich25.addFluidInput(<fluid:molten_hassium_alloy>*400000);
-mythenrich25.addFluidOutput(<fluid:neutrhassium_alloy>*400000);
-mythenrich25.build();
-
-val mythenrich26 = RecipeBuilder.newBuilder("mythenrich26","mythic_processor_infuser",2);
-mythenrich26.addEnergyPerTickInput(1000000);
-mythenrich26.addItemInput(<contenttweaker:dna_primer>*100);
-mythenrich26.addFluidInput(<fluid:bio.ethanol>*1000);
-mythenrich26.addFluidOutput(<fluid:binnie.dna.raw>*1000);
-mythenrich26.build();
-
-val mythenrich27 = RecipeBuilder.newBuilder("mythenrich27","mythic_processor_infuser",2);
-mythenrich27.addEnergyPerTickInput(1000000);
-mythenrich27.addItemInput(<minecraft:wheat>*10);
-mythenrich27.addFluidInput(<fluid:binnie.growth.medium>*250);
-mythenrich27.addFluidOutput(<fluid:binnie.bacteria>*50);
-mythenrich27.build();
-
-val mythenrich28 = RecipeBuilder.newBuilder("mythenrich28","mythic_processor_infuser",2);
-mythenrich28.addEnergyPerTickInput(1000000);
-mythenrich28.addItemInput(<genetics:misc:4>*10);
-mythenrich28.addFluidInput(<fluid:water>*250);
-mythenrich28.addFluidOutput(<fluid:binnie.growth.medium>*250);
-mythenrich28.build();
-
-val mythenrich29 = RecipeBuilder.newBuilder("mythenrich29","mythic_processor_infuser",2);
-mythenrich29.addEnergyPerTickInput(1000000);
-mythenrich29.addItemInput(<contenttweaker:quasar_charged_gem>);
-mythenrich29.addFluidInput(<fluid:pure_recursion>*200);
-mythenrich29.addFluidOutput(<fluid:doped_recursion>*200);
-mythenrich29.build();
-
-val mythenrich30 = RecipeBuilder.newBuilder("mythenrich30","mythic_processor_infuser",2);
-mythenrich30.addEnergyPerTickInput(1000000);
-mythenrich30.addItemInput(<minecraft:coal>);
-mythenrich30.addFluidInput(<fluid:glowstone>*100);
-mythenrich30.addFluidOutput(<fluid:combustible_glowstone>*100);
-mythenrich30.build();
-
-val mythenrich31 = RecipeBuilder.newBuilder("mythenrich31","mythic_processor_infuser",2);
-mythenrich31.addEnergyPerTickInput(1000000);
-mythenrich31.addItemInput(<minecraft:blaze_powder>);
-mythenrich31.addFluidInput(<fluid:refined_fuel>*100);
-mythenrich31.addFluidOutput(<fluid:blazing_refined_fuel>*100);
-mythenrich31.build();
-
-
-val mythenrich32 = RecipeBuilder.newBuilder("mythenrich32","mythic_processor_infuser",2);
-mythenrich32.addEnergyPerTickInput(1000000);
-mythenrich32.addItemInput(<actuallyadditions:item_misc:23>);
-mythenrich32.addFluidInput(<fluid:refinedcanolaoil>*1000);
-mythenrich32.addFluidOutput(<fluid:crystaloil>*1000);
-mythenrich32.build();
-
-val mythenrich33 = RecipeBuilder.newBuilder("mythenrich33","mythic_processor_infuser",2);
-mythenrich33.addEnergyPerTickInput(1000000);
-mythenrich33.addItemInput(<actuallyadditions:item_misc:24>);
-mythenrich33.addFluidInput(<fluid:crystaloil>*1000);
-mythenrich33.addFluidOutput(<fluid:empoweredoil>*1000);
-mythenrich33.build();
-
-val mythenrich34 = RecipeBuilder.newBuilder("mythenrich34","mythic_processor_infuser",2);
-mythenrich34.addEnergyPerTickInput(1000000);
-mythenrich34.addItemInput(<contenttweaker:enriched_canola_seed>);
-mythenrich34.addFluidInput(<fluid:empoweredoil>*1000);
-mythenrich34.addFluidOutput(<fluid:enriched_canola_oil>*1000);
-mythenrich34.build();
-
-
-val mythenrich57 = RecipeBuilder.newBuilder("mythenrich57","mythic_processor_infuser",2);
-mythenrich57.addEnergyPerTickInput(1000000);
-mythenrich57.addItemInput(<thaumcraft:ingot:1>*10);
-mythenrich57.addFluidInput(<fluid:iridium>*1440);
-mythenrich57.addFluidOutput(<fluid:liquid_death>*2500);
-mythenrich57.build();
-
-val mythenrich58 = RecipeBuilder.newBuilder("mythenrich58","mythic_processor_infuser",2);
-mythenrich58.addEnergyPerTickInput(1000000);
-mythenrich58.addItemInput(<thermalfoundation:material:1025>*4);
-mythenrich58.addFluidInput(<fluid:hot_fluorine>*1000);
-mythenrich58.addFluidOutput(<fluid:fluorine>*1000);
-mythenrich58.build();
-
-val mythenrich59 = RecipeBuilder.newBuilder("mythenrich59","mythic_processor_infuser",2);
-mythenrich59.addEnergyPerTickInput(1000000);
-mythenrich59.addItemInput(<nuclearcraft:compound:3>*10);
-mythenrich59.addFluidInput(<fluid:water>*10000);
-mythenrich59.addFluidOutput(<fluid:sodium_fluoride_solution>*10000);
-mythenrich59.build();
-
-
-val mythenrich60 = RecipeBuilder.newBuilder("mythenrich60","mythic_processor_infuser",2);
-mythenrich60.addEnergyPerTickInput(1000000);
-mythenrich60.addItemInput(<contenttweaker:fine_mineral_dust>);
-mythenrich60.addFluidInput(<fluid:ogerite>*144);
-mythenrich60.addFluidOutput(<fluid:primal_ogerite>*144);
-mythenrich60.build();

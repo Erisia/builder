@@ -261,6 +261,7 @@ mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itembluep
 mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:innerved_essenceifier"}));
 mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_infuser"}));
 mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_chemical_reactor"}));
+mods.chisel.Carving.addVariation("mythicprocessors", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mythic_processor_enricher"}));
 
 
 recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:nightmare_electrolyzer"}),

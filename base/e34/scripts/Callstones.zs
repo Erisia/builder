@@ -2319,6 +2319,10 @@ witcherysummons.itemRightClick = function(stack, world, player, hand) {
     Commands.call("summon bewitchment:snake ~ ~ ~", player, world, false, true);
     Commands.call("summon bewitchment:snake ~ ~ ~", player, world, false, true);
 
+    Commands.call("summon bewitchment:black_dog ~ ~ ~", player, world, false, true);
+    Commands.call("summon bewitchment:black_dog ~ ~ ~", player, world, false, true);
+    Commands.call("summon bewitchment:black_dog ~ ~ ~", player, world, false, true);
+
     Commands.call("summon bewitchment:ghost ~ ~ ~", player, world, false, true);
     Commands.call("summon bewitchment:ghost ~ ~ ~", player, world, false, true);
     Commands.call("summon bewitchment:ghost ~ ~ ~", player, world, false, true);
@@ -4273,6 +4277,9 @@ recursivepaperillager.itemRightClick = function(stack, world, player, hand) {
 recursivepaperillager.register();
 
 
+
+
+
 var recursivepaperdunerider= VanillaFactory.createItem("recursive_paper_dunerider");
 recursivepaperdunerider.maxStackSize = 16;
 recursivepaperdunerider.itemRightClick = function(stack, world, player, hand) {
@@ -4416,6 +4423,12 @@ recursivepaperflyer.itemRightClick = function(stack, world, player, hand) {
     Commands.call("summon aoa3:rammerhead ~ ~3 ~", player, world, false, true);
     Commands.call("summon aoa3:rammerhead ~ ~3 ~", player, world, false, true);
     Commands.call("summon aoa3:rammerhead ~ ~3 ~", player, world, false, true);
+    Commands.call("summon iceandfire:stymphalianbird ~ ~3 ~", player, world, false, true);
+    Commands.call("summon iceandfire:stymphalianbird ~ ~3 ~", player, world, false, true);
+    Commands.call("summon iceandfire:stymphalianbird ~ ~3 ~", player, world, false, true);
+    Commands.call("summon iceandfire:stymphalianbird ~ ~3 ~", player, world, false, true);
+    Commands.call("summon iceandfire:stymphalianbird ~ ~3 ~", player, world, false, true);
+    Commands.call("summon iceandfire:stymphalianbird ~ ~3 ~", player, world, false, true);
 
     stack.shrink(1);
     return "PASS";
@@ -5022,6 +5035,15 @@ ancientdecrystallizer.itemRightClick = function(stack, world, player, hand) {
 	Commands.call("execute @s ~ ~ ~ detect ~ ~-1 ~ thaumcraft:crystal_ordo 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy", player, world, false, true);
 	Commands.call("execute @s ~ ~ ~ detect ~ ~-1 ~ thaumcraft:crystal_perditio 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy", player, world, false, true);
 	Commands.call("execute @s ~ ~ ~ detect ~ ~-1 ~ thaumcraft:crystal_vitium 0 fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy", player, world, false, true);
+
+	Commands.call("fill ~-2 ~-1 ~-2 ~2 ~1 ~2 air 0 replace thaumcraft:crystal_vitium", player, world, false, true);
+	Commands.call("fill ~-2 ~-1 ~-2 ~2 ~1 ~2 air 0 replace thaumcraft:crystal_ignis", player, world, false, true);
+	Commands.call("fill ~-2 ~-1 ~-2 ~2 ~1 ~2 air 0 replace thaumcraft:crystal_aqua", player, world, false, true);
+	Commands.call("fill ~-2 ~-1 ~-2 ~2 ~1 ~2 air 0 replace thaumcraft:crystal_terra", player, world, false, true);
+	Commands.call("fill ~-2 ~-1 ~-2 ~2 ~1 ~2 air 0 replace thaumcraft:crystal_ordo", player, world, false, true);
+	Commands.call("fill ~-2 ~-1 ~-2 ~2 ~1 ~2 air 0 replace thaumcraft:crystal_perditio", player, world, false, true);
+	Commands.call("fill ~-2 ~-1 ~-2 ~2 ~1 ~2 air 0 replace thaumcraft:crystal_aer", player, world, false, true);
+
 	return "Pass";
 };
 ancientdecrystallizer.register();
@@ -5511,6 +5533,20 @@ beekeperarchive.itemRightClick = function(stack, world, player, hand) {
 
 };
 beekeperarchive.register();
+
+var cleanroomcertificate = VanillaFactory.createItem("cleanroom_certificate");
+cleanroomcertificate.maxStackSize = 1;
+cleanroomcertificate.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("/tellraw @a {\"text\":\"Click here to access the Pack Optimization Wiki\",\"underlined\":true,\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/sainagh/meatballcraft/wiki/%5B0.18.6%5D-Improving-Performance\"}}", player, world, false, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+cleanroomcertificate.register();
 
 
 
@@ -6034,3 +6070,26 @@ silencingnothingness.itemRightClick = function(stack, world, player, hand) {
 
 };
 silencingnothingness.register();
+
+
+
+
+var emeraldcompass = VanillaFactory.createItem("emerald_compass");
+emeraldcompass.maxStackSize = 1;
+emeraldcompass.itemRightClick = function(stack, world, player, hand) {
+	if(world.remote) {
+        return "FAIL";
+    }
+
+    Commands.call("/locate Village", player, world, true, true);
+    stack.shrink(1);
+    return "PASS";
+
+};
+emeraldcompass.register();
+
+
+
+
+
+//summon thaumcraft:cultistcleric ~ ~3 ~ {PersistenceRequired:1,HandItems:[{Count:1,id:"bloodmagic:sentient_sword"},{Count:1,id:"contenttweaker:shield_of_the_flesh_world"}],HandDropChances:[1.0f,1.0f],ArmorItems:[{Count:1,id:"bloodmagic:sentient_armour_boots",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:"bloodmagic:sentient_armour_leggings",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:"bloodmagic:sentient_armour_chest",tag:{ench:[{id:7,lvl:200}]}},{Count:1,id:"contenttweaker:spreading_sentient_meatball"}],CustomName:"Shield of the Flesh Planet",ArmorDropChances:[0.0f,0.0f,0.0f,1.0f],Attributes:[{Name:generic.maxHealth, Base:100000.0},{Name:generic.attackDamage, Base:100000.0}],Health:100000f,ForgeCaps:{"twilightforest:cap_shield":{tempshields:100,permshields:100}}}
