@@ -1,0 +1,28 @@
+{
+    "machine": "liquid_fuel_generator",
+    "registryName": "lfg_empoil_energy_2",
+    "recipeTime": 600,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "output",
+            "energyPerTick": 1200
+        },
+
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "astralsorcery.liquidstarlight",
+            "amount": 100
+        },
+
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "empoweredoil",
+            "amount": 100
+        }
+
+    ]
+}

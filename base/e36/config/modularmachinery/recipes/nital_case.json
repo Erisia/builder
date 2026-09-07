@@ -1,0 +1,36 @@
+{
+    "machine": "nital_processing_plant",
+    "registryName": "nital_case",
+    "recipeTime": 60,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 400
+        },
+
+	    {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:circuit_shell",
+            "amount": 1
+        },
+ 
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "nital_concentrated",
+            "amount": 500
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "contenttweaker:circuit_case",
+            "amount": 1,
+            "chance": 1.0 
+        }
+
+    ]
+}

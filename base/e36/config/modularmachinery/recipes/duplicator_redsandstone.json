@@ -1,0 +1,22 @@
+{
+    "machine": "block_duplicator_redsandstone",
+    "registryName": "duplicator_redsandstone",
+    "recipeTime": 10,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 5
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:red_sandstone",
+            "amount": 1,
+            "chance": 1.0 
+        }
+
+    ]
+}

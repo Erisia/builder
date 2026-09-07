@@ -1,0 +1,22 @@
+{
+    "machine": "bedrock_miner",
+    "registryName": "bedrock_crystal",
+    "recipeTime": 480,
+    "requirements": [
+
+        {
+            "type": "mana",
+            "io-type": "input",
+            "mana": 500
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "contenttweaker:bedrock_crystal",
+            "amount": 1,
+            "chance": 1.0 
+        }
+
+    ]
+}

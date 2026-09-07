@@ -13,7 +13,33 @@ rec {
     # e34 = buildPack e34;
     e34_5 = buildPack e34_5;
     e35 = buildPack e35;
+    e36 = buildPack e36;
     vanilla = buildPack vanilla;
+  };
+
+  e36 = {
+    name = "E36";
+    tmuxName = "e36";
+    description = "E36: IBP placeholderis";
+    ram = "8G";
+    port = 25565;
+    prometheusPort = 1224;
+    minecraft = "1.12.2";
+    forge = {
+      major = "1.12.2";
+      minor = "14.23.5.2864";
+    };
+    extraDirs = [
+      ./base/e36
+      ./base/e36-third-party
+    ];
+    extraServerDirs = [
+      ./base/server
+    ];
+    extraClientDirs = [
+      ./base/e36-client
+    ];
+    manifest = ./manifest/e36.json;
   };
 
   vanilla = {

@@ -1,0 +1,43 @@
+{
+    "machine": "starblood_infuser",
+    "registryName": "bloodshine_ingot",
+    "recipeTime": 1000,
+    "requirements": [
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "botania:manaresource@14",
+            "amount": 1
+        },
+
+	    {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "astralsorcery.liquidstarlight",
+            "amount": 1000
+        },
+
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "lifeessence",
+            "amount": 1000
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "contenttweaker:bloodshine_ingot",
+            "amount": 1,
+            "chance": 1.0
+        },
+
+        {
+            "type": "mana",
+            "io-type": "input",
+            "mana": 5000
+        }
+
+    ]
+}

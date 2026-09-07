@@ -1,0 +1,42 @@
+{
+    "machine": "super_alloyer",
+    "registryName": "super_alloyer_modularium",
+    "recipeTime": 240,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 80
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "modularmachinery:itemmodularium",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotCopper",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotGold",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:dustRedstone",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:dustGlowstone",
+            "amount": 1
+        }
+    ]
+}

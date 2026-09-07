@@ -1,0 +1,36 @@
+{
+    "machine": "super_alloyer",
+    "registryName": "super_alloyer_stygian_iron",
+    "recipeTime": 180,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 120
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:oreIron",
+            "amount": 1
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "woot:soulsanddust",
+            "amount": 2
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "woot:stygianironore",
+            "amount": 1,
+            "chance": 1.0 
+        }
+
+    ]
+}

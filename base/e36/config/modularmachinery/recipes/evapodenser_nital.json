@@ -1,0 +1,27 @@
+{
+    "machine": "evapodenser",
+    "registryName": "evapodenser_nital",
+    "recipeTime": 50,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 100
+        },
+
+	    {
+            "type": "gas",
+            "io-type": "input",
+            "gas": "nital",
+            "amount": 250
+        },
+
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "nital",
+            "amount": 250
+        }
+    ]
+}

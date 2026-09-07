@@ -1,0 +1,119 @@
+config:
+  minecraft_version: '1.12.2'
+  modloader: 'forge'
+nodes:
+- id: modpack-uri
+  value: 'https://mediafilez.forgecdn.net/files/3067/178/IBP%20Dev-2.0.13.zip'
+- id: manifest-location
+  value: 'manifest.json'
+- id: excluded-mods
+  value:
+  - ftb-backups-forge
+  - mouse-tweaks
+- id: overrides
+  value:
+  - name: inventory-tweaks
+    source: curse
+    side: client
+    required: false
+  - name: item-scroller
+    source: curse
+    side: client
+    required: false
+    default: false
+  - name: morpheus
+    source: curse
+    side: server
+- id: extra-mods
+  value:
+  - name: chunkpregenerator
+    source: curse
+    file_id: 8748866
+  - name: carbon-config # chunkpregenerator dependency
+    source: curse
+    file_id: 8411664
+  - name: prometheus-integration
+    source: curse
+    id: 254573
+    side: server
+    file_id: 2519411
+  - name: dynamic-surroundings
+    source: curse
+    side: client
+    required: false
+    default: false
+    file_id: 3497269
+  - name: orelib # dynamic surroundings dependency
+    source: curse
+    side: client
+    file_id: 2820815
+  - name: better-foliage
+    source: curse
+    side: client
+    required: false
+    default: false
+    file_id: 3393955
+  - name: fullscreen-windowed-borderless-for-minecraft
+    source: curse
+    side: client
+    required: false
+    default: false
+    file_id: 2456007
+  - name: dcintegration
+    source: modrinth
+    side: server
+    file_id: 'xLuSqQki'
+  - name: dynmap
+    source: modrinth
+    side: server
+    file_id: 'oonqFE15'
+  - name: lootr
+    source: modrinth
+    side: both
+    file_id: 'fTrJqmfv'
+  - name: mouse-tweaks-unofficial
+    source: curse
+    side: client
+    id: 461660
+    file_id: 5876158
+    required: false
+    default: false
+### Processing graph
+- id: download-pack
+  kind: ArchiveDownloader
+  input:
+    url: modpack-uri
+- id: picker
+  kind: FilePicker
+  input:
+    files: download-pack
+    path: manifest-location
+- id: resolve-curse-pack
+  kind: CurseResolver
+  input:
+    manifest: picker
+- id: apply-overrides
+  kind: ModOverrider
+  input:
+    mods: resolve-curse-pack
+    overrides: overrides
+- id: apply-filters
+  kind: ModFilter
+  input:
+    mods: apply-overrides
+    filters: excluded-mods
+- id: resolve-extra-mods
+  kind: ModResolver
+  input:
+    mods: extra-mods
+- id: merge
+  kind: ModMerger
+  input:
+    curse-mods: 'apply-filters::inverse'
+    extra-mods: resolve-extra-mods
+- id: writer
+  kind: ModWriter
+  input:
+    resolved: 'merge'
+- filename: 'e36.json'
+  source: 'writer::json'

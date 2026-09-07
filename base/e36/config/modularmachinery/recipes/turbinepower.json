@@ -1,0 +1,34 @@
+{
+    "machine": "ultra_electromagnetic_turbine",
+    "registryName": "turbinepower",
+    "recipeTime": 600,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "output",
+            "energyPerTick": 10000000
+        },
+
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "steam",
+            "amount": 4000
+        },
+
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "cryotheum",
+            "amount": 100
+        },
+
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "pyrotheum",
+            "amount": 100
+        }
+    ]
+}

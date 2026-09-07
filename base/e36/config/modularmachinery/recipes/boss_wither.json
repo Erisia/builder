@@ -1,0 +1,41 @@
+{
+    "machine": "boss_fight_simulator",
+    "registryName": "boss_wither",
+    "recipeTime": 1000,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 2000
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:wither_catalyst",
+            "amount": 1
+        },
+
+        {
+            "type": "starlight",
+            "io-type": "input",
+            "amount": 6000
+        },
+
+        {
+            "type": "lifeessence",
+            "io-type": "input",
+            "essenceamount": 5000
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:nether_star",
+            "amount": 1,
+            "chance": 1.0 
+        }
+
+    ]
+}

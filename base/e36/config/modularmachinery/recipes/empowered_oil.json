@@ -1,0 +1,42 @@
+{
+    "machine": "oil_empowerer",
+    "registryName": "empowered_oil",
+    "recipeTime": 120,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 100
+        },
+     
+    {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "empoweredoil",
+            "amount": 1000,
+            "chance": 1.0
+        },
+
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "refinedcanolaoil",
+            "amount": 1000
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "actuallyadditions:item_misc@23",
+            "amount": 1
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "actuallyadditions:item_misc@24",
+            "amount": 1
+        }
+    ]
+}
