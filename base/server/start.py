@@ -39,7 +39,7 @@ LOGS_DIR = APP_ROOT_DIR / "logs"
 GC_LOG_PATH = APP_ROOT_DIR / "gc.log"
 
 # Directories to rsync from BASE_DIR to APP_ROOT_DIR (need write access)
-RSYNC_DIRS = ["config", "world", "journeymap", "schematics", "defaultconfigs", "configureddefaults", "kubejs"]
+RSYNC_DIRS = ["config", "world", "journeymap", "schematics", "defaultconfigs", "configureddefaults", "kubejs", "mods"]
 
 # --- Global State ---
 java_server_process = None # Popen object for systemd-run or direct Java process
@@ -153,7 +153,7 @@ def sync_server_files():
         # Original: ln -sf "$f" . (where $f is $BASE/$b, $b is forge or resources)
         # $BASE/$b -> $CWD/$b (symlink)
         # Then rsync "$f"/libraries . ($BASE/$b/libraries -> $CWD/libraries)
-        for item_name in ["forge", "resources", "mods", "resourcepacks", "shaderpacks"]:
+        for item_name in ["forge", "resources", "resourcepacks", "shaderpacks"]:
             source_dir = BASE_DIR / item_name # This is $f in original script
             dest_symlink = APP_ROOT_DIR / item_name
 
@@ -500,10 +500,10 @@ def main():
     elif cleanroom_jars_in_base:
         selected_cleanroom_jar = sorted(cleanroom_jars_in_base, reverse=True)[0]
         server_type_panel = Panel(
-            f"[bold]Cleanroom Server[/]\nJAR: {selected_cleanroom_jar.name}\nJRE: Latest",
+            f"[bold]Cleanroom Server[/]\nJAR: {selected_cleanroom_jar.name}\nJRE: 25",
             style="green"
         )
-        nix_jre_package = "jre"
+        nix_jre_package = "jdk25"
         server_specific_args = ['-jar', str(selected_cleanroom_jar), 'nogui']
     elif (BASE_DIR / "vanilla" / "server.jar").is_file():
         vanilla_jar = BASE_DIR / "vanilla" / "server.jar"

@@ -8,8 +8,12 @@ nodes:
   value: 'manifest.json'
 - id: excluded-mods
   value:
-  - ftb-backups-forge
-  - mouse-tweaks
+  - ftb-backups-forge # backups handled with zfs
+  - mouse-tweaks # updating to unofficial
+  - shadowfacts-forgelin # updating to continous
+  - librarianlib # updating to continous
+  - phosphor-forge # using Alfheim as alternative for cleanroom compat
+  - solar-flux-reborn # updating to latest
 - id: overrides
   value:
   - name: inventory-tweaks
@@ -78,6 +82,48 @@ nodes:
     file_id: 5876158
     required: false
     default: false
+  # Cleanroom dependencies
+  - name: fugue
+    source: curse
+    side: both
+    id: 1005815
+    file_id: 8629748
+  - name: scalar-legacy
+    source: curse
+    side: both
+    id: 1235372
+    file_id: 6842491
+  - name: forgelin-continuous
+    source: curse
+    side: both
+    id: 456403
+    file_id: 8746291
+  - name: librarianlib-continous
+    source: curse
+    side: both
+    id: 1058274
+    file_id: 6617935
+  - name: improved-cleanroom-launcher
+    source: curse
+    side: client
+    id: 1336201
+    file_id: 7769030
+    required: false
+  - name: alfheim-lighting-engine # phosphor replacement
+    source: curse
+    side: both
+    id: 910715
+    file_id: 6687458
+  - name: red-core # alfheim dependency
+    source: curse
+    side: both
+    id: 873867
+    file_id: 7455761
+  - name: solar-flux-reborn
+    source: curse
+    side: both
+    id: 246974
+    file_id: 3050838
 ### Processing graph
 - id: download-pack
   kind: ArchiveDownloader

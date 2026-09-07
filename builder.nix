@@ -25,10 +25,18 @@ rec {
     port = 25565;
     prometheusPort = 1224;
     minecraft = "1.12.2";
-    forge = {
+    cleanroom = {
+      major = "0.6.12";
+      minor = "alpha";
+    };
+    client-forge = {
       major = "1.12.2";
       minor = "14.23.5.2864";
     };
+    #forge = {
+    #  major = "1.12.2";
+    #  minor = "14.23.5.2864";
+    #};
     extraDirs = [
       ./base/e36
       ./base/e36-third-party

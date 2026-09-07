@@ -39,6 +39,19 @@
     "sha256": "4edda1cb9a1eb9240b7c9087dfc0347b0f75c29f7239299991b27324524b167f"
   },
   {
+    "name": "alfheim-lighting-engine",
+    "title": "Alfheim Lighting Engine",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "Alfheim-1.6.jar",
+    "encoded": "Alfheim-1.6.jar",
+    "src": "https://edge.forgecdn.net/files/6687/458/Alfheim-1.6.jar",
+    "size": 70512,
+    "md5": "07e2884b1c7f91022d05070e479dbf39",
+    "sha256": "730bb0425c97d394c86712e27f71c93069d5b95877bd54f70fc56235eeef33ef"
+  },
+  {
     "name": "animus",
     "title": "Animus",
     "side": "both",
@@ -936,6 +949,19 @@
     "sha256": "812260f39b7a17c856d30ba97bbe36578635a2f3b9413fc4dc98ccbf7b0d9884"
   },
   {
+    "name": "forgelin-continuous",
+    "title": "Forgelin-Continuous",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "Forgelin-Continuous-2.4.10.0.jar",
+    "encoded": "Forgelin-Continuous-2.4.10.0.jar",
+    "src": "https://edge.forgecdn.net/files/8746/291/Forgelin-Continuous-2.4.10.0.jar",
+    "size": 8037825,
+    "md5": "9844c24336e06af7cdde2b6623e08eb6",
+    "sha256": "e2bb1ca15f228fe9e58d05d4c5d6f571afc320fee4fa693fdb48e935692a74f6"
+  },
+  {
     "name": "framed-compacting-drawers",
     "title": "Framed Compacting Drawers",
     "side": "both",
@@ -973,6 +999,19 @@
     "size": 424109,
     "md5": "bccfb63dcd1a3ea196a748f1138ab758",
     "sha256": "7695572b3234d90556e9a3d4da6eb27818aeae65b36edb3e48a2178c4c0dac0c"
+  },
+  {
+    "name": "fugue",
+    "title": "Fugue",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "+Fugue-0.24.3.jar",
+    "encoded": "%2BFugue-0.24.3.jar",
+    "src": "https://edge.forgecdn.net/files/8629/748/%2bFugue-0.24.3.jar",
+    "size": 305146,
+    "md5": "46df24198218447bba6698401e5a1c1b",
+    "sha256": "00dc2de461b8a9bf0d9b684aa0377713bda85ca63da5ec93028c226ed2119efd"
   },
   {
     "name": "fullscreen-windowed-borderless-for-minecraft",
@@ -1090,6 +1129,19 @@
     "size": 522502,
     "md5": "3be088e1e5b1bea50f04cdfb4082a528",
     "sha256": "f961cea153087577d32c435691dd462c71ca9c717e51ceeb61696bdc7f5165f7"
+  },
+  {
+    "name": "improved-cleanroom-relauncher",
+    "title": "Improved Cleanroom Relauncher",
+    "side": "client",
+    "required": false,
+    "default": true,
+    "filename": "!improved-relauncher-0.3.8.jar",
+    "encoded": "%21improved-relauncher-0.3.8.jar",
+    "src": "https://edge.forgecdn.net/files/7769/30/!improved-relauncher-0.3.8.jar",
+    "size": 403520,
+    "md5": "ec4c13ba9914601fdc92e198acf36426",
+    "sha256": "2a3b27f477105af0b26f4b776803977321d6b3e4b4fb3b8bf1d9229f9cd2e5be"
   },
   {
     "name": "incorporeal",
@@ -1352,17 +1404,17 @@
     "sha256": "b76950b93358a9273fab35d9a3e57d81257527a04a38dcb2c9cd1485c5fa987d"
   },
   {
-    "name": "librarianlib",
-    "title": "LibrarianLib",
+    "name": "librarianlib-continuous",
+    "title": "LibrarianLib-Continuous",
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "librarianlib-1.12.2-4.20-release.jar",
-    "encoded": "librarianlib-1.12.2-4.20-release.jar",
-    "src": "https://edge.forgecdn.net/files/2836/225/librarianlib-1.12.2-4.20-release.jar",
-    "size": 40706851,
-    "md5": "c6f30aa2c8a0eb3c2f7a66bf1d1a6228",
-    "sha256": "0b1d2a662da7112470d2aa559ffd288ed9f6936c3f7742d8c220ebc498e732a1"
+    "filename": "LibrarianLib-Continuous-1.12.2-4.22-2.0-3.jar",
+    "encoded": "LibrarianLib-Continuous-1.12.2-4.22-2.0-3.jar",
+    "src": "https://edge.forgecdn.net/files/6617/935/LibrarianLib-Continuous-1.12.2-4.22-2.0-3.jar",
+    "size": 5526394,
+    "md5": "d183aa9de88ad4de883667c6af0845a8",
+    "sha256": "27cef30297b6551f96b3ed41980582de3b5836f459915ae9f5e9c4d2cccf6d13"
   },
   {
     "name": "littletiles",
@@ -1794,19 +1846,6 @@
     "sha256": "1f2664d0e81444e88398f24eafa54c07d64ee491a24c04f89752cb069cd234ae"
   },
   {
-    "name": "phosphor-forge",
-    "title": "Phosphor (Forge)",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "phosphor-1.12.2-0.2.6+build50-universal.jar",
-    "encoded": "phosphor-1.12.2-0.2.6%2Bbuild50-universal.jar",
-    "src": "https://edge.forgecdn.net/files/2747/710/phosphor-1.12.2-0.2.6%2bbuild50-universal.jar",
-    "size": 1082311,
-    "md5": "9892af4ac4f8ca4222138a245592227c",
-    "sha256": "ed4581a7744929da8a25c19ac16a1da060312e32f46f48cf76947a720aa4c7e5"
-  },
-  {
     "name": "placebo",
     "title": "Placebo",
     "side": "both",
@@ -1924,6 +1963,19 @@
     "sha256": "ed7cd329571fa96aef64a9ce2c490139fbc0acb1548ac64cc5eefd32ce6fc063"
   },
   {
+    "name": "red-core",
+    "title": "Red Core",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "!Red-Core-MC-1.8-1.12-0.7.1.jar",
+    "encoded": "%21Red-Core-MC-1.8-1.12-0.7.1.jar",
+    "src": "https://edge.forgecdn.net/files/7455/761/!Red-Core-MC-1.8-1.12-0.7.1.jar",
+    "size": 149374,
+    "md5": "ffbd41381a9340ca31d14fbb40f6ced9",
+    "sha256": "9935912816062ca46a2ecd020d813ee2dde8e6b228daec068b465eb72ea51368"
+  },
+  {
     "name": "redstone-arsenal",
     "title": "Redstone Arsenal",
     "side": "both",
@@ -2015,6 +2067,19 @@
     "sha256": "ac731cd6b991c6da850499a83585ca34c971e2de8106515d1ee5830995110820"
   },
   {
+    "name": "scalar-legacy",
+    "title": "Scalar Legacy",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "Scalar Legacy-1.0.1.jar",
+    "encoded": "Scalar%20Legacy-1.0.1.jar",
+    "src": "https://edge.forgecdn.net/files/6842/491/Scalar%20Legacy-1.0.1.jar",
+    "size": 25464431,
+    "md5": "b13a65012700ae68f5c0bee5f2b00a28",
+    "sha256": "350d1c378f3b0ac8e7b3df0432482bbb5341c79d07df843c747be1d5fdc23cfe"
+  },
+  {
     "name": "schematica",
     "title": "Schematica",
     "side": "both",
@@ -2026,19 +2091,6 @@
     "size": 336150,
     "md5": "c779a8cd4fd0e99572385a529b790c73",
     "sha256": "7f2642cdc85c32ec754914e77f5bad11976c7c9c51d296e0ae4a8428d01153e8"
-  },
-  {
-    "name": "shadowfacts-forgelin",
-    "title": "Shadowfacts' Forgelin",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "Forgelin-1.8.4.jar",
-    "encoded": "Forgelin-1.8.4.jar",
-    "src": "https://edge.forgecdn.net/files/2785/465/Forgelin-1.8.4.jar",
-    "size": 6278399,
-    "md5": "2da79fce72265eab0541e565636d389d",
-    "sha256": "ccfcad80ef73ab815875a91979128ed58c262c479c7c0e5da65b225954bee197"
   },
   {
     "name": "simple-trophies",
@@ -2072,12 +2124,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "SolarFluxReborn_1.12.2-12.3.8.jar",
-    "encoded": "SolarFluxReborn_1.12.2-12.3.8.jar",
-    "src": "https://edge.forgecdn.net/files/2887/575/SolarFluxReborn_1.12.2-12.3.8.jar",
-    "size": 706049,
-    "md5": "b37e5db94767d409c875d3d0a1950c55",
-    "sha256": "529a98fb2e188a5504f3ccd4b8f2f2faeef420a24abc9e0ad492c683cfd5fe00"
+    "filename": "SolarFluxReborn-1.12.2-12.4.11.jar",
+    "encoded": "SolarFluxReborn-1.12.2-12.4.11.jar",
+    "src": "https://edge.forgecdn.net/files/3050/838/SolarFluxReborn-1.12.2-12.4.11.jar",
+    "size": 715629,
+    "md5": "6f6d3280641bfd71a46d0b40feeb9a64",
+    "sha256": "be490ddbeb08b35ba76bee38feaae465a9553ba3bcfbe2d5eef83875d5b5eda2"
   },
   {
     "name": "sonar-core",
