@@ -20,7 +20,7 @@ rec {
   e36 = {
     name = "E36";
     tmuxName = "e36";
-    description = "E36: IBP placeholderis";
+    description = "E36: Calculus difficilis est";
     ram = "8G";
     port = 25565;
     prometheusPort = 1224;
