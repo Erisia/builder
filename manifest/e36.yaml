@@ -14,6 +14,8 @@ nodes:
   - librarianlib # updating to continous
   - phosphor-forge # using Alfheim as alternative for cleanroom compat
   - solar-flux-reborn # updating to latest
+  - the-one-probe # updating to CE
+  - baubles # updating to bubbles
 - id: overrides
   value:
   - name: inventory-tweaks
@@ -124,6 +126,16 @@ nodes:
     side: both
     id: 246974
     file_id: 3050838
+  - name: the-one-probe-community-edition
+    source: curse
+    side: both
+    id: 885670
+    file_id: 8668596
+  - name: bubbles-a-baubles-fork
+    source: curse
+    side: both
+    id: 995393
+    file_id: 7736064
 ### Processing graph
 - id: download-pack
   kind: ArchiveDownloader
