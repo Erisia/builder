@@ -16,6 +16,12 @@ nodes:
   - solar-flux-reborn # updating to latest
   - the-one-probe # updating to CE
   - baubles # updating to bubbles
+  - applied-energistics-2 # updating to AE2-UEL
+  - better-questing # updating to unofficial
+  - better-questing-standard-expansion # included in unofficial
+  - foamfix-optimization-mod # using VintageFix instead
+  - blockcraftery # using refurbished instead
+  - codechicken-lib-1-8 # using CRE instead
 - id: overrides
   value:
   - name: inventory-tweaks
@@ -53,12 +59,6 @@ nodes:
     source: curse
     side: client
     file_id: 2820815
-  - name: better-foliage
-    source: curse
-    side: client
-    required: false
-    default: false
-    file_id: 3393955
   - name: fullscreen-windowed-borderless-for-minecraft
     source: curse
     side: client
@@ -84,6 +84,11 @@ nodes:
     file_id: 5876158
     required: false
     default: false
+  - name: flare
+    source: curse
+    side: both
+    id: 692142
+    file_id: 7857037
   # Cleanroom dependencies
   - name: fugue
     source: curse
@@ -136,6 +141,31 @@ nodes:
     side: both
     id: 995393
     file_id: 7736064
+  - name: ae2-extended-life
+    source: curse
+    side: both
+    id: 570458
+    file_id: 6302098
+  - name: better-questing-unofficial
+    source: curse
+    side: both
+    id: 629629
+    file_id: 8097689
+  - name: vintagefix
+    source: curse
+    side: both
+    id: 871198
+    file_id: 7958801
+  - name: blockcraftery-refurbished
+    source: curse
+    side: both
+    id: 1414826
+    file_id: 7386736
+  - name: codechicken-lib-cre
+    source: curse
+    side: both
+    id: 1328922
+    file_id: 8553938
 ### Processing graph
 - id: download-pack
   kind: ArchiveDownloader

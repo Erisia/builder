@@ -13,6 +13,19 @@
     "sha256": "8b41655cbd6f6fe4e734cccaa48159420540d2a83e8595d51204de2f52696ef6"
   },
   {
+    "name": "ae2-extended-life",
+    "title": "AE2 Unofficial Extended Life",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "ae2-uel-v0.56.7.jar",
+    "encoded": "ae2-uel-v0.56.7.jar",
+    "src": "https://edge.forgecdn.net/files/6302/98/ae2-uel-v0.56.7.jar",
+    "size": 4451298,
+    "md5": "f0b29f81415805fc86976358fa36ab9b",
+    "sha256": "dfca9f74cfebb4e79806ae77cd6bcedc30649be2b0e505e06d629386b0c3074e"
+  },
+  {
     "name": "ae2wtlib",
     "title": "AE2 Wireless Terminal Library",
     "side": "both",
@@ -89,19 +102,6 @@
     "size": 32317,
     "md5": "0e0af1e6f80ea2ee7ecfc2f8f44b897b",
     "sha256": "9bff732c18adf82c4410a827b35d43b68b979f9ede6c2108b6b97550cf386188"
-  },
-  {
-    "name": "applied-energistics-2",
-    "title": "Applied Energistics 2",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "appliedenergistics2-rv6-stable-7.jar",
-    "encoded": "appliedenergistics2-rv6-stable-7.jar",
-    "src": "https://edge.forgecdn.net/files/2747/63/appliedenergistics2-rv6-stable-7.jar",
-    "size": 4062630,
-    "md5": "b8667d60a761d5b5ae3c8a15192f9e28",
-    "sha256": "e7f7fbf6caaf6206dbd958fb8f9185f874a405289e62ae3e97209b455a89fb1a"
   },
   {
     "name": "architect",
@@ -234,43 +234,17 @@
     "sha256": "f10e9db9cee878032dd674068bc12e6b871d88b83360e7d6ff207023dea7beed"
   },
   {
-    "name": "better-foliage",
-    "title": "Better Foliage",
-    "side": "client",
-    "required": false,
-    "default": false,
-    "filename": "BetterFoliage-MC1.12-2.3.3.jar",
-    "encoded": "BetterFoliage-MC1.12-2.3.3.jar",
-    "src": "https://edge.forgecdn.net/files/3393/955/BetterFoliage-MC1.12-2.3.3.jar",
-    "size": 864681,
-    "md5": "7db208487613e3f248b5c1b479d5ae0e",
-    "sha256": "567cbeb69e77bbf9e776045c790436c65f6477162b07457607a172b075d8ebfe"
-  },
-  {
-    "name": "better-questing",
-    "title": "Better Questing",
+    "name": "better-questing-unofficial",
+    "title": "Better Questing Unofficial",
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "BetterQuesting-3.5.323.jar",
-    "encoded": "BetterQuesting-3.5.323.jar",
-    "src": "https://edge.forgecdn.net/files/2877/468/BetterQuesting-3.5.323.jar",
-    "size": 1430501,
-    "md5": "3ffa9eb52686f8d65917fe0dadf24252",
-    "sha256": "e815133114e874781b9341159c334cedc8e2aec2b19e1ff2238ff506fdd9abe9"
-  },
-  {
-    "name": "better-questing-standard-expansion",
-    "title": "Better Questing - Standard Expansion",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "StandardExpansion-3.4.173.jar",
-    "encoded": "StandardExpansion-3.4.173.jar",
-    "src": "https://edge.forgecdn.net/files/2863/771/StandardExpansion-3.4.173.jar",
-    "size": 460454,
-    "md5": "a05ed445a2c384e429c124b673cbda2a",
-    "sha256": "405211aef15d442f857f92c4f755f051396283d6e6fc2de818f4f693091e89f9"
+    "filename": "BetterQuestingUnofficial-4.3.2.jar",
+    "encoded": "BetterQuestingUnofficial-4.3.2.jar",
+    "src": "https://edge.forgecdn.net/files/8097/689/BetterQuestingUnofficial-4.3.2.jar",
+    "size": 2041719,
+    "md5": "0cb4fa849a162306225a162b1097930c",
+    "sha256": "73414de60df28fa715a059a725ad4ec16ccbbe0ba82ab801717f7d14ab0d4d6b"
   },
   {
     "name": "betterfps",
@@ -312,17 +286,17 @@
     "sha256": "235b0a81ee37665e4b5fc94bbd69af3403c13c97ade933572b0367c48085bf55"
   },
   {
-    "name": "blockcraftery",
-    "title": "Blockcraftery",
+    "name": "blockcraftery-refurbished",
+    "title": "Blockcraftery: Refurbished",
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "blockcraftery-1.12.2-1.3.1.jar",
-    "encoded": "blockcraftery-1.12.2-1.3.1.jar",
-    "src": "https://edge.forgecdn.net/files/2716/712/blockcraftery-1.12.2-1.3.1.jar",
-    "size": 105052,
-    "md5": "03b28232d2a5f6c8d5e202c0f9fbb0b3",
-    "sha256": "2b64a900a30d12c55c48f295097327eab5547fa3e7dccdce0f929ecdee25d038"
+    "filename": "blockcraftery-refurbished-2.0.0.jar",
+    "encoded": "blockcraftery-refurbished-2.0.0.jar",
+    "src": "https://edge.forgecdn.net/files/7386/736/blockcraftery-refurbished-2.0.0.jar",
+    "size": 90507,
+    "md5": "4250a2c781b682342fa6c7e27735aa3c",
+    "sha256": "321f9510475c127a52f27740ba7a5584aa55ea2aab66d4c0a00ba3527589a5ad"
   },
   {
     "name": "blood-magic",
@@ -494,17 +468,17 @@
     "sha256": "f3ce670e0087f4c6b770fd05ae5c3dfd8462f74c62397932ea72954d1c6c8df4"
   },
   {
-    "name": "codechicken-lib-1-8",
-    "title": "CodeChicken Lib 1.8.+",
+    "name": "codechicken-lib-cre",
+    "title": "CodeChicken Lib CRE",
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
-    "encoded": "CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
-    "src": "https://edge.forgecdn.net/files/2779/848/CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
-    "size": 704330,
-    "md5": "3b5e44db5ac96fb23a439590b6731a31",
-    "sha256": "5f8499f7ee2590e45110bbf296b2bf101aec15897e28d5e9759cf8f2387d8a74"
+    "filename": "codechickenlib-3.3.8-universal.jar",
+    "encoded": "codechickenlib-3.3.8-universal.jar",
+    "src": "https://edge.forgecdn.net/files/8553/938/codechickenlib-3.3.8-universal.jar",
+    "size": 665900,
+    "md5": "42624c84925b8d8c7c5a525ba7f6aa5d",
+    "sha256": "d4be0a0adff9d2df009632953895aae8fb0bb8001e567dd899a8bf7f38e95527"
   },
   {
     "name": "cofh-core",
@@ -910,6 +884,19 @@
     "sha256": "0a8e4f341a80263e58f348fc980a813de1d22ec455d2606486e8e03e8c9e5d16"
   },
   {
+    "name": "flare",
+    "title": "Flare (Spark for 1.12.2)",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "flare-0.8.0.jar",
+    "encoded": "flare-0.8.0.jar",
+    "src": "https://edge.forgecdn.net/files/7857/37/flare-0.8.0.jar",
+    "size": 2656701,
+    "md5": "933665a8b06a78058a5adc37b439b28b",
+    "sha256": "2ef35ce392c086127a8c5a8364c1ca0af29fdcb7cb1fe303fdfbbf9f03aeff99"
+  },
+  {
     "name": "flux-networks",
     "title": "Flux Networks",
     "side": "both",
@@ -921,19 +908,6 @@
     "size": 464693,
     "md5": "04850be565e1fea67a27bc1b58999ee7",
     "sha256": "c2ef1166608fe17e55f3b5e379d3142fa29ef4e292a5584e07335600eb4ed6b5"
-  },
-  {
-    "name": "foamfix-optimization-mod",
-    "title": "Foam​Fix",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "foamfix-0.10.10-1.12.2.jar",
-    "encoded": "foamfix-0.10.10-1.12.2.jar",
-    "src": "https://edge.forgecdn.net/files/2845/668/foamfix-0.10.10-1.12.2.jar",
-    "size": 201683,
-    "md5": "bba94f1ee252fcfbd2d52779f5c2f2b1",
-    "sha256": "9429d2680f38bc1e3e2c87c98e95d4896241f5ee0f2e627d15610c68c473a2e8"
   },
   {
     "name": "forestry",
@@ -2481,6 +2455,19 @@
     "size": 128682,
     "md5": "da20e4ec485fe0969cffbde0d42c8338",
     "sha256": "f0dae2a977ba8e577bb09af05e4aab99d6adf9e4d01132bb3604cd0201399d46"
+  },
+  {
+    "name": "vintagefix",
+    "title": "VintageFix",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "vintagefix-0.7.0.jar",
+    "encoded": "vintagefix-0.7.0.jar",
+    "src": "https://edge.forgecdn.net/files/7958/801/vintagefix-0.7.0.jar",
+    "size": 1043465,
+    "md5": "a6d9c6538bc7583791b683f943b59b8e",
+    "sha256": "b109ca7e2ad58a8d45279da76a7882877e807f949c6f09f173907284ac08a318"
   },
   {
     "name": "wanionlib",
