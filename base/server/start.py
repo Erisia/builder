@@ -39,7 +39,7 @@ LOGS_DIR = APP_ROOT_DIR / "logs"
 GC_LOG_PATH = APP_ROOT_DIR / "gc.log"
 
 # Directories to rsync from BASE_DIR to APP_ROOT_DIR (need write access)
-RSYNC_DIRS = ["config", "world", "journeymap", "schematics", "defaultconfigs", "configureddefaults", "kubejs", "mods"]
+RSYNC_DIRS = ["config", "world", "journeymap", "schematics", "defaultconfigs", "configureddefaults", "kubejs", "mods", "scripts", "structures"]
 
 # --- Global State ---
 java_server_process = None # Popen object for systemd-run or direct Java process
