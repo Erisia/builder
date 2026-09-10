@@ -1,0 +1,22 @@
+{
+    "machine": "space_laser_drill_titanium",
+    "registryName": "laserilmenite",
+    "recipeTime": 60,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 300
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "galacticraftplanets:asteroids_block@4",
+            "amount": 1,
+            "chance": 1.0 
+        }
+
+    ]
+}

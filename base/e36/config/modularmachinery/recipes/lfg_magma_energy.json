@@ -1,0 +1,28 @@
+{
+    "machine": "liquid_fuel_generator",
+    "registryName": "lfg_magma_energy",
+    "recipeTime": 600,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "output",
+            "energyPerTick": 600
+        },
+
+	    {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "water",
+            "amount": 100
+        },
+
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "magma_fluid",
+            "amount": 100
+        }
+
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "machine": "space_laser_drill_kepler",
+    "registryName": "lasergem",
+    "recipeTime": 60,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 300
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "extraplanets:uranus@7",
+            "amount": 1,
+            "chance": 0.16 
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "extraplanets:neptune@10",
+            "amount": 1,
+            "chance": 0.16 
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "extraplanets:kepler22b@6",
+            "amount": 1,
+            "chance": 0.16 
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "extraplanets:kepler22b@7",
+            "amount": 1,
+            "chance": 0.16 
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "extraplanets:kepler22b@8",
+            "amount": 1,
+            "chance": 0.16 
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "extraplanets:kepler22b@10",
+            "amount": 1,
+            "chance": 0.16 
+        }
+
+    ]
+}

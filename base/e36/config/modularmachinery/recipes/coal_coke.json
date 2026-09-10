@@ -1,0 +1,37 @@
+{
+    "machine": "industrial_coke_oven",
+    "registryName": "coal_coke",
+    "recipeTime": 800,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 100
+        },
+
+	    {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:coal",
+            "amount": 4
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "immersiveengineering:material@6",
+            "amount": 4,
+            "chance": 1.0 
+        },
+
+
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "creosote",
+            "amount": 1000,
+            "chance": 1.0 
+        }
+    ]
+}

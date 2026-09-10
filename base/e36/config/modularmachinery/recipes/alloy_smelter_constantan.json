@@ -1,0 +1,30 @@
+{
+    "machine": "super_alloyer",
+    "registryName": "alloy_smelter_constantan",
+    "recipeTime": 240,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 80
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotNickel",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotCopper",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "immersiveengineering:metal@6",
+            "amount": 2
+        }
+    ]
+}

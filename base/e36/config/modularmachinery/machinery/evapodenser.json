@@ -1,0 +1,78 @@
+{
+    "registryname": "evapodenser",
+    "localizedname": "Evapodenser",
+    "color": "0020DB",
+    "modifiers": [
+        {
+            "elements": "contenttweaker:speed_gearbox",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "Speed Gear! 50% Speed increase! Also increases energy requirement by 60%.",
+            "modifier": {
+                "io": "output",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.66
+            },
+            
+                "io": "input",
+                "target": "energy",
+                "operation": 1,
+                "multiplier": 1.6
+            },
+
+            {
+            "elements": "contenttweaker:power_gearbox",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "Power Gear! Uses 60% of normal power requirement! Also increases process time by 10%.",
+            "modifier": {
+                "io": "output",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 1.10
+            },
+            
+                "io": "input",
+                "target": "energy",
+                "operation": 1,
+                "multiplier": 0.6
+            }
+
+    ],
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "mekanism:machineblock2@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        }
+    ]}

@@ -1,0 +1,28 @@
+{
+    "machine": "atmospheric_collector_uranus",
+    "registryName": "atm_uranus",
+    "recipeTime": 60,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 300
+        },
+     
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "cryotheum",
+            "amount": 20
+        },
+
+        {
+            "type": "gas",
+            "io-type": "output",
+            "gas": "methane",
+            "amount": 800,
+            "chance": 1.0
+        }
+    ]
+}

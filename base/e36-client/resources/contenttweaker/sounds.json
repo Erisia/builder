@@ -1,0 +1,20 @@
+{
+  "clear_special": {
+    "sounds": [
+      {
+        "name": "contenttweaker:clear_special",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitle.contenttweaker.clear_special"
+  },
+  "clear_normal": {
+    "sounds": [
+      {
+        "name": "contenttweaker:clear_normal",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitle.contenttweaker.clear_normal"
+  }
+}

@@ -1,0 +1,43 @@
+{
+    "machine": "bacterial_processor",
+    "registryName": "bacterial_nitrogen",
+    "recipeTime": 120,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 100
+        },
+     
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "water",
+            "amount": 250,
+            "chance": 1.0
+        },
+
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "bacterialsludge",
+            "amount": 250
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "extraplanets:neptune@2",
+            "amount": 16
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "extraplanets:frozen_nitrogen",
+            "amount": 1,
+            "chance": 1.0
+        }
+    ]
+}

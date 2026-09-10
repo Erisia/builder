@@ -1,0 +1,36 @@
+{
+    "machine": "nital_processing_plant",
+    "registryName": "empoweredvoid",
+    "recipeTime": 60,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 400
+        },
+
+	    {
+            "type": "item",
+            "io-type": "input",
+            "item": "extraplanets:tier11_items@2",
+            "amount": 1
+        },
+ 
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "nital_concentrated",
+            "amount": 100
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "actuallyadditions:item_crystal_empowered@3",
+            "amount": 1,
+            "chance": 1.0 
+        }
+
+    ]
+}

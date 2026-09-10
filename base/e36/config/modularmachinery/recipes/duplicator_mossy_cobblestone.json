@@ -1,0 +1,22 @@
+{
+    "machine": "block_duplicator_mossy_cobblestone",
+    "registryName": "duplicator_mossy_cobblestone",
+    "recipeTime": 10,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 5
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:mossy_cobblestone",
+            "amount": 1,
+            "chance": 1.0 
+        }
+
+    ]
+}

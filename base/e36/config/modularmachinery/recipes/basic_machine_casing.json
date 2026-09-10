@@ -1,0 +1,29 @@
+{
+    "machine": "machine_part_crafter",
+    "registryName": "basic_machine_casing",
+    "recipeTime": 180,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 100
+        },
+
+	    {
+            "type": "item",
+            "io-type": "input",
+            "item": "galacticraftcore:basic_item@11",
+            "amount": 8
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "ic2:resource@12",
+            "amount": 1,
+            "chance": 1.0 
+        }
+
+    ]
+}

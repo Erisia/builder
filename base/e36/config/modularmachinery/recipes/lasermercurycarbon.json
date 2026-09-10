@@ -1,0 +1,30 @@
+{
+    "machine": "space_laser_drill_mercury",
+    "registryName": "lasermercurycarbon",
+    "recipeTime": 60,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 300
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "extraplanets:mercury@6",
+            "amount": 1,
+            "chance": 0.5 
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "extraplanets:mercury@10",
+            "amount": 1,
+            "chance": 0.5 
+        }
+
+    ]
+}

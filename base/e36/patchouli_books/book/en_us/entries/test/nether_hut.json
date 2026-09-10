@@ -1,0 +1,18 @@
+{
+    "name": "Nether Hut",
+    "icon": "minecraft:nether_brick",
+    "category": "small_builds",
+    "pages": [
+        {
+            "type": "text",
+            "text": "A darker, red and brown structure Uses mostly Nether materials. $(br2) Size: 16x13x16 (x,y,z) $(br) Builder: pikminman13"
+        },
+
+        {
+            "type": "image",
+            "images": [
+                "builds:nether_hut.png"
+            ]
+        }
+    ]
+}

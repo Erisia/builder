@@ -1,0 +1,43 @@
+{
+    "machine": "metal_empowerer",
+    "registryName": "empoweredsteelingot",
+    "recipeTime": 120,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 200
+        },
+
+	    {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotSteel",
+            "amount": 1
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "actuallyadditions:item_crystal_empowered@0",
+            "amount": 4
+        },
+
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "empoweredoil",
+            "amount": 100
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "contenttweaker:empowered_steel_ingot",
+            "amount": 1,
+            "chance": 1.0 
+        }
+
+    ]
+}

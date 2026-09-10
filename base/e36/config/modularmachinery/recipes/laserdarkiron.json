@@ -1,0 +1,22 @@
+{
+    "machine": "space_laser_drill_darkiron",
+    "registryName": "laserdarkiron",
+    "recipeTime": 60,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 300
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "extraplanets:eris@6",
+            "amount": 1,
+            "chance": 1.0 
+        }
+
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "machine": "machine_part_crafter",
+    "registryName": "machine_controller",
+    "recipeTime": 180,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 100
+        },
+
+	    {
+            "type": "item",
+            "io-type": "input",
+            "item": "modularmachinery:blockcasing@0",
+            "amount": 1
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:redstone_block",
+            "amount": 1
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:gold_ingot",
+            "amount": 1
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:diamond",
+            "amount": 1
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "modularmachinery:blockcontroller",
+            "amount": 1,
+            "chance": 1.0 
+        }
+
+    ]
+}
