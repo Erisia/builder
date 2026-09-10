@@ -21,6 +21,9 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://punch.brage.info/">Server access</a>
+          </li>
           {{ range .Site.Menus.main }}
           <li class="nav-item">
             <a class="nav-link {{ if $.IsMenuCurrent "main" . }}active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
