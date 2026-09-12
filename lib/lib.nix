@@ -36,6 +36,7 @@ rec {
     neoforge ? null,
     cleanroom ? null,
     vanilla ? false,
+    paper ? false,
     client-forge ? null,
     ram ? "4000m",
     manifest,
@@ -95,12 +96,16 @@ rec {
       vanillaDir = wrapDir "vanilla" (fetchVanilla {
         minecraft = minecraft;
       });
+      paperDir = wrapDir "paper" (fetchPaper {
+        minecraft = minecraft;
+      });
       forgeDir = wrapDir "forge" (if neoforge != null then fetchNeoForge neoforge
                                   else if cleanroom != null then fetchCleanroom cleanroom
                                   else fetchForge forge
       );
     in if fabric != null then fabricDir
        else if vanilla then vanillaDir
+       else if paper then paperDir
        else forgeDir;
 
     serverMods = filterManifest {
@@ -117,7 +122,7 @@ rec {
 
       paths = [
         launcherDir
-        (wrapDir "mods" serverModsDir)
+        (if paper then wrapDir "plugins" serverModsDir else wrapDir "mods" serverModsDir)
         (callPackage ../tools/control {})
       ] ++ extraServerDirs ++ extraDirs;
 
@@ -153,6 +158,19 @@ rec {
       inherit (locked) url sha256;
     };
   in runCommand "vanilla-${minecraft}" {
+    inherit serverJar;
+  } ''
+    mkdir $out
+    cp $serverJar $out/server.jar
+  '';
+
+  fetchPaper = { minecraft }: let
+    locked = launcherLock.paper.${minecraft};
+    serverJar = fetchurl {
+      name = "paper-server-${minecraft}.jar";
+      inherit (locked) url sha256;
+    };
+  in runCommand "paper-${minecraft}" {
     inherit serverJar;
   } ''
     mkdir $out

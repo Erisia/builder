@@ -39,7 +39,7 @@ LOGS_DIR = APP_ROOT_DIR / "logs"
 GC_LOG_PATH = APP_ROOT_DIR / "gc.log"
 
 # Directories to rsync from BASE_DIR to APP_ROOT_DIR (need write access)
-RSYNC_DIRS = ["config", "world", "journeymap", "schematics", "defaultconfigs", "configureddefaults", "kubejs"]
+RSYNC_DIRS = ["config", "world", "journeymap", "schematics", "defaultconfigs", "configureddefaults", "kubejs", "plugins"]
 
 # --- Global State ---
 java_server_process = None # Popen object for systemd-run or direct Java process
@@ -380,7 +380,10 @@ def main():
     server_info.add_row("Script PID", str(os.getpid()))
     console.print(server_info)
 
-    if check_systemd():
+    if os.environ.get("SKIP_SYSTEMD"):
+        console.print("[yellow]SKIP_SYSTEMD is set. Skipping systemd-run; using direct process management.[/]")
+        using_systemd = False
+    elif check_systemd():
         console.print("[green]systemd detected. Will use systemd-run for managing the server process.[/]")
         using_systemd = True
     else:
@@ -505,6 +508,18 @@ def main():
         )
         nix_jre_package = "jre"
         server_specific_args = ['-jar', str(selected_cleanroom_jar), 'nogui']
+    elif (BASE_DIR / "paper" / "server.jar").is_file():
+        paper_jar = BASE_DIR / "paper" / "server.jar"
+        server_type_panel = Panel(
+            f"[bold]Paper Server[/]\nJAR: {paper_jar}\nJRE: Java 25",
+            style="green"
+        )
+        nix_jre_package = "jdk25"
+        server_specific_args = ['-jar', str(paper_jar), 'nogui']
+        eula_file = APP_ROOT_DIR / "eula.txt"
+        if not eula_file.exists():
+            eula_file.write_text("eula=true\n")
+            console.print("[green]Created eula.txt (EULA accepted)[/]")
     elif (BASE_DIR / "vanilla" / "server.jar").is_file():
         vanilla_jar = BASE_DIR / "vanilla" / "server.jar"
         server_type_panel = Panel(

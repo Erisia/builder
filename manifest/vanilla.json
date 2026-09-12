@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "name": "griefprevention",
+    "title": "GriefPrevention",
+    "side": "server",
+    "required": true,
+    "default": true,
+    "filename": "GriefPrevention.jar",
+    "encoded": "GriefPrevention.jar",
+    "src": "https://cdn.modrinth.com/data/O4o4mKaq/versions/dGfCZHqk/GriefPrevention.jar",
+    "size": 380232,
+    "md5": "0b3fed989d35eb6194273d8981a19c28",
+    "sha256": "45e9907c61222e559ed2e099ffee0ede706a21243a31d7db549baf678708fdf0"
+  }
+]
