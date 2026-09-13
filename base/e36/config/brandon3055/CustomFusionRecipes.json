@@ -1,0 +1,63 @@
+[
+
+        {
+        "mode": "ADD",
+        "result": "solarflux:photovoltaic_cell_5,1",
+        "catalyst": "solarflux:photovoltaic_cell_4,1",
+        "energy": 10000,
+        "tier": 0,
+        "ingredients": [
+            "nuclearcraft:cooler,1,12",
+            "nuclearcraft:cooler,1,12",
+            "nuclearcraft:rtg_uranium,1",
+            "nuclearcraft:rtg_uranium,1"
+        ]
+    },
+     {
+        "mode": "ADD",
+        "result": "solarflux:photovoltaic_cell_6,1",
+        "catalyst": "solarflux:photovoltaic_cell_5,1",
+        "energy": 80000,
+        "tier": 2,
+        "ingredients": [
+            "extendedcrafting:singularity,1,7"
+        ]
+    },
+        {
+        "mode": "ADD",
+        "result": "contenttweaker:quantum_synchronized_double_gearbox,1",
+        "catalyst": "extraplanets:eris,1,7",
+        "energy": 200000,
+        "tier": 1,
+        "ingredients": [
+            "contenttweaker:double_gear",
+            "contenttweaker:double_gear",
+            "contenttweaker:double_gear",
+            "contenttweaker:double_gear",
+            "avaritia:singularity"
+        ]
+    },
+
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:awakened_core",
+        "catalyst": "minecraft:nether_star"
+    },
+        {
+        "mode": "ADD",
+        "result": "draconicevolution:awakened_core",
+        "catalyst": "minecraft:nether_star",
+        "energy": 9000000,
+        "tier": 1,
+        "ingredients": [
+            "draconicevolution:wyvern_core",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "bloodmagic:item_demon_crystal",
+            "bloodmagic:item_demon_crystal"
+        ]
+    },    
+]

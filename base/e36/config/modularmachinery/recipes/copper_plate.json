@@ -1,0 +1,29 @@
+{
+    "machine": "plate_presser",
+    "registryName": "copper_plate",
+    "recipeTime": 90,
+    "requirements": [
+
+        {
+            "type": "mana",
+            "io-type": "input",
+            "mana": 1000
+        },
+
+	    {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotCopper",
+            "amount": 4
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "ic2:plate@1",
+            "amount": 1,
+            "chance": 1.0 
+        }
+
+    ]
+}

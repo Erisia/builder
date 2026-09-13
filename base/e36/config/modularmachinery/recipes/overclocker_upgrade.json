@@ -1,0 +1,43 @@
+{
+    "machine": "machine_part_crafter",
+    "registryName": "overclocker_upgrade",
+    "recipeTime": 180,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 100
+        },
+
+	    {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:speed_gear",
+            "amount": 1
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@1025",
+            "amount": 4
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotInvar",
+            "amount": 8
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "ic2:upgrade@0",
+            "amount": 8,
+            "chance": 1.0 
+        }
+
+    ]
+}

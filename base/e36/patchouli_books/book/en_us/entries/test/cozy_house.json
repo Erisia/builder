@@ -1,0 +1,18 @@
+{
+    "name": "Cozy House",
+    "icon": "minecraft:log:0",
+    "category": "small_builds",
+    "pages": [
+        {
+            "type": "text",
+            "text": "A small beginner house with just enough space to be comfortable. $(br2) Size: 10x5x9 (x,y,z) $(br) Builder: pikminman13"
+        },
+
+        {
+            "type": "image",
+            "images": [
+                "builds:cozy_house.png"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "machine": "block_duplicator_nether_brick",
+    "registryName": "duplicator_nether_brick",
+    "recipeTime": 10,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 5
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:nether_brick",
+            "amount": 1,
+            "chance": 1.0 
+        }
+
+    ]
+}

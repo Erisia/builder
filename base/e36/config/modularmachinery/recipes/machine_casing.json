@@ -1,0 +1,36 @@
+{
+    "machine": "machine_part_crafter",
+    "registryName": "machine_casing",
+    "recipeTime": 180,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 100
+        },
+
+	    {
+            "type": "item",
+            "io-type": "input",
+            "item": "modularmachinery:itemmodularium",
+            "amount": 4
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:redstone_block",
+            "amount": 1
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "modularmachinery:blockcasing@0",
+            "amount": 4,
+            "chance": 1.0 
+        }
+
+    ]
+}

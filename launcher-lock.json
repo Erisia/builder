@@ -11,7 +11,12 @@
       "sha256": "sha256-3zfPFrCoRk1tc+1M9oRwekjhVeXmtZkAGaecENb4wUM="
     }
   },
-  "forge": {},
+  "forge": {
+    "1.12.2-14.23.5.2864": {
+      "installerUrl": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.2-14.23.5.2864/forge-1.12.2-14.23.5.2864-installer.jar",
+      "outputHash": "sha256-/Eh15KBgNNgFlUkPKz7SnVQyjxeCXt3PhrZu17WbFVc="
+    }
+  },
   "neoforge": {
     "21.1.122-21.1.122": {
       "installerUrl": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.122/neoforge-21.1.122-installer.jar",
@@ -19,5 +24,10 @@
       "outputHash": "sha256-9wIXZW5/07BXbUMOWfUOqAXUrNMHICM8h9ACYugcB20="
     }
   },
-  "cleanroom": {}
+  "cleanroom": {
+    "0.6.12-alpha": {
+      "installerUrl": "https://github.com/CleanroomMC/Cleanroom/releases/download/0.6.12-alpha/cleanroom-0.6.12-alpha-installer.jar",
+      "outputHash": "sha256-x4aB3EbDOrnTZFi7DC74zhfZKV4ScOz4zHARlP7bLHE="
+    }
+  }
 }

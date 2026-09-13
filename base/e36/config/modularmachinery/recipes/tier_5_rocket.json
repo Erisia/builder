@@ -1,0 +1,43 @@
+{
+    "machine": "rocket_upgrader",
+    "registryName": "tier_5_rocket",
+    "recipeTime": 1200,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 300
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "extraplanets:item_tier4_rocket@0",
+            "amount": 1
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "extraplanets:tier5_items@1",
+            "amount": 2
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "extraplanets:tier5_items@4",
+            "amount": 10
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "extraplanets:item_tier6_rocket@0",
+            "amount": 1,
+            "chance": 1.0
+        }
+
+    ]
+}

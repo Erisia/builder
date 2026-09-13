@@ -1,0 +1,36 @@
+{
+    "machine": "super_alloyer",
+    "registryName": "bronze_super_alloyer",
+    "recipeTime": 60,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 60
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotCopper",
+            "amount": 3
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotTin",
+            "amount": 1
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@163",
+            "amount": 4,
+            "chance": 1.0 
+        }
+
+    ]
+}

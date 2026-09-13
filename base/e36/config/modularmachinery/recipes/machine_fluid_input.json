@@ -1,0 +1,36 @@
+{
+    "machine": "machine_part_crafter",
+    "registryName": "machine_fluid_input",
+    "recipeTime": 180,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 100
+        },
+
+	    {
+            "type": "item",
+            "io-type": "input",
+            "item": "modularmachinery:blockcasing@0",
+            "amount": 1
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "thermaldynamics:duct_16@0",
+            "amount": 1
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "modularmachinery:blockfluidinputhatch@2",
+            "amount": 1,
+            "chance": 1.0 
+        }
+
+    ]
+}

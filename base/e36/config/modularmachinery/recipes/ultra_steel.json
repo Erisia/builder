@@ -1,0 +1,29 @@
+{
+    "machine": "ultra_compressor",
+    "registryName": "ultra_steel",
+    "recipeTime": 40,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 120
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotSteel",
+            "amount": 2
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "galacticraftcore:basic_item@9",
+            "amount": 1,
+            "chance": 1.0 
+        }
+
+    ]
+}

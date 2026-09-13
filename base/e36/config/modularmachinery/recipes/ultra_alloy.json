@@ -1,0 +1,43 @@
+{
+    "machine": "ultra_compressor",
+    "registryName": "ultra_alloy",
+    "recipeTime": 40,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 120
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:plateIron",
+            "amount": 4
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:plateBronze",
+            "amount": 4
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:plateTin",
+            "amount": 4
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "ic2:crafting@3",
+            "amount": 3,
+            "chance": 1.0 
+        }
+
+    ]
+}

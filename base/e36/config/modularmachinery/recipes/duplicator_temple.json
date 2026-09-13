@@ -1,0 +1,22 @@
+{
+    "machine": "block_duplicator_temple",
+    "registryName": "duplicator_temple",
+    "recipeTime": 10,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 5
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "chisel:temple@0",
+            "amount": 1,
+            "chance": 1.0 
+        }
+
+    ]
+}

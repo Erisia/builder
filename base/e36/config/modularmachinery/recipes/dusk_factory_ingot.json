@@ -1,0 +1,36 @@
+{
+    "machine": "duskstone_factory",
+    "registryName": "dusk_factory_ingot",
+    "recipeTime": 60,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 160
+        },
+
+	    {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:gold_ingot",
+            "amount": 2
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:obsidian",
+            "amount": 2
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "contenttweaker:duskstone_ingot",
+            "amount": 10,
+            "chance": 1.0 
+        }
+
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "machine": "ultra_compressor",
+    "registryName": "ultra_zinc",
+    "recipeTime": 40,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 120
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:ingotZinc",
+            "amount": 1
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "extraplanets:tier8_items@4",
+            "amount": 1,
+            "chance": 1.0 
+        }
+
+    ]
+}

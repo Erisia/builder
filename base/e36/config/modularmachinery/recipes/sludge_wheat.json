@@ -1,0 +1,43 @@
+{
+    "machine": "bacterial_culture_farm",
+    "registryName": "sludge_wheat",
+    "recipeTime": 120,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 100
+        },
+     
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "bacterialsludge",
+            "amount": 1000,
+            "chance": 1.0
+        },
+
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "sludge",
+            "amount": 1000
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:wheat",
+            "amount": 6
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "forestry:fertilizer_bio",
+            "amount": 4,
+            "chance": 1.0
+        }
+    ]
+}

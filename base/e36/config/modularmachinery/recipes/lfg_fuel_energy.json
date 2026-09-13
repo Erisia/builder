@@ -1,0 +1,28 @@
+{
+    "machine": "liquid_fuel_generator",
+    "registryName": "lfg_fuel_energy",
+    "recipeTime": 400,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "output",
+            "energyPerTick": 600
+        },
+
+	    {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "water",
+            "amount": 100
+        },
+
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "fuel",
+            "amount": 100
+        }
+
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "machine": "block_duplicator_purpur",
+    "registryName": "duplicator_purpur",
+    "recipeTime": 10,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 5
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:purpur_block",
+            "amount": 1,
+            "chance": 1.0 
+        }
+
+    ]
+}

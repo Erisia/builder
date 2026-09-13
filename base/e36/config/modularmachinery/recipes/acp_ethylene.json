@@ -1,0 +1,41 @@
+{
+    "machine": "advanced_chemical_plant",
+    "registryName": "acp_ethylene",
+    "recipeTime": 100,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 500
+        },
+
+	    {
+            "type": "gas",
+            "io-type": "input",
+            "gas": "oxygen",
+            "amount": 500
+        },
+
+        {
+            "type": "gas",
+            "io-type": "input",
+            "gas": "methane",
+            "amount": 1000
+        },
+
+        {
+            "type": "gas",
+            "io-type": "output",
+            "gas": "ethene",
+            "amount": 1000
+        },
+
+        {
+            "type": "gas",
+            "io-type": "output",
+            "gas": "water",
+            "amount": 500
+        }
+    ]
+}

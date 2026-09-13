@@ -1,0 +1,36 @@
+{
+    "machine": "super_alloyer",
+    "registryName": "duskstone_super_alloyer",
+    "recipeTime": 300,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 80
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:gold_ingot",
+            "amount": 1
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:obsidian",
+            "amount": 1
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "contenttweaker:duskstone_ingot",
+            "amount": 3,
+            "chance": 1.0 
+        }
+
+    ]
+}

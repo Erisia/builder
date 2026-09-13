@@ -1,0 +1,36 @@
+{
+    "machine": "super_alloyer",
+    "registryName": "steel_super_alloyer",
+    "recipeTime": 240,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 60
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:iron_ingot",
+            "amount": 1
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "immersiveengineering:material@6",
+            "amount": 1
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@160",
+            "amount": 1,
+            "chance": 1.0 
+        }
+
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "machine": "bacterial_processor",
+    "registryName": "bacterial_asteroid",
+    "recipeTime": 120,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 100
+        },
+     
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "water",
+            "amount": 250,
+            "chance": 1.0
+        },
+
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "bacterialsludge",
+            "amount": 250
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "galacticraftplanets:asteroids_block@0",
+            "amount": 4
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "galacticraftcore:ic2compat@7",
+            "amount": 2,
+            "chance": 1.0
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@0",
+            "amount": 1,
+            "chance": 1.0
+        }
+    ]
+}

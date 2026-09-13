@@ -1,0 +1,36 @@
+{
+    "machine": "machine_part_crafter",
+    "registryName": "machine_starlight_output",
+    "recipeTime": 180,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 100
+        },
+
+	    {
+            "type": "item",
+            "io-type": "input",
+            "item": "modularmachinery:blockcasing@0",
+            "amount": 1
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:star_pearl",
+            "amount": 1
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "modularmagic:blockstarlightprovideroutput",
+            "amount": 1,
+            "chance": 1.0 
+        }
+
+    ]
+}

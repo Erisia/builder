@@ -1,0 +1,65 @@
+{
+    "machine": "boss_fight_simulator",
+    "registryName": "boss_enderdragon",
+    "recipeTime": 1800,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 2000
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:dragon_catalyst",
+            "amount": 1
+        },
+
+        {
+            "type": "starlight",
+            "io-type": "input",
+            "amount": 6000
+        },
+
+        {
+            "type": "lifeessence",
+            "io-type": "input",
+            "essenceamount": 5000
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:dragon_breath",
+            "amount": 4,
+            "chance": 1.0 
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "draconicevolution:dragon_heart",
+            "amount": 1,
+            "chance": 1.0 
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:dragon_egg",
+            "amount": 1,
+            "chance": 1.0 
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "mysticalagradditions:stuff@3",
+            "amount": 4,
+            "chance": 1.0 
+        }
+
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "machine": "duskstone_mixer",
+    "registryName": "duskstone_ingot",
+    "recipeTime": 180,
+    "requirements": [
+        
+        {
+            "type": "mana",
+            "io-type": "input",
+            "mana": 1000
+        },
+     
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "contenttweaker:duskstone_ingot",
+            "amount": 1,
+            "chance": 1.0 
+        },
+
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "gold",
+            "amount": 72
+        },
+
+	{
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "obsidian",
+            "amount": 72
+        }
+    ]
+}

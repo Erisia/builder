@@ -1,0 +1,29 @@
+{
+    "machine": "industrial_coke_oven",
+    "registryName": "coke_mixed_brick",
+    "recipeTime": 400,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 100
+        },
+
+	    {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:mixed_blend",
+            "amount": 4
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "contenttweaker:mixed_brick",
+            "amount": 8,
+            "chance": 1.0 
+        }
+
+    ]
+}

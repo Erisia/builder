@@ -1,0 +1,40 @@
++--------+------------------+-------------------------+-----------------+------------------+---------------------------------------------------------------------------------+
+|     ID | DimensionType ID | Name                    | shouldLoadSpawn | Currently loaded | WorldProvider class                                                             |
++--------+------------------+-------------------------+-----------------+------------------+---------------------------------------------------------------------------------+
+|    -22 |              -22 | Kepler 22b              |            true |             true | com.mjr.extraplanets.planets.Kepler22b.WorldProviderKepler22b                   |
+|    418 |              418 | tartarus                |           false |             true | ipsis.woot.dimension.world.WootWorldProvider                                    |
+|    -28 |              -28 | Moon                    |            true |             true | micdoodle8.mods.galacticraft.core.dimension.WorldProviderMoon                   |
+|    -29 |              -29 | Mars                    |            true |             true | micdoodle8.mods.galacticraft.planets.mars.dimension.WorldProviderMars           |
+|    -30 |              -30 | Asteroids               |            true |             true | micdoodle8.mods.galacticraft.planets.asteroids.dimension.WorldProviderAsteroids |
+|    -31 |              -31 | Venus                   |            true |             true | micdoodle8.mods.galacticraft.planets.venus.dimension.WorldProviderVenus         |
+|    -32 |              -32 | Io                      |            true |             true | com.mjr.extraplanets.moons.Io.WorldProviderIo                                   |
+|    -33 |              -33 | Phobos                  |            true |             true | com.mjr.extraplanets.moons.Phobos.WorldProviderPhobos                           |
+|    -34 |              -34 | Europa                  |            true |             true | com.mjr.extraplanets.moons.Europa.WorldProviderEuropa                           |
+|    -35 |              -35 | Deimos                  |            true |             true | com.mjr.extraplanets.moons.Deimos.WorldProviderDeimos                           |
+|  -9999 |            -9999 | ExtraUtils2_Quarry_Dim  |            true |             true | com.rwtema.extrautils2.dimensions.workhousedim.WorldProviderSpecialDim          |
+|    -36 |              -36 | Triton                  |            true |             true | com.mjr.extraplanets.moons.Triton.WorldProviderTriton                           |
+|    -37 |              -37 | Callisto                |            true |             true | com.mjr.extraplanets.moons.Callisto.WorldProviderCallisto                       |
+|    -38 |              -38 | Ganymede                |            true |             true | com.mjr.extraplanets.moons.Ganymede.WorldProviderGanymede                       |
+|    -39 |              -39 | Rhea                    |            true |             true | com.mjr.extraplanets.moons.Rhea.WorldProviderRhea                               |
+|    -40 |              -40 | Titan                   |            true |             true | com.mjr.extraplanets.moons.Titan.WorldProviderTitan                             |
+|    -41 |              -41 | Oberon                  |            true |             true | com.mjr.extraplanets.moons.Oberon.WorldProviderOberon                           |
+|    -42 |              -42 | Titania                 |            true |             true | com.mjr.extraplanets.moons.Titania.WorldProviderTitania                         |
+|    -43 |              -43 | Iapetus                 |            true |             true | com.mjr.extraplanets.moons.Iapetus.WorldProviderIapetus                         |
+| -11325 |           -11325 | Deep Dark               |           false |             true | com.rwtema.extrautils2.dimensions.deep_dark.WorldProviderDeepDark               |
+|     -1 |               -1 | the_nether              |           false |             true | net.minecraft.world.WorldProviderHell                                           |
+|    -13 |              -13 | Mercury                 |            true |             true | com.mjr.extraplanets.planets.Mercury.WorldProviderMercury                       |
+|    -15 |              -15 | Jupiter                 |            true |             true | com.mjr.extraplanets.planets.Jupiter.WorldProviderJupiter                       |
+|    -16 |              -16 | Saturn                  |            true |             true | com.mjr.extraplanets.planets.Saturn.WorldProviderSaturn                         |
+|      4 |              -80 | Kepler22b Space Station |            true |            false | com.mjr.extraplanets.planets.Kepler22b.spacestation.WorldProviderKepler22bOrbit |
+|    -17 |              -17 | Uranus                  |            true |             true | com.mjr.extraplanets.planets.Uranus.WorldProviderUranus                         |
+|    -18 |              -18 | Neptune                 |            true |             true | com.mjr.extraplanets.planets.Neptune.WorldProviderNeptune                       |
+|    144 |              144 | CompactMachines         |           false |             true | org.dave.compactmachines3.world.WorldProviderMachines                           |
+|    -19 |              -19 | Pluto                   |            true |             true | com.mjr.extraplanets.planets.Pluto.WorldProviderPluto                           |
+|      2 |              -11 | Storage Cell            |            true |             true | appeng.spatial.StorageWorldProvider                                             |
+|    -20 |              -20 | Ceres                   |            true |             true | com.mjr.extraplanets.planets.Ceres.WorldProviderCeres                           |
+|      1 |                1 | the_end                 |           false |             true | net.minecraft.world.WorldProviderEnd                                            |
+|    -21 |              -21 | Eris                    |            true |             true | com.mjr.extraplanets.planets.Eris.WorldProviderEris                             |
+|      0 |                0 | overworld               |            true |             true | net.minecraft.world.WorldProviderSurface                                        |
++--------+------------------+-------------------------+-----------------+------------------+---------------------------------------------------------------------------------+
+|     ID | DimensionType ID | Name                    | shouldLoadSpawn | Currently loaded | WorldProvider class                                                             |
++--------+------------------+-------------------------+-----------------+------------------+---------------------------------------------------------------------------------+

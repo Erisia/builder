@@ -1,0 +1,30 @@
+{
+    "machine": "starlight_factory",
+    "registryName": "star_pearl",
+    "recipeTime": 120,
+    "requirements": [
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "botania:manaresource@1",
+            "amount": 1
+        },
+
+	    {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "astralsorcery.liquidstarlight",
+            "amount": 250
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "contenttweaker:star_pearl",
+            "amount": 1,
+            "chance": 1.0
+        }
+
+    ]
+}

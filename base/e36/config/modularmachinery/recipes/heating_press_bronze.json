@@ -1,0 +1,43 @@
+{
+    "machine": "heating_press",
+    "registryName": "heating_press_double_gear",
+    "recipeTime": 200,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 100
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:power_gear",
+            "amount": 1
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:speed_gear",
+            "amount": 1
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:draconium_gear",
+            "amount": 1
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "contenttweaker:double_gear",
+            "amount": 1,
+            "chance": 1.0 
+        }
+
+    ]
+}

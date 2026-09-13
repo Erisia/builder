@@ -1,0 +1,29 @@
+{
+    "machine": "plate_presser",
+    "registryName": "duskstone_plate",
+    "recipeTime": 180,
+    "requirements": [
+
+        {
+            "type": "mana",
+            "io-type": "input",
+            "mana": 1000
+        },
+
+	    {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:duskstone_ingot",
+            "amount": 4
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "contenttweaker:duskstone_plate",
+            "amount": 1,
+            "chance": 1.0 
+        }
+
+    ]
+}

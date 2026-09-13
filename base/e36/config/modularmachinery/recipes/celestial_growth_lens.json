@@ -1,0 +1,56 @@
+{
+    "machine": "auto_celestial_altar",
+    "registryName": "celestial_growth_lens",
+    "recipeTime": 180,
+    "requirements": [
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "astralsorcery:itemcraftingcomponent@3",
+            "amount": 1
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "astralsorcery:itemcraftingcomponent@0",
+            "amount": 4
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:carrot",
+            "amount": 2
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:reeds",
+            "amount": 2
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:wheat_seeds",
+            "amount": 2
+        },
+
+        {
+            "type": "starlight",
+            "io-type": "input",
+            "amount": 4000
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "astralsorcery:itemcoloredlens@2",
+            "amount": 1,
+            "chance": 1.0 
+        }
+    ]
+}

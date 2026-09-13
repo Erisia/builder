@@ -1,0 +1,202 @@
+{
+    "machine": "boss_fight_simulator",
+    "registryName": "boss_gaiaguardian",
+    "recipeTime": 1800,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 2000
+        },
+
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:gaia_catalyst",
+            "amount": 1
+        },
+
+        {
+            "type": "starlight",
+            "io-type": "input",
+            "amount": 6000
+        },
+
+        {
+            "type": "lifeessence",
+            "io-type": "input",
+            "essenceamount": 5000
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:manaresource@5",
+            "amount": 16,
+            "chance": 1.0 
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:manaresource@0",
+            "amount": 8,
+            "chance": 0.25 
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:manaresource@1",
+            "amount": 4,
+            "chance": 0.25 
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:manaresource@2",
+            "amount": 4,
+            "chance": 0.25 
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:rune@0",
+            "amount": 2,
+            "chance": 0.25 
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:rune@1",
+            "amount": 2,
+            "chance": 0.25 
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:rune@2",
+            "amount": 2,
+            "chance": 0.25 
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:rune@3",
+            "amount": 2,
+            "chance": 0.25 
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:rune@4",
+            "amount": 1,
+            "chance": 0.15 
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:rune@5",
+            "amount": 1,
+            "chance": 0.15 
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:rune@6",
+            "amount": 1,
+            "chance": 0.15 
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:rune@7",
+            "amount": 1,
+            "chance": 0.15 
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:rune@8",
+            "amount": 2,
+            "chance": 0.15 
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:rune@9",
+            "amount": 1,
+            "chance": 0.05
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:rune@10",
+            "amount": 1,
+            "chance": 0.05
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:rune@11",
+            "amount": 1,
+            "chance": 0.05
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:rune@12",
+            "amount": 1,
+            "chance": 0.05
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:rune@13",
+            "amount": 1,
+            "chance": 0.05
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:rune@14",
+            "amount": 1,
+            "chance": 0.05
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:rune@15",
+            "amount": 1,
+            "chance": 0.05
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "botania:overgrowthseed",
+            "amount": 1,
+            "chance": 0.05
+        }
+
+
+    ]
+}

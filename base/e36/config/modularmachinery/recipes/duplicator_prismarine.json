@@ -1,0 +1,22 @@
+{
+    "machine": "block_duplicator_prismarine",
+    "registryName": "duplicator_prismarine",
+    "recipeTime": 10,
+    "requirements": [
+
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 5
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:prismarine",
+            "amount": 1,
+            "chance": 1.0 
+        }
+
+    ]
+}
