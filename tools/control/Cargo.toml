@@ -1,6 +1,6 @@
 [package]
 name = "control"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Baughn <svein@google.com>"]
 edition = "2018"
 
@@ -9,12 +9,3 @@ edition = "2018"
 [dependencies]
 anyhow = "1.0.82"
 structopt = "0.3"
-
-[dependencies.tokio]
-version = "0.2.11"
-features = ["full"]
-
-[dependencies.reqwest]
-version = "0.10"
-default-features = false
-features = ["rustls-tls"]

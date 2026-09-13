@@ -31,6 +31,8 @@ FORGE_JAR_PATTERN = 'forge/forge-*.jar' # Relative to BASE_DIR
 TMUX_TARGET_SESSION_NAME = "@tmuxName@" # Placeholder
 STOP_SCRIPT_PATH = APP_ROOT_DIR / "stop.sh" # stop.sh should be in the runtime dir if it's called
 USER_JVM_ARGS_FILE = APP_ROOT_DIR / "user_jvm_args.txt" # JVM args also in runtime dir
+SERVER_PROPERTIES_FILE = APP_ROOT_DIR / "server.properties"
+RCON_PORT = int("@rconPort@") # Placeholder; control.sh talks to the server over RCON
 
 # Runtime files in APP_ROOT_DIR
 SERVER_PID_FILE = APP_ROOT_DIR / "server.pid" # Main script PID
@@ -227,6 +229,39 @@ def sync_server_files():
         for key_dir in dirs_to_fix:
             if key_dir.is_dir(): # Check if it was actually created/synced
                 fix_permissions(str(key_dir))
+
+
+def configure_rcon():
+    """Enables RCON in server.properties with a fresh random password.
+
+    control.sh (and anything else that needs to talk to the server) reads the
+    port and password back out of the same file, so nothing else needs to know
+    the password. A new password is generated on every start.
+    """
+    import secrets
+    wanted = {
+        "enable-rcon": "true",
+        "rcon.port": str(RCON_PORT),
+        "rcon.password": secrets.token_urlsafe(24),
+    }
+    lines = SERVER_PROPERTIES_FILE.read_text().splitlines() if SERVER_PROPERTIES_FILE.exists() else []
+    output = []
+    seen = set()
+    for line in lines:
+        key = None
+        if "=" in line and not line.lstrip().startswith("#"):
+            key = line.split("=", 1)[0].strip()
+        if key in wanted:
+            output.append(f"{key}={wanted[key]}")
+            seen.add(key)
+        else:
+            output.append(line)
+    for key, value in wanted.items():
+        if key not in seen:
+            output.append(f"{key}={value}")
+    SERVER_PROPERTIES_FILE.write_text("\n".join(output) + "\n")
+    SERVER_PROPERTIES_FILE.chmod(0o600) # Contains the RCON password
+    console.print(f"[green]RCON enabled on port {RCON_PORT} with a fresh password.[/]")
 
 
 def daily_restart_task():
@@ -438,6 +473,10 @@ def main():
         sync_task = progress.add_task("[green]Synchronizing server files...", total=1)
         sync_server_files()
         progress.update(sync_task, completed=1)
+
+        rcon_task = progress.add_task("[green]Configuring RCON...", total=1)
+        configure_rcon()
+        progress.update(rcon_task, completed=1)
 
         gc_task = progress.add_task("[yellow]Cleaning up GC log...", total=1)
         GC_LOG_PATH.unlink(missing_ok=True)

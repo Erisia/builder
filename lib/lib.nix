@@ -30,6 +30,7 @@ rec {
     serverName ? name,
     port,
     prometheusPort,
+    rconPort ? port + 10000,
     minecraft,
     fabric ? null,
     forge ? null,
@@ -113,7 +114,7 @@ rec {
     server = symlinkJoin {
       name = name + "-server";
 
-      inherit tmuxName ram serverName port prometheusPort;
+      inherit tmuxName ram serverName port prometheusPort rconPort;
 
       paths = [
         launcherDir

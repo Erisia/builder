@@ -2,4 +2,4 @@
 
 cd "$(dirname "$(readlink -f "$0")")"
 
-exec server/bin/control @tmuxName@ @prometheusPort@ "$@"
+exec server/bin/control @tmuxName@ "$@"
