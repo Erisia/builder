@@ -189,6 +189,20 @@ def sync_server_files():
                     shutil.copy2(source_file, dest_file, follow_symlinks=True) # follow_symlinks=True for -L effect
                     dest_file.chmod(0o644) # Nix store files are 444; make writable for the server
 
+        # Helper shell scripts (stop.sh, control.sh, ...): always copy from BASE_DIR, overwriting.
+        # These must be real copies rather than symlinks: they `cd "$(dirname "$(readlink -f "$0")")"`
+        # and expect to land in APP_ROOT_DIR (next to the `server` symlink), not in the Nix store.
+        # Original: [[ -e "$b" ]] && fixperms "$b" && rm -rf "$b"; cp -aL "$f" .
+        for source_file in BASE_DIR.glob("*.sh"):
+            dest_file = APP_ROOT_DIR / source_file.name
+            console.print(f"Copying script [blue]{source_file.name}[/] from {source_file} to {dest_file}...")
+            if dest_file.is_dir() and not dest_file.is_symlink():
+                shutil.rmtree(dest_file)
+            elif dest_file.exists() or dest_file.is_symlink():
+                dest_file.unlink()
+            shutil.copy2(source_file, dest_file, follow_symlinks=True)
+            dest_file.chmod(0o755) # Nix store files are read-only; scripts must be executable
+
         # Default copy for other files from BASE_DIR to APP_ROOT_DIR
         # Original: [[ -e "$b" ]] && fixperms "$b" && rm -rf "$b"; cp -aL "$f" .
         # This needs to be selective. We don't want to copy everything from BASE_DIR.
