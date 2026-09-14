@@ -41,8 +41,8 @@
       legacyPackages.${system} = builder;
 
       checks.${system} = {
-        shutdown = pkgs.runCommand "minecraft-shutdown-tests" {
-          nativeBuildInputs = [ pkgs.python3 pkgs.bash pkgs.coreutils ];
+        shutdown = pkgs.runCommand "minecraft-launcher-tests" {
+          nativeBuildInputs = [ pkgs.python3 pkgs.bash pkgs.coreutils pkgs.gnugrep ];
         } ''
           export PYTHONDONTWRITEBYTECODE=1
           cd ${pkgs.lib.fileset.toSource {
@@ -50,10 +50,12 @@
             fileset = pkgs.lib.fileset.unions [
               ./shutdown.py
               ./update-and-start.sh
+              ./base/server/crash_analysis.py
               ./tests/test_shutdown.py
+              ./tests/test_crash_analysis.py
             ];
           }}
-          python3 -m unittest discover -s tests -p test_shutdown.py -v
+          python3 -m unittest discover -s tests -p 'test_*.py' -v
           touch "$out"
         '';
         inherit (builder) ServerPackLocal web;

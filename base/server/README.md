@@ -15,3 +15,19 @@ remove it explicitly before starting servers again. Normal NixOS switches do not
 invoke the hook. Deploy `shutdown.py` and `update-and-start.sh` to the runtime
 builder checkout together; the latter protects existing restart loops without
 restarting the live server. New server builds also check the marker in `start.py`.
+
+Crash analysis: when the Java process exits nonzero and the launcher did not
+ask it to stop (ctrl-c/SIGTERM, the daily restart, or a host shutdown all set
+that flag or marker first), `start.py` hands the exit to `crash_analysis.py`.
+It snapshots `logs/latest.log`, the tail of `debug.log`, and any crash report
+or `hs_err_pid*.log` written during that run into `crash-analysis/<stamp>/`,
+then runs Claude Code detached (a `systemd-run --user` unit, or a plain
+background process) with a suggestions-only prompt: it may read anything and
+unpack or decompile mods in temp directories, but must not change the server.
+The report is written atomically to `crash-analysis/<stamp>.md`; a failed or
+timed-out run still produces a report saying so. At most three analyses start
+per calendar day per server. `CRASH_ANALYSIS=0` in the launcher's environment
+disables the feature; `CRASH_ANALYSIS_CLAUDE` overrides the binary (default
+`~/.npm-global/bin/claude`, falling back to `claude` on PATH).
+`tools/crash-analysis-notice.sh`, sourced from the shell rc files, lists unread
+reports before every prompt until `crash-analysis-ack` is run.

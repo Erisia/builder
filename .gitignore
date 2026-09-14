@@ -14,3 +14,5 @@ cursetool/cursetool-0.1
 
 **/.claude/settings.local.json
 *.log
+__pycache__/
+*.pyc

@@ -20,6 +20,7 @@ from rich.prompt import Confirm
 from rich.logging import RichHandler
 from rich.live import Live
 from rich.text import Text
+from rich.markup import escape
 
 # --- Configuration ---
 # BASE_DIR is the read-only directory where this script and its bundled resources reside (e.g., /nix/store/.../server)
@@ -48,6 +49,8 @@ java_server_process = None # Popen object for systemd-run or direct Java process
 using_systemd = False
 daily_restart_stop_event = threading.Event()
 console = Console() # Global rich console instance
+stop_requested = False # Set whenever *we* asked the server to stop: such exits are never crashes
+launched_at = None # When the Java process was started; crash reports use it to pick fresh files
 
 
 def setup_logging():
@@ -266,13 +269,14 @@ def configure_rcon():
 
 def daily_restart_task():
     """Thread task for daily restarts."""
-    global java_server_process, using_systemd
+    global java_server_process, using_systemd, stop_requested
     console.print("[green]Daily restart task started.[/]")
     while not daily_restart_stop_event.wait(45): # Wait 45s, check event
         now = datetime.datetime.now().strftime("%H:%M")
         if now in ["06:00", "18:00"]:
             console.print(f"[bold yellow]Scheduled restart triggered at {now}.[/]")
-            
+            stop_requested = True
+
             if STOP_SCRIPT_PATH.is_file() and STOP_SCRIPT_PATH.stat().st_mode & 0o100: # Check if executable
                 console.print(f"Running stop script for warnings: {STOP_SCRIPT_PATH}")
                 run_command([str(STOP_SCRIPT_PATH)], check=False, cwd=APP_ROOT_DIR)
@@ -391,6 +395,8 @@ def cleanup_handler():
 
 
 def signal_receiver(signum, frame):
+    global stop_requested
+    stop_requested = True # ctrl-c / SIGTERM: whatever exit code the server produces now, it is not a crash
     signal_name = signal.Signals(signum).name
     console.print(f"\n[bold red]Signal {signal_name} ({signum}) received. Initiating shutdown sequence...[/]")
     # The atexit handler (cleanup_handler) will perform the actual cleanup.
@@ -405,8 +411,32 @@ def check_systemd():
     return shutil.which("systemd-run") and shutil.which("systemctl")
 
 
+def report_crash(return_code, command):
+    """Hand a crash (and only a crash) to crash_analysis.py for a background, suggestion-only diagnosis.
+
+    See crash_analysis.py for the crash test and the daily rate limit. Whatever goes
+    wrong in here must not disturb the launcher or the restart loop.
+    """
+    try:
+        sys.path.insert(0, str(BASE_DIR))
+        import crash_analysis
+        crash_analysis.maybe_start_analysis(
+            server_dir=APP_ROOT_DIR,
+            return_code=return_code,
+            stop_requested=stop_requested,
+            shutdown_marker_exists=Path(f"/run/user/{os.getuid()}/minecraft-shutdown").exists(),
+            launched_at=launched_at or datetime.datetime.now(),
+            command=[str(part) for part in command],
+            server_name=TMUX_TARGET_SESSION_NAME,
+            python=sys.executable,
+            log=lambda message: console.print(f"[magenta]Crash analysis:[/] {escape(message)}"),
+        )
+    except Exception as e:
+        console.print(f"[yellow]Warning:[/] Crash analysis could not be started: {escape(str(e))}")
+
+
 def main():
-    global java_server_process, using_systemd
+    global java_server_process, using_systemd, launched_at
 
     # Check before registering cleanup: a refused launch owns no server.
     if Path(f"/run/user/{os.getuid()}/minecraft-shutdown").exists():
@@ -630,6 +660,7 @@ def main():
         # Preparation/building may have overlapped the shutdown request.
         if Path(f"/run/user/{os.getuid()}/minecraft-shutdown").exists():
             sys.exit("Host shutdown in progress; refusing to launch Java.")
+        launched_at = datetime.datetime.now()
         java_server_process = subprocess.Popen(final_command_to_run, cwd=APP_ROOT_DIR, env=env)
         
         if not using_systemd: # If direct Popen, save its PID
@@ -664,6 +695,9 @@ def main():
             # Check scope status for more info if needed: systemctl status scope_name
         else:
             console.print(f"[blue]Java server process {java_server_process.pid if java_server_process else 'N/A'} exited with code {return_code}.[/]")
+
+        # Intentional stops (ctrl-c, SIGTERM, daily restart, host shutdown) are filtered out inside.
+        report_crash(return_code, final_command_to_run)
 
     except FileNotFoundError:
         console.print(f"[bold red]ERROR: Could not execute command. Ensure nix, systemd-run (if applicable), or java is available: {final_command_to_run[0]}[/]")

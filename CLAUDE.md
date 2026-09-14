@@ -68,6 +68,7 @@ Each pack in `default.nix` contains:
   - `base/server/`: Shared server configs
 - `modestly-modular-modpack-modifier/`: Rust-based workflow processor for modpack building
 - `tools/`: Helper utilities (control scripts, FTB unpacker, gallery bot)
+- `tools/crash-analysis-notice.sh`: shell prompt hook listing unread `crash-analysis/*.md` reports (see `base/server/README.md`)
 - `web/`: Hugo-based website source
 
 ### Build System
@@ -92,6 +93,13 @@ For CurseForge mods, configure API access in `mmmm.toml` with either:
 The tool creates the config file automatically at:
 - Linux: `~/.config/modestly-modular-modpack-modifier/mmmm.toml`
 - Windows: `%AppData%\maxwell-lt\modestly-modular-modpack-modifier\config\mmmm.toml`
+
+## Crash Analysis
+
+`base/server/crash_analysis.py` runs a suggestions-only Claude Code post-mortem after a genuine
+server crash (never after an intentional stop), at most three per day per server, writing
+`crash-analysis/<stamp>.md` in the server directory. Unit tests live in `tests/test_crash_analysis.py`
+and run with `nix flake check` or `python3 -m unittest discover -s tests`.
 
 ## Testing Changes
 
