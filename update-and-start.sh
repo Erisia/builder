@@ -3,6 +3,15 @@
 set -eu
 GITDIR="$(dirname "$(readlink -f "$0")")"
 
+# This also protects already-running copies of the old restart loop.
+check_shutdown() {
+    if [[ -e "/run/user/$(id -u)/minecraft-shutdown" ]]; then
+        echo 'Host shutdown in progress; refusing to start Minecraft.'
+        exit 1
+    fi
+}
+check_shutdown
+
 if [ -z "${FORCE:-}" -a ! \( -d world -a -d mods -a -d server \) ]; then
     echo "$(pwd) doesn't look like a Minecraft server directory."
     echo "Are you sure you want to setup a server in it?"
@@ -32,4 +41,5 @@ else
     nix-build "$GITDIR" -A ServerPack -o pack --show-trace
 fi
 
+check_shutdown
 exec server/start.py

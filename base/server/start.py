@@ -408,6 +408,10 @@ def check_systemd():
 def main():
     global java_server_process, using_systemd
 
+    # Check before registering cleanup: a refused launch owns no server.
+    if Path(f"/run/user/{os.getuid()}/minecraft-shutdown").exists():
+        sys.exit("Host shutdown in progress; refusing to start Minecraft.")
+
     setup_logging()
     atexit.register(cleanup_handler)
     signal.signal(signal.SIGTERM, signal_receiver)
@@ -623,6 +627,9 @@ def main():
         # Environment for the subprocess - could be useful for nix shell if it needs specific vars
         env = os.environ.copy()
         
+        # Preparation/building may have overlapped the shutdown request.
+        if Path(f"/run/user/{os.getuid()}/minecraft-shutdown").exists():
+            sys.exit("Host shutdown in progress; refusing to launch Java.")
         java_server_process = subprocess.Popen(final_command_to_run, cwd=APP_ROOT_DIR, env=env)
         
         if not using_systemd: # If direct Popen, save its PID

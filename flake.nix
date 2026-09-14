@@ -41,6 +41,21 @@
       legacyPackages.${system} = builder;
 
       checks.${system} = {
+        shutdown = pkgs.runCommand "minecraft-shutdown-tests" {
+          nativeBuildInputs = [ pkgs.python3 pkgs.bash pkgs.coreutils ];
+        } ''
+          export PYTHONDONTWRITEBYTECODE=1
+          cd ${pkgs.lib.fileset.toSource {
+            root = ./.;
+            fileset = pkgs.lib.fileset.unions [
+              ./shutdown.py
+              ./update-and-start.sh
+              ./tests/test_shutdown.py
+            ];
+          }}
+          python3 -m unittest discover -s tests -p test_shutdown.py -v
+          touch "$out"
+        '';
         inherit (builder) ServerPackLocal web;
         launchers = pkgs.linkFarm "erisia-launchers"
           (pkgs.lib.mapAttrsToList
