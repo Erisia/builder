@@ -22,6 +22,8 @@ nodes:
   - foamfix-optimization-mod # using VintageFix instead
   - blockcraftery # using refurbished instead
   - codechicken-lib-1-8 # using CRE instead
+  - farseek # using incompatible worldgen for Streams
+  - streams # using incompatible worldgen for Streams
 - id: overrides
   value:
   - name: inventory-tweaks
@@ -166,6 +168,17 @@ nodes:
     side: both
     id: 1328922
     file_id: 8553938
+  # worldgen
+  - name: wildlands
+    source: curse
+    side: both
+    id: 453979
+    file_id: 3231425
+  - name: open-terrain-generator
+    source: curse
+    side: both
+    id: 265894
+    file_id: 7004304
 ### Processing graph
 - id: download-pack
   kind: ArchiveDownloader

@@ -832,19 +832,6 @@
     "sha256": "946861f89e75a68e45e3117e9488498eb14db1143872c226f442706be523a890"
   },
   {
-    "name": "farseek",
-    "title": "Farseek",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "Farseek-1.12-2.5.jar",
-    "encoded": "Farseek-1.12-2.5.jar",
-    "src": "https://edge.forgecdn.net/files/2893/83/Farseek-1.12-2.5.jar",
-    "size": 531566,
-    "md5": "a77d132c616f8514ab8ff8cefe16f045",
-    "sha256": "27e9fae4b5d419a0f82798f541cb74c32119a601497712c35475d1cbca116a89"
-  },
-  {
     "name": "fast-leaf-decay",
     "title": "Fast Leaf Decay",
     "side": "both",
@@ -1755,6 +1742,19 @@
     "sha256": "add0ca908ecd1264ac4cac2e822aa75effbaf6902fffca0000ecf96b62864582"
   },
   {
+    "name": "open-terrain-generator",
+    "title": "Open Terrain Generator (OTG)",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "OpenTerrainGenerator-1.12.2-v9.7.jar",
+    "encoded": "OpenTerrainGenerator-1.12.2-v9.7.jar",
+    "src": "https://edge.forgecdn.net/files/7004/304/OpenTerrainGenerator-1.12.2-v9.7.jar",
+    "size": 4563471,
+    "md5": "4d9e8fdb5f6c1b43d88790a28817c8fc",
+    "sha256": "099661c56624efa68951f92b137ed38095f3a3fd8f9c783bfc01924972ab9d3c"
+  },
+  {
     "name": "openblocks-elevator",
     "title": "OpenBlocks Elevator",
     "side": "both",
@@ -2158,19 +2158,6 @@
     "sha256": "b13f5567c223b582119d38b4f67197e67476a3a7ff881a4e3b03508e01e7a349"
   },
   {
-    "name": "streams",
-    "title": "Streams",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "Streams-1.12-0.4.8.jar",
-    "encoded": "Streams-1.12-0.4.8.jar",
-    "src": "https://edge.forgecdn.net/files/2861/235/Streams-1.12-0.4.8.jar",
-    "size": 270338,
-    "md5": "6cfd2ec09ea21fe40e847746088b7686",
-    "sha256": "ed4beaa1536ac5631c6fcb317f1ca9bbfab1e7b0dd3e0f1fbf7676983a27b79a"
-  },
-  {
     "name": "super-sound-muffler-revived",
     "title": "Super Sound Muffler: Revived",
     "side": "both",
@@ -2494,6 +2481,19 @@
     "size": 178994,
     "md5": "5159122949ffb79b80a341135673e8f8",
     "sha256": "5e79f329154d9a6225130f2b29dbcb0f603e2e622637e39ca566f8179b02ca15"
+  },
+  {
+    "name": "wildlands",
+    "title": "Wildlands",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "Wildlands-1.12.2-alpha-0.1.jar",
+    "encoded": "Wildlands-1.12.2-alpha-0.1.jar",
+    "src": "https://edge.forgecdn.net/files/3231/425/Wildlands-1.12.2-alpha-0.1.jar",
+    "size": 85504289,
+    "md5": "b5844352c582eede590a4b5f559e7a94",
+    "sha256": "282f4e445f2a17cc2bd99cab96aa129c623f8f96d8f9571249818280a26c0178"
   },
   {
     "name": "wireless-crafting-terminal",
