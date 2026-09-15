@@ -179,6 +179,14 @@ nodes:
     side: both
     id: 265894
     file_id: 7004304
+  # chat fix
+  - name: chatkludge
+    source: url
+    location: 'https://github.com/Maxwell-lt/chatkludge/releases/download/1.0.0/chatkludge-1.0.0.jar'
+    filename: 'chatkludge-1.0.0.jar'
+    required: true
+    default: true
+    side: client
 ### Processing graph
 - id: download-pack
   kind: ArchiveDownloader

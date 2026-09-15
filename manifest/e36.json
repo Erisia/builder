@@ -416,6 +416,19 @@
     "sha256": "238416f801acda67b90fba9e0e572dbd6e7631b7e64c3eb3d6226f45ae536c87"
   },
   {
+    "name": "chatkludge",
+    "title": "chatkludge",
+    "side": "client",
+    "required": true,
+    "default": true,
+    "filename": "chatkludge-1.0.0.jar",
+    "encoded": "chatkludge-1.0.0.jar",
+    "src": "https://github.com/Maxwell-lt/chatkludge/releases/download/1.0.0/chatkludge-1.0.0.jar",
+    "size": 3013,
+    "md5": "195fbddc528fecae2c103c70f953f601",
+    "sha256": "507c81ae0b8c1821cf6b54ee75b5e26200028796b6ee1c6e33c8b15c9f1041ae"
+  },
+  {
     "name": "chisel",
     "title": "Chisel",
     "side": "both",
