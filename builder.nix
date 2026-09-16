@@ -7,6 +7,11 @@ with callPackage ./lib/lib.nix {};
 
 rec {
 
+  # Fix for the vanilla RCON threading bug (save-all/save-off) on 1.12.2 specifically.
+  saveThreadingFix = callPackage ./mods/save-threading-fix {
+    launcherDir = packs.e36.launcherDir;
+  };
+
   packs = {
     # e33 = buildPack e33;
     # e33_5 = buildPack e33_5;
@@ -43,6 +48,7 @@ rec {
     ];
     extraServerDirs = [
       ./base/server
+      saveThreadingFix
     ];
     extraClientDirs = [
       ./base/e36-client

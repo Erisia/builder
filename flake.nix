@@ -31,6 +31,7 @@
       }) packPackages;
     in {
       packages.${system} = flatPackPackages // {
+        save-threading-fix = builder.saveThreadingFix;
         default = builder.ServerPackLocal;
         inherit (builder) ServerPack ServerPackLocal ServerPackE35 web mcupdaterFlakeRepo;
         serverPack = builder.ServerPack;
@@ -41,6 +42,7 @@
       legacyPackages.${system} = builder;
 
       checks.${system} = {
+        save-threading-fix = builder.saveThreadingFix.tests.integration;
         shutdown = pkgs.runCommand "minecraft-launcher-tests" {
           nativeBuildInputs = [ pkgs.python3 pkgs.bash pkgs.coreutils pkgs.gnugrep ];
         } ''
