@@ -14,6 +14,11 @@ The analysis is advisory only: the prompt forbids changing the server, and the
 launcher never waits for it (the restart loop carries on). At most DAILY_LIMIT
 analyses are started per calendar day, counting attempts rather than
 successes. Set CRASH_ANALYSIS=0 in the launcher's environment to disable it.
+
+When ``~/.config/crash-analysis/discord.json`` exists (see DISCORD_CONFIG_PATH
+and load_discord_config()), the finished report is also copied to the web root
+(``~/web/crash-analysis/<server>/<stamp>.md``, served by Caddy) and its summary
+is posted to the configured Discord webhook with a link to that copy.
 """
 
 import datetime
@@ -23,6 +28,8 @@ import shutil
 import signal
 import subprocess
 import sys
+import urllib.error
+import urllib.request
 from collections import deque
 from pathlib import Path
 
@@ -32,6 +39,18 @@ DEBUG_TAIL_LINES = 3000
 CLAUDE_TIMEOUT_SECONDS = 25 * 60
 RUNTIME_MAX_SECONDS = CLAUDE_TIMEOUT_SECONDS + 5 * 60  # systemd's hard stop for the detached unit
 STAMP_FORMAT = "%Y-%m-%d-%H%M%S"
+
+# Publishing to Discord is opt-in: nothing happens unless this file exists. It holds
+# {"webhook_url": "https://discord.com/api/webhooks/..."} plus, optionally,
+# "web_dir", "public_url", "username" and "avatar_url" to override the defaults below.
+DISCORD_CONFIG_PATH = ".config/crash-analysis/discord.json"  # relative to $HOME
+DEFAULT_WEB_DIR = f"web/{REPORT_DIR_NAME}"  # relative to $HOME
+DEFAULT_PUBLIC_URL = f"https://madoka.brage.info/{REPORT_DIR_NAME}"
+DEFAULT_WEBHOOK_USERNAME = "Crash analysis"
+DEFAULT_WEBHOOK_AVATAR_URL = "https://brage.info/GAN/01a0a9c9-edef-7a70-ac39-49a0a9182d5a.jpg"
+DISCORD_CONTENT_LIMIT = 2000
+DISCORD_SUMMARY_LIMIT = 800
+WEBHOOK_TIMEOUT_SECONDS = 30
 
 # Claude Code may read anything and run commands, but must not edit files
 # through its own editing tools. Command-level restraint is the prompt's job.
@@ -223,7 +242,136 @@ def write_report(snap, text):
     return report
 
 
+def load_discord_config(path=None):
+    """The Discord config, with defaults filled in, or None when publishing is not set up."""
+    path = Path(path or os.environ.get("CRASH_ANALYSIS_DISCORD_CONFIG") or Path.home() / DISCORD_CONFIG_PATH)
+    try:
+        config = json.loads(path.read_text())
+    except FileNotFoundError:
+        return None
+    if not isinstance(config, dict) or not config.get("webhook_url"):
+        raise ValueError(f"{path} must be a JSON object with a \"webhook_url\" key")
+    return {
+        "webhook_url": config["webhook_url"],
+        "web_dir": Path(config.get("web_dir") or Path.home() / DEFAULT_WEB_DIR).expanduser(),
+        "public_url": str(config.get("public_url") or DEFAULT_PUBLIC_URL).rstrip("/"),
+        "username": config.get("username") or DEFAULT_WEBHOOK_USERNAME,
+        "avatar_url": config.get("avatar_url") or DEFAULT_WEBHOOK_AVATAR_URL,
+    }
+
+
+def web_name(context):
+    """Reports are filed by server directory (~/erisia -> erisia), which outlives pack renames."""
+    return Path(context["server_dir"]).name
+
+
+def copy_to_web(report, server_name, web_dir):
+    """Copy the report under the web root so the Discord link has somewhere to point."""
+    target_dir = Path(web_dir) / server_name
+    target_dir.mkdir(parents=True, exist_ok=True)
+    target = target_dir / report.name
+    temp = target_dir / f".{report.name}.tmp"
+    shutil.copyfile(report, temp)
+    temp.chmod(0o644)
+    os.replace(temp, target)
+    return target
+
+
+def report_summary(text):
+    """The body of the report's '## Summary' section, or its first paragraph after the header rule."""
+    lines = text.splitlines()
+    for index, line in enumerate(lines):
+        if line.strip().lower() == "## summary":
+            body = []
+            for following in lines[index + 1:]:
+                if following.startswith("#"):
+                    break
+                body.append(following)
+            return " ".join(part.strip() for part in body if part.strip())
+    tail = text.split("\n---\n", 1)[-1]
+    return " ".join(line.strip() for line in tail.strip().split("\n\n", 1)[0].splitlines() if line.strip())
+
+
+def truncate(text, limit):
+    return text if len(text) <= limit else text[:limit - 1].rstrip() + "…"
+
+
+def discord_message(context, report_text, url, username=DEFAULT_WEBHOOK_USERNAME,
+                    avatar_url=DEFAULT_WEBHOOK_AVATAR_URL):
+    summary = truncate(report_summary(report_text) or "(no summary)", DISCORD_SUMMARY_LIMIT)
+    uptime = datetime.timedelta(seconds=int(context["uptime_seconds"]))
+    head = (f"**{web_name(context)} ({context['server_name']}) crashed** at {context['exited_at']} "
+            f"({context['exit_description']}, uptime {uptime}). "
+            f"Analysis {context['report_number']} of at most {DAILY_LIMIT} today.")
+    quoted = "\n".join(f"> {line}" for line in summary.splitlines()) or "> (no summary)"
+    content = f"{head}\n{quoted}\n{url}"
+    if len(content) > DISCORD_CONTENT_LIMIT:
+        room = DISCORD_CONTENT_LIMIT - len(head) - len(url) - len("\n> \n")
+        content = f"{head}\n> {truncate(summary, max(room, 0))}\n{url}"
+    return {"content": content, "username": username, "avatar_url": avatar_url,
+            "allowed_mentions": {"parse": []}}
+
+
+def post_webhook(webhook_url, payload, opener=None):
+    """POST to the webhook; returns Discord's message id (``?wait=true``) so a post can be deleted by hand."""
+    opener = opener or urllib.request.urlopen  # resolved late so tests can patch urlopen
+    separator = "&" if "?" in webhook_url else "?"
+    request = urllib.request.Request(
+        f"{webhook_url}{separator}wait=true", data=json.dumps(payload).encode(),
+        headers={"Content-Type": "application/json", "User-Agent": "erisia-crash-analysis"})
+    with opener(request, timeout=WEBHOOK_TIMEOUT_SECONDS) as response:
+        try:
+            return json.loads(response.read().decode()).get("id")
+        except (ValueError, AttributeError):
+            return None
+
+
+def publish_report(report, context, log=print, config=None, opener=None):
+    """Copy the report to the web root and announce it on Discord. Best effort: never raises.
+
+    Returns the public URL when the webhook was called, else None.
+    """
+    try:
+        config = config or load_discord_config()
+    except (OSError, ValueError) as error:
+        log(f"not publishing to Discord: {error}")
+        return None
+    if config is None:
+        return None
+    try:
+        copied = copy_to_web(report, web_name(context), config["web_dir"])
+    except OSError as error:
+        log(f"could not copy {report} to {config['web_dir']}: {error}")
+        return None
+    url = f"{config['public_url']}/{web_name(context)}/{copied.name}"
+    try:
+        payload = discord_message(context, report.read_text(), url, config["username"], config["avatar_url"])
+        message_id = post_webhook(config["webhook_url"], payload, opener)
+    except urllib.error.HTTPError as error:
+        detail = error.read().decode(errors="replace")[:500]
+        log(f"Discord webhook returned HTTP {error.code}: {detail}")
+        return None
+    except (OSError, ValueError) as error:  # URLError is an OSError
+        log(f"Discord webhook failed: {error}")
+        return None
+    log(f"published {copied} to Discord as message {message_id or 'unknown'}: {url}")
+    return url
+
+
 def run_analysis(server_dir, snap):
+    status = analyse(server_dir, snap)
+    snap = Path(snap)
+    context = json.loads((snap / "context.json").read_text())
+    with open(snap / "publish.log", "a") as handle:
+        def log(message):
+            handle.write(f"{datetime.datetime.now().isoformat(timespec='seconds')} {message}\n")
+            print(message, file=sys.stderr)
+        publish_report(snap.parent / f"{snap.name}.md", context, log)
+    return status
+
+
+def analyse(server_dir, snap):
+    """Run Claude Code on the snapshot and write the report. Returns Claude's exit status."""
     server_dir = Path(server_dir)
     snap = Path(snap)
     context = json.loads((snap / "context.json").read_text())

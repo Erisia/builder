@@ -31,3 +31,14 @@ disables the feature; `CRASH_ANALYSIS_CLAUDE` overrides the binary (default
 `~/.npm-global/bin/claude`, falling back to `claude` on PATH).
 `tools/crash-analysis-notice.sh`, sourced from the shell rc files, lists unread
 reports before every prompt until `crash-analysis-ack` is run.
+
+Discord: when `~/.config/crash-analysis/discord.json` exists, the finished
+report (including "analysis failed" reports) is also copied to
+`~/web/crash-analysis/<server dir>/<stamp>.md` (e.g. `erisia/`), which Caddy serves at
+`https://madoka.brage.info/crash-analysis/<server>/<stamp>.md`, and the
+report's Summary section is posted to the webhook with that link. Only the
+report is published, never the log snapshot. The file needs `webhook_url`;
+`web_dir`, `public_url`, `username` and `avatar_url` are optional overrides.
+`CRASH_ANALYSIS_DISCORD_CONFIG` points at a different config file. Publishing
+is best effort: failures go to `crash-analysis/<stamp>/publish.log` and the
+analyzer's stderr, and never affect the report itself.
