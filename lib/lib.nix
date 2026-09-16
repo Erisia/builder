@@ -1,5 +1,5 @@
 { stdenv, symlinkJoin, runCommand, linkFarm, fetchurl, callPackage, writeText
-, xorg, cacert, jre, wget, zip, rsync, saxonb, python3, lib
+, cacert, jre, wget, zip, rsync, saxonb, python3, lib, lndir
 }:
 with stdenv;
 
@@ -54,7 +54,7 @@ rec {
     clientModsDir = fetchMods clientMods;
 
     clientConfigDir = runLocally "${name}-client-config-debased" {
-      buildInputs = [ xorg.lndir ];
+      buildInputs = [ lndir ];
       base = symlinkJoin {
         name = "${name}-client-config";
         paths = extraClientDirs ++ extraDirs;
@@ -259,7 +259,7 @@ rec {
    */
   wrapDir = name: path: runCommand name {
     inherit name path;
-    buildInputs = [ xorg.lndir ];
+    buildInputs = [ lndir ];
   } ''
     mkdir $out; cd $out
     if [[ -d "$path" ]]; then
