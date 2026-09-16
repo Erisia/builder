@@ -1900,15 +1900,15 @@
   {
     "name": "reauth",
     "title": "ReAuth",
-    "side": "both",
+    "side": "client",
     "required": true,
     "default": true,
-    "filename": "reauth-3.6.0.jar",
-    "encoded": "reauth-3.6.0.jar",
-    "src": "https://edge.forgecdn.net/files/2560/638/reauth-3.6.0.jar",
-    "size": 30446,
-    "md5": "6024686e40df10b8739042ea2dce7f1a",
-    "sha256": "2264ebdb4d29fe4105d8940f1fd14720ada023d059879c41374b44cbb3b7ac7b"
+    "filename": "ReAuth-1.12-Forge-4.0.7.jar",
+    "encoded": "ReAuth-1.12-Forge-4.0.7.jar",
+    "src": "https://edge.forgecdn.net/files/4408/1/ReAuth-1.12-Forge-4.0.7.jar",
+    "size": 168847,
+    "md5": "64ad1064003edd10b740ee33d02204e2",
+    "sha256": "bfc2323d06c7059ca8f90a20add83866019e402dca3582fd544a5ad9ff3de19f"
   },
   {
     "name": "reborncore",

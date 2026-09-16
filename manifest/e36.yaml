@@ -14,6 +14,7 @@ nodes:
   - librarianlib # updating to continous
   - phosphor-forge # using Alfheim as alternative for cleanroom compat
   - solar-flux-reborn # updating to latest
+  - reauth # updating to latest
   - the-one-probe # updating to CE
   - baubles # updating to bubbles
   - applied-energistics-2 # updating to AE2-UEL
@@ -133,6 +134,11 @@ nodes:
     side: both
     id: 246974
     file_id: 3050838
+  - name: reauth
+    source: curse
+    side: client
+    id: 237701
+    file_id: 4408001
   - name: the-one-probe-community-edition
     source: curse
     side: both
