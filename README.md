@@ -91,3 +91,12 @@ directory; see third_party/README.md for details.
 
 It isn't currently in shape for reuse, but if you wish to do so, make
 sure to expunge base and third_party.
+
+## Live server diagnostics
+
+The server-only [live inspector](mods/live-inspector/README.md) exposes read-only
+resident-world snapshots, chunk/entity/tile details, bounded update timings and
+join provenance over the console/RCON. Its documentation includes the wish-list,
+commands, limitations, tests and porting boundaries. The
+[tick debugging skill](tools/skills/minecraft-tick-debug/SKILL.md) collects and
+interprets this evidence without visiting suspect chunks or changing the world.

@@ -1,0 +1,8 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "org.erisia.inspect.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": ["WorldUpdates", "HammerUpdates"],
+  "injectors": {"defaultRequire": 0}
+}

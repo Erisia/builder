@@ -32,6 +32,7 @@
     in {
       packages.${system} = flatPackPackages // {
         save-threading-fix = builder.saveThreadingFix;
+        live-inspector = builder.liveInspector;
         default = builder.ServerPackLocal;
         inherit (builder) ServerPack ServerPackLocal ServerPackE35 web mcupdaterFlakeRepo;
         serverPack = builder.ServerPack;
@@ -43,6 +44,21 @@
 
       checks.${system} = {
         save-threading-fix = builder.saveThreadingFix.tests.integration;
+        live-inspector = builder.liveInspector.tests.integration;
+        tick-debug = pkgs.runCommand "minecraft-tick-debug-tests" {
+          nativeBuildInputs = [ pkgs.python3 ];
+        } ''
+          export PYTHONDONTWRITEBYTECODE=1
+          cd ${pkgs.lib.fileset.toSource {
+            root = ./.;
+            fileset = pkgs.lib.fileset.unions [
+              ./tools/skills/minecraft-tick-debug/scripts
+              ./tests/test_tick_debug.py
+            ];
+          }}
+          python3 -m unittest discover -s tests -p test_tick_debug.py -v
+          touch "$out"
+        '';
         shutdown = pkgs.runCommand "minecraft-launcher-tests" {
           nativeBuildInputs = [ pkgs.python3 pkgs.bash pkgs.coreutils pkgs.gnugrep ];
         } ''

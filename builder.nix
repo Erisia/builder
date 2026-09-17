@@ -12,6 +12,10 @@ rec {
     launcherDir = packs.e36.launcherDir;
   };
 
+  liveInspector = callPackage ./mods/live-inspector {
+    launcherDir = packs.e36.launcherDir;
+  };
+
   packs = {
     # e33 = buildPack e33;
     # e33_5 = buildPack e33_5;
@@ -49,6 +53,7 @@ rec {
     extraServerDirs = [
       ./base/server
       saveThreadingFix
+      liveInspector
     ];
     extraClientDirs = [
       ./base/e36-client
