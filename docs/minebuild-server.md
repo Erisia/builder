@@ -5,9 +5,9 @@ mods/minebuild-server.jar prevents accumulating versioned runtime jars during
 startup rsync. Source: /home/svein/dev/minebuild; build with JDK25 and ./gradlew build,
 then copy build/libs/minebuild-server-0.1.0.jar here.
 
-Source revision: fdee219e (Minebuild repository).
-Artifact SHA-256: 4b0c132f290f00f85fdf8003107ee7e9611b6d1081529613a02412cd608c218c.
-46 Java and 52 Python tests passed. Isolated Cleanroom .12 tests verified block,
+Source revision: 9b743da7 (Minebuild repository).
+Artifact SHA-256: 11f17e1c42902609b7a5d233594cb3b714348a817f730f917edf68adf26edf99.
+49 Java and 62 Python tests passed. Isolated Cleanroom .12 tests verified block,
 empty chest and sign restoration, conflict-aware undo, retries, and durable
 history plus undo after restart. See Minebuild docs/edit-validation-isolated.md.
 
@@ -24,3 +24,7 @@ world backups. The initial adapter accepts a restricted vanilla material set.
 
 Source inclusion alone does not install into an already-running JVM.
 Production deployment has not been validated or performed.
+
+This artifact also preserves NuclearCraft 2.18r's exact default tile radiation
+capability. Unknown, nondefault, or differently typed capabilities remain
+unsupported. See the Minebuild docs/edit-api.md for the narrow data contract.
