@@ -54,6 +54,7 @@ rec {
       ./base/server
       saveThreadingFix
       liveInspector
+      ./base/e36-minebuild-server
     ];
     extraClientDirs = [
       ./base/e36-client
