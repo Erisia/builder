@@ -70,6 +70,7 @@ public final class IntegrationTests {
                 if (only.equals("all") || only.equals("write")) race("write", false);
                 if (only.equals("all") || only.equals("enqueue")) race("write", true);
                 if (only.equals("all") || only.equals("rcon")) rcon();
+                if (only.equals("all") || only.equals("wait")) saveWait();
                 if (failure.get() != null) throw new AssertionError("Worker failure", failure.get());
                 Files.write(Paths.get("test-result.txt"), "PASS\n".getBytes(StandardCharsets.UTF_8));
                 System.out.println("ERISIA TESTS PASSED");
@@ -176,6 +177,102 @@ public final class IntegrationTests {
         }
         if (failure.get() != null) throw new AssertionError("RCON worker failure", failure.get());
         System.out.println("PASS RCON affinity, concurrent responses and save-all flush");
+    }
+
+    private void saveWait() throws Exception {
+        Object world = ((Object[]) get(server, "field_71305_c"))[0];
+        Object loader = get(call(world, "func_72863_F"), "field_73247_e");
+        File region = (File) get(loader, "field_75825_d");
+        call(type("net.minecraft.world.storage.ThreadedFileIOBase"), "func_178779_a"); // starts the thread
+        Thread fileIo = Thread.getAllStackTraces().keySet().stream()
+                .filter(t -> t.isAlive() && t.getName().equals("File IO Thread")).findFirst().orElse(null);
+        check(fileIo != null, "File IO Thread running");
+        Object inline = ((java.util.concurrent.Future<?>) call(server, "func_175586_a",
+                (java.util.concurrent.Callable<Object>) () -> call(server, "func_71252_i", "save-wait"))).get(5, TimeUnit.SECONDS);
+        check(((String) inline).startsWith("save-wait failed: must be sent over RCON"),
+                "save-wait refuses to block the server thread: " + inline);
+        try {
+            call(server, "func_71252_i", "save-off");
+            String saved = (String) call(server, "func_71252_i", "save-all");
+            check(saved.contains("Saved the world"), "save-all completed: " + saved);
+            String first = (String) call(server, "func_71252_i", "save-wait 30");
+            check(first.startsWith("Save queue drained"), "save-wait drains save-all: " + first);
+            // The queue is now empty, so the gate below catches the marker write only. A gate on
+            // another chunk would hold the loader lock and block the marker's server-thread enqueue.
+
+            // Pause the real File IO Thread just before it writes a marker chunk to disk.
+            RaceGate gate = gateWrite(loader, fileIo, 1000, 7);
+            String[] reply = new String[1];
+            Thread waiter = worker("test save-wait", () -> reply[0] = (String) call(server, "func_71252_i", "save-wait 30"));
+            try {
+                waiter.start();
+                int ticks = (Integer) call(server, "func_71259_af");
+                Thread.sleep(500);
+                check(waiter.isAlive(), "save-wait must wait for an in-flight write: " + reply[0]);
+                check((Integer) call(server, "func_71259_af") > ticks, "server keeps ticking during save-wait");
+                check(call(server, "func_71252_i", "erisia-thread-probe during-wait").equals("during-wait"),
+                        "other RCON commands run during save-wait");
+            } finally {
+                gate.release.countDown();
+            }
+            join(waiter);
+            check(reply[0] != null && reply[0].startsWith("Save queue drained"), "save-wait succeeded: " + reply[0]);
+            check(revisionOnDisk(region, 1000) == 7, "marker chunk on disk when save-wait returns");
+
+            gate = gateWrite(loader, fileIo, 1001, 8);
+            long start = System.nanoTime();
+            try {
+                String timedOut = (String) call(server, "func_71252_i", "save-wait 1");
+                long millis = TimeUnit.NANOSECONDS.toMillis(System.nanoTime() - start);
+                check(timedOut.startsWith("save-wait failed: timed out"), "save-wait timeout reported: " + timedOut);
+                check(millis >= 1000 && millis < 5000, "save-wait timeout bounded: " + millis + " ms");
+            } finally {
+                gate.release.countDown();
+            }
+            String drained = (String) call(server, "func_71252_i", "save-wait 30");
+            check(drained.startsWith("Save queue drained"), "save-wait after timeout: " + drained);
+            check(revisionOnDisk(region, 1001) == 8, "second marker on disk");
+            check(((String) call(server, "func_71252_i", "save-wait x")).startsWith("save-wait failed: usage"),
+                    "bad timeout rejected");
+        } finally {
+            RaceGate.active = null;
+            call(server, "func_71252_i", "save-on");
+        }
+        check(fileIo.isAlive(), "File IO Thread remains alive");
+        if (failure.get() != null) throw new AssertionError("save-wait worker failure", failure.get());
+        System.out.println("PASS save-wait waits off the server thread");
+    }
+
+    /** Enqueue a marker chunk as the server does (on its thread) and hold the writer before its disk write. */
+    private RaceGate gateWrite(Object loader, Thread fileIo, int x, int revision) throws Exception {
+        RaceGate gate = new RaceGate(loader, "write", fileIo);
+        RaceGate.active = gate;
+        Object pos = construct("net.minecraft.util.math.ChunkPos", x, x);
+        Object nbt = nbt(revision);
+        ((java.util.concurrent.Future<?>) call(server, "func_175586_a",
+                (java.util.concurrent.Callable<Object>) () -> call(loader, "func_75824_a", pos, nbt))).get(5, TimeUnit.SECONDS);
+        check(gate.entered.await(5, TimeUnit.SECONDS), "File IO Thread reached disk write");
+        return gate;
+    }
+
+    private static int revisionOnDisk(File directory, int x) throws Exception {
+        try (DataInputStream input = (DataInputStream) call(type("net.minecraft.world.chunk.storage.RegionFileCache"),
+                "func_76549_c", directory, x, x)) {
+            check(input != null, "chunk " + x + " exists on disk");
+            Object saved = call(type("net.minecraft.nbt.CompressedStreamTools"), "func_74794_a", input);
+            return (Integer) call(saved, "func_74762_e", "revision");
+        }
+    }
+
+    private static Object get(Object target, String name) throws Exception {
+        for (Class<?> c = target.getClass(); c != null; c = c.getSuperclass()) {
+            try {
+                Field field = c.getDeclaredField(name);
+                field.setAccessible(true);
+                return field.get(target);
+            } catch (NoSuchFieldException ignored) { }
+        }
+        throw new NoSuchFieldException(target.getClass().getName() + "." + name);
     }
 
     private Thread worker(String name, Checked action) {

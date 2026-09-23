@@ -3,6 +3,7 @@ package org.erisia.savethreading.mixin;
 import com.llamalad7.mixinextras.injector.wrapmethod.WrapMethod;
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
 import java.util.concurrent.ExecutionException;
+import org.erisia.savethreading.SaveWait;
 import org.spongepowered.asm.mixin.Mixin;
 
 @Mixin(targets = "net.minecraft.server.dedicated.DedicatedServer", remap = false)
@@ -10,6 +11,11 @@ public abstract class DedicatedServerMixin {
     @WrapMethod(method = "func_71252_i(Ljava/lang/String;)Ljava/lang/String;", require = 1)
     private String erisia$rconOnServerThread(String command, Operation<String> original) {
         MinecraftServerAccess server = (MinecraftServerAccess) this;
+        if (SaveWait.matches(command)) {
+            // Stays on the RCON thread: waiting for the File IO Thread must not stall ticks.
+            if (server.erisia$isServerThread()) return SaveWait.refuseOnServerThread();
+            return SaveWait.run(this, command, server::erisia$callFromMainThread);
+        }
         if (server.erisia$isServerThread()) {
             return original.call(command);
         }

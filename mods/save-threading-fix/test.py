@@ -15,7 +15,7 @@ def main():
     parser.add_argument("--launcher", type=Path, required=True)
     parser.add_argument("--java-home", type=Path, default=os.environ.get("JAVA_HOME"))
     parser.add_argument("--build", type=Path, default=ROOT / "build")
-    parser.add_argument("--case", choices=["all", "dequeue", "write", "enqueue", "rcon"], default="all")
+    parser.add_argument("--case", choices=["all", "dequeue", "write", "enqueue", "rcon", "wait"], default="all")
     parser.add_argument("--without-fix", action="store_true", help="negative control; must FAIL the selected regression")
     parser.add_argument("--work-dir", type=Path, help="must not already exist; default is a new temporary directory")
     args = parser.parse_args()

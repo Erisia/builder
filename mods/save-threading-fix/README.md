@@ -66,6 +66,40 @@ Calls already on the server thread execute directly. Interrupted waits restore
 the interrupt flag and fail; scheduler failures propagate instead of returning
 a successful save response.
 
+### `save-wait` (RCON only)
+
+`save-all flush` makes the server thread compress and write every queued chunk itself,
+which stalls the game for the whole drain. For snapshots, use this instead:
+
+```
+save-off
+save-all          # server thread: consistent cut, chunks serialised and queued
+save-wait [secs]  # RCON thread: wait until the File IO Thread has written them all
+<snapshot>
+save-on
+```
+
+`save-wait` is handled before the RCON command is moved to the server thread, so only the
+calling RCON connection blocks; the game keeps ticking and other RCON commands still run.
+It returns once every dimension's `AnvilChunkLoader` that was loaded at the start has no
+queued or in-flight chunk and vanilla's `waitForFinish` counters match. It is lock-free:
+chunk positions move from `chunksToSave` to `chunksBeingSaved` before the region write and
+leave the latter only afterwards. While waiting it sets vanilla's `waitForFinish` flag, so
+the writer skips its 10 ms sleep between chunks. A loader stranded by vanilla's
+`queueIO`/remove race is re-queued from the server thread once per second.
+
+Replies: success starts with `Save queue drained`; every failure starts with
+`save-wait failed:` (timeout, default 300 s and 1–86400 accepted, File IO Thread missing
+or dead, bad arguments, or a call from the server thread). **Hook scripts must check the
+reply** and must not snapshot on failure. The result is also logged under `ErisiaSaveThreading`.
+
+Like `save-all flush`, this only covers chunks. Player data, `level.dat` and map data
+are already written synchronously by `save-all`. Mods writing their own files, or saving
+chunks during `save-off`, are not covered. The RCON client's own read timeout must be
+longer than the drain.
+
+### Unchanged
+
 The global IO queue and `waitForFinish` are left intact. In particular, no lock
 is held around waiting for that worker, and worker exceptions are not swallowed.
 Moving RCON alone is insufficient: even a server-thread flush can race with the
@@ -83,13 +117,14 @@ IO. A separate test-only mixin inserts latch barriers at two points in
 | `write` | Pause after dequeue, before the disk write; flush must not return early. |
 | `enqueue` | Pause an older write; enqueue newer NBT for the same position. After both finish and flush completes, read revision 2 from the region file. |
 | `rcon` | Check server-thread execution and isolated replies for 32 concurrent calls, the already-on-server-thread path, and three `save-off` / `save-all flush` / `save-on` cycles. |
+| `wait` | `save-all` then `save-wait`; then pause the real File IO Thread before a marker chunk's disk write. `save-wait` must still be blocked after 500 ms while the server keeps ticking and answers another RCON command, succeed after release, and the marker must be readable from the region file. Also checks timeout (`save-wait 1` fails in 1–5 s), recovery, bad arguments, and refusal on the server thread. |
 
 The chunk tests also verify another loader can drain while the first is paused,
 that `waitForFinish` completes, and that the File IO Thread remains alive.
 RCON tests invoke its actual command entry point from background threads; they do
 not test the unchanged RCON socket protocol.
 
-Run a single case with `--case dequeue`, `write`, `enqueue`, or `rcon`.
+Run a single case with `--case dequeue`, `write`, `enqueue`, `rcon`, or `wait`.
 Remove only the production fix, keeping the same instrumentation, with:
 
 ```sh
@@ -97,13 +132,15 @@ Remove only the production fix, keeping the same instrumentation, with:
 ./result-save-threading-fix/bin/test-save-threading --without-fix --case write
 ./result-save-threading-fix/bin/test-save-threading --without-fix --case enqueue
 ./result-save-threading-fix/bin/test-save-threading --without-fix --case rcon
+./result-save-threading-fix/bin/test-save-threading --without-fix --case wait
 ```
 
 These commands **must exit nonzero**. Check `test-result.txt` and `console.log`:
 expected failures are `flush must wait for in-flight dequeue` (with the
 `NoSuchElementException` stack), `flush must wait for in-flight write`,
 `enqueue must wait for in-flight write`, and `RCON worker failure` with
-`RCON executed off server thread`. Startup failure does not count as reproduction.
+`RCON executed off server thread`, and `save-wait refuses to block the server thread:
+Unknown command`. Startup failure does not count as reproduction.
 
 Validated on 2026-09-16: all fixed cases passed, each of the four unpatched controls
 failed for its expected reason, and the Nix build/integration check passed.
@@ -123,8 +160,8 @@ necessary; the automated suite uses Cleanroom plus the fix and test harness.
 After staging, the built derivation can be added to E36's `extraServerDirs` as
 `saveThreadingFix`, or the production jar can be installed manually. Restart to
 apply or remove it. A process whose File IO Thread has already died also needs
-a restart. Restore `save-all flush` in the snapshot hook after installing and
-validating the fix; keep the existing save-off/save-on recovery behavior.
+a restart. In the snapshot hook, use `save-all` followed by `save-wait` (see above)
+rather than `save-all flush`; keep the existing save-off/save-on recovery behavior.
 
 This addresses the reproduced concurrency bugs, not arbitrary IO failures,
 disk durability guarantees, or mods mutating NBT after handing it to the writer.
