@@ -2,6 +2,15 @@ This directory is intended for files that are common to *all* servers, regardles
 
 So, mostly start.py.
 
+Supervision: on tsugumi, worlds are moving from tmux to machine-config's
+`minecraft@WORLD` system units (run as the Minecraft user; stdin is the console
+FIFO `/run/minecraft/WORLD.stdin`, output goes to the journal, `mc-console WORLD`
+attaches). The unit sets `MINECRAFT_UNIT`, and then `start.py` launches Java
+directly instead of in a `systemd-run --user` scope, skips the tmux session
+check, and runs the extras (daily restart). `systemctl start|stop|restart
+minecraft@WORLD` works as the Minecraft user. Until a world is cut over, it runs
+in tmux as before.
+
 Host shutdown uses `python3 ~/builder/shutdown.py`, run as the Minecraft user.
 It discovers live `*/server.pid` launchers under that user's home, runs each
 `control.sh stop -t 10` concurrently (bypassing `stop.sh`'s lazy uptime guard),

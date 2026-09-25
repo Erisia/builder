@@ -34,6 +34,9 @@ STOP_SCRIPT_PATH = APP_ROOT_DIR / "stop.sh" # stop.sh should be in the runtime d
 USER_JVM_ARGS_FILE = APP_ROOT_DIR / "user_jvm_args.txt" # JVM args also in runtime dir
 SERVER_PROPERTIES_FILE = APP_ROOT_DIR / "server.properties"
 RCON_PORT = int("@rconPort@") # Placeholder; control.sh talks to the server over RCON
+# Set by machine-config's minecraft@ system unit, which supervises this script. Not
+# INVOCATION_ID: a tmux server started from any unit passes that on to its panes.
+SUPERVISOR_UNIT = os.environ.get("MINECRAFT_UNIT")
 
 # Runtime files in APP_ROOT_DIR
 SERVER_PID_FILE = APP_ROOT_DIR / "server.pid" # Main script PID
@@ -463,7 +466,11 @@ def main():
     server_info.add_row("Script PID", str(os.getpid()))
     console.print(server_info)
 
-    if check_systemd():
+    if SUPERVISOR_UNIT:
+        # The unit already owns our cgroup and stop timeout; a user scope would escape both.
+        console.print(f"[green]Supervised by {SUPERVISOR_UNIT}. Launching Java directly.[/]")
+        using_systemd = False
+    elif check_systemd():
         console.print("[green]systemd detected. Will use systemd-run for managing the server process.[/]")
         using_systemd = True
     else:
@@ -478,7 +485,11 @@ def main():
     # Tmux check for extras
     run_extras = False
     skip_tmux_env = os.environ.get("SKIP_TMUX")
-    if not skip_tmux_env:
+    if SUPERVISOR_UNIT:
+        # Checked first: stdin is the unit's console FIFO, so input() below would never return.
+        console.print(f"[green]Supervised by {SUPERVISOR_UNIT}. Extras enabled.[/]")
+        run_extras = True
+    elif not skip_tmux_env:
         session_name = get_tmux_session_name()
         if session_name == "no server running":
             console.print("[yellow]Warning:[/] Not running inside a tmux session, or tmux is unavailable.")
