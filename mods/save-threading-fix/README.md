@@ -51,6 +51,8 @@ The mixin config is required, and each wrapper requires its target to match.
 - `writeNextIO` (`func_75814_c`), including the complete region-file write.
 - `flush` (`func_75818_b`), including its drain loop and flushing flag.
 - `addChunkToPending` (`func_75824_a`).
+- `loadChunk__Async` (Forge). A load waits for an in-flight write instead of reading the
+  older region copy during the window between dequeue and disk write (MC-119971).
 
 This prevents two consumers passing the nonempty check and then removing the same
 last entry. Holding the lock through the write also prevents flush from returning
@@ -58,6 +60,15 @@ while another writer still owns dequeued data. Locking enqueue prevents vanilla'
 `chunksBeingSaved.contains(pos)` check from silently dropping a newer save while
 an older one is being written. Different loaders can still write independently.
 An enqueue can now wait for a disk write, so slow storage can increase tick latency.
+
+Vanilla loads a chunk that is still queued for saving from the queued compound itself.
+Chunk-load handlers then mutate it while the File IO Thread serializes it. Extra Utilities 2
+adds `XU2Generation` to unpopulated chunks this way, and the write fails with
+`ConcurrentModificationException`. The loaded chunk also shares byte arrays with that compound.
+`loadChunk__Async` therefore receives a deep copy (`func_74737_b`) of a queued compound.
+
+A failed chunk write is logged as `Failed to write chunk [x, z] in <region dir>` with the
+root NBT keys at that moment, then rethrown. Vanilla's own message names neither.
 
 `DedicatedServer.handleRConCommand` (`func_71252_i`) schedules the **whole** original
 method on `MinecraftServer.callFromMainThread` (`func_175586_a`) and waits for its
@@ -118,6 +129,7 @@ IO. A separate test-only mixin inserts latch barriers at two points in
 | `enqueue` | Pause an older write; enqueue newer NBT for the same position. After both finish and flush completes, read revision 2 from the region file. |
 | `rcon` | Check server-thread execution and isolated replies for 32 concurrent calls, the already-on-server-thread path, and three `save-off` / `save-all flush` / `save-on` cycles. |
 | `wait` | `save-all` then `save-wait`; then pause the real File IO Thread before a marker chunk's disk write. `save-wait` must still be blocked after 500 ms while the server keeps ticking and answers another RCON command, succeed after release, and the marker must be readable from the region file. Also checks timeout (`save-wait 1` fails in 1–5 s), recovery, bad arguments, and refusal on the server thread. |
+| `load` | Pause a newer revision's write after dequeue; a load of the same chunk must block, then see the new revision. Then load a queued chunk: it must get a distinct compound, and mutating it must not change the queued one. |
 | `log` | Call the real `writeChunkData` with null NBT. The exception must be rethrown unchanged, and `ErisiaSaveThreading` must log `Failed to write chunk [x, z] in <region dir>` with the root NBT keys. Vanilla's own message names neither chunk nor dimension. |
 
 The chunk tests also verify another loader can drain while the first is paused,
@@ -125,7 +137,7 @@ that `waitForFinish` completes, and that the File IO Thread remains alive.
 RCON tests invoke its actual command entry point from background threads; they do
 not test the unchanged RCON socket protocol.
 
-Run a single case with `--case dequeue`, `write`, `enqueue`, `rcon`, `wait`, or `log`.
+Run a single case with `--case dequeue`, `write`, `enqueue`, `rcon`, `wait`, `log`, or `load`.
 Remove only the production fix, keeping the same instrumentation, with:
 
 ```sh
@@ -134,6 +146,7 @@ Remove only the production fix, keeping the same instrumentation, with:
 ./result-save-threading-fix/bin/test-save-threading --without-fix --case enqueue
 ./result-save-threading-fix/bin/test-save-threading --without-fix --case rcon
 ./result-save-threading-fix/bin/test-save-threading --without-fix --case wait
+./result-save-threading-fix/bin/test-save-threading --without-fix --case load
 ```
 
 These commands **must exit nonzero**. Check `test-result.txt` and `console.log`:
@@ -141,7 +154,9 @@ expected failures are `flush must wait for in-flight dequeue` (with the
 `NoSuchElementException` stack), `flush must wait for in-flight write`,
 `enqueue must wait for in-flight write`, and `RCON worker failure` with
 `RCON executed off server thread`, and `save-wait refuses to block the server thread:
-Unknown command`. Startup failure does not count as reproduction.
+Unknown command`, and `load must wait for in-flight write, not read the stale disk copy`.
+Removing only the copy (keeping the lock) fails `load` with `load must not share the queued compound`.
+Startup failure does not count as reproduction.
 
 Validated on 2026-09-16: all fixed cases passed, each of the four unpatched controls
 failed for its expected reason, and the Nix build/integration check passed.

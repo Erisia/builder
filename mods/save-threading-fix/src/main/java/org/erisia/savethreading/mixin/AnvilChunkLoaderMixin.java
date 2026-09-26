@@ -2,11 +2,15 @@ package org.erisia.savethreading.mixin;
 
 import com.llamalad7.mixinextras.injector.wrapmethod.WrapMethod;
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
+import com.llamalad7.mixinextras.injector.wrapoperation.WrapOperation;
 import java.io.File;
+import java.util.Map;
+import org.erisia.savethreading.PendingCopy;
 import org.erisia.savethreading.SaveFailureLog;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
+import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Coerce;
 
 /** SRG names deliberately target the production 1.12.2 runtime; no refmap is needed. */
@@ -39,6 +43,22 @@ public abstract class AnvilChunkLoaderMixin {
         synchronized (this) {
             original.call(pos, nbt);
         }
+    }
+
+    // Without the lock, a load between dequeue and disk write reads the older region copy (MC-119971).
+    @WrapMethod(method = "loadChunk__Async(Lnet/minecraft/world/World;II)[Ljava/lang/Object;", require = 1)
+    private Object[] erisia$load(@Coerce Object world, int x, int z, Operation<Object[]> original) {
+        synchronized (this) {
+            return original.call(world, x, z);
+        }
+    }
+
+    // Vanilla loads a chunk still queued for saving from the queued compound itself; Load handlers
+    // (XU2 adds XU2Generation) and the chunk's shared light arrays would then mutate it mid-write.
+    @WrapOperation(method = "loadChunk__Async(Lnet/minecraft/world/World;II)[Ljava/lang/Object;",
+            at = @At(value = "INVOKE", target = "Ljava/util/Map;get(Ljava/lang/Object;)Ljava/lang/Object;"), require = 1)
+    private Object erisia$copyPending(Map<?, ?> pending, Object pos, Operation<Object> original) {
+        return PendingCopy.copy(original.call(pending, pos));
     }
 
     // Vanilla's "Failed to save chunk" names neither chunk nor dimension; log both, then rethrow.

@@ -72,6 +72,7 @@ public final class IntegrationTests {
                 if (only.equals("all") || only.equals("rcon")) rcon();
                 if (only.equals("all") || only.equals("wait")) saveWait();
                 if (only.equals("all") || only.equals("log")) failureLog();
+                if (only.equals("all") || only.equals("load")) loadPending();
                 if (failure.get() != null) throw new AssertionError("Worker failure", failure.get());
                 Files.write(Paths.get("test-result.txt"), "PASS\n".getBytes(StandardCharsets.UTF_8));
                 System.out.println("ERISIA TESTS PASSED");
@@ -287,6 +288,67 @@ public final class IntegrationTests {
     private static void join(Thread thread) throws InterruptedException {
         thread.join(10000);
         check(!thread.isAlive(), "bounded completion of " + thread.getName());
+    }
+
+    // A load must neither read the stale disk copy during an in-flight write nor share a queued compound.
+    private void loadPending() throws Exception {
+        File directory = new File("test-chunks/load");
+        check(directory.mkdirs(), "new isolated chunk directory");
+        Object loader = construct("net.minecraft.world.chunk.storage.AnvilChunkLoader", directory,
+                construct("net.minecraft.util.datafix.DataFixer", 1343));
+        Object world = ((Object[]) get(server, "field_71305_c"))[0];
+        // A real chunk compound, serialised on the server thread like vanilla's saveChunk.
+        Object template = ((java.util.concurrent.Future<?>) call(server, "func_175586_a",
+                (java.util.concurrent.Callable<Object>) () -> {
+                    Object root = construct("net.minecraft.nbt.NBTTagCompound");
+                    Object level = construct("net.minecraft.nbt.NBTTagCompound");
+                    call(root, "func_74782_a", "Level", level);
+                    call(loader, "func_75820_a", call(world, "func_72964_e", 0, 0), world, level);
+                    return root;
+                })).get(5, TimeUnit.SECONDS);
+        Object pos = construct("net.minecraft.util.math.ChunkPos", 0, 0);
+        Map<Object, Object> pending = pending(loader);
+        pending.put(pos, revision(template, 1));
+        call(loader, "func_75818_b");
+
+        pending.put(pos, revision(template, 2));
+        Thread writer = worker("test writer", () -> call(loader, "func_75814_c"));
+        RaceGate gate = new RaceGate(loader, "write", writer);
+        RaceGate.active = gate;
+        Object[][] loaded = new Object[1][];
+        Thread reader = worker("test load", () -> loaded[0] = (Object[]) call(loader, "loadChunk__Async", world, 0, 0));
+        try {
+            writer.start();
+            check(gate.entered.await(10, TimeUnit.SECONDS), "writer reached disk write");
+            reader.start();
+            long deadline = System.nanoTime() + TimeUnit.SECONDS.toNanos(5);
+            while (reader.isAlive() && reader.getState() != Thread.State.BLOCKED && System.nanoTime() < deadline) Thread.sleep(1);
+            check(reader.getState() == Thread.State.BLOCKED, "load must wait for in-flight write, not read the stale disk copy");
+        } finally {
+            gate.release.countDown();
+            join(writer);
+            if (reader.getState() != Thread.State.NEW) join(reader);
+            RaceGate.active = null;
+        }
+        check(loaded[0] != null && call(loaded[0][1], "func_74762_e", "revision").equals(2), "load sees the written revision");
+
+        Object queued = revision(template, 3);
+        pending.put(pos, queued);
+        Object[] fromQueue = (Object[]) call(loader, "loadChunk__Async", world, 0, 0);
+        check(fromQueue != null && call(fromQueue[1], "func_74762_e", "revision").equals(3), "load sees the queued revision");
+        check(fromQueue[1] != queued, "load must not share the queued compound");
+        call(fromQueue[1], "func_74768_a", "XU2Generation", 1);
+        check(!(Boolean) call(queued, "func_74764_b", "XU2Generation"), "Load handlers cannot mutate the queued compound");
+        call(loader, "func_75818_b");
+        check(pending.isEmpty(), "pending chunks drained");
+        if (failure.get() != null) throw new AssertionError("load worker failure", failure.get());
+        System.out.println("PASS load waits for in-flight writes and copies queued NBT");
+    }
+
+    private static Object revision(Object template, int revision) throws Exception {
+        Object nbt = call(template, "func_74737_b");
+        call(nbt, "func_74768_a", "revision", revision);
+        return nbt;
     }
 
     // Null NBT makes the real writeChunkData throw: the failure must be logged with its chunk and rethrown.
