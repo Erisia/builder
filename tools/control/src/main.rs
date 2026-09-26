@@ -51,6 +51,9 @@ enum Command {
 
 const SERVER_PROPERTIES: &str = "server.properties";
 
+/// `stop --lazy` exits with EX_TEMPFAIL when the server is too young to restart, so callers can tell.
+const EXIT_LAZY_SKIP: i32 = 75;
+
 const RCON_TYPE_RESPONSE: i32 = 0;
 const RCON_TYPE_COMMAND: i32 = 2;
 const RCON_TYPE_LOGIN: i32 = 3;
@@ -251,14 +254,14 @@ impl Server {
         }
     }
 
-    // Stop command
-    pub fn stop(&mut self, grace_period: Duration, lazy: Option<Duration>) -> Result<()> {
+    /// Returns false if `lazy` skipped the stop.
+    pub fn stop(&mut self, grace_period: Duration, lazy: Option<Duration>) -> Result<bool> {
         // Check if we should stop at all.
         if let Some(lazy) = lazy {
             match process_uptime(self.pid) {
                 Ok(uptime) if uptime < lazy => {
                     println!("Server has only been up for {} seconds, not stopping", uptime.as_secs());
-                    return Ok(());
+                    return Ok(false);
                 }
                 Ok(_) => {}
                 Err(e) => println!("Unable to read server uptime, stopping anyway: {:#}", e),
@@ -340,7 +343,7 @@ impl Server {
                 break;
             }
         }
-        return Ok(());
+        Ok(true)
     }
 
     pub fn check(&self) -> Result<()> {
@@ -359,9 +362,13 @@ fn main() -> Result<()> {
     let mut server = Server::new(opts.server.to_owned())?;
 
     match opts.cmd {
-        Command::Stop { time, lazy } => server.stop(Duration::from_secs(time), lazy.map(
-            |lazy| Duration::from_secs(lazy * 3600)
-        )),
+        Command::Stop { time, lazy } => {
+            let lazy = lazy.map(|lazy| Duration::from_secs(lazy * 3600));
+            if !server.stop(Duration::from_secs(time), lazy)? {
+                process::exit(EXIT_LAZY_SKIP);
+            }
+            Ok(())
+        }
         Command::Check {} => server.check(),
         Command::Players {} => {
             println!("{}", server.players()?);

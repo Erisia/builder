@@ -31,6 +31,7 @@ APP_ROOT_DIR = Path.cwd()
 FORGE_JAR_PATTERN = 'forge/forge-*.jar' # Relative to BASE_DIR
 TMUX_TARGET_SESSION_NAME = "@tmuxName@" # Placeholder
 STOP_SCRIPT_PATH = APP_ROOT_DIR / "stop.sh" # stop.sh should be in the runtime dir if it's called
+LAZY_SKIP_EXIT = 75 # control stop --lazy: server too young, not stopping
 USER_JVM_ARGS_FILE = APP_ROOT_DIR / "user_jvm_args.txt" # JVM args also in runtime dir
 SERVER_PROPERTIES_FILE = APP_ROOT_DIR / "server.properties"
 RCON_PORT = int("@rconPort@") # Placeholder; control.sh talks to the server over RCON
@@ -274,15 +275,23 @@ def daily_restart_task():
     """Thread task for daily restarts."""
     global java_server_process, using_systemd, stop_requested
     console.print("[green]Daily restart task started.[/]")
+    last_trigger = None
     while not daily_restart_stop_event.wait(45): # Wait 45s, check event
-        now = datetime.datetime.now().strftime("%H:%M")
-        if now in ["06:00", "18:00"]:
+        moment = datetime.datetime.now()
+        now = moment.strftime("%H:%M")
+        if now in ["06:00", "18:00"] and moment.strftime("%Y-%m-%d %H:%M") != last_trigger:
+            last_trigger = moment.strftime("%Y-%m-%d %H:%M") # the 45 s wait can land twice in one minute
             console.print(f"[bold yellow]Scheduled restart triggered at {now}.[/]")
             stop_requested = True
 
             if STOP_SCRIPT_PATH.is_file() and STOP_SCRIPT_PATH.stat().st_mode & 0o100: # Check if executable
                 console.print(f"Running stop script for warnings: {STOP_SCRIPT_PATH}")
-                run_command([str(STOP_SCRIPT_PATH)], check=False, cwd=APP_ROOT_DIR)
+                result = run_command([str(STOP_SCRIPT_PATH)], check=False, cwd=APP_ROOT_DIR)
+                if result.returncode == LAZY_SKIP_EXIT:
+                    # Server too young (stop.sh's --lazy); the next scheduled restart still applies.
+                    stop_requested = False
+                    console.print("[yellow]Stop script skipped this restart; waiting for the next one.[/]")
+                    continue
             else:
                 console.print(f"[yellow]Stop script {STOP_SCRIPT_PATH} not found or not executable. Skipping player warnings via stop.sh.[/]")
             

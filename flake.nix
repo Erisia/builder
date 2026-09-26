@@ -69,6 +69,8 @@
               ./shutdown.py
               ./update-and-start.sh
               ./base/server/crash_analysis.py
+              ./base/server/start.py
+              ./tests/test_daily_restart.py
               ./tests/test_shutdown.py
               ./tests/test_crash_analysis.py
             ];
