@@ -193,6 +193,12 @@ nodes:
     required: true
     default: true
     side: client
+  # BQ party sync fix
+  - name: betterparties
+    source: url
+    side: server
+    location: 'https://github.com/TheAirBlow/BetterParties/releases/download/1.3.1/betterparties-1.3.1.jar'
+    filename: 'betterparties-1.3.1.jar'
 ### Processing graph
 - id: download-pack
   kind: ArchiveDownloader
