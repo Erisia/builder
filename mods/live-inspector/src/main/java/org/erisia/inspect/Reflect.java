@@ -25,7 +25,8 @@ public final class Reflect {
         Field field = fields.get(key);
         if (field == null) {
             for (Class<?> c = start; c != null; c = c.getSuperclass()) {
-                try { field = c.getDeclaredField(name); break; } catch (NoSuchFieldException ignored) { }
+                try { field = c.getDeclaredField(name); break; }
+                catch (NoSuchFieldException | LinkageError ignored) { } // LinkageError: a member type is client-only
             }
             if (field == null) throw new NoSuchFieldException(key);
             field.setAccessible(true);
@@ -40,7 +41,11 @@ public final class Reflect {
         Method method = methods.get(key);
         if (method == null) {
             for (Class<?> c = start; c != null && method == null; c = c.getSuperclass()) {
-                for (Method m : c.getDeclaredMethods()) {
+                Method[] declared;
+                // Mod subclasses (e.g. WorldProviders) can declare client-only types; the inherited
+                // member found further up still dispatches virtually to any override.
+                try { declared = c.getDeclaredMethods(); } catch (LinkageError e) { continue; }
+                for (Method m : declared) {
                     if (m.getName().equals(name) && matches(m.getParameterTypes(), args)) { method = m; break; }
                 }
             }
