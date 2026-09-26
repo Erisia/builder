@@ -118,13 +118,14 @@ IO. A separate test-only mixin inserts latch barriers at two points in
 | `enqueue` | Pause an older write; enqueue newer NBT for the same position. After both finish and flush completes, read revision 2 from the region file. |
 | `rcon` | Check server-thread execution and isolated replies for 32 concurrent calls, the already-on-server-thread path, and three `save-off` / `save-all flush` / `save-on` cycles. |
 | `wait` | `save-all` then `save-wait`; then pause the real File IO Thread before a marker chunk's disk write. `save-wait` must still be blocked after 500 ms while the server keeps ticking and answers another RCON command, succeed after release, and the marker must be readable from the region file. Also checks timeout (`save-wait 1` fails in 1–5 s), recovery, bad arguments, and refusal on the server thread. |
+| `log` | Call the real `writeChunkData` with null NBT. The exception must be rethrown unchanged, and `ErisiaSaveThreading` must log `Failed to write chunk [x, z] in <region dir>` with the root NBT keys. Vanilla's own message names neither chunk nor dimension. |
 
 The chunk tests also verify another loader can drain while the first is paused,
 that `waitForFinish` completes, and that the File IO Thread remains alive.
 RCON tests invoke its actual command entry point from background threads; they do
 not test the unchanged RCON socket protocol.
 
-Run a single case with `--case dequeue`, `write`, `enqueue`, `rcon`, or `wait`.
+Run a single case with `--case dequeue`, `write`, `enqueue`, `rcon`, `wait`, or `log`.
 Remove only the production fix, keeping the same instrumentation, with:
 
 ```sh

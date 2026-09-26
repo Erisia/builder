@@ -2,12 +2,18 @@ package org.erisia.savethreading.mixin;
 
 import com.llamalad7.mixinextras.injector.wrapmethod.WrapMethod;
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
+import java.io.File;
+import org.erisia.savethreading.SaveFailureLog;
+import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.Coerce;
 
 /** SRG names deliberately target the production 1.12.2 runtime; no refmap is needed. */
 @Mixin(targets = "net.minecraft.world.chunk.storage.AnvilChunkLoader", remap = false)
 public abstract class AnvilChunkLoaderMixin {
+    @Shadow @Final private File field_75825_d; // chunkSaveLocation
+
     // Lock through the disk write, not just iterator.next/remove: otherwise flush can
     // return while another consumer is still writing, or older NBT can overwrite newer NBT.
     @WrapMethod(method = "func_75814_c()Z", require = 1)
@@ -32,6 +38,17 @@ public abstract class AnvilChunkLoaderMixin {
     private void erisia$enqueue(@Coerce Object pos, @Coerce Object nbt, Operation<Void> original) {
         synchronized (this) {
             original.call(pos, nbt);
+        }
+    }
+
+    // Vanilla's "Failed to save chunk" names neither chunk nor dimension; log both, then rethrow.
+    @WrapMethod(method = "func_183013_b(Lnet/minecraft/util/math/ChunkPos;Lnet/minecraft/nbt/NBTTagCompound;)V", require = 1)
+    private void erisia$writeChunkData(@Coerce Object pos, @Coerce Object nbt, Operation<Void> original) {
+        try {
+            original.call(pos, nbt);
+        } catch (RuntimeException e) {
+            SaveFailureLog.log(field_75825_d, pos, nbt, e);
+            throw e;
         }
     }
 }

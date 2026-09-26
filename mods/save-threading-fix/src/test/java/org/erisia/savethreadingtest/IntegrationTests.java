@@ -71,6 +71,7 @@ public final class IntegrationTests {
                 if (only.equals("all") || only.equals("enqueue")) race("write", true);
                 if (only.equals("all") || only.equals("rcon")) rcon();
                 if (only.equals("all") || only.equals("wait")) saveWait();
+                if (only.equals("all") || only.equals("log")) failureLog();
                 if (failure.get() != null) throw new AssertionError("Worker failure", failure.get());
                 Files.write(Paths.get("test-result.txt"), "PASS\n".getBytes(StandardCharsets.UTF_8));
                 System.out.println("ERISIA TESTS PASSED");
@@ -286,6 +287,33 @@ public final class IntegrationTests {
     private static void join(Thread thread) throws InterruptedException {
         thread.join(10000);
         check(!thread.isAlive(), "bounded completion of " + thread.getName());
+    }
+
+    // Null NBT makes the real writeChunkData throw: the failure must be logged with its chunk and rethrown.
+    private void failureLog() throws Exception {
+        File directory = new File("test-chunks/failure-log");
+        check(directory.mkdirs(), "new isolated chunk directory");
+        Object loader = construct("net.minecraft.world.chunk.storage.AnvilChunkLoader", directory,
+                construct("net.minecraft.util.datafix.DataFixer", 1343));
+        Method write = null;
+        for (Method m : loader.getClass().getDeclaredMethods()) {
+            if (m.getName().equals("func_183013_b")) write = m;
+        }
+        check(write != null, "writeChunkData exists");
+        write.setAccessible(true);
+        Throwable thrown = null;
+        try {
+            write.invoke(loader, construct("net.minecraft.util.math.ChunkPos", 5, -7), null);
+        } catch (InvocationTargetException e) {
+            thrown = e.getCause();
+        }
+        check(thrown instanceof NullPointerException, "write failure is rethrown unchanged, got " + thrown);
+        String expected = "Failed to write chunk [5, -7] in " + directory;
+        long deadline = System.nanoTime() + TimeUnit.SECONDS.toNanos(5);
+        while (!new String(Files.readAllBytes(Paths.get("logs/latest.log")), StandardCharsets.UTF_8).contains(expected)) {
+            check(System.nanoTime() < deadline, "log names the failed chunk: " + expected);
+            Thread.sleep(50);
+        }
     }
 
     private static Object nbt(int revision) throws Exception {
