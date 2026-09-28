@@ -16,6 +16,8 @@ rec {
     launcherDir = packs.e36.launcherDir;
   };
 
+  slimeStomach = callPackage ./mods/slimestomach {};
+
   packs = {
     # e33 = buildPack e33;
     # e33_5 = buildPack e33_5;
@@ -54,6 +56,7 @@ rec {
       ./base/server
       saveThreadingFix
       liveInspector
+      slimeStomach
       ./base/e36-minebuild-server
     ];
     extraClientDirs = [
