@@ -47,6 +47,7 @@ required. The mod is added only to E36's `extraServerDirs`, not its client pack.
 | `erisia-inspect chunk DIM CX CZ [OFFSET]` | A resident-only chunk snapshot, up to 1,024 entity details, item ages/lifespans, membership, missing entity-update neighbors, and tile classes/positions in the resident 3×3 neighborhood |
 | `erisia-inspect watch start SECONDS [DIM CX CZ]` | Start a 1–60 second observational watch over all loaded worlds or one chunk |
 | `erisia-inspect watch status` | Current or last completed watch: observed update calls, total/max elapsed milliseconds per entity/tile, and bounded join-event stacks |
+| `erisia-inspect spikes [show SEQ \| threshold MS]` | Always-on slow-tick recorder: the last 32 ticks over the threshold (default 100 ms) with UTC start, duration, overlapping GC pauses and folded server-thread stack samples |
 
 `CX`/`CZ` are **chunk coordinates**, including floor division for negative block
 coordinates. No command accepts selectors, arbitrary paths, expressions, or Java
@@ -79,6 +80,17 @@ remain visible in a global watch with null location fields and an explanation.
 Scoped watches exclude them and count `unlocated_scoped_observations`; never assign
 such work to a guessed dimension. Observer failures include at most eight distinct
 class/error samples, truncated to 256 characters, to make adapter gaps actionable.
+
+The slow-tick recorder runs from server start. The server thread only writes two
+volatiles per tick (ServerTickEvent START/END); a daemon watchdog polls every 5 ms and,
+only while the current tick has exceeded the threshold, samples the server thread's
+stack. So stacks show the *late* part of a slow tick (the part still running after the
+threshold), and are safepoint-biased like any `getStackTrace` sampler. Each spike keeps
+at most 2,000 samples and 64 distinct stacks of 64 frames (leaf first); `spikes` lists
+summaries with the most common leaf frame, `spikes show SEQ` gives the stacks. GC pauses
+come from JMX notifications and are matched by time. `threshold` (20..60000 ms) changes
+only inspector state and resets at restart. Work outside START..END (between ticks)
+is not covered.
 
 ## Reading the evidence
 

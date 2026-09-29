@@ -14,11 +14,12 @@ public final class Inspector {
     private static final Gson JSON=new Gson();
     @Mod.EventHandler public void starting(FMLServerStartingEvent event) throws Exception {
         Watch.register();
+        Spikes.register();
         Class<?> commandType=type("net.minecraft.command.ICommand");
         Object command=Proxy.newProxyInstance(commandType.getClassLoader(), new Class<?>[]{commandType}, (proxy, method, args) -> {
             switch(method.getName()) {
                 case "func_71517_b": return "erisia-inspect";
-                case "func_71518_a": return "erisia-inspect status | census [DIM] | chunk DIM CX CZ [OFFSET] | watch start SECONDS [DIM CX CZ] | watch status";
+                case "func_71518_a": return "erisia-inspect status | census [DIM] | chunk DIM CX CZ [OFFSET] | watch start SECONDS [DIM CX CZ] | watch status | spikes [show SEQ | threshold MS]";
                 case "func_71514_a": case "func_184883_a": return Collections.emptyList();
                 case "func_184882_a": return call(args[1], "func_70003_b", 2, "erisia-inspect");
                 case "func_82358_a": return false;
@@ -52,6 +53,7 @@ public final class Inspector {
     public static String dispatch(Object server,String[] words) throws Exception {
         if (!(Boolean)call(server,"func_152345_ab")) throw new IllegalStateException("Server thread required");
         if(words.length>0 && words[0].equals("watch")) return Watch.command(server,words);
+        if(words.length>0 && words[0].equals("spikes")) return Spikes.command(words);
         return Minecraft112.inspect(server,words);
     }
 }

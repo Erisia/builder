@@ -60,6 +60,28 @@ public final class IntegrationTests {
                     Files.write(Paths.get("watch.json"),watch.toString().getBytes(StandardCharsets.UTF_8));
                     return null;
                 });
+                // Test fixture only: one deliberately slow tick for the slow-tick recorder.
+                onMain(() -> { query("spikes","threshold","50"); Thread.sleep(300); return null; });
+                Thread.sleep(200);
+                onMain(() -> {
+                    JsonObject spikes=query("spikes"); JsonObject found=null;
+                    for(JsonElement el:spikes.getAsJsonArray("spikes")) {
+                        JsonObject r=el.getAsJsonObject();
+                        if(!r.get("duration_ms").isJsonNull() && r.get("duration_ms").getAsDouble()>=250 && r.get("samples").getAsInt()>0)found=r;
+                    }
+                    check(found!=null,"slow tick recorded with stack samples: "+spikes);
+                    check(spikes.get("sample_errors").getAsInt()==0,"slow-tick sampler succeeds");
+                    JsonObject detail=query("spikes","show",found.get("seq").getAsString());
+                    boolean attributed=false;
+                    for(JsonElement st:detail.getAsJsonObject("spike").getAsJsonArray("stacks"))
+                        for(JsonElement f:st.getAsJsonObject().getAsJsonArray("frames_leaf_first"))
+                            if(f.getAsString().contains("IntegrationTests"))attributed=true;
+                    check(attributed,"spike stacks reach the code that made the tick slow");
+                    try { query("spikes","threshold","5"); throw new AssertionError("out-of-range threshold accepted"); }
+                    catch(IllegalArgumentException expected) { }
+                    Files.write(Paths.get("spikes.json"),detail.toString().getBytes(StandardCharsets.UTF_8));
+                    return null;
+                });
                 Files.write(Paths.get("test-result.txt"),"PASS\n".getBytes(StandardCharsets.UTF_8));
                 System.out.println("INSPECTOR TESTS PASSED");
             }catch(Throwable t) {

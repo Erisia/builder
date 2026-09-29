@@ -12,7 +12,7 @@ let
       mkdir "$out"
       cp "$TMPDIR/server/test-result.txt" "$TMPDIR/server/console.log" "$out/"
       cp "$TMPDIR/server/frozen-before.json" "$TMPDIR/server/frozen-after.json" \
-        "$TMPDIR/server/watch.json" "$out/"
+        "$TMPDIR/server/watch.json" "$TMPDIR/server/spikes.json" "$out/"
     '';
     meta.description = "Read-only resident-world inspector for Cleanroom 0.6.12-alpha";
   } ''
