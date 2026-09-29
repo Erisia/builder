@@ -115,8 +115,12 @@ public final class IntegrationTests {
             long deadline = System.nanoTime() + TimeUnit.SECONDS.toNanos(5);
             while (contender.isAlive() && contender.getState() != Thread.State.BLOCKED
                     && System.nanoTime() < deadline) Thread.sleep(1);
-            check(contender.getState() == Thread.State.BLOCKED,
-                    (enqueue ? "enqueue" : "flush") + " must wait for in-flight " + point);
+            // At dequeue the contender parks on the lock; during the disk write the lock is free and
+            // flush or a newer save of the same chunk parks on its condition. Both are WAITING.
+            Thread.State expected = Thread.State.WAITING;
+            while (contender.isAlive() && contender.getState() != expected && System.nanoTime() < deadline) Thread.sleep(1);
+            check(contender.getState() == expected,
+                    (enqueue ? "enqueue" : "flush") + " must wait for in-flight " + point + ", state " + contender.getState());
 
             // A stalled loader must not prevent another dimension's loader from draining.
             File otherDirectory = new File(directory, "other-dimension");
@@ -317,20 +321,29 @@ public final class IntegrationTests {
         RaceGate.active = gate;
         Object[][] loaded = new Object[1][];
         Thread reader = worker("test load", () -> loaded[0] = (Object[]) call(loader, "loadChunk__Async", world, 0, 0));
+        Object other = construct("net.minecraft.util.math.ChunkPos", 5, 5);
+        Thread otherSave = worker("test other save", () -> call(loader, "func_75824_a", other, revision(template, 9)));
         try {
             writer.start();
             check(gate.entered.await(10, TimeUnit.SECONDS), "writer reached disk write");
+            // The disk write is still held: neither a load of that chunk nor a save of another may wait for it.
             reader.start();
-            long deadline = System.nanoTime() + TimeUnit.SECONDS.toNanos(5);
-            while (reader.isAlive() && reader.getState() != Thread.State.BLOCKED && System.nanoTime() < deadline) Thread.sleep(1);
-            check(reader.getState() == Thread.State.BLOCKED, "load must wait for in-flight write, not read the stale disk copy");
+            join(reader);
+            otherSave.start();
+            join(otherSave);
+            check(pending.containsKey(other), "save of another chunk queued during the write");
         } finally {
             gate.release.countDown();
             join(writer);
             if (reader.getState() != Thread.State.NEW) join(reader);
             RaceGate.active = null;
         }
-        check(loaded[0] != null && call(loaded[0][1], "func_74762_e", "revision").equals(2), "load sees the written revision");
+        check(loaded[0] != null && call(loaded[0][1], "func_74762_e", "revision").equals(2),
+                "load during the write sees the in-flight revision, not the stale disk copy");
+        call(loaded[0][1], "func_74768_a", "XU2Generation", 1);
+        Object[] afterWrite = (Object[]) call(loader, "loadChunk__Async", world, 0, 0);
+        check(!(Boolean) call(afterWrite[1], "func_74764_b", "XU2Generation"), "load did not share the in-flight compound");
+        check(call(afterWrite[1], "func_74762_e", "revision").equals(2), "written revision on disk");
 
         Object queued = revision(template, 3);
         pending.put(pos, queued);
@@ -342,7 +355,7 @@ public final class IntegrationTests {
         call(loader, "func_75818_b");
         check(pending.isEmpty(), "pending chunks drained");
         if (failure.get() != null) throw new AssertionError("load worker failure", failure.get());
-        System.out.println("PASS load waits for in-flight writes and copies queued NBT");
+        System.out.println("PASS load reads in-flight/queued NBT copies without waiting for the disk write");
     }
 
     private static Object revision(Object template, int revision) throws Exception {

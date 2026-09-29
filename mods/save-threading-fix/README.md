@@ -46,20 +46,26 @@ The mixin config is required, and each wrapper requires its target to match.
 
 ## What changes
 
-`AnvilChunkLoader` uses one reentrant monitor per loader around all of:
+`AnvilChunkLoader` gets one `ReentrantLock` per loader for its queue bookkeeping:
 
-- `writeNextIO` (`func_75814_c`), including the complete region-file write.
-- `flush` (`func_75818_b`), including its drain loop and flushing flag.
-- `addChunkToPending` (`func_75824_a`).
-- `loadChunk__Async` (Forge). A load waits for an in-flight write instead of reading the
-  older region copy during the window between dequeue and disk write (MC-119971).
+- `writeNextIO` (`func_75814_c`) dequeues under the lock (vanilla order: `chunksBeingSaved.add`,
+  `chunksToSave.remove`, write, `chunksBeingSaved.remove`), but **releases it during the disk write**
+  (`func_183013_b`). The dequeued compound is kept in an in-flight map until the write finishes.
+- `flush` (`func_75818_b`) holds the lock for its whole drain, then waits until no chunk is in flight,
+  so it never returns while the File IO Thread is still writing a chunk it dequeued earlier.
+  Because flush holds the lock twice during its own writes, those writes still exclude loads
+  (flush runs at shutdown and for `save-all flush` only).
+- `addChunkToPending` (`func_75824_a`) waits only while *the same chunk* is being written;
+  vanilla would silently drop that newer save. Saves of other chunks don't wait for the disk.
+- `loadChunk__Async` (Forge) looks up the queued compound, then the in-flight one, under the lock,
+  and reads the region file only if neither exists. It never reads the older region copy of a
+  chunk whose write is in progress (MC-119971), and never waits for a disk write.
 
-This prevents two consumers passing the nonempty check and then removing the same
-last entry. Holding the lock through the write also prevents flush from returning
-while another writer still owns dequeued data. Locking enqueue prevents vanilla's
-`chunksBeingSaved.contains(pos)` check from silently dropping a newer save while
-an older one is being written. Different loaders can still write independently.
-An enqueue can now wait for a disk write, so slow storage can increase tick latency.
+Two consumers therefore can't both pass the nonempty check and remove the same last entry;
+flush can't return while another writer still owns dequeued data; a newer save isn't lost;
+different loaders write independently. Before 2026-09-29 one monitor was held through each disk
+write, and the live server spent up to ~400 ms per tick waiting in `loadChunk__Async` for it
+(sync chunk loads from mob spawning right after an autosave).
 
 Vanilla loads a chunk that is still queued for saving from the queued compound itself.
 Chunk-load handlers then mutate it while the File IO Thread serializes it. Extra Utilities 2
