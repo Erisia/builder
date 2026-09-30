@@ -1,19 +1,29 @@
 #!/usr/bin/env python3
-"""Suggestion-only crash post-mortems via Claude Code.
+"""Suggestion-only crash post-mortems.
 
 start.py calls maybe_start_analysis() once the Java process has exited. When
 the exit was a crash (nonzero status, no stop requested by the launcher, no
 host shutdown in progress) the logs are snapshotted into
-``crash-analysis/<stamp>/`` and this file is re-run detached
-(``crash_analysis.py run SERVER_DIR SNAPSHOT_DIR``) to ask Claude Code for a
-diagnosis. The finished report lands beside the snapshot as
+``crash-analysis/<stamp>/`` and the crash is handed on for diagnosis.
+
+In ``agent`` mode (the default when the agent's trigger directory exists) the
+hand-off is a small JSON file in the tsugumi-minecraft agent's trigger spool
+(CRASH_ANALYSIS_TRIGGER_DIR). The agent-bridge turns it into a turn in which the
+agent runs its crash-analysis skill, writes ``crash-analysis/<stamp>.md`` and
+reports on Discord. A short "crashed, handed to the agent" notice also goes to
+the Discord webhook below, so humans hear about it even when the agent is down.
+
+In ``standalone`` mode (CRASH_ANALYSIS=standalone, or no trigger directory) this
+file is re-run detached (``crash_analysis.py run SERVER_DIR SNAPSHOT_DIR``) to
+ask a local Claude Code for a diagnosis. The finished report lands beside the snapshot as
 ``crash-analysis/<stamp>.md``; tools/crash-analysis-notice.sh calls out unread
 reports at the shell prompt.
 
 The analysis is advisory only: the prompt forbids changing the server, and the
 launcher never waits for it (the restart loop carries on). At most DAILY_LIMIT
 analyses are started per calendar day, counting attempts rather than
-successes. Set CRASH_ANALYSIS=0 in the launcher's environment to disable it.
+successes. Set CRASH_ANALYSIS=0 in the launcher's environment to disable it,
+``agent`` or ``standalone`` to force a mode.
 
 When ``~/.config/crash-analysis/discord.json`` exists (see DISCORD_CONFIG_PATH
 and load_discord_config()), the finished report is also copied to the web root
@@ -51,6 +61,13 @@ DEFAULT_WEBHOOK_AVATAR_URL = "https://brage.info/GAN/01a0a9c9-edef-7a70-ac39-49a
 DISCORD_CONTENT_LIMIT = 2000
 DISCORD_SUMMARY_LIMIT = 800
 WEBHOOK_TIMEOUT_SECONDS = 30
+NOTICE_TIMEOUT_SECONDS = 5  # the crash notice is sent from the launcher's exit path; keep it short
+
+# Agent mode: the agent-bridge polls this spool (see machine-config tools/agent-bridge).
+DEFAULT_TRIGGER_DIR = "/var/lib/agent-bridge/tsugumi-minecraft/triggers"
+TRIGGER_SOURCE = "crash-analysis"
+TRIGGER_NOTE_LIMIT = 2000
+AGENT_NAME = "tsugumi-minecraft"  # fallback; normally the spool path names the agent
 
 # Claude Code may read anything and run commands, but must not edit files
 # through its own editing tools. Command-level restraint is the prompt's job.
@@ -440,14 +457,101 @@ def launch_background(python, server_dir, snap, unit_name, log):
     return f"background process {process.pid}"
 
 
+def trigger_dir(environ=os.environ):
+    return Path(environ.get("CRASH_ANALYSIS_TRIGGER_DIR") or DEFAULT_TRIGGER_DIR)
+
+
+def agent_name(directory):
+    """The bridge's spool is /var/lib/agent-bridge/<agent>/triggers."""
+    directory = Path(directory)
+    return directory.parent.name if directory.name == "triggers" and directory.parent.name else AGENT_NAME
+
+
+def analysis_mode(environ=os.environ, directory=None):
+    """'off', 'agent' or 'standalone'. Unset means agent when the trigger spool is writable."""
+    setting = environ.get("CRASH_ANALYSIS", "").strip().lower()
+    if setting == "0":
+        return "off"
+    if setting in ("agent", "standalone"):
+        return setting
+    directory = Path(directory or trigger_dir(environ))
+    return "agent" if directory.is_dir() and os.access(directory, os.W_OK) else "standalone"
+
+
+def trigger_note(context, snap):
+    """Built from context.json fields only: nothing from the logs reaches the agent's prompt this way."""
+    uptime = datetime.timedelta(seconds=int(context["uptime_seconds"]))
+    note = (f"{Path(context['server_dir']).name} ({context['server_name']}) crashed at {context['exited_at']}: "
+            f"{context['exit_description']}, uptime {uptime}. "
+            f"Snapshot: {snap}/ (context.json lists the files). "
+            f"Analysis {context['report_number']} of at most {DAILY_LIMIT} today. "
+            f"Use the crash-analysis skill; write {snap.parent}/{snap.name}.md and report in the channel.")
+    return truncate(note, TRIGGER_NOTE_LIMIT)
+
+
+def write_trigger(directory, context, snap):
+    """Drop the hand-off into the agent's spool atomically (the bridge only reads *.json)."""
+    directory = Path(directory)
+    name = f"crash-{web_name(context)}-{snap.name}"
+    temp = directory / f".{name}.tmp"
+    temp.write_text(json.dumps({"source": TRIGGER_SOURCE, "note": trigger_note(context, snap)}) + "\n")
+    target = directory / f"{name}.json"
+    os.replace(temp, target)
+    return target
+
+
+def crash_notice(context, snap, username=DEFAULT_WEBHOOK_USERNAME, avatar_url=DEFAULT_WEBHOOK_AVATAR_URL):
+    uptime = datetime.timedelta(seconds=int(context["uptime_seconds"]))
+    content = (f"**{web_name(context)} ({context['server_name']}) crashed** at {context['exited_at']} "
+               f"({context['exit_description']}, uptime {uptime}). Logs snapshotted to "
+               f"`{REPORT_DIR_NAME}/{snap.name}/`; analysis {context['report_number']} of at most {DAILY_LIMIT} "
+               f"today handed to {context.get('agent', AGENT_NAME)}.")
+    return {"content": truncate(content, DISCORD_CONTENT_LIMIT), "username": username,
+            "avatar_url": avatar_url, "allowed_mentions": {"parse": []}}
+
+
+def announce_crash(context, snap, log=print, config=None, opener=None):
+    """Best effort, short timeout: this runs in the launcher's exit path. Never raises."""
+    try:
+        config = config or load_discord_config()
+    except (OSError, ValueError) as error:
+        log(f"not announcing on Discord: {error}")
+        return None
+    if config is None:
+        return None
+    opener = opener or (lambda request, timeout: urllib.request.urlopen(request, timeout=NOTICE_TIMEOUT_SECONDS))
+    try:
+        return post_webhook(config["webhook_url"],
+                            crash_notice(context, snap, config["username"], config["avatar_url"]), opener)
+    except urllib.error.HTTPError as error:
+        log(f"Discord webhook returned HTTP {error.code}")
+    except (OSError, ValueError) as error:
+        log(f"Discord webhook failed: {error}")
+    return None
+
+
+def hand_to_agent(snap, context, log, directory=None, announcer=announce_crash):
+    """Returns a description of the hand-off, or None when the spool could not be written."""
+    directory = Path(directory or trigger_dir())
+    context["agent"] = agent_name(directory)
+    try:
+        path = write_trigger(directory, context, snap)
+    except OSError as error:
+        log(f"could not write the agent trigger ({error}); falling back to a standalone analysis")
+        return None
+    announcer(context, snap, log)
+    return f"trigger {path} for {context['agent']}"
+
+
 def maybe_start_analysis(server_dir, return_code, stop_requested, shutdown_marker_exists,
                          launched_at, command, server_name, python=sys.executable,
-                         log=print, now=None, launcher=launch_background):
+                         log=print, now=None, launcher=launch_background, mode=None, hand_off=hand_to_agent):
     """Decide whether this exit deserves an analysis and, if so, kick one off.
 
     Returns the snapshot directory when an analysis was started, else None.
     """
-    if os.environ.get("CRASH_ANALYSIS") == "0":
+    mode = mode or analysis_mode()
+    if mode == "off":
         return None
     if not is_crash(return_code, stop_requested, shutdown_marker_exists):
         return None
@@ -474,9 +578,11 @@ def maybe_start_analysis(server_dir, return_code, stop_requested, shutdown_marke
         "report_number": started_today + 1,
     }
     snap = snapshot(server_dir, report_dir, stamp, context)
-    how = launcher(python, server_dir, snap, f"crash-analysis-{server_name}-{stamp}", log)
+    how = hand_off(snap, context, log) if mode == "agent" else None
+    if how is None:
+        how = launcher(python, server_dir, snap, f"crash-analysis-{server_name}-{stamp}", log)
     log(f"server crashed ({context['exit_description']}); logs snapshotted to "
-        f"{REPORT_DIR_NAME}/{stamp}/ and analysis started as {how}. "
+        f"{REPORT_DIR_NAME}/{stamp}/ and analysis handed to {how}. "
         f"Report will appear at {REPORT_DIR_NAME}/{stamp}.md")
     return snap
 

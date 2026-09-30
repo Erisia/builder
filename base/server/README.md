@@ -29,19 +29,31 @@ Crash analysis: when the Java process exits nonzero and the launcher did not
 ask it to stop (ctrl-c/SIGTERM, the daily restart, or a host shutdown all set
 that flag or marker first), `start.py` hands the exit to `crash_analysis.py`.
 It snapshots `logs/latest.log`, the tail of `debug.log`, and any crash report
-or `hs_err_pid*.log` written during that run into `crash-analysis/<stamp>/`,
-then runs Claude Code detached (a `systemd-run --user` unit, or a plain
+or `hs_err_pid*.log` written during that run into `crash-analysis/<stamp>/`.
+
+Agent mode (the default when the spool below is writable): it writes
+`{"source": "crash-analysis", "note": …}` into the tsugumi-minecraft agent's
+trigger spool (`CRASH_ANALYSIS_TRIGGER_DIR`, default
+`/var/lib/agent-bridge/tsugumi-minecraft/triggers`). The note is built from
+`context.json` fields only, never from log text. The agent-bridge turns it into a
+turn in which the agent runs its `crash-analysis` skill, writes
+`crash-analysis/<stamp>.md` and reports on Discord. The launcher also posts a
+short "crashed, handed to tsugumi-minecraft" notice to the Discord webhook
+below (5 s timeout). No Claude Code runs locally, and nothing is detached.
+If the spool can't be written, it falls back to standalone mode.
+
+Standalone mode (`CRASH_ANALYSIS=standalone`, or no spool) runs Claude Code detached (a `systemd-run --user` unit, or a plain
 background process) with a suggestions-only prompt: it may read anything and
 unpack or decompile mods in temp directories, but must not change the server.
 The report is written atomically to `crash-analysis/<stamp>.md`; a failed or
 timed-out run still produces a report saying so. At most three analyses start
-per calendar day per server. `CRASH_ANALYSIS=0` in the launcher's environment
-disables the feature; `CRASH_ANALYSIS_CLAUDE` overrides the binary (default
+per calendar day per server (both modes). `CRASH_ANALYSIS=0` in the launcher's environment
+disables the feature, and `agent`/`standalone` force a mode; `CRASH_ANALYSIS_CLAUDE` overrides the binary (default
 `~/.npm-global/bin/claude`, falling back to `claude` on PATH).
 `tools/crash-analysis-notice.sh`, sourced from the shell rc files, lists unread
 reports before every prompt until `crash-analysis-ack` is run.
 
-Discord: when `~/.config/crash-analysis/discord.json` exists, the finished
+Discord (standalone mode): when `~/.config/crash-analysis/discord.json` exists, the finished
 report (including "analysis failed" reports) is also copied to
 `~/web/crash-analysis/<server dir>/<stamp>.md` (e.g. `erisia/`), which Caddy serves at
 `https://madoka.brage.info/crash-analysis/<server>/<stamp>.md`, and the
