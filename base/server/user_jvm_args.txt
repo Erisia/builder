@@ -14,3 +14,4 @@
  -XX:SymbolTableSize=1M
  -XX:StringTableSize=1M
  -XX:+PrintStringTableStatistics
+ -Djdk.serialFilter=maxdepth=20;java.lang.*;java.util.*;java.math.*;net.bdew.**;scala.**;reborncore.**;p455w0rd.**;WayofTime.**;com.m4thg33k.**;com.zeitheron.**;cofh.**;!*

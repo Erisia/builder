@@ -51,3 +51,15 @@ report is published, never the log snapshot. The file needs `webhook_url`;
 `CRASH_ANALYSIS_DISCORD_CONFIG` points at a different config file. Publishing
 is best effort: failures go to `crash-analysis/<stamp>/publish.log` and the
 analyzer's stderr, and never affect the report itself.
+
+## Deserialization filter (BleedingPipe)
+
+`user_jvm_args.txt` sets a JVM-wide `-Djdk.serialFilter` allowlist. Several
+e36 mods call `ObjectInputStream.readObject` on packet data (bdlib
+`SerializedMessageCodec`, RebornCore `ExtendedPacketBuffer`, DankNull
+`PacketConfigSync`), which is the BleedingPipe RCE. The filter only admits
+`java.lang`, `java.util` and `java.math` classes, plus the packages of mods
+that serialize their own classes (bdlib/scala, RebornCore, DankNull, Blood
+Magic, TombManyGraves, HammerLib, CoFH). `maxdepth=20` stops nested-HashSet
+bombs. A mod that legitimately deserializes anything else fails with
+`InvalidClassException: filter status: REJECTED`; if so, add its package.
