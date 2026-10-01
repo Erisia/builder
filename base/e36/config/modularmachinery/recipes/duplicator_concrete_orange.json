@@ -1,0 +1,26 @@
+{
+    "machine": "block_duplicator_concrete",
+    "registryName": "duplicator_concrete_orange",
+    "recipeTime": 10,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 5
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:dyeOrange",
+            "amount": 1,
+            "chance": 0.0
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:concrete@1",
+            "amount": 1,
+            "chance": 1.0
+        }
+    ]
+}

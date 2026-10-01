@@ -2,6 +2,7 @@
 <industrialforegoing:laser_drill>.addTooltip("Works on proper dimension in modular machine for proper yields. Does not work as normal.");
 <calculator:conductormast>.addTooltip("Transfer rate throttled to 50 RF/tick. Designed for crafting, not free power generation.");
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:block_duplicator_stone"}).addTooltip("Place unchiseled block in center slot. Compatible with many chisel blocks. Block must be from Chisel mod if the block in question has variations, such as basalt.");
+<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:block_duplicator_concrete"}).addTooltip("Place any colour of concrete in the center slot. Put a dye in the input bus to choose the output colour; the dye is not consumed.");
 <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:space_laser_drill_desh"}).addTooltip("Structure is same for all compatible dimensions, handled by Dimension Checker's NBT.");
 <forestry:bog_earth>.addTooltip("Can be matured faster with a Watering Can.");
 <mekanismgenerators:generator:6>.addTooltip("Power generation much lower than standard.");<forge:bucketfilled>.withTag({FluidName: "crude_oil", Amount: 1000}).addTooltip("Can craft into other oil bucket for quest.");
