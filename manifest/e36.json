@@ -845,32 +845,6 @@
     "sha256": "946861f89e75a68e45e3117e9488498eb14db1143872c226f442706be523a890"
   },
   {
-    "name": "fast-leaf-decay",
-    "title": "Fast Leaf Decay",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "FastLeafDecay-v14.jar",
-    "encoded": "FastLeafDecay-v14.jar",
-    "src": "https://edge.forgecdn.net/files/2463/272/FastLeafDecay-v14.jar",
-    "size": 5200,
-    "md5": "18096ffb7f58d94f8e5a7bf2ff160f0f",
-    "sha256": "6da4ff366330253e2fb4f6849ae0c81e4ddc9f6bd5814460ad9ecb63e9f65119"
-  },
-  {
-    "name": "fastworkbench",
-    "title": "FastWorkbench",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "FastWorkbench-1.12.2-1.7.3.jar",
-    "encoded": "FastWorkbench-1.12.2-1.7.3.jar",
-    "src": "https://edge.forgecdn.net/files/2838/777/FastWorkbench-1.12.2-1.7.3.jar",
-    "size": 26515,
-    "md5": "b55a31e4193204572acf05f78e0deedc",
-    "sha256": "0a8e4f341a80263e58f348fc980a813de1d22ec455d2606486e8e03e8c9e5d16"
-  },
-  {
     "name": "flare",
     "title": "Flare (Spark for 1.12.2)",
     "side": "both",
@@ -2455,6 +2429,19 @@
     "size": 184842,
     "md5": "997757ba2a263a6da929f4735455c018",
     "sha256": "f4b6ebdaf2dbee3104083661dc25d00636ae3f684f46f4502a0fc6dc854de0a5"
+  },
+  {
+    "name": "universal-tweaks",
+    "title": "Universal Tweaks",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "UniversalTweaks-1.12.2-1.21.0.jar",
+    "encoded": "UniversalTweaks-1.12.2-1.21.0.jar",
+    "src": "https://edge.forgecdn.net/files/8941/250/UniversalTweaks-1.12.2-1.21.0.jar",
+    "size": 2021938,
+    "md5": "6017e4be2e1d20a01bad4b999f9bb04f",
+    "sha256": "9386ed5a00cc8b86ae5369a8c0d71ae8fa12711ad419767c2a7da1977c7f7870"
   },
   {
     "name": "valkyrielib",

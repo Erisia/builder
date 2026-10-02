@@ -53,6 +53,8 @@ nodes:
   - crafting-tweaks # replaced by crafting-tweaks-unofficial (same modid)
   - tips # replaced by AnotherTips
   - dank-null # updating to 1.7.101 (wipes contents; see commit message)
+  - fast-leaf-decay # superseded by Universal Tweaks (Fast Leaf Decay)
+  - fastworkbench # superseded by Universal Tweaks (Crafting Cache)
 - id: overrides
   value:
   - name: inventory-tweaks
@@ -378,6 +380,11 @@ nodes:
     side: both
     id: 272514
     file_id: 2962052
+  - name: universal-tweaks # 1.21.0: dupe/crash/leak fixes; pared config in base/e36/config (never regenerate: defaults crash on Simply Jetpacks)
+    source: curse
+    side: both
+    id: 705000
+    file_id: 8941250
 ### Processing graph
 - id: download-pack
   kind: ArchiveDownloader
