@@ -2176,12 +2176,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "StorageDrawers-1.12.2-5.4.1.jar",
-    "encoded": "StorageDrawers-1.12.2-5.4.1.jar",
-    "src": "https://edge.forgecdn.net/files/2887/858/StorageDrawers-1.12.2-5.4.1.jar",
-    "size": 605381,
-    "md5": "050dd7ca699431dc4ce0b581567aae8a",
-    "sha256": "b13f5567c223b582119d38b4f67197e67476a3a7ff881a4e3b03508e01e7a349"
+    "filename": "StorageDrawers-1.12.2-5.5.3.jar",
+    "encoded": "StorageDrawers-1.12.2-5.5.3.jar",
+    "src": "https://edge.forgecdn.net/files/5981/297/StorageDrawers-1.12.2-5.5.3.jar",
+    "size": 621871,
+    "md5": "50f4a99fc747f8549df067c05c4c63ae",
+    "sha256": "26337559bad06539175f0a5fe886db816f0f6045d96be4737493a0e669117e2f"
   },
   {
     "name": "super-sound-muffler-revived",

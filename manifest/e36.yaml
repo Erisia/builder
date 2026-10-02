@@ -31,6 +31,7 @@ nodes:
   - forestry # updating to 5.8.2.427
   - astral-sorcery # updating to 1.10.27
   - cyclic # updating to 1.20.14
+  - storage-drawers # updating to 5.5.3
 - id: overrides
   value:
   - name: inventory-tweaks
@@ -236,6 +237,11 @@ nodes:
     side: both
     id: 239286
     file_id: 4075832
+  - name: storage-drawers # 5.5.3: drawer-upgrade dupe fix (framed-compacting-drawers 1.0.1 checked compatible)
+    source: curse
+    side: both
+    id: 223852
+    file_id: 5981297
 ### Processing graph
 - id: download-pack
   kind: ArchiveDownloader
