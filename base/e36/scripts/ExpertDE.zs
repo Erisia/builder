@@ -11,7 +11,7 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(<draconicevolution:draconium_i
 mods.mekanism.enrichment.removeRecipe(<draconicevolution:draconium_ore:*>, <draconicevolution:draconium_dust>);
 mods.actuallyadditions.Crusher.removeRecipe(<draconicevolution:draconium_dust>);
 mods.bloodmagic.AlchemyTable.removeRecipe([<draconicevolution:draconium_ore:*>, <bloodmagic:cutting_fluid>]);
-mods.thermalexpansion.RedstoneFurnace.removeRecipe(<draconicevolution:draconium_ore>);
+//mods.thermalexpansion.RedstoneFurnace.removeRecipe(<draconicevolution:draconium_ore>); // no-op, logged "No Furnace recipe exists" at boot: TE has no draconium_ore Redstone Furnace recipe once the vanilla smelting recipe is removed above
 mods.thermalexpansion.Pulverizer.removeRecipe(<draconicevolution:draconium_ore>);
 mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:sand:*>, <draconicevolution:draconium_ore>);
 mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:865>, <draconicevolution:draconium_ore>);

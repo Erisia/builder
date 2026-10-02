@@ -8,6 +8,8 @@ recipes.remove(<harvestcraft:bakewareitem>);//BAKEWARE
 recipes.remove(<harvestcraft:cuttingboarditem>);//CUTTING BOARD
 recipes.remove(<harvestcraft:potitem>);//POT
 recipes.remove(<harvestcraft:presser>);//PRESSER
+recipes.remove(<harvestcraft:shippingbin>);//SHIPPING BIN
+mods.jei.JEI.hide(<harvestcraft:shippingbin>);//SHIPPING BIN
 //ADD RECIPES
 recipes.addShapeless(<harvestcraft:juiceritem>,[<botania:livingrock:0>,<minecraft:stone_pressure_plate>]);//JUICER
 recipes.addShaped(<harvestcraft:mortarandpestleitem>,[[null,null,null],
