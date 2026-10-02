@@ -49,6 +49,9 @@ nodes:
   - crafttweaker # updating to 4.1.20.715
   - clumps # replaced by Fixeroo (xp-orb-clump), Cleanroom wiki
   - fastfurnace # merged into Chibi (loliasm optimizeFurnaceRecipeStore, default on); furnaces stay minecraft:furnace
+  - appleskin # replaced by LemonSkin; AppleCore stays
+  - crafting-tweaks # replaced by crafting-tweaks-unofficial (same modid)
+  - tips # replaced by AnotherTips
 - id: overrides
   value:
   - name: inventory-tweaks
@@ -354,6 +357,21 @@ nodes:
     side: client
     id: 940521
     file_id: 8018292
+  - name: lemonskin # LemonSkin 4.0.0 replaces AppleSkin (Cleanroom wiki); AppleCore stays (Spice of Life needs it)
+    source: curse
+    side: both
+    id: 1337144
+    file_id: 7763338
+  - name: crafting-tweaks-unofficial # same modid craftingtweaks, same config and keybindings
+    source: curse
+    side: both
+    id: 633720
+    file_id: 3852709
+  - name: anothertips # replaces Tips (Cleanroom wiki); tips migrated to config/anothertips.cfg
+    source: curse
+    side: client
+    id: 1209235
+    file_id: 7646417
 ### Processing graph
 - id: download-pack
   kind: ArchiveDownloader
