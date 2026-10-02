@@ -429,6 +429,19 @@
     "sha256": "507c81ae0b8c1821cf6b54ee75b5e26200028796b6ee1c6e33c8b15c9f1041ae"
   },
   {
+    "name": "chibi",
+    "title": "Chibi",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "chibi-5.34.jar",
+    "encoded": "chibi-5.34.jar",
+    "src": "https://edge.forgecdn.net/files/8957/115/chibi-5.34.jar",
+    "size": 1750499,
+    "md5": "e0442b431bbbb81d6d28438229a8e503",
+    "sha256": "b09f8999b71c96c6107e3e53e88a3047f767c50644425a1f24db69b4ac2cc77c"
+  },
+  {
     "name": "chisel",
     "title": "Chisel",
     "side": "both",
@@ -843,19 +856,6 @@
     "size": 5200,
     "md5": "18096ffb7f58d94f8e5a7bf2ff160f0f",
     "sha256": "6da4ff366330253e2fb4f6849ae0c81e4ddc9f6bd5814460ad9ecb63e9f65119"
-  },
-  {
-    "name": "fastfurnace",
-    "title": "FastFurnace",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "FastFurnace-1.12.2-1.3.1.jar",
-    "encoded": "FastFurnace-1.12.2-1.3.1.jar",
-    "src": "https://edge.forgecdn.net/files/2706/111/FastFurnace-1.12.2-1.3.1.jar",
-    "size": 10035,
-    "md5": "b84cc8a587dbd35fef2dbc3e0b9435aa",
-    "sha256": "61362af8dd5de20a6f5b7ab9c2f95cfaec911a0ab428c7b469e8d2a7ff89c89d"
   },
   {
     "name": "fastworkbench",

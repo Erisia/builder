@@ -48,6 +48,7 @@ nodes:
   - refined-storage # updating to 1.6.16
   - crafttweaker # updating to 4.1.20.715
   - clumps # replaced by Fixeroo (xp-orb-clump), Cleanroom wiki
+  - fastfurnace # merged into Chibi (loliasm optimizeFurnaceRecipeStore, default on); furnaces stay minecraft:furnace
 - id: overrides
   value:
   - name: inventory-tweaks
@@ -338,6 +339,11 @@ nodes:
     side: both
     id: 633806
     file_id: 8144778
+  - name: chibi # Chibi 5.34 (modid loliasm); its default-on optimizeFurnaceRecipeStore replaces FastFurnace
+    source: curse
+    side: both
+    id: 460609
+    file_id: 8957115
 ### Processing graph
 - id: download-pack
   kind: ArchiveDownloader
