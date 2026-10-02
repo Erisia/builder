@@ -3,6 +3,6 @@
   "minVersion": "0.8",
   "package": "org.erisia.savethreading.mixin",
   "compatibilityLevel": "JAVA_8",
-  "server": ["MinecraftServerAccess", "AnvilChunkLoaderMixin", "DedicatedServerMixin"],
+  "server": ["MinecraftServerAccess", "AnvilChunkLoaderMixin", "DedicatedServerMixin", "CompressedStreamToolsMixin"],
   "injectors": {"defaultRequire": 1}
 }
