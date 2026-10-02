@@ -36,6 +36,17 @@ nodes:
   - hammer-lib # unused (Solar Flux Reborn 12.4.11 shades its own); 7 decorative blocks go missing
   - jei # replaced by HadEnoughItems (same modid)
   - patchouli # replaced by Patchouli ROFL Edition
+  - thermal-foundation # updating (final Thermal set)
+  - thermal-expansion # updating
+  - thermal-dynamics # updating
+  - thermal-cultivation # updating
+  - redstone-arsenal # updating
+  - botania # updating to 364.4
+  - nuclearcraft-mod # updating to 2.19c
+  - draconic-evolution # updating to 2.3.28
+  - brandons-core # updating to 2.4.20
+  - refined-storage # updating to 1.6.16
+  - crafttweaker # updating to 4.1.20.715
 - id: overrides
   value:
   - name: inventory-tweaks
@@ -108,7 +119,7 @@ nodes:
     source: curse
     side: both
     id: 1005815
-    file_id: 8629748
+    file_id: 8878028
   - name: scalar-legacy
     source: curse
     side: both
@@ -154,7 +165,7 @@ nodes:
     source: curse
     side: both
     id: 885670
-    file_id: 8668596
+    file_id: 8896757
   - name: bubbles-a-baubles-fork
     source: curse
     side: both
@@ -174,7 +185,7 @@ nodes:
     source: curse
     side: both
     id: 871198
-    file_id: 7958801
+    file_id: 8895999
   - name: blockcraftery-refurbished
     source: curse
     side: both
@@ -266,6 +277,61 @@ nodes:
     side: both
     id: 1133738
     file_id: 7506249
+  - name: thermal-foundation # final Thermal set (TF/TE/TD/TC/RA together)
+    source: curse
+    side: both
+    id: 222880
+    file_id: 2926428
+  - name: thermal-expansion
+    source: curse
+    side: both
+    id: 69163
+    file_id: 2926431
+  - name: thermal-dynamics
+    source: curse
+    side: both
+    id: 227443
+    file_id: 2920505
+  - name: thermal-cultivation
+    source: curse
+    side: both
+    id: 271835
+    file_id: 2920437
+  - name: redstone-arsenal
+    source: curse
+    side: both
+    id: 70631
+    file_id: 2939416
+  - name: botania # r1.10-364.4
+    source: curse
+    side: both
+    id: 225643
+    file_id: 3330934
+  - name: nuclearcraft-mod # 2.19c: fixes Bubbles API incompatibility
+    source: curse
+    side: both
+    id: 226254
+    file_id: 8213196
+  - name: draconic-evolution # 2.3.28 (needs brandons-core >= 2.4.19)
+    source: curse
+    side: both
+    id: 223565
+    file_id: 3431261
+  - name: brandons-core # 2.4.20
+    source: curse
+    side: both
+    id: 231382
+    file_id: 3408276
+  - name: refined-storage # 1.6.16
+    source: curse
+    side: both
+    id: 243076
+    file_id: 2940914
+  - name: crafttweaker # 4.1.20.715 (current jar is a 2019 4.1.20 build)
+    source: curse
+    side: both
+    id: 239197
+    file_id: 8051578
 ### Processing graph
 - id: download-pack
   kind: ArchiveDownloader

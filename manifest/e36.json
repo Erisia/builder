@@ -317,12 +317,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "Botania r1.10-363.jar",
-    "encoded": "Botania%20r1.10-363.jar",
-    "src": "https://edge.forgecdn.net/files/2846/950/Botania%20r1.10-363.jar",
-    "size": 13814617,
-    "md5": "5ba76d3db9345fa9e398523bddda59f3",
-    "sha256": "e31c3aebdf631ebd68032d39cb02558db35841a55d568165efce7fdad64e9cd4"
+    "filename": "Botania r1.10-364.4.jar",
+    "encoded": "Botania%20r1.10-364.4.jar",
+    "src": "https://edge.forgecdn.net/files/3330/934/Botania%20r1.10-364.4.jar",
+    "size": 13817704,
+    "md5": "7a19779fa19e37cb9fb49a0a1770332b",
+    "sha256": "8962beb2c583720a83858f58bd6afc891185b50d868c712549a96b191339b52a"
   },
   {
     "name": "brandons-core",
@@ -330,12 +330,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "BrandonsCore-1.12.2-2.4.18.210-universal.jar",
-    "encoded": "BrandonsCore-1.12.2-2.4.18.210-universal.jar",
-    "src": "https://edge.forgecdn.net/files/2867/147/BrandonsCore-1.12.2-2.4.18.210-universal.jar",
-    "size": 825615,
-    "md5": "af264b9fbdbcbb1e47da12e79782da7f",
-    "sha256": "12b4eb8c9416141595a7d7785c2b448996bc2951b6e117798a82046a68d4afe1"
+    "filename": "BrandonsCore-1.12.2-2.4.20.162-universal.jar",
+    "encoded": "BrandonsCore-1.12.2-2.4.20.162-universal.jar",
+    "src": "https://edge.forgecdn.net/files/3408/276/BrandonsCore-1.12.2-2.4.20.162-universal.jar",
+    "size": 827900,
+    "md5": "4a67ccad9d684466010c02164d7ff13e",
+    "sha256": "7f26e2cad131d3cb79296b0309dbde4f361b34c7f602d9575aecff893bb04d76"
   },
   {
     "name": "broken-wings",
@@ -603,12 +603,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "CraftTweaker2-1.12-4.1.20.jar",
-    "encoded": "CraftTweaker2-1.12-4.1.20.jar",
-    "src": "https://edge.forgecdn.net/files/2838/90/CraftTweaker2-1.12-4.1.20.jar",
-    "size": 1363036,
-    "md5": "521297c5e2459dd232a72dacffa45a0b",
-    "sha256": "f2176225db04fc95dce462e7ed45b2aac9c4c58f9887c9beba6f3a096543d389"
+    "filename": "CraftTweaker2-1.12-4.1.20.715.jar",
+    "encoded": "CraftTweaker2-1.12-4.1.20.715.jar",
+    "src": "https://edge.forgecdn.net/files/8051/578/CraftTweaker2-1.12-4.1.20.715.jar",
+    "size": 1610755,
+    "md5": "1adee8e71aa9c9b73755aa4b8029c4b1",
+    "sha256": "2cd1c68628b78ff5b58a12c94c0dbed8e91d322836bf2d34c9156fee60390e53"
   },
   {
     "name": "creativecore",
@@ -707,12 +707,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "Draconic-Evolution-1.12.2-2.3.25.351-universal.jar",
-    "encoded": "Draconic-Evolution-1.12.2-2.3.25.351-universal.jar",
-    "src": "https://edge.forgecdn.net/files/2867/186/Draconic-Evolution-1.12.2-2.3.25.351-universal.jar",
-    "size": 5705834,
-    "md5": "a23c263063b8e110f8c053c148ba6d2d",
-    "sha256": "9446eee9dd1e99b12973a749f0149259f0613a389719d965ecff456f516d9a26"
+    "filename": "Draconic-Evolution-1.12.2-2.3.28.354-universal.jar",
+    "encoded": "Draconic-Evolution-1.12.2-2.3.28.354-universal.jar",
+    "src": "https://edge.forgecdn.net/files/3431/261/Draconic-Evolution-1.12.2-2.3.28.354-universal.jar",
+    "size": 5708839,
+    "md5": "e6c70ebe71c94d00b1056f6e4bef207f",
+    "sha256": "1eecdefa00056efac98ff56e25f7ed840b70e2d809c628e38c9c5b5518ff14ff"
   },
   {
     "name": "dropt",
@@ -980,12 +980,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "+Fugue-0.24.3.jar",
-    "encoded": "%2BFugue-0.24.3.jar",
-    "src": "https://edge.forgecdn.net/files/8629/748/%2bFugue-0.24.3.jar",
-    "size": 305146,
-    "md5": "46df24198218447bba6698401e5a1c1b",
-    "sha256": "00dc2de461b8a9bf0d9b684aa0377713bda85ca63da5ec93028c226ed2119efd"
+    "filename": "+Fugue-0.24.4.jar",
+    "encoded": "%2BFugue-0.24.4.jar",
+    "src": "https://edge.forgecdn.net/files/8878/28/%2bFugue-0.24.4.jar",
+    "size": 309884,
+    "md5": "8d991bd5680f2abcce5334e7170259bb",
+    "sha256": "438248925eb38d16b6b4bcbe6247339b2a745cfe586d4917985f7d925a5d8630"
   },
   {
     "name": "fullscreen-windowed-borderless-for-minecraft",
@@ -1747,12 +1747,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "NuclearCraft-2.18r-1.12.2.jar",
-    "encoded": "NuclearCraft-2.18r-1.12.2.jar",
-    "src": "https://edge.forgecdn.net/files/2921/192/NuclearCraft-2.18r-1.12.2.jar",
-    "size": 6867980,
-    "md5": "8b90145b68e9e83924bbeea0fa63f53f",
-    "sha256": "add0ca908ecd1264ac4cac2e822aa75effbaf6902fffca0000ecf96b62864582"
+    "filename": "nuclearcraft-1.12.2-2.19c.jar",
+    "encoded": "nuclearcraft-1.12.2-2.19c.jar",
+    "src": "https://edge.forgecdn.net/files/8213/196/nuclearcraft-1.12.2-2.19c.jar",
+    "size": 6886412,
+    "md5": "d40333819fa6d99be18b08abf15c09b6",
+    "sha256": "3ffb4af4863cd632e18589c5fd7e698c29f8ba37acba1381a7faf74401ad42cd"
   },
   {
     "name": "open-terrain-generator",
@@ -1981,12 +1981,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "RedstoneArsenal-1.12.2-2.6.4.1-universal.jar",
-    "encoded": "RedstoneArsenal-1.12.2-2.6.4.1-universal.jar",
-    "src": "https://edge.forgecdn.net/files/2920/435/RedstoneArsenal-1.12.2-2.6.4.1-universal.jar",
+    "filename": "RedstoneArsenal-1.12.2-2.6.6.1-universal.jar",
+    "encoded": "RedstoneArsenal-1.12.2-2.6.6.1-universal.jar",
+    "src": "https://edge.forgecdn.net/files/2939/416/RedstoneArsenal-1.12.2-2.6.6.1-universal.jar",
     "size": 243859,
-    "md5": "9c7cab97811071b1b2d96442829a176e",
-    "sha256": "22b651c5a864cf36ec333e7a201ff8ccf21ed9af0b187d797c80550e47447a1f"
+    "md5": "d2ca2d7e0987a9f3d1cb82898942bb78",
+    "sha256": "d2cc4aeb515dcd8360e1deed588db739920e04477dc4617e4ae4ee8edf40fcd9"
   },
   {
     "name": "redstone-flux",
@@ -2007,12 +2007,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "refinedstorage-1.6.15.jar",
-    "encoded": "refinedstorage-1.6.15.jar",
-    "src": "https://edge.forgecdn.net/files/2745/458/refinedstorage-1.6.15.jar",
-    "size": 1911631,
-    "md5": "de8d2220d174b5bc2c90e41cc9086d50",
-    "sha256": "43d624a110f0e3088a1ff205eeefd9b1e150e5384ccf8e11d8fe2fad19edc6f4"
+    "filename": "refinedstorage-1.6.16.jar",
+    "encoded": "refinedstorage-1.6.16.jar",
+    "src": "https://edge.forgecdn.net/files/2940/914/refinedstorage-1.6.16.jar",
+    "size": 1912377,
+    "md5": "0b5e41f29c3ceb1db560531fef9f55a2",
+    "sha256": "ebdf868db673b2a22233e5e08e7c14ad937b10e2997c4c28a4511ffdd2544f8d"
   },
   {
     "name": "reliquary-reincarnations",
@@ -2228,12 +2228,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "TheOneProbe-CE-1.12-1.3.9-fix1.jar",
-    "encoded": "TheOneProbe-CE-1.12-1.3.9-fix1.jar",
-    "src": "https://edge.forgecdn.net/files/8668/596/TheOneProbe-CE-1.12-1.3.9-fix1.jar",
-    "size": 347099,
-    "md5": "5a3de741fa4b537e36cfbb5c24553dd0",
-    "sha256": "86bb90d83916dfe5b023e386a23edc68ac7af977c16c4de80dcb1463290a142a"
+    "filename": "TheOneProbe-CE-1.12-1.4.0.jar",
+    "encoded": "TheOneProbe-CE-1.12-1.4.0.jar",
+    "src": "https://edge.forgecdn.net/files/8896/757/TheOneProbe-CE-1.12-1.4.0.jar",
+    "size": 351355,
+    "md5": "96ec89e1a14f165e95e0fee3ef4d22ef",
+    "sha256": "5793763a41097c57f936b99c31e5adfbc31db98960c0f6e7856b583c592edb99"
   },
   {
     "name": "the-spice-of-life",
@@ -2254,12 +2254,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "ThermalCultivation-1.12.2-0.3.3.12-universal.jar",
-    "encoded": "ThermalCultivation-1.12.2-0.3.3.12-universal.jar",
-    "src": "https://edge.forgecdn.net/files/2715/791/ThermalCultivation-1.12.2-0.3.3.12-universal.jar",
-    "size": 106843,
-    "md5": "a6993f3947a833582909c7e31325987c",
-    "sha256": "b491ba8319da27844dbd957d68a9ac2f341e4d65790d7a5015a5a4086c9e2b65"
+    "filename": "ThermalCultivation-1.12.2-0.3.6.1-universal.jar",
+    "encoded": "ThermalCultivation-1.12.2-0.3.6.1-universal.jar",
+    "src": "https://edge.forgecdn.net/files/2920/437/ThermalCultivation-1.12.2-0.3.6.1-universal.jar",
+    "size": 98845,
+    "md5": "28970430074736ae6efbe4f7c353b30a",
+    "sha256": "d26cae12decefd72dd02d959ece758ee8261f090b4cc8fdd24b870ed148b5a24"
   },
   {
     "name": "thermal-dynamics",
@@ -2267,12 +2267,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "ThermalDynamics-1.12.2-2.5.5.21-universal.jar",
-    "encoded": "ThermalDynamics-1.12.2-2.5.5.21-universal.jar",
-    "src": "https://edge.forgecdn.net/files/2716/138/ThermalDynamics-1.12.2-2.5.5.21-universal.jar",
-    "size": 762980,
-    "md5": "3317c6f327d7ebe0ee3bd6206ececb02",
-    "sha256": "01c5dc41c1085944af9c7346a0e402e90075a9e069232b15dd6a2807dae00fe8"
+    "filename": "ThermalDynamics-1.12.2-2.5.6.1-universal.jar",
+    "encoded": "ThermalDynamics-1.12.2-2.5.6.1-universal.jar",
+    "src": "https://edge.forgecdn.net/files/2920/505/ThermalDynamics-1.12.2-2.5.6.1-universal.jar",
+    "size": 728082,
+    "md5": "38a0c024f5775b0cf783de839033f8db",
+    "sha256": "ce3f08c8a0f36ba02fceafa47f25e80c7130727bd8e11206b37a4454d51da3b0"
   },
   {
     "name": "thermal-expansion",
@@ -2280,12 +2280,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "ThermalExpansion-1.12.2-5.5.4.43-universal.jar",
-    "encoded": "ThermalExpansion-1.12.2-5.5.4.43-universal.jar",
-    "src": "https://edge.forgecdn.net/files/2715/789/ThermalExpansion-1.12.2-5.5.4.43-universal.jar",
-    "size": 2426151,
-    "md5": "53144cfec12795862d20aa07750c9a59",
-    "sha256": "08ac2de31e9cc0c174c2795f9371cb209d3251ea18210ec682d1816f1e39b08a"
+    "filename": "ThermalExpansion-1.12.2-5.5.7.1-universal.jar",
+    "encoded": "ThermalExpansion-1.12.2-5.5.7.1-universal.jar",
+    "src": "https://edge.forgecdn.net/files/2926/431/ThermalExpansion-1.12.2-5.5.7.1-universal.jar",
+    "size": 2345139,
+    "md5": "0bf91e166b05e83d22455a9c7ec395bb",
+    "sha256": "f1cc8aeefcda2c00235bfb5ee7f76d731325aa324e90e84d7d232d88c1e6f472"
   },
   {
     "name": "thermal-foundation",
@@ -2293,12 +2293,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "ThermalFoundation-1.12.2-2.6.3.27-universal.jar",
-    "encoded": "ThermalFoundation-1.12.2-2.6.3.27-universal.jar",
-    "src": "https://edge.forgecdn.net/files/2715/788/ThermalFoundation-1.12.2-2.6.3.27-universal.jar",
-    "size": 2312713,
-    "md5": "0f61017dc9412ba4aad8a64f7bca16bb",
-    "sha256": "f7c424aa09860dbb151252dfe58920d8df62c0e9193d6b733ceb26fc7c4a0357"
+    "filename": "ThermalFoundation-1.12.2-2.6.7.1-universal.jar",
+    "encoded": "ThermalFoundation-1.12.2-2.6.7.1-universal.jar",
+    "src": "https://edge.forgecdn.net/files/2926/428/ThermalFoundation-1.12.2-2.6.7.1-universal.jar",
+    "size": 2219736,
+    "md5": "6eca041bbf28949b60ecf1179d561156",
+    "sha256": "5052f3e308b3ecb6620d26c5ab0cc15c0373732086337483a19fd4447e540ab0"
   },
   {
     "name": "tinkers-construct",
@@ -2475,12 +2475,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "vintagefix-0.7.0.jar",
-    "encoded": "vintagefix-0.7.0.jar",
-    "src": "https://edge.forgecdn.net/files/7958/801/vintagefix-0.7.0.jar",
-    "size": 1043465,
-    "md5": "a6d9c6538bc7583791b683f943b59b8e",
-    "sha256": "b109ca7e2ad58a8d45279da76a7882877e807f949c6f09f173907284ac08a318"
+    "filename": "vintagefix-0.7.1.jar",
+    "encoded": "vintagefix-0.7.1.jar",
+    "src": "https://edge.forgecdn.net/files/8895/999/vintagefix-0.7.1.jar",
+    "size": 1043648,
+    "md5": "7fb14be329bfcde8925c470a189261a1",
+    "sha256": "e6f0b4e16625b2ffad558e9dbb90cb1ace556198aabac18f3647a38dee1550c8"
   },
   {
     "name": "wanionlib",
