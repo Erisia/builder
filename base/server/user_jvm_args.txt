@@ -14,4 +14,5 @@
  -XX:SymbolTableSize=1M
  -XX:StringTableSize=1M
  -XX:+PrintStringTableStatistics
+ -Xlog:gc*,safepoint:file=gc.log:time,uptime,level,tags:filecount=5,filesize=20M
  -Djdk.serialFilter=maxdepth=20;java.lang.*;java.util.*;java.math.*;net.bdew.**;scala.**;reborncore.**;p455w0rd.**;WayofTime.**;com.m4thg33k.**;com.zeitheron.**;cofh.**;!*
