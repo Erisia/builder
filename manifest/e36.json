@@ -681,12 +681,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "Cyclic-1.12.2-1.19.21.jar",
-    "encoded": "Cyclic-1.12.2-1.19.21.jar",
-    "src": "https://edge.forgecdn.net/files/2892/633/Cyclic-1.12.2-1.19.21.jar",
-    "size": 3986239,
-    "md5": "9cefc761c7eeae10ec3cc2aa602339e9",
-    "sha256": "f8627a783d9d69d93fe42ae84940f8f3c3a011fe3efcd2844b5e1c4227da93a9"
+    "filename": "Cyclic-1.12.2-1.20.14.jar",
+    "encoded": "Cyclic-1.12.2-1.20.14.jar",
+    "src": "https://edge.forgecdn.net/files/4075/832/Cyclic-1.12.2-1.20.14.jar",
+    "size": 3990921,
+    "md5": "3b586489e513b73efd524d39c513ca2d",
+    "sha256": "b239253961b12aaf54bccecc7b7f85c32a343d50ed6b2eacd0b945213c358649"
   },
   {
     "name": "dank-null",

@@ -30,6 +30,7 @@ nodes:
   - immersive-petroleum # updating to 1.1.10
   - forestry # updating to 5.8.2.427
   - astral-sorcery # updating to 1.10.27
+  - cyclic # updating to 1.20.14
 - id: overrides
   value:
   - name: inventory-tweaks
@@ -230,6 +231,11 @@ nodes:
     side: both
     id: 241721
     file_id: 3044416
+  - name: cyclic # 1.20.14: Workbench and XP Pylon dupe fixes
+    source: curse
+    side: both
+    id: 239286
+    file_id: 4075832
 ### Processing graph
 - id: download-pack
   kind: ArchiveDownloader
