@@ -135,12 +135,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "astralsorcery-1.12.2-1.10.23.jar",
-    "encoded": "astralsorcery-1.12.2-1.10.23.jar",
-    "src": "https://edge.forgecdn.net/files/2920/254/astralsorcery-1.12.2-1.10.23.jar",
-    "size": 24976385,
-    "md5": "cecf61f829ba9ed5fa5a08f5b8c42ec5",
-    "sha256": "41b2291777fb10189eba1297c5d773223791ee880ab97a16c2c2a8549010274b"
+    "filename": "astralsorcery-1.12.2-1.10.27.jar",
+    "encoded": "astralsorcery-1.12.2-1.10.27.jar",
+    "src": "https://edge.forgecdn.net/files/3044/416/astralsorcery-1.12.2-1.10.27.jar",
+    "size": 25028160,
+    "md5": "c2db411b6e678c7e24035cd5c0525264",
+    "sha256": "771107764cad17a30b37f683fd6889384a916981b1c8ed63826ec0a335efae86"
   },
   {
     "name": "athenaeum",

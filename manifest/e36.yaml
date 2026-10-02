@@ -29,6 +29,7 @@ nodes:
   - immersive-engineering # updating to 0.12-98
   - immersive-petroleum # updating to 1.1.10
   - forestry # updating to 5.8.2.427
+  - astral-sorcery # updating to 1.10.27
 - id: overrides
   value:
   - name: inventory-tweaks
@@ -224,6 +225,11 @@ nodes:
     side: both
     id: 59751
     file_id: 7398359
+  - name: astral-sorcery # 1.10.27: pedestal wiping starlight network, item deletion, perk exploit
+    source: curse
+    side: both
+    id: 241721
+    file_id: 3044416
 ### Processing graph
 - id: download-pack
   kind: ArchiveDownloader
