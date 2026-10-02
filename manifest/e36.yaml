@@ -34,6 +34,7 @@ nodes:
   - storage-drawers # updating to 5.5.3
   - betterfps # Cleanroom wiki: "Outdated and breaks core functionality"
   - hammer-lib # unused (Solar Flux Reborn 12.4.11 shades its own); 7 decorative blocks go missing
+  - jei # replaced by HadEnoughItems (same modid)
 - id: overrides
   value:
   - name: inventory-tweaks
@@ -244,6 +245,16 @@ nodes:
     side: both
     id: 223852
     file_id: 5981297
+  - name: had-enough-items # HEI 4.34.3 replaces JEI (same modid). NOT 4.35.0: crashes AE2UEL 0.56.7 crafting terminal (HEI #259)
+    source: curse
+    side: both
+    id: 557549
+    file_id: 8648715
+  - name: jei-area-fixer # HEI companion (Cleanroom wiki "Should Have"); client-only coremod
+    source: curse
+    side: client
+    id: 1085598
+    file_id: 8149059
 ### Processing graph
 - id: download-pack
   kind: ArchiveDownloader

@@ -1027,6 +1027,19 @@
     "sha256": "e201712ef8fadc6c4b6380939751e92fe32cad2ba2dcb717e1acb3b07e0c2125"
   },
   {
+    "name": "had-enough-items",
+    "title": "Had Enough Items",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "HadEnoughItems_1.12.2-4.34.3.jar",
+    "encoded": "HadEnoughItems_1.12.2-4.34.3.jar",
+    "src": "https://edge.forgecdn.net/files/8648/715/HadEnoughItems_1.12.2-4.34.3.jar",
+    "size": 957943,
+    "md5": "c99b5a93d21d2a54f2750a3962fe5799",
+    "sha256": "34bfa2427c67e9208189d8563a499bc4eae7046830c53927d2c7f8723d1acd30"
+  },
+  {
     "name": "harvest-tweaks",
     "title": "Harvest Tweaks",
     "side": "both",
@@ -1235,17 +1248,17 @@
     "sha256": "f6a41f21756e50fba98a0ad32e4e23de77e622e5eb18b7f816b3544d78e85c56"
   },
   {
-    "name": "jei",
-    "title": "Just Enough Items (JEI)",
-    "side": "both",
+    "name": "jei-area-fixer",
+    "title": "JEI Area Fixer",
+    "side": "client",
     "required": true,
     "default": true,
-    "filename": "jei_1.12.2-4.15.0.291.jar",
-    "encoded": "jei_1.12.2-4.15.0.291.jar",
-    "src": "https://edge.forgecdn.net/files/2803/400/jei_1.12.2-4.15.0.291.jar",
-    "size": 651473,
-    "md5": "cfdbfecefb1bdc5a3fbbcecbfecb0545",
-    "sha256": "51e4410e1bfb30e3b31fa79bfa7e09a7a83f320d7c665767ee505a8d03b3fb90"
+    "filename": "jei_area_fixer-2.4.0.jar",
+    "encoded": "jei_area_fixer-2.4.0.jar",
+    "src": "https://edge.forgecdn.net/files/8149/59/jei_area_fixer-2.4.0.jar",
+    "size": 116549,
+    "md5": "f44b1715f20e059e723c4f2f038142a0",
+    "sha256": "4a0a4cad191c5c05c2ac285eb5a370ab8606569ed3cdac8da5cdd46b75aca570"
   },
   {
     "name": "jei-bees",
