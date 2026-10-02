@@ -28,6 +28,7 @@ nodes:
   - recurrent-complex # updating to 1.4.8.7 (security fix)
   - immersive-engineering # updating to 0.12-98
   - immersive-petroleum # updating to 1.1.10
+  - forestry # updating to 5.8.2.427
 - id: overrides
   value:
   - name: inventory-tweaks
@@ -218,6 +219,11 @@ nodes:
     side: both
     id: 268250
     file_id: 3382321
+  - name: forestry # 5.8.2.427: backpack and carpenter dupe fixes
+    source: curse
+    side: both
+    id: 59751
+    file_id: 7398359
 ### Processing graph
 - id: download-pack
   kind: ArchiveDownloader

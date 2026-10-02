@@ -928,12 +928,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "forestry_1.12.2-5.8.2.387.jar",
-    "encoded": "forestry_1.12.2-5.8.2.387.jar",
-    "src": "https://edge.forgecdn.net/files/2684/780/forestry_1.12.2-5.8.2.387.jar",
-    "size": 5232265,
-    "md5": "367a01e7ff21262fa3dfc71e8fbd7332",
-    "sha256": "812260f39b7a17c856d30ba97bbe36578635a2f3b9413fc4dc98ccbf7b0d9884"
+    "filename": "forestry_1.12.2-5.8.2.427.jar",
+    "encoded": "forestry_1.12.2-5.8.2.427.jar",
+    "src": "https://edge.forgecdn.net/files/7398/359/forestry_1.12.2-5.8.2.427.jar",
+    "size": 5399484,
+    "md5": "d8e71926c619a8b66c1121241ba3d2dd",
+    "sha256": "4ef79e7b554776522d88e405e4e76f9b2997ee46edf9a06b00bafd57988feed7"
   },
   {
     "name": "forgelin-continuous",
