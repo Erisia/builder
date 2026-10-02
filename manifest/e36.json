@@ -247,19 +247,6 @@
     "sha256": "73414de60df28fa715a059a725ad4ec16ccbbe0ba82ab801717f7d14ab0d4d6b"
   },
   {
-    "name": "betterfps",
-    "title": "BetterFps",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "BetterFps-1.4.8.jar",
-    "encoded": "BetterFps-1.4.8.jar",
-    "src": "https://edge.forgecdn.net/files/2483/393/BetterFps-1.4.8.jar",
-    "size": 155196,
-    "md5": "d36f4d3c0f96e99a9a1ad2e8eeda1fc4",
-    "sha256": "93f2496bded8f622d31d7b4b634766166c8d52dfca6e21cd9f46c445a468a381"
-  },
-  {
     "name": "betterparties",
     "title": "betterparties",
     "side": "server",
