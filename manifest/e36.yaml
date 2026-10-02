@@ -26,6 +26,8 @@ nodes:
   - farseek # using incompatible worldgen for Streams
   - streams # using incompatible worldgen for Streams
   - recurrent-complex # updating to 1.4.8.7 (security fix)
+  - immersive-engineering # updating to 0.12-98
+  - immersive-petroleum # updating to 1.1.10
 - id: overrides
   value:
   - name: inventory-tweaks
@@ -206,6 +208,16 @@ nodes:
     side: both
     id: 223150
     file_id: 8562927
+  - name: immersive-engineering # 0.12-98: dedicated-server chute crash, multiblock divide-by-zero
+    source: curse
+    side: both
+    id: 231951
+    file_id: 2974106
+  - name: immersive-petroleum # 1.1.10 (final): crude-oil dupe, distillation fluid void, boot event-handler error
+    source: curse
+    side: both
+    id: 268250
+    file_id: 3382321
 ### Processing graph
 - id: download-pack
   kind: ArchiveDownloader

@@ -1084,12 +1084,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "ImmersiveEngineering-0.12-92.jar",
-    "encoded": "ImmersiveEngineering-0.12-92.jar",
-    "src": "https://edge.forgecdn.net/files/2799/143/ImmersiveEngineering-0.12-92.jar",
-    "size": 6802153,
-    "md5": "732d7fb7d99480fc4a8885667567b54b",
-    "sha256": "c5ccdd4892679317bfbe7c0018d5255db611ba2cebb88190493a19496cb5e19e"
+    "filename": "ImmersiveEngineering-0.12-98.jar",
+    "encoded": "ImmersiveEngineering-0.12-98.jar",
+    "src": "https://edge.forgecdn.net/files/2974/106/ImmersiveEngineering-0.12-98.jar",
+    "size": 6360959,
+    "md5": "affce9a7f7cb9ab257135da89314e07e",
+    "sha256": "1dceb974d037dae7161f9a8e9f78cb33dfaad9e3adf02d14d52a3024eb961e58"
   },
   {
     "name": "immersive-petroleum",
@@ -1097,12 +1097,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "immersivepetroleum-1.12.2-1.1.9.jar",
-    "encoded": "immersivepetroleum-1.12.2-1.1.9.jar",
-    "src": "https://edge.forgecdn.net/files/2544/919/immersivepetroleum-1.12.2-1.1.9.jar",
-    "size": 906018,
-    "md5": "57ba127778e579d10d705f9f8359d2e0",
-    "sha256": "6e6b7bcd22966ef6362eec013ef915521c22232f847c3153b57189b5a4011823"
+    "filename": "immersivepetroleum-1.12.2-1.1.10.jar",
+    "encoded": "immersivepetroleum-1.12.2-1.1.10.jar",
+    "src": "https://edge.forgecdn.net/files/3382/321/immersivepetroleum-1.12.2-1.1.10.jar",
+    "size": 797724,
+    "md5": "f6a2be6438718a2b950d2fb6d21fac54",
+    "sha256": "ee32e44e15e5dd3061553982a03d58a06036d9eabb16cf59cbec85ad38bcb6cc"
   },
   {
     "name": "immersive-tech",
