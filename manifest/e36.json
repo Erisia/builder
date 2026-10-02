@@ -681,12 +681,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "DankNull-1.12.2-1.7.91.jar",
-    "encoded": "DankNull-1.12.2-1.7.91.jar",
-    "src": "https://edge.forgecdn.net/files/2920/596/DankNull-1.12.2-1.7.91.jar",
-    "size": 333253,
-    "md5": "b7f137558c8c0ed7b427592652f63809",
-    "sha256": "8e12867437df144d01307a1b76d60df35432d66f032df52aeab9a216c1b18437"
+    "filename": "DankNull-1.12.2-1.7.101.jar",
+    "encoded": "DankNull-1.12.2-1.7.101.jar",
+    "src": "https://edge.forgecdn.net/files/2962/52/DankNull-1.12.2-1.7.101.jar",
+    "size": 327386,
+    "md5": "9ed5d12995a6ede54778b728e17755a3",
+    "sha256": "2f27a2163d2e15e70ea37394381afb953864a61b653edb7453bcc14b971120e2"
   },
   {
     "name": "dcintegration",

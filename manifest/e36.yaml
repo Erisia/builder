@@ -52,6 +52,7 @@ nodes:
   - appleskin # replaced by LemonSkin; AppleCore stays
   - crafting-tweaks # replaced by crafting-tweaks-unofficial (same modid)
   - tips # replaced by AnotherTips
+  - dank-null # updating to 1.7.101 (wipes contents; see commit message)
 - id: overrides
   value:
   - name: inventory-tweaks
@@ -372,6 +373,11 @@ nodes:
     side: client
     id: 1209235
     file_id: 7646417
+  - name: dank-null # 1.7.101 (BETA): dupe fixes. WIPES dank null contents (1.7.95 moved them to a DankNullCap tag, no migration)
+    source: curse
+    side: both
+    id: 272514
+    file_id: 2962052
 ### Processing graph
 - id: download-pack
   kind: ArchiveDownloader
