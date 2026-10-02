@@ -468,19 +468,6 @@
     "sha256": "32161d8965e07f91a769cdf0325b368f7d2a4459af15abef165b57b91213b2bb"
   },
   {
-    "name": "clumps",
-    "title": "Clumps",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "Clumps-3.1.2.jar",
-    "encoded": "Clumps-3.1.2.jar",
-    "src": "https://edge.forgecdn.net/files/2666/198/Clumps-3.1.2.jar",
-    "size": 13792,
-    "md5": "e0c4c4f04aeb0e0a48fc7534f9e7d6be",
-    "sha256": "f3ce670e0087f4c6b770fd05ae5c3dfd8462f74c62397932ea72954d1c6c8df4"
-  },
-  {
     "name": "codechicken-lib-cre",
     "title": "CodeChicken Lib CRE",
     "side": "both",
@@ -2559,6 +2546,19 @@
     "size": 25417,
     "md5": "d6e426631f7d9eb1f86ef0523870811a",
     "sha256": "133c55730e48e1652c861898d05c6092b4f58badf9e627f12019000426e7df95"
+  },
+  {
+    "name": "xp-orb-clump",
+    "title": "Fixeroo",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "Fixeroo-2.3.7.jar",
+    "encoded": "Fixeroo-2.3.7.jar",
+    "src": "https://edge.forgecdn.net/files/8144/778/Fixeroo-2.3.7.jar",
+    "size": 219869,
+    "md5": "fa4fb408ce9c84a49a15399b2cde0aff",
+    "sha256": "b538c511fdcb82e46137a8f3e08d26ed7f5228b0bf3ac6cf0614038a9375e3bf"
   },
   {
     "name": "zerocore",

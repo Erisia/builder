@@ -47,6 +47,7 @@ nodes:
   - brandons-core # updating to 2.4.20
   - refined-storage # updating to 1.6.16
   - crafttweaker # updating to 4.1.20.715
+  - clumps # replaced by Fixeroo (xp-orb-clump), Cleanroom wiki
 - id: overrides
   value:
   - name: inventory-tweaks
@@ -332,6 +333,11 @@ nodes:
     side: both
     id: 239197
     file_id: 8051578
+  - name: xp-orb-clump # Fixeroo 2.3.7 (modid xporbclump), replaces Clumps (Cleanroom wiki)
+    source: curse
+    side: both
+    id: 633806
+    file_id: 8144778
 ### Processing graph
 - id: download-pack
   kind: ArchiveDownloader
