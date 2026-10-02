@@ -1027,19 +1027,6 @@
     "sha256": "e201712ef8fadc6c4b6380939751e92fe32cad2ba2dcb717e1acb3b07e0c2125"
   },
   {
-    "name": "hammer-lib",
-    "title": "HammerLib",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "HammerLib-1.12.2-2.0.6.14.jar",
-    "encoded": "HammerLib-1.12.2-2.0.6.14.jar",
-    "src": "https://edge.forgecdn.net/files/2915/65/HammerLib-1.12.2-2.0.6.14.jar",
-    "size": 2397958,
-    "md5": "609425324d2ff2b15dc44c1d0521daab",
-    "sha256": "bd082fa2d1068862c7bcc9d16eccef0efba263ee794a647936dab9885c998f2d"
-  },
-  {
     "name": "harvest-tweaks",
     "title": "Harvest Tweaks",
     "side": "both",

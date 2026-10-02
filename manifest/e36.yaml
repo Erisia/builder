@@ -33,6 +33,7 @@ nodes:
   - cyclic # updating to 1.20.14
   - storage-drawers # updating to 5.5.3
   - betterfps # Cleanroom wiki: "Outdated and breaks core functionality"
+  - hammer-lib # unused (Solar Flux Reborn 12.4.11 shades its own); 7 decorative blocks go missing
 - id: overrides
   value:
   - name: inventory-tweaks
