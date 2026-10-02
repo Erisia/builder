@@ -153,7 +153,14 @@ def sync_server_files():
             dest_item = APP_ROOT_DIR / item_name
             if source_item.exists():
                 console.print(f"Rsyncing [blue]{item_name}[/] from {source_item} to {dest_item}...")
-                run_command(['rsync', '-acL', str(source_item) + '/', str(dest_item)]) # Append / to source for content copy
+                cmd = ['rsync', '-acL']
+                if item_name == "mods":
+                    # Remove jars that were dropped from the pack; otherwise they stay loaded forever
+                    # (and a swap like JEI -> HEI loads two copies of one modid). Subdirectories are
+                    # runtime state written by mods (OTG's 1.12.2/ libraries, OpenTerrainGenerator/,
+                    # memory_repo/), so they are protected.
+                    cmd += ['--delete', '--filter=protect /*/']
+                run_command(cmd + [str(source_item) + '/', str(dest_item)]) # Append / to source for content copy
             else:
                 console.print(f"[yellow]Warning:[/] Source for {item_name} ({source_item}) not found. Skipping rsync.")
                 dest_item.mkdir(parents=True, exist_ok=True) # Ensure dir exists
