@@ -1955,12 +1955,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "RecurrentComplex-1.4.8.2.jar",
-    "encoded": "RecurrentComplex-1.4.8.2.jar",
-    "src": "https://edge.forgecdn.net/files/2689/602/RecurrentComplex-1.4.8.2.jar",
-    "size": 7076645,
-    "md5": "821b38ba97b03eb79d64db797db67dac",
-    "sha256": "ed7cd329571fa96aef64a9ce2c490139fbc0acb1548ac64cc5eefd32ce6fc063"
+    "filename": "RecurrentComplex-1.4.8.7.jar",
+    "encoded": "RecurrentComplex-1.4.8.7.jar",
+    "src": "https://edge.forgecdn.net/files/8562/927/RecurrentComplex-1.4.8.7.jar",
+    "size": 5750745,
+    "md5": "ea4efda5f75d2cde06141b5f46cc89d8",
+    "sha256": "f0019fd07cfea901c2e52da75064d24195d23ce730cee2d1c4789fb6473a8819"
   },
   {
     "name": "red-core",
