@@ -344,6 +344,16 @@ nodes:
     side: both
     id: 460609
     file_id: 8957115
+  - name: ifpatcher # IFPatcher 2.5.0 (wiki "Should Have"): conveyor insertion dupe, laser base crash, fluid pump, latex bucket fixes
+    source: curse
+    side: both
+    id: 456083
+    file_id: 8158266
+  - name: just-enough-magiculture # JER companion (wiki "Should Have"); clientSideOnly with a coremod
+    source: curse
+    side: client
+    id: 940521
+    file_id: 8018292
 ### Processing graph
 - id: download-pack
   kind: ArchiveDownloader

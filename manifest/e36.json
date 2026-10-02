@@ -1053,6 +1053,19 @@
     "sha256": "73e0a8cfd842e9ac95cd78f89f752eaac4042d6a4eabcb5f482e963fefcc30f7"
   },
   {
+    "name": "ifpatcher",
+    "title": "IFPatcher",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "IFPatcher-2.5.0.jar",
+    "encoded": "IFPatcher-2.5.0.jar",
+    "src": "https://edge.forgecdn.net/files/8158/266/IFPatcher-2.5.0.jar",
+    "size": 136172,
+    "md5": "d3b64e8c80baf58892f5c52a6963e7ef",
+    "sha256": "2b1637678012d6af47e222c5667d0939868cb46492aac3948960d6b792624ea7"
+  },
+  {
     "name": "immersive-engineering",
     "title": "Immersive Engineering",
     "side": "both",
@@ -1311,6 +1324,19 @@
     "size": 22714,
     "md5": "be626dce632db45ab61512e5a6d9cdd7",
     "sha256": "fa2f6fdfd3a43dee11b250ea079158b1cc5760c3dbdc2b031bd7cc2804f92f92"
+  },
+  {
+    "name": "just-enough-magiculture",
+    "title": "Just Enough Magiculture",
+    "side": "client",
+    "required": true,
+    "default": true,
+    "filename": "justenoughmagiculture-1.12.2-1.2.2.jar",
+    "encoded": "justenoughmagiculture-1.12.2-1.2.2.jar",
+    "src": "https://edge.forgecdn.net/files/8018/292/justenoughmagiculture-1.12.2-1.2.2.jar",
+    "size": 537618,
+    "md5": "770ca6041a8eba3cfb2804375c045131",
+    "sha256": "b1477c2ff5867fbd4ee97c0a5f387cc628155c03155722fca0b9068d3d5819a0"
   },
   {
     "name": "just-enough-resources-jer",
