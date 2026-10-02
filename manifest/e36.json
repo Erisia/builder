@@ -1820,17 +1820,30 @@
     "sha256": "9542e0863473b2cf61eff3fa7bdb9f096aaf7fc446c54750cbaa9db47a58f2fa"
   },
   {
-    "name": "patchouli",
-    "title": "Patchouli",
+    "name": "patchouli-books",
+    "title": "Patchouli Books",
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "Patchouli-1.0-20.jar",
-    "encoded": "Patchouli-1.0-20.jar",
-    "src": "https://edge.forgecdn.net/files/2731/963/Patchouli-1.0-20.jar",
-    "size": 466243,
-    "md5": "7ccc8471d31b2997768f813d8e3f7b96",
-    "sha256": "1f2664d0e81444e88398f24eafa54c07d64ee491a24c04f89752cb069cd234ae"
+    "filename": "patchoulibooks-0.3.0.jar",
+    "encoded": "patchoulibooks-0.3.0.jar",
+    "src": "https://edge.forgecdn.net/files/7506/249/patchoulibooks-0.3.0.jar",
+    "size": 608309,
+    "md5": "e8267dd0527e1c22651e6b7a40fd2ce7",
+    "sha256": "5282166865e9f90ae5fcc598babb4adc4bc0abe41b5b004abc846d1929b04680"
+  },
+  {
+    "name": "patchouli-rofl-edition",
+    "title": "Patchouli ROFL Edition",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "Patchouli-1.0-28.jar",
+    "encoded": "Patchouli-1.0-28.jar",
+    "src": "https://edge.forgecdn.net/files/6178/311/Patchouli-1.0-28.jar",
+    "size": 468768,
+    "md5": "5ec847e6d3d4f75df5ededb35ca2acfc",
+    "sha256": "df53e1130f6ea9ce01a6d8ef5ec97fb2f58341b263bdc72b102bf77609b52dbb"
   },
   {
     "name": "placebo",

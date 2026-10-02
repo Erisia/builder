@@ -35,6 +35,7 @@ nodes:
   - betterfps # Cleanroom wiki: "Outdated and breaks core functionality"
   - hammer-lib # unused (Solar Flux Reborn 12.4.11 shades its own); 7 decorative blocks go missing
   - jei # replaced by HadEnoughItems (same modid)
+  - patchouli # replaced by Patchouli ROFL Edition
 - id: overrides
   value:
   - name: inventory-tweaks
@@ -255,6 +256,16 @@ nodes:
     side: client
     id: 1085598
     file_id: 8149059
+  - name: patchouli-rofl-edition # Patchouli replacement (Cleanroom wiki), same modid
+    source: curse
+    side: both
+    id: 905159
+    file_id: 6178311
+  - name: patchouli-books # ROFL companion (wiki "Should Have"); needs ROFL >=1.0-26 and HEI >=4.29.7
+    source: curse
+    side: both
+    id: 1133738
+    file_id: 7506249
 ### Processing graph
 - id: download-pack
   kind: ArchiveDownloader
