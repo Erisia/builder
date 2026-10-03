@@ -55,6 +55,7 @@ nodes:
   - dank-null # updating to 1.7.101 (wipes contents; see commit message)
   - fast-leaf-decay # superseded by Universal Tweaks (Fast Leaf Decay)
   - fastworkbench # superseded by Universal Tweaks (Crafting Cache)
+  - industrial-craft # updated to 2.8.222 below
 - id: overrides
   value:
   - name: inventory-tweaks
@@ -385,6 +386,11 @@ nodes:
     side: both
     id: 705000
     file_id: 8941250
+  - name: industrial-craft # IC2 2.8.222 (from 2.8.197): crash/item-loss fixes, semifluid/heat gen + fluid pipe rebalance accepted (Maxwell); needed by IC2 Patcher
+    source: curse
+    side: both
+    id: 242638
+    file_id: 3838713
 ### Processing graph
 - id: download-pack
   kind: ArchiveDownloader

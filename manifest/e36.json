@@ -1110,12 +1110,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "industrialcraft-2-2.8.197-ex112.jar",
-    "encoded": "industrialcraft-2-2.8.197-ex112.jar",
-    "src": "https://edge.forgecdn.net/files/2924/320/industrialcraft-2-2.8.197-ex112.jar",
-    "size": 8524304,
-    "md5": "962202124b8550ec5406b1c6d1b267da",
-    "sha256": "11ff8c7db7156d804067855be26324f2dd79f79f9cf116c89c106346825758c9"
+    "filename": "industrialcraft-2-2.8.222-ex112.jar",
+    "encoded": "industrialcraft-2-2.8.222-ex112.jar",
+    "src": "https://edge.forgecdn.net/files/3838/713/industrialcraft-2-2.8.222-ex112.jar",
+    "size": 8698102,
+    "md5": "21cd00f737defbdac2321716d3418560",
+    "sha256": "f96b1886b6d060b308fb811029d5c5cc76deb17b835aa368dcb6071f2de290d4"
   },
   {
     "name": "industrial-foregoing",
