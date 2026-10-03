@@ -33,6 +33,7 @@
       packages.${system} = flatPackPackages // {
         save-threading-fix = builder.saveThreadingFix;
         live-inspector = builder.liveInspector;
+        danknull-migrate = builder.dankNullMigrate;
         default = builder.ServerPackLocal;
         inherit (builder) ServerPack ServerPackLocal ServerPackE35 web mcupdaterFlakeRepo;
         serverPack = builder.ServerPack;

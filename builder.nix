@@ -18,6 +18,11 @@ rec {
 
   slimeStomach = callPackage ./mods/slimestomach {};
 
+  # Moves DankNull 1.7.91 contents into the 1.7.95+ storage tag; keep it installed after the update.
+  dankNullMigrate = callPackage ./mods/danknull-migrate {
+    launcherDir = packs.e36.launcherDir;
+  };
+
   packs = {
     # e33 = buildPack e33;
     # e33_5 = buildPack e33_5;
@@ -57,6 +62,7 @@ rec {
       saveThreadingFix
       liveInspector
       slimeStomach
+      dankNullMigrate
       ./base/e36-minebuild-server
     ];
     extraClientDirs = [

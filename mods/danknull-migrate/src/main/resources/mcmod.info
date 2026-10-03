@@ -1,0 +1,8 @@
+[{
+  "modid": "erisia_danknull_migrate",
+  "name": "Erisia DankNull Migrate",
+  "description": "Server-only: moves DankNull 1.7.91 contents into the 1.7.95+ storage tag so they survive the update.",
+  "version": "1.0.0",
+  "mcversion": "1.12.2",
+  "authorList": ["Erisia"]
+}]
