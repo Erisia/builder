@@ -31,7 +31,6 @@ nodes:
   - forestry # updating to 5.8.2.427
   - astral-sorcery # updating to 1.10.27
   - cyclic # updating to 1.20.14
-  - storage-drawers # updating to 5.5.3
   - betterfps # Cleanroom wiki: "Outdated and breaks core functionality"
   - hammer-lib # unused (Solar Flux Reborn 12.4.11 shades its own); 7 decorative blocks go missing
   - jei # replaced by HadEnoughItems (same modid)
@@ -261,11 +260,6 @@ nodes:
     side: both
     id: 239286
     file_id: 4075832
-  - name: storage-drawers # 5.5.3: drawer-upgrade dupe fix (framed-compacting-drawers 1.0.1 checked compatible)
-    source: curse
-    side: both
-    id: 223852
-    file_id: 5981297
   - name: had-enough-items # HEI 4.34.3 replaces JEI (same modid). NOT 4.35.0: crashes AE2UEL 0.56.7 crafting terminal (HEI #259)
     source: curse
     side: both
