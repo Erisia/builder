@@ -391,6 +391,11 @@ nodes:
     side: both
     id: 242638
     file_id: 3838713
+  - name: ic2-patcher # IC2 Patcher 2.0.13 (wiki "Should Have"; needs IC2 >= 2.8.221): Batch Crafter dupes, crashes, AE2 auto-output; default balance options kept (Maxwell)
+    source: curse
+    side: both
+    id: 456402
+    file_id: 7695929
 ### Processing graph
 - id: download-pack
   kind: ArchiveDownloader

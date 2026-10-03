@@ -1027,6 +1027,19 @@
     "sha256": "73e0a8cfd842e9ac95cd78f89f752eaac4042d6a4eabcb5f482e963fefcc30f7"
   },
   {
+    "name": "ic2-patcher",
+    "title": "IC2 Patcher",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "IC2-Patcher-2.0.13.jar",
+    "encoded": "IC2-Patcher-2.0.13.jar",
+    "src": "https://edge.forgecdn.net/files/7695/929/IC2-Patcher-2.0.13.jar",
+    "size": 311383,
+    "md5": "31cada89d29afe986afd3e5d299c4462",
+    "sha256": "d05851ed1d7d427dac7d293a2cdc78a4d1ec821264b28c50fb6da79601779657"
+  },
+  {
     "name": "ifpatcher",
     "title": "IFPatcher",
     "side": "both",
