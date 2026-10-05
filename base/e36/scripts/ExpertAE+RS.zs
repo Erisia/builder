@@ -47,6 +47,7 @@ recipes.remove(<appliedenergistics2:material:43>);//FORMATION CORE
 recipes.remove(<appliedenergistics2:material:44>);//ANNIHILATION CORE
 recipes.remove(<refinedstorage:controller>);//ANNIHILATION CORE
 recipes.remove(<appliedenergistics2:material:41>);//WIRELESS RECEIVER
+recipes.remove(<appliedenergistics2:entropy_manipulator>);//ENTROPY MANIPULATOR
 //ADD RECIPES
 recipes.addShaped(<refinedstorage:machine_casing>*2,[[<refinedstorage:quartz_enriched_iron>,<galacticraftplanets:item_basic_mars:2>,<refinedstorage:quartz_enriched_iron>],
 																[<galacticraftplanets:item_basic_mars:2>,<thermalexpansion:frame:0>,<galacticraftplanets:item_basic_mars:2>],
@@ -168,6 +169,9 @@ recipes.addShapeless(<appliedenergistics2:part:380>,[<ore:itemIlluminatedPanel>,
 recipes.addShapeless(<appliedenergistics2:material:43>*2,[<ore:gemCertusQuartz>, <refinedstorage:processor:4>, <appliedenergistics2:material:8>]);//FORMATION CORE
 recipes.addShapeless(<appliedenergistics2:material:44>*2,[<ore:gemQuartz>, <refinedstorage:processor:4>, <appliedenergistics2:material:8>]);//ANNIHILATION CORE
 recipes.addShapeless(<appliedenergistics2:crafting_accelerator>,[<appliedenergistics2:crafting_unit>, <refinedstorage:processor:5>]);//CRAFTING COPROCESSOR
+recipes.addShaped(<appliedenergistics2:entropy_manipulator>,[[<ore:crystalFluix>,<appliedenergistics2:energy_cell>,null],
+																[<refinedstorage:processor:5>,<ore:ingotIron>,null],
+																[null,null,<ore:ingotIron>]]);//ENTROPY MANIPULATOR (engineering processor -> RS advanced processor)
 mods.thermalexpansion.InductionSmelter.addRecipe(<refinedstorage:quartz_enriched_iron>*4, <minecraft:iron_ingot> * 4, <botania:quartztypered:0> * 4, 10000);
 mods.thermalexpansion.InductionSmelter.addRecipe(<appliedenergistics2:sky_stone_block>*2, <minecraft:end_stone>, <galacticraftcore:basic_block_moon:5>, 2500);//SKY STONE
 mods.thermalexpansion.Sawmill.addRecipe(<refinedstorage:processor_binding>, <refinedstorage:silicon>, 5000);
