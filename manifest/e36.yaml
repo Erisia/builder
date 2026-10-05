@@ -390,6 +390,11 @@ nodes:
     side: both
     id: 456402
     file_id: 7695929
+  - name: ae2-network-visualiser # Maxwell 10-05; 1.0.3.0 (2019, for AE2 rv6), needs Brandon's Core + CCL
+    source: curse
+    side: both
+    id: 321720
+    file_id: 2711427
 ### Processing graph
 - id: download-pack
   kind: ArchiveDownloader

@@ -26,6 +26,19 @@
     "sha256": "dfca9f74cfebb4e79806ae77cd6bcedc30649be2b0e505e06d629386b0c3074e"
   },
   {
+    "name": "ae2-network-visualiser",
+    "title": "AE2 Network Visualiser",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "AE-Net-Vis-Tool-1.12.2-1.0.3.0-universal.jar",
+    "encoded": "AE-Net-Vis-Tool-1.12.2-1.0.3.0-universal.jar",
+    "src": "https://edge.forgecdn.net/files/2711/427/AE-Net-Vis-Tool-1.12.2-1.0.3.0-universal.jar",
+    "size": 77203,
+    "md5": "065931bbb6c1a413cccf61f1f4c2e877",
+    "sha256": "0e898bf22d923889986e70705351601c4f8b98f6ef917b1644082067008b2310"
+  },
+  {
     "name": "ae2wtlib",
     "title": "AE2 Wireless Terminal Library",
     "side": "both",
