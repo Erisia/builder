@@ -73,6 +73,7 @@
               ./base/server/crash_analysis.py
               ./base/server/start.py
               ./tests/test_daily_restart.py
+              ./tests/test_start_java.py
               ./tests/test_shutdown.py
               ./tests/test_crash_analysis.py
             ];

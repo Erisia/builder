@@ -36,6 +36,8 @@ rec {
     port = 25565;
     prometheusPort = 1224;
     minecraft = "1.12.2";
+    # start.py runs Cleanroom on Java 25; this pins which build.
+    java = jdk25;
     cleanroom = {
       major = "0.6.12";
       minor = "alpha";

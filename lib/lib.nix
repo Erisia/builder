@@ -40,6 +40,9 @@ rec {
     vanilla ? false,
     client-forge ? null,
     ram ? "4000m",
+    # The JDK the server runs on. Linked as bin/java in the server, which start.py prefers
+    # over `nix shell nixpkgs#…`, so the JDK comes from flake.lock. null: start.py's fallback.
+    java ? null,
     manifest,
     blacklist ? [],
     extraDirs ? [],
@@ -123,7 +126,10 @@ rec {
         launcherDir
         (wrapDir "mods" serverModsDir)
         (callPackage ../tools/control {})
-      ] ++ extraServerDirs ++ extraDirs;
+      ] ++ lib.optional (java != null) (runLocally "${name}-java" {} ''
+        mkdir -p $out/bin
+        ln -s ${java}/bin/java $out/bin/java
+      '') ++ extraServerDirs ++ extraDirs;
 
       postBuild = ''
         cd $out

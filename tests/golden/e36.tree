@@ -222,6 +222,7 @@ e36-client-mods/woot-1.12.2-1.4.11.jar	f	879720	f4f0b7a1861a4b2f11c6dc5f315090ec
 e36-client-mods/zerocore-1.12.2-0.1.2.8.jar	f	228623	99ca0107097641349055713e3505b434c4115e55a82d427975d6b2528500310b
 e36-server/README.md	f	5040	fba78ccaf731b0088387ed020ac877a32ec0b0f3e28d40b7f430187855d14825
 e36-server/bin/control	x	1334248	7a4ecf525a5ae4ff3ae40aeb57c8a1e999dc5a691ea92fb4ac9d7188a1db51d0
+e36-server/bin/java	x	16672	cdf7fd6735baa5dec6829fc208952fa08d8fc450849d0a3607d212b17d1734b3
 e36-server/bin/test-live-inspector	x	476	dad64dfe5b203e6692c06f22b921448c93eaa43b5a80b0b5981154721912f2d6
 e36-server/bin/test-save-threading	x	476	d2b3b6ea0c9f88891c4313376d011e477c56ee1f3fb6b1d16f337472c50bcddd
 e36-server/config/AE2WirelessTerminals.cfg	f	1893	c7ea2ba41a17fda35b9a9d45bebb97473ebf232cd58cd599bd39452a5f9cbf46
@@ -1341,7 +1342,7 @@ e36-server/share/live-inspector-tests/erisia-live-inspector-0.1.0.jar	f	65218	28
 e36-server/share/live-inspector-tests/erisia-live-inspector-tests-0.1.0.jar	f	15513	d0b6a35c172a0628dcf6f4c4d8d50e40a478a8c31aea1c06c2327e3f7e6ff354
 e36-server/share/save-threading-tests/erisia-save-threading-0.1.0.jar	f	31964	09ae7e3b4aaa815daeebba12323dad4b840dfa131216a4042571c4d029881666
 e36-server/share/save-threading-tests/erisia-save-threading-tests-0.1.0.jar	f	31087	99063354bad712a52605f4b8173e76e08cdb07f764dfbf0887472ef18bd4eef4
-e36-server/start.py	x	36856	13f3a28bc8f3d5d0d95cb0d0cac628f4c8de15a3db7092acf74b7fbd231dc5a1
+e36-server/start.py	x	37955	0865d3b712e86d95637df59d2e801cb7b841708219f5da444540bcee05c7e7ce
 e36-server/stop.sh	x	97	ee5346efa7175d923dcac64a926acd1172c88a885f5cc74851edb651f86fb503
 e36-server/structures/active/erisDungeonZ.rcst	f	33204	5410a2c93de2480c969d6191e685bd3ff2d981d8c68e227674f835832cd0a6f7
 e36-server/structures/active/jupiterDungeonZ.rcst	f	12851	a612f34b97bcc275e3050625206c2ef92d88ded9108f97799a0c0aaeee35bc3b
