@@ -221,10 +221,10 @@ e36-client-mods/vintagefix-0.7.1.jar	f	1043648	e6f0b4e16625b2ffad558e9dbb90cb1ac
 e36-client-mods/woot-1.12.2-1.4.11.jar	f	879720	f4f0b7a1861a4b2f11c6dc5f315090ec411dce8a62df3347fd00a96f191fb2e9
 e36-client-mods/zerocore-1.12.2-0.1.2.8.jar	f	228623	99ca0107097641349055713e3505b434c4115e55a82d427975d6b2528500310b
 e36-server/README.md	f	5040	fba78ccaf731b0088387ed020ac877a32ec0b0f3e28d40b7f430187855d14825
-e36-server/bin/control	x	1334248	7a4ecf525a5ae4ff3ae40aeb57c8a1e999dc5a691ea92fb4ac9d7188a1db51d0
-e36-server/bin/java	x	16672	cdf7fd6735baa5dec6829fc208952fa08d8fc450849d0a3607d212b17d1734b3
-e36-server/bin/test-live-inspector	x	476	dad64dfe5b203e6692c06f22b921448c93eaa43b5a80b0b5981154721912f2d6
-e36-server/bin/test-save-threading	x	476	d2b3b6ea0c9f88891c4313376d011e477c56ee1f3fb6b1d16f337472c50bcddd
+e36-server/bin/control	x	1334192	650b1693fb2fbf400401d92d95905fb4baf05775575680b25d295f61c3eb1188
+e36-server/bin/java	x	16672	a1944d19d3a0f42e337f35281fc0a5ccb19e86cee572d0cd408049f20eb47a55
+e36-server/bin/test-live-inspector	x	476	97352a8d21c3e948f99db5f2a4044dbf85becad1bc311824389ad57c1359cda0
+e36-server/bin/test-save-threading	x	476	c4e010b9f0f761042299f08525bc94b8954dad0f37068d4dd87b2fd4793034ad
 e36-server/config/AE2WirelessTerminals.cfg	f	1893	c7ea2ba41a17fda35b9a9d45bebb97473ebf232cd58cd599bd39452a5f9cbf46
 e36-server/config/Animus.cfg	f	3490	441ab45487ae9d4bf08b91fd2b8f74b54ebbfcf2bbb762fa9d0ec4791b10acf4
 e36-server/config/AppliedEnergistics2/AppliedEnergistics2.cfg	f	13503	767342bc639b0954f75464603dc212b344eda3e0ec5f9fa11f4cb97a61d37b8d
@@ -1338,7 +1338,7 @@ e36-server/scripts/MineTweakerRecipeMaker.zs	f	4003	cdafff3080da6c731ade60d41940
 e36-server/scripts/Tooltips.zs	f	3367	538b2754c8c913a44312a2aa411091d5d8cdec7cdc41c4204a4bcad726e5d5c1
 e36-server/scripts/dropt.zs	f	621	e78d68ef7a59c500b0c4ab80d38056fdc9861a12e31630e4a677a4ce318dfe7d
 e36-server/server.properties	f	827	9c553cd8675a164143fc0104caa20c343557f2f94ee3c03330fb3dcee1f43bb2
-e36-server/serverpack	f	55	283a54ec5a880b17d5d6a3375511370b2bd1365663d0e4b0d4709d23744b4de6
+e36-server/serverpack	f	55	b3112618777c6637c7ab0b2a7670e50ca430852dd72b614621f88a0fbb3f351a
 e36-server/share/live-inspector-tests/erisia-live-inspector-0.1.0.jar	f	65218	286e6e62576f3ecac582815f323fdb5a821a843872461400548ad7ea4f49983e
 e36-server/share/live-inspector-tests/erisia-live-inspector-tests-0.1.0.jar	f	15513	d0b6a35c172a0628dcf6f4c4d8d50e40a478a8c31aea1c06c2327e3f7e6ff354
 e36-server/share/save-threading-tests/erisia-save-threading-0.1.0.jar	f	31964	09ae7e3b4aaa815daeebba12323dad4b840dfa131216a4042571c4d029881666
