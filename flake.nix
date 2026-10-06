@@ -10,6 +10,7 @@
       system = "x86_64-linux";
       pkgs = nixpkgs.legacyPackages.${system};
       builder = import ./builder.nix { inherit pkgs; };
+      golden = import ./lib/golden.nix { inherit pkgs builder; };
       packPackages = pkgs.lib.mapAttrs (_: pack: {
         inherit (pack)
           launcherDir
@@ -34,6 +35,7 @@
         save-threading-fix = builder.saveThreadingFix;
         live-inspector = builder.liveInspector;
         danknull-migrate = builder.dankNullMigrate;
+        golden-e36 = golden.tree;
         default = builder.ServerPackLocal;
         inherit (builder) ServerPack ServerPackLocal ServerPackE35 web mcupdaterFlakeRepo;
         serverPack = builder.ServerPack;
@@ -44,6 +46,8 @@
       legacyPackages.${system} = builder;
 
       checks.${system} = {
+        golden-e36 = golden.check;
+        quality = import ./lib/quality.nix { inherit pkgs; };
         save-threading-fix = builder.saveThreadingFix.tests.integration;
         live-inspector = builder.liveInspector.tests.integration;
         tick-debug = pkgs.runCommand "minecraft-tick-debug-tests" {
