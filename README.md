@@ -17,14 +17,12 @@ $ builder/update-and-start.sh
 
 Common build targets:
 ```
-$ nix build .#e34_5-server
-$ nix build .#e35-server
-$ nix build .#vanilla-server
+$ nix build .#e36-server
 $ nix build .#serverPackLocal
 ```
 
 Legacy `nix-build -f .` entry points are still supported for the main builder attributes,
-including nested targets such as `packs.e35.server`. They use the nixpkgs pinned in
+including nested targets such as `packs.e36.server`. They use the nixpkgs pinned in
 `flake.lock`, so they build exactly what the flake builds.
 
 ### Checks
@@ -58,7 +56,7 @@ To refresh a Forge-like launcher, set its `outputHash` in `launcher-lock.json` t
 fake hash such as `sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=`, then build
 the launcher:
 ```
-$ nix build .#e34_5-launcherDir
+$ nix build .#e36-launcherDir
 ```
 Nix will report the real recursive hash in the fixed-output mismatch error; copy that
 value back into `launcher-lock.json`.

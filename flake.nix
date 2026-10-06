@@ -37,10 +37,9 @@
         danknull-migrate = builder.dankNullMigrate;
         golden-e36 = golden.tree;
         default = builder.ServerPackLocal;
-        inherit (builder) ServerPack ServerPackLocal ServerPackE35 web mcupdaterFlakeRepo;
+        inherit (builder) ServerPack ServerPackLocal web mcupdaterFlakeRepo;
         serverPack = builder.ServerPack;
         serverPackLocal = builder.ServerPackLocal;
-        serverPackE35 = builder.ServerPackE35;
       };
 
       legacyPackages.${system} = builder;

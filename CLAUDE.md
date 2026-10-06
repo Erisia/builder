@@ -64,7 +64,6 @@ Each pack in `builder.nix` contains:
   - `base/e36/`, `base/e36-third-party/`: Pack-specific configs
   - `base/e36-minebuild-server/`: Server-only configs
   - `base/e36-client/`: Client-only configs
-  - `base/client/`: Shared client configs
   - `base/server/`: Shared server configs
 - `modestly-modular-modpack-modifier/`: Rust-based workflow processor for modpack building
 - `mods/`: In-house server mods for e36 (`save-threading-fix`, `live-inspector`); each has a README
@@ -143,9 +142,8 @@ The `modestly-modular-modpack-modifier` is a Rust-based DAG workflow processor t
 
 ## Active Packs
 - `e36`: Current active pack (Minecraft 1.12.2, Cleanroom 0.6.12-alpha). Live on `~/erisia`.
-- `e35`: Previous pack (Fabric 1.18.2)
-- `e34_5`: Older pack (NeoForge 1.21.1)
-- `e34`, `e33_5`, `e33`: Legacy, commented out in `builder.nix`
+- Older packs (e33 to e35, e34_5, vanilla) were retired on 2026-10-06. Their definitions, configs and manifests
+  are on the `archive/pre-2026-10` bookmark.
 
 The live server rebuilds from this checkout's working copy on every restart (including the
 scheduled 06:00/18:00 ones), so uncommitted edits here ship at the next restart.
