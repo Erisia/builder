@@ -147,3 +147,6 @@ The `modestly-modular-modpack-modifier` is a Rust-based DAG workflow processor t
 
 The live server rebuilds from this checkout's working copy on every restart (including the
 scheduled 06:00/18:00 ones), so uncommitted edits here ship at the next restart.
+Building a server also builds the ServerPack (`clientPack` in `lib/lib.nix`), so a client pack
+that fails to build stops the restart. That is deliberate: players must not be left with a stale
+or broken pack.

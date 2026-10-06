@@ -1338,6 +1338,7 @@ e36-server/scripts/MineTweakerRecipeMaker.zs	f	4003	cdafff3080da6c731ade60d41940
 e36-server/scripts/Tooltips.zs	f	3367	538b2754c8c913a44312a2aa411091d5d8cdec7cdc41c4204a4bcad726e5d5c1
 e36-server/scripts/dropt.zs	f	621	e78d68ef7a59c500b0c4ab80d38056fdc9861a12e31630e4a677a4ce318dfe7d
 e36-server/server.properties	f	827	9c553cd8675a164143fc0104caa20c343557f2f94ee3c03330fb3dcee1f43bb2
+e36-server/serverpack	f	55	283a54ec5a880b17d5d6a3375511370b2bd1365663d0e4b0d4709d23744b4de6
 e36-server/share/live-inspector-tests/erisia-live-inspector-0.1.0.jar	f	65218	286e6e62576f3ecac582815f323fdb5a821a843872461400548ad7ea4f49983e
 e36-server/share/live-inspector-tests/erisia-live-inspector-tests-0.1.0.jar	f	15513	d0b6a35c172a0628dcf6f4c4d8d50e40a478a8c31aea1c06c2327e3f7e6ff354
 e36-server/share/save-threading-tests/erisia-save-threading-0.1.0.jar	f	31964	09ae7e3b4aaa815daeebba12323dad4b840dfa131216a4042571c4d029881666

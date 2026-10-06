@@ -24,8 +24,11 @@ rec {
   };
 
   # Only E36 is live. Older packs were retired on 2026-10-06; see the archive/pre-2026-10 bookmark.
+  # Each server is built with the ServerPack (see clientPack in lib/lib.nix): players need a working
+  # client pack, so a broken one fails the server build. Nix is lazy and the ServerPack reads only
+  # the packs' client halves, so this isn't circular.
   packs = {
-    e36 = buildPack e36;
+    e36 = buildPack (e36 // { clientPack = ServerPack; });
   };
 
   e36 = {

@@ -43,6 +43,11 @@ rec {
     # The JDK the server runs on. Linked as bin/java in the server, which start.py prefers
     # over `nix shell nixpkgs#…`, so the JDK comes from flake.lock. null: start.py's fallback.
     java ? null,
+    # The ServerPack that publishes this pack's client. When set, the server build depends on it,
+    # so the server can't be built (or restarted) while the client pack is broken: running a server
+    # players can't join, or serving them a stale pack, is worse than failing loudly. Its path is
+    # recorded in the server's `serverpack` file.
+    clientPack ? null,
     manifest,
     blacklist ? [],
     extraDirs ? [],
@@ -131,7 +136,9 @@ rec {
         ln -s ${java}/bin/java $out/bin/java
       '') ++ extraServerDirs ++ extraDirs;
 
-      postBuild = ''
+      postBuild = lib.optionalString (clientPack != null) ''
+        echo ${clientPack} > $out/serverpack
+      '' + ''
         cd $out
         for i in *.py *.sh *.service config/prometheus-integration.cfg *.txt; do
           substituteAll "$i" "$i".tmp
