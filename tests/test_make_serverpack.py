@@ -10,6 +10,7 @@ import unittest
 import zipfile
 from pathlib import Path
 from typing import Any
+from unittest import mock
 from xml.etree import ElementTree
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -160,6 +161,33 @@ class ServerPackTests(unittest.TestCase):
         changed_loader = copy.deepcopy(base)
         changed_loader["loader"]["version"] = "1.12.2-14.23.5.2860"
         self.assertNotEqual(self.revision_of(base), self.revision_of(changed_loader))
+
+    def test_bootstrap_is_deterministic_and_keeps_metadata(self) -> None:
+        base = self.tmp / "base.jar"
+        stamp = (2021, 11, 15, 21, 11, 56)
+        with zipfile.ZipFile(base, "w") as z:
+            for name, data in (
+                ("Main.class", b"x" * 100),
+                ("config.properties", b"old"),
+            ):
+                info = zipfile.ZipInfo(name, date_time=stamp)
+                info.compress_type = zipfile.ZIP_DEFLATED
+                z.writestr(info, data)
+        first, second = self.tmp / "1.jar", self.tmp / "2.jar"
+        msp.make_bootstrap(base, "https://a/", first)
+        with mock.patch("time.time", return_value=2e9):
+            msp.make_bootstrap(base, "https://a/", second)
+        self.assertEqual(first.read_bytes(), second.read_bytes())
+        with zipfile.ZipFile(first) as z:
+            infos = z.infolist()
+            self.assertEqual(
+                [i.filename for i in infos], ["Main.class", "config.properties"]
+            )
+            self.assertTrue(all(i.date_time == stamp for i in infos))
+            self.assertTrue(all(i.compress_type == zipfile.ZIP_DEFLATED for i in infos))
+            self.assertIn(
+                b"defaultPack = https://a/ServerPack.xml", z.read("config.properties")
+            )
 
     def test_main_rejects_wrong_arguments(self) -> None:
         with self.assertRaises(SystemExit):

@@ -81,25 +81,30 @@ rec {
   };
 
   # MCUpdater Flake Repository
+  # Served as a dumb-HTTP git repo, for `nix run git+https://madoka.brage.info/mcupdater-nixos`.
+  # Deterministic: the hash is read at build time (not by evaluation), the commit date is fixed,
+  # and the index (stat data) is dropped, so the same jar always gives the same commit.
   mcupdaterFlakeRepo = runCommand "mcupdater-flake-repo" {
     src = ./mcupdater-nixos;
     buildInputs = [ git ];
-    bootstrapHash = builtins.hashFile "sha256" "${ServerPack}/MCUpdater-Bootstrap.jar";
+    bootstrap = "${ServerPack}/MCUpdater-Bootstrap.jar";
   } ''
     # Create git repo with flake
     cp -r $src/* .
-    
+
     # Substitute the bootstrap hash
     substituteInPlace flake.nix \
-      --replace-fail "@BOOTSTRAP_HASH@" "$bootstrapHash"
-    
+      --replace-fail "@BOOTSTRAP_HASH@" "$(sha256sum "$bootstrap" | cut -d' ' -f1)"
+
     # Initialize git repo
+    export GIT_AUTHOR_DATE="2000-01-01T00:00:00Z" GIT_COMMITTER_DATE="2000-01-01T00:00:00Z"
     git init -b master
     git config user.name "Erisia Builder"
     git config user.email "builder@madoka.brage.info"
     git add .
     git commit -m "MCUpdater flake for Erisia servers"
     git update-server-info
+    rm .git/index
 
     mv .git $out
   '';

@@ -23,9 +23,9 @@ let
     "e36-server" = e36.server;
     "e36-client-mods" = e36.clientModsDir;
     "e36-client-configs" = e36.clientConfigsDir;
-    # Only the XML. The bootstrap jar beside it embeds its build time, so it would differ on every
-    # rebuild until that is made deterministic. The packs/ tree is symlinks to the dirs above.
+    # The packs/ tree beside these is symlinks to the dirs above.
     "ServerPack.xml" = "${builder.ServerPack}/ServerPack.xml";
+    "MCUpdater-Bootstrap.jar" = "${builder.ServerPack}/MCUpdater-Bootstrap.jar";
   };
 
   tree = pkgs.runCommand "golden-e36.tree" { nativeBuildInputs = [ pkgs.python3 ]; } ''

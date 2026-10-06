@@ -262,22 +262,33 @@ def link_pack_files(
 
 
 def make_bootstrap(base_jar: Path, url_base: str, output: Path) -> None:
-    """Copy the bootstrap jar, adding a config.properties that points at this ServerPack."""
-    with zipfile.ZipFile(base_jar, "r") as z:
-        files = {info.filename: z.read(info.filename) for info in z.infolist()}
+    """Copy the bootstrap jar, replacing its config.properties with one for this ServerPack.
 
+    Every entry keeps its original metadata (date, compression, permissions), and the new
+    config.properties takes over the old one's. So the output depends only on the input jar
+    and url_base: rebuilding gives the same bytes, and the hash in mcupdater-nixos stays put.
+    """
     properties = f"""\
 bootstrapURL = https://files.mcupdater.com/Bootstrap.xml
 distribution = JavaFX-Release
 defaultPack = {url_base}ServerPack.xml
 customPath =
 passthroughArgs = -defaultMem 6G
-    """
-    files["config.properties"] = properties.encode("utf-8")
+    """.encode()
 
-    with zipfile.ZipFile(output, "x") as z:
-        for filename, data in files.items():
-            z.writestr(filename, data)
+    with zipfile.ZipFile(base_jar, "r") as src, zipfile.ZipFile(output, "x") as dst:
+        replaced = False
+        for info in src.infolist():
+            if info.filename == "config.properties":
+                dst.writestr(info, properties)
+                replaced = True
+            else:
+                dst.writestr(info, src.read(info))
+        if not replaced:
+            info = zipfile.ZipInfo("config.properties", date_time=(1980, 1, 1, 0, 0, 0))
+            info.external_attr = 0o644 << 16
+            info.compress_type = zipfile.ZIP_DEFLATED
+            dst.writestr(info, properties)
 
 
 def create_server_pack(
