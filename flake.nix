@@ -15,7 +15,6 @@
         inherit (pack)
           launcherDir
           server
-          mcuPack
           clientConfigDir
           clientConfigsDir
           clientModsDir
@@ -24,7 +23,6 @@
       flatPackPackages = pkgs.lib.concatMapAttrs (name: pack: {
         "${name}-launcherDir" = pack.launcherDir;
         "${name}-server" = pack.server;
-        "${name}-mcuPack" = pack.mcuPack;
         "${name}-clientConfigDir" = pack.clientConfigDir;
         "${name}-clientConfigsDir" = pack.clientConfigsDir;
         "${name}-clientModsDir" = pack.clientModsDir;

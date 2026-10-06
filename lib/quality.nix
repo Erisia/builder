@@ -22,8 +22,13 @@ let
   pythonFiles = [
     ../tools/golden/golden_tree.py
     ../tests/test_golden_tree.py
+    ./make-serverpack.py
+    ../tests/test_make_serverpack.py
   ];
-  unitTests = [ "tests/test_golden_tree.py" ];
+  unitTests = [
+    "tests/test_golden_tree.py"
+    "tests/test_make_serverpack.py"
+  ];
 
   src = lib.fileset.toSource {
     root = ../.;
