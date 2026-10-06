@@ -45,7 +45,7 @@ nix build .#packages.x86_64-linux
 ## Architecture
 
 ### Core Structure
-- `default.nix`: Main entry point; imports `builder.nix`, which defines all pack configurations and in-house mods
+- `default.nix`: Legacy entry point; imports `builder.nix` (all pack configurations and in-house mods) with the nixpkgs pinned in `flake.lock`
 - `lib/lib.nix`: Core build functions and utilities for pack generation
 - `flake.nix`: Nix flake definition for modern Nix workflows
 
@@ -78,6 +78,14 @@ The Nix build system creates several artifacts:
 - `ServerPack`/`ServerPackLocal`: Complete launcher packages
 - Client/server mod filtering based on manifest side property
 - Automatic config bundling and mod fetching
+
+### Checks
+- `checks.golden-e36` compares every e36 output file against `tests/golden/e36.tree`. A change that
+  should not alter outputs must pass unchanged. One that should alter them commits the regenerated
+  file (`nix build .#golden-e36 && cp result tests/golden/e36.tree`).
+- `checks.quality` (`lib/quality.nix`): nixfmt, statix, deadnix, ruff, mypy --strict and unit tests for
+  the files it lists. New or rewritten Nix/Python files go on that list. Give every `lib/*.nix` file a
+  header comment saying what it produces and who consumes it.
 
 ## Modpack Development Workflow
 

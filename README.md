@@ -24,7 +24,17 @@ $ nix build .#serverPackLocal
 ```
 
 Legacy `nix-build -f .` entry points are still supported for the main builder attributes,
-including nested targets such as `packs.e35.server`.
+including nested targets such as `packs.e35.server`. They use the nixpkgs pinned in
+`flake.lock`, so they build exactly what the flake builds.
+
+### Checks
+
+`nix flake check` runs the unit tests, the in-house mod integration tests, and:
+- `golden-e36`: compares every file the e36 server and its players receive (path, mode, size,
+  sha256) against `tests/golden/e36.tree`. If a change is meant to alter the outputs, regenerate
+  the file and commit it with the change, so the review shows what changed:
+  `nix build .#golden-e36 && cp result tests/golden/e36.tree`
+- `quality`: formatting, lints, types and unit tests for the files listed in `lib/quality.nix`.
 
 ### Website
 
