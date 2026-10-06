@@ -10,12 +10,13 @@ rec {
    * Extends a pack definition with all its derivations.
    *
    * Attributes:
-   * - mcuPack: Everything needed to build an MCUpdater config.
+   * - client: What a client receives, as plain data (no server references). The ServerPack is
+   *   built from these alone, so server-only changes never reach players.
    * - server: The completed server, with all dependencies.
    *
    * - clientConfigDir: A combined directory with all the client-propagated configuration.
-   * - clientConfigs: Zipfiles and md5s for the above, one per zipdir.
-   * - clientConfigsDir: That, as one directory.
+   * - clientConfigsDir: One <dir>.zip (+ .md5, .size) per top-level dir of the above, made at
+   *   build time. Nothing reads it during evaluation.
    * - clientMods: Filtered manifest entries for the client.
    * - clientModsDir: The client's mods directory.
    *
@@ -39,6 +40,14 @@ rec {
     vanilla ? false,
     client-forge ? null,
     ram ? "4000m",
+    # The JDK the server runs on. Linked as bin/java in the server, which start.py prefers
+    # over `nix shell nixpkgs#…`, so the JDK comes from flake.lock. null: start.py's fallback.
+    java ? null,
+    # The ServerPack that publishes this pack's client. When set, the server build depends on it,
+    # so the server can't be built (or restarted) while the client pack is broken: running a server
+    # players can't join, or serving them a stale pack, is worse than failing loudly. Its path is
+    # recorded in the server's `serverpack` file.
+    clientPack ? null,
     manifest,
     blacklist ? [],
     extraDirs ? [],
@@ -66,25 +75,27 @@ rec {
       find -L . -maxdepth 1 -type f -exec mv {} base/ \;
     '';
 
-    clientConfigs = builtins.listToAttrs (map (name: rec {
-      inherit name;
-      value = rec {
-        zipDir = mkZipDir name "${clientConfigDir}/${name}";
-        md5 = builtins.readFile "${zipDir}/${name}.md5";
-        size = import "${zipDir}/${name}.size";
-      };
-    }) (builtins.attrNames (builtins.readDir clientConfigDir)));
+    clientConfigsDir = mkZipDirs "${name}-client-configs" clientConfigDir;
 
-    clientConfigsDir = symlinkJoin {
-      name = "${name}-client-configs";
-      paths = lib.mapAttrsToList (name: config: config.zipDir) clientConfigs;
+    # The loader MCUpdater installs. Cleanroom packs run Forge on the client.
+    clientLoader =
+      if cleanroom != null then {
+        type = "Forge";
+        version = "${client-forge.major}-${client-forge.minor}";
+        mainClass = "net.minecraft.launchwrapper.Launch";
+      } else if forge != null then {
+        type = "Forge";
+        version = "${forge.major}-${forge.minor}";
+        mainClass = "cpw.mods.bootstraplauncher.BootstrapLauncher";
+      } else throw "${name}: the ServerPack only supports Forge and Cleanroom clients";
+
+    client = {
+      inherit description minecraft port;
+      loader = clientLoader;
+      mods = clientMods;
+      modsDir = clientModsDir;
+      configsDir = clientConfigsDir;
     };
-
-    mcuPack = linkFarm "${name}-pack" [
-      { name = "pack.json"; path = writeJson "${name}-json" clientMods; }
-      { name = "mods"; path = clientModsDir; }
-      { name = "configs"; path = clientConfigsDir; }
-    ];
 
     ## Server:
     launcherDir = let
@@ -120,9 +131,14 @@ rec {
         launcherDir
         (wrapDir "mods" serverModsDir)
         (callPackage ../tools/control {})
-      ] ++ extraServerDirs ++ extraDirs;
+      ] ++ lib.optional (java != null) (runLocally "${name}-java" {} ''
+        mkdir -p $out/bin
+        ln -s ${java}/bin/java $out/bin/java
+      '') ++ extraServerDirs ++ extraDirs;
 
-      postBuild = ''
+      postBuild = lib.optionalString (clientPack != null) ''
+        echo ${clientPack} > $out/serverpack
+      '' + ''
         cd $out
         for i in *.py *.sh *.service config/prometheus-integration.cfg *.txt; do
           substituteAll "$i" "$i".tmp
@@ -236,10 +252,14 @@ rec {
     };
   in linkFarm "manifest-mods" (builtins.map modFile mods);
 
+  /**
+   * The MCUpdater ServerPack: ServerPack.xml, the bootstrap jar and packs/<id>/{mods,configs}.
+   * It sees only each pack's `client` descriptor, so building it never builds a server.
+   */
   buildServerPack = {
     packs, hostname, urlBase
   }: runLocally "ServerPack" {
-    packsJSON = builtins.toJSON packs;
+    packsJSON = builtins.toJSON (lib.mapAttrs (id: pack: pack.client) packs);
     passAsFile = [ "packsJSON" "hostname" "urlBase" ];
   } ''
     ln -s ${./index.html} index.html
@@ -276,22 +296,26 @@ rec {
   concatSets = builtins.foldl' (a: b: a // b) {};
 
   /**
-   * Creates a directory containing a zipfile containing the source directory, plus hash.
+   * Zips each top-level directory of src into one output directory: <dir>.zip, <dir>.md5 and
+   * <dir>.size for every dir. The list of dirs is only known at build time, which keeps
+   * evaluation from building anything. The zips depend only on file contents: fixed mtimes,
+   * sorted entries, no extra attributes.
    */
-  mkZipDir = name: src: runLocally name {
-    inherit name src;
+  mkZipDirs = name: src: runLocally name {
+    inherit src;
     buildInputs = [ zip rsync ];
   } ''
-    # This is fiddly because we want very badly to make the output depend only on file contents.
-    mkdir $name $out
-    rsync -aL $src/ $name/
-    find $name -print0 | \
-      xargs -0r touch -t 197001010000
-    TZ=UTC find $name -print0 | sort -z | \
-      xargs -0 zip -X --latest-time $out/${name}.zip
-    md5=$(md5sum $out/${name}.zip | awk '{print $1}')
-    echo -n $md5 > $out/${name}.md5
-    stat -L -c %s $out/${name}.zip > $out/${name}.size
+    mkdir $out
+    for dir in $(cd -L $src && find -L . -mindepth 1 -maxdepth 1 -type d -printf '%P\n' | LC_ALL=C sort); do
+      rsync -aL $src/$dir/ $dir/
+      find $dir -print0 | \
+        xargs -0r touch -t 197001010000
+      TZ=UTC find $dir -print0 | sort -z | \
+        xargs -0 zip -X --latest-time $out/$dir.zip
+      md5=$(md5sum $out/$dir.zip | awk '{print $1}')
+      echo -n $md5 > $out/$dir.md5
+      stat -L -c %s $out/$dir.zip > $out/$dir.size
+    done
   '';
 
   /**

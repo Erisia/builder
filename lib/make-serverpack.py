@@ -1,41 +1,68 @@
-# This script creates the final pack directory, used by clients.
-#
-# Usage: python make-serverpack.py [packs.json path] [hostname] [base url] [output path]
-#
-# Testing: python make-serverpack.py with no parameters will use the pack in testdata, and write to test-output.
-#
+"""Build the MCUpdater ServerPack directory that clients download from.
 
-from io import BytesIO
-import os
-import sys
+Usage: make-serverpack.py PACKS_JSON HOSTNAME URL_BASE OUTPUT
+
+Run by buildServerPack (lib/lib.nix), in a directory that holds index.html and
+MCUpdater-Bootstrap.jar. PACKS_JSON maps each pack id (for example "e36", which is also
+the MCUpdater instance folder) to that pack's `client` descriptor from buildPack:
+
+    {"description": str, "minecraft": str, "port": int,
+     "loader": {"type": str, "version": str, "mainClass": str},
+     "mods": [manifest entry, ...],   # entries of manifest/<pack>.json for the client
+     "modsDir": store path,           # <filename> for every mod
+     "configsDir": store path}        # <dir>.zip, <dir>.md5 and <dir>.size per config dir
+
+OUTPUT then gets:
+    index.html, MCUpdater-Bootstrap.jar (with defaultPack pointing at this ServerPack),
+    ServerPack.xml, and packs/<id>/mods/<filename> and packs/<id>/configs/<dir>.zip,
+    which are symlinks into the store.
+
+The paths under packs/ and the module ids are interface: players' MCUpdater installs
+refer to them. See ~/agent/work/builder-arch/runtime-interface.md (C1-C10).
+"""
+
+from __future__ import annotations
+
+import hashlib
 import json
+import os
 import shutil
+import sys
 import zipfile
-
 from dataclasses import dataclass, field
-from typing import List, Optional, Union
+from pathlib import Path
+from typing import Any
+from xml.dom import minidom
+from xml.etree.ElementTree import Element, SubElement, tostring
+
+# One manifest entry: {name, title, side, required, default, filename, encoded, src, size, md5, sha256}.
+ModEntry = dict[str, Any]
+Descriptor = dict[str, Any]
 
 
 # These types correspond to the ServerPack.xml file.
+
 
 @dataclass
 class URL:
     link: str
     priority: int
 
+
 @dataclass
 class Module:
     name: str
     id: str
-    urls: List[URL]
+    urls: list[URL]
     mod_path: str
     size: int
     required: bool
     mod_type: str
     md5: str
     default: bool = True
-    load_prefix: str = None
+    load_prefix: str | None = None
     in_root: bool = False
+
 
 @dataclass
 class Loader:
@@ -43,294 +70,257 @@ class Loader:
     version: str
     load_order: int
 
-@dataclass
-class Import:
-    url: str
-    child: str
 
 @dataclass
 class Server:
     id: str
     name: str
     version: str
-    news_url: Optional[str] = None
-    icon_url: Optional[str] = None
-    revision: Optional[Union[str, int]] = None
-    main_class: Optional[str] = None
-    server_address: Optional[str] = None
-    auto_connect: Optional[bool] = True
-    imports: List[Import] = field(default_factory=list)
-    loader: Optional[Loader] = None
-    modules: List[Module] = field(default_factory=list)
+    news_url: str | None = None
+    icon_url: str | None = None
+    revision: str | None = None
+    main_class: str | None = None
+    server_address: str | None = None
+    auto_connect: bool = True
+    loader: Loader | None = None
+    modules: list[Module] = field(default_factory=list)
+
 
 @dataclass
-class ServerPack:
-    version: str
-    servers: List[Server]
+class ConfigZip:
+    """One config dir, zipped by mkZipDirs."""
+
+    name: str
+    zip_path: Path
+    md5: str
+    size: int
 
 
+def read_config_zips(configs_dir: Path) -> list[ConfigZip]:
+    """The config zips in a mkZipDirs output, sorted by name."""
+    zips = []
+    for zip_path in sorted(configs_dir.glob("*.zip")):
+        name = zip_path.name.removesuffix(".zip")
+        md5 = (configs_dir / f"{name}.md5").read_text().strip()
+        size = int((configs_dir / f"{name}.size").read_text().strip())
+        zips.append(ConfigZip(name=name, zip_path=zip_path, md5=md5, size=size))
+    return zips
 
-def CreateServerPack(packs_json: dict, hostname: str, url_base: str, output_path: str) -> None:
-    """Creates the final pack directory, used by clients.
-    
-    Args:
-        packs_json (dict): The packs.json file.
-        hostname (str): The hostname of the server.
-        url_base (str): The base url of the server.
-        output_path (str): The path to write the output to.
-    
-    Returns:
-        The path to the created pack directory, containing these files:
-        - index.html; an info page.
-        - MCUpdater-Bootstrap.jar; the MCUpdater bootstrap jar, preconfigured for this server.\
-        - ServerPack.xml; the MCUpdater ServerPack file.
-        - packs: A directory containing the pack for each server, with mods and configs.
+
+def revision(pack: Descriptor, configs: list[ConfigZip]) -> str:
+    """A hash of everything MCUpdater installs for this pack.
+
+    It changes exactly when a client would get something different, which is what makes
+    MCUpdater offer an update. Store paths are left out on purpose: they also change for
+    server-only or toolchain changes, and those must not prompt players.
     """
-    # Create output directory
-    assert not os.path.exists(output_path), f'Output path {output_path} already exists'
-    os.mkdir(output_path)
-    
-    # Copy index.html
-    shutil.copy('index.html', output_path)
-
-    # Copy and edit MCUpdater-Bootstrap.jar
-    CreateMCUpdaterBootstrap('MCUpdater-Bootstrap.jar', url_base, output_path)
-
-    # Create the packs directory
-    packs_path = os.path.join(output_path, 'packs')
-    CreatePacksDir(packs_json, packs_path)
-
-    # Create ServerPack.xml
-    CreateServerPackXML(packs_json, hostname, url_base, output_path)
+    content = {
+        "description": pack["description"],
+        "minecraft": pack["minecraft"],
+        "port": pack["port"],
+        "loader": pack["loader"],
+        "mods": pack["mods"],
+        "configs": {c.name: c.md5 for c in configs},
+    }
+    return hashlib.sha256(
+        json.dumps(content, sort_keys=True).encode("utf-8")
+    ).hexdigest()
 
 
-def CreateServerPackXML(packs_json: dict, hostname: str, url_base: str, output_path: str) -> None:
-    """Creates the ServerPack.xml file.
+def unique_id(base: str, taken: dict[str, Module]) -> str:
+    """MCUpdater quietly fails on duplicate module ids, so number the repeats."""
+    candidate, iteration = base, 1
+    while candidate in taken:
+        candidate = f"{base}-{iteration}"
+        iteration += 1
+    return candidate
 
-    Args:
-        packs_json (dict): The packs.json file.
-        hostname (str): The hostname of the server.
-        url_base (str): The base url of the server.
-        output_path (str): The path to write the output to.
-    """
-    import hashlib
 
-    def MkConfig(location, config_name, config, id):
-        return Module(
-            name=f'Config ({config_name})',
-            id=id,
-            urls=[URL(link=f'{location}/{config_name}.zip', priority=0)],
-            mod_path='config',
-            size=config['size'],
-            required=True,
-            mod_type='Extract',
-            in_root=True,
-            md5=config['md5'],
-        )
-    
-    def MkMod(location, mod, id):
-        mod_name = mod['name']
-        return Module(
-            name=mod['title'],
-            id=id,
-            urls=[URL(link=f'{location}/{mod["encoded"]}', priority=0)],
+def make_server(
+    pack_id: str,
+    pack: Descriptor,
+    configs: list[ConfigZip],
+    hostname: str,
+    url_base: str,
+) -> Server:
+    modules: dict[str, Module] = {}
+    for mod in pack["mods"]:
+        mod_id = unique_id(mod["name"], modules)
+        modules[mod_id] = Module(
+            name=mod["title"],
+            id=mod_id,
+            urls=[
+                URL(link=f"{url_base}packs/{pack_id}/mods/{mod['encoded']}", priority=0)
+            ],
             mod_path=f"mods/{mod['filename']}",
-            size=mod['size'],
-            required=mod['required'],
-            default=mod['default'],
-            mod_type='Regular',
-            md5=mod['md5'],
+            size=mod["size"],
+            required=mod["required"],
+            default=mod["default"],
+            mod_type="Regular",
+            md5=mod["md5"],
+        )
+    for config in configs:
+        config_id = unique_id(config.name, modules)
+        modules[config_id] = Module(
+            name=f"Config ({config.name})",
+            id=config_id,
+            urls=[
+                URL(
+                    link=f"{url_base}packs/{pack_id}/configs/{config.name}.zip",
+                    priority=0,
+                )
+            ],
+            mod_path="config",
+            size=config.size,
+            required=True,
+            mod_type="Extract",
+            in_root=True,
+            md5=config.md5,
         )
 
-    def MkFabricImport(minecraft, fabric, yarnBuild):
-        return Import(
-                url=f"https://fabricmc.net/download/mcupdater?yarn={minecraft}%2B{yarnBuild}&loader={fabric}",
-                child="fabric",
-        )
-
-    def MkServer(server_name, server, hostname):
-        revision = hashlib.sha256(json.dumps(server).encode('utf-8')).hexdigest()
-        # Defaults for vanilla (no modloader)
-        imports = []
-        loader = None
-        main_class = None
-        if 'fabric' in server:
-            fabric = server["fabric"]
-            imports = [MkFabricImport(server["minecraft"], fabric["loader"], fabric["yarnBuild"])] if fabric is not None else []
-            loader = None
-            main_class = "net.fabricmc.loader.launch.knot.KnotClient" if fabric is not None else None
-        if 'neoforge' in server:
-            forge = server["neoforge"]
-            imports = []
-            if forge['major'] == '1.20.1':
-                loader = Loader(type='NeoForge', version=f"{forge['major']}-{forge['minor']}", load_order=0)
-            else:
-                loader = Loader(type='NeoForge', version=forge['minor'], load_order=0)
-            main_class = "cpw.mods.bootstraplauncher.BootstrapLauncher"
-        if 'cleanroom' in server:
-            forge = server["client-forge"] # Hack for now to use Forge on the client
-            imports = []
-            loader = Loader(type='Forge', version=f"{forge['major']}-{forge['minor']}", load_order=0)
-            main_class = "net.minecraft.launchwrapper.Launch"
-        elif 'forge' in server:
-            forge = server["forge"]
-            imports = []
-            loader = Loader(type='Forge', version=f"{forge['major']}-{forge['minor']}", load_order=0)
-            main_class = "cpw.mods.bootstraplauncher.BootstrapLauncher"
-
-        server_address = f'{hostname.split(":")[0]}:{server["port"]}'
-
-        # For modules, we need to avoid ID collisions or MCUpdater will quietly fail.
-        modules = {}
-        for mod in server['clientMods']:
-            id = mod['name']
-            iteration = 1
-            while id in modules:
-                id = f'{mod["name"]}-{iteration}'
-                iteration += 1
-            modules[id] = MkMod(f'{url_base}packs/{server_name}/mods', mod, id)
-        for config_name, config in server['clientConfigs'].items():
-            id = config_name
-            iteration = 1
-            while id in modules:
-                id = f'{config_name}-{iteration}'
-                iteration += 1
-            modules[id] = MkConfig(f'{url_base}packs/{server_name}/configs', config_name, config, id)
-        modules = list(modules.values())
-        modules.sort(key=lambda m: m.id)
-
-        return Server(
-            id=server_name,
-            name=server['description'],
-            version=server['minecraft'],
-            news_url='https://madoka.brage.info/',
-            revision=revision,
-            server_address=server_address,
-            auto_connect=False,
-            imports=imports,
-            loader=loader,
-            modules=modules,
-            main_class=main_class,
-        )
-
-    servers = [MkServer(server_name, server, hostname) for server_name, server in packs_json.items()]
-
-    serverpack = ServerPack(
-        version='3.3',
-        servers=servers,
+    loader = pack["loader"]
+    return Server(
+        id=pack_id,
+        name=pack["description"],
+        version=pack["minecraft"],
+        news_url="https://madoka.brage.info/",
+        revision=revision(pack, configs),
+        server_address=f"{hostname.split(':')[0]}:{pack['port']}",
+        auto_connect=False,
+        loader=Loader(type=loader["type"], version=loader["version"], load_order=0),
+        modules=sorted(modules.values(), key=lambda m: m.id),
+        main_class=loader["mainClass"],
     )
 
-    from xml.etree.ElementTree import Element, SubElement, tostring, ElementTree
 
-    def create_xml(server_pack: ServerPack) -> str:
-        root = Element('ServerPack', version=server_pack.version)
-        root.attrib["xmlns"] = "http://www.mcupdater.com"
-        root.attrib["xmlns:xsi"] = "http://www.w3.org/2001/XMLSchema-instance"
-        root.attrib["xsi:schemaLocation"] = "http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd"
-        
-        for server in server_pack.servers:
-            server_elem = SubElement(root, 'Server', id=server.id, name=server.name, version=server.version)
-            if server.news_url:
-                server_elem.set('newsUrl', server.news_url)
-            if server.icon_url:
-                server_elem.set('iconUrl', server.icon_url)
-            if server.revision:
-                server_elem.set('revision', str(server.revision))
-            if server.main_class:
-                server_elem.set('mainClass', server.main_class)
-            if server.server_address:
-                server_elem.set('serverAddress', server.server_address)
-            if server.auto_connect:
-                server_elem.set('autoConnect', 'true')
-            else:
-                server_elem.set('autoConnect', 'false')
-            for imp in server.imports:
-                SubElement(server_elem, 'Import', url=imp.url).text = imp.child
-            if server.loader:
-                SubElement(server_elem, 'Loader', type=server.loader.type, version=server.loader.version, loadOrder=str(server.loader.load_order))
-            for module in server.modules:
-                type_attrib = {'inRoot': 'true'} if module.in_root else {}
-                module_elem = SubElement(server_elem, 'Module', name=module.name, id=module.id)
-                for url in module.urls:
-                    SubElement(module_elem, 'URL', priority=str(url.priority)).text = url.link
-                SubElement(module_elem, 'LoadPrefix').text = module.load_prefix
-                SubElement(module_elem, 'ModPath').text = module.mod_path
-                SubElement(module_elem, 'Size').text = str(module.size)
-                SubElement(module_elem, 'Required', isDefault=str(module.default)).text = str(module.required)
-                SubElement(module_elem, 'ModType', attrib=type_attrib).text = module.mod_type
-                SubElement(module_elem, 'MD5').text = module.md5
-        
-        # Pretty print
-        from xml.dom import minidom
-        return minidom.parseString(tostring(root, encoding='utf-8')).toprettyxml(indent='    ')
+def server_pack_xml(servers: list[Server]) -> str:
+    root = Element("ServerPack", version="3.3")
+    root.attrib["xmlns"] = "http://www.mcupdater.com"
+    root.attrib["xmlns:xsi"] = "http://www.w3.org/2001/XMLSchema-instance"
+    root.attrib["xsi:schemaLocation"] = (
+        "http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd"
+    )
 
-    xml = create_xml(serverpack)
-    with open(os.path.join(output_path, 'ServerPack.xml'), 'w') as f:
-        f.write(xml)
+    for server in servers:
+        elem = SubElement(
+            root, "Server", id=server.id, name=server.name, version=server.version
+        )
+        if server.news_url:
+            elem.set("newsUrl", server.news_url)
+        if server.icon_url:
+            elem.set("iconUrl", server.icon_url)
+        if server.revision:
+            elem.set("revision", server.revision)
+        if server.main_class:
+            elem.set("mainClass", server.main_class)
+        if server.server_address:
+            elem.set("serverAddress", server.server_address)
+        elem.set("autoConnect", "true" if server.auto_connect else "false")
+        if server.loader:
+            SubElement(
+                elem,
+                "Loader",
+                type=server.loader.type,
+                version=server.loader.version,
+                loadOrder=str(server.loader.load_order),
+            )
+        for module in server.modules:
+            type_attrib = {"inRoot": "true"} if module.in_root else {}
+            module_elem = SubElement(elem, "Module", name=module.name, id=module.id)
+            for url in module.urls:
+                SubElement(
+                    module_elem, "URL", priority=str(url.priority)
+                ).text = url.link
+            SubElement(module_elem, "LoadPrefix").text = module.load_prefix
+            SubElement(module_elem, "ModPath").text = module.mod_path
+            SubElement(module_elem, "Size").text = str(module.size)
+            SubElement(
+                module_elem, "Required", isDefault=str(module.default)
+            ).text = str(module.required)
+            SubElement(
+                module_elem, "ModType", attrib=type_attrib
+            ).text = module.mod_type
+            SubElement(module_elem, "MD5").text = module.md5
+
+    return minidom.parseString(tostring(root, encoding="utf-8")).toprettyxml(
+        indent="    "
+    )
 
 
-def CreatePacksDir(packs_json: dict[str, dict], packs_path: str) -> None:
-    """Creates the packs directory, containing the pack for each server, with mods and configs.
-    
-    Args:
-        packs_json (dict): The packs.json file.
-        packs_path (str): The path to write the packs directory to.
+def link_pack_files(
+    pack_id: str, pack: Descriptor, configs: list[ConfigZip], packs_path: Path
+) -> None:
+    """packs/<id>/mods/<filename> and packs/<id>/configs/<dir>.zip, as store symlinks."""
+    mods_dir = packs_path / pack_id / "mods"
+    configs_dir = packs_path / pack_id / "configs"
+    mods_dir.mkdir(parents=True)
+    configs_dir.mkdir()
+    for config in configs:
+        (configs_dir / f"{config.name}.zip").symlink_to(config.zip_path)
+    for mod in pack["mods"]:
+        (mods_dir / mod["filename"]).symlink_to(Path(pack["modsDir"]) / mod["filename"])
+
+
+def make_bootstrap(base_jar: Path, url_base: str, output: Path) -> None:
+    """Copy the bootstrap jar, replacing its config.properties with one for this ServerPack.
+
+    Every entry keeps its original metadata (date, compression, permissions), and the new
+    config.properties takes over the old one's. So the output depends only on the input jar
+    and url_base: rebuilding gives the same bytes, and the hash in mcupdater-nixos stays put.
     """
-    os.mkdir(packs_path)
-    for pack_name, pack in packs_json.items():
-        pack_path = os.path.join(packs_path, pack_name)
-        os.mkdir(pack_path)
-        configs_dir = os.path.join(pack_path, 'configs')
-        mods_dir = os.path.join(pack_path, 'mods')
-        os.mkdir(configs_dir)
-        os.mkdir(mods_dir)
-        for config_name, config in pack['clientConfigs'].items():
-            config_path = os.path.join(configs_dir, config_name) + '.zip'
-            os.symlink(f'{config["zipDir"]}/{config_name}.zip', config_path)
-        for mod in pack['clientMods']:
-            mod_from = f'{pack["clientModsDir"]}/{mod["filename"]}'
-            mod_to = os.path.join(mods_dir, mod['filename'])
-            os.symlink(mod_from, mod_to)
-    
-
-def CreateMCUpdaterBootstrap(base_updater: str, url_base: str, output_path: str):
-    files = {}
-    with zipfile.ZipFile(base_updater, 'r') as z:
-        for info in z.infolist():
-            files[info.filename] = z.read(info.filename)
-
-    # Add config.properties
-    properties = f'''\
+    properties = f"""\
 bootstrapURL = https://files.mcupdater.com/Bootstrap.xml
 distribution = JavaFX-Release
 defaultPack = {url_base}ServerPack.xml
 customPath =
 passthroughArgs = -defaultMem 6G
-    '''
-    files['config.properties'] = properties.encode('utf-8')
+    """.encode()
 
-    with zipfile.ZipFile(f'{output_path}/MCUpdater-Bootstrap.jar', 'x') as z:
-        for filename, data in files.items():
-            z.writestr(filename, data)
+    with zipfile.ZipFile(base_jar, "r") as src, zipfile.ZipFile(output, "x") as dst:
+        replaced = False
+        for info in src.infolist():
+            if info.filename == "config.properties":
+                dst.writestr(info, properties)
+                replaced = True
+            else:
+                dst.writestr(info, src.read(info))
+        if not replaced:
+            info = zipfile.ZipInfo("config.properties", date_time=(1980, 1, 1, 0, 0, 0))
+            info.external_attr = 0o644 << 16
+            info.compress_type = zipfile.ZIP_DEFLATED
+            dst.writestr(info, properties)
 
 
-if __name__ == '__main__':
-    if len(sys.argv) == 1:
-        # Testing mode
-        packs_json_path = 'testdata/packs.json'
-        hostname = open('testdata/hostname').read().strip()
-        url_base = open('testdata/url_base').read().strip()
-        output_path = 'test-output'
-    else:
-        packs_json_path = sys.argv[1]
-        hostname = sys.argv[2]
-        url_base = sys.argv[3]
-        output_path = sys.argv[4]
-    
-    assert os.path.exists(packs_json_path), f'packs.json path {packs_json_path} does not exist'
-    assert hostname, 'hostname must be specified'
-    assert url_base, 'url_base must be specified'
-    assert output_path, 'output_path must be specified'
-    
-    packs_json = json.load(open(packs_json_path))
-    CreateServerPack(packs_json, hostname, url_base, output_path)
+def create_server_pack(
+    packs: dict[str, Descriptor],
+    hostname: str,
+    url_base: str,
+    output: Path,
+    inputs: Path,
+) -> None:
+    """Write the whole ServerPack directory. `inputs` holds index.html and the bootstrap jar."""
+    output.mkdir()
+    shutil.copy(inputs / "index.html", output)
+    make_bootstrap(
+        inputs / "MCUpdater-Bootstrap.jar", url_base, output / "MCUpdater-Bootstrap.jar"
+    )
+
+    servers = []
+    (output / "packs").mkdir()
+    for pack_id, pack in packs.items():
+        configs = read_config_zips(Path(pack["configsDir"]))
+        link_pack_files(pack_id, pack, configs, output / "packs")
+        servers.append(make_server(pack_id, pack, configs, hostname, url_base))
+    (output / "ServerPack.xml").write_text(server_pack_xml(servers))
+
+
+def main(argv: list[str]) -> None:
+    if len(argv) != 4:
+        raise SystemExit(__doc__)
+    packs_json, hostname, url_base, output = argv
+    packs = json.loads(Path(packs_json).read_text())
+    create_server_pack(packs, hostname, url_base, Path(output), Path(os.getcwd()))
+
+
+if __name__ == "__main__":
+    main(sys.argv[1:])

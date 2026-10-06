@@ -45,7 +45,7 @@ nix build .#packages.x86_64-linux
 ## Architecture
 
 ### Core Structure
-- `default.nix`: Main entry point; imports `builder.nix`, which defines all pack configurations and in-house mods
+- `default.nix`: Legacy entry point; imports `builder.nix` (all pack configurations and in-house mods) with the nixpkgs pinned in `flake.lock`
 - `lib/lib.nix`: Core build functions and utilities for pack generation
 - `flake.nix`: Nix flake definition for modern Nix workflows
 
@@ -64,7 +64,6 @@ Each pack in `builder.nix` contains:
   - `base/e36/`, `base/e36-third-party/`: Pack-specific configs
   - `base/e36-minebuild-server/`: Server-only configs
   - `base/e36-client/`: Client-only configs
-  - `base/client/`: Shared client configs
   - `base/server/`: Shared server configs
 - `modestly-modular-modpack-modifier/`: Rust-based workflow processor for modpack building
 - `mods/`: In-house server mods for e36 (`save-threading-fix`, `live-inspector`); each has a README
@@ -78,6 +77,14 @@ The Nix build system creates several artifacts:
 - `ServerPack`/`ServerPackLocal`: Complete launcher packages
 - Client/server mod filtering based on manifest side property
 - Automatic config bundling and mod fetching
+
+### Checks
+- `checks.golden-e36` compares every e36 output file against `tests/golden/e36.tree`. A change that
+  should not alter outputs must pass unchanged. One that should alter them commits the regenerated
+  file (`nix build .#golden-e36 && cp result tests/golden/e36.tree`).
+- `checks.quality` (`lib/quality.nix`): nixfmt, statix, deadnix, ruff, mypy --strict and unit tests for
+  the files it lists. New or rewritten Nix/Python files go on that list. Give every `lib/*.nix` file a
+  header comment saying what it produces and who consumes it.
 
 ## Modpack Development Workflow
 
@@ -135,9 +142,11 @@ The `modestly-modular-modpack-modifier` is a Rust-based DAG workflow processor t
 
 ## Active Packs
 - `e36`: Current active pack (Minecraft 1.12.2, Cleanroom 0.6.12-alpha). Live on `~/erisia`.
-- `e35`: Previous pack (Fabric 1.18.2)
-- `e34_5`: Older pack (NeoForge 1.21.1)
-- `e34`, `e33_5`, `e33`: Legacy, commented out in `builder.nix`
+- Older packs (e33 to e35, e34_5, vanilla) were retired on 2026-10-06. Their definitions, configs and manifests
+  are on the `archive/pre-2026-10` bookmark.
 
 The live server rebuilds from this checkout's working copy on every restart (including the
 scheduled 06:00/18:00 ones), so uncommitted edits here ship at the next restart.
+Building a server also builds the ServerPack (`clientPack` in `lib/lib.nix`), so a client pack
+that fails to build stops the restart. That is deliberate: players must not be left with a stale
+or broken pack.

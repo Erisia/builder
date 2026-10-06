@@ -425,6 +425,24 @@ def signal_receiver(signum, frame):
     sys.exit(128 + signum)
 
 
+def java_launch(base_dir, nix_jre_package, java_command, env):
+    """The command prefix that runs `java_command`, and the environment for it.
+
+    A pack that pins its JDK ships `bin/java` in the server output (lib.nix, `java`), so the
+    server runs the JDK from the builder's flake.lock. Packs without one, and servers built
+    before the pin existed, fall back to `nix shell nixpkgs#<jre>`, i.e. the system's nixpkgs.
+    """
+    pinned = base_dir / "bin" / "java"
+    if java_command[0] == "java" and pinned.exists():
+        env = dict(env)
+        # Put the whole JDK on PATH, as `nix shell` did, for anything that runs its tools.
+        jdk_bin = pinned.resolve().parent
+        env["PATH"] = f"{jdk_bin}{os.pathsep}{env.get('PATH', '')}"
+        return [str(pinned)] + java_command[1:], env, f"pinned JDK {jdk_bin.parent}"
+    command = ['nix', 'shell', f'nixpkgs#{nix_jre_package}', '--command'] + java_command
+    return command, env, f"nixpkgs#{nix_jre_package} (system nixpkgs)"
+
+
 def check_systemd():
     """Check for systemd-run and systemctl."""
     return shutil.which("systemd-run") and shutil.which("systemctl")
@@ -664,8 +682,9 @@ def main():
     else: # We are calling a script like run.sh, which takes over argument parsing
         full_java_command = java_exec_command + jvm_args_from_file + server_specific_args
 
-    # Prefix with `nix shell`
-    final_command_to_run = ['nix', 'shell', f'nixpkgs#{nix_jre_package}', '--command'] + full_java_command
+    # Use the pack's pinned JDK, or fall back to `nix shell`.
+    final_command_to_run, java_env, java_source = java_launch(BASE_DIR, nix_jre_package, full_java_command, os.environ)
+    console.print(f"[blue]Java:[/] [cyan]{java_source}[/]")
     
     scope_name = f'minecraft-server-{TMUX_TARGET_SESSION_NAME}.scope'
     if using_systemd:
@@ -682,7 +701,7 @@ def main():
 
     try:
         # Environment for the subprocess - could be useful for nix shell if it needs specific vars
-        env = os.environ.copy()
+        env = dict(java_env)
         
         # Preparation/building may have overlapped the shutdown request.
         if Path(f"/run/user/{os.getuid()}/minecraft-shutdown").exists():

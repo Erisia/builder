@@ -10,11 +10,11 @@
       system = "x86_64-linux";
       pkgs = nixpkgs.legacyPackages.${system};
       builder = import ./builder.nix { inherit pkgs; };
+      golden = import ./lib/golden.nix { inherit pkgs builder; };
       packPackages = pkgs.lib.mapAttrs (_: pack: {
         inherit (pack)
           launcherDir
           server
-          mcuPack
           clientConfigDir
           clientConfigsDir
           clientModsDir
@@ -23,7 +23,6 @@
       flatPackPackages = pkgs.lib.concatMapAttrs (name: pack: {
         "${name}-launcherDir" = pack.launcherDir;
         "${name}-server" = pack.server;
-        "${name}-mcuPack" = pack.mcuPack;
         "${name}-clientConfigDir" = pack.clientConfigDir;
         "${name}-clientConfigsDir" = pack.clientConfigsDir;
         "${name}-clientModsDir" = pack.clientModsDir;
@@ -34,16 +33,18 @@
         save-threading-fix = builder.saveThreadingFix;
         live-inspector = builder.liveInspector;
         danknull-migrate = builder.dankNullMigrate;
+        golden-e36 = golden.tree;
         default = builder.ServerPackLocal;
-        inherit (builder) ServerPack ServerPackLocal ServerPackE35 web mcupdaterFlakeRepo;
+        inherit (builder) ServerPack ServerPackLocal web mcupdaterFlakeRepo;
         serverPack = builder.ServerPack;
         serverPackLocal = builder.ServerPackLocal;
-        serverPackE35 = builder.ServerPackE35;
       };
 
       legacyPackages.${system} = builder;
 
       checks.${system} = {
+        golden-e36 = golden.check;
+        quality = import ./lib/quality.nix { inherit pkgs; };
         save-threading-fix = builder.saveThreadingFix.tests.integration;
         live-inspector = builder.liveInspector.tests.integration;
         tick-debug = pkgs.runCommand "minecraft-tick-debug-tests" {
@@ -72,6 +73,7 @@
               ./base/server/crash_analysis.py
               ./base/server/start.py
               ./tests/test_daily_restart.py
+              ./tests/test_start_java.py
               ./tests/test_shutdown.py
               ./tests/test_crash_analysis.py
             ];
