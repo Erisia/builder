@@ -90,7 +90,7 @@
             mkdir -p "$MCUPDATER_HOME"
             cd "$MCUPDATER_HOME"
             
-            exec ${pkgs.jdk17}/bin/java -jar ${mcupdaterJar} "$@"}
+            exec ${pkgs.jdk17}/bin/java -jar ${mcupdaterJar} "$@"
           '';
           
           meta = with pkgs.lib; {
