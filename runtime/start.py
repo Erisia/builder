@@ -194,7 +194,10 @@ def sync_server_files():
         # These must be real copies rather than symlinks: they `cd "$(dirname "$(readlink -f "$0")")"`
         # and expect to land in APP_ROOT_DIR (next to the `server` symlink), not in the Nix store.
         # Original: [[ -e "$b" ]] && fixperms "$b" && rm -rf "$b"; cp -aL "$f" .
-        for source_file in BASE_DIR.glob("*.sh"):
+        # .envrc too: it prints the command list when someone cds in (direnv).
+        for source_file in [*BASE_DIR.glob("*.sh"), BASE_DIR / ".envrc"]:
+            if not source_file.exists():
+                continue
             dest_file = APP_ROOT_DIR / source_file.name
             console.print(f"Copying script [blue]{source_file.name}[/] from {source_file} to {dest_file}...")
             if dest_file.is_dir() and not dest_file.is_symlink():

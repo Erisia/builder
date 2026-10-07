@@ -220,9 +220,11 @@ e36-client-mods/valkyrielib-1.12.2-2.0.20.1.jar	f	733580	24a72428d22c04040e8a608
 e36-client-mods/vintagefix-0.7.1.jar	f	1043648	e6f0b4e16625b2ffad558e9dbb90cb1ace556198aabac18f3647a38dee1550c8
 e36-client-mods/woot-1.12.2-1.4.11.jar	f	879720	f4f0b7a1861a4b2f11c6dc5f315090ec411dce8a62df3347fd00a96f191fb2e9
 e36-client-mods/zerocore-1.12.2-0.1.2.8.jar	f	228623	99ca0107097641349055713e3505b434c4115e55a82d427975d6b2528500310b
+e36-server/.envrc	f	802	bcade9ca2347026e546786da196ba85f77632bb10d810728765855d1a49d45fd
 e36-server/README.md	f	5073	838a689c16871bcfe4d5980e9f2a0b477301897dec32699be4f9c90d268b406c
 e36-server/bin/control	x	1329536	01611f37f3f850afb6a7ec29286c34c7ac46b0e6d52a4eadedc652e9e8d363cc
 e36-server/bin/java	x	16672	a1944d19d3a0f42e337f35281fc0a5ccb19e86cee572d0cd408049f20eb47a55
+e36-server/bin/pack-docs	x	421	ccf07799431d6a7d6f1a96ca6a884ec70a3206c998cbbbeef2ba8f14dce737f5
 e36-server/bin/test-live-inspector	x	476	97352a8d21c3e948f99db5f2a4044dbf85becad1bc311824389ad57c1359cda0
 e36-server/bin/test-save-threading	x	476	c4e010b9f0f761042299f08525bc94b8954dad0f37068d4dd87b2fd4793034ad
 e36-server/config/AE2WirelessTerminals.cfg	f	1893	c7ea2ba41a17fda35b9a9d45bebb97473ebf232cd58cd599bd39452a5f9cbf46
@@ -1342,7 +1344,7 @@ e36-server/share/live-inspector-tests/erisia-live-inspector-0.1.0.jar	f	65218	28
 e36-server/share/live-inspector-tests/erisia-live-inspector-tests-0.1.0.jar	f	15513	d0b6a35c172a0628dcf6f4c4d8d50e40a478a8c31aea1c06c2327e3f7e6ff354
 e36-server/share/save-threading-tests/erisia-save-threading-0.1.0.jar	f	31964	09ae7e3b4aaa815daeebba12323dad4b840dfa131216a4042571c4d029881666
 e36-server/share/save-threading-tests/erisia-save-threading-tests-0.1.0.jar	f	31087	99063354bad712a52605f4b8173e76e08cdb07f764dfbf0887472ef18bd4eef4
-e36-server/start.py	x	36409	dbaf46ba9d379a96c03580f944f147d7142b916c1a41681ee685650721c43e3f
+e36-server/start.py	x	36578	c48d687c277c9b82354abbd91f7d4df309f7e8e285355b3a5b5fdc8b65cd5f70
 e36-server/stop.sh	x	97	ee5346efa7175d923dcac64a926acd1172c88a885f5cc74851edb651f86fb503
 e36-server/structures/active/erisDungeonZ.rcst	f	33204	5410a2c93de2480c969d6191e685bd3ff2d981d8c68e227674f835832cd0a6f7
 e36-server/structures/active/jupiterDungeonZ.rcst	f	12851	a612f34b97bcc275e3050625206c2ef92d88ded9108f97799a0c0aaeee35bc3b

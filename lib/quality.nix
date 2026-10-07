@@ -17,6 +17,7 @@ let
     ./golden.nix
     ./quality.nix
     ./pack-module.nix
+    ./pack-docs.nix
     ./pack.nix
     ../packs/e36/pack.nix
     ../tests/pack-module.nix

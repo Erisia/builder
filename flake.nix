@@ -11,6 +11,7 @@
       pkgs = nixpkgs.legacyPackages.${system};
       builder = import ./builder.nix { inherit pkgs; };
       golden = import ./lib/golden.nix { inherit pkgs builder; };
+      packDocs = import ./lib/pack-docs.nix { inherit pkgs; };
       packPackages = pkgs.lib.mapAttrs (_: pack: {
         inherit (pack)
           launcherDir
@@ -34,19 +35,9 @@
         live-inspector = builder.liveInspector;
         danknull-migrate = builder.dankNullMigrate;
         golden-e36 = golden.tree;
-        # The pack options (lib/pack-module.nix) as Markdown.
-        pack-options = (pkgs.nixosOptionsDoc {
-          options = builtins.removeAttrs
-            (pkgs.lib.evalModules { modules = [ ./lib/pack-module.nix ]; }).options
-            [ "_module" ];
-          # Name the file by its repository path, not its store path.
-          transformOptions = opt: opt // {
-            declarations = [ {
-              name = "lib/pack-module.nix";
-              url = "https://github.com/Erisia/builder/blob/master/lib/pack-module.nix";
-            } ];
-          };
-        }).optionsCommonMark;
+        # The pack options (lib/pack-module.nix) as Markdown, and `nix run .#pack-docs` to read them.
+        pack-options = packDocs.doc;
+        pack-docs = packDocs.viewer;
         default = builder.ServerPackLocal;
         inherit (builder) ServerPack ServerPackLocal web mcupdaterFlakeRepo;
         serverPack = builder.ServerPack;
@@ -88,6 +79,7 @@
               ./runtime/start.py
               ./tests/test_daily_restart.py
               ./tests/test_start_java.py
+              ./tests/test_sync_scripts.py
               ./tests/test_shutdown.py
               ./tests/test_crash_analysis.py
             ];

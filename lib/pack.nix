@@ -141,11 +141,12 @@ in
           rconPort
           ;
 
-        # First wins: the loader, the mods and the control tool, then the JDK, then `server` over `common`.
+        # First wins: the loader, the mods, the control tool and pack-docs, then the JDK, then `server` over `common`.
         paths = [
           launcherDir
           (wrapDir "mods" serverModsDir)
           (callPackage ../tools/control { })
+          (import ./pack-docs.nix { inherit pkgs; }).viewer
         ]
         ++ lib.optional (cfg.java != null) (
           runLocally "${cfg.name}-java" { } ''
