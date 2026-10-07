@@ -110,7 +110,8 @@ rec {
   in linkFarm "manifest-mods" (builtins.map modFile mods);
 
   /**
-   * The MCUpdater ServerPack: ServerPack.xml, the bootstrap jar and packs/<id>/{mods,configs}.
+   * The MCUpdater ServerPack: ServerPack.xml, the bootstrap jar and packs/<id>/{mods,configs};
+   * plus prism/<id>/, each pack's Prism-native pack and instance zip.
    * It sees only each pack's `client` descriptor, so building it never builds a server.
    */
   buildServerPack = {
@@ -122,6 +123,11 @@ rec {
     ln -s ${./index.html} index.html
     ln -s ${./MCUpdater-recommended.jar} MCUpdater-Bootstrap.jar
     ${python3}/bin/python3 ${./make-serverpack.py} $packsJSONPath ${hostname} ${urlBase} $out
+    # The Prism-native packs (lib/prism.nix), beside the MCUpdater files, which they don't touch.
+    mkdir $out/prism
+    ${lib.concatStrings (lib.mapAttrsToList (id: pack: ''
+      ln -s ${pack.prism "${urlBase}prism/${id}/"} $out/prism/${id}
+    '') packs)}
   '';
 
   # General utilities:

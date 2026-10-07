@@ -20,6 +20,8 @@ let
     ./pack-module.nix
     ./pack-docs.nix
     ./upstream.nix
+    ./prism.nix
+    ../vendor/packwiz-installer/default.nix
     ./pack.nix
     ../packs/e36/pack.nix
     ../tests/pack-module.nix
@@ -35,6 +37,8 @@ let
     ../tests/test_unpack_upstream.py
     ../runtime/managed_files.py
     ../tests/test_managed_files.py
+    ./make_packwiz.py
+    ../tests/test_make_packwiz.py
   ];
   # Not yet at that standard, but checked for undefined names (ruff F821-F823): a leftover use of
   # a removed constant only fails at runtime, and the launcher has no test that reaches every path.
@@ -58,6 +62,7 @@ let
     "tests/test_make_serverpack.py"
     "tests/test_unpack_upstream.py"
     "tests/test_managed_files.py"
+    "tests/test_make_packwiz.py"
   ];
 
   src = lib.fileset.toSource {

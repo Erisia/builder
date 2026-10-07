@@ -18,6 +18,9 @@ rec {
 
   slimeStomach = callPackage ./packs/e36/mods/slimestomach {};
 
+  # Runs before every launch of a Prism instance to sync it to the published pack (lib/prism.nix).
+  packwizInstaller = callPackage ./vendor/packwiz-installer { };
+
   # Moves DankNull 1.7.91 contents into the 1.7.95+ storage tag; keep it installed after the update.
   dankNullMigrate = callPackage ./packs/e36/mods/danknull-migrate {
     launcherDir = packs.e36.launcherDir;
@@ -28,7 +31,10 @@ rec {
     inherit saveThreadingFix liveInspector slimeStomach dankNullMigrate;
   };
 
-  inherit (callPackage ./lib/pack.nix { builderLib = callPackage ./lib/lib.nix {}; })
+  inherit (callPackage ./lib/pack.nix {
+    builderLib = callPackage ./lib/lib.nix {};
+    inherit packwizInstaller;
+  })
     evalPack buildPack;
 
   # Only E36 is live. Older packs were retired on 2026-10-06; see the archive/pre-2026-10 bookmark.
