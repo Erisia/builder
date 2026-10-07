@@ -10,8 +10,9 @@ pack.toml lists only `minecraft` under `[versions]`: with a loader key, packwiz-
 rewrite the instance's mmc-pack.json. The output is deterministic, so an unchanged pack gives a
 byte-identical pack.toml, and a launch with nothing to update costs one small request.
 
-The instance zip holds instance.cfg, mmc-pack.json, the icon and packwiz-installer.jar (in
-`minecraft/`, the game directory, where the pre-launch command runs). The pre-launch command runs
+The instance zip holds instance.cfg, the loader template's mmc-pack.json and patches/ (Cleanroom's
+also make Prism pick Java 25), the icon and packwiz-installer.jar (in `minecraft/`, the game
+directory, where the pre-launch command runs). The pre-launch command runs
 the installer's Main class directly, never packwiz-installer-bootstrap, whose self-update would
 fetch an unchecked jar from GitHub.
 
@@ -247,22 +248,43 @@ def instance_cfg(name: str, pack_url: str, max_mem: int, min_mem: int) -> bytes:
     return ("\n".join(lines) + "\n").encode()
 
 
-def mmc_pack(minecraft: str, forge: str) -> bytes:
-    """The instance's components; Prism fills in the rest (LWJGL, cached names) on first load."""
-    data = {
-        "formatVersion": 1,
-        "components": [
-            {"uid": "net.minecraft", "version": minecraft, "important": True},
-            {"uid": "net.minecraftforge", "version": forge},
-        ],
+def template_members(
+    template: Path, minecraft: str, loader: str
+) -> list[tuple[str, bytes]]:
+    """mmc-pack.json and patches/ from the loader's Prism template, checked against the pack.
+
+    The template (Cleanroom's release zip) defines the instance's components, including the Java
+    versions Prism should run it with. Its instance.cfg, icon and game directory aren't used.
+    """
+    with zipfile.ZipFile(template) as archive:
+        names = archive.namelist()
+        if "mmc-pack.json" not in names:
+            raise PackwizError(f"{template} has no mmc-pack.json")
+        members = [("mmc-pack.json", archive.read("mmc-pack.json"))]
+        members += [
+            (check_path(n), archive.read(n))
+            for n in sorted(names)
+            if n.startswith("patches/") and n.endswith(".json")
+        ]
+    versions = {
+        c.get("uid"): c.get("version") for c in json.loads(members[0][1])["components"]
     }
-    return (json.dumps(data, indent=2) + "\n").encode()
+    if versions.get("net.minecraft") != minecraft:
+        raise PackwizError(
+            f"template is for Minecraft {versions.get('net.minecraft')}, not {minecraft}"
+        )
+    if versions.get("net.minecraftforge") != loader:
+        raise PackwizError(
+            f"template's loader is {versions.get('net.minecraftforge')}, not {loader}"
+        )
+    return members
 
 
 def build_instance(
     name: str,
     minecraft: str,
-    forge: str,
+    loader: str,
+    template: Path,
     pack_url: str,
     installer: Path,
     icon: Path,
@@ -273,7 +295,7 @@ def build_instance(
     """Write the Prism instance zip to `out`."""
     members = [
         ("instance.cfg", instance_cfg(name, pack_url, max_mem, min_mem)),
-        ("mmc-pack.json", mmc_pack(minecraft, forge)),
+        *template_members(template, minecraft, loader),
         (f"{name.lower()}{icon.suffix}", icon.read_bytes()),
         ("minecraft/packwiz-installer.jar", installer.read_bytes()),
     ]
@@ -287,6 +309,14 @@ def build_instance(
     out.chmod(0o644)
 
 
+def select_mods(mods: list[Mod], exclude: set[str]) -> list[Mod]:
+    """`mods` without the excluded names; an unknown name is an error, not a silent no-op."""
+    unknown = sorted(exclude - {mod.name for mod in mods})
+    if unknown:
+        raise PackwizError(f"excluded mods that the client doesn't have: {unknown}")
+    return [mod for mod in mods if mod.name not in exclude]
+
+
 def main(argv: list[str]) -> int:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument(
@@ -294,8 +324,12 @@ def main(argv: list[str]) -> int:
     )
     parser.add_argument("--minecraft", required=True)
     parser.add_argument(
-        "--forge", required=True, help="the clients' Forge version, e.g. 14.23.5.2864"
+        "--loader", required=True, help="the loader version, e.g. 0.6.12-alpha"
     )
+    parser.add_argument(
+        "--template", type=Path, required=True, help="the loader's Prism template zip"
+    )
+    parser.add_argument("--exclude-mod", action="append", default=[], metavar="NAME")
     parser.add_argument(
         "--mods", type=Path, required=True, help="JSON list of client manifest entries"
     )
@@ -317,7 +351,10 @@ def main(argv: list[str]) -> int:
     if not args.base_url.endswith("/"):
         parser.error("--base-url must end in /")
     try:
-        mods = [Mod.from_json(entry) for entry in json.loads(args.mods.read_text())]
+        mods = select_mods(
+            [Mod.from_json(entry) for entry in json.loads(args.mods.read_text())],
+            set(args.exclude_mod),
+        )
         if args.out.exists():
             shutil.rmtree(args.out)
         build_pack(
@@ -331,7 +368,8 @@ def main(argv: list[str]) -> int:
         build_instance(
             args.name,
             args.minecraft,
-            args.forge,
+            args.loader,
+            args.template,
             args.base_url + "pack/pack.toml",
             args.installer,
             args.icon,

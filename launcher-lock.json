@@ -27,7 +27,12 @@
   "cleanroom": {
     "0.6.12-alpha": {
       "installerUrl": "https://github.com/CleanroomMC/Cleanroom/releases/download/0.6.12-alpha/cleanroom-0.6.12-alpha-installer.jar",
-      "outputHash": "sha256-x4aB3EbDOrnTZFi7DC74zhfZKV4ScOz4zHARlP7bLHE="
+      "outputHash": "sha256-x4aB3EbDOrnTZFi7DC74zhfZKV4ScOz4zHARlP7bLHE=",
+      "prismTemplateUrls": [
+        "https://madoka.brage.info/upstream/cleanroom-0.6.12-alpha.zip",
+        "https://github.com/CleanroomMC/Cleanroom/releases/download/0.6.12-alpha/cleanroom-0.6.12-alpha.zip"
+      ],
+      "prismTemplateHash": "sha256-1lNnlt8M4C4EP3zsWdNE/KfA3uAPAT3U2Jp6DbTEyzI="
     }
   }
 }

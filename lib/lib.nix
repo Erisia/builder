@@ -83,6 +83,18 @@ rec {
   fetchCleanroom = { major, minor }: fetchForgeLike { inherit major minor; type = "cleanroom"; };
 
   /**
+   * Cleanroom's own Prism/MultiMC template (mmc-pack.json + patches/), pinned in launcher-lock.json
+   * and mirrored on madoka. Prism builds a Cleanroom instance from it; lib/prism.nix starts from it.
+   */
+  fetchCleanroomPrismTemplate = { major, minor }: let
+    locked = launcherLock.cleanroom."${major}-${minor}";
+  in fetchurl {
+    name = "cleanroom-${major}-${minor}-prism-template.zip";
+    urls = locked.prismTemplateUrls;
+    hash = locked.prismTemplateHash;
+  };
+
+  /**
    * Returns a list of mods, of the same format as in the manifest.
    */
   filterManifest = { side, manifest }: let
