@@ -124,7 +124,7 @@ sure to expunge base and third_party.
 
 ## Live server diagnostics
 
-The server-only [live inspector](mods/live-inspector/README.md) exposes read-only
+The server-only [live inspector](packs/e36/mods/live-inspector/README.md) exposes read-only
 resident-world snapshots, chunk/entity/tile details, bounded update timings and
 join provenance over the console/RCON. Its documentation includes the wish-list,
 commands, limitations, tests and porting boundaries. The

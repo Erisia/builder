@@ -33,8 +33,8 @@ To build against an already installed launcher without downloading dependencies:
 
 ```sh
 export JAVA_HOME=/path/to/jdk-25
-python3 mods/save-threading-fix/build.py --launcher /path/to/server/forge --with-tests
-python3 mods/save-threading-fix/test.py --launcher /path/to/server/forge
+python3 packs/e36/mods/save-threading-fix/build.py --launcher /path/to/server/forge --with-tests
+python3 packs/e36/mods/save-threading-fix/test.py --launcher /path/to/server/forge
 ```
 
 `--launcher` supplies only read-only jars/libraries. Use the directory containing

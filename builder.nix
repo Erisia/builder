@@ -8,18 +8,18 @@ with callPackage ./lib/lib.nix {};
 rec {
 
   # Fix for the vanilla RCON threading bug (save-all/save-off) on 1.12.2 specifically.
-  saveThreadingFix = callPackage ./mods/save-threading-fix {
+  saveThreadingFix = callPackage ./packs/e36/mods/save-threading-fix {
     launcherDir = packs.e36.launcherDir;
   };
 
-  liveInspector = callPackage ./mods/live-inspector {
+  liveInspector = callPackage ./packs/e36/mods/live-inspector {
     launcherDir = packs.e36.launcherDir;
   };
 
-  slimeStomach = callPackage ./mods/slimestomach {};
+  slimeStomach = callPackage ./packs/e36/mods/slimestomach {};
 
   # Moves DankNull 1.7.91 contents into the 1.7.95+ storage tag; keep it installed after the update.
-  dankNullMigrate = callPackage ./mods/danknull-migrate {
+  dankNullMigrate = callPackage ./packs/e36/mods/danknull-migrate {
     launcherDir = packs.e36.launcherDir;
   };
 

@@ -11,7 +11,7 @@ to capture an approximately 64×64-block area around e36 spawn on an RTX 4090.
   requirements, tradeoffs, and open questions.
 - [Plan](plan.md): phased work, validation, and completion criteria.
 - [Pack configuration](../../builder.nix): e36 versions and packaging.
-- [Existing server mod](../../mods/live-inspector/README.md): relevant build and
+- [Existing server mod](../../packs/e36/mods/live-inspector/README.md): relevant build and
   isolated Cleanroom test patterns.
 
 Read the design and plan before working here. Keep them current when decisions or

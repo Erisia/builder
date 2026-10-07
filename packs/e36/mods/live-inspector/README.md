@@ -181,8 +181,8 @@ only by the test fixture, to prove the frozen item then ages normally.
 For local iteration against the installed launcher without new downloads:
 
 ```sh
-python3 mods/live-inspector/build.py --launcher ~/erisia/forge --java-home /path/to/jdk --output /tmp/inspector-build --with-tests
-python3 mods/live-inspector/test.py --launcher ~/erisia/forge --java-home /path/to/jdk --build /tmp/inspector-build
+python3 packs/e36/mods/live-inspector/build.py --launcher ~/erisia/forge --java-home /path/to/jdk --output /tmp/inspector-build --with-tests
+python3 packs/e36/mods/live-inspector/test.py --launcher ~/erisia/forge --java-home /path/to/jdk --build /tmp/inspector-build
 ```
 
 E36's server build includes the mod. Deploy through the normal builder and restart

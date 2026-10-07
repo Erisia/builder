@@ -1,6 +1,6 @@
 # Read-only live inspection
 
-Read the [builder's inspector documentation](/home/minecraft/builder/mods/live-inspector/README.md)
+Read the [builder's inspector documentation](/home/minecraft/builder/packs/e36/mods/live-inspector/README.md)
 for the wish-list, complete interface, limits, semantic caveats and porting boundaries.
 The installed adapter is for E36 / Minecraft 1.12.2 / Cleanroom 0.6.12-alpha;
 query `status` to verify what the running server actually supports.
