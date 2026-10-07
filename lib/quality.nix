@@ -16,6 +16,10 @@ let
     ../default.nix
     ./golden.nix
     ./quality.nix
+    ./pack-module.nix
+    ./pack.nix
+    ../packs/e36/pack.nix
+    ../tests/pack-module.nix
   ];
 
   # Python modules, each with the unit test that covers it.

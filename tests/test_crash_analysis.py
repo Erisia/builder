@@ -14,7 +14,7 @@ from unittest.mock import patch
 
 
 ROOT = Path(__file__).resolve().parents[1]
-spec = importlib.util.spec_from_file_location("crash_analysis", ROOT / "base/server/crash_analysis.py")
+spec = importlib.util.spec_from_file_location("crash_analysis", ROOT / "runtime/crash_analysis.py")
 crash_analysis = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(crash_analysis)
 

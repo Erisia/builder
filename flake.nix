@@ -34,6 +34,19 @@
         live-inspector = builder.liveInspector;
         danknull-migrate = builder.dankNullMigrate;
         golden-e36 = golden.tree;
+        # The pack options (lib/pack-module.nix) as Markdown.
+        pack-options = (pkgs.nixosOptionsDoc {
+          options = builtins.removeAttrs
+            (pkgs.lib.evalModules { modules = [ ./lib/pack-module.nix ]; }).options
+            [ "_module" ];
+          # Name the file by its repository path, not its store path.
+          transformOptions = opt: opt // {
+            declarations = [ {
+              name = "lib/pack-module.nix";
+              url = "https://github.com/Erisia/builder/blob/master/lib/pack-module.nix";
+            } ];
+          };
+        }).optionsCommonMark;
         default = builder.ServerPackLocal;
         inherit (builder) ServerPack ServerPackLocal web mcupdaterFlakeRepo;
         serverPack = builder.ServerPack;
@@ -45,6 +58,7 @@
       checks.${system} = {
         golden-e36 = golden.check;
         quality = import ./lib/quality.nix { inherit pkgs; };
+        pack-module = import ./tests/pack-module.nix { inherit pkgs builder; };
         save-threading-fix = builder.saveThreadingFix.tests.integration;
         live-inspector = builder.liveInspector.tests.integration;
         tick-debug = pkgs.runCommand "minecraft-tick-debug-tests" {
@@ -70,8 +84,8 @@
             fileset = pkgs.lib.fileset.unions [
               ./shutdown.py
               ./update-and-start.sh
-              ./base/server/crash_analysis.py
-              ./base/server/start.py
+              ./runtime/crash_analysis.py
+              ./runtime/start.py
               ./tests/test_daily_restart.py
               ./tests/test_start_java.py
               ./tests/test_shutdown.py
