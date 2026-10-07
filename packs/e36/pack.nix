@@ -3,7 +3,6 @@
 { pkgs, inHouseMods, ... }:
 {
   name = "E36";
-  tmuxName = "e36";
   description = "E36: Calculus difficilis est";
   ram = "8G";
   port = 25565;

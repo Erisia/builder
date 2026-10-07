@@ -11,7 +11,6 @@ let
   # The least a pack must set.
   minimal = {
     name = "T";
-    tmuxName = "t";
     port = 25570;
     prometheusPort = 1300;
     minecraft = "1.12.2";
@@ -129,7 +128,6 @@ let
       expr = {
         inherit (builder.packs.e36.config)
           name
-          tmuxName
           ram
           port
           rconPort
@@ -140,7 +138,6 @@ let
       };
       expected = {
         name = "E36";
-        tmuxName = "e36";
         ram = "8G";
         port = 25565;
         rconPort = 35565;

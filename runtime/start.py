@@ -29,14 +29,13 @@ BASE_DIR = Path(__file__).parent.resolve()
 APP_ROOT_DIR = Path.cwd()
 
 FORGE_JAR_PATTERN = 'forge/forge-*.jar' # Relative to BASE_DIR
-TMUX_TARGET_SESSION_NAME = "@tmuxName@" # Placeholder
 STOP_SCRIPT_PATH = APP_ROOT_DIR / "stop.sh" # stop.sh should be in the runtime dir if it's called
 LAZY_SKIP_EXIT = 75 # control stop --lazy: server too young, not stopping
 USER_JVM_ARGS_FILE = APP_ROOT_DIR / "user_jvm_args.txt" # JVM args also in runtime dir
 SERVER_PROPERTIES_FILE = APP_ROOT_DIR / "server.properties"
 RCON_PORT = int("@rconPort@") # Placeholder; control.sh talks to the server over RCON
 # Set by machine-config's minecraft@ system unit, which supervises this script. Not
-# INVOCATION_ID: a tmux server started from any unit passes that on to its panes.
+# INVOCATION_ID: any process started from a unit inherits that.
 SUPERVISOR_UNIT = os.environ.get("MINECRAFT_UNIT")
 
 # Runtime files in APP_ROOT_DIR
@@ -126,20 +125,6 @@ def fix_permissions(path_to_fix_str):
                     (Path(root) / f_name).chmod(0o644)
     except Exception as e:
         console.print(f"[bold red]ERROR:[/] Failed to set permissions for {path_to_fix}: {e}")
-
-
-def get_tmux_session_name():
-    """Gets the current tmux session name."""
-    try:
-        result = run_command(['tmux', 'display-message', '-p', '#S'], capture_output=True, check=False)
-        if result.returncode == 0:
-            return result.stdout.strip()
-        if result.stderr and "no server running on" in result.stderr:
-            return "no server running"
-        return None
-    except Exception: # Includes FileNotFoundError if tmux isn't in PATH from run_command
-        console.print("[yellow]tmux command not found or failed. Cannot check session.[/]")
-        return "no server running"
 
 
 def sync_server_files():
@@ -516,28 +501,12 @@ def main():
             console.print("[bold red]ERROR:[/] psutil package is not installed. Fallback process cleanup will be very limited. Please install psutil (`nix-shell -p python3Packages.psutil`)")
             # sys.exit(1) # Or allow to continue with very basic cleanup
 
-    # Tmux check for extras
-    run_extras = False
-    skip_tmux_env = os.environ.get("SKIP_TMUX")
-    if SUPERVISOR_UNIT:
-        # Checked first: stdin is the unit's console FIFO, so input() below would never return.
+    # Extras (the daily restart) need a supervisor to start the server again afterwards.
+    run_extras = bool(SUPERVISOR_UNIT)
+    if run_extras:
         console.print(f"[green]Supervised by {SUPERVISOR_UNIT}. Extras enabled.[/]")
-        run_extras = True
-    elif not skip_tmux_env:
-        session_name = get_tmux_session_name()
-        if session_name == "no server running":
-            console.print("[yellow]Warning:[/] Not running inside a tmux session, or tmux is unavailable.")
-            console.print("[yellow]Maintenance scripts (like daily restart) will not be run.[/]")
-            console.print("[red]Press ctrl-c to exit, or return to continue.")
-            input()
-        elif session_name == TMUX_TARGET_SESSION_NAME:
-            console.print(f"[green]Running in correct tmux session: {session_name}. Extras enabled.[/]")
-            run_extras = True
-        else:
-            console.print(f"[bold red]ERROR:[/] Expected tmux session '{TMUX_TARGET_SESSION_NAME}', found '{session_name}'. Aborting.")
-            sys.exit(1)
     else:
-        console.print("[yellow]SKIP_TMUX is set. Skipping tmux check; extras disabled.[/]")
+        console.print("[yellow]Not supervised by a minecraft@ unit (MINECRAFT_UNIT unset); extras disabled.[/]")
 
     # Create essential directories in APP_ROOT_DIR
     LOGS_DIR.mkdir(parents=True, exist_ok=True)

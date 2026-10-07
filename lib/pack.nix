@@ -134,7 +134,6 @@ in
         # Only these attributes become environment variables, and substituteAll below replaces
         # every `@var@` it has a variable for. Keep this set exact.
         inherit (cfg)
-          tmuxName
           ram
           serverName
           port

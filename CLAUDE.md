@@ -52,7 +52,7 @@ nix build .#packages.x86_64-linux
 ### Pack Definitions
 Each pack is a module, `packs/<pack>/pack.nix`, checked against the typed options in
 `lib/pack-module.nix` (`nix build .#pack-options` renders them as Markdown). It holds:
-- Basic metadata (name, description, tmuxName)
+- Basic metadata (name, description)
 - Server configuration (port, RAM, prometheusPort)
 - Loader versions (`loader` for the server, `clientLoader` for MCUpdater clients)
 - Config directories (`dirs.common`, `dirs.server`, `dirs.client`)

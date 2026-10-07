@@ -6,8 +6,8 @@
 # Inputs: the pack module itself. lib/pack.nix passes `inHouseMods` as a module argument, so a
 #   pack can list the builder's own mods in `dirs.server`.
 # Consumers: lib/pack.nix (evalPack, then buildPack turns the values into derivations).
-# Interface kept (see runtime-interface.md): the server's substituted variables (tmuxName, ram,
-#   serverName, port, prometheusPort, rconPort), the ServerPack's description/minecraft/port, and
+# Interface kept (see runtime-interface.md): the server's substituted variables (ram, serverName,
+#   port, prometheusPort, rconPort), the ServerPack's description/minecraft/port, and
 #   the order in which config directories are joined.
 { config, lib, ... }:
 let
@@ -42,10 +42,6 @@ in
       default = config.name;
       defaultText = lib.literalExpression "config.name";
       description = "The name players see in MCUpdater.";
-    };
-    tmuxName = mkOption {
-      type = types.str;
-      description = "Name substituted for `@tmuxName@` in the server's scripts.";
     };
     serverName = mkOption {
       type = types.str;

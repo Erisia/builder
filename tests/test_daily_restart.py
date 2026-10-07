@@ -34,7 +34,7 @@ def load_start(cwd):
     """start.py is a template: fill its placeholders and load it with cwd as APP_ROOT_DIR."""
     _stub_rich()
     source = (ROOT / "runtime/start.py").read_text()
-    source = source.replace("@tmuxName@", "test").replace("@rconPort@", "0")
+    source = source.replace("@rconPort@", "0")
     module = types.ModuleType("start")
     module.__file__ = str(ROOT / "runtime/start.py")
     old = os.getcwd()
