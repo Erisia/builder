@@ -1,6 +1,6 @@
 # Minebuild inspection and optional edit bridge
 
-E36 extraServerDirs includes base/e36-minebuild-server. Its stable artifact name
+E36 ships it from packs/e36/overlay/server/mods/. Its stable artifact name
 mods/minebuild-server.jar prevents accumulating versioned runtime jars during
 startup rsync. Source: /home/svein/dev/minebuild; build with JDK25 and ./gradlew build,
 then copy build/libs/minebuild-server-0.1.0.jar here.

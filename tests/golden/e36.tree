@@ -224,7 +224,7 @@ e36-server/.envrc	f	802	bcade9ca2347026e546786da196ba85f77632bb10d810728765855d1
 e36-server/README.md	f	5073	838a689c16871bcfe4d5980e9f2a0b477301897dec32699be4f9c90d268b406c
 e36-server/bin/control	x	1329536	01611f37f3f850afb6a7ec29286c34c7ac46b0e6d52a4eadedc652e9e8d363cc
 e36-server/bin/java	x	16672	a1944d19d3a0f42e337f35281fc0a5ccb19e86cee572d0cd408049f20eb47a55
-e36-server/bin/pack-docs	x	421	ccf07799431d6a7d6f1a96ca6a884ec70a3206c998cbbbeef2ba8f14dce737f5
+e36-server/bin/pack-docs	x	421	178500b37b66e43423217aea313be6f5a2691af0490f1f51d59a05b0b57d17b0
 e36-server/bin/test-live-inspector	x	476	97352a8d21c3e948f99db5f2a4044dbf85becad1bc311824389ad57c1359cda0
 e36-server/bin/test-save-threading	x	476	c4e010b9f0f761042299f08525bc94b8954dad0f37068d4dd87b2fd4793034ad
 e36-server/config/AE2WirelessTerminals.cfg	f	1893	c7ea2ba41a17fda35b9a9d45bebb97473ebf232cd58cd599bd39452a5f9cbf46
@@ -1339,7 +1339,7 @@ e36-server/scripts/MineTweakerRecipeMaker.zs	f	4003	cdafff3080da6c731ade60d41940
 e36-server/scripts/Tooltips.zs	f	3367	538b2754c8c913a44312a2aa411091d5d8cdec7cdc41c4204a4bcad726e5d5c1
 e36-server/scripts/dropt.zs	f	621	e78d68ef7a59c500b0c4ab80d38056fdc9861a12e31630e4a677a4ce318dfe7d
 e36-server/server.properties	f	827	9c553cd8675a164143fc0104caa20c343557f2f94ee3c03330fb3dcee1f43bb2
-e36-server/serverpack	f	55	b3112618777c6637c7ab0b2a7670e50ca430852dd72b614621f88a0fbb3f351a
+e36-server/serverpack	f	55	41de932f8a3eaed11e5d4dfdb2a3c28bf96b250276f51be6c23d57b06da19710
 e36-server/share/live-inspector-tests/erisia-live-inspector-0.1.0.jar	f	65218	286e6e62576f3ecac582815f323fdb5a821a843872461400548ad7ea4f49983e
 e36-server/share/live-inspector-tests/erisia-live-inspector-tests-0.1.0.jar	f	15513	d0b6a35c172a0628dcf6f4c4d8d50e40a478a8c31aea1c06c2327e3f7e6ff354
 e36-server/share/save-threading-tests/erisia-save-threading-0.1.0.jar	f	31964	09ae7e3b4aaa815daeebba12323dad4b840dfa131216a4042571c4d029881666

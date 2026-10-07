@@ -1,0 +1,26 @@
+# Files in IBP 2.0.13's overrides/ that E36 leaves out (see lib/unpack_upstream.py): six
+# configs, a stray `ExpertInfuser - Copy.zs`, and the Immersive Engineering and ToolProgression
+# core jars IBP ships in mods/memory_repo.
+config/appleskin.cfg
+config/fastbench.cfg
+config/fastfurnace.cfg
+config/fastleafdecay.cfg
+config/modularmachinery/machinery/machine-pikminman13-2020-05-05_16.42.45.json
+config/tips.cfg
+mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-84/ImmersiveEngineering-core-0.12-84.jar
+mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-84/ImmersiveEngineering-core-0.12-84.jar.meta
+mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-86/ImmersiveEngineering-core-0.12-86.jar
+mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-86/ImmersiveEngineering-core-0.12-86.jar.meta
+mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-88/ImmersiveEngineering-core-0.12-88.jar
+mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-88/ImmersiveEngineering-core-0.12-88.jar.meta
+mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-89/ImmersiveEngineering-core-0.12-89.jar
+mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-89/ImmersiveEngineering-core-0.12-89.jar.meta
+mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-92/ImmersiveEngineering-core-0.12-92.jar
+mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-92/ImmersiveEngineering-core-0.12-92.jar.meta
+mods/memory_repo/tyra314/toolprogression-core/1.12.2-1.6.5/toolprogression-core-1.12.2-1.6.5.jar
+mods/memory_repo/tyra314/toolprogression-core/1.12.2-1.6.5/toolprogression-core-1.12.2-1.6.5.jar.meta
+mods/memory_repo/tyra314/toolprogression-core/1.12.2-1.6.6/toolprogression-core-1.12.2-1.6.6.jar
+mods/memory_repo/tyra314/toolprogression-core/1.12.2-1.6.6/toolprogression-core-1.12.2-1.6.6.jar.meta
+mods/memory_repo/tyra314/toolprogression-core/1.12.2-1.6.9/toolprogression-core-1.12.2-1.6.9.jar
+mods/memory_repo/tyra314/toolprogression-core/1.12.2-1.6.9/toolprogression-core-1.12.2-1.6.9.jar.meta
+scripts/ExpertInfuser - Copy.zs
