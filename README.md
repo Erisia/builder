@@ -52,6 +52,21 @@ $ nix build .#web && cd result && python -m http.server
 $ cd web && ./serve.sh
 ```
 
+## Upstream pack (IBP)
+
+E36's configs are IBP 2.0.13's `overrides/`, fetched by hash, plus `packs/e36/overlay/` (see
+`lib/unpack_upstream.py` for the rules and checks). The zip is mirrored on tsugumi at
+`~minecraft/web/upstream/IBP-Dev-2.0.13.zip` (https://madoka.brage.info/upstream/), which is tried
+before CurseForge. To recreate the mirror:
+```
+$ mkdir -p ~/web/upstream && chmod 755 ~/web/upstream
+$ curl -fL -o ~/web/upstream/IBP-Dev-2.0.13.zip 'https://mediafilez.forgecdn.net/files/3067/178/IBP%20Dev-2.0.13.zip'
+$ sha256sum ~/web/upstream/IBP-Dev-2.0.13.zip   # 9455be5541e1b833d4c2144b71d991ccf50f4934a70b70976a1599b6b2197058
+```
+Updating IBP means a new URL and hash in `packs/e36/pack.nix`. The build then fails on any tombstone
+the new zip no longer has and any overlay file that has become identical to IBP's; review each
+overlay edit against what IBP changed.
+
 ## Launcher lock
 
 Minecraft, Fabric, and Forge-like launchers are pinned in `launcher-lock.json`.
@@ -109,7 +124,7 @@ sure to expunge base and third_party.
 
 ## Live server diagnostics
 
-The server-only [live inspector](mods/live-inspector/README.md) exposes read-only
+The server-only [live inspector](packs/e36/mods/live-inspector/README.md) exposes read-only
 resident-world snapshots, chunk/entity/tile details, bounded update timings and
 join provenance over the console/RCON. Its documentation includes the wish-list,
 commands, limitations, tests and porting boundaries. The

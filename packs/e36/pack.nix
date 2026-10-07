@@ -23,19 +23,40 @@
   java = pkgs.jdk25;
 
   manifest = ../../manifest/e36.json;
-  dirs = {
-    common = [
-      ../../base/e36
-      ../../base/e36-third-party
+  # IBP's configs and scripts, with Erisia's changes in ./overlay.
+  upstream = {
+    urls = [
+      "https://madoka.brage.info/upstream/IBP-Dev-2.0.13.zip"
+      "https://mediafilez.forgecdn.net/files/3067/178/IBP%20Dev-2.0.13.zip"
     ];
-    server = [
-      ../../runtime
-      inHouseMods.saveThreadingFix
-      inHouseMods.liveInspector
-      inHouseMods.slimeStomach
-      inHouseMods.dankNullMigrate
-      ../../base/e36-minebuild-server
+    hash = "sha256-lFW+VUHhuDPUwhRLcdmRzPUPSTSnC3CXahWZtrIZcFg=";
+    removed = ./overlay/removed.txt;
+    clientOnly = [
+      "resources"
+      "schematics"
     ];
-    client = [ ../../base/e36-client ];
+    # What E36 had already converted to LF. Other files (.ini, .rcst, .csv, ...) keep IBP's bytes.
+    textSuffixes = [
+      ".cfg"
+      ".conf"
+      ".config"
+      ".js"
+      ".json"
+      ".lang"
+      ".mcmeta"
+      ".old"
+      ".properties"
+      ".tml"
+      ".txt"
+      ".zs"
+    ];
+    overlay = ./overlay;
   };
+  dirs.server = [
+    ../../runtime
+    inHouseMods.saveThreadingFix
+    inHouseMods.liveInspector
+    inHouseMods.slimeStomach
+    inHouseMods.dankNullMigrate
+  ];
 }

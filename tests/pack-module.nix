@@ -26,6 +26,20 @@ let
   # Whether evaluating `value` fails. tryEval catches the module system's `throw`s.
   fails = value: !(builtins.tryEval value).success;
 
+  # An upstream pack; nothing below builds it, so the hash and URL are never used.
+  withUpstream =
+    overlay:
+    minimal
+    // {
+      upstream = {
+        urls = [ "https://example.invalid/pack.zip" ];
+        hash = lib.fakeHash;
+        removed = ./testdata/removed-none.txt;
+        inherit overlay;
+      };
+    };
+  dirsOf = module: (buildPack (eval module) { }).dirs;
+
   results = lib.runTests {
     testDefaults = {
       expr = {
@@ -46,6 +60,57 @@ let
         publish = true;
         java = null;
       };
+    };
+
+    testNoUpstreamKeepsDirs = {
+      expr = {
+        inherit (eval minimal) upstream;
+        dirs = dirsOf (minimal // { dirs.server = [ ./testdata ]; });
+      };
+      expected = {
+        upstream = null;
+        dirs = {
+          common = [ ];
+          client = [ ];
+          server = [ ./testdata ];
+        };
+      };
+    };
+    # Upstream comes after the pack's own dirs (first wins), on each side.
+    testUpstreamDirs = {
+      expr =
+        let
+          built = buildPack (eval (withUpstream ./testdata/overlay)) { };
+        in
+        {
+          common = map (d: d == built.upstream.out) built.dirs.common;
+          client = map (d: d == built.upstream.client) built.dirs.client;
+          server = built.dirs.server;
+        };
+      expected = {
+        common = [ true ];
+        client = [ true ];
+        server = [ (./testdata/overlay + "/server") ];
+      };
+    };
+    testOverlayWithoutServerDir = {
+      expr = (dirsOf (withUpstream ./testdata/overlay-common-only)).server;
+      expected = [ ];
+    };
+    testUpstreamNeedsUrls = {
+      expr =
+        fails
+          (eval (
+            minimal
+            // {
+              upstream = {
+                urls = [ ];
+                hash = lib.fakeHash;
+                removed = ./testdata/removed-none.txt;
+              };
+            }
+          )).upstream.urls;
+      expected = true;
     };
 
     testWrongTypeFails = {

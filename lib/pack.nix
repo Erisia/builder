@@ -58,6 +58,27 @@ in
       # The evaluated options, for callers that need them (e.g. `publish`).
       config = cfg;
 
+      # The upstream pack with its overlay applied (lib/upstream.nix), or null.
+      upstream =
+        if cfg.upstream == null then
+          null
+        else
+          import ./upstream.nix { inherit pkgs; } { inherit (cfg) name upstream; };
+
+      # Each side's directories, first wins: the pack's `dirs`, then upstream and its overlay.
+      dirs =
+        let
+          overlay = if cfg.upstream == null then null else cfg.upstream.overlay;
+          overlayServer = overlay + "/server";
+        in
+        {
+          common = cfg.dirs.common ++ lib.optional (upstream != null) upstream.out;
+          client = cfg.dirs.client ++ lib.optional (upstream != null) upstream.client;
+          server =
+            cfg.dirs.server
+            ++ lib.optional (overlay != null && builtins.pathExists overlayServer) overlayServer;
+        };
+
       ## Client
 
       clientMods = filterManifest {
@@ -74,7 +95,7 @@ in
             buildInputs = [ lndir ];
             base = symlinkJoin {
               name = "${cfg.name}-client-config";
-              paths = cfg.dirs.client ++ cfg.dirs.common;
+              paths = dirs.client ++ dirs.common;
             };
           }
           ''
@@ -154,8 +175,8 @@ in
             ln -s ${cfg.java}/bin/java $out/bin/java
           ''
         )
-        ++ cfg.dirs.server
-        ++ cfg.dirs.common;
+        ++ dirs.server
+        ++ dirs.common;
 
         postBuild =
           lib.optionalString (clientPack != null) ''

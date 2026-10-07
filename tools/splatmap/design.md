@@ -30,7 +30,7 @@ compatibility still need to be established experimentally.
   server with their normal Minecraft account. Spawn has suitable existing buildings.
 - The intended capture and training GPU is the user's **RTX 4090 (24 GB VRAM)**.
   CUDA availability and the usable training budget have not been validated.
-- [Live inspector](../../mods/live-inspector/README.md) provides an example of
+- [Live inspector](../../packs/e36/mods/live-inspector/README.md) provides an example of
   custom server instrumentation and isolated tests for the pinned Cleanroom
   version. It is a reference for later server work, not a capture dependency.
 - No existing empty-server pause mechanism has been established by the repository

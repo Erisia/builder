@@ -114,6 +114,63 @@ in
       '';
     };
 
+    upstream = mkOption {
+      type = types.nullOr (
+        types.submodule {
+          options = {
+            urls = mkOption {
+              type = types.nonEmptyListOf types.str;
+              description = "Where to fetch the pack's CurseForge zip, tried in order: our mirror first.";
+            };
+            hash = mkOption {
+              type = types.str;
+              example = "sha256-lFW+VUHhuDPUwhRLcdmRzPUPSTSnC3CXahWZtrIZcFg=";
+              description = "The zip's SRI hash.";
+            };
+            removed = mkOption {
+              type = types.path;
+              description = ''
+                The tombstone list: files under the zip's `overrides/` that the pack leaves out, one
+                per line (`#` comments allowed). An entry the zip doesn't have fails the build.
+              '';
+            };
+            clientOnly = mkOption {
+              type = types.listOf types.str;
+              default = [ ];
+              example = [
+                "resources"
+                "schematics"
+              ];
+              description = "Top-level override directories only clients get. The rest goes to both sides.";
+            };
+            textSuffixes = mkOption {
+              type = types.listOf types.str;
+              default = [ ];
+              example = [
+                ".cfg"
+                ".json"
+              ];
+              description = "Upstream files with these suffixes get CRLF line endings converted to LF.";
+            };
+            overlay = mkOption {
+              type = types.nullOr types.path;
+              default = null;
+              description = ''
+                The pack's changes to upstream: a directory with `common/`, `client/` and `server/`.
+                `common/` and `client/` replace or add upstream files; one identical to the upstream
+                file it replaces fails the build. `server/` is added to the server's directories as it is.
+              '';
+            };
+          };
+        }
+      );
+      default = null;
+      description = ''
+        An upstream CurseForge modpack whose `overrides/` the pack builds on (lib/upstream.nix).
+        It comes after `dirs`, so files in `dirs` take precedence.
+      '';
+    };
+
     manifest = mkOption {
       type = types.path;
       description = "The generated mod lock, `manifest/<pack>.json`.";

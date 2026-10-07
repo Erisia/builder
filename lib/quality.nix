@@ -19,6 +19,7 @@ let
     ./quality.nix
     ./pack-module.nix
     ./pack-docs.nix
+    ./upstream.nix
     ./pack.nix
     ../packs/e36/pack.nix
     ../tests/pack-module.nix
@@ -30,6 +31,8 @@ let
     ../tests/test_golden_tree.py
     ./make-serverpack.py
     ../tests/test_make_serverpack.py
+    ./unpack_upstream.py
+    ../tests/test_unpack_upstream.py
   ];
   # Not yet at that standard, but checked for undefined names (ruff F821-F823): a leftover use of
   # a removed constant only fails at runtime, and the launcher has no test that reaches every path.
@@ -51,6 +54,7 @@ let
   unitTests = [
     "tests/test_golden_tree.py"
     "tests/test_make_serverpack.py"
+    "tests/test_unpack_upstream.py"
   ];
 
   src = lib.fileset.toSource {

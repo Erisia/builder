@@ -55,6 +55,7 @@ Each pack is a module, `packs/<pack>/pack.nix`, checked against the typed option
 - Basic metadata (name, description)
 - Server configuration (port, RAM, prometheusPort)
 - Loader versions (`loader` for the server, `clientLoader` for MCUpdater clients)
+- The upstream modpack and its overlay (`upstream`)
 - Config directories (`dirs.common`, `dirs.server`, `dirs.client`)
 - Manifest reference
 `lib/pack.nix` turns an evaluated pack into its derivations; `builder.nix` lists the packs.
@@ -62,14 +63,13 @@ Each pack is a module, `packs/<pack>/pack.nix`, checked against the typed option
 ### Directory Structure
 - `manifest/*.yaml`: Mod definitions with side filtering (edit these)
 - `manifest/*.json`: Generated manifests (don't edit directly)
-- `base/`: Configuration files organized by pack and side
-  - `base/e36/`, `base/e36-third-party/`: Pack-specific configs
-  - `base/e36-minebuild-server/`: Server-only configs
-  - `base/e36-client/`: Client-only configs
 - `packs/<pack>/pack.nix`: Pack definitions (see above)
+- `packs/e36/overlay/`: Erisia's changes to IBP 2.0.13's configs, which come from the IBP zip
+  (`upstream` in pack.nix, built by `lib/upstream.nix`): `common/`, `client/`, `server/`, and
+  `removed.txt`, the IBP files E36 leaves out. Edit configs here; a file identical to IBP's fails the build.
 - `runtime/`: What every server gets: start.py, control.sh, crash analysis, seed files
 - `modestly-modular-modpack-modifier/`: Rust-based workflow processor for modpack building
-- `mods/`: In-house server mods for e36 (`save-threading-fix`, `live-inspector`); each has a README
+- `packs/e36/mods/`: In-house mods for e36 (`save-threading-fix`, `live-inspector`, `slimestomach`, `danknull-migrate`, `arcrecycle`); each has a README
 - `tools/`: Helper utilities (control scripts, FTB unpacker, gallery bot)
 - `tools/crash-analysis-notice.sh`: shell prompt hook listing unread `crash-analysis/*.md` reports (see `runtime/README.md`)
 - `web/`: Hugo-based website source
