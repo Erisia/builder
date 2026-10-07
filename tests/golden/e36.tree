@@ -1098,6 +1098,7 @@ e36-server/forge/libraries/org/slf4j/slf4j-api/2.0.18/slf4j-api-2.0.18.jar	f	699
 e36-server/forge/libraries/org/tukaani/xz/1.12/xz-1.12.jar	f	168792	3e158a87bd73d8afb4b6e8239c013b7d049c48563f45860ce99cd2e448cf4a6b
 e36-server/forge/libraries/top/outlands/foundation/0.19.11/foundation-0.19.11.jar	f	55607	a9f5cf9cb54715edf22d6bcb49bae50f281f818b1731f53f22aab85a48a7b54b
 e36-server/forge/minecraft_server.1.12.2.jar	f	30222121	fe1f9274e6dad9191bf6e6e8e36ee6ebc737f373603df0946aafcded0d53167e
+e36-server/managed_files.py	x	5382	f7009aaaf2f7f73f227d546e11f2d45589c5d026ca61fb17ea35b87afd2d0858
 e36-server/mods/!Red-Core-MC-1.8-1.12-0.7.1.jar	f	149374	9935912816062ca46a2ecd020d813ee2dde8e6b228daec068b465eb72ea51368
 e36-server/mods/+Fugue-0.24.4.jar	f	309884	438248925eb38d16b6b4bcbe6247339b2a745cfe586d4917985f7d925a5d8630
 e36-server/mods/AE-Net-Vis-Tool-1.12.2-1.0.3.0-universal.jar	f	77203	0e898bf22d923889986e70705351601c4f8b98f6ef917b1644082067008b2310
@@ -1344,7 +1345,7 @@ e36-server/share/live-inspector-tests/erisia-live-inspector-0.1.0.jar	f	65218	28
 e36-server/share/live-inspector-tests/erisia-live-inspector-tests-0.1.0.jar	f	15513	d0b6a35c172a0628dcf6f4c4d8d50e40a478a8c31aea1c06c2327e3f7e6ff354
 e36-server/share/save-threading-tests/erisia-save-threading-0.1.0.jar	f	31964	09ae7e3b4aaa815daeebba12323dad4b840dfa131216a4042571c4d029881666
 e36-server/share/save-threading-tests/erisia-save-threading-tests-0.1.0.jar	f	31087	99063354bad712a52605f4b8173e76e08cdb07f764dfbf0887472ef18bd4eef4
-e36-server/start.py	x	36638	959f324d5bae3cd83bc21122669d47d541d5daf1b3835e866fb04e1a9db7b2ff
+e36-server/start.py	x	38097	b912a912c0fab26bcc9a8d2e343df4486c584ed2ebdc0a1d6c4a4d9fa0731946
 e36-server/stop.sh	x	97	ee5346efa7175d923dcac64a926acd1172c88a885f5cc74851edb651f86fb503
 e36-server/structures/active/erisDungeonZ.rcst	f	33204	5410a2c93de2480c969d6191e685bd3ff2d981d8c68e227674f835832cd0a6f7
 e36-server/structures/active/jupiterDungeonZ.rcst	f	12851	a612f34b97bcc275e3050625206c2ef92d88ded9108f97799a0c0aaeee35bc3b
