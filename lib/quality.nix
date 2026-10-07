@@ -33,6 +33,8 @@ let
     ../tests/test_make_serverpack.py
     ./unpack_upstream.py
     ../tests/test_unpack_upstream.py
+    ../runtime/managed_files.py
+    ../tests/test_managed_files.py
   ];
   # Not yet at that standard, but checked for undefined names (ruff F821-F823): a leftover use of
   # a removed constant only fails at runtime, and the launcher has no test that reaches every path.
@@ -55,6 +57,7 @@ let
     "tests/test_golden_tree.py"
     "tests/test_make_serverpack.py"
     "tests/test_unpack_upstream.py"
+    "tests/test_managed_files.py"
   ];
 
   src = lib.fileset.toSource {

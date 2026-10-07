@@ -77,6 +77,7 @@
               ./update-and-start.sh
               ./runtime/crash_analysis.py
               ./runtime/start.py
+              ./runtime/managed_files.py
               ./tests/test_daily_restart.py
               ./tests/test_start_java.py
               ./tests/test_sync_scripts.py

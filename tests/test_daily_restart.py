@@ -35,6 +35,9 @@ def load_start(cwd):
     _stub_rich()
     source = (ROOT / "runtime/start.py").read_text()
     source = source.replace("@rconPort@", "0")
+    # Like `python3 start.py`, which puts its own directory first on sys.path (crash_analysis, managed_files).
+    if str(ROOT / "runtime") not in sys.path:
+        sys.path.insert(0, str(ROOT / "runtime"))
     module = types.ModuleType("start")
     module.__file__ = str(ROOT / "runtime/start.py")
     old = os.getcwd()

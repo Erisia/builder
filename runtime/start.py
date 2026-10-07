@@ -46,6 +46,9 @@ SERVER_JVM_PID_FILE = APP_ROOT_DIR / "server-jvm.pid" # Java server PID (if not 
 LOGS_DIR = APP_ROOT_DIR / "logs"
 GC_LOG_PATH = APP_ROOT_DIR / "gc.log"
 
+# Top-level seed files that are copied on every start rather than only when missing.
+MANAGED_SEEDS = {"user_jvm_args.txt"}
+
 # Directories to rsync from BASE_DIR to APP_ROOT_DIR (need write access)
 RSYNC_DIRS = ["config", "world", "journeymap", "schematics", "defaultconfigs", "configureddefaults", "kubejs", "mods", "scripts", "structures"]
 
@@ -181,14 +184,16 @@ def sync_server_files():
             else:
                 console.print(f"[yellow]Warning:[/] Source directory {source_dir} for symlinking not found. Skipping.")
 
-        # *.properties, *.json: Copy from BASE_DIR to APP_ROOT_DIR if non-existent in APP_ROOT_DIR
-        # Original: [[ -e "$b" ]] || cp -aL "$f" "$b"
-        # $BASE/$b -> $CWD/$b
+        # Top-level *.properties, *.json, *.txt are seeds: copied only if missing, because the server
+        # or admins change them (server.properties, ops.json, whitelist.json). MANAGED_SEEDS are the
+        # pack's, and are copied on every start.
         for pattern in ["*.properties", "*.json", "*.txt"]:
             for source_file in BASE_DIR.glob(pattern):
                 dest_file = APP_ROOT_DIR / source_file.name
-                if not dest_file.exists():
-                    console.print(f"Copying [blue]{source_file.name}[/] from {source_file} to {dest_file} (as it's non-existent)...")
+                if source_file.name in MANAGED_SEEDS or not dest_file.exists():
+                    console.print(f"Copying [blue]{source_file.name}[/] from {source_file} to {dest_file}...")
+                    if dest_file.exists() or dest_file.is_symlink():
+                        dest_file.unlink()
                     shutil.copy2(source_file, dest_file, follow_symlinks=True) # follow_symlinks=True for -L effect
                     dest_file.chmod(0o644) # Nix store files are 444; make writable for the server
 
@@ -233,6 +238,22 @@ def sync_server_files():
         for key_dir in dirs_to_fix:
             if key_dir.is_dir(): # Check if it was actually created/synced
                 fix_permissions(str(key_dir))
+
+        # Files the pack shipped last time but no longer does are moved to .erisia-removed/
+        # (see managed_files.py). Generated files the pack never shipped are left alone. This runs
+        # after fix_permissions: rsync -a copies the store's read-only directory modes, and a file
+        # can't be moved out of a read-only directory. If the manifest can't be trusted or a move
+        # fails, the server doesn't start: an admin should look before anything else changes.
+        import managed_files
+        try:
+            managed_files.update(
+                BASE_DIR, APP_ROOT_DIR, RSYNC_DIRS, datetime.datetime.now().strftime("%Y%m%d-%H%M%S"),
+                lambda message: console.print(f"[yellow]Managed files:[/] {escape(message)}"))
+        except managed_files.ManagedFilesError as e:
+            console.print(f"[bold red]ERROR:[/] Managed files: {escape(str(e))}")
+            console.print(f"[bold red]Not starting.[/] Inspect {escape(str(APP_ROOT_DIR / managed_files.MANIFEST_NAME))}; "
+                          "deleting it makes the next start retire nothing and write a fresh one.")
+            sys.exit(1)
 
 
 def configure_rcon():
