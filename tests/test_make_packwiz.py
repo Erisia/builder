@@ -168,13 +168,37 @@ class InstanceTests(unittest.TestCase):
         self.dir = Path(self.enterContext(tempfile.TemporaryDirectory()))
         (self.dir / "installer.jar").write_bytes(b"PK-installer")
         (self.dir / "logo.png").write_bytes(b"png")
+        self.template = self.dir / "cleanroom.zip"
+        self.write_template("0.6.12-alpha")
+
+    def write_template(self, loader: str) -> None:
+        """A cut-down Cleanroom release template: mmc-pack.json, patches/, and parts we drop."""
+        pack = {
+            "formatVersion": 1,
+            "components": [
+                {"uid": "org.lwjgl3", "version": "3.4.1"},
+                {"uid": "net.minecraft", "version": "1.12.2", "important": True},
+                {"uid": "net.minecraftforge", "version": loader},
+            ],
+        }
+        with zipfile.ZipFile(self.template, "w") as archive:
+            archive.writestr("mmc-pack.json", json.dumps(pack))
+            archive.writestr(
+                "patches/net.minecraft.json", '{"compatibleJavaMajors": [25, 26]}'
+            )
+            archive.writestr("patches/", "")
+            archive.writestr(
+                "instance.cfg", "JavaPath=Replace this with your java path\n"
+            )
+            archive.writestr("cleanroom.png", "x")
 
     def build(self, name: str = "E36", out: str = "E36.zip") -> Path:
         path = self.dir / out
         tool.build_instance(
             name,
             "1.12.2",
-            "14.23.5.2864",
+            "0.6.12-alpha",
+            self.template,
             "https://h.example/pack/prism/e36/pack/pack.toml",
             self.dir / "installer.jar",
             self.dir / "logo.png",
@@ -193,10 +217,12 @@ class InstanceTests(unittest.TestCase):
                     "instance.cfg",
                     "minecraft/packwiz-installer.jar",
                     "mmc-pack.json",
+                    "patches/net.minecraft.json",
                 ],
             )
             cfg = archive.read("instance.cfg").decode()
             pack = json.loads(archive.read("mmc-pack.json"))
+            patch = json.loads(archive.read("patches/net.minecraft.json"))
             self.assertEqual(
                 archive.read("minecraft/packwiz-installer.jar"), b"PK-installer"
             )
@@ -206,11 +232,20 @@ class InstanceTests(unittest.TestCase):
             cfg,
         )
         self.assertNotIn("bootstrap", cfg)
+        self.assertNotIn("JavaPath", cfg)
         self.assertIn("iconKey=e36\n", cfg)
         self.assertEqual(
-            [(c["uid"], c["version"]) for c in pack["components"]],
-            [("net.minecraft", "1.12.2"), ("net.minecraftforge", "14.23.5.2864")],
+            pack["components"][2],
+            {"uid": "net.minecraftforge", "version": "0.6.12-alpha"},
         )
+        self.assertEqual(patch["compatibleJavaMajors"], [25, 26])
+
+    def test_template_for_another_loader_fails(self) -> None:
+        self.write_template("0.6.13-alpha")
+        with self.assertRaisesRegex(
+            tool.PackwizError, "loader is 0.6.13-alpha, not 0.6.12-alpha"
+        ):
+            self.build()
 
     def test_zip_is_deterministic(self) -> None:
         self.assertEqual(
@@ -222,6 +257,16 @@ class InstanceTests(unittest.TestCase):
             self.build(name="E 36")
         with self.assertRaisesRegex(tool.PackwizError, "can't contain"):
             tool.instance_cfg("E36", "https://h.example/p?a=b", 6144, 2048)
+
+
+class SelectModsTests(unittest.TestCase):
+    def test_exclude(self) -> None:
+        mods = [tool.Mod.from_json(entry("a")), tool.Mod.from_json(entry("relauncher"))]
+        self.assertEqual(
+            [m.name for m in tool.select_mods(mods, {"relauncher"})], ["a"]
+        )
+        with self.assertRaisesRegex(tool.PackwizError, "doesn't have: \\['typo'\\]"):
+            tool.select_mods(mods, {"typo"})
 
 
 if __name__ == "__main__":

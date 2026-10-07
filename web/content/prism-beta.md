@@ -18,7 +18,9 @@ MCUpdater doesn't always manage. Mods you add yourself are left alone.
 
 1. Install [Prism Launcher](https://prismlauncher.org/) and log in with your Microsoft account.
 2. In Prism's settings, under **Java**, make sure automatic Java download/detection is on.
-   E36 needs Java 8, and Prism will fetch it for you.
+   E36 runs on [Cleanroom](https://github.com/CleanroomMC/Cleanroom), like the server, which needs
+   Java 25; Prism will fetch it for you. If you already play E36 through the Cleanroom template in
+   Prism, this is the same setup, except that the mods now update themselves.
 3. Click **Add Instance** → **Import**, and paste this URL:
    `https://madoka.brage.info/pack/prism/e36/E36.zip`
 4. Launch the new **E36** instance. The first launch downloads about 400 MB. A window shows the

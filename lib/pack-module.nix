@@ -114,6 +114,15 @@ in
       '';
     };
 
+    prism.excludeMods = mkOption {
+      type = types.listOf types.str;
+      default = [ ];
+      example = [ "improved-cleanroom-relauncher" ];
+      description = ''
+        Manifest mods (by name) the Prism pack leaves out, e.g. ones only MCUpdater's Forge clients need.
+        A name the client mods don't have fails the build.
+      '';
+    };
     prism.preserve = mkOption {
       type = types.listOf types.str;
       default = [ ];

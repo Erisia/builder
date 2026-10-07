@@ -32,6 +32,7 @@ let
     fetchMods
     fetchForge
     fetchCleanroom
+    fetchCleanroomPrismTemplate
     mkZipDirs
     runLocally
     wrapDir
@@ -145,9 +146,15 @@ in
         baseUrl:
         import ./prism.nix { inherit pkgs packwizInstaller; } {
           inherit (cfg) name minecraft;
-          inherit (cfg.prism) preserve;
+          inherit (cfg.prism) preserve excludeMods;
           inherit baseUrl;
-          forge = clientForge.minor;
+          loader = "${cfg.loader.major}-${cfg.loader.minor}";
+          # Prism players run the server's loader. Only Cleanroom ships a Prism template so far.
+          template =
+            if cfg.loader.type == "cleanroom" then
+              fetchCleanroomPrismTemplate { inherit (cfg.loader) major minor; }
+            else
+              throw "${cfg.name}: the Prism instance needs a template for ${cfg.loader.type}";
           mods = clientMods;
           tree = clientTree;
           icon = ../web/static/img/logo.png;

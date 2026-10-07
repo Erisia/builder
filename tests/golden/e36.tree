@@ -220,7 +220,7 @@ e36-client-mods/valkyrielib-1.12.2-2.0.20.1.jar	f	733580	24a72428d22c04040e8a608
 e36-client-mods/vintagefix-0.7.1.jar	f	1043648	e6f0b4e16625b2ffad558e9dbb90cb1ace556198aabac18f3647a38dee1550c8
 e36-client-mods/woot-1.12.2-1.4.11.jar	f	879720	f4f0b7a1861a4b2f11c6dc5f315090ec411dce8a62df3347fd00a96f191fb2e9
 e36-client-mods/zerocore-1.12.2-0.1.2.8.jar	f	228623	99ca0107097641349055713e3505b434c4115e55a82d427975d6b2528500310b
-e36-prism/E36.zip	f	3772204	53412f74e00b45a182ab37736346fd765bb63e0b60656fd1a129727152a3106f
+e36-prism/E36.zip	f	3784162	8e54d6149d365411e9dbf36cc550229e6bcd4a3c9c1e496d84280bc18eb0e4cd
 e36-prism/pack/config/AE2WirelessTerminals.cfg	f	1893	c7ea2ba41a17fda35b9a9d45bebb97473ebf232cd58cd599bd39452a5f9cbf46
 e36-prism/pack/config/Animus.cfg	f	3490	441ab45487ae9d4bf08b91fd2b8f74b54ebbfcf2bbb762fa9d0ec4791b10acf4
 e36-prism/pack/config/AppliedEnergistics2/AppliedEnergistics2.cfg	f	13503	767342bc639b0954f75464603dc212b344eda3e0ec5f9fa11f4cb97a61d37b8d
@@ -936,7 +936,7 @@ e36-prism/pack/config/woot/woot.cfg	f	8621	d5882da56bc981733b4a435516143f5fe6296
 e36-prism/pack/config/worldedit/worldedit.properties	f	1018	1fe3a59c7c5dafaf38fe7f263932a02cff9ed15fd2a80a5a7b5f1334871de42b
 e36-prism/pack/config/xnet/xnet.cfg	f	2055	1e9780086a6b52da31a62ef55e07fe80a2812bd0413a706e4004e0fd365fc23e
 e36-prism/pack/config/xreliquary.cfg	f	52640	478b5a0902c9dc77ac9d1074ca7fbabfe0d8db2fc0c5286966bb317a88a386c1
-e36-prism/pack/index.toml	f	184676	fd0449f837b499f28ebe30b096dc258c6f5f2f333387d27b603c59ab4c478996
+e36-prism/pack/index.toml	f	184523	78410919b0f40e20fd8e28bb5bcc2773c8b0a9505d5da6576245076d1df08a4e
 e36-prism/pack/mods/Galacticraft-Planets-1.12.2-4.0.2.244.jar	f	4099597	c3b4c0b66aabd738fa4aaf50f3d802b68049733dface51d545dbfe9382bfd192
 e36-prism/pack/mods/GalacticraftCore-1.12.2-4.0.2.244.jar	f	10455495	9bbb1d44c40194560533cffc48f8f9c8a7070ac0b1bb3ed094474d94b6f7b309
 e36-prism/pack/mods/MicdoodleCore-1.12.2-4.0.2.244.jar	f	53300	b1babe784f2d99a858a334db21468d71c61c06f7bb54bfb15b31c03827e6bcf3
@@ -1023,7 +1023,6 @@ e36-prism/pack/mods/ifpatcher.pw.toml	f	244	2fff183e69479ab3e0c3d6d5f38866f906a1
 e36-prism/pack/mods/immersive-engineering.pw.toml	f	282	3351eb701bfc4513da8d91756dcff296c169bed88bac45337d8a77c8a6cfcae8
 e36-prism/pack/mods/immersive-petroleum.pw.toml	f	288	27f425ed2686979e39fdd180eab4b73a4580be8df2ca129f63e0c8a6721b6f0b
 e36-prism/pack/mods/immersive-tech.pw.toml	f	269	bdf95527cf6eb65e4607fcc898389ac1be518aff551844f5089356b938c764dd
-e36-prism/pack/mods/improved-cleanroom-relauncher.pw.toml	f	328	8962d0e59637612e68fc7edbfe50e606bdae05d971ef3abcbc9119cafff2ddf7
 e36-prism/pack/mods/incorporeal.pw.toml	f	250	98bb3639215ed24b801ed5656580e9aade2e201ee72783639215912db5591993
 e36-prism/pack/mods/industrial-craft.pw.toml	f	283	0ab21e6f7efdcab6d13fbd5ae7d5df95e5006bfb596877cca5a6040abf849c73
 e36-prism/pack/mods/industrial-foregoing.pw.toml	f	301	5f4e1290b759afc3d3594350b051125573fd2c6bd9af511d9fb9f52e5931e811
@@ -1137,7 +1136,7 @@ e36-prism/pack/mods/woot.pw.toml	f	245	3d72401587acfdbb26214d1481767e126765033e3
 e36-prism/pack/mods/wrapup.pw.toml	f	245	1b5f91fb4c53203f6561d3c794fef6f033287497165d0d7941872c54a48e9aa1
 e36-prism/pack/mods/xp-orb-clump.pw.toml	f	238	077b041f077c8b32fc64f13b3daef44387bfaaf85c7aa90a2113720fb770de05
 e36-prism/pack/mods/zerocore.pw.toml	f	261	aae18f58c36c233c4c92d9aa0933aa790d2a4bd580f94bfa933ff0ff16ceccfd
-e36-prism/pack/pack.toml	f	227	2ba4b2a3a13f3373df638492637f82338b3ba018226b1799b4341b14f35c6609
+e36-prism/pack/pack.toml	f	227	d34d5e2f186a1a24fc47eb3a5477e734a4274c3f99ee348214c0fc9b25e03a55
 e36-prism/pack/patchouli_books/book/book.json	f	192	12c65f7df9454a9a7f896443bfc27ebe54e462ec8e2ac80bcaa14ed2d8bd52a9
 e36-prism/pack/patchouli_books/book/en_us/categories/small_builds.json	f	197	b041365ae8d955912c8236fb512f83ac6487a2faa225bc837b843dee7572e70a
 e36-prism/pack/patchouli_books/book/en_us/categories/test_category.json	f	197	b041365ae8d955912c8236fb512f83ac6487a2faa225bc837b843dee7572e70a
@@ -1506,7 +1505,7 @@ e36-server/.envrc	f	802	bcade9ca2347026e546786da196ba85f77632bb10d810728765855d1
 e36-server/README.md	f	5073	838a689c16871bcfe4d5980e9f2a0b477301897dec32699be4f9c90d268b406c
 e36-server/bin/control	x	1329536	01611f37f3f850afb6a7ec29286c34c7ac46b0e6d52a4eadedc652e9e8d363cc
 e36-server/bin/java	x	16672	a1944d19d3a0f42e337f35281fc0a5ccb19e86cee572d0cd408049f20eb47a55
-e36-server/bin/pack-docs	x	421	3560548fbe033dfde42ebe5b79ed16b820ef719798c0cae1f43408ca648a17dc
+e36-server/bin/pack-docs	x	421	faa1c8c32a8506337bf927011759907c3e516e41a71267041cda8d03c71cde2a
 e36-server/bin/test-live-inspector	x	476	97352a8d21c3e948f99db5f2a4044dbf85becad1bc311824389ad57c1359cda0
 e36-server/bin/test-save-threading	x	476	c4e010b9f0f761042299f08525bc94b8954dad0f37068d4dd87b2fd4793034ad
 e36-server/config/AE2WirelessTerminals.cfg	f	1893	c7ea2ba41a17fda35b9a9d45bebb97473ebf232cd58cd599bd39452a5f9cbf46
@@ -2622,7 +2621,7 @@ e36-server/scripts/MineTweakerRecipeMaker.zs	f	4003	cdafff3080da6c731ade60d41940
 e36-server/scripts/Tooltips.zs	f	3367	538b2754c8c913a44312a2aa411091d5d8cdec7cdc41c4204a4bcad726e5d5c1
 e36-server/scripts/dropt.zs	f	621	e78d68ef7a59c500b0c4ab80d38056fdc9861a12e31630e4a677a4ce318dfe7d
 e36-server/server.properties	f	827	9c553cd8675a164143fc0104caa20c343557f2f94ee3c03330fb3dcee1f43bb2
-e36-server/serverpack	f	55	d41e285e6796bfda829817f7fb10e8dd4c0515e53344af96cd21b400edd882e2
+e36-server/serverpack	f	55	824146cf4b46db13cedbffe4be6105909b480d3cf46d277bfe19a86e685c97b5
 e36-server/share/live-inspector-tests/erisia-live-inspector-0.1.0.jar	f	65218	286e6e62576f3ecac582815f323fdb5a821a843872461400548ad7ea4f49983e
 e36-server/share/live-inspector-tests/erisia-live-inspector-tests-0.1.0.jar	f	15513	d0b6a35c172a0628dcf6f4c4d8d50e40a478a8c31aea1c06c2327e3f7e6ff354
 e36-server/share/save-threading-tests/erisia-save-threading-0.1.0.jar	f	31964	09ae7e3b4aaa815daeebba12323dad4b840dfa131216a4042571c4d029881666

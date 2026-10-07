@@ -52,6 +52,8 @@
     ];
     overlay = ./overlay;
   };
+  # Prism players run Cleanroom natively, so they don't need the relauncher MCUpdater's Forge clients use.
+  prism.excludeMods = [ "improved-cleanroom-relauncher" ];
   dirs.server = [
     ../../runtime
     inHouseMods.saveThreadingFix
