@@ -11,6 +11,7 @@
       pkgs = nixpkgs.legacyPackages.${system};
       builder = import ./builder.nix { inherit pkgs; };
       golden = import ./lib/golden.nix { inherit pkgs builder; };
+      packDocs = import ./lib/pack-docs.nix { inherit pkgs; };
       packPackages = pkgs.lib.mapAttrs (_: pack: {
         inherit (pack)
           launcherDir
@@ -34,6 +35,9 @@
         live-inspector = builder.liveInspector;
         danknull-migrate = builder.dankNullMigrate;
         golden-e36 = golden.tree;
+        # The pack options (lib/pack-module.nix) as Markdown, and `nix run .#pack-docs` to read them.
+        pack-options = packDocs.doc;
+        pack-docs = packDocs.viewer;
         default = builder.ServerPackLocal;
         inherit (builder) ServerPack ServerPackLocal web mcupdaterFlakeRepo;
         serverPack = builder.ServerPack;
@@ -45,6 +49,7 @@
       checks.${system} = {
         golden-e36 = golden.check;
         quality = import ./lib/quality.nix { inherit pkgs; };
+        pack-module = import ./tests/pack-module.nix { inherit pkgs builder; };
         save-threading-fix = builder.saveThreadingFix.tests.integration;
         live-inspector = builder.liveInspector.tests.integration;
         tick-debug = pkgs.runCommand "minecraft-tick-debug-tests" {
@@ -70,10 +75,11 @@
             fileset = pkgs.lib.fileset.unions [
               ./shutdown.py
               ./update-and-start.sh
-              ./base/server/crash_analysis.py
-              ./base/server/start.py
+              ./runtime/crash_analysis.py
+              ./runtime/start.py
               ./tests/test_daily_restart.py
               ./tests/test_start_java.py
+              ./tests/test_sync_scripts.py
               ./tests/test_shutdown.py
               ./tests/test_crash_analysis.py
             ];

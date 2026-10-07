@@ -50,12 +50,14 @@ nix build .#packages.x86_64-linux
 - `flake.nix`: Nix flake definition for modern Nix workflows
 
 ### Pack Definitions
-Each pack in `builder.nix` contains:
-- Basic metadata (name, description, tmuxName)
+Each pack is a module, `packs/<pack>/pack.nix`, checked against the typed options in
+`lib/pack-module.nix` (`nix build .#pack-options` renders them as Markdown). It holds:
+- Basic metadata (name, description)
 - Server configuration (port, RAM, prometheusPort)
-- Minecraft/modloader versions (neoforge, forge, fabric, cleanroom)
-- Directory paths for configs (extraDirs, extraServerDirs, extraClientDirs)
+- Loader versions (`loader` for the server, `clientLoader` for MCUpdater clients)
+- Config directories (`dirs.common`, `dirs.server`, `dirs.client`)
 - Manifest reference
+`lib/pack.nix` turns an evaluated pack into its derivations; `builder.nix` lists the packs.
 
 ### Directory Structure
 - `manifest/*.yaml`: Mod definitions with side filtering (edit these)
@@ -64,11 +66,12 @@ Each pack in `builder.nix` contains:
   - `base/e36/`, `base/e36-third-party/`: Pack-specific configs
   - `base/e36-minebuild-server/`: Server-only configs
   - `base/e36-client/`: Client-only configs
-  - `base/server/`: Shared server configs
+- `packs/<pack>/pack.nix`: Pack definitions (see above)
+- `runtime/`: What every server gets: start.py, control.sh, crash analysis, seed files
 - `modestly-modular-modpack-modifier/`: Rust-based workflow processor for modpack building
 - `mods/`: In-house server mods for e36 (`save-threading-fix`, `live-inspector`); each has a README
 - `tools/`: Helper utilities (control scripts, FTB unpacker, gallery bot)
-- `tools/crash-analysis-notice.sh`: shell prompt hook listing unread `crash-analysis/*.md` reports (see `base/server/README.md`)
+- `tools/crash-analysis-notice.sh`: shell prompt hook listing unread `crash-analysis/*.md` reports (see `runtime/README.md`)
 - `web/`: Hugo-based website source
 
 ### Build System
@@ -104,7 +107,7 @@ The tool creates the config file automatically at:
 
 ## Crash Analysis
 
-`base/server/crash_analysis.py` runs a suggestions-only Claude Code post-mortem after a genuine
+`runtime/crash_analysis.py` runs a suggestions-only Claude Code post-mortem after a genuine
 server crash (never after an intentional stop), at most three per day per server, writing
 `crash-analysis/<stamp>.md` in the server directory. Unit tests live in `tests/test_crash_analysis.py`
 and run with `nix flake check` or `python3 -m unittest discover -s tests`.

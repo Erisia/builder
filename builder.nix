@@ -23,56 +23,27 @@ rec {
     launcherDir = packs.e36.launcherDir;
   };
 
-  # Only E36 is live. Older packs were retired on 2026-10-06; see the archive/pre-2026-10 bookmark.
-  # Each server is built with the ServerPack (see clientPack in lib/lib.nix): players need a working
-  # client pack, so a broken one fails the server build. Nix is lazy and the ServerPack reads only
-  # the packs' client halves, so this isn't circular.
-  packs = {
-    e36 = buildPack (e36 // { clientPack = ServerPack; });
+  # The builder's own mods, as pack modules see them (`inHouseMods` in packs/*/pack.nix).
+  inHouseMods = {
+    inherit saveThreadingFix liveInspector slimeStomach dankNullMigrate;
   };
 
-  e36 = {
-    name = "E36";
-    tmuxName = "e36";
-    description = "E36: Calculus difficilis est";
-    ram = "8G";
-    port = 25565;
-    prometheusPort = 1224;
-    minecraft = "1.12.2";
-    # start.py runs Cleanroom on Java 25; this pins which build.
-    java = jdk25;
-    cleanroom = {
-      major = "0.6.12";
-      minor = "alpha";
-    };
-    client-forge = {
-      major = "1.12.2";
-      minor = "14.23.5.2864";
-    };
-    #forge = {
-    #  major = "1.12.2";
-    #  minor = "14.23.5.2864";
-    #};
-    extraDirs = [
-      ./base/e36
-      ./base/e36-third-party
-    ];
-    extraServerDirs = [
-      ./base/server
-      saveThreadingFix
-      liveInspector
-      slimeStomach
-      dankNullMigrate
-      ./base/e36-minebuild-server
-    ];
-    extraClientDirs = [
-      ./base/e36-client
-    ];
-    manifest = ./manifest/e36.json;
+  inherit (callPackage ./lib/pack.nix { builderLib = callPackage ./lib/lib.nix {}; })
+    evalPack buildPack;
+
+  # Only E36 is live. Older packs were retired on 2026-10-06; see the archive/pre-2026-10 bookmark.
+  # Each server is built with the ServerPack (`clientPack`, see lib/pack.nix): players need a
+  # working client pack, so a broken one fails the server build. Nix is lazy and the ServerPack
+  # reads only the packs' client halves, so this isn't circular.
+  packs = {
+    e36 = buildPack (evalPack ./packs/e36/pack.nix inHouseMods) { clientPack = ServerPack; };
   };
+
+  # Only these packs reach players.
+  publishedPacks = lib.filterAttrs (_: pack: pack.config.publish) packs;
 
   ServerPack = buildServerPack {
-    inherit packs;
+    packs = publishedPacks;
     hostname = "minecraft.brage.info";
     urlBase = "https://madoka.brage.info/pack/";
   };
@@ -80,7 +51,7 @@ rec {
   # To use:
   # (nix build -f . ServerPackLocal && cd result && python -m http.server)
   ServerPackLocal = buildServerPack rec {
-    inherit packs;
+    packs = publishedPacks;
     hostname = "localhost:8000";
     urlBase = "http://" + hostname + "/";
   };

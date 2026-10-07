@@ -220,9 +220,11 @@ e36-client-mods/valkyrielib-1.12.2-2.0.20.1.jar	f	733580	24a72428d22c04040e8a608
 e36-client-mods/vintagefix-0.7.1.jar	f	1043648	e6f0b4e16625b2ffad558e9dbb90cb1ace556198aabac18f3647a38dee1550c8
 e36-client-mods/woot-1.12.2-1.4.11.jar	f	879720	f4f0b7a1861a4b2f11c6dc5f315090ec411dce8a62df3347fd00a96f191fb2e9
 e36-client-mods/zerocore-1.12.2-0.1.2.8.jar	f	228623	99ca0107097641349055713e3505b434c4115e55a82d427975d6b2528500310b
-e36-server/README.md	f	5040	fba78ccaf731b0088387ed020ac877a32ec0b0f3e28d40b7f430187855d14825
-e36-server/bin/control	x	1334192	650b1693fb2fbf400401d92d95905fb4baf05775575680b25d295f61c3eb1188
+e36-server/.envrc	f	802	bcade9ca2347026e546786da196ba85f77632bb10d810728765855d1a49d45fd
+e36-server/README.md	f	5073	838a689c16871bcfe4d5980e9f2a0b477301897dec32699be4f9c90d268b406c
+e36-server/bin/control	x	1329536	01611f37f3f850afb6a7ec29286c34c7ac46b0e6d52a4eadedc652e9e8d363cc
 e36-server/bin/java	x	16672	a1944d19d3a0f42e337f35281fc0a5ccb19e86cee572d0cd408049f20eb47a55
+e36-server/bin/pack-docs	x	421	ccf07799431d6a7d6f1a96ca6a884ec70a3206c998cbbbeef2ba8f14dce737f5
 e36-server/bin/test-live-inspector	x	476	97352a8d21c3e948f99db5f2a4044dbf85becad1bc311824389ad57c1359cda0
 e36-server/bin/test-save-threading	x	476	c4e010b9f0f761042299f08525bc94b8954dad0f37068d4dd87b2fd4793034ad
 e36-server/config/AE2WirelessTerminals.cfg	f	1893	c7ea2ba41a17fda35b9a9d45bebb97473ebf232cd58cd599bd39452a5f9cbf46
@@ -941,10 +943,9 @@ e36-server/config/woot/woot.cfg	f	8621	d5882da56bc981733b4a435516143f5fe6296de19
 e36-server/config/worldedit/worldedit.properties	f	1018	1fe3a59c7c5dafaf38fe7f263932a02cff9ed15fd2a80a5a7b5f1334871de42b
 e36-server/config/xnet/xnet.cfg	f	2055	1e9780086a6b52da31a62ef55e07fe80a2812bd0413a706e4004e0fd365fc23e
 e36-server/config/xreliquary.cfg	f	52640	478b5a0902c9dc77ac9d1074ca7fbabfe0d8db2fc0c5286966bb317a88a386c1
-e36-server/control.sh	x	93	7b70f5c7b81dcccae7e2b0b3915c0cfbb81020f3fc0273cbd0cf73033d2a7487
+e36-server/control.sh	x	89	c13bd29677cfd31efccc932f82755efee6a8458dfdd9ead81af8c35a1c9958ad
 e36-server/crash_analysis.py	x	28306	6576f451300acd8e70f49aa0629893203aeff2259f9b08caeeeb9a8a9bec1feb
 e36-server/create-snapshot.sh	x	851	f6dd46d8507ff8972db1a153cbee91ccb77ee4d2d752e35e7cbf91c40fcb887a
-e36-server/erisia.service	x	394	3df2f57a9ae5fc02f28f986fe73cc1b078381ab9979192d31f228655e73c3ac8
 e36-server/forge/cleanroom-0.6.12-alpha.jar	f	6502296	48043f4ea69605ec9b1250b9bd01106b07023b78614bac734a8a296e690e7893
 e36-server/forge/libraries/ca/weblite/java-objc-bridge/1.2/java-objc-bridge-1.2.jar	f	1476301	c8b08b7747d746f04d41c52315399f7d2ea936ece30d3382f122eb756f782cd7
 e36-server/forge/libraries/com/cleanroommc/cleanmix/0.7.2/cleanmix-0.7.2.jar	f	1095887	0b92f8443dd5972346e4ee60a421407cf0215dbf1c9cd06b6f435e3f5f9a0d04
@@ -1343,7 +1344,7 @@ e36-server/share/live-inspector-tests/erisia-live-inspector-0.1.0.jar	f	65218	28
 e36-server/share/live-inspector-tests/erisia-live-inspector-tests-0.1.0.jar	f	15513	d0b6a35c172a0628dcf6f4c4d8d50e40a478a8c31aea1c06c2327e3f7e6ff354
 e36-server/share/save-threading-tests/erisia-save-threading-0.1.0.jar	f	31964	09ae7e3b4aaa815daeebba12323dad4b840dfa131216a4042571c4d029881666
 e36-server/share/save-threading-tests/erisia-save-threading-tests-0.1.0.jar	f	31087	99063354bad712a52605f4b8173e76e08cdb07f764dfbf0887472ef18bd4eef4
-e36-server/start.py	x	37955	0865d3b712e86d95637df59d2e801cb7b841708219f5da444540bcee05c7e7ce
+e36-server/start.py	x	36578	c48d687c277c9b82354abbd91f7d4df309f7e8e285355b3a5b5fdc8b65cd5f70
 e36-server/stop.sh	x	97	ee5346efa7175d923dcac64a926acd1172c88a885f5cc74851edb651f86fb503
 e36-server/structures/active/erisDungeonZ.rcst	f	33204	5410a2c93de2480c969d6191e685bd3ff2d981d8c68e227674f835832cd0a6f7
 e36-server/structures/active/jupiterDungeonZ.rcst	f	12851	a612f34b97bcc275e3050625206c2ef92d88ded9108f97799a0c0aaeee35bc3b
@@ -1360,7 +1361,6 @@ e36-server/structures/active/saturnDungeonZX.rcst	f	10155	8d8fc146f2606bd3fb4c7d
 e36-server/structures/active/swordybuilding.rcst	f	2860	19c4e2394a4730c664e8dd584a6479fbab4425ab202f1025e98b98bd847dc815
 e36-server/structures/active/uranusdungeonX.rcst	f	11682	b9e3383ce4859afef80b1e6621138b88eb9286c751273ef700eb5e9d25167538
 e36-server/structures/active/zpigmanspawner.rcst	f	2454	e648350b39bce09534b0eba9fab2781a975f3f1a89d80252a906f17783a5df24
-e36-server/update-and-loop.sh	x	235	c27c4f5542d702c2b1ff53072ef5048eb3e5a7ddb2e0664fcebb5bb17afac20b
 e36-server/user_jvm_args.txt	x	653	1f27257235aa9c6c91d84bf553c1396ce022e2ab93444442993175490128f2d4
 e36-server/warmroast-1.0.0-SNAPSHOT.jar	f	1523894	94cd2060ef3c781c2d148a41967977a84ed0060fa964d96a24cbfc929c0a4370
 e36-server/whitelist.json	f	17078	c619a46c1c0c3b236c1c711ccc865b4390c1d29c2fc08c931b46ec642f92162b

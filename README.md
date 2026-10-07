@@ -25,6 +25,13 @@ Legacy `nix-build -f .` entry points are still supported for the main builder at
 including nested targets such as `packs.e36.server`. They use the nixpkgs pinned in
 `flake.lock`, so they build exactly what the flake builds.
 
+### Command lists
+
+With direnv, entering the checkout prints its common commands (`.envrc`), and entering a world
+prints the world's (`runtime/.envrc`, which `start.py` copies into the world on every launch).
+Each user has to `direnv allow` a directory once, unless it's whitelisted. `nix run .#pack-docs`
+(in a world, `server/bin/pack-docs`) pages the pack options documentation.
+
 ### Checks
 
 `nix flake check` runs the unit tests, the in-house mod integration tests, and:

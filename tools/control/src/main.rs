@@ -5,9 +5,9 @@
 //! RCON port and password are read from ./server.properties, which start.py
 //! rewrites with a fresh random password on every launch.
 //!
-//! If RCON is unavailable (e.g. a server started before RCON was enabled),
-//! commands fall back to tmux send-keys, and the player count is assumed to
-//! be non-zero so restarts still wait out their grace period.
+//! RCON is the only channel: without it, commands fail, and the player count
+//! is assumed to be non-zero so restarts still wait out their grace period.
+//! Run it from the world directory (control.sh does); it works on that server.
 
 use anyhow::{bail, Context, Result};
 use std::convert::TryInto;
@@ -21,9 +21,6 @@ use structopt::StructOpt;
 #[derive(Debug, StructOpt)]
 #[structopt(version = "0.2", author = "Baughn", name = "control")]
 struct Opts {
-    #[structopt(name = "server", help = "Which server (tmux name) to work on")]
-    server: String,
-
     #[structopt(subcommand)]
     cmd: Command,
 }
@@ -182,22 +179,20 @@ fn process_uptime(pid: u64) -> Result<Duration> {
 
 // Server toolbox
 struct Server {
-    tmux_id: String,
     rcon: Option<Rcon>,
     pid: u64,
 }
 
 impl Server {
-    pub fn new(tmux_id: String) -> Result<Server> {
+    pub fn new() -> Result<Server> {
         let rcon = match Rcon::from_properties(SERVER_PROPERTIES) {
             Ok(rcon) => Some(rcon),
             Err(e) => {
-                println!("RCON unavailable, falling back to tmux: {:#}", e);
+                println!("RCON unavailable, commands will fail: {:#}", e);
                 None
             }
         };
         let mut server = Server {
-            tmux_id,
             rcon,
             pid: 0,
         };
@@ -210,27 +205,11 @@ impl Server {
         parse_player_count(&rcon.command("list")?)
     }
 
-    /// Sends a console command, over RCON if possible, otherwise via tmux.
+    /// Sends a console command over RCON.
     pub fn send(&mut self, command: &str) -> Result<()> {
-        if let Some(rcon) = &self.rcon {
-            match rcon.command(command) {
-                Ok(_) => return Ok(()),
-                Err(e) => println!("RCON failed for {:?}, falling back to tmux: {:#}", command, e),
-            }
-        }
-        self.send_tmux(command)
-    }
-
-    fn send_tmux(&self, command: &str) -> Result<()> {
-        std::process::Command::new("tmux")
-            .args(&[
-                "send-keys",
-                "-t",
-                &format!("{}:0", self.tmux_id),
-                command,
-                "ENTER",
-            ])
-            .output()?;
+        let rcon = self.rcon.as_ref().context("RCON is not configured")?;
+        rcon.command(command)
+            .with_context(|| format!("sending {:?} over RCON", command))?;
         Ok(())
     }
 
@@ -323,7 +302,7 @@ impl Server {
             sleep(second);
         }
 
-        println!("Stopping {}", self.tmux_id);
+        println!("Stopping the server");
         self.send("save-on")?;
         self.send("save-all")?;
         sleep(second * 5);
@@ -359,7 +338,7 @@ impl Server {
 
 fn main() -> Result<()> {
     let opts: Opts = Opts::from_args();
-    let mut server = Server::new(opts.server.to_owned())?;
+    let mut server = Server::new()?;
 
     match opts.cmd {
         Command::Stop { time, lazy } => {
