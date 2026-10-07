@@ -71,7 +71,10 @@ rec {
     buildInputs = [ git ];
     bootstrap = "${ServerPack}/MCUpdater-Bootstrap.jar";
   } ''
-    # Create git repo with flake
+    # Create the git repo in its own directory: the build directory also holds Nix's env-vars
+    # and .attr-* files, and committing those (env-vars has the ServerPack's store path) changed
+    # the commit whenever anything upstream did.
+    mkdir repo; cd repo
     cp -r $src/* .
 
     # Substitute the bootstrap hash
