@@ -26,6 +26,8 @@ let
     # The packs/ tree beside these is symlinks to the dirs above.
     "ServerPack.xml" = "${builder.ServerPack}/ServerPack.xml";
     "MCUpdater-Bootstrap.jar" = "${builder.ServerPack}/MCUpdater-Bootstrap.jar";
+    # The Prism-native pack and instance zip (lib/prism.nix), as published.
+    "e36-prism" = "${builder.ServerPack}/prism/e36";
   };
 
   tree = pkgs.runCommand "golden-e36.tree" { nativeBuildInputs = [ pkgs.python3 ]; } ''

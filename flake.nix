@@ -34,6 +34,8 @@
         save-threading-fix = builder.saveThreadingFix;
         live-inspector = builder.liveInspector;
         danknull-migrate = builder.dankNullMigrate;
+        # `nix build .#packwiz-installer.mitmCache.updateScript && ./result` refreshes its deps.json.
+        packwiz-installer = builder.packwizInstaller;
         golden-e36 = golden.tree;
         # The pack options (lib/pack-module.nix) as Markdown, and `nix run .#pack-docs` to read them.
         pack-options = packDocs.doc;

@@ -114,6 +114,16 @@ in
       '';
     };
 
+    prism.preserve = mkOption {
+      type = types.listOf types.str;
+      default = [ ];
+      example = [ "config/jei/jei.cfg" ];
+      description = ''
+        Client files Prism players are expected to edit: packwiz-installer installs them when
+        missing but doesn't overwrite them when the pack changes them (lib/prism.nix).
+      '';
+    };
+
     upstream = mkOption {
       type = types.nullOr (
         types.submodule {
