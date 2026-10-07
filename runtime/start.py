@@ -29,6 +29,8 @@ BASE_DIR = Path(__file__).parent.resolve()
 APP_ROOT_DIR = Path.cwd()
 
 FORGE_JAR_PATTERN = 'forge/forge-*.jar' # Relative to BASE_DIR
+# The pack's short name, e.g. e36: names the systemd-run scope and labels crash reports.
+SERVER_NAME = "@serverName@".lower() # Placeholder
 STOP_SCRIPT_PATH = APP_ROOT_DIR / "stop.sh" # stop.sh should be in the runtime dir if it's called
 LAZY_SKIP_EXIT = 75 # control stop --lazy: server too young, not stopping
 USER_JVM_ARGS_FILE = APP_ROOT_DIR / "user_jvm_args.txt" # JVM args also in runtime dir
@@ -357,9 +359,9 @@ def cleanup_handler():
     daily_restart_stop_event.set() # Stop daily restart thread
 
     if using_systemd:
-        console.print(f"Instructing systemd to stop the server scope: [cyan]minecraft-server-{TMUX_TARGET_SESSION_NAME}.scope[/]")
+        console.print(f"Instructing systemd to stop the server scope: [cyan]minecraft-server-{SERVER_NAME}.scope[/]")
         # systemd will handle TimeoutStopSec (3 minutes) and SIGKILL if needed.
-        run_command(['systemctl', '--user', 'stop', f'minecraft-server-{TMUX_TARGET_SESSION_NAME}.scope'], check=False)
+        run_command(['systemctl', '--user', 'stop', f'minecraft-server-{SERVER_NAME}.scope'], check=False)
         # We don't need to manage the java_server_process directly here as systemd handles it.
         # The main script's wait on systemd-run will unblock when the unit stops.
     elif java_server_process and java_server_process.pid:
@@ -452,7 +454,7 @@ def report_crash(return_code, command):
             shutdown_marker_exists=Path(f"/run/user/{os.getuid()}/minecraft-shutdown").exists(),
             launched_at=launched_at or datetime.datetime.now(),
             command=[str(part) for part in command],
-            server_name=TMUX_TARGET_SESSION_NAME,
+            server_name=SERVER_NAME,
             python=sys.executable,
             log=lambda message: console.print(f"[magenta]Crash analysis:[/] {escape(message)}"),
         )
@@ -482,7 +484,7 @@ def main():
     server_info.add_column("Value", style="green")
     server_info.add_row("Base Directory", str(BASE_DIR))
     server_info.add_row("Runtime Directory", str(APP_ROOT_DIR))
-    server_info.add_row("Tmux Session", TMUX_TARGET_SESSION_NAME)
+    server_info.add_row("Server", SERVER_NAME)
     server_info.add_row("Logs Directory", str(LOGS_DIR))
     server_info.add_row("PID File", str(SERVER_PID_FILE))
     server_info.add_row("Script PID", str(os.getpid()))
@@ -658,7 +660,7 @@ def main():
     final_command_to_run, java_env, java_source = java_launch(BASE_DIR, nix_jre_package, full_java_command, os.environ)
     console.print(f"[blue]Java:[/] [cyan]{java_source}[/]")
     
-    scope_name = f'minecraft-server-{TMUX_TARGET_SESSION_NAME}.scope'
+    scope_name = f'minecraft-server-{SERVER_NAME}.scope'
     if using_systemd:
         final_command_to_run = [
             'systemd-run', '--user', '--scope', '--collect',
