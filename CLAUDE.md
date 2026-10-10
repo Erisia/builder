@@ -69,7 +69,7 @@ Each pack is a module, `packs/<pack>/pack.nix`, checked against the typed option
   `removed.txt`, the IBP files E36 leaves out. Edit configs here; a file identical to IBP's fails the build.
 - `runtime/`: What every server gets: start.py, control.sh, crash analysis, seed files
 - `modestly-modular-modpack-modifier/`: Rust-based workflow processor for modpack building
-- `packs/e36/mods/`: In-house mods for e36 (`save-threading-fix`, `live-inspector`, `slimestomach`, `danknull-migrate`, `arcrecycle`); each has a README
+- `packs/e36/mods/`: In-house mods for e36 (`save-threading-fix`, `live-inspector`, `slimestomach`, `danknull-migrate`, `stepheight-fix`, `arcrecycle`); each has a README
 - `tools/`: Helper utilities (control scripts, FTB unpacker, gallery bot)
 - `tools/crash-analysis-notice.sh`: shell prompt hook listing unread `crash-analysis/*.md` reports (see `runtime/README.md`)
 - `web/`: Hugo-based website source
