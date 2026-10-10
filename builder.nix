@@ -26,9 +26,14 @@ rec {
     launcherDir = packs.e36.launcherDir;
   };
 
+  # Puts the server-side player step height back to vanilla's 1.0 after Chibi lowers it (AS Step Assist).
+  stepHeightFix = callPackage ./packs/e36/mods/stepheight-fix {
+    launcherDir = packs.e36.launcherDir;
+  };
+
   # The builder's own mods, as pack modules see them (`inHouseMods` in packs/*/pack.nix).
   inHouseMods = {
-    inherit saveThreadingFix liveInspector slimeStomach dankNullMigrate;
+    inherit saveThreadingFix liveInspector slimeStomach dankNullMigrate stepHeightFix;
   };
 
   inherit (callPackage ./lib/pack.nix {

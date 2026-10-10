@@ -60,5 +60,6 @@
     inHouseMods.liveInspector
     inHouseMods.slimeStomach
     inHouseMods.dankNullMigrate
+    inHouseMods.stepHeightFix
   ];
 }
