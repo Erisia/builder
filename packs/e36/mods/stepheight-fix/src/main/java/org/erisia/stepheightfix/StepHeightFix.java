@@ -22,7 +22,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
  * A new player entity (login, respawn) joins its world right after construction, before any perk tick, so
  * this puts the base back to 1.0 there. Only Chibi's exact 0.7 is touched; any other value is left alone.
  */
-@Mod(modid="erisia_stepheight_fix", name="Erisia Step Height Fix", version="1.0.0",
+@Mod(modid="erisia_stepheight_fix", name="Erisia Step Height Fix", version="2.0.0",
      serverSideOnly=true, acceptableRemoteVersions="*")
 public final class StepHeightFix {
     static final float CHIBI_BASE = 0.7f, VANILLA_BASE = 1.0f;

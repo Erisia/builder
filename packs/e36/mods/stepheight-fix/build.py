@@ -12,7 +12,7 @@ import subprocess
 import zipfile
 
 ROOT = Path(__file__).resolve().parent
-VERSION = "1.0.0"
+VERSION = "2.0.0"
 NAME = "erisia-stepheight-fix"
 
 

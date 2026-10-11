@@ -1,0 +1,8 @@
+{
+  "package": "org.erisia.stepheightfix.mixin",
+  "required": true,
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_8",
+  "injectors": { "defaultRequire": 1 },
+  "mixins": ["KeyStepAssistMixin"]
+}
