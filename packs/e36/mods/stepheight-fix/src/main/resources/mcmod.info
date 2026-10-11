@@ -1,8 +1,8 @@
 [{
   "modid": "erisia_stepheight_fix",
   "name": "Erisia Step Height Fix",
-  "description": "Server-only: puts the server-side player step height back to vanilla's 1.0 after Chibi lowers it to 0.7, so Astral Sorcery's Step Assist works again.",
-  "version": "1.0.0",
+  "description": "Server-only: restores vanilla's 1.0 server-side player step height that Chibi lowers to 0.7, and lifts Astral Sorcery's Step Assist back to 1.5 when removed step gear leaves it at its 1.1 floor.",
+  "version": "1.1.0",
   "mcversion": "1.12.2",
   "authorList": ["Erisia"]
 }]
