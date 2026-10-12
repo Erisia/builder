@@ -61,5 +61,6 @@
     inHouseMods.slimeStomach
     inHouseMods.dankNullMigrate
     inHouseMods.stepHeightFix
+    inHouseMods.dimSyncFix
   ];
 }

@@ -31,9 +31,14 @@ rec {
     launcherDir = packs.e36.launcherDir;
   };
 
+  # Resends player attributes/abilities/health after a dimension change; NetherPortalFix's teleport skips them.
+  dimSyncFix = callPackage ./packs/e36/mods/dimsync-fix {
+    launcherDir = packs.e36.launcherDir;
+  };
+
   # The builder's own mods, as pack modules see them (`inHouseMods` in packs/*/pack.nix).
   inHouseMods = {
-    inherit saveThreadingFix liveInspector slimeStomach dankNullMigrate stepHeightFix;
+    inherit saveThreadingFix liveInspector slimeStomach dankNullMigrate stepHeightFix dimSyncFix;
   };
 
   inherit (callPackage ./lib/pack.nix {

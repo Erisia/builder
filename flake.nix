@@ -35,6 +35,7 @@
         live-inspector = builder.liveInspector;
         danknull-migrate = builder.dankNullMigrate;
         stepheight-fix = builder.stepHeightFix;
+        dimsync-fix = builder.dimSyncFix;
         # `nix build .#packwiz-installer.mitmCache.updateScript && ./result` refreshes its deps.json.
         packwiz-installer = builder.packwizInstaller;
         golden-e36 = golden.tree;
