@@ -47,13 +47,17 @@ rec {
   })
     evalPack buildPack;
 
-  # Only E36 is live. Older packs were retired on 2026-10-06; see the archive/pre-2026-10 bookmark.
+  # E36 is live; incognito is being set up. Older packs were retired on 2026-10-06; see the archive/pre-2026-10 bookmark.
   # Each published pack's server is built with a ServerPack of that pack alone (`clientPack`, see
   # lib/pack.nix): its players need a working client pack, so a broken one fails that server's
   # build, but not another pack's. Nix is lazy and the ServerPack reads only the pack's client
   # half, so this isn't circular. With one published pack this is the same derivation as ServerPack.
   packs = {
     e36 = buildPack (evalPack ./packs/e36/pack.nix inHouseMods) { clientPack = ownServerPack "e36"; };
+    # The MC 26.3 Electrical Age / Stasis Delvers playtest (Prism only, unpublished for now).
+    incognito = buildPack (evalPack ./packs/incognito/pack.nix inHouseMods) {
+      clientPack = ownServerPack "incognito";
+    };
   };
 
   # The ServerPack check for one pack's server, or null for an unpublished pack.

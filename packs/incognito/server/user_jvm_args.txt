@@ -1,0 +1,9 @@
+-Xms@ram@
+-Xmx@ram@
+-Dlog4j2.formatMsgNoLookups=true
+-XX:+UseG1GC
+-XX:MaxGCPauseMillis=200
+-XX:+UseTransparentHugePages
+-XX:+DisableExplicitGC
+-XX:+StartAttachListener
+-Xlog:gc*,safepoint:file=gc.log:time,uptime,level,tags:filecount=5,filesize=20M
