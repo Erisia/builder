@@ -213,6 +213,14 @@ let
     };
     testOnlyPublishedPacksInServerPack = {
       expr = builtins.attrNames builder.publishedPacks;
+      expected = [
+        "e36"
+        "incognito"
+      ];
+    };
+    # incognito is published for Prism only: MCUpdater can't install NeoForge 26.x.
+    testMcupdaterPacks = {
+      expr = builtins.attrNames (lib.filterAttrs (_: pack: pack.config.mcupdater) builder.publishedPacks);
       expected = [ "e36" ];
     };
   };
