@@ -1,7 +1,8 @@
 # incognito: a small MC 26.3 NeoForge playtest pack around the Electrical Age port and Stasis Delvers.
 # Mod list approved by Baughn on 2026-10-13. Modrinth versions are pinned by ~/agent/tools/mrlock.py
 # (ErisiAgent), which also adds every required dependency. Left out for now: Carry On and CC: Tweaked
-# (their 26.3 builds crash on NeoForge 26.3.0.76).
+# (their 26.3 builds crash on NeoForge 26.3.0.76). Corpse was removed on 2026-10-13: Stasis Delvers'
+# statues do that job (Baughn).
 config:
   minecraft_version: '26.3'
   modloader: 'neoforge'
@@ -89,11 +90,6 @@ nodes:
         id: 'xv94TkTM'
         file_id: 'k8C4cEvR'
         side: client
-      - name: corpse
-        source: modrinth
-        id: 'WrpuIfhw'
-        file_id: '2Nizhd20'
-        side: both
       - name: cristel-lib
         source: modrinth
         id: 'cl223EMc'

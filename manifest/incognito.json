@@ -182,19 +182,6 @@
     "sha256": "cfe916fb50c29749b8aa354f104689080a204a154743d701c8d65568af4368b5"
   },
   {
-    "name": "corpse",
-    "title": "Corpse",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "corpse-neoforge-1.1.20+26.3.jar",
-    "encoded": "corpse-neoforge-1.1.20%2B26.3.jar",
-    "src": "https://cdn.modrinth.com/data/WrpuIfhw/versions/2Nizhd20/corpse-neoforge-1.1.20%2B26.3.jar",
-    "size": 252347,
-    "md5": "0da77c21d2dc5b03023137508d4d6186",
-    "sha256": "dfcbd51175ea876182422344bb6abcf61c02758c8e762e7dc34d9cc2fb13439e"
-  },
-  {
     "name": "cristel-lib",
     "title": "Cristel Lib",
     "side": "both",
