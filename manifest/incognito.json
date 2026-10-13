@@ -319,10 +319,10 @@
     "default": true,
     "filename": "eln-26.3-0.1.0-port.jar",
     "encoded": "eln-26.3-0.1.0-port.jar",
-    "src": "https://madoka.brage.info/upstream/incognito/eln-26.3-0.1.0-port-1107359a.jar",
-    "size": 23346485,
-    "md5": "3f58372f33ac3c45eb235b0baf9f3bc4",
-    "sha256": "1107359a2997cd97cbed9d3e40993edd38f1f8effd8e5efd850d9d23806130ae"
+    "src": "https://madoka.brage.info/upstream/incognito/eln-26.3-0.1.0-port-a75b2de3.jar",
+    "size": 23325574,
+    "md5": "19059c4f12edcd25c6851258c50fc737",
+    "sha256": "a75b2de3b799d291aec449f385cf29d367cead137fe4f0f0945f24e9d0f46645"
   },
   {
     "name": "energized-power",
@@ -865,10 +865,10 @@
     "default": true,
     "filename": "stasisdelvers-26.3-0.1.0.jar",
     "encoded": "stasisdelvers-26.3-0.1.0.jar",
-    "src": "https://madoka.brage.info/upstream/incognito/stasisdelvers-26.3-0.1.0-728f316d.jar",
-    "size": 2111799,
-    "md5": "f9d4c3f9bdfb4a3b6ca5524f9ced2048",
-    "sha256": "728f316ddd9a14534789fdcae81abf69d8392cf054bc10cf89e7e01796add459"
+    "src": "https://madoka.brage.info/upstream/incognito/stasisdelvers-26.3-0.1.0-68645d71.jar",
+    "size": 2116975,
+    "md5": "c86aaa8fd1c50ee4d8f574805a1fc399",
+    "sha256": "68645d711350e1a4501b7a8a33ca3f7233919e412b1a011e132462cbbc869220"
   },
   {
     "name": "storagedrawers",
