@@ -67,7 +67,8 @@ Each pack is a module, `packs/<pack>/pack.nix`, checked against the typed option
 - `packs/e36/overlay/`: Erisia's changes to IBP 2.0.13's configs, which come from the IBP zip
   (`upstream` in pack.nix, built by `lib/upstream.nix`): `common/`, `client/`, `server/`, and
   `removed.txt`, the IBP files E36 leaves out. Edit configs here; a file identical to IBP's fails the build.
-- `runtime/`: What every server gets: start.py, control.sh, crash analysis, seed files
+- `runtime/`: What every server gets: start.py, control.sh, crash analysis
+- `packs/<pack>/server/`: The pack's server seeds (server.properties, whitelist.json, ops.json, user_jvm_args.txt, config/, world/)
 - `modestly-modular-modpack-modifier/`: Rust-based workflow processor for modpack building
 - `packs/e36/mods/`: In-house mods for e36 (`save-threading-fix`, `live-inspector`, `slimestomach`, `danknull-migrate`, `stepheight-fix`, `dimsync-fix`, `arcrecycle`); each has a README
 - `tools/`: Helper utilities (control scripts, FTB unpacker, gallery bot)

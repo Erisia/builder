@@ -55,6 +55,8 @@
   # Prism players run Cleanroom natively, so they don't need the relauncher MCUpdater's Forge clients use.
   prism.excludeMods = [ "improved-cleanroom-relauncher" ];
   dirs.server = [
+    # E36's seeds (server.properties, whitelist, JVM args, ...) before the shared runtime.
+    ./server
     ../../runtime
     inHouseMods.saveThreadingFix
     inHouseMods.liveInspector

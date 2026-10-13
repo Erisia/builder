@@ -253,8 +253,8 @@ def template_members(
 ) -> list[tuple[str, bytes]]:
     """mmc-pack.json and patches/ from the loader's Prism template, checked against the pack.
 
-    The template (Cleanroom's release zip) defines the instance's components, including the Java
-    versions Prism should run it with. Its instance.cfg, icon and game directory aren't used.
+    The template (Cleanroom's release zip, or the one lib/lib.nix generates for NeoForge) defines
+    the instance's components, including the Java versions Prism should run it with. Its instance.cfg, icon and game directory aren't used.
     """
     with zipfile.ZipFile(template) as archive:
         names = archive.namelist()
@@ -273,10 +273,10 @@ def template_members(
         raise PackwizError(
             f"template is for Minecraft {versions.get('net.minecraft')}, not {minecraft}"
         )
-    if versions.get("net.minecraftforge") != loader:
-        raise PackwizError(
-            f"template's loader is {versions.get('net.minecraftforge')}, not {loader}"
-        )
+    # Cleanroom's template names its loader net.minecraftforge; NeoForge's is net.neoforged.
+    found = versions.get("net.minecraftforge") or versions.get("net.neoforged")
+    if found != loader:
+        raise PackwizError(f"template's loader is {found}, not {loader}")
     return members
 
 

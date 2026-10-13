@@ -48,12 +48,23 @@ rec {
     evalPack buildPack;
 
   # Only E36 is live. Older packs were retired on 2026-10-06; see the archive/pre-2026-10 bookmark.
-  # Each server is built with the ServerPack (`clientPack`, see lib/pack.nix): players need a
-  # working client pack, so a broken one fails the server build. Nix is lazy and the ServerPack
-  # reads only the packs' client halves, so this isn't circular.
+  # Each published pack's server is built with a ServerPack of that pack alone (`clientPack`, see
+  # lib/pack.nix): its players need a working client pack, so a broken one fails that server's
+  # build, but not another pack's. Nix is lazy and the ServerPack reads only the pack's client
+  # half, so this isn't circular. With one published pack this is the same derivation as ServerPack.
   packs = {
-    e36 = buildPack (evalPack ./packs/e36/pack.nix inHouseMods) { clientPack = ServerPack; };
+    e36 = buildPack (evalPack ./packs/e36/pack.nix inHouseMods) { clientPack = ownServerPack "e36"; };
   };
+
+  # The ServerPack check for one pack's server, or null for an unpublished pack.
+  ownServerPack = id:
+    if packs.${id}.config.publish then
+      buildServerPack {
+        packs = { ${id} = packs.${id}; };
+        hostname = "minecraft.brage.info";
+        urlBase = "https://madoka.brage.info/pack/";
+      }
+    else null;
 
   # Only these packs reach players.
   publishedPacks = lib.filterAttrs (_: pack: pack.config.publish) packs;

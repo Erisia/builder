@@ -54,6 +54,14 @@ in
       default = true;
       description = "Whether the pack is listed in the ServerPack, so players can install it.";
     };
+    mcupdater = mkOption {
+      type = types.bool;
+      default = true;
+      description = ''
+        Whether MCUpdater offers the pack (ServerPack.xml). False makes a published pack Prism-only:
+        MCUpdater can't install modern loaders such as NeoForge 26.x.
+      '';
+    };
 
     ram = mkOption {
       type = types.strMatching "[0-9]+[mMgG]";
@@ -88,13 +96,17 @@ in
             type = types.enum [
               "forge"
               "cleanroom"
+              "neoforge"
             ];
             description = "Which loader the server runs.";
           };
         }
         // versionOptions;
       };
-      description = "The server's mod loader. Its installer must be pinned in launcher-lock.json.";
+      description = ''
+        The server's mod loader. Its installer must be pinned in launcher-lock.json. For NeoForge,
+        `major` is the Minecraft version and `minor` the NeoForge version (e.g. `26.3`, `26.3.0.76`).
+      '';
     };
     clientForge = mkOption {
       type = types.nullOr (types.submodule { options = versionOptions; });

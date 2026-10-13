@@ -33,6 +33,8 @@ let
     fetchForge
     fetchCleanroom
     fetchCleanroomPrismTemplate
+    fetchNeoForge
+    neoForgePrismTemplate
     mkZipDirs
     runLocally
     wrapDir
@@ -122,7 +124,7 @@ in
         else if cfg.loader.type == "forge" then
           cfg.loader
         else
-          throw "${cfg.name}: a Cleanroom server needs `clientForge`, the Forge version its clients run";
+          throw "${cfg.name}: MCUpdater clients run Forge, so a ${cfg.loader.type} server needs `clientForge` (or `mcupdater = false`)";
 
       # What MCUpdater installs.
       clientLoader = {
@@ -148,11 +150,21 @@ in
           inherit (cfg) name minecraft;
           inherit (cfg.prism) preserve excludeMods;
           inherit baseUrl;
-          loader = "${cfg.loader.major}-${cfg.loader.minor}";
-          # Prism players run the server's loader. Only Cleanroom ships a Prism template so far.
+          # The loader component's version in the template's mmc-pack.json.
+          loader =
+            if cfg.loader.type == "neoforge" then
+              cfg.loader.minor
+            else
+              "${cfg.loader.major}-${cfg.loader.minor}";
+          # Prism players run the server's loader.
           template =
             if cfg.loader.type == "cleanroom" then
               fetchCleanroomPrismTemplate { inherit (cfg.loader) major minor; }
+            else if cfg.loader.type == "neoforge" then
+              neoForgePrismTemplate {
+                inherit (cfg) minecraft;
+                version = cfg.loader.minor;
+              }
             else
               throw "${cfg.name}: the Prism instance needs a template for ${cfg.loader.type}";
           mods = clientMods;
@@ -162,11 +174,20 @@ in
 
       ## Server
 
-      # Cleanroom installs the same layout as Forge, so both go in `forge/`.
+      # Cleanroom and NeoForge install the same layout as Forge, so all go in `forge/`. NeoForge's
+      # has a run.sh, which start.py runs with the pack's `java` on PATH.
       launcherDir = wrapDir "forge" (
-        (if cfg.loader.type == "cleanroom" then fetchCleanroom else fetchForge) {
-          inherit (cfg.loader) major minor;
-        }
+        (
+          if cfg.loader.type == "cleanroom" then
+            fetchCleanroom
+          else if cfg.loader.type == "neoforge" then
+            fetchNeoForge
+          else
+            fetchForge
+        )
+          {
+            inherit (cfg.loader) major minor;
+          }
       );
 
       serverMods = filterManifest {
@@ -212,6 +233,8 @@ in
           + ''
             cd $out
             for i in *.py *.sh *.service config/prometheus-integration.cfg *.txt; do
+              # Not every pack has every pattern (the Prometheus config is E36's).
+              [ -e "$i" ] || continue
               substituteAll "$i" "$i".tmp
               mv "$i".tmp "$i"
               chmod +x "$i"

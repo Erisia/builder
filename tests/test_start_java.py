@@ -36,8 +36,21 @@ class JavaLaunchTests(unittest.TestCase):
         self.assertEqual(command, ["nix", "shell", "nixpkgs#jdk25", "--command", *self.command])
         self.assertEqual(env, env_in)
 
-    def test_scripts_like_run_sh_are_not_redirected(self):
-        (self.server / "bin" / "java").write_text("")
+    def test_run_sh_runs_with_the_pinned_jdk_on_path(self):
+        """NeoForge's run.sh calls plain `java`: with a pin, PATH must lead to the pack's JDK."""
+        jdk_bin = self.dir / "jdk" / "bin"
+        jdk_bin.mkdir(parents=True)
+        (jdk_bin / "java").write_text("")
+        os.symlink(jdk_bin / "java", self.server / "bin" / "java")
+
+        command, env, source = self.start.java_launch(
+            self.server, "jre", ["/srv/run.sh", "nogui"], {"PATH": "/usr/bin"})
+
+        self.assertEqual(command, ["/srv/run.sh", "nogui"])
+        self.assertEqual(env["PATH"], f"{jdk_bin.resolve()}{os.pathsep}/usr/bin")
+        self.assertIn("pinned", source)
+
+    def test_run_sh_without_a_pin_falls_back_to_nix_shell(self):
         command, _, _ = self.start.java_launch(self.server, "jre", ["/srv/run.sh"], {})
         self.assertEqual(command, ["nix", "shell", "nixpkgs#jre", "--command", "/srv/run.sh"])
 
