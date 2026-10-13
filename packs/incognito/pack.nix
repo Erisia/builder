@@ -23,6 +23,8 @@
   publish = true;
 
   manifest = ../../manifest/incognito.json;
+  # config/fml.toml with NeoForge's early loading window off: it crashes Wayland + NVIDIA clients.
+  dirs.client = [ ./client ];
   dirs.server = [
     ./server
     ../../runtime
