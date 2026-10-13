@@ -1,0 +1,431 @@
+# incognito: a small MC 26.3 NeoForge playtest pack around the Electrical Age port and Stasis Delvers.
+# Mod list approved by Baughn on 2026-10-13. Modrinth versions are pinned by ~/agent/tools/mrlock.py
+# (ErisiAgent), which also adds every required dependency. Left out for now: Carry On and CC: Tweaked
+# (their 26.3 builds crash on NeoForge 26.3.0.76).
+config:
+  minecraft_version: '26.3'
+  modloader: 'neoforge'
+nodes:
+  - id: modlist
+    value:
+      # In-house: the Electrical Age 26.3 port and Stasis Delvers (LabAgent's builds, mirrored on madoka).
+      - name: 'eln'
+        source: url
+        location: 'https://madoka.brage.info/upstream/incognito/eln-26.3-0.1.0-port-1107359a.jar'
+        filename: 'eln-26.3-0.1.0-port.jar'
+        side: both
+      - name: 'stasisdelvers'
+        source: url
+        location: 'https://madoka.brage.info/upstream/incognito/stasisdelvers-26.3-0.1.0-728f316d.jar'
+        filename: 'stasisdelvers-26.3-0.1.0.jar'
+        side: both
+      - name: ae2
+        source: modrinth
+        id: 'XxWD5pD3'
+        file_id: 'PDPQ4WfW'
+        side: both
+      - name: ae2-omni-cells
+        source: modrinth
+        id: 'RYE1pYyr'
+        file_id: 'm9e4yY53'
+        side: both
+      - name: appleskin
+        source: modrinth
+        id: 'EsAfCjCV'
+        file_id: '6vok7cLb'
+        side: both
+      - name: applied-energistics-2-wireless-terminals
+        source: modrinth
+        id: 'pNabrMMw'
+        file_id: '4QO067RQ'
+        side: both
+      - name: balm
+        source: modrinth
+        id: 'MBAkmtvl'
+        file_id: 'QcBcRJZb'
+        side: both
+      - name: bluemap
+        source: modrinth
+        id: 'swbUV1cr'
+        file_id: 'kknWg6rw'
+        side: server
+      - name: chunk-loaders
+        source: modrinth
+        id: 't1VgucWo'
+        file_id: '55Xtc5xr'
+        side: both
+      - name: chunky
+        source: modrinth
+        id: 'fALzjamp'
+        file_id: 'EyCqftOK'
+        side: both
+      - name: cloth-config
+        source: modrinth
+        id: '9s6osm5g'
+        file_id: 'GchRXPnb'
+        side: both
+      - name: clumps
+        source: modrinth
+        id: 'Wnxd13zP'
+        file_id: 'kV095inH'
+        side: both
+      - name: common-capabilities
+        source: modrinth
+        id: 'oFXrCkDI'
+        file_id: 'KhMI9Ius'
+        side: both
+      - name: connected-glass
+        source: modrinth
+        id: 'DghO0R02'
+        file_id: 'Jma7Hl2O'
+        side: both
+      - name: construction-sticks
+        source: modrinth
+        id: 'ooyjDLZt'
+        file_id: 'Xtl641cj'
+        side: both
+      - name: controlling
+        source: modrinth
+        id: 'xv94TkTM'
+        file_id: 'k8C4cEvR'
+        side: client
+      - name: corpse
+        source: modrinth
+        id: 'WrpuIfhw'
+        file_id: '2Nizhd20'
+        side: both
+      - name: cristel-lib
+        source: modrinth
+        id: 'cl223EMc'
+        file_id: 'v197aEhs'
+        side: both
+      - name: curios
+        source: modrinth
+        id: 'vvuO3ImH'
+        file_id: 'W912LxOl'
+        side: both
+      - name: cyclops-core
+        source: modrinth
+        id: 'Z9DM0LJ4'
+        file_id: 'ZzyD99jT'
+        side: both
+      - name: diagonal-fences
+        source: modrinth
+        id: 'IKARgflD'
+        file_id: 'W0cmNrxC'
+        side: both
+      - name: diagonal-walls
+        source: modrinth
+        id: 'FQgc8dib'
+        file_id: 'CAYmlgJX'
+        side: both
+      - name: diagonal-windows
+        source: modrinth
+        id: 'oOi0CKes'
+        file_id: 'gDyYJAQT'
+        side: both
+      - name: dungeons-and-taverns
+        source: modrinth
+        id: 'tpehi7ww'
+        file_id: '2AjppPPt'
+        side: both
+      - name: effortless-building
+        source: modrinth
+        id: 'DYtfQEYj'
+        file_id: 'JblZjSyo'
+        side: both
+      - name: elevatormod
+        source: modrinth
+        id: 'hi2dSXTu'
+        file_id: 'rNKheZ5b'
+        side: both
+      - name: energized-power
+        source: modrinth
+        id: '6pku8gW1'
+        file_id: 'dHC5qqZI'
+        side: both
+      - name: ferrite-core
+        source: modrinth
+        id: 'uXXizFIs'
+        file_id: 'LtVvw4uS'
+        side: both
+      - name: fusion-connected-textures
+        source: modrinth
+        id: 'p19vrgc2'
+        file_id: 'zPVqWQrW'
+        side: client
+      - name: geckolib
+        source: modrinth
+        id: '8BmcQJ2H'
+        file_id: '2s1O42FX'
+        side: both
+      - name: guideme
+        source: modrinth
+        id: 'Ck4E7v7R'
+        file_id: '69ocM6po'
+        side: both
+      - name: incendium
+        source: modrinth
+        id: 'ZVzW5oNS'
+        file_id: 'D4vWUd23'
+        side: both
+      - name: integrated-crafting
+        source: modrinth
+        id: 'qwpACdla'
+        file_id: 'DpdCpJ89'
+        side: both
+      - name: integrated-dynamics
+        source: modrinth
+        id: 'yYzdQHJI'
+        file_id: 'QrgwS0Mh'
+        side: both
+      - name: integrated-terminals
+        source: modrinth
+        id: 'HmLJoQ1K'
+        file_id: 'xIauxFWJ'
+        side: both
+      - name: integrated-tunnels
+        source: modrinth
+        id: 'Etqy1Omb'
+        file_id: 'I76uVHXP'
+        side: both
+      - name: inventory-profiles-next
+        source: modrinth
+        id: 'O7RBXm3n'
+        file_id: '5gXp3J2W'
+        side: client
+      - name: jade
+        source: modrinth
+        id: 'nvQzSEkH'
+        file_id: 'dVB8U7Td'
+        side: both
+      - name: jei
+        source: modrinth
+        id: 'u6dRKJwZ'
+        file_id: '3B1tTT57'
+        side: both
+      - name: kotlin-lang-forge
+        source: modrinth
+        id: '1vrSzlao'
+        file_id: 'cu66H8iw'
+        side: both
+      - name: libipn
+        source: modrinth
+        id: 'onSQdWhM'
+        file_id: 'gMDIlFM0'
+        side: client
+      - name: lithium
+        source: modrinth
+        id: 'gvQqBUqZ'
+        file_id: '1rb9wI5K'
+        side: both
+      - name: lithostitched
+        source: modrinth
+        id: 'XaDC71GB'
+        file_id: 'sQznZoKs'
+        side: both
+      - name: luckperms
+        source: modrinth
+        id: 'Vebnzrzj'
+        file_id: 'MuQ07Tao'
+        side: server
+      - name: macaws-bridges
+        source: modrinth
+        id: 'GURcjz8O'
+        file_id: 'XYmXzoYz'
+        side: both
+      - name: macaws-doors
+        source: modrinth
+        id: 'kNxa8z3e'
+        file_id: 'E2VcPSnN'
+        side: both
+      - name: macaws-furniture
+        source: modrinth
+        id: 'dtWC90iB'
+        file_id: 'uozKZar1'
+        side: both
+      - name: macaws-paths-and-pavings
+        source: modrinth
+        id: 'VRLhWB91'
+        file_id: 'hQ1wZDL5'
+        side: both
+      - name: macaws-roofs
+        source: modrinth
+        id: 'B8jaH3P1'
+        file_id: 'BvcpY8hI'
+        side: both
+      - name: macaws-windows
+        source: modrinth
+        id: 'C7I0BCni'
+        file_id: 'Zd88JogC'
+        side: both
+      - name: mezzconfig
+        source: modrinth
+        id: '7tEfOcA7'
+        file_id: 'WFeT02Wv'
+        side: both
+      - name: modonomicon
+        source: modrinth
+        id: '692GClaE'
+        file_id: 'JBJ5eClB'
+        side: both
+      - name: mouse-tweaks
+        source: modrinth
+        id: 'aC3cM3Vq'
+        file_id: 'f4tPRGDq'
+        side: client
+      - name: nullscape
+        source: modrinth
+        id: 'LPjGiSO4'
+        file_id: '79OyFQtd'
+        side: both
+      - name: occultism
+        source: modrinth
+        id: 'sbJh4AZw'
+        file_id: 'BZUdeyyg'
+        side: both
+      - name: open-parties-and-claims
+        source: modrinth
+        id: 'gF3BGWvG'
+        file_id: 'qY3IicVC'
+        side: both
+      - name: pipez
+        source: modrinth
+        id: 'iRmWy6ga'
+        file_id: 'KN2n3Uvm'
+        side: both
+      - name: puzzles-lib
+        source: modrinth
+        id: 'QAGBst4M'
+        file_id: 'i2j6QO0v'
+        side: both
+      - name: rechiseled
+        source: modrinth
+        id: 'B0g2vT6l'
+        file_id: '63RbtVZs'
+        side: both
+      - name: repurposed-structures-forge
+        source: modrinth
+        id: 'QDNS5oAT'
+        file_id: 'UlyFLGhH'
+        side: server
+      - name: searchables
+        source: modrinth
+        id: 'fuuu3xnx'
+        file_id: 'V62qRRhH'
+        side: client
+      - name: shogi
+        source: modrinth
+        id: 'bi4iCmsw'
+        file_id: 'wFw6qDQV'
+        side: both
+      - name: simple-voice-chat
+        source: modrinth
+        id: '9eGKb6K1'
+        file_id: '3rpCvvMZ'
+        side: both
+      - name: sophisticated-backpacks
+        source: modrinth
+        id: 'TyCTlI4b'
+        file_id: 'wfDx3oyJ'
+        side: both
+      - name: sophisticated-core
+        source: modrinth
+        id: 'nmoqTijg'
+        file_id: 'DSsinfqr'
+        side: both
+      - name: sophisticated-storage
+        source: modrinth
+        id: 'hMlaZH8f'
+        file_id: 'kJBndRff'
+        side: both
+      - name: spark
+        source: modrinth
+        id: 'l6YH9Als'
+        file_id: 'HwHxykP9'
+        side: both
+      - name: storagedrawers
+        source: modrinth
+        id: 'guitPqEi'
+        file_id: 'AOJN7xlI'
+        side: both
+      - name: structory
+        source: modrinth
+        id: 'aKCwCJlY'
+        file_id: 'GjOkOVW4'
+        side: both
+      - name: supermartijn642s-config-lib
+        source: modrinth
+        id: 'LN9BxssP'
+        file_id: 'FWhB6iGJ'
+        side: both
+      - name: supermartijn642s-core-lib
+        source: modrinth
+        id: 'rOUBggPv'
+        file_id: 'dM4GPUVB'
+        side: both
+      - name: tectonic
+        source: modrinth
+        id: 'lWDHr9jE'
+        file_id: 'yWpa8ww5'
+        side: both
+      - name: terralith
+        source: modrinth
+        id: '8oi3bsk5'
+        file_id: 'GpiePbRq'
+        side: both
+      - name: theurgy
+        source: modrinth
+        id: 'uOVMgoil'
+        file_id: 'aKNyWx6Z'
+        side: both
+      - name: towns-and-towers
+        source: modrinth
+        id: 'DjLobEOy'
+        file_id: 'yajFnGZS'
+        side: both
+      - name: trash-cans
+        source: modrinth
+        id: '4QrnfueM'
+        file_id: 'SEuLCEhB'
+        side: both
+      - name: veinminer
+        source: modrinth
+        id: 'OhduvhIc'
+        file_id: 'fYKoPw5F'
+        side: both
+      - name: waystones
+        source: modrinth
+        id: 'LOpKHB2A'
+        file_id: 'LJsZudo0'
+        side: both
+      - name: wireless-chargers
+        source: modrinth
+        id: 'nCk7Sfz8'
+        file_id: 'MKs4xiSD'
+        side: both
+      - name: worldedit
+        source: modrinth
+        id: '1u6JkXh5'
+        file_id: 'E7sbeRFx'
+        side: both
+      - name: xaeros-minimap
+        source: modrinth
+        id: '1bokaNcj'
+        file_id: 'j2Xo3Dhc'
+        side: both
+      - name: xaeros-world-map
+        source: modrinth
+        id: 'NcUtCpym'
+        file_id: 'p5t2Xn8F'
+        side: both
+  - id: resolver
+    kind: ModResolver
+    input:
+      mods: modlist
+  - id: writer
+    kind: ModWriter
+    input:
+      resolved: 'resolver'
+  - filename: incognito.json
+    source: 'writer::json'
