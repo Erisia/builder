@@ -444,12 +444,15 @@ def java_launch(base_dir, nix_jre_package, java_command, env):
     before the pin existed, fall back to `nix shell nixpkgs#<jre>`, i.e. the system's nixpkgs.
     """
     pinned = base_dir / "bin" / "java"
-    if java_command[0] == "java" and pinned.exists():
+    if pinned.exists():
         env = dict(env)
-        # Put the whole JDK on PATH, as `nix shell` did, for anything that runs its tools.
+        # Put the whole JDK on PATH, as `nix shell` did, for anything that runs its tools. A
+        # loader's run.sh (NeoForge) calls plain `java`, so PATH is what pins it.
         jdk_bin = pinned.resolve().parent
         env["PATH"] = f"{jdk_bin}{os.pathsep}{env.get('PATH', '')}"
-        return [str(pinned)] + java_command[1:], env, f"pinned JDK {jdk_bin.parent}"
+        if java_command[0] == "java":
+            java_command = [str(pinned)] + java_command[1:]
+        return java_command, env, f"pinned JDK {jdk_bin.parent}"
     command = ['nix', 'shell', f'nixpkgs#{nix_jre_package}', '--command'] + java_command
     return command, env, f"nixpkgs#{nix_jre_package} (system nixpkgs)"
 
@@ -615,7 +618,7 @@ def main():
         server_specific_args = ['-jar', str(fabric_launcher_in_base), 'nogui']
     elif forge_run_script_in_base.is_file():
         server_type_panel = Panel(
-            "[bold]Forge 1.18+ Server[/]\nUsing run.sh script\nJRE: Latest",
+            "[bold]Forge 1.18+ / NeoForge Server[/]\nUsing run.sh script\nJRE: the pack's pinned JDK, else latest",
             style="green"
         )
         nix_jre_package = "jre"
@@ -624,6 +627,7 @@ def main():
         # The `java_exec_command` will become the path to run.sh.
         java_exec_command = [str(forge_run_script_in_base)]
         jvm_args_from_file = [] # run.sh handles this
+        server_specific_args = ['nogui'] # passed on to the server by run.sh's "$@"
     elif cleanroom_jars_in_base:
         selected_cleanroom_jar = sorted(cleanroom_jars_in_base, reverse=True)[0]
         server_type_panel = Panel(

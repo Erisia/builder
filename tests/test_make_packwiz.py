@@ -247,6 +247,24 @@ class InstanceTests(unittest.TestCase):
         ):
             self.build()
 
+    def test_neoforge_template(self) -> None:
+        """NeoForge's template (generated in lib/lib.nix) names its loader net.neoforged."""
+        pack = {
+            "formatVersion": 1,
+            "components": [
+                {"uid": "net.minecraft", "version": "26.3", "important": True},
+                {"uid": "net.neoforged", "version": "26.3.0.76"},
+            ],
+        }
+        with zipfile.ZipFile(self.template, "w") as archive:
+            archive.writestr("mmc-pack.json", json.dumps(pack))
+        members = dict(tool.template_members(self.template, "26.3", "26.3.0.76"))
+        self.assertEqual(list(members), ["mmc-pack.json"])
+        with self.assertRaisesRegex(
+            tool.PackwizError, "loader is 26.3.0.76, not 26.3.0.75"
+        ):
+            tool.template_members(self.template, "26.3", "26.3.0.75")
+
     def test_zip_is_deterministic(self) -> None:
         self.assertEqual(
             self.build(out="a.zip").read_bytes(), self.build(out="b.zip").read_bytes()

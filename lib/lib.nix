@@ -95,6 +95,28 @@ rec {
   };
 
   /**
+   * A Prism template for NeoForge: just mmc-pack.json. NeoForge ships no template of its own, and
+   * Prism resolves net.neoforged (and LWJGL and the Java version) from its own metadata.
+   */
+  neoForgePrismTemplate = { minecraft, version }: runCommand "neoforge-${version}-prism-template.zip" {
+    mmcPack = builtins.toJSON {
+      formatVersion = 1;
+      components = [
+        { uid = "net.minecraft"; version = minecraft; important = true; }
+        { uid = "net.neoforged"; version = version; }
+      ];
+    };
+    passAsFile = [ "mmcPack" ];
+    nativeBuildInputs = [ python3 ];
+  } ''
+    python3 -c '
+    import sys, zipfile
+    with zipfile.ZipFile(sys.argv[2], "w") as z:
+        z.writestr(zipfile.ZipInfo("mmc-pack.json", date_time=(1980, 1, 1, 0, 0, 0)), open(sys.argv[1]).read())
+    ' "$mmcPackPath" "$out"
+  '';
+
+  /**
    * Returns a list of mods, of the same format as in the manifest.
    */
   filterManifest = { side, manifest }: let
@@ -123,13 +145,16 @@ rec {
 
   /**
    * The MCUpdater ServerPack: ServerPack.xml, the bootstrap jar and packs/<id>/{mods,configs};
-   * plus prism/<id>/, each pack's Prism-native pack and instance zip.
+   * plus prism/<id>/, each pack's Prism-native pack and instance zip. Packs with
+   * `mcupdater = false` get only the Prism part.
    * It sees only each pack's `client` descriptor, so building it never builds a server.
    */
   buildServerPack = {
     packs, hostname, urlBase
   }: runLocally "ServerPack" {
-    packsJSON = builtins.toJSON (lib.mapAttrs (id: pack: pack.client) packs);
+    # Prism-only packs (`mcupdater = false`) stay out of ServerPack.xml.
+    packsJSON = builtins.toJSON (lib.mapAttrs (id: pack: pack.client)
+      (lib.filterAttrs (id: pack: pack.config.mcupdater) packs));
     passAsFile = [ "packsJSON" "hostname" "urlBase" ];
   } ''
     ln -s ${./index.html} index.html
