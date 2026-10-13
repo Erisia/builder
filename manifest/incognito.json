@@ -650,6 +650,19 @@
     "sha256": "74410f7fd83183ad35618620898a73736129685e5ee5627c6ebadb33ae752103"
   },
   {
+    "name": "mezzconfiggui",
+    "title": "MezzConfigGUI",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "mezz_config_gui-26.3-neoforge-mc26.3-0.5.11.jar",
+    "encoded": "mezz_config_gui-26.3-neoforge-mc26.3-0.5.11.jar",
+    "src": "https://cdn.modrinth.com/data/BOHUKqOz/versions/s4avfo8V/mezz_config_gui-26.3-neoforge-mc26.3-0.5.11.jar",
+    "size": 759489,
+    "md5": "5f5be88bd490cfeb1d7341fbbd6082cb",
+    "sha256": "68f7e7b6dcfb2205e8c58473dfbef5a490b455244c16373aaa06664f2905fd80"
+  },
+  {
     "name": "modonomicon",
     "title": "Modonomicon",
     "side": "both",

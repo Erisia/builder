@@ -419,6 +419,11 @@ nodes:
         id: 'NcUtCpym'
         file_id: 'p5t2Xn8F'
         side: both
+      - name: mezzconfiggui
+        source: modrinth
+        id: 'BOHUKqOz'
+        file_id: 's4avfo8V'
+        side: both
   - id: resolver
     kind: ModResolver
     input:
