@@ -865,10 +865,10 @@
     "default": true,
     "filename": "stasisdelvers-26.3-0.1.0.jar",
     "encoded": "stasisdelvers-26.3-0.1.0.jar",
-    "src": "https://madoka.brage.info/upstream/incognito/stasisdelvers-26.3-0.1.0-c8a18112.jar",
-    "size": 2738842,
-    "md5": "cb8cd13c97621d32880307726206d6a9",
-    "sha256": "c8a18112cd2b591a85cd0e62bdc744836bf43e99e99a2f48a133765ce0669953"
+    "src": "https://madoka.brage.info/upstream/incognito/stasisdelvers-26.3-0.1.0-855aaccd.jar",
+    "size": 2835472,
+    "md5": "5accf7c5311b4a93c241fc41dba5efad",
+    "sha256": "855aaccddf416bdb3b339ab256bf22185640082e57bb918818fc1ce1903f8936"
   },
   {
     "name": "storagedrawers",
