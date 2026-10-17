@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "energizedpower:coal_engine",
+    "energizedpower:inventory_coal_engine",
+    "energizedpower:heat_generator",
+    "energizedpower:thermal_generator",
+    "energizedpower:lightning_generator",
+    "energizedpower:solar_panel_1",
+    "energizedpower:solar_panel_2",
+    "energizedpower:solar_panel_3",
+    "energizedpower:solar_panel_4",
+    "energizedpower:solar_panel_5",
+    "energizedpower:solar_panel_6",
+    "energizedpower:solar_panel_7",
+    "integrateddynamics:coal_generator",
+    "ae2:vibration_chamber"
+  ]
+}
