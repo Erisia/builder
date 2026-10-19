@@ -390,6 +390,11 @@ nodes:
         id: 'OhduvhIc'
         file_id: 'fYKoPw5F'
         side: both
+      - name: veinminer-client
+        source: modrinth
+        id: 'dxa0Bm8m'
+        file_id: 'rxa0vmOU'
+        side: client
       - name: waystones
         source: modrinth
         id: 'LOpKHB2A'

@@ -1001,6 +1001,19 @@
     "sha256": "5341e0d59b9c7d4a18a586b44435faa04820b260f8a39b4bb8becf0f505e0e65"
   },
   {
+    "name": "veinminer-client",
+    "title": "VeinMiner Hotkey",
+    "side": "client",
+    "required": true,
+    "default": true,
+    "filename": "veinminer-client-neoforge-2.12.3.jar",
+    "encoded": "veinminer-client-neoforge-2.12.3.jar",
+    "src": "https://cdn.modrinth.com/data/dxa0Bm8m/versions/rxa0vmOU/veinminer-client-neoforge-2.12.3.jar",
+    "size": 184972,
+    "md5": "3ee917de68191ade5b0dd99c32369994",
+    "sha256": "4a8e02f4ec637e2750cfd7a16f04ac563ed2f7044e9fcb4ece6fc6af0144e42b"
+  },
+  {
     "name": "waystones",
     "title": "Waystones",
     "side": "both",
