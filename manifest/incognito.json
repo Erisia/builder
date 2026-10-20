@@ -624,6 +624,19 @@
     "sha256": "e10ac65c6c6f9a98831582ed408c715398d3fccc71c11e6bc9995056feed4c5e"
   },
   {
+    "name": "mc2discord",
+    "title": "Mc2Discord",
+    "side": "server",
+    "required": true,
+    "default": true,
+    "filename": "mc2discord-neoforge-26.3-4.3.1.jar",
+    "encoded": "mc2discord-neoforge-26.3-4.3.1.jar",
+    "src": "https://cdn.modrinth.com/data/Cfbcv7uF/versions/5L7EITFt/mc2discord-neoforge-26.3-4.3.1.jar",
+    "size": 26191877,
+    "md5": "11f38d8b5a0df4bbd40f224179bc112d",
+    "sha256": "8149a341c5d011f38fe8f27924ae1c36867499bb0738f92430dc22804d4c7fa5"
+  },
+  {
     "name": "mezzconfig",
     "title": "MezzConfig",
     "side": "both",

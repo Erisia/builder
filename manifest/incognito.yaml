@@ -255,6 +255,12 @@ nodes:
         id: 'C7I0BCni'
         file_id: 'Zd88JogC'
         side: both
+      # Discord chat bridge for the playtest channel (Baughn 2026-10-21); bot token set by hand in the live config.
+      - name: mc2discord
+        source: modrinth
+        id: 'Cfbcv7uF'
+        file_id: '5L7EITFt'
+        side: server
       - name: mezzconfig
         source: modrinth
         id: '7tEfOcA7'
