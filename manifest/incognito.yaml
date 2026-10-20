@@ -12,12 +12,12 @@ nodes:
       # In-house: the Electrical Age 26.3 port and Stasis Delvers (LabAgent's builds, mirrored on madoka).
       - name: 'eln'
         source: url
-        location: 'https://madoka.brage.info/upstream/incognito/eln-26.3-0.1.0-port-befb7c3d.jar'
+        location: 'https://madoka.brage.info/upstream/incognito/eln-26.3-0.1.0-port-91feb19c.jar'
         filename: 'eln-26.3-0.1.0-port.jar'
         side: both
       - name: 'stasisdelvers'
         source: url
-        location: 'https://madoka.brage.info/upstream/incognito/stasisdelvers-26.3-0.1.0-2c38b7ef.jar'
+        location: 'https://madoka.brage.info/upstream/incognito/stasisdelvers-26.3-0.1.0-30dc72f4.jar'
         filename: 'stasisdelvers-26.3-0.1.0.jar'
         side: both
       - name: ae2
