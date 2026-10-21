@@ -2628,7 +2628,7 @@ e36-server/share/live-inspector-tests/erisia-live-inspector-0.1.0.jar	f	65218	28
 e36-server/share/live-inspector-tests/erisia-live-inspector-tests-0.1.0.jar	f	15513	d0b6a35c172a0628dcf6f4c4d8d50e40a478a8c31aea1c06c2327e3f7e6ff354
 e36-server/share/save-threading-tests/erisia-save-threading-0.1.0.jar	f	31964	09ae7e3b4aaa815daeebba12323dad4b840dfa131216a4042571c4d029881666
 e36-server/share/save-threading-tests/erisia-save-threading-tests-0.1.0.jar	f	31087	99063354bad712a52605f4b8173e76e08cdb07f764dfbf0887472ef18bd4eef4
-e36-server/start.py	x	38352	e965961593091ce06f7bd3ac05fa19cd973d77d6ce863ff4492a7495fe152698
+e36-server/start.py	x	38615	4a43f4b8a6509e6ceced7eb2c058b7971fe17d5920576f5f02b45b6d8fbdbb26
 e36-server/stop.sh	x	97	ee5346efa7175d923dcac64a926acd1172c88a885f5cc74851edb651f86fb503
 e36-server/structures/active/erisDungeonZ.rcst	f	33204	5410a2c93de2480c969d6191e685bd3ff2d981d8c68e227674f835832cd0a6f7
 e36-server/structures/active/jupiterDungeonZ.rcst	f	12851	a612f34b97bcc275e3050625206c2ef92d88ded9108f97799a0c0aaeee35bc3b

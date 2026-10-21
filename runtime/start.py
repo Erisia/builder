@@ -179,6 +179,9 @@ def sync_server_files():
                 if libraries_source.is_dir():
                     console.print(f"Rsyncing libraries from [blue]{libraries_source}[/] to {libraries_dest}...")
                     libraries_dest.mkdir(parents=True, exist_ok=True)
+                    # rsync -a copied the store's read-only directory modes last time, and --delete
+                    # can't remove a stale library (e.g. after a loader bump) from a read-only directory.
+                    fix_permissions(str(libraries_dest))
                     run_command(['rsync', '-a', '--delete', str(libraries_source) + '/', str(libraries_dest)])
                 # else: print(f"No libraries subdirectory found in {source_dir}")
             else:
