@@ -14,6 +14,8 @@
     "energizedpower:solar_panel_6",
     "energizedpower:solar_panel_7",
     "integrateddynamics:coal_generator",
-    "ae2:vibration_chamber"
+    "ae2:vibration_chamber",
+    "eln:50v_turbine",
+    "eln:200v_turbine"
   ]
 }
