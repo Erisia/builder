@@ -13,7 +13,7 @@
   loader = {
     type = "neoforge";
     major = "26.3";
-    minor = "26.3.0.76";
+    minor = "26.3.0.95";
   };
   java = pkgs.jdk25;
 
