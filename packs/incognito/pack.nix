@@ -4,7 +4,7 @@
 {
   name = "Incognito";
   description = "Incognito: Electrical Age playtest (MC 26.3)";
-  ram = "8G";
+  ram = "14G";
   port = 25566;
   # Nothing exports metrics yet (E36's Prometheus integration is a 1.12 mod); reserved.
   prometheusPort = 1225;
