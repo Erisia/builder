@@ -185,11 +185,14 @@ nodes:
         id: 'Etqy1Omb'
         file_id: 'I76uVHXP'
         side: both
+      # Optional, off by default (Baughn 2026-10-21). libipn stays: it's only a library.
       - name: inventory-profiles-next
         source: modrinth
         id: 'O7RBXm3n'
         file_id: '5gXp3J2W'
         side: client
+        required: false
+        default: false
       - name: jade
         source: modrinth
         id: 'nvQzSEkH'
