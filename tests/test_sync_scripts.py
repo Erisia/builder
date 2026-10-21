@@ -67,6 +67,29 @@ class SyncScriptsTests(unittest.TestCase):
         self.assertFalse((self.world / "config/dropped.cfg").exists())
         self.assertEqual(len(list((self.world / ".erisia-removed").rglob("dropped.cfg"))), 1)
 
+    def test_libraries_are_writable_before_rsync_deletes(self):
+        (self.base / "forge/libraries/net/old").mkdir(parents=True)
+        stale = self.world / "libraries/net/old"
+        stale.mkdir(parents=True)
+        (stale / "old.jar").write_text("old")
+        # What rsync -a left behind from the store: read-only directories.
+        for d in (stale, stale.parent, self.world / "libraries"):
+            d.chmod(0o555)
+        modes = {}
+
+        def rsync(cmd):
+            if "--delete" in cmd:
+                modes.update({d: d.stat().st_mode & 0o777 for d in (self.world / "libraries", stale)})
+
+        with patch.object(self.start, "BASE_DIR", self.base), \
+             patch.object(self.start, "APP_ROOT_DIR", self.world), \
+             patch.object(self.start, "LOGS_DIR", self.world / "logs"), \
+             patch.object(self.start, "run_command", MagicMock(side_effect=rsync)), \
+             patch.object(self.start, "console", MagicMock()):
+            self.start.sync_server_files()
+
+        self.assertEqual(modes, {self.world / "libraries": 0o755, stale: 0o755})
+
     def test_untrusted_manifest_stops_the_start(self):
         (self.base / "control.sh").write_text("control\n")
         (self.world / ".erisia-managed.json").write_text("{bad")
