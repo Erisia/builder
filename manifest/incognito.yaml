@@ -17,7 +17,7 @@ nodes:
         side: both
       - name: 'stasisdelvers'
         source: url
-        location: 'https://madoka.brage.info/upstream/incognito/stasisdelvers-26.3-0.1.0-4d28b335.jar'
+        location: 'https://madoka.brage.info/upstream/incognito/stasisdelvers-26.3-0.1.0-888ff69b.jar'
         filename: 'stasisdelvers-26.3-0.1.0.jar'
         side: both
       - name: ae2
