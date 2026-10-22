@@ -55,11 +55,12 @@ nodes:
         id: 't1VgucWo'
         file_id: '55Xtc5xr'
         side: both
+      # Server only (Baughn 2026-10-22): clients don't need it, and it conflicts with Distant Horizons.
       - name: chunky
         source: modrinth
         id: 'fALzjamp'
         file_id: 'EyCqftOK'
-        side: both
+        side: server
       - name: cloth-config
         source: modrinth
         id: '9s6osm5g'

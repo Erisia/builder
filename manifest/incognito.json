@@ -93,7 +93,7 @@
   {
     "name": "chunky",
     "title": "Chunky",
-    "side": "both",
+    "side": "server",
     "required": true,
     "default": true,
     "filename": "Chunky-NeoForge-1.5.4.jar",
