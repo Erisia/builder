@@ -264,7 +264,7 @@
     "title": "Distant Horizons",
     "side": "client",
     "required": false,
-    "default": false,
+    "default": true,
     "filename": "DistantHorizons-3.3.4-26.3-fabric-neoforge.jar",
     "encoded": "DistantHorizons-3.3.4-26.3-fabric-neoforge.jar",
     "src": "https://cdn.modrinth.com/data/uCdwusMi/versions/TGgEbP9A/DistantHorizons-3.3.4-26.3-fabric-neoforge.jar",
