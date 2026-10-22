@@ -260,6 +260,19 @@
     "sha256": "8707fc31665784c32a2c8ad8e6f3e11db9759321d30537da668abed6307f1899"
   },
   {
+    "name": "distanthorizons",
+    "title": "Distant Horizons",
+    "side": "client",
+    "required": false,
+    "default": false,
+    "filename": "DistantHorizons-3.3.4-26.3-fabric-neoforge.jar",
+    "encoded": "DistantHorizons-3.3.4-26.3-fabric-neoforge.jar",
+    "src": "https://cdn.modrinth.com/data/uCdwusMi/versions/TGgEbP9A/DistantHorizons-3.3.4-26.3-fabric-neoforge.jar",
+    "size": 28476894,
+    "md5": "ea69fb5251e970288ec4162acf0298a3",
+    "sha256": "ba3e5c85a765a109219831df99b99ef5cfcdee05b2dfa6796116993bd48d3947"
+  },
+  {
     "name": "dungeons-and-taverns",
     "title": "Dungeons and Taverns",
     "side": "both",

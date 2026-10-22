@@ -120,6 +120,14 @@ nodes:
         id: 'oOi0CKes'
         file_id: 'gDyYJAQT'
         side: both
+      # Optional, off by default; Baughn tests it himself (2026-10-22).
+      - name: distant-horizons
+        source: modrinth
+        id: 'uCdwusMi'
+        file_id: 'TGgEbP9A'
+        side: client
+        required: false
+        default: false
       - name: dungeons-and-taverns
         source: modrinth
         id: 'tpehi7ww'
