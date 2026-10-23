@@ -207,6 +207,12 @@ nodes:
         id: 'u6dRKJwZ'
         file_id: '3B1tTT57'
         side: both
+      # Ore charts in JEI (Baughn 2026-10-24); world-gen data from RegionScanner, shipped as client config/world-gen.json.
+      - name: just-enough-resources
+        source: modrinth
+        id: 'uEfK2CXF'
+        file_id: 'SODGEQ0j'
+        side: client
       - name: kotlin-lang-forge
         source: modrinth
         id: '1vrSzlao'
@@ -297,6 +303,12 @@ nodes:
         source: modrinth
         id: 'gF3BGWvG'
         file_id: 'qY3IicVC'
+        side: both
+      # Point out blocks/entities to nearby players (Baughn 2026-10-24).
+      - name: ping-wheel
+        source: modrinth
+        id: 'QQXAdCzh'
+        file_id: 'cuksLtI4'
         side: both
       - name: pipez
         source: modrinth

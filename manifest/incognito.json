@@ -481,6 +481,19 @@
     "sha256": "b219194ffa3a62854d083c896122ea3d4d4c0a8d6e186d412b54afe942c1fe57"
   },
   {
+    "name": "just-enough-resources-jer",
+    "title": "Just Enough Resources (JER)",
+    "side": "client",
+    "required": true,
+    "default": true,
+    "filename": "JustEnoughResources-NeoForge-26.3-1.11.0.49.jar",
+    "encoded": "JustEnoughResources-NeoForge-26.3-1.11.0.49.jar",
+    "src": "https://cdn.modrinth.com/data/uEfK2CXF/versions/SODGEQ0j/JustEnoughResources-NeoForge-26.3-1.11.0.49.jar",
+    "size": 265286,
+    "md5": "5cbee4cd993fcd4088e016472bb7bfc8",
+    "sha256": "e2abde583df108ef0875717a928e17e568fd2af324a74205c2f29f65180ebaac"
+  },
+  {
     "name": "kotlin-lang-forge",
     "title": "KotlinLangForge",
     "side": "both",
@@ -726,6 +739,19 @@
     "size": 1868516,
     "md5": "1b0591ee157c5901460f214c0a54c517",
     "sha256": "3ff3120826ffe15ea1258e64cd2190bd8cd100d52ce23b001691f0f086f5a688"
+  },
+  {
+    "name": "ping-wheel",
+    "title": "Ping Wheel",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "Ping-Wheel-1.12.2-neoforge-26.3.jar",
+    "encoded": "Ping-Wheel-1.12.2-neoforge-26.3.jar",
+    "src": "https://cdn.modrinth.com/data/QQXAdCzh/versions/cuksLtI4/Ping-Wheel-1.12.2-neoforge-26.3.jar",
+    "size": 156338,
+    "md5": "e92909ba82d4be215ff316c4b82eef59",
+    "sha256": "584750b8c1bb82086484ef28bcd9f656abb327fdd82101639482abbda983349e"
   },
   {
     "name": "pipez",
