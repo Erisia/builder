@@ -78,19 +78,6 @@
     "sha256": "8938f4453af4b53970c86e43d0bd26b4a88980e4e6639f818fa770d0f61c43df"
   },
   {
-    "name": "chunk-loaders",
-    "title": "Chunk Loaders",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "chunkloaders-1.2.9-neoforge-mc26.3.jar",
-    "encoded": "chunkloaders-1.2.9-neoforge-mc26.3.jar",
-    "src": "https://cdn.modrinth.com/data/t1VgucWo/versions/55Xtc5xr/chunkloaders-1.2.9-neoforge-mc26.3.jar",
-    "size": 294244,
-    "md5": "f53d6b9a629e832612cd0b21880dbbfd",
-    "sha256": "3cd72199a8a7f8389a2e7b7f177ec2e0e6f8344b755c360b4a1c4edaee727be1"
-  },
-  {
     "name": "chunky",
     "title": "Chunky",
     "side": "server",

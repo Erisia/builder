@@ -50,11 +50,6 @@ nodes:
         id: 'swbUV1cr'
         file_id: 'kknWg6rw'
         side: server
-      - name: chunk-loaders
-        source: modrinth
-        id: 't1VgucWo'
-        file_id: '55Xtc5xr'
-        side: both
       # Server only (Baughn 2026-10-22): clients don't need it, and it conflicts with Distant Horizons.
       - name: chunky
         source: modrinth
