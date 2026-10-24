@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Logs",
+        "blocks": [
+            "#minecraft:logs"
+        ],
+        "tools": [
+            "#minecraft:axes"
+        ],
+        "override": {
+            "cooldown": null,
+            "mustSneak": null,
+            "delay": null,
+            "maxChain": null,
+            "needCorrectTool": null,
+            "searchRadius": null,
+            "permissionRestricted": null,
+            "decreaseDurability": null,
+            "hungerPerBlock": null,
+            "miningSpeedModifier": null,
+            "separateGroupMining": null
+        }
+    }
+]

@@ -23,6 +23,8 @@
   publish = true;
 
   manifest = ../../manifest/incognito.json;
+  # config/Veinminer: logs only, always on, merged drops, hotkey mod required (Baughn 10-18/19); single-player gets it too.
+  dirs.common = [ ./common ];
   # config/fml.toml with NeoForge's early loading window off: it crashes Wayland + NVIDIA clients.
   dirs.client = [ ./client ];
   dirs.server = [
