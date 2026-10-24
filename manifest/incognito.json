@@ -364,6 +364,19 @@
     "sha256": "0ec0677c0e2f24fd5925aabe999dd2af2393662a26b16b00f688cf38838b08e3"
   },
   {
+    "name": "globalpacks",
+    "title": "Global Packs",
+    "side": "client",
+    "required": true,
+    "default": true,
+    "filename": "globalpacks-neoforge-26.3-26.3.1.jar",
+    "encoded": "globalpacks-neoforge-26.3-26.3.1.jar",
+    "src": "https://cdn.modrinth.com/data/NRLPy2mk/versions/N0M0VgNy/globalpacks-neoforge-26.3-26.3.1.jar",
+    "size": 27136,
+    "md5": "c4e51b23c308b3a56b4541571fd9a214",
+    "sha256": "245c972e66182d8d4b24c75126dfeb2d41342f6b5b7f3e6bd4f239912cb2b4c3"
+  },
+  {
     "name": "guideme",
     "title": "GuideME",
     "side": "both",

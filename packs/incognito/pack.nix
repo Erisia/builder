@@ -26,7 +26,14 @@
   # config/Veinminer: logs only, always on, merged drops, hotkey mod required (Baughn 10-18/19); single-player gets it too.
   dirs.common = [ ./common ];
   # config/fml.toml with NeoForge's early loading window off: it crashes Wayland + NVIDIA clients.
-  dirs.client = [ ./client ];
+  # datapacks/incognito-tweaks: the server's world datapack, for Global Packs to load in single-player.
+  dirs.client = [
+    ./client
+    (pkgs.runCommand "incognito-client-datapacks" { } ''
+      mkdir -p $out/datapacks
+      cp -r ${./server/world/datapacks/incognito-tweaks} $out/datapacks/incognito-tweaks
+    '')
+  ];
   dirs.server = [
     ./server
     ../../runtime

@@ -159,6 +159,12 @@ nodes:
         id: '8BmcQJ2H'
         file_id: '2s1O42FX'
         side: both
+      # Loads datapacks/ (incognito-tweaks) into every single-player world; the server has its world copy.
+      - name: global-packs
+        source: modrinth
+        id: 'NRLPy2mk'
+        file_id: 'N0M0VgNy'
+        side: client
       - name: guideme
         source: modrinth
         id: 'Ck4E7v7R'
