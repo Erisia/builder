@@ -66,6 +66,12 @@ nodes:
         id: 'Wnxd13zP'
         file_id: 'kV095inH'
         side: both
+      # Library for Pumpkillager's Quest.
+      - name: collective
+        source: modrinth
+        id: 'e0M1UDsY'
+        file_id: 'SLDUG1Rg'
+        side: both
       - name: common-capabilities
         source: modrinth
         id: 'oFXrCkDI'
@@ -272,6 +278,12 @@ nodes:
         id: 'dtWC90iB'
         file_id: 'uozKZar1'
         side: both
+      # Halloween 2026 (Baughn); stays afterwards.
+      - name: macaws-holidays
+        source: modrinth
+        id: 'rH20L2Lp'
+        file_id: 'MhSu3ksv'
+        side: both
       - name: macaws-paths-and-pavings
         source: modrinth
         id: 'VRLhWB91'
@@ -333,6 +345,12 @@ nodes:
         source: modrinth
         id: 'iRmWy6ga'
         file_id: 'KN2n3Uvm'
+        side: both
+      # Halloween 2026 (Baughn); removable after the event (+ collective).
+      - name: pumpkillagers-quest
+        source: modrinth
+        id: 'KhJx1K92'
+        file_id: 'J9Fxlati'
         side: both
       - name: puzzles-lib
         source: modrinth

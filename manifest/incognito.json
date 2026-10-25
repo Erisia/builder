@@ -117,6 +117,19 @@
     "sha256": "18d65f554984a81a4dfe5f5e4038298ae02e6d8cc66870469305e8fae2a1fb79"
   },
   {
+    "name": "collective",
+    "title": "Collective",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "collective-26.3.0-8.64.jar",
+    "encoded": "collective-26.3.0-8.64.jar",
+    "src": "https://cdn.modrinth.com/data/e0M1UDsY/versions/SLDUG1Rg/collective-26.3.0-8.64.jar",
+    "size": 1338358,
+    "md5": "3844c294f58f99f8cb24318b6b284d13",
+    "sha256": "7284a23e7d99bf127b9b52f621a180b7889fb8687d763d58cb07cad1d047ef50"
+  },
+  {
     "name": "common-capabilities",
     "title": "Common Capabilities",
     "side": "both",
@@ -637,6 +650,19 @@
     "sha256": "bce031ec39b9148054f1f0cb457ff1b4a9c1d4920b1d4f0327bc21be81d152e2"
   },
   {
+    "name": "macaws-holidays",
+    "title": "Macaw's Holidays",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "mcw-holidays-1.1.3-mc26.3neoforge.jar",
+    "encoded": "mcw-holidays-1.1.3-mc26.3neoforge.jar",
+    "src": "https://cdn.modrinth.com/data/rH20L2Lp/versions/MhSu3ksv/mcw-holidays-1.1.3-mc26.3neoforge.jar",
+    "size": 1040033,
+    "md5": "35901ef8d649d95382353a47df63d46f",
+    "sha256": "219fe58f07178d4d56fa76a6aa39a5d168ebb624b7e5c4b5f1c7e679a7fa34f8"
+  },
+  {
     "name": "macaws-paths-and-pavings",
     "title": "Macaw's Paths and Pavings",
     "side": "both",
@@ -804,6 +830,19 @@
     "size": 450321,
     "md5": "08b9ed851eeb94803cfecfe8d739c0e3",
     "sha256": "f923073183784ec66e2d1e2824d515b5487de6424393dcf3165452f4aeac56c2"
+  },
+  {
+    "name": "pumpkillagers-quest",
+    "title": "Pumpkillager's Quest",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "pumpkillagersquest-26.3.0-5.8.jar",
+    "encoded": "pumpkillagersquest-26.3.0-5.8.jar",
+    "src": "https://cdn.modrinth.com/data/KhJx1K92/versions/J9Fxlati/pumpkillagersquest-26.3.0-5.8.jar",
+    "size": 404404,
+    "md5": "538981bd11eb5d17713fb1b06c7148f4",
+    "sha256": "42754c6f970d3360bef47d77f976c80cd0ff6282e5aec3c7c4ce27e762462ddf"
   },
   {
     "name": "puzzles-lib",
