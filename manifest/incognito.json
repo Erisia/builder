@@ -520,6 +520,19 @@
     "sha256": "050123be69cf322b9247e537af4da2d0e4bb8be4bf43e7cb913603c27f8e239b"
   },
   {
+    "name": "lanterns-bow",
+    "title": "Lanterns Belong on Walls",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "walllanterns-3.3.jar",
+    "encoded": "walllanterns-3.3.jar",
+    "src": "https://cdn.modrinth.com/data/V1CFwy2A/versions/V8fPYwGE/walllanterns-3.3.jar",
+    "size": 49292,
+    "md5": "ec2426b9e61a985041e4f68148e463d3",
+    "sha256": "2bd2ad2c1b900c41c9afc7982d33a3babdf07fbeb91c4d0b0cdfc7a7cd6b5eff"
+  },
+  {
     "name": "libipn",
     "title": "libIPN",
     "side": "client",

@@ -224,6 +224,11 @@ nodes:
         id: '1vrSzlao'
         file_id: 'cu66H8iw'
         side: both
+      - name: lanterns-belong-on-walls
+        source: modrinth
+        id: 'lanterns-bow'
+        file_id: 'V8fPYwGE'
+        side: both
       - name: libipn
         source: modrinth
         id: 'onSQdWhM'
