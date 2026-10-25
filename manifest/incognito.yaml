@@ -234,6 +234,14 @@ nodes:
         id: 'onSQdWhM'
         file_id: 'gMDIlFM0'
         side: client
+      # Light-level overlay (hotkey). Optional, on by default (Baughn 2026-10-25).
+      - name: lighty
+        source: modrinth
+        id: 'yjvKidNM'
+        file_id: 'q26PYT9F'
+        side: client
+        required: false
+        default: true
       - name: lithium
         source: modrinth
         id: 'gvQqBUqZ'

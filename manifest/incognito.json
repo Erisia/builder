@@ -546,6 +546,19 @@
     "sha256": "49bd1a8f96720c9bc21b0db67047657d9f57667dbf20d09a7466a0349b51a99c"
   },
   {
+    "name": "lighty",
+    "title": "Lighty",
+    "side": "client",
+    "required": false,
+    "default": true,
+    "filename": "lighty-neoforge-4.0.1+26.3.jar",
+    "encoded": "lighty-neoforge-4.0.1%2B26.3.jar",
+    "src": "https://cdn.modrinth.com/data/yjvKidNM/versions/q26PYT9F/lighty-neoforge-4.0.1%2B26.3.jar",
+    "size": 76750,
+    "md5": "d8743cb059aa3bcfadf5141cab0e75d0",
+    "sha256": "ed012b42275ca445972d68134d1fdfe5778dc78ffe29849fab2b950d4733ad12"
+  },
+  {
     "name": "lithium",
     "title": "Lithium",
     "side": "both",
