@@ -1,0 +1,13 @@
+{
+ "pack": {
+  "description": "Macaw's blocks stop rain and snow (heightmap tags)",
+  "min_format": [
+   121,
+   0
+  ],
+  "max_format": [
+   121,
+   0
+  ]
+ }
+}

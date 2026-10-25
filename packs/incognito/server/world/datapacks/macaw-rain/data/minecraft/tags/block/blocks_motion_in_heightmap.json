@@ -1,0 +1,8173 @@
+{
+ "replace": false,
+ "values": [
+  {
+   "id": "mcwbridges:acacia_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:acacia_log_bridge_middle",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:acacia_log_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:acacia_rail_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:acacia_rope_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:andesite_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:andesite_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:andesite_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:asian_red_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:asian_red_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:asian_red_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:balustrade_andesite_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:balustrade_blackstone_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:balustrade_bricks_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:balustrade_cobblestone_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:balustrade_deepslate_bricks_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:balustrade_deepslate_tiles_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:balustrade_diorite_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:balustrade_end_stone_bricks_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:balustrade_granite_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:balustrade_mossy_cobblestone_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:balustrade_mossy_stone_bricks_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:balustrade_mud_bricks_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:balustrade_nether_bricks_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:balustrade_orange_sandstone_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:balustrade_prismarine_bricks_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:balustrade_sandstone_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:balustrade_stone_bricks_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:bamboo_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:bamboo_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:bamboo_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:birch_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:birch_log_bridge_middle",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:birch_log_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:birch_rail_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:birch_rope_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:blackstone_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:blackstone_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:blackstone_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:brick_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:brick_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:brick_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:cherry_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:cherry_log_bridge_middle",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:cherry_log_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:cherry_rail_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:cherry_rope_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:cobblestone_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:cobblestone_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:cobblestone_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:crimson_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:crimson_log_bridge_middle",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:crimson_log_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:crimson_rail_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:crimson_rope_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:dark_oak_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:dark_oak_log_bridge_middle",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:dark_oak_log_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:dark_oak_rail_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:dark_oak_rope_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:deepslate_brick_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:deepslate_brick_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:deepslate_brick_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:deepslate_tile_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:deepslate_tile_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:deepslate_tile_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:diorite_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:diorite_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:diorite_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:dry_bamboo_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:dry_bamboo_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:dry_bamboo_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:end_stone_bricks_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:end_stone_bricks_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:end_stone_bricks_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:glass_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:glass_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:glass_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:granite_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:granite_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:granite_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:iron_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:iron_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:iron_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:jungle_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:jungle_log_bridge_middle",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:jungle_log_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:jungle_rail_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:jungle_rope_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:mangrove_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:mangrove_log_bridge_middle",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:mangrove_log_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:mangrove_rail_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:mangrove_rope_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:mossy_cobblestone_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:mossy_cobblestone_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:mossy_cobblestone_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:mossy_stone_brick_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:mossy_stone_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:mossy_stone_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:mud_brick_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:mud_brick_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:mud_brick_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:nether_bricks_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:nether_bricks_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:nether_bricks_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:oak_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:oak_log_bridge_middle",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:oak_log_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:oak_rail_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:oak_rope_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:orange_sandstone_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:pale_oak_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:pale_oak_log_bridge_middle",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:pale_oak_log_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:pale_oak_rail_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:pale_oak_rope_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:poplar_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:poplar_log_bridge_middle",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:poplar_log_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:poplar_rail_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:poplar_rope_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:prismarine_bricks_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:prismarine_bricks_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:prismarine_bricks_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:red_sandstone_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:red_sandstone_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:rope_acacia_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:rope_birch_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:rope_cherry_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:rope_crimson_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:rope_dark_oak_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:rope_jungle_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:rope_mangrove_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:rope_oak_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:rope_pale_oak_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:rope_poplar_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:rope_spruce_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:rope_warped_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:sandstone_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:sandstone_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:sandstone_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:spruce_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:spruce_log_bridge_middle",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:spruce_log_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:spruce_rail_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:spruce_rope_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:stone_brick_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:stone_brick_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:stone_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:warped_bridge_pier",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:warped_log_bridge_middle",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:warped_log_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:warped_rail_bridge",
+   "required": false
+  },
+  {
+   "id": "mcwbridges:warped_rope_bridge_stair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:acacia_bookshelf",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:acacia_bookshelf_cupboard",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:acacia_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:acacia_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:acacia_coffee_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:acacia_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:acacia_covered_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:acacia_cupboard_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:acacia_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:acacia_double_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:acacia_double_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:acacia_double_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:acacia_double_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:acacia_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:acacia_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:acacia_end_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:acacia_glass_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:acacia_glass_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:acacia_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:acacia_kitchen_sink",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:acacia_large_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:acacia_lower_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:acacia_lower_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:acacia_modern_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:acacia_modern_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:acacia_modern_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:acacia_stool_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:acacia_striped_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:acacia_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:acacia_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:acacia_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:birch_bookshelf",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:birch_bookshelf_cupboard",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:birch_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:birch_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:birch_coffee_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:birch_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:birch_covered_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:birch_cupboard_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:birch_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:birch_double_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:birch_double_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:birch_double_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:birch_double_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:birch_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:birch_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:birch_end_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:birch_glass_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:birch_glass_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:birch_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:birch_kitchen_sink",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:birch_large_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:birch_lower_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:birch_lower_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:birch_modern_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:birch_modern_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:birch_modern_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:birch_stool_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:birch_striped_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:birch_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:birch_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:birch_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:black_chaise",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:black_couch",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:blue_chaise",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:blue_couch",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:brown_chaise",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:brown_couch",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cherry_bookshelf",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cherry_bookshelf_cupboard",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cherry_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cherry_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cherry_coffee_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cherry_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cherry_covered_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cherry_cupboard_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cherry_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cherry_double_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cherry_double_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cherry_double_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cherry_double_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cherry_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cherry_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cherry_end_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cherry_glass_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cherry_glass_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cherry_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cherry_kitchen_sink",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cherry_large_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cherry_lower_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cherry_lower_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cherry_modern_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cherry_modern_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cherry_modern_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cherry_stool_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cherry_striped_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cherry_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cherry_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cherry_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:crimson_bookshelf",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:crimson_bookshelf_cupboard",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:crimson_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:crimson_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:crimson_coffee_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:crimson_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:crimson_covered_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:crimson_cupboard_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:crimson_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:crimson_double_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:crimson_double_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:crimson_double_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:crimson_double_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:crimson_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:crimson_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:crimson_end_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:crimson_glass_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:crimson_glass_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:crimson_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:crimson_kitchen_sink",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:crimson_large_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:crimson_lower_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:crimson_lower_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:crimson_modern_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:crimson_modern_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:crimson_modern_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:crimson_stool_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:crimson_striped_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:crimson_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:crimson_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:crimson_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cyan_chaise",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:cyan_couch",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:dark_oak_bookshelf",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:dark_oak_bookshelf_cupboard",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:dark_oak_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:dark_oak_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:dark_oak_coffee_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:dark_oak_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:dark_oak_covered_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:dark_oak_cupboard_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:dark_oak_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:dark_oak_double_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:dark_oak_double_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:dark_oak_double_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:dark_oak_double_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:dark_oak_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:dark_oak_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:dark_oak_end_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:dark_oak_glass_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:dark_oak_glass_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:dark_oak_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:dark_oak_kitchen_sink",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:dark_oak_large_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:dark_oak_lower_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:dark_oak_lower_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:dark_oak_modern_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:dark_oak_modern_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:dark_oak_modern_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:dark_oak_stool_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:dark_oak_striped_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:dark_oak_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:dark_oak_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:dark_oak_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:gray_chaise",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:gray_couch",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:green_chaise",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:green_couch",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:jungle_bookshelf",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:jungle_bookshelf_cupboard",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:jungle_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:jungle_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:jungle_coffee_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:jungle_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:jungle_covered_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:jungle_cupboard_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:jungle_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:jungle_double_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:jungle_double_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:jungle_double_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:jungle_double_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:jungle_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:jungle_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:jungle_end_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:jungle_glass_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:jungle_glass_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:jungle_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:jungle_kitchen_sink",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:jungle_large_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:jungle_lower_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:jungle_lower_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:jungle_modern_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:jungle_modern_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:jungle_modern_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:jungle_stool_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:jungle_striped_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:jungle_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:jungle_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:jungle_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:light_blue_chaise",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:light_blue_couch",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:light_gray_chaise",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:light_gray_couch",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:lime_chaise",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:lime_couch",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:magenta_chaise",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:magenta_couch",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:mangrove_bookshelf",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:mangrove_bookshelf_cupboard",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:mangrove_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:mangrove_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:mangrove_coffee_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:mangrove_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:mangrove_covered_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:mangrove_cupboard_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:mangrove_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:mangrove_double_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:mangrove_double_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:mangrove_double_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:mangrove_double_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:mangrove_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:mangrove_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:mangrove_end_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:mangrove_glass_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:mangrove_glass_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:mangrove_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:mangrove_kitchen_sink",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:mangrove_large_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:mangrove_lower_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:mangrove_lower_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:mangrove_modern_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:mangrove_modern_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:mangrove_modern_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:mangrove_stool_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:mangrove_striped_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:mangrove_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:mangrove_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:mangrove_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:oak_bookshelf",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:oak_bookshelf_cupboard",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:oak_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:oak_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:oak_coffee_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:oak_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:oak_covered_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:oak_cupboard_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:oak_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:oak_double_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:oak_double_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:oak_double_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:oak_double_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:oak_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:oak_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:oak_end_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:oak_glass_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:oak_glass_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:oak_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:oak_kitchen_sink",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:oak_large_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:oak_lower_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:oak_lower_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:oak_modern_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:oak_modern_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:oak_modern_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:oak_stool_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:oak_striped_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:oak_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:oak_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:oak_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:orange_chaise",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:orange_couch",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pale_oak_bookshelf",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pale_oak_bookshelf_cupboard",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pale_oak_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pale_oak_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pale_oak_coffee_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pale_oak_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pale_oak_covered_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pale_oak_cupboard_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pale_oak_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pale_oak_double_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pale_oak_double_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pale_oak_double_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pale_oak_double_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pale_oak_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pale_oak_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pale_oak_end_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pale_oak_glass_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pale_oak_glass_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pale_oak_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pale_oak_kitchen_sink",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pale_oak_large_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pale_oak_lower_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pale_oak_lower_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pale_oak_modern_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pale_oak_modern_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pale_oak_modern_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pale_oak_stool_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pale_oak_striped_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pale_oak_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pale_oak_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pale_oak_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pink_chaise",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:pink_couch",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:poplar_bookshelf",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:poplar_bookshelf_cupboard",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:poplar_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:poplar_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:poplar_coffee_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:poplar_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:poplar_covered_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:poplar_cupboard_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:poplar_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:poplar_double_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:poplar_double_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:poplar_double_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:poplar_double_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:poplar_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:poplar_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:poplar_end_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:poplar_glass_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:poplar_glass_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:poplar_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:poplar_kitchen_sink",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:poplar_large_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:poplar_lower_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:poplar_lower_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:poplar_modern_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:poplar_modern_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:poplar_modern_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:poplar_stool_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:poplar_striped_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:poplar_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:poplar_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:poplar_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:purple_chaise",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:purple_couch",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:red_chaise",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:red_couch",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:spruce_bookshelf",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:spruce_bookshelf_cupboard",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:spruce_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:spruce_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:spruce_coffee_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:spruce_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:spruce_covered_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:spruce_cupboard_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:spruce_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:spruce_double_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:spruce_double_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:spruce_double_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:spruce_double_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:spruce_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:spruce_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:spruce_end_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:spruce_glass_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:spruce_glass_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:spruce_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:spruce_kitchen_sink",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:spruce_large_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:spruce_lower_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:spruce_lower_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:spruce_modern_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:spruce_modern_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:spruce_modern_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:spruce_stool_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:spruce_striped_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:spruce_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:spruce_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:spruce_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_acacia_bookshelf",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_acacia_bookshelf_cupboard",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_acacia_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_acacia_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_acacia_coffee_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_acacia_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_acacia_covered_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_acacia_cupboard_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_acacia_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_acacia_double_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_acacia_double_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_acacia_double_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_acacia_double_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_acacia_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_acacia_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_acacia_end_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_acacia_glass_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_acacia_glass_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_acacia_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_acacia_kitchen_sink",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_acacia_large_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_acacia_lower_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_acacia_lower_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_acacia_modern_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_acacia_modern_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_acacia_modern_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_acacia_stool_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_acacia_striped_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_acacia_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_acacia_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_acacia_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_birch_bookshelf",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_birch_bookshelf_cupboard",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_birch_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_birch_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_birch_coffee_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_birch_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_birch_covered_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_birch_cupboard_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_birch_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_birch_double_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_birch_double_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_birch_double_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_birch_double_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_birch_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_birch_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_birch_end_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_birch_glass_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_birch_glass_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_birch_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_birch_kitchen_sink",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_birch_large_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_birch_lower_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_birch_lower_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_birch_modern_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_birch_modern_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_birch_modern_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_birch_stool_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_birch_striped_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_birch_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_birch_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_birch_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_cherry_bookshelf",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_cherry_bookshelf_cupboard",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_cherry_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_cherry_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_cherry_coffee_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_cherry_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_cherry_covered_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_cherry_cupboard_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_cherry_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_cherry_double_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_cherry_double_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_cherry_double_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_cherry_double_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_cherry_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_cherry_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_cherry_end_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_cherry_glass_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_cherry_glass_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_cherry_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_cherry_kitchen_sink",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_cherry_large_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_cherry_lower_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_cherry_lower_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_cherry_modern_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_cherry_modern_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_cherry_modern_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_cherry_stool_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_cherry_striped_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_cherry_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_cherry_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_cherry_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_crimson_bookshelf",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_crimson_bookshelf_cupboard",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_crimson_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_crimson_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_crimson_coffee_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_crimson_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_crimson_covered_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_crimson_cupboard_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_crimson_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_crimson_double_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_crimson_double_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_crimson_double_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_crimson_double_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_crimson_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_crimson_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_crimson_end_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_crimson_glass_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_crimson_glass_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_crimson_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_crimson_kitchen_sink",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_crimson_large_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_crimson_lower_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_crimson_lower_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_crimson_modern_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_crimson_modern_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_crimson_modern_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_crimson_stool_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_crimson_striped_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_crimson_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_crimson_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_crimson_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_dark_oak_bookshelf",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_dark_oak_bookshelf_cupboard",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_dark_oak_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_dark_oak_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_dark_oak_coffee_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_dark_oak_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_dark_oak_covered_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_dark_oak_cupboard_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_dark_oak_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_dark_oak_double_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_dark_oak_double_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_dark_oak_double_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_dark_oak_double_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_dark_oak_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_dark_oak_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_dark_oak_end_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_dark_oak_glass_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_dark_oak_glass_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_dark_oak_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_dark_oak_kitchen_sink",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_dark_oak_large_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_dark_oak_lower_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_dark_oak_lower_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_dark_oak_modern_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_dark_oak_modern_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_dark_oak_modern_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_dark_oak_stool_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_dark_oak_striped_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_dark_oak_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_dark_oak_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_dark_oak_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_jungle_bookshelf",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_jungle_bookshelf_cupboard",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_jungle_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_jungle_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_jungle_coffee_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_jungle_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_jungle_covered_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_jungle_cupboard_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_jungle_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_jungle_double_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_jungle_double_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_jungle_double_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_jungle_double_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_jungle_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_jungle_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_jungle_end_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_jungle_glass_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_jungle_glass_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_jungle_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_jungle_kitchen_sink",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_jungle_large_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_jungle_lower_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_jungle_lower_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_jungle_modern_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_jungle_modern_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_jungle_modern_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_jungle_stool_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_jungle_striped_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_jungle_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_jungle_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_jungle_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_mangrove_bookshelf",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_mangrove_bookshelf_cupboard",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_mangrove_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_mangrove_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_mangrove_coffee_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_mangrove_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_mangrove_covered_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_mangrove_cupboard_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_mangrove_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_mangrove_double_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_mangrove_double_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_mangrove_double_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_mangrove_double_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_mangrove_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_mangrove_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_mangrove_end_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_mangrove_glass_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_mangrove_glass_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_mangrove_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_mangrove_kitchen_sink",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_mangrove_large_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_mangrove_lower_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_mangrove_lower_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_mangrove_modern_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_mangrove_modern_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_mangrove_modern_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_mangrove_stool_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_mangrove_striped_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_mangrove_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_mangrove_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_mangrove_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_oak_bookshelf",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_oak_bookshelf_cupboard",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_oak_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_oak_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_oak_coffee_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_oak_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_oak_covered_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_oak_cupboard_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_oak_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_oak_double_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_oak_double_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_oak_double_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_oak_double_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_oak_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_oak_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_oak_end_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_oak_glass_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_oak_glass_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_oak_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_oak_kitchen_sink",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_oak_large_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_oak_lower_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_oak_lower_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_oak_modern_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_oak_modern_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_oak_modern_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_oak_stool_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_oak_striped_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_oak_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_oak_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_oak_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_pale_oak_bookshelf",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_pale_oak_bookshelf_cupboard",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_pale_oak_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_pale_oak_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_pale_oak_coffee_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_pale_oak_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_pale_oak_covered_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_pale_oak_cupboard_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_pale_oak_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_pale_oak_double_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_pale_oak_double_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_pale_oak_double_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_pale_oak_double_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_pale_oak_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_pale_oak_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_pale_oak_end_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_pale_oak_glass_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_pale_oak_glass_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_pale_oak_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_pale_oak_kitchen_sink",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_pale_oak_large_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_pale_oak_lower_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_pale_oak_lower_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_pale_oak_modern_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_pale_oak_modern_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_pale_oak_modern_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_pale_oak_stool_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_pale_oak_striped_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_pale_oak_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_pale_oak_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_pale_oak_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_poplar_bookshelf",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_poplar_bookshelf_cupboard",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_poplar_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_poplar_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_poplar_coffee_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_poplar_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_poplar_covered_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_poplar_cupboard_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_poplar_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_poplar_double_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_poplar_double_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_poplar_double_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_poplar_double_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_poplar_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_poplar_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_poplar_end_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_poplar_glass_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_poplar_glass_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_poplar_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_poplar_kitchen_sink",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_poplar_large_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_poplar_lower_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_poplar_lower_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_poplar_modern_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_poplar_modern_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_poplar_modern_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_poplar_stool_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_poplar_striped_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_poplar_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_poplar_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_poplar_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_spruce_bookshelf",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_spruce_bookshelf_cupboard",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_spruce_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_spruce_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_spruce_coffee_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_spruce_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_spruce_covered_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_spruce_cupboard_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_spruce_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_spruce_double_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_spruce_double_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_spruce_double_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_spruce_double_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_spruce_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_spruce_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_spruce_end_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_spruce_glass_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_spruce_glass_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_spruce_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_spruce_kitchen_sink",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_spruce_large_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_spruce_lower_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_spruce_lower_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_spruce_modern_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_spruce_modern_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_spruce_modern_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_spruce_stool_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_spruce_striped_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_spruce_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_spruce_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_spruce_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_warped_bookshelf",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_warped_bookshelf_cupboard",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_warped_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_warped_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_warped_coffee_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_warped_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_warped_covered_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_warped_cupboard_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_warped_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_warped_double_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_warped_double_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_warped_double_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_warped_double_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_warped_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_warped_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_warped_end_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_warped_glass_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_warped_glass_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_warped_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_warped_kitchen_sink",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_warped_large_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_warped_lower_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_warped_lower_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_warped_modern_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_warped_modern_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_warped_modern_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_warped_stool_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_warped_striped_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_warped_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_warped_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:stripped_warped_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:warped_bookshelf",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:warped_bookshelf_cupboard",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:warped_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:warped_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:warped_coffee_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:warped_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:warped_covered_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:warped_cupboard_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:warped_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:warped_double_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:warped_double_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:warped_double_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:warped_double_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:warped_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:warped_drawer_counter",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:warped_end_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:warped_glass_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:warped_glass_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:warped_kitchen_cabinet",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:warped_kitchen_sink",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:warped_large_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:warped_lower_bookshelf_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:warped_lower_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:warped_modern_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:warped_modern_desk",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:warped_modern_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:warped_stool_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:warped_striped_chair",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:warped_table",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:warped_triple_drawer",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:warped_wardrobe",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:white_chaise",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:white_couch",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:yellow_chaise",
+   "required": false
+  },
+  {
+   "id": "mcwfurnitures:yellow_couch",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:andesite_crystal_floor",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:andesite_crystal_floor_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:andesite_crystal_floor_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:andesite_flagstone",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:andesite_flagstone_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:andesite_flagstone_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:andesite_running_bond",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:andesite_running_bond_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:andesite_running_bond_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:andesite_windmill_weave",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:andesite_windmill_weave_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:andesite_windmill_weave_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:blackstone_crystal_floor",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:blackstone_crystal_floor_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:blackstone_crystal_floor_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:blackstone_flagstone",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:blackstone_flagstone_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:blackstone_flagstone_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:blackstone_running_bond",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:blackstone_running_bond_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:blackstone_running_bond_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:blackstone_windmill_weave",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:blackstone_windmill_weave_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:blackstone_windmill_weave_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:brick_crystal_floor",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:brick_crystal_floor_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:brick_crystal_floor_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:brick_flagstone",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:brick_flagstone_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:brick_flagstone_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:brick_running_bond",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:brick_running_bond_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:brick_running_bond_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:brick_windmill_weave",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:brick_windmill_weave_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:brick_windmill_weave_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:cobbled_deepslate_crystal_floor",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:cobbled_deepslate_crystal_floor_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:cobbled_deepslate_crystal_floor_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:cobbled_deepslate_flagstone",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:cobbled_deepslate_flagstone_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:cobbled_deepslate_flagstone_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:cobbled_deepslate_running_bond",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:cobbled_deepslate_running_bond_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:cobbled_deepslate_running_bond_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:cobbled_deepslate_windmill_weave",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:cobbled_deepslate_windmill_weave_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:cobbled_deepslate_windmill_weave_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:dark_prismarine_crystal_floor",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:dark_prismarine_crystal_floor_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:dark_prismarine_crystal_floor_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:dark_prismarine_flagstone",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:dark_prismarine_flagstone_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:dark_prismarine_flagstone_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:dark_prismarine_running_bond",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:dark_prismarine_running_bond_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:dark_prismarine_running_bond_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:dark_prismarine_windmill_weave",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:dark_prismarine_windmill_weave_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:dark_prismarine_windmill_weave_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:deepslate_crystal_floor",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:deepslate_crystal_floor_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:deepslate_crystal_floor_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:deepslate_flagstone",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:deepslate_flagstone_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:deepslate_flagstone_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:deepslate_running_bond",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:deepslate_running_bond_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:deepslate_running_bond_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:deepslate_windmill_weave",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:deepslate_windmill_weave_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:deepslate_windmill_weave_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:diorite_crystal_floor",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:diorite_crystal_floor_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:diorite_crystal_floor_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:diorite_flagstone",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:diorite_flagstone_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:diorite_flagstone_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:diorite_running_bond",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:diorite_running_bond_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:diorite_running_bond_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:diorite_windmill_weave",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:diorite_windmill_weave_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:diorite_windmill_weave_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:granite_crystal_floor",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:granite_crystal_floor_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:granite_crystal_floor_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:granite_flagstone",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:granite_flagstone_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:granite_flagstone_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:granite_running_bond",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:granite_running_bond_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:granite_running_bond_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:granite_windmill_weave",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:granite_windmill_weave_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:granite_windmill_weave_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:mossy_stone_crystal_floor",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:mossy_stone_crystal_floor_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:mossy_stone_crystal_floor_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:mossy_stone_flagstone",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:mossy_stone_flagstone_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:mossy_stone_flagstone_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:mossy_stone_running_bond",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:mossy_stone_running_bond_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:mossy_stone_running_bond_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:mossy_stone_windmill_weave",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:mossy_stone_windmill_weave_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:mossy_stone_windmill_weave_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:mud_brick_crystal_floor",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:mud_brick_crystal_floor_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:mud_brick_crystal_floor_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:mud_brick_flagstone",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:mud_brick_flagstone_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:mud_brick_flagstone_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:mud_brick_running_bond",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:mud_brick_running_bond_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:mud_brick_running_bond_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:mud_brick_windmill_weave",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:mud_brick_windmill_weave_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:mud_brick_windmill_weave_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:red_sandstone_crystal_floor",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:red_sandstone_crystal_floor_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:red_sandstone_crystal_floor_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:red_sandstone_flagstone",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:red_sandstone_flagstone_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:red_sandstone_flagstone_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:red_sandstone_running_bond",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:red_sandstone_running_bond_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:red_sandstone_running_bond_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:red_sandstone_windmill_weave",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:red_sandstone_windmill_weave_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:red_sandstone_windmill_weave_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:sandstone_crystal_floor",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:sandstone_crystal_floor_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:sandstone_crystal_floor_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:sandstone_flagstone",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:sandstone_flagstone_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:sandstone_flagstone_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:sandstone_running_bond",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:sandstone_running_bond_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:sandstone_running_bond_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:sandstone_windmill_weave",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:sandstone_windmill_weave_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:sandstone_windmill_weave_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:stone_crystal_floor",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:stone_crystal_floor_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:stone_crystal_floor_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:stone_flagstone",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:stone_flagstone_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:stone_flagstone_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:stone_running_bond",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:stone_running_bond_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:stone_running_bond_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:stone_windmill_weave",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:stone_windmill_weave_slab",
+   "required": false
+  },
+  {
+   "id": "mcwpaths:stone_windmill_weave_stairs",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:acacia_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:acacia_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:acacia_planks_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:acacia_planks_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:acacia_planks_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:acacia_planks_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:acacia_planks_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:acacia_planks_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:acacia_planks_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:acacia_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:acacia_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:acacia_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:acacia_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:acacia_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:andesite_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:andesite_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:andesite_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:andesite_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:andesite_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:andesite_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:andesite_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:bamboo_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:bamboo_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:bamboo_mosaic_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:bamboo_mosaic_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:bamboo_mosaic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:bamboo_mosaic_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:bamboo_mosaic_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:bamboo_mosaic_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:bamboo_mosaic_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:bamboo_planks_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:bamboo_planks_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:bamboo_planks_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:bamboo_planks_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:bamboo_planks_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:bamboo_planks_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:bamboo_planks_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:bamboo_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:bamboo_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:bamboo_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:bamboo_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:bamboo_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:base_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:base_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:base_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:base_roof_block",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:base_roof_slab",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:base_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:base_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:base_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:base_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:birch_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:birch_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:birch_planks_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:birch_planks_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:birch_planks_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:birch_planks_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:birch_planks_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:birch_planks_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:birch_planks_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:birch_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:birch_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:birch_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:birch_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:birch_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:black_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:black_concrete_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:black_concrete_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:black_concrete_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:black_concrete_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:black_concrete_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:black_concrete_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:black_concrete_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:black_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:black_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:black_roof_block",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:black_roof_slab",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:black_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:blackstone_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:blackstone_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:blackstone_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:blackstone_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:blackstone_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:blackstone_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:blackstone_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:black_striped_awning",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:black_terracotta_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:black_terracotta_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:black_terracotta_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:black_terracotta_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:black_terracotta_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:black_terracotta_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:black_terracotta_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:black_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:black_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:black_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:blue_concrete_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:blue_concrete_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:blue_concrete_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:blue_concrete_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:blue_concrete_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:blue_concrete_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:blue_concrete_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:blue_striped_awning",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:blue_terracotta_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:blue_terracotta_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:blue_terracotta_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:blue_terracotta_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:blue_terracotta_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:blue_terracotta_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:blue_terracotta_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:bricks_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:bricks_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:bricks_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:bricks_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:bricks_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:bricks_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:bricks_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:brown_concrete_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:brown_concrete_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:brown_concrete_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:brown_concrete_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:brown_concrete_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:brown_concrete_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:brown_concrete_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:brown_striped_awning",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:brown_terracotta_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:brown_terracotta_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:brown_terracotta_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:brown_terracotta_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:brown_terracotta_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:brown_terracotta_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:brown_terracotta_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cherry_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cherry_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cherry_planks_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cherry_planks_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cherry_planks_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cherry_planks_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cherry_planks_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cherry_planks_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cherry_planks_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cherry_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cherry_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cherry_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cherry_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cherry_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cobblestone_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cobblestone_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cobblestone_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cobblestone_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cobblestone_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cobblestone_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cobblestone_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:crimson_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:crimson_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:crimson_planks_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:crimson_planks_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:crimson_planks_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:crimson_planks_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:crimson_planks_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:crimson_planks_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:crimson_planks_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:crimson_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:crimson_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:crimson_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:crimson_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:crimson_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cyan_concrete_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cyan_concrete_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cyan_concrete_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cyan_concrete_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cyan_concrete_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cyan_concrete_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cyan_concrete_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cyan_striped_awning",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cyan_terracotta_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cyan_terracotta_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cyan_terracotta_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cyan_terracotta_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cyan_terracotta_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cyan_terracotta_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:cyan_terracotta_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:dark_oak_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:dark_oak_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:dark_oak_planks_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:dark_oak_planks_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:dark_oak_planks_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:dark_oak_planks_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:dark_oak_planks_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:dark_oak_planks_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:dark_oak_planks_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:dark_oak_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:dark_oak_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:dark_oak_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:dark_oak_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:dark_oak_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:dark_prismarine_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:dark_prismarine_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:dark_prismarine_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:dark_prismarine_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:dark_prismarine_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:dark_prismarine_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:dark_prismarine_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:deepslate_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:deepslate_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:deepslate_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:deepslate_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:deepslate_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:deepslate_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:deepslate_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:diorite_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:diorite_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:diorite_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:diorite_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:diorite_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:diorite_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:diorite_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:granite_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:granite_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:granite_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:granite_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:granite_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:granite_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:granite_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:grass_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:grass_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:grass_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:grass_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:grass_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:grass_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:grass_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gray_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gray_concrete_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gray_concrete_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gray_concrete_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gray_concrete_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gray_concrete_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gray_concrete_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gray_concrete_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gray_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gray_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gray_roof_block",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gray_roof_slab",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gray_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gray_striped_awning",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gray_terracotta_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gray_terracotta_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gray_terracotta_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gray_terracotta_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gray_terracotta_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gray_terracotta_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gray_terracotta_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gray_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gray_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gray_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:green_concrete_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:green_concrete_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:green_concrete_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:green_concrete_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:green_concrete_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:green_concrete_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:green_concrete_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:green_striped_awning",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:green_terracotta_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:green_terracotta_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:green_terracotta_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:green_terracotta_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:green_terracotta_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:green_terracotta_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:green_terracotta_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_base",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_base_black",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_base_blue",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_base_brown",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_base_cyan",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_base_gray",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_base_green",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_base_light_blue",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_base_light_gray",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_base_lime",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_base_magenta",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_base_orange",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_base_pink",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_base_purple",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_base_red",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_base_white",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_base_yellow",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_middle",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_middle_black",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_middle_blue",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_middle_brown",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_middle_cyan",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_middle_gray",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_middle_green",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_middle_light_blue",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_middle_light_gray",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_middle_lime",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_middle_magenta",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_middle_orange",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_middle_pink",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_middle_purple",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_middle_red",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_middle_white",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:gutter_middle_yellow",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:jungle_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:jungle_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:jungle_planks_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:jungle_planks_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:jungle_planks_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:jungle_planks_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:jungle_planks_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:jungle_planks_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:jungle_planks_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:jungle_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:jungle_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:jungle_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:jungle_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:jungle_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_blue_concrete_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_blue_concrete_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_blue_concrete_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_blue_concrete_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_blue_concrete_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_blue_concrete_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_blue_concrete_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_blue_striped_awning",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_blue_terracotta_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_blue_terracotta_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_blue_terracotta_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_blue_terracotta_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_blue_terracotta_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_blue_terracotta_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_blue_terracotta_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_gray_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_gray_concrete_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_gray_concrete_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_gray_concrete_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_gray_concrete_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_gray_concrete_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_gray_concrete_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_gray_concrete_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_gray_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_gray_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_gray_roof_block",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_gray_roof_slab",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_gray_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_gray_striped_awning",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_gray_terracotta_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_gray_terracotta_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_gray_terracotta_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_gray_terracotta_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_gray_terracotta_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_gray_terracotta_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_gray_terracotta_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_gray_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_gray_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:light_gray_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:lime_concrete_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:lime_concrete_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:lime_concrete_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:lime_concrete_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:lime_concrete_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:lime_concrete_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:lime_concrete_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:lime_striped_awning",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:lime_terracotta_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:lime_terracotta_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:lime_terracotta_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:lime_terracotta_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:lime_terracotta_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:lime_terracotta_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:lime_terracotta_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:magenta_concrete_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:magenta_concrete_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:magenta_concrete_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:magenta_concrete_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:magenta_concrete_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:magenta_concrete_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:magenta_concrete_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:magenta_striped_awning",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:magenta_terracotta_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:magenta_terracotta_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:magenta_terracotta_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:magenta_terracotta_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:magenta_terracotta_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:magenta_terracotta_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:magenta_terracotta_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:mangrove_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:mangrove_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:mangrove_planks_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:mangrove_planks_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:mangrove_planks_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:mangrove_planks_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:mangrove_planks_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:mangrove_planks_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:mangrove_planks_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:mangrove_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:mangrove_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:mangrove_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:mangrove_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:mangrove_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:mud_brick_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:mud_brick_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:mud_brick_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:mud_brick_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:mud_brick_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:mud_brick_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:mud_brick_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:nether_bricks_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:nether_bricks_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:nether_bricks_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:nether_bricks_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:nether_bricks_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:nether_bricks_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:nether_bricks_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:oak_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:oak_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:oak_planks_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:oak_planks_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:oak_planks_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:oak_planks_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:oak_planks_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:oak_planks_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:oak_planks_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:oak_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:oak_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:oak_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:oak_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:oak_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:orange_concrete_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:orange_concrete_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:orange_concrete_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:orange_concrete_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:orange_concrete_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:orange_concrete_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:orange_concrete_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:orange_striped_awning",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:orange_terracotta_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:orange_terracotta_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:orange_terracotta_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:orange_terracotta_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:orange_terracotta_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:orange_terracotta_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:orange_terracotta_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:pale_oak_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:pale_oak_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:pale_oak_planks_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:pale_oak_planks_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:pale_oak_planks_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:pale_oak_planks_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:pale_oak_planks_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:pale_oak_planks_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:pale_oak_planks_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:pale_oak_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:pale_oak_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:pale_oak_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:pale_oak_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:pale_oak_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:pink_concrete_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:pink_concrete_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:pink_concrete_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:pink_concrete_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:pink_concrete_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:pink_concrete_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:pink_concrete_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:pink_striped_awning",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:pink_terracotta_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:pink_terracotta_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:pink_terracotta_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:pink_terracotta_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:pink_terracotta_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:pink_terracotta_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:pink_terracotta_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:poplar_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:poplar_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:poplar_planks_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:poplar_planks_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:poplar_planks_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:poplar_planks_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:poplar_planks_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:poplar_planks_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:poplar_planks_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:poplar_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:poplar_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:poplar_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:poplar_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:poplar_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:prismarine_brick_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:prismarine_brick_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:prismarine_brick_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:prismarine_brick_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:prismarine_brick_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:prismarine_brick_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:prismarine_brick_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:purple_concrete_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:purple_concrete_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:purple_concrete_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:purple_concrete_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:purple_concrete_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:purple_concrete_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:purple_concrete_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:purple_striped_awning",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:purple_terracotta_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:purple_terracotta_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:purple_terracotta_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:purple_terracotta_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:purple_terracotta_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:purple_terracotta_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:purple_terracotta_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:red_concrete_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:red_concrete_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:red_concrete_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:red_concrete_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:red_concrete_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:red_concrete_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:red_concrete_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:red_nether_bricks_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:red_nether_bricks_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:red_nether_bricks_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:red_nether_bricks_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:red_nether_bricks_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:red_nether_bricks_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:red_nether_bricks_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:red_sandstone_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:red_sandstone_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:red_sandstone_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:red_sandstone_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:red_sandstone_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:red_sandstone_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:red_sandstone_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:red_striped_awning",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:red_terracotta_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:red_terracotta_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:red_terracotta_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:red_terracotta_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:red_terracotta_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:red_terracotta_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:red_terracotta_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:sandstone_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:sandstone_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:sandstone_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:sandstone_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:sandstone_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:sandstone_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:sandstone_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:spruce_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:spruce_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:spruce_planks_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:spruce_planks_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:spruce_planks_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:spruce_planks_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:spruce_planks_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:spruce_planks_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:spruce_planks_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:spruce_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:spruce_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:spruce_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:spruce_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:spruce_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:stone_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:stone_bricks_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:stone_bricks_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:stone_bricks_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:stone_bricks_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:stone_bricks_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:stone_bricks_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:stone_bricks_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:stone_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:stone_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:stone_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:stone_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:stone_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:stone_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:thatch_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:thatch_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:thatch_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:thatch_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:thatch_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:thatch_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:thatch_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:warped_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:warped_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:warped_planks_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:warped_planks_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:warped_planks_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:warped_planks_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:warped_planks_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:warped_planks_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:warped_planks_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:warped_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:warped_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:warped_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:warped_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:warped_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:white_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:white_concrete_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:white_concrete_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:white_concrete_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:white_concrete_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:white_concrete_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:white_concrete_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:white_concrete_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:white_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:white_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:white_roof_block",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:white_roof_slab",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:white_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:white_terracotta_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:white_terracotta_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:white_terracotta_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:white_terracotta_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:white_terracotta_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:white_terracotta_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:white_terracotta_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:white_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:white_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:white_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:yellow_concrete_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:yellow_concrete_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:yellow_concrete_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:yellow_concrete_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:yellow_concrete_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:yellow_concrete_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:yellow_concrete_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:yellow_striped_awning",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:yellow_terracotta_attic_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:yellow_terracotta_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:yellow_terracotta_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:yellow_terracotta_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:yellow_terracotta_top_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:yellow_terracotta_upper_lower_roof",
+   "required": false
+  },
+  {
+   "id": "mcwroofs:yellow_terracotta_upper_steep_roof",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:acacia_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:acacia_log_parapet",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:acacia_louvered_shutter",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:acacia_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:acacia_plank_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:acacia_plank_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:acacia_plank_parapet",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:acacia_plank_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:acacia_plank_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:acacia_shutter",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:acacia_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:acacia_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:andesite_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:andesite_louvered_shutter",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:andesite_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:andesite_parapet",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:andesite_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:andesite_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:bamboo_shutter",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:birch_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:birch_log_parapet",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:birch_louvered_shutter",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:birch_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:birch_plank_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:birch_plank_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:birch_plank_parapet",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:birch_plank_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:birch_plank_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:birch_shutter",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:birch_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:birch_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:black_mosaic_glass",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:black_mosaic_glass_pane",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:blackstone_brick_arrow_slit",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:blackstone_brick_gothic",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:blackstone_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:blackstone_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:blackstone_parapet",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:blackstone_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:blackstone_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:blue_mosaic_glass",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:blue_mosaic_glass_pane",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:bricks_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:bricks_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:bricks_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:bricks_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:brown_mosaic_glass",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:brown_mosaic_glass_pane",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:cherry_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:cherry_log_parapet",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:cherry_louvered_shutter",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:cherry_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:cherry_plank_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:cherry_plank_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:cherry_plank_parapet",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:cherry_plank_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:cherry_plank_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:cherry_shutter",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:cherry_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:cherry_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:cobblestone_arrow_slit",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:crimson_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:crimson_louvered_shutter",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:crimson_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:crimson_plank_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:crimson_plank_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:crimson_plank_parapet",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:crimson_planks_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:crimson_planks_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:crimson_planks_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:crimson_plank_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:crimson_plank_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:crimson_shutter",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:crimson_stem_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:crimson_stem_parapet",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:crimson_stem_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:crimson_stem_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:crimson_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:crimson_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:cyan_mosaic_glass",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:cyan_mosaic_glass_pane",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:dark_oak_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:dark_oak_log_parapet",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:dark_oak_louvered_shutter",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:dark_oak_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:dark_oak_plank_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:dark_oak_plank_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:dark_oak_plank_parapet",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:dark_oak_plank_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:dark_oak_plank_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:dark_oak_shutter",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:dark_oak_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:dark_oak_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:dark_prismarine_brick_arrow_slit",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:dark_prismarine_brick_gothic",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:dark_prismarine_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:dark_prismarine_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:dark_prismarine_parapet",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:dark_prismarine_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:dark_prismarine_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:deepslate_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:deepslate_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:deepslate_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:deepslate_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:diorite_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:diorite_louvered_shutter",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:diorite_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:diorite_parapet",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:diorite_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:diorite_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:end_brick_gothic",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:ender_brick_arrow_slit",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:granite_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:granite_louvered_shutter",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:granite_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:granite_parapet",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:granite_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:granite_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:gray_mosaic_glass",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:gray_mosaic_glass_pane",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:green_mosaic_glass",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:green_mosaic_glass_pane",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:iron_shutter",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:jungle_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:jungle_log_parapet",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:jungle_louvered_shutter",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:jungle_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:jungle_plank_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:jungle_plank_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:jungle_plank_parapet",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:jungle_plank_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:jungle_plank_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:jungle_shutter",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:jungle_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:jungle_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:light_blue_mosaic_glass",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:light_blue_mosaic_glass_pane",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:light_gray_mosaic_glass",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:light_gray_mosaic_glass_pane",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:lime_mosaic_glass",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:lime_mosaic_glass_pane",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:magenta_mosaic_glass",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:magenta_mosaic_glass_pane",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:mangrove_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:mangrove_log_parapet",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:mangrove_louvered_shutter",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:mangrove_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:mangrove_plank_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:mangrove_plank_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:mangrove_plank_parapet",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:mangrove_plank_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:mangrove_plank_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:mangrove_shutter",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:mangrove_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:mangrove_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:metal_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:metal_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:metal_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:metal_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:mud_brick_arrow_slit",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:mud_brick_gothic",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:nether_brick_arrow_slit",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:nether_brick_gothic",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:oak_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:oak_log_parapet",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:oak_louvered_shutter",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:oak_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:oak_plank_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:oak_plank_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:oak_plank_parapet",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:oak_plank_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:oak_plank_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:oak_shutter",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:oak_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:oak_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:one_way_glass",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:one_way_glass_pane",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:orange_mosaic_glass",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:orange_mosaic_glass_pane",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:pale_oak_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:pale_oak_log_parapet",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:pale_oak_louvered_shutter",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:pale_oak_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:pale_oak_plank_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:pale_oak_plank_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:pale_oak_plank_parapet",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:pale_oak_plank_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:pale_oak_plank_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:pale_oak_shutter",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:pale_oak_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:pale_oak_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:pink_mosaic_glass",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:pink_mosaic_glass_pane",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:poplar_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:poplar_log_parapet",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:poplar_louvered_shutter",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:poplar_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:poplar_plank_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:poplar_plank_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:poplar_plank_parapet",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:poplar_plank_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:poplar_plank_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:poplar_shutter",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:poplar_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:poplar_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:prismarine_brick_arrow_slit",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:prismarine_brick_gothic",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:prismarine_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:prismarine_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:prismarine_parapet",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:prismarine_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:prismarine_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:purple_mosaic_glass",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:purple_mosaic_glass_pane",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:quartz_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:quartz_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:quartz_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:quartz_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:red_mosaic_glass",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:red_mosaic_glass_pane",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:red_sandstone_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:red_sandstone_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:red_sandstone_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:red_sandstone_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:sandstone_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:sandstone_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:sandstone_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:sandstone_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:spruce_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:spruce_log_parapet",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:spruce_louvered_shutter",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:spruce_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:spruce_plank_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:spruce_plank_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:spruce_plank_parapet",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:spruce_plank_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:spruce_plank_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:spruce_shutter",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:spruce_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:spruce_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stone_brick_arrow_slit",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stone_brick_gothic",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stone_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stone_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stone_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stone_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_acacia_log_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_acacia_log_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_acacia_log_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_acacia_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_birch_log_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_birch_log_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_birch_log_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_birch_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_cherry_log_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_cherry_log_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_cherry_log_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_cherry_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_crimson_log_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_crimson_log_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_crimson_log_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_crimson_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_crimson_stem_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_crimson_stem_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_crimson_stem_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_dark_oak_log_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_dark_oak_log_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_dark_oak_log_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_dark_oak_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_jungle_log_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_jungle_log_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_jungle_log_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_jungle_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_mangrove_log_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_mangrove_log_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_mangrove_log_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_mangrove_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_oak_log_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_oak_log_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_oak_log_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_oak_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_pale_oak_log_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_pale_oak_log_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_pale_oak_log_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_pale_oak_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_poplar_log_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_poplar_log_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_poplar_log_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_poplar_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_spruce_log_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_spruce_log_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_spruce_log_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_spruce_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_warped_log_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_warped_log_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_warped_log_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_warped_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_warped_stem_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_warped_stem_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:stripped_warped_stem_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:warped_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:warped_louvered_shutter",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:warped_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:warped_plank_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:warped_plank_pane_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:warped_plank_parapet",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:warped_planks_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:warped_planks_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:warped_planks_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:warped_plank_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:warped_plank_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:warped_shutter",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:warped_stem_four_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:warped_stem_parapet",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:warped_stem_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:warped_stem_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:warped_window",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:warped_window2",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:white_mosaic_glass",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:white_mosaic_glass_pane",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:yellow_mosaic_glass",
+   "required": false
+  },
+  {
+   "id": "mcwwindows:yellow_mosaic_glass_pane",
+   "required": false
+  }
+ ]
+}
