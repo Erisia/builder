@@ -28,7 +28,7 @@ nodes:
         side: both
       - name: 'watershed'
         source: url
-        location: 'https://madoka.brage.info/upstream/incognito/watershed-26.3-0.0.1-8203dd86.jar'
+        location: 'https://madoka.brage.info/upstream/incognito/watershed-26.3-0.0.1-55ec5b01.jar'
         filename: 'watershed-26.3-0.0.1.jar'
         side: both
       - name: ae2
