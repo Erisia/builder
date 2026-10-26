@@ -12,7 +12,7 @@ nodes:
       # In-house: the Electrical Age 26.3 port and Stasis Delvers (LabAgent's builds, mirrored on madoka).
       - name: 'eln'
         source: url
-        location: 'https://madoka.brage.info/upstream/incognito/eln-26.3-0.1.0-port-d871ea6a.jar'
+        location: 'https://madoka.brage.info/upstream/incognito/eln-26.3-0.1.0-port-af710419.jar'
         filename: 'eln-26.3-0.1.0-port.jar'
         side: both
       - name: 'stasisdelvers'
@@ -25,6 +25,11 @@ nodes:
         source: url
         location: 'https://madoka.brage.info/upstream/incognito/spookyseason-26.3-0.1.0-2eb0d816.jar'
         filename: 'spookyseason-26.3-0.1.0.jar'
+        side: both
+      - name: 'watershed'
+        source: url
+        location: 'https://madoka.brage.info/upstream/incognito/watershed-26.3-0.0.1-8203dd86.jar'
+        filename: 'watershed-26.3-0.0.1.jar'
         side: both
       - name: ae2
         source: modrinth

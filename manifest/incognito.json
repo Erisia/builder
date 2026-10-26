@@ -332,10 +332,10 @@
     "default": true,
     "filename": "eln-26.3-0.1.0-port.jar",
     "encoded": "eln-26.3-0.1.0-port.jar",
-    "src": "https://madoka.brage.info/upstream/incognito/eln-26.3-0.1.0-port-d871ea6a.jar",
-    "size": 24845598,
-    "md5": "8762a38f5954187fcf3642104687a594",
-    "sha256": "d871ea6ac189489598d6b37d1bab6e32ffcce29d48c974789af7e71c9d2880f6"
+    "src": "https://madoka.brage.info/upstream/incognito/eln-26.3-0.1.0-port-af710419.jar",
+    "size": 24887759,
+    "md5": "6e1ee0c8051d3bfb7db298cf9601d349",
+    "sha256": "af710419b53d016c58b801ba64c8b53b0e28974c0be5f6a20a41d4e2e8926fb3"
   },
   {
     "name": "energized-power",
@@ -1168,6 +1168,19 @@
     "size": 184972,
     "md5": "3ee917de68191ade5b0dd99c32369994",
     "sha256": "4a8e02f4ec637e2750cfd7a16f04ac563ed2f7044e9fcb4ece6fc6af0144e42b"
+  },
+  {
+    "name": "watershed",
+    "title": "watershed",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "watershed-26.3-0.0.1.jar",
+    "encoded": "watershed-26.3-0.0.1.jar",
+    "src": "https://madoka.brage.info/upstream/incognito/watershed-26.3-0.0.1-8203dd86.jar",
+    "size": 1020944,
+    "md5": "bdc5173008b14368669b307943c3fe8f",
+    "sha256": "8203dd863cc7dbf24229a54995e7773d1eac712c007f786634bb6c4eb05fe860"
   },
   {
     "name": "waystones",
