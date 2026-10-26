@@ -396,7 +396,7 @@ nodes:
       - name: simple-voice-chat
         source: modrinth
         id: '9eGKb6K1'
-        file_id: '3rpCvvMZ'
+        file_id: 'Au3hHQ1n'
         side: both
       - name: sophisticated-backpacks
         source: modrinth
