@@ -975,6 +975,19 @@
     "sha256": "88e7cc1a9ecd4c9ad22434fe2f168155baeb0ce2afba0a30269e542602e9d442"
   },
   {
+    "name": "spookyseason",
+    "title": "spookyseason",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "spookyseason-26.3-0.1.0.jar",
+    "encoded": "spookyseason-26.3-0.1.0.jar",
+    "src": "https://madoka.brage.info/upstream/incognito/spookyseason-26.3-0.1.0-2eb0d816.jar",
+    "size": 51800,
+    "md5": "88cd487c458878f80f7955f27e246033",
+    "sha256": "2eb0d81668410cf1359018c420cdfb656558fd022544f204bc3f73de62266dde"
+  },
+  {
     "name": "stasisdelvers",
     "title": "stasisdelvers",
     "side": "both",
