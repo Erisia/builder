@@ -108,6 +108,11 @@ nodes:
         id: 'vvuO3ImH'
         file_id: 'W912LxOl'
         side: both
+      - name: customizable-player-models # Baughn 10-26 (board #37): ponytail models
+        source: modrinth
+        id: 'h1E7sQNL'
+        file_id: 'oiyHB9lk'
+        side: both
       - name: cyclops-core
         source: modrinth
         id: 'Z9DM0LJ4'
@@ -181,6 +186,11 @@ nodes:
         source: modrinth
         id: 'Ck4E7v7R'
         file_id: '69ocM6po'
+        side: both
+      - name: hide-your-armor # Baughn 10-26 (board #37); default key H clashes, players rebind
+        source: modrinth
+        id: 'htFd9eMF'
+        file_id: 'JA8k1Tf0'
         side: both
       - name: incendium
         source: modrinth

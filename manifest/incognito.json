@@ -208,6 +208,19 @@
     "sha256": "27775990860dca9a8e6462a4741282789ec37f1a0afd2f72b97f02d60bbc8371"
   },
   {
+    "name": "custom-player-models",
+    "title": "Customizable Player Models",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "CustomPlayerModels-26.3-0.6.27c.jar",
+    "encoded": "CustomPlayerModels-26.3-0.6.27c.jar",
+    "src": "https://cdn.modrinth.com/data/h1E7sQNL/versions/oiyHB9lk/CustomPlayerModels-26.3-0.6.27c.jar",
+    "size": 2827569,
+    "md5": "cd2abd0af5cfeedfac630e1935129c1a",
+    "sha256": "6fe32fed6ff0ab5f1578e56e9e1c68a5b619bccca6778fc899c65b7976e9d7dc"
+  },
+  {
     "name": "cyclops-core",
     "title": "Cyclops Core",
     "side": "both",
@@ -401,6 +414,19 @@
     "size": 5295901,
     "md5": "a1ff43520a568fa1c134063cfc139986",
     "sha256": "c52814fcac17016f26d09b57de8f10a3ca6bce3cc02f38284d1e25e25076d759"
+  },
+  {
+    "name": "hide-your-armour",
+    "title": "Hide Your Armor",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "HideYourArmor-1.7.1+mc26.3-universal.jar",
+    "encoded": "HideYourArmor-1.7.1%2Bmc26.3-universal.jar",
+    "src": "https://cdn.modrinth.com/data/htFd9eMF/versions/JA8k1Tf0/HideYourArmor-1.7.1%2Bmc26.3-universal.jar",
+    "size": 1884076,
+    "md5": "cd32b8748b4fd88c3ffec2c8073972aa",
+    "sha256": "aabf59ea88dbe5309a62fb0e4134432df5c7a0d0bb55b9465f478e89080e993e"
   },
   {
     "name": "incendium",
