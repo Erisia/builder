@@ -23,7 +23,7 @@ nodes:
       # Halloween 2026 (LabAssistant's mod, Baughn): active 10-26..11-02 only; leave installed afterwards (cookies).
       - name: 'spookyseason'
         source: url
-        location: 'https://madoka.brage.info/upstream/incognito/spookyseason-26.3-0.1.0-2eb0d816.jar'
+        location: 'https://madoka.brage.info/upstream/incognito/spookyseason-26.3-0.1.0-fb5b7223.jar'
         filename: 'spookyseason-26.3-0.1.0.jar'
         side: both
       - name: 'watershed'
