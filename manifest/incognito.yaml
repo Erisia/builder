@@ -26,6 +26,12 @@ nodes:
         location: 'https://madoka.brage.info/upstream/incognito/spookyseason-26.3-0.1.0-27c20551.jar'
         filename: 'spookyseason-26.3-0.1.0.jar'
         side: both
+      # Megumin Detector (LabAssistant's one-off mod for Baughn, 2026-10-31; msg 1566093511126810648, board #47).
+      - name: 'megumin'
+        source: url
+        location: 'https://madoka.brage.info/upstream/incognito/megumin-26.3-0.1.0-76597123.jar'
+        filename: 'megumin-26.3-0.1.0.jar'
+        side: both
       - name: 'watershed'
         source: url
         location: 'https://madoka.brage.info/upstream/incognito/watershed-26.3-0.0.1-0ee17f26.jar'
