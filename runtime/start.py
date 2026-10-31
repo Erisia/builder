@@ -321,6 +321,47 @@ def daily_restart_task():
     console.print("[green]Daily restart task finishing.[/]")
 
 
+HANG_MARKERS = (
+    "Considering it to be crashed, server will forcibly shutdown",  # vanilla ServerWatchdog
+    "This crash report has been saved to:",
+)
+HANG_GRACE_SEC = 120 # A crashed server normally exits within seconds of its crash report
+
+
+def hang_watchdog_task(process):
+    """Kill a JVM that crashed but didn't exit.
+
+    After an OutOfMemoryError (Incognito, 2026-10-30) the server wrote its crash report, the
+    vanilla watchdog fired, and the JVM then hung with RCON closed. systemd only restarts the
+    unit once this script exits, so nothing happened until an admin noticed. Here: once
+    latest.log shows a crash report or the watchdog's verdict, give the JVM HANG_GRACE_SEC to
+    exit, then kill its process tree; the normal exit path (crash analysis, unit restart) follows.
+    """
+    log_path = LOGS_DIR / "latest.log"
+    inode, offset, crashed_at = None, 0, None
+    while process.poll() is None:
+        time.sleep(10)
+        try:
+            st = log_path.stat()
+            if st.st_ino != inode or st.st_size < offset:
+                inode, offset = st.st_ino, 0
+            if crashed_at is None and st.st_size > offset:
+                with open(log_path, "rb") as f:
+                    f.seek(offset)
+                    chunk = f.read()
+                offset += len(chunk)
+                text = chunk.decode("utf-8", "replace")
+                if any(marker in text for marker in HANG_MARKERS):
+                    crashed_at = time.monotonic()
+                    console.print(f"[yellow]Hang watchdog:[/] crash in latest.log; killing the JVM if it is still up in {HANG_GRACE_SEC} s.")
+        except OSError:
+            continue
+        if crashed_at is not None and time.monotonic() - crashed_at > HANG_GRACE_SEC and process.poll() is None:
+            console.print(f"[bold red]Hang watchdog:[/] JVM {process.pid} still running {HANG_GRACE_SEC} s after its crash; killing it.")
+            kill_java_process_fallback(process.pid, timeout_sec=30)
+            return
+
+
 def kill_java_process_fallback(pid, timeout_sec=180):
     """Fallback to psutil for killing process tree if not using systemd."""
     try:
@@ -724,7 +765,8 @@ def main():
             border_style="green"
         )
         console.print(startup_panel)
-        
+        threading.Thread(target=hang_watchdog_task, args=(java_server_process,), daemon=True).start()
+
         # Wait for process to complete
         return_code = java_server_process.wait()
 
