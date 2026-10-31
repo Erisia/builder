@@ -447,12 +447,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "integratedcrafting-26.3-neoforge-1.4.7-812.jar",
-    "encoded": "integratedcrafting-26.3-neoforge-1.4.7-812.jar",
-    "src": "https://cdn.modrinth.com/data/qwpACdla/versions/DpdCpJ89/integratedcrafting-26.3-neoforge-1.4.7-812.jar",
-    "size": 531765,
-    "md5": "22dfb0ffe88a739748b2063c1caadab8",
-    "sha256": "04d959835f09d5a4ec50a9d9d7cdd01897e7ff488e1d04ba535b27f003e7f5f3"
+    "filename": "integratedcrafting-26.3-neoforge-1.4.7-859.jar",
+    "encoded": "integratedcrafting-26.3-neoforge-1.4.7-859.jar",
+    "src": "https://cdn.modrinth.com/data/qwpACdla/versions/CqSUrVms/integratedcrafting-26.3-neoforge-1.4.7-859.jar",
+    "size": 545945,
+    "md5": "65ea3d05e53d38c203c03ee60b1f082b",
+    "sha256": "2c7308c70d174ecc9e96ad32f8a4b75f83675fd4f4c1d125c69443621a219996"
   },
   {
     "name": "integrated-dynamics",

@@ -205,7 +205,7 @@ nodes:
       - name: integrated-crafting
         source: modrinth
         id: 'qwpACdla'
-        file_id: 'DpdCpJ89'
+        file_id: 'CqSUrVms'
         side: both
       - name: integrated-dynamics
         source: modrinth
