@@ -52,6 +52,7 @@ let
     ../tools/skills/minecraft-tick-debug/scripts/compare_inspections.py
     ../tests/test_daily_restart.py
     ../tests/test_start_java.py
+    ../tests/test_hang_watchdog.py
     ../tests/test_sync_scripts.py
     ../tests/test_shutdown.py
     ../tests/test_crash_analysis.py
