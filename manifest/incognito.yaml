@@ -29,7 +29,7 @@ nodes:
       # Megumin Detector (LabAssistant's one-off mod for Baughn, 2026-10-31; msg 1566093511126810648, board #47).
       - name: 'megumin'
         source: url
-        location: 'https://madoka.brage.info/upstream/incognito/megumin-26.3-0.1.0-76597123.jar'
+        location: 'https://madoka.brage.info/upstream/incognito/megumin-26.3-0.1.0-8e648324.jar'
         filename: 'megumin-26.3-0.1.0.jar'
         side: both
       - name: 'watershed'
