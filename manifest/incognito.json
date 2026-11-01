@@ -117,6 +117,19 @@
     "sha256": "18d65f554984a81a4dfe5f5e4038298ae02e6d8cc66870469305e8fae2a1fb79"
   },
   {
+    "name": "code-defined-gui",
+    "title": "Code Defined GUI",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "codedefinedgui-26.3-neoforge-1.14.0.jar",
+    "encoded": "codedefinedgui-26.3-neoforge-1.14.0.jar",
+    "src": "https://cdn.modrinth.com/data/avIKBXHe/versions/7JtiJ7yv/codedefinedgui-26.3-neoforge-1.14.0.jar",
+    "size": 382591,
+    "md5": "8fed3629dcd00e72432d134885f3215c",
+    "sha256": "5ea654babd8858382c7dc45db7eb80ba9ebe0090ca5a7946bc8f02fe1862e159"
+  },
+  {
     "name": "collective",
     "title": "Collective",
     "side": "both",
@@ -785,12 +798,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "modonomicon-26.3-neoforge-2.17.1.jar",
-    "encoded": "modonomicon-26.3-neoforge-2.17.1.jar",
-    "src": "https://cdn.modrinth.com/data/692GClaE/versions/JBJ5eClB/modonomicon-26.3-neoforge-2.17.1.jar",
-    "size": 3150748,
-    "md5": "b782d25642364e35d4df08700f7ee122",
-    "sha256": "7ab3d32aa69b30bdac3e1446debfe4b6cfd39c9ecf0b307b35db870273ab9d71"
+    "filename": "modonomicon-26.3-neoforge-2.20.0.jar",
+    "encoded": "modonomicon-26.3-neoforge-2.20.0.jar",
+    "src": "https://cdn.modrinth.com/data/692GClaE/versions/5ASZxoOP/modonomicon-26.3-neoforge-2.20.0.jar",
+    "size": 3173905,
+    "md5": "cff27afc0dca62d76399da6fdbe7675a",
+    "sha256": "a7592b3e7c89d61b3d48a570a044e440bff994d9a07f31d16847611ce52a518e"
   },
   {
     "name": "mouse-tweaks",
@@ -824,12 +837,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "occultism-26.3-neoforge-1.259.1.jar",
-    "encoded": "occultism-26.3-neoforge-1.259.1.jar",
-    "src": "https://cdn.modrinth.com/data/sbJh4AZw/versions/BZUdeyyg/occultism-26.3-neoforge-1.259.1.jar",
-    "size": 10262417,
-    "md5": "892972ca030a0ac8c47ccbd2a8aefab2",
-    "sha256": "a993d0e786e72883f912719d272a7fd69bd8044c82bfa8ac53cdc321ea77768c"
+    "filename": "occultism-26.3-neoforge-1.262.0.jar",
+    "encoded": "occultism-26.3-neoforge-1.262.0.jar",
+    "src": "https://cdn.modrinth.com/data/sbJh4AZw/versions/WrFSpta0/occultism-26.3-neoforge-1.262.0.jar",
+    "size": 10347699,
+    "md5": "98dd217c1b5d62d90f03318368f68d91",
+    "sha256": "8dcc88604df6144a5bfd984cc4b75b9ef2061403fb25e141f54f4e9df637af2f"
   },
   {
     "name": "open-parties-and-claims",
@@ -1123,12 +1136,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "theurgy-26.3-neoforge-1.120.0.jar",
-    "encoded": "theurgy-26.3-neoforge-1.120.0.jar",
-    "src": "https://cdn.modrinth.com/data/uOVMgoil/versions/aKNyWx6Z/theurgy-26.3-neoforge-1.120.0.jar",
-    "size": 8668171,
-    "md5": "395e8b6e03a00073f9dbe3bd6334df2d",
-    "sha256": "012da1eb1578e5ea37aa2fae710777ebf617a2e9dd2878baa12bf20895a24562"
+    "filename": "theurgy-26.3-neoforge-1.120.1.jar",
+    "encoded": "theurgy-26.3-neoforge-1.120.1.jar",
+    "src": "https://cdn.modrinth.com/data/uOVMgoil/versions/Yb6fza75/theurgy-26.3-neoforge-1.120.1.jar",
+    "size": 8668154,
+    "md5": "3db936cfc493e9d81f4f82a88dfcd371",
+    "sha256": "e54cec07acdb92aa7ced8190c3c66836b4685112381f48b6a75ea7982289d434"
   },
   {
     "name": "towns-and-towers",
