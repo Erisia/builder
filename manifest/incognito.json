@@ -345,10 +345,10 @@
     "default": true,
     "filename": "eln-26.3-0.1.0-port.jar",
     "encoded": "eln-26.3-0.1.0-port.jar",
-    "src": "https://madoka.brage.info/upstream/incognito/eln-26.3-0.1.0-port-8f9e83d0.jar",
-    "size": 26777532,
-    "md5": "209280e17663d045b75ae90770c8afd6",
-    "sha256": "8f9e83d0901650a005eeb8ac25b471d8dc958a000ad792704b52ccd347c31078"
+    "src": "https://madoka.brage.info/upstream/incognito/eln-26.3-0.1.0-port-ac680d95.jar",
+    "size": 26778267,
+    "md5": "7451600d8319ae077e638b77675fd96e",
+    "sha256": "ac680d95b91c10a5d1119c166fd134284df47f0324e7d466d1c28f408c4c3ed6"
   },
   {
     "name": "energized-power",
