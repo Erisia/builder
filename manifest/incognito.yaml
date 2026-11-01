@@ -92,7 +92,7 @@ nodes:
       - name: collective
         source: modrinth
         id: 'e0M1UDsY'
-        file_id: 'SLDUG1Rg'
+        file_id: 'vsRFdH1j'
         side: both
       - name: common-capabilities
         source: modrinth
@@ -175,7 +175,7 @@ nodes:
       - name: energized-power
         source: modrinth
         id: '6pku8gW1'
-        file_id: 'dHC5qqZI'
+        file_id: 'z4cYlDB6'
         side: both
       - name: ferrite-core
         source: modrinth
@@ -283,7 +283,7 @@ nodes:
       - name: lithium
         source: modrinth
         id: 'gvQqBUqZ'
-        file_id: '1rb9wI5K'
+        file_id: '2BP6jqRA'
         side: both
       - name: lithostitched
         source: modrinth
@@ -387,7 +387,7 @@ nodes:
       - name: puzzles-lib
         source: modrinth
         id: 'QAGBst4M'
-        file_id: 'i2j6QO0v'
+        file_id: 'F9mIZLWF'
         side: both
       - name: rechiseled
         source: modrinth
@@ -417,17 +417,17 @@ nodes:
       - name: sophisticated-backpacks
         source: modrinth
         id: 'TyCTlI4b'
-        file_id: 'wfDx3oyJ'
+        file_id: '5XF9M3Vp'
         side: both
       - name: sophisticated-core
         source: modrinth
         id: 'nmoqTijg'
-        file_id: 'DSsinfqr'
+        file_id: 'bAA0Uo4S'
         side: both
       - name: sophisticated-storage
         source: modrinth
         id: 'hMlaZH8f'
-        file_id: 'kJBndRff'
+        file_id: 'Anq9OITy'
         side: both
       - name: spark
         source: modrinth
@@ -452,12 +452,12 @@ nodes:
       - name: supermartijn642s-core-lib
         source: modrinth
         id: 'rOUBggPv'
-        file_id: 'dM4GPUVB'
+        file_id: '9Mv2OwRF'
         side: both
       - name: tectonic
         source: modrinth
         id: 'lWDHr9jE'
-        file_id: 'yWpa8ww5'
+        file_id: 'tzhzB8SC'
         side: both
       - name: terralith
         source: modrinth
@@ -477,7 +477,7 @@ nodes:
       - name: trash-cans
         source: modrinth
         id: '4QrnfueM'
-        file_id: 'SEuLCEhB'
+        file_id: 'yiqBCJrl'
         side: both
       - name: veinminer
         source: modrinth
@@ -502,7 +502,7 @@ nodes:
       - name: worldedit
         source: modrinth
         id: '1u6JkXh5'
-        file_id: 'E7sbeRFx'
+        file_id: 'ByRNkO83'
         side: both
       - name: xaeros-minimap
         source: modrinth

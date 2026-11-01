@@ -135,12 +135,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "collective-26.3.0-8.64.jar",
-    "encoded": "collective-26.3.0-8.64.jar",
-    "src": "https://cdn.modrinth.com/data/e0M1UDsY/versions/SLDUG1Rg/collective-26.3.0-8.64.jar",
-    "size": 1338358,
-    "md5": "3844c294f58f99f8cb24318b6b284d13",
-    "sha256": "7284a23e7d99bf127b9b52f621a180b7889fb8687d763d58cb07cad1d047ef50"
+    "filename": "collective-26.3.0-8.73.jar",
+    "encoded": "collective-26.3.0-8.73.jar",
+    "src": "https://cdn.modrinth.com/data/e0M1UDsY/versions/vsRFdH1j/collective-26.3.0-8.73.jar",
+    "size": 1376686,
+    "md5": "15a577bad3c7ec7d1e2c35ca1e448bac",
+    "sha256": "b1e367133ea3ee8442a13e08be36846ae293fbe9594f9e0ac1df9efe282498a3"
   },
   {
     "name": "common-capabilities",
@@ -356,12 +356,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "energizedpower-3.0.2+26.3.x-neoforge.jar",
-    "encoded": "energizedpower-3.0.2%2B26.3.x-neoforge.jar",
-    "src": "https://cdn.modrinth.com/data/6pku8gW1/versions/dHC5qqZI/energizedpower-3.0.2%2B26.3.x-neoforge.jar",
-    "size": 6313951,
-    "md5": "b8a14bd68e51a5719c16440caa3ee30f",
-    "sha256": "6d3d9405612dc90aa5cf67739250fabc5a99659b4f070d5bbe2f78c4e23c462b"
+    "filename": "energizedpower-3.0.5+26.3.x-neoforge.jar",
+    "encoded": "energizedpower-3.0.5%2B26.3.x-neoforge.jar",
+    "src": "https://cdn.modrinth.com/data/6pku8gW1/versions/z4cYlDB6/energizedpower-3.0.5%2B26.3.x-neoforge.jar",
+    "size": 6319613,
+    "md5": "a3ed7194a0094ff4eb0e7824f723c219",
+    "sha256": "a22ef91506e2f560e407c107e760cf0756e4a291747d4b3bd0721222238e8559"
   },
   {
     "name": "ferrite-core",
@@ -616,12 +616,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "lithium-neoforge-0.26.2+mc26.3.jar",
-    "encoded": "lithium-neoforge-0.26.2%2Bmc26.3.jar",
-    "src": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/1rb9wI5K/lithium-neoforge-0.26.2%2Bmc26.3.jar",
-    "size": 903255,
-    "md5": "a21309b6ee213d777e9a93e1bf1aef82",
-    "sha256": "02beb29b0ca7949dba59d425aeb941b8978334ad539f55b1519059771ed23706"
+    "filename": "lithium-neoforge-0.26.3+mc26.3.jar",
+    "encoded": "lithium-neoforge-0.26.3%2Bmc26.3.jar",
+    "src": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/2BP6jqRA/lithium-neoforge-0.26.3%2Bmc26.3.jar",
+    "size": 908506,
+    "md5": "d3027ce71c923c6e371ecc6a358337ae",
+    "sha256": "03eae4f0908f1ff9705143e54efbe92b4da4634b0a0f601fa86b7f3bd704dda4"
   },
   {
     "name": "lithostitched",
@@ -902,12 +902,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "puzzleslib-v26.3.14-mc26.3.x+neoforge.jar",
-    "encoded": "puzzleslib-v26.3.14-mc26.3.x%2Bneoforge.jar",
-    "src": "https://cdn.modrinth.com/data/QAGBst4M/versions/i2j6QO0v/puzzleslib-v26.3.14-mc26.3.x%2Bneoforge.jar",
-    "size": 1035056,
-    "md5": "2718a6c09b301170ac14c88a1d4609d5",
-    "sha256": "0535de32f6d031259c47ca39757602e109b853d2f9a4f0fbc2a231e8df38995a"
+    "filename": "puzzleslib-v26.3.17-mc26.3.x+neoforge.jar",
+    "encoded": "puzzleslib-v26.3.17-mc26.3.x%2Bneoforge.jar",
+    "src": "https://cdn.modrinth.com/data/QAGBst4M/versions/F9mIZLWF/puzzleslib-v26.3.17-mc26.3.x%2Bneoforge.jar",
+    "size": 1035752,
+    "md5": "99edca550516d0db8ffc6eb5158dc1dc",
+    "sha256": "ec5d2107373e72b6d8b382c53cf4fea837fb938ee55bf594ca8eb0594e3f8c0b"
   },
   {
     "name": "rechiseled",
@@ -980,12 +980,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "sophisticatedbackpacks-26.3-3.26.13.2209.jar",
-    "encoded": "sophisticatedbackpacks-26.3-3.26.13.2209.jar",
-    "src": "https://cdn.modrinth.com/data/TyCTlI4b/versions/wfDx3oyJ/sophisticatedbackpacks-26.3-3.26.13.2209.jar",
-    "size": 1264522,
-    "md5": "28dbdac69e9467711aaed8b113b25226",
-    "sha256": "14dd8b5472b7bb9f9c6dbbe1790902c689fbdb6827f80d4d03ebee8efedde0d4"
+    "filename": "sophisticatedbackpacks-26.3-3.26.18.2236.jar",
+    "encoded": "sophisticatedbackpacks-26.3-3.26.18.2236.jar",
+    "src": "https://cdn.modrinth.com/data/TyCTlI4b/versions/5XF9M3Vp/sophisticatedbackpacks-26.3-3.26.18.2236.jar",
+    "size": 1278824,
+    "md5": "84cee6a1496a3e27372addd22fc57f72",
+    "sha256": "2c6911728280dd2ea0532420d5c7030aa15b1186c4707e477336a7e6d35c798e"
   },
   {
     "name": "sophisticated-core",
@@ -993,12 +993,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "sophisticatedcore-26.3-1.5.10.2393.jar",
-    "encoded": "sophisticatedcore-26.3-1.5.10.2393.jar",
-    "src": "https://cdn.modrinth.com/data/nmoqTijg/versions/DSsinfqr/sophisticatedcore-26.3-1.5.10.2393.jar",
-    "size": 1846420,
-    "md5": "c9f56e9dac3c4c114932d11d35e0a30f",
-    "sha256": "8dab6da3ec1293e23f3311402ff703e3da5512ab6598882e598acda1cf430407"
+    "filename": "sophisticatedcore-26.3-1.5.24.2448.jar",
+    "encoded": "sophisticatedcore-26.3-1.5.24.2448.jar",
+    "src": "https://cdn.modrinth.com/data/nmoqTijg/versions/bAA0Uo4S/sophisticatedcore-26.3-1.5.24.2448.jar",
+    "size": 1853645,
+    "md5": "8879e2bcfeb8a6e9ccab96398a80630e",
+    "sha256": "368628780298c7336f0624ec41fea207bef067cd961029922c56f5be828f7716"
   },
   {
     "name": "sophisticated-storage",
@@ -1006,12 +1006,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "sophisticatedstorage-26.3-1.5.120.2174.jar",
-    "encoded": "sophisticatedstorage-26.3-1.5.120.2174.jar",
-    "src": "https://cdn.modrinth.com/data/hMlaZH8f/versions/kJBndRff/sophisticatedstorage-26.3-1.5.120.2174.jar",
-    "size": 1988619,
-    "md5": "c023ad33e7263f0df4ed1ae4e3e38384",
-    "sha256": "1ab2ca75e79c7fb379d0784404962e606b3821cfa5fb18c312186cec762f51fd"
+    "filename": "sophisticatedstorage-26.3-1.5.128.2214.jar",
+    "encoded": "sophisticatedstorage-26.3-1.5.128.2214.jar",
+    "src": "https://cdn.modrinth.com/data/hMlaZH8f/versions/Anq9OITy/sophisticatedstorage-26.3-1.5.128.2214.jar",
+    "size": 1996351,
+    "md5": "01417d00b2711715b6fae6e027fd8d64",
+    "sha256": "e2742c1d4a8efd9574043634c4306fb5636cc38da36afad3a48c01847ca3c1fb"
   },
   {
     "name": "spark",
@@ -1097,12 +1097,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "supermartijn642corelib-1.1.25-neoforge-mc26.3.jar",
-    "encoded": "supermartijn642corelib-1.1.25-neoforge-mc26.3.jar",
-    "src": "https://cdn.modrinth.com/data/rOUBggPv/versions/dM4GPUVB/supermartijn642corelib-1.1.25-neoforge-mc26.3.jar",
-    "size": 596221,
-    "md5": "e9573f4e2895f5c26844e671897196b9",
-    "sha256": "29876a789a9e2422635ba737ae3950b242e0e1a2b7210af39d6b9c66add1bfce"
+    "filename": "supermartijn642corelib-1.1.26c-neoforge-mc26.3.jar",
+    "encoded": "supermartijn642corelib-1.1.26c-neoforge-mc26.3.jar",
+    "src": "https://cdn.modrinth.com/data/rOUBggPv/versions/9Mv2OwRF/supermartijn642corelib-1.1.26c-neoforge-mc26.3.jar",
+    "size": 622606,
+    "md5": "754914865da066145bb0b23be90aaf1d",
+    "sha256": "8f06f6e1149c334547a91c02babf7584d887a1aca5b60e136cf693f1b5601c81"
   },
   {
     "name": "tectonic",
@@ -1110,12 +1110,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "tectonic-3.0.31-neoforge-26.3.jar",
-    "encoded": "tectonic-3.0.31-neoforge-26.3.jar",
-    "src": "https://cdn.modrinth.com/data/lWDHr9jE/versions/yWpa8ww5/tectonic-3.0.31-neoforge-26.3.jar",
-    "size": 387758,
-    "md5": "0db4769cf5acfa8ce6b715d1bef7a504",
-    "sha256": "bc1f65211108325ab09d950d72ca68da3005684a3837e79bfa5d92e18461605f"
+    "filename": "tectonic-3.0.32-neoforge-26.3.jar",
+    "encoded": "tectonic-3.0.32-neoforge-26.3.jar",
+    "src": "https://cdn.modrinth.com/data/lWDHr9jE/versions/tzhzB8SC/tectonic-3.0.32-neoforge-26.3.jar",
+    "size": 387828,
+    "md5": "94eee5290c9fb19780391d27d0ac4818",
+    "sha256": "18cfcd4469349a6fe785c7452d1c90ba840d60f848b315ba085f86cbe77e371a"
   },
   {
     "name": "terralith",
@@ -1162,12 +1162,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "trashcans-1.1.1a-neoforge-mc26.3.jar",
-    "encoded": "trashcans-1.1.1a-neoforge-mc26.3.jar",
-    "src": "https://cdn.modrinth.com/data/4QrnfueM/versions/SEuLCEhB/trashcans-1.1.1a-neoforge-mc26.3.jar",
-    "size": 214037,
-    "md5": "445a1c3ee69fc6f6539f217e04ab354f",
-    "sha256": "d6397741a3094fa72ead9ca233aa182bd9118ec487275975af633aed60b88fde"
+    "filename": "trashcans-1.1.2a-neoforge-mc26.3.jar",
+    "encoded": "trashcans-1.1.2a-neoforge-mc26.3.jar",
+    "src": "https://cdn.modrinth.com/data/4QrnfueM/versions/yiqBCJrl/trashcans-1.1.2a-neoforge-mc26.3.jar",
+    "size": 214011,
+    "md5": "ee8a04d12f76ae9ef51455325f3e76e5",
+    "sha256": "96fd9c115b5e52cfb069a55363c9524a7862ffc5555ab93920810db5bff285ba"
   },
   {
     "name": "veinminer",
@@ -1240,12 +1240,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "worldedit-mod-7.4.6-beta-02.jar",
-    "encoded": "worldedit-mod-7.4.6-beta-02.jar",
-    "src": "https://cdn.modrinth.com/data/1u6JkXh5/versions/E7sbeRFx/worldedit-mod-7.4.6-beta-02.jar",
-    "size": 5166191,
-    "md5": "ace128cd59cbdb2284e4114f39d0d5f9",
-    "sha256": "4bf170e934a73bbc0bc60a4169517a45be2ee83a0883132a96dd5975e1dc06af"
+    "filename": "worldedit-mod-7.4.6.jar",
+    "encoded": "worldedit-mod-7.4.6.jar",
+    "src": "https://cdn.modrinth.com/data/1u6JkXh5/versions/ByRNkO83/worldedit-mod-7.4.6.jar",
+    "size": 5166790,
+    "md5": "921a0707dec76d416fdd94a8410966d8",
+    "sha256": "24f2338ac9d5e7205f15cdb4a118924c5d9cbd48ab0cabf8ba36b07b7d64c22b"
   },
   {
     "name": "xaeros-minimap",
