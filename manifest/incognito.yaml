@@ -84,6 +84,11 @@ nodes:
         file_id: 'kV095inH'
         side: both
       # Library for Pumpkillager's Quest.
+      - name: code-defined-gui # required by Occultism 1.262.0 / Theurgy 1.120.1
+        source: modrinth
+        id: 'avIKBXHe'
+        file_id: '7JtiJ7yv'
+        side: both
       - name: collective
         source: modrinth
         id: 'e0M1UDsY'
@@ -340,7 +345,7 @@ nodes:
       - name: modonomicon
         source: modrinth
         id: '692GClaE'
-        file_id: 'JBJ5eClB'
+        file_id: '5ASZxoOP'
         side: both
       - name: mouse-tweaks
         source: modrinth
@@ -355,7 +360,7 @@ nodes:
       - name: occultism
         source: modrinth
         id: 'sbJh4AZw'
-        file_id: 'BZUdeyyg'
+        file_id: 'WrFSpta0'
         side: both
       - name: open-parties-and-claims
         source: modrinth
@@ -462,7 +467,7 @@ nodes:
       - name: theurgy
         source: modrinth
         id: 'uOVMgoil'
-        file_id: 'aKNyWx6Z'
+        file_id: 'Yb6fza75'
         side: both
       - name: towns-and-towers
         source: modrinth
