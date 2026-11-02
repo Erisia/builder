@@ -1237,7 +1237,7 @@
   {
     "name": "worldedit",
     "title": "WorldEdit",
-    "side": "both",
+    "side": "server",
     "required": true,
     "default": true,
     "filename": "worldedit-mod-7.4.6.jar",

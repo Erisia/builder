@@ -503,7 +503,7 @@ nodes:
         source: modrinth
         id: '1u6JkXh5'
         file_id: 'ByRNkO83'
-        side: both
+        side: server # 7.4.6 needs NeoForge >= 26.3.0.83; clients imported before 10-21 still run .76 (11-02)
       - name: xaeros-minimap
         source: modrinth
         id: '1bokaNcj'
