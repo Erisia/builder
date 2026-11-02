@@ -96,6 +96,22 @@ class PackTests(unittest.TestCase):
                 file["hash"], sha((self.out / file["file"]).read_bytes()), file["file"]
             )
 
+    def test_loader_versions(self) -> None:
+        """A NeoForge pack names its loader, so packwiz-installer updates old instances."""
+        tool.build_pack(
+            "Incognito",
+            "26.3",
+            self.mods,
+            self.tree,
+            set(),
+            self.out,
+            {"neoforge": "26.3.0.95"},
+        )
+        pack = tomllib.loads((self.out / "pack.toml").read_text())
+        self.assertEqual(
+            pack["versions"], {"minecraft": "26.3", "neoforge": "26.3.0.95"}
+        )
+
     def test_every_tree_file_and_mod_is_listed(self) -> None:
         self.build()
         files = {f["file"]: f for f in self.index()["files"]}
@@ -264,6 +280,22 @@ class InstanceTests(unittest.TestCase):
             tool.PackwizError, "loader is 26.3.0.76, not 26.3.0.75"
         ):
             tool.template_members(self.template, "26.3", "26.3.0.75")
+
+    def test_template_loaders(self) -> None:
+        """Only NeoForge gets a loader key; Cleanroom's patched forge component must stay as is."""
+        self.assertEqual(tool.template_loaders(self.template, "0.6.12-alpha"), {})
+        pack = {
+            "formatVersion": 1,
+            "components": [
+                {"uid": "net.minecraft", "version": "26.3", "important": True},
+                {"uid": "net.neoforged", "version": "26.3.0.95"},
+            ],
+        }
+        with zipfile.ZipFile(self.template, "w") as archive:
+            archive.writestr("mmc-pack.json", json.dumps(pack))
+        self.assertEqual(
+            tool.template_loaders(self.template, "26.3.0.95"), {"neoforge": "26.3.0.95"}
+        )
 
     def test_zip_is_deterministic(self) -> None:
         self.assertEqual(

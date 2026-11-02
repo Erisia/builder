@@ -6,8 +6,11 @@ The packwiz pack (served at <base-url>pack.toml) lists every client file with it
   stay stable across updates (packwiz-installer tracks files by index path);
 - every file of the client config tree (the same tree MCUpdater's config zips carry) as a plain
   entry, copied next to pack.toml.
-pack.toml lists only `minecraft` under `[versions]`: with a loader key, packwiz-installer would
-rewrite the instance's mmc-pack.json. The output is deterministic, so an unchanged pack gives a
+pack.toml lists `minecraft` under `[versions]`, and for NeoForge packs `neoforge` too: with a
+loader key, packwiz-installer rewrites the instance's mmc-pack.json to that version (after a
+dialog), so players who imported an older instance follow the pack's NeoForge from their next
+launch. Cleanroom packs get no loader key: their component is net.minecraftforge with
+template patches, which packwiz-installer would drop. The output is deterministic, so an unchanged pack gives a
 byte-identical pack.toml, and a launch with nothing to update costs one small request.
 
 The instance zip holds instance.cfg, the loader template's mmc-pack.json and patches/ (Cleanroom's
@@ -143,8 +146,12 @@ def build_pack(
     tree: Path,
     preserve: set[str],
     out: Path,
+    loaders: dict[str, str] | None = None,
 ) -> str:
-    """Write the packwiz pack into `out`. Returns pack.toml's sha256."""
+    """Write the packwiz pack into `out`. Returns pack.toml's sha256.
+
+    `loaders` maps packwiz loader keys (e.g. "neoforge") to versions for `[versions]`.
+    """
     entries: dict[str, tuple[str, bool]] = {}  # index path -> (sha256, is metafile)
     installed: dict[
         str, str
@@ -208,6 +215,10 @@ def build_pack(
         "",
         "[versions]",
         f"minecraft = {toml_string(minecraft)}",
+        *(
+            f"{key} = {toml_string(version)}"
+            for key, version in sorted((loaders or {}).items())
+        ),
     ]
     pack_bytes = ("\n".join(pack) + "\n").encode()
     write(out / "pack.toml", pack_bytes)
@@ -246,6 +257,15 @@ def instance_cfg(name: str, pack_url: str, max_mem: int, min_mem: int) -> bytes:
         f"MaxMemAlloc={max_mem}",
     ]
     return ("\n".join(lines) + "\n").encode()
+
+
+def template_loaders(template: Path, loader: str) -> dict[str, str]:
+    """The `[versions]` loader keys for a pack built on `template`: NeoForge's only (see above)."""
+    with zipfile.ZipFile(template) as archive:
+        components = json.loads(archive.read("mmc-pack.json"))["components"]
+    if any(c.get("uid") == "net.neoforged" for c in components):
+        return {"neoforge": loader}
+    return {}
 
 
 def template_members(
@@ -364,6 +384,7 @@ def main(argv: list[str]) -> int:
             args.tree,
             set(args.preserve),
             args.out / "pack",
+            template_loaders(args.template, args.loader),
         )
         build_instance(
             args.name,
