@@ -12,7 +12,7 @@ nodes:
       # In-house: the Electrical Age 26.3 port and Stasis Delvers (LabAgent's builds, mirrored on madoka).
       - name: 'eln'
         source: url
-        location: 'https://madoka.brage.info/upstream/incognito/eln-26.3-0.1.0-port-db570c78.jar'
+        location: 'https://madoka.brage.info/upstream/incognito/eln-26.3-0.1.0-port-d31c39ef.jar'
         filename: 'eln-26.3-0.1.0-port.jar'
         side: both
       - name: 'stasisdelvers'
@@ -31,6 +31,13 @@ nodes:
         source: url
         location: 'https://madoka.brage.info/upstream/incognito/megumin-26.3-0.1.0-0bffea26.jar'
         filename: 'megumin-26.3-0.1.0.jar'
+        side: both
+      # Occultism Fixes (LabAgent, 2026-11-02; Nero + Baughn OK msg 1566604836143759531): storage screen mouse buttons,
+      # no deleted/thrown stacks. Server and pack. Drop once Occultism fixes it upstream.
+      - name: 'occultismfixes'
+        source: url
+        location: 'https://madoka.brage.info/upstream/incognito/occultismfixes-26.3-0.2.0-60adb01f.jar'
+        filename: 'occultismfixes-26.3-0.2.0.jar'
         side: both
       - name: 'watershed'
         source: url
