@@ -12,7 +12,7 @@ nodes:
       # In-house: the Electrical Age 26.3 port and Stasis Delvers (LabAgent's builds, mirrored on madoka).
       - name: 'eln'
         source: url
-        location: 'https://madoka.brage.info/upstream/incognito/eln-26.3-0.1.0-port-a44b4228.jar'
+        location: 'https://madoka.brage.info/upstream/incognito/eln-26.3-0.1.0-port-a41a9832.jar'
         filename: 'eln-26.3-0.1.0-port.jar'
         side: both
       - name: 'stasisdelvers'
@@ -396,6 +396,11 @@ nodes:
         id: 'QAGBst4M'
         file_id: 'F9mIZLWF'
         side: both
+      - name: rapid-leaf-decay
+        source: modrinth
+        id: 'jSQXzmcf'
+        file_id: '9VxwcZTH'
+        side: server
       - name: rechiseled
         source: modrinth
         id: 'B0g2vT6l'

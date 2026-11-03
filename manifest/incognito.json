@@ -345,10 +345,10 @@
     "default": true,
     "filename": "eln-26.3-0.1.0-port.jar",
     "encoded": "eln-26.3-0.1.0-port.jar",
-    "src": "https://madoka.brage.info/upstream/incognito/eln-26.3-0.1.0-port-a44b4228.jar",
-    "size": 26840336,
-    "md5": "aa0acddc75401d8d8a9eaa6bd9d81c77",
-    "sha256": "a44b42289a97f9050450573f7a3965f050fc986f6ee99cc3b99664cbf4e0f6dc"
+    "src": "https://madoka.brage.info/upstream/incognito/eln-26.3-0.1.0-port-a41a9832.jar",
+    "size": 26840382,
+    "md5": "9e4009d98022c30d017faa00b2deacba",
+    "sha256": "a41a9832217daa9ff60328503a9689cfdac8a17b85bcfdfd8fe2217608c887f6"
   },
   {
     "name": "energized-power",
@@ -921,6 +921,19 @@
     "size": 1035752,
     "md5": "99edca550516d0db8ffc6eb5158dc1dc",
     "sha256": "ec5d2107373e72b6d8b382c53cf4fea837fb938ee55bf594ca8eb0594e3f8c0b"
+  },
+  {
+    "name": "rapid-leaf-decay",
+    "title": "Rapid Leaf Decay",
+    "side": "server",
+    "required": true,
+    "default": true,
+    "filename": "RapidLeafDecay-26.3-3.0.1.jar",
+    "encoded": "RapidLeafDecay-26.3-3.0.1.jar",
+    "src": "https://cdn.modrinth.com/data/jSQXzmcf/versions/9VxwcZTH/RapidLeafDecay-26.3-3.0.1.jar",
+    "size": 20201,
+    "md5": "842bff08b031c2ea41541a71f8c7cdb5",
+    "sha256": "15f7ca8fa1fafac12d2eb0f24980ba26d8c96ab14159b22c9a1fbb882033f955"
   },
   {
     "name": "rechiseled",
