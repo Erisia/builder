@@ -30,6 +30,10 @@
     "26.3-26.3.0.95": {
       "installerUrl": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.3.0.95/neoforge-26.3.0.95-installer.jar",
       "outputHash": "sha256-tcyJIsnsQ71C9qHGd6ZjOIPT07S1Fp02ixTljDPKRAU="
+    },
+    "26.3-26.3.0.101": {
+      "installerUrl": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.3.0.101/neoforge-26.3.0.101-installer.jar",
+      "outputHash": "sha256-wi2M3u1hem7S2bsNYXXxcVKzpjgX/9YX1a1lJbPB3T0="
     }
   },
   "cleanroom": {

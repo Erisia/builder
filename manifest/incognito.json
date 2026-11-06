@@ -200,12 +200,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "curios-neoforge-17.0.0-beta.3+26.3.jar",
-    "encoded": "curios-neoforge-17.0.0-beta.3%2B26.3.jar",
-    "src": "https://cdn.modrinth.com/data/vvuO3ImH/versions/W912LxOl/curios-neoforge-17.0.0-beta.3%2B26.3.jar",
-    "size": 431183,
-    "md5": "2f0cfbc406e86a52d2122205737bfd28",
-    "sha256": "27775990860dca9a8e6462a4741282789ec37f1a0afd2f72b97f02d60bbc8371"
+    "filename": "curios-neoforge-17.0.0+26.3.jar",
+    "encoded": "curios-neoforge-17.0.0%2B26.3.jar",
+    "src": "https://cdn.modrinth.com/data/vvuO3ImH/versions/JylBQj5n/curios-neoforge-17.0.0%2B26.3.jar",
+    "size": 430850,
+    "md5": "3feb0f249dd67408b0b4ecf9314a0b9d",
+    "sha256": "4d87e7004f5cfe8c1b260c76bf8c6651f26f2b5049fd10646102e567419c0828"
   },
   {
     "name": "custom-player-models",

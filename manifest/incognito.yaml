@@ -124,7 +124,7 @@ nodes:
       - name: curios
         source: modrinth
         id: 'vvuO3ImH'
-        file_id: 'W912LxOl'
+        file_id: 'JylBQj5n'
         side: both
       - name: customizable-player-models # Baughn 10-26 (board #37): ponytail models
         source: modrinth
