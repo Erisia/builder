@@ -169,19 +169,6 @@
     "sha256": "de767b783cef47cf5079a4f0aa01ce4fdfe756c61fdf447fe89aa66e3d2174cd"
   },
   {
-    "name": "construction-sticks",
-    "title": "Construction Sticks",
-    "side": "both",
-    "required": true,
-    "default": true,
-    "filename": "ConstructionSticks-26.3-5.0.0.jar",
-    "encoded": "ConstructionSticks-26.3-5.0.0.jar",
-    "src": "https://cdn.modrinth.com/data/ooyjDLZt/versions/Xtl641cj/ConstructionSticks-26.3-5.0.0.jar",
-    "size": 266824,
-    "md5": "e1ed15153fe1b250b593ce679e431b70",
-    "sha256": "ee8a4aceecfb6dd6820586288ad62c0f9c38becc4e1690d9cc98adb64fb1e248"
-  },
-  {
     "name": "controlling",
     "title": "Controlling",
     "side": "client",

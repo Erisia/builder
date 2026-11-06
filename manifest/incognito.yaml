@@ -111,11 +111,6 @@ nodes:
         id: 'DghO0R02'
         file_id: 'Jma7Hl2O'
         side: both
-      - name: construction-sticks
-        source: modrinth
-        id: 'ooyjDLZt'
-        file_id: 'Xtl641cj'
-        side: both
       - name: controlling
         source: modrinth
         id: 'xv94TkTM'
