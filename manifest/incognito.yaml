@@ -12,12 +12,12 @@ nodes:
       # In-house: the Electrical Age 26.3 port and Stasis Delvers (LabAgent's builds, mirrored on madoka).
       - name: 'eln'
         source: url
-        location: 'https://madoka.brage.info/upstream/incognito/eln-26.3-0.1.0-port-829d16f3.jar'
+        location: 'https://madoka.brage.info/upstream/incognito/eln-26.3-0.1.0-port-4ee28262.jar'
         filename: 'eln-26.3-0.1.0-port.jar'
         side: both
       - name: 'stasisdelvers'
         source: url
-        location: 'https://madoka.brage.info/upstream/incognito/stasisdelvers-26.3-0.1.0-d17a446c.jar'
+        location: 'https://madoka.brage.info/upstream/incognito/stasisdelvers-26.3-0.1.0-e54b47fd.jar'
         filename: 'stasisdelvers-26.3-0.1.0.jar'
         side: both
       # Halloween 2026 (LabAssistant's mod, Baughn): active 10-26..11-02 only; leave installed afterwards (cookies).
@@ -41,7 +41,7 @@ nodes:
         side: both
       - name: 'watershed'
         source: url
-        location: 'https://madoka.brage.info/upstream/incognito/watershed-26.3-0.0.1-0ee17f26.jar'
+        location: 'https://madoka.brage.info/upstream/incognito/watershed-26.3-0.0.1-3d8a79fb.jar'
         filename: 'watershed-26.3-0.0.1.jar'
         side: both
       - name: ae2
