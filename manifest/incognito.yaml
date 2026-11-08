@@ -33,11 +33,11 @@ nodes:
         filename: 'megumin-26.3-0.1.0.jar'
         side: both
       # Occultism Fixes (LabAgent, 2026-11-02; Nero + Baughn OK msg 1566604836143759531): storage screen mouse buttons,
-      # no deleted/thrown stacks. 0.3.0 (11-03, Baughn 1567154286784151563): battlefield loot crash + JEI NPE. Server and pack. Drop once Occultism fixes it upstream.
+      # no deleted/thrown stacks. 0.3.0 (11-03, Baughn 1567154286784151563): battlefield loot crash + JEI NPE. Server and pack. 0.4.0 (11-08, Nero 1568778523274117291): Fire Wings glide. Drop once Occultism fixes it upstream.
       - name: 'occultismfixes'
         source: url
-        location: 'https://madoka.brage.info/upstream/incognito/occultismfixes-26.3-0.3.0-57b2c4ef.jar'
-        filename: 'occultismfixes-26.3-0.3.0.jar'
+        location: 'https://madoka.brage.info/upstream/incognito/occultismfixes-26.3-0.4.0-b7bac25b.jar'
+        filename: 'occultismfixes-26.3-0.4.0.jar'
         side: both
       - name: 'watershed'
         source: url
