@@ -17,7 +17,7 @@ nodes:
         side: both
       - name: 'stasisdelvers'
         source: url
-        location: 'https://madoka.brage.info/upstream/incognito/stasisdelvers-26.3-0.1.0-107dad81.jar'
+        location: 'https://madoka.brage.info/upstream/incognito/stasisdelvers-26.3-0.1.0-6e9af56c.jar'
         filename: 'stasisdelvers-26.3-0.1.0.jar'
         side: both
       # Halloween 2026 (LabAssistant's mod, Baughn): active 10-26..11-02 only; leave installed afterwards (cookies).
