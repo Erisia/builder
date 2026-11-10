@@ -74,12 +74,6 @@ nodes:
         id: 'swbUV1cr'
         file_id: 'kknWg6rw'
         side: server
-      # Server only (Baughn 2026-10-22): clients don't need it, and it conflicts with Distant Horizons.
-      - name: chunky
-        source: modrinth
-        id: 'fALzjamp'
-        file_id: 'EyCqftOK'
-        side: server
       - name: cloth-config
         source: modrinth
         id: '9s6osm5g'
@@ -151,12 +145,14 @@ nodes:
         id: 'oOi0CKes'
         file_id: 'gDyYJAQT'
         side: both
-      # Optional, on by default (Baughn 2026-10-22).
+      # Optional for players, on by default (Baughn 2026-10-22). Also on the server since 2026-11-10 (Baughn 1569807131161403424):
+      # it streams far LODs and their updates to clients. Server config: packs/incognito/server/config/DistantHorizons.toml.
+      # Chunky was removed with it: DH's Chunky hook hangs server startup (LabAssistant, todo #375).
       - name: distant-horizons
         source: modrinth
         id: 'uCdwusMi'
         file_id: 'TGgEbP9A'
-        side: client
+        side: both
         required: false
         default: true
       - name: dungeons-and-taverns

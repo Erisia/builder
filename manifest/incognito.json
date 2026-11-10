@@ -78,19 +78,6 @@
     "sha256": "8938f4453af4b53970c86e43d0bd26b4a88980e4e6639f818fa770d0f61c43df"
   },
   {
-    "name": "chunky",
-    "title": "Chunky",
-    "side": "server",
-    "required": true,
-    "default": true,
-    "filename": "Chunky-NeoForge-1.5.4.jar",
-    "encoded": "Chunky-NeoForge-1.5.4.jar",
-    "src": "https://cdn.modrinth.com/data/fALzjamp/versions/EyCqftOK/Chunky-NeoForge-1.5.4.jar",
-    "size": 353241,
-    "md5": "41a1c0ea22580ec59cd1e14747676019",
-    "sha256": "6ed601bd2c2942cd537f1732805bc786e70b57d988039c416c3bc27ba97162b9"
-  },
-  {
     "name": "cloth-config",
     "title": "Cloth Config API",
     "side": "both",
@@ -275,7 +262,7 @@
   {
     "name": "distanthorizons",
     "title": "Distant Horizons",
-    "side": "client",
+    "side": "both",
     "required": false,
     "default": true,
     "filename": "DistantHorizons-3.3.4-26.3-fabric-neoforge.jar",
