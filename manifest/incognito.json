@@ -1060,10 +1060,10 @@
     "default": true,
     "filename": "stasisdelvers-26.3-0.1.0.jar",
     "encoded": "stasisdelvers-26.3-0.1.0.jar",
-    "src": "https://madoka.brage.info/upstream/incognito/stasisdelvers-26.3-0.1.0-4fbcd011.jar",
-    "size": 3775600,
-    "md5": "d483236fadb9e1fb954f4cee832ac03b",
-    "sha256": "4fbcd0117b84784873980c2ebe2aa8e330a0d72725b6f7009f4ced587bfbeb2b"
+    "src": "https://madoka.brage.info/upstream/incognito/stasisdelvers-26.3-0.1.0-bf5a3a09.jar",
+    "size": 3777636,
+    "md5": "e75dfe93489e24dcf4cd30b362a3563e",
+    "sha256": "bf5a3a097692b6b17490dc0b2735b38b2ec301acfbae495bb634c1d7d4e5066c"
   },
   {
     "name": "storagedrawers",
@@ -1216,10 +1216,10 @@
     "default": true,
     "filename": "watershed-26.3-0.0.1.jar",
     "encoded": "watershed-26.3-0.0.1.jar",
-    "src": "https://madoka.brage.info/upstream/incognito/watershed-26.3-0.0.1-3d8a79fb.jar",
-    "size": 1512597,
-    "md5": "0068d0ca4d0a083cfbe54da0cc9e65cc",
-    "sha256": "3d8a79fb11858d3a923347c669d9195a56c689324d5b06035baf96bba2b1780b"
+    "src": "https://madoka.brage.info/upstream/incognito/watershed-26.3-0.0.1-a487500b.jar",
+    "size": 1514949,
+    "md5": "5e2553c0760349f6f520fa647eaea151",
+    "sha256": "a487500bd3b768fec293798d9c3846ad707f2babfef80c0ab1de50e4a38cf95c"
   },
   {
     "name": "waystones",

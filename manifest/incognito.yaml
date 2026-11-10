@@ -17,7 +17,7 @@ nodes:
         side: both
       - name: 'stasisdelvers'
         source: url
-        location: 'https://madoka.brage.info/upstream/incognito/stasisdelvers-26.3-0.1.0-4fbcd011.jar'
+        location: 'https://madoka.brage.info/upstream/incognito/stasisdelvers-26.3-0.1.0-bf5a3a09.jar'
         filename: 'stasisdelvers-26.3-0.1.0.jar'
         side: both
       # Halloween 2026 (LabAssistant's mod, Baughn): active 10-26..11-02 only; leave installed afterwards (cookies).
@@ -48,7 +48,7 @@ nodes:
         side: server
       - name: 'watershed'
         source: url
-        location: 'https://madoka.brage.info/upstream/incognito/watershed-26.3-0.0.1-3d8a79fb.jar'
+        location: 'https://madoka.brage.info/upstream/incognito/watershed-26.3-0.0.1-a487500b.jar'
         filename: 'watershed-26.3-0.0.1.jar'
         side: both
       - name: ae2
