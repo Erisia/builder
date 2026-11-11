@@ -319,10 +319,10 @@
     "default": true,
     "filename": "eln-26.3-0.1.0-port.jar",
     "encoded": "eln-26.3-0.1.0-port.jar",
-    "src": "https://madoka.brage.info/upstream/incognito/eln-26.3-0.1.0-port-a95db540.jar",
-    "size": 28669558,
-    "md5": "a813b6704726b8031415d6c2e85e03e3",
-    "sha256": "a95db540506191e3784c8365865c819fa07f5e95863e9e2bf8e554311c5ef90c"
+    "src": "https://madoka.brage.info/upstream/incognito/eln-26.3-0.1.0-port-b201317c.jar",
+    "size": 28670041,
+    "md5": "0d7a6783ad17bd5d63e430cefa576b55",
+    "sha256": "b201317cb063b708a34dd0bfa719492d267baea76b382a96f26aadf74de4c88e"
   },
   {
     "name": "energized-power",
@@ -837,12 +837,12 @@
     "side": "server",
     "required": true,
     "default": true,
-    "filename": "occultismfixes-26.3-0.5.1.jar",
-    "encoded": "occultismfixes-26.3-0.5.1.jar",
-    "src": "https://madoka.brage.info/upstream/incognito/occultismfixes-26.3-0.5.1-f56ede60.jar",
-    "size": 30346,
-    "md5": "304b60d91a350a41e6d8f733ecc9723f",
-    "sha256": "f56ede60918669d676e5ba3af5cb32b45bc89156baae9fd849c47cc20489a0a0"
+    "filename": "occultismfixes-26.3-0.5.2.jar",
+    "encoded": "occultismfixes-26.3-0.5.2.jar",
+    "src": "https://madoka.brage.info/upstream/incognito/occultismfixes-26.3-0.5.2-3ef1fc21.jar",
+    "size": 31583,
+    "md5": "91aab643bd2575964e071c30b0372515",
+    "sha256": "3ef1fc2163028e3dd12e28bdd25e745d2ab35218902ad3a2a19fde6fafa6bb6f"
   },
   {
     "name": "open-parties-and-claims",

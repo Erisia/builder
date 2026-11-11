@@ -12,7 +12,7 @@ nodes:
       # In-house: the Electrical Age 26.3 port and Stasis Delvers (LabAgent's builds, mirrored on madoka).
       - name: 'eln'
         source: url
-        location: 'https://madoka.brage.info/upstream/incognito/eln-26.3-0.1.0-port-a95db540.jar'
+        location: 'https://madoka.brage.info/upstream/incognito/eln-26.3-0.1.0-port-b201317c.jar'
         filename: 'eln-26.3-0.1.0-port.jar'
         side: both
       - name: 'stasisdelvers'
@@ -39,12 +39,12 @@ nodes:
         location: 'https://madoka.brage.info/upstream/incognito/occultismfixes-26.3-0.5.0-483097bb.jar'
         filename: 'occultismfixes-26.3-0.5.0.jar'
         side: client
-      # Server: 0.5.1 = 0.5.0 + a read-only sacrifice diagnostic (/occultismfixes bowl X Y Z, OccultismFixes/sacrifice log
+      # Server: 0.5.2 = 0.5.0 + sacrifice diagnostic (0.5.1) + Fairy's Blessing magic share credited to the player (0.5.2, sacrifices count) + (/occultismfixes bowl X Y Z, OccultismFixes/sacrifice log
       # lines; LabAssistant todo #390, 2026-11-11). displayTest IGNORE_ALL_VERSION, no payloads, so clients stay on 0.5.0.
       - name: 'occultismfixes-server'
         source: url
-        location: 'https://madoka.brage.info/upstream/incognito/occultismfixes-26.3-0.5.1-f56ede60.jar'
-        filename: 'occultismfixes-26.3-0.5.1.jar'
+        location: 'https://madoka.brage.info/upstream/incognito/occultismfixes-26.3-0.5.2-3ef1fc21.jar'
+        filename: 'occultismfixes-26.3-0.5.2.jar'
         side: server
       - name: 'watershed'
         source: url
