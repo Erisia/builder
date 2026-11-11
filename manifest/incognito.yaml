@@ -38,7 +38,14 @@ nodes:
         source: url
         location: 'https://madoka.brage.info/upstream/incognito/occultismfixes-26.3-0.5.0-483097bb.jar'
         filename: 'occultismfixes-26.3-0.5.0.jar'
-        side: both
+        side: client
+      # Server: 0.5.1 = 0.5.0 + a read-only sacrifice diagnostic (/occultismfixes bowl X Y Z, OccultismFixes/sacrifice log
+      # lines; LabAssistant todo #390, 2026-11-11). displayTest IGNORE_ALL_VERSION, no payloads, so clients stay on 0.5.0.
+      - name: 'occultismfixes-server'
+        source: url
+        location: 'https://madoka.brage.info/upstream/incognito/occultismfixes-26.3-0.5.1-f56ede60.jar'
+        filename: 'occultismfixes-26.3-0.5.1.jar'
+        side: server
       - name: 'watershed'
         source: url
         location: 'https://madoka.brage.info/upstream/incognito/watershed-26.3-0.0.1-3d8a79fb.jar'
