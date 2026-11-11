@@ -25,10 +25,6 @@
 	# Default: 180.0
 	# Range: 0.0 ~ 3600.0
 	coalLagSeconds = 180.0
-	#The same for an oil burner (the fuel heat furnace).
-	# Default: 20.0
-	# Range: 0.0 ~ 3600.0
-	oilLagSeconds = 20.0
 	#Below this share of full power a fire asked to burn lower goes out.
 	# Default: 0.15
 	# Range: 0.0 ~ 1.0
@@ -87,7 +83,7 @@
 	# Default: 0.1
 	# Range: 0.0 ~ 1.0
 	tipOverChancePerSecond = 0.1
-	#Running into a full block or a wall faster than this (blocks per second) throws the rider off.
+	#Losing more than this much speed (blocks per second) against a block or wall while on the ground throws the rider off; brushing past or bumping in the air doesn't.
 	# Default: 3.0
 	# Range: 0.0 ~ 100.0
 	crashSpeed = 3.0
@@ -95,8 +91,8 @@
 	# Default: 1.31
 	# Range: 0.0 ~ 5.0
 	jumpHeight = 1.31
-	#Height it rides up without jumping, blocks (0.6: slabs and stairs; 1 or more climbs full blocks).
-	# Default: 0.6
+	#Height it rides up without jumping, blocks (0.63: slabs and stairs, also from a dirt path or mud, which sit up to 1/8 low; 1 or more climbs full blocks).
+	# Default: 0.63
 	# Range: 0.0 ~ 2.0
 	stepHeight = 0.63
 	#How fast it swings round to where the rider looks when slow, degrees per tick.
@@ -111,8 +107,8 @@
 	# Default: 20.0
 	# Range: 0.0 ~ 1000.0
 	lampWatts = 20.0
-	#The terrain bike: height it rides up without jumping, blocks (1: a whole block; 2-block walls stop it).
-	# Default: 1.0
+	#The terrain bike: height it rides up without jumping, blocks (1.13: a whole block, also from a dirt path or mud, which sit up to 1/8 low; 1.5 stops it).
+	# Default: 1.13
 	# Range: 0.0 ~ 2.0
 	terrainStepHeight = 1.13
 	#The terrain bike: height of a full-charge jump, blocks.
@@ -185,18 +181,22 @@
 	# Default: 2.0
 	# Range: 0.25 ~ 5.0
 	sizeMultiplier = 2.0
-	#Below this share of its capacity an oil lake seeps instead of running dry.
-	# Default: 0.2
-	# Range: 0.0 ~ 1.0
-	tailShare = 0.2
-	#A seeping lake yields this share of one 230 V pump's nominal rate, for ever, shared by all the pumps on it.
-	# Default: 0.18
-	# Range: 0.0 ~ 1.0
-	seepShare = 0.18
 	#Steam (kg) injected down a well that brings up a bucket of crude from a seeping lake at the pumps' full rate.
 	# Default: 0.2
 	# Range: 0.001 ~ 100.0
 	steamKgPerBucket = 0.2
+	#An oil lake seeps most at and below this share of its capacity; above it the seepage falls linearly to none when full.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	seepFullAt = 0.25
+	#A lake's most seepage, as a share of one 230 V pump's nominal rate, for ever, shared by all the pumps on it.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	seepMaxShare = 0.25
+	#With steam injected, a lake's most seepage rises to this share of one 230 V pump's nominal rate.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	seepSteamShare = 1.0
 
 [introspect]
 	#Answer an op's client asking for device reports (eln:describe), for test tools on lab servers.
