@@ -33,19 +33,12 @@ nodes:
         filename: 'megumin-26.3-0.1.0.jar'
         side: both
       # Occultism Fixes (LabAgent, 2026-11-02; Nero + Baughn OK msg 1566604836143759531): storage screen mouse buttons,
-      # no deleted/thrown stacks. 0.3.0 (11-03, Baughn 1567154286784151563): battlefield loot crash + JEI NPE. Server and pack. 0.4.0 (11-08, Nero 1568778523274117291): Fire Wings glide. 0.5.0 (11-08, Nero todos #286/#296): flame wings visuals + Backpacks tool-swap fix. Drop once Occultism fixes it upstream.
+      # no deleted/thrown stacks. 0.3.0 (11-03, Baughn 1567154286784151563): battlefield loot crash + JEI NPE. Server and pack. 0.4.0 (11-08, Nero 1568778523274117291): Fire Wings glide. 0.5.0 (11-08, Nero todos #286/#296): flame wings visuals + Backpacks tool-swap fix. 0.5.1 (11-11): sacrifice diagnostic; 0.5.2: Fairy's Blessing share credited to the player (sacrifices count); 0.6.1 (11-12, nero #389): Shub 'Minis' tablet toggle + indirect-magic death messages. Drop once Occultism fixes it upstream.
       - name: 'occultismfixes'
         source: url
-        location: 'https://madoka.brage.info/upstream/incognito/occultismfixes-26.3-0.5.0-483097bb.jar'
-        filename: 'occultismfixes-26.3-0.5.0.jar'
-        side: client
-      # Server: 0.5.2 = 0.5.0 + sacrifice diagnostic (0.5.1) + Fairy's Blessing magic share credited to the player (0.5.2, sacrifices count) + (/occultismfixes bowl X Y Z, OccultismFixes/sacrifice log
-      # lines; LabAssistant todo #390, 2026-11-11). displayTest IGNORE_ALL_VERSION, no payloads, so clients stay on 0.5.0.
-      - name: 'occultismfixes-server'
-        source: url
-        location: 'https://madoka.brage.info/upstream/incognito/occultismfixes-26.3-0.5.2-3ef1fc21.jar'
-        filename: 'occultismfixes-26.3-0.5.2.jar'
-        side: server
+        location: 'https://madoka.brage.info/upstream/incognito/occultismfixes-26.3-0.6.1-4bea99f8.jar'
+        filename: 'occultismfixes-26.3-0.6.1.jar'
+        side: both
       - name: 'watershed'
         source: url
         location: 'https://madoka.brage.info/upstream/incognito/watershed-26.3-0.0.1-a487500b.jar'
