@@ -735,10 +735,10 @@
     "default": true,
     "filename": "megumin-26.3-0.1.0.jar",
     "encoded": "megumin-26.3-0.1.0.jar",
-    "src": "https://madoka.brage.info/upstream/incognito/megumin-26.3-0.1.0-d533f61c.jar",
-    "size": 378172,
-    "md5": "edcb2e0ca089b38b337875759214dfe5",
-    "sha256": "d533f61c438e31f95fb3bfb3c636528bbff316eafcf28b71886318d3c946ffa0"
+    "src": "https://madoka.brage.info/upstream/incognito/megumin-26.3-0.1.0-784f2e49.jar",
+    "size": 379088,
+    "md5": "fe8f8f3160905328dbd120d0c67fd61e",
+    "sha256": "784f2e4982df6d18066ea9eb27828dedafc1d2a8a20a071f76eb90209ad7a376"
   },
   {
     "name": "mezzconfig",
@@ -1047,10 +1047,10 @@
     "default": true,
     "filename": "stasisdelvers-26.3-0.1.0.jar",
     "encoded": "stasisdelvers-26.3-0.1.0.jar",
-    "src": "https://madoka.brage.info/upstream/incognito/stasisdelvers-26.3-0.1.0-9ef18e22.jar",
-    "size": 3780450,
-    "md5": "17474eeb5b703bf3c9b1c719c11dec3f",
-    "sha256": "9ef18e22cde1b079ae29dfe36a7eeb2cd776a3faae3d3d039cdda4ccc5b00e6e"
+    "src": "https://madoka.brage.info/upstream/incognito/stasisdelvers-26.3-0.1.0-d1fb8c6d.jar",
+    "size": 3786785,
+    "md5": "f3cc290b1aa2404f63c5795d355407e1",
+    "sha256": "d1fb8c6d39a186156dc802960cc3076d7ef36e3662b45888d80f032b2496f131"
   },
   {
     "name": "storagedrawers",

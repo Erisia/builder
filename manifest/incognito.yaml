@@ -17,7 +17,7 @@ nodes:
         side: both
       - name: 'stasisdelvers'
         source: url
-        location: 'https://madoka.brage.info/upstream/incognito/stasisdelvers-26.3-0.1.0-9ef18e22.jar'
+        location: 'https://madoka.brage.info/upstream/incognito/stasisdelvers-26.3-0.1.0-d1fb8c6d.jar'
         filename: 'stasisdelvers-26.3-0.1.0.jar'
         side: both
       # Halloween 2026 (LabAssistant's mod, Baughn): active 10-26..11-02 only; leave installed afterwards (cookies).
@@ -29,7 +29,7 @@ nodes:
       # Megumin Detector (LabAssistant's one-off mod for Baughn, 2026-10-31; msg 1566093511126810648, board #47).
       - name: 'megumin'
         source: url
-        location: 'https://madoka.brage.info/upstream/incognito/megumin-26.3-0.1.0-d533f61c.jar'
+        location: 'https://madoka.brage.info/upstream/incognito/megumin-26.3-0.1.0-784f2e49.jar'
         filename: 'megumin-26.3-0.1.0.jar'
         side: both
       # Occultism Fixes (LabAgent, 2026-11-02; Nero + Baughn OK msg 1566604836143759531): storage screen mouse buttons,
