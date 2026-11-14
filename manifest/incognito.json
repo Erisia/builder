@@ -447,12 +447,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "integrateddynamics-26.3-neoforge-1.33.4-2261.jar",
-    "encoded": "integrateddynamics-26.3-neoforge-1.33.4-2261.jar",
-    "src": "https://cdn.modrinth.com/data/yYzdQHJI/versions/QrgwS0Mh/integrateddynamics-26.3-neoforge-1.33.4-2261.jar",
-    "size": 4958082,
-    "md5": "bdd5d632ff06b3bb7c8bc14c11dc378d",
-    "sha256": "5e96f7705fe531ff434fef6422aaf86fc277d4a5424433f38058d16773f8523f"
+    "filename": "integrateddynamics-26.3-neoforge-1.33.4-2445.jar",
+    "encoded": "integrateddynamics-26.3-neoforge-1.33.4-2445.jar",
+    "src": "https://cdn.modrinth.com/data/yYzdQHJI/versions/oyiGblrd/integrateddynamics-26.3-neoforge-1.33.4-2445.jar",
+    "size": 5244317,
+    "md5": "6017b6201d7b5ff8a47e38dc7d663e17",
+    "sha256": "1969c9e4d4d70f74ac81b03e920f9cefc64e746c902ac5a1fa03efc9e6dfe4e1"
   },
   {
     "name": "integrated-terminals",
@@ -473,12 +473,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "integratedtunnels-26.3-neoforge-1.9.6-813.jar",
-    "encoded": "integratedtunnels-26.3-neoforge-1.9.6-813.jar",
-    "src": "https://cdn.modrinth.com/data/Etqy1Omb/versions/I76uVHXP/integratedtunnels-26.3-neoforge-1.9.6-813.jar",
-    "size": 789511,
-    "md5": "cae710d0dec754cba7fb5d8084f127da",
-    "sha256": "b9f656ab54179fae1b58e55a87a1fb8d6ef4cf96d9f4d1c4f71739c027079333"
+    "filename": "integratedtunnels-26.3-neoforge-1.9.6-832.jar",
+    "encoded": "integratedtunnels-26.3-neoforge-1.9.6-832.jar",
+    "src": "https://cdn.modrinth.com/data/Etqy1Omb/versions/N4pVD4rT/integratedtunnels-26.3-neoforge-1.9.6-832.jar",
+    "size": 793246,
+    "md5": "0641272d03e632a7dbd8c2376764b7a8",
+    "sha256": "64490f69b5d3b82d6e98f44189cdf9ffc20c9ee8d6adc672eeacd91565fab21e"
   },
   {
     "name": "inventory-profiles-next",

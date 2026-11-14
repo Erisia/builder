@@ -219,7 +219,7 @@ nodes:
       - name: integrated-dynamics
         source: modrinth
         id: 'yYzdQHJI'
-        file_id: 'QrgwS0Mh'
+        file_id: 'oyiGblrd'
         side: both
       - name: integrated-terminals
         source: modrinth
@@ -229,7 +229,7 @@ nodes:
       - name: integrated-tunnels
         source: modrinth
         id: 'Etqy1Omb'
-        file_id: 'I76uVHXP'
+        file_id: 'N4pVD4rT'
         side: both
       # Optional, off by default (Baughn 2026-10-21). libipn stays: it's only a library.
       - name: inventory-profiles-next
