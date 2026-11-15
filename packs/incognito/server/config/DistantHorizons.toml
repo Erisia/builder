@@ -41,7 +41,7 @@ _version = 5
 	#
 	# How many LOD sync requests per second should a client send? 
 	# Also limits the amount of player's requests allowed to stay in the server's queue.
-	syncOnLoadRateLimit = 50
+	syncOnLoadRateLimit = 10
 	#
 	# If true, clients will receive real-time LOD updates for chunks outside the client's render distance.
 	enableRealTimeUpdates = true
