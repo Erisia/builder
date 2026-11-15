@@ -249,7 +249,7 @@ _version = 5
 		# This should only be set if you have a pre-generated world that has a very limited size. 
 		# Setting this on a normal MC world will prevent the world generator from filling 
 		# out your render distance.
-		generationMaxChunkRadius = 0
+		generationMaxChunkRadius = 1560
 		#
 		# If the Minecraft server thread is taking too long 
 		# Distant Horizons will pause world gen to reduce server stuttering/lag.
@@ -278,7 +278,7 @@ _version = 5
 		# but may cause server/simulation lag. 
 		# Note: unlike other modes this option DOES save generated chunks to 
 		# Minecraft's region files.
-		chunkGeneratorMode = "PRE_EXISTING_ONLY"
+		chunkGeneratorMode = "FEATURES"
 		#
 		# Defines how LODs will be generated 
 		# outside the vanilla render distance. 
