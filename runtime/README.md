@@ -11,6 +11,11 @@ restart). `systemctl start|stop|restart minecraft@WORLD` works as the Minecraft
 user. Started any other way (e.g. by hand in a lab), the server runs without
 the extras. `control.sh` talks to the server over RCON only.
 
+Restart when empty: `control.sh restart-when-empty` (`--status`, `--cancel`) leaves a
+`restart-when-empty` file in the world directory. The daily-restart thread polls
+it every 45 s and restarts once two polls in a row see 0 players (RCON down
+counts as not empty). Any restart clears the request. Needs the extras (the unit).
+
 Host shutdown uses `python3 ~/builder/shutdown.py`, run as the Minecraft user.
 It discovers live `*/server.pid` launchers under that user's home, runs each
 `control.sh stop -t 10` concurrently (bypassing `stop.sh`'s lazy uptime guard),

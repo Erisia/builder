@@ -39,6 +39,16 @@ enum Command {
     Check {},
     /// Print the number of players currently online.
     Players {},
+    /// Restart the server the next time it is empty (start.py checks every 45 s).
+    /// Any restart clears the request.
+    RestartWhenEmpty {
+        /// Withdraw a pending request instead.
+        #[structopt(long)]
+        cancel: bool,
+        /// Only report whether a request is pending.
+        #[structopt(long)]
+        status: bool,
+    },
     /// Send a chat message to everyone on the server.
     Say {
         #[structopt(name = "message", required = true)]
@@ -47,6 +57,25 @@ enum Command {
 }
 
 const SERVER_PROPERTIES: &str = "server.properties";
+/// Flag file start.py polls; see RestartWhenEmpty.
+const RESTART_WHEN_EMPTY_FLAG: &str = "restart-when-empty";
+
+fn restart_when_empty(cancel: bool, status: bool) -> Result<()> {
+    let flag = std::path::Path::new(RESTART_WHEN_EMPTY_FLAG);
+    if status {
+        println!("{}", if flag.exists() { "restart-when-empty: pending" } else { "restart-when-empty: none" });
+    } else if cancel {
+        match std::fs::remove_file(flag) {
+            Ok(()) => println!("restart-when-empty: cancelled"),
+            Err(e) if e.kind() == std::io::ErrorKind::NotFound => println!("restart-when-empty: none pending"),
+            Err(e) => return Err(e).context("removing restart-when-empty"),
+        }
+    } else {
+        std::fs::write(flag, b"").context("writing restart-when-empty")?;
+        println!("restart-when-empty: requested; the server restarts once it has been empty for ~45 s");
+    }
+    Ok(())
+}
 
 /// `stop --lazy` exits with EX_TEMPFAIL when the server is too young to restart, so callers can tell.
 const EXIT_LAZY_SKIP: i32 = 75;
@@ -338,6 +367,10 @@ impl Server {
 
 fn main() -> Result<()> {
     let opts: Opts = Opts::from_args();
+    // Needs no running server: it only leaves a note for start.py.
+    if let Command::RestartWhenEmpty { cancel, status } = opts.cmd {
+        return restart_when_empty(cancel, status);
+    }
     let mut server = Server::new()?;
 
     match opts.cmd {
@@ -353,6 +386,7 @@ fn main() -> Result<()> {
             println!("{}", server.players()?);
             Ok(())
         }
+        Command::RestartWhenEmpty { .. } => unreachable!(),
         Command::Say { message } => server.send(&format!("say {}", message.join(" "))),
     }
 }
