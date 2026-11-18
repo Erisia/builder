@@ -8,3 +8,4 @@
 -XX:+ExitOnOutOfMemoryError
 -XX:+StartAttachListener
 -Xlog:gc*,safepoint:file=gc.log:time,uptime,level,tags:filecount=5,filesize=20M
+-XX:-UseBASE64Intrinsics
