@@ -1216,10 +1216,10 @@
     "default": true,
     "filename": "watershed-26.3-0.0.1.jar",
     "encoded": "watershed-26.3-0.0.1.jar",
-    "src": "https://madoka.brage.info/upstream/incognito/watershed-26.3-0.0.1-a487500b.jar",
-    "size": 1514949,
-    "md5": "5e2553c0760349f6f520fa647eaea151",
-    "sha256": "a487500bd3b768fec293798d9c3846ad707f2babfef80c0ab1de50e4a38cf95c"
+    "src": "https://madoka.brage.info/upstream/incognito/watershed-26.3-0.0.1-19058dfd.jar",
+    "size": 1515395,
+    "md5": "4694540ed0a183f483683f55c6db94dd",
+    "sha256": "19058dfd2210ef5b58ba88c78a51a0b319b13f4acb4728c1c5eafd0580989eae"
   },
   {
     "name": "waystones",
