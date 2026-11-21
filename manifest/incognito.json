@@ -319,10 +319,10 @@
     "default": true,
     "filename": "eln-26.3-0.1.0-port.jar",
     "encoded": "eln-26.3-0.1.0-port.jar",
-    "src": "https://madoka.brage.info/upstream/incognito/eln-26.3-0.1.0-port-a240771a.jar",
-    "size": 29494942,
-    "md5": "19bb415e0a6fb6d65bf3e02def152c67",
-    "sha256": "a240771a2d6ec54b60b255504a0ece42aeeb2e35a86c466765e79b34811838ed"
+    "src": "https://madoka.brage.info/upstream/incognito/eln-26.3-0.1.0-port-03c4ec21.jar",
+    "size": 29477800,
+    "md5": "58f66adc44d42c7c98d751e6e60f76b1",
+    "sha256": "03c4ec21219c30620aa4bcf39389cbd9d1c0274946e3b6a738e896c5ab793a0a"
   },
   {
     "name": "energized-power",
@@ -1060,10 +1060,10 @@
     "default": true,
     "filename": "stasisdelvers-26.3-0.1.0.jar",
     "encoded": "stasisdelvers-26.3-0.1.0.jar",
-    "src": "https://madoka.brage.info/upstream/incognito/stasisdelvers-26.3-0.1.0-7060b158.jar",
-    "size": 3796169,
-    "md5": "cd54cdb32df9ad0c86cbcce6a5469758",
-    "sha256": "7060b15815343a5415db98c0f6bbcb7c604546341cedb1023124063ff36de278"
+    "src": "https://madoka.brage.info/upstream/incognito/stasisdelvers-26.3-0.1.0-70c2dd06.jar",
+    "size": 3796002,
+    "md5": "177e23f93bb230626ddf40f27cf75ea9",
+    "sha256": "70c2dd06006427a0e86eab15b9963c3d245978ff45fe5e6aa675b74f258a3336"
   },
   {
     "name": "storagedrawers",
@@ -1216,10 +1216,10 @@
     "default": true,
     "filename": "watershed-26.3-0.0.1.jar",
     "encoded": "watershed-26.3-0.0.1.jar",
-    "src": "https://madoka.brage.info/upstream/incognito/watershed-26.3-0.0.1-a487500b.jar",
-    "size": 1514949,
-    "md5": "5e2553c0760349f6f520fa647eaea151",
-    "sha256": "a487500bd3b768fec293798d9c3846ad707f2babfef80c0ab1de50e4a38cf95c"
+    "src": "https://madoka.brage.info/upstream/incognito/watershed-26.3-0.0.1-19058dfd.jar",
+    "size": 1515395,
+    "md5": "4694540ed0a183f483683f55c6db94dd",
+    "sha256": "19058dfd2210ef5b58ba88c78a51a0b319b13f4acb4728c1c5eafd0580989eae"
   },
   {
     "name": "waystones",
