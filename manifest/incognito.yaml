@@ -36,7 +36,7 @@ nodes:
       # machine load from /run/obelisk/*.json (Saya's feed). Placed by Baughn with /obelisk build. Server and pack.
       - name: 'obelisk'
         source: url
-        location: 'https://madoka.brage.info/upstream/incognito/obelisk-26.3-0.1.0-5aa9cd63.jar'
+        location: 'https://madoka.brage.info/upstream/incognito/obelisk-26.3-0.1.0-18e536aa.jar'
         filename: 'obelisk-26.3-0.1.0.jar'
         side: both
       # Occultism Fixes (LabAgent, 2026-11-02; Nero + Baughn OK msg 1566604836143759531): storage screen mouse buttons,

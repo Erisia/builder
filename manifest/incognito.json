@@ -813,10 +813,10 @@
     "default": true,
     "filename": "obelisk-26.3-0.1.0.jar",
     "encoded": "obelisk-26.3-0.1.0.jar",
-    "src": "https://madoka.brage.info/upstream/incognito/obelisk-26.3-0.1.0-5aa9cd63.jar",
-    "size": 178956,
-    "md5": "b97af9735f00093ba259388b03a9007f",
-    "sha256": "5aa9cd63eb7f4cc2725afad9a70f630fcedb74ca2cd4ce6f7fba05d0dfdba4ff"
+    "src": "https://madoka.brage.info/upstream/incognito/obelisk-26.3-0.1.0-18e536aa.jar",
+    "size": 179048,
+    "md5": "846e58a4f5c6b73ede0fd92bacc846fa",
+    "sha256": "18e536aaac94ddd1978c64c6dcad8bdc8e7fe50715f71f1f567a9818deac42e1"
   },
   {
     "name": "occultism",
