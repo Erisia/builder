@@ -46,6 +46,13 @@ nodes:
         location: 'https://madoka.brage.info/upstream/incognito/occultismfixes-26.3-0.6.4-e6d655be.jar'
         filename: 'occultismfixes-26.3-0.6.4.jar'
         side: both
+      # Rooms (LabAssistant, 2026-11-23; Baughn msg 1574538438986703071, board #76): finds the room a block is in, for
+      # Megumin later and EA. Ops: /rooms show (HUD panel). rooms.git 9c52653. Server and pack. Rollback: remove.
+      - name: 'rooms'
+        source: url
+        location: 'https://madoka.brage.info/upstream/incognito/rooms-26.3-0.1.0-9e35947b.jar'
+        filename: 'rooms-26.3-0.1.0.jar'
+        side: both
       - name: 'watershed'
         source: url
         location: 'https://madoka.brage.info/upstream/incognito/watershed-26.3-0.0.1-19058dfd.jar'

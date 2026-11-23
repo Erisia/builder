@@ -949,6 +949,19 @@
     "sha256": "1ea771ce1c63021677c0787c449b7bb7bc343b54f8be4689b53064f2663fd433"
   },
   {
+    "name": "rooms",
+    "title": "rooms",
+    "side": "both",
+    "required": true,
+    "default": true,
+    "filename": "rooms-26.3-0.1.0.jar",
+    "encoded": "rooms-26.3-0.1.0.jar",
+    "src": "https://madoka.brage.info/upstream/incognito/rooms-26.3-0.1.0-9e35947b.jar",
+    "size": 70863,
+    "md5": "3956c02d6cc77d3b05073fd2b4780176",
+    "sha256": "9e35947bfd42f73538f64244a5fa60e862c25a6fa463534c1e4bd2f2be049e53"
+  },
+  {
     "name": "searchables",
     "title": "Searchables",
     "side": "client",
