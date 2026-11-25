@@ -20,12 +20,14 @@
 	details = false
 
 [fire]
-	#Seconds a coal fire (the stone heat furnace) takes to follow its setting: a first-order lag (Baughn: coal
-	#plants change burn rate slowly).
+	#Seconds a coal fire (the stone heat furnace) takes to spread through its bed towards its air setting
+	#(Baughn: coal plants change burn rate slowly). Its air valve (5 s) and a hot bed's cooling with the air shut (300 s)
+	#are fixed: sim/Fire.java.
 	# Default: 180.0
 	# Range: 0.0 ~ 3600.0
 	coalLagSeconds = 180.0
-	#Below this share of full power a fire asked to burn lower goes out.
+	#Below this share of full power an oil flame asked to burn lower goes out, and a fire is lit at it. A coal
+	#fire with its air shut smoulders until its bed is down to embers (sim/Fire.java EMBERS).
 	# Default: 0.15
 	# Range: 0.0 ~ 1.0
 	minFire = 0.15
@@ -42,6 +44,9 @@
 	#Convert six-node cables to voxel cables as their chunks load (blocks holding only cables; the
 	#six-node block is kept inside for /elnlab voxelcables revert). Off until the conversion is approved.
 	convertOnLoad = true
+	#Build voxel cables' connections from their stored joints (routing phase 3b); false: from the
+	#connection rules directly, as before (the joints are still recorded). A quick revert without a jar swap.
+	linksBuild = true
 
 [ambient]
 	#Ambient temperature (C) deep underground, before the gradient: surface temperatures (25 C per unit of
