@@ -837,12 +837,12 @@
     "side": "both",
     "required": true,
     "default": true,
-    "filename": "occultismfixes-26.3-0.6.4.jar",
-    "encoded": "occultismfixes-26.3-0.6.4.jar",
-    "src": "https://madoka.brage.info/upstream/incognito/occultismfixes-26.3-0.6.4-e6d655be.jar",
-    "size": 50974,
-    "md5": "81da18c5ee7f6d609f46ae7d5ee6cf78",
-    "sha256": "e6d655be1fad7e3eb030e8b4f04aac1b4c51ca0e8912cad0d9047eeee8744305"
+    "filename": "occultismfixes-26.3-0.7.0.jar",
+    "encoded": "occultismfixes-26.3-0.7.0.jar",
+    "src": "https://madoka.brage.info/upstream/incognito/occultismfixes-26.3-0.7.0-e8f92913.jar",
+    "size": 84139,
+    "md5": "dbd7d2deab5f8c2189fb31c9e8151e7e",
+    "sha256": "e8f929135f4f8dc69e451a1be77527786c3f42b9a7fcf22aae84ae24605ca1cc"
   },
   {
     "name": "open-parties-and-claims",
