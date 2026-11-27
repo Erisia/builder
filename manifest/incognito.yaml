@@ -40,11 +40,11 @@ nodes:
         filename: 'obelisk-26.3-0.1.0.jar'
         side: both
       # Occultism Fixes (LabAgent, 2026-11-02; Nero + Baughn OK msg 1566604836143759531): storage screen mouse buttons,
-      # no deleted/thrown stacks. 0.3.0 (11-03, Baughn 1567154286784151563): battlefield loot crash + JEI NPE. Server and pack. 0.4.0 (11-08, Nero 1568778523274117291): Fire Wings glide. 0.5.0 (11-08, Nero todos #286/#296): flame wings visuals + Backpacks tool-swap fix. 0.5.1 (11-11): sacrifice diagnostic; 0.5.2: Fairy's Blessing share credited to the player (sacrifices count); 0.6.1 (11-12, nero #389): Shub 'Minis' tablet toggle + indirect-magic death messages; 0.6.2 (11-13, nero todo 437): extractor looks up the inventory below before each insert (drawers); 0.6.3 (11-14, todo 463): Integrated Tunnels world exporter skips items with no dispense behaviour instead of crashing; 0.6.4 (11-15, todo 467): Sophisticated cooking upgrades honour per-stack fuel remainders; 0.7.0 (11-25, nero todo 583): Familiar Tablet redesign + Plain first jump (9b51c84); 0.7.1 (11-25, nero): buff descriptions on effect names, wrapping Active strip (e1a6255). Drop once Occultism fixes it upstream.
+      # no deleted/thrown stacks. 0.3.0 (11-03, Baughn 1567154286784151563): battlefield loot crash + JEI NPE. Server and pack. 0.4.0 (11-08, Nero 1568778523274117291): Fire Wings glide. 0.5.0 (11-08, Nero todos #286/#296): flame wings visuals + Backpacks tool-swap fix. 0.5.1 (11-11): sacrifice diagnostic; 0.5.2: Fairy's Blessing share credited to the player (sacrifices count); 0.6.1 (11-12, nero #389): Shub 'Minis' tablet toggle + indirect-magic death messages; 0.6.2 (11-13, nero todo 437): extractor looks up the inventory below before each insert (drawers); 0.6.3 (11-14, todo 463): Integrated Tunnels world exporter skips items with no dispense behaviour instead of crashing; 0.6.4 (11-15, todo 467): Sophisticated cooking upgrades honour per-stack fuel remainders; 0.7.0 (11-25, nero todo 583): Familiar Tablet redesign + Plain first jump (9b51c84); 0.7.1 (11-25, nero): buff descriptions on effect names, wrapping Active strip (e1a6255); 0.7.2 (11-27, nero 1575934272341287085, todo 621): empty-hand click on an empty Sacrificial Bowl no longer throws (f7263ee). Drop once Occultism fixes it upstream.
       - name: 'occultismfixes'
         source: url
-        location: 'https://madoka.brage.info/upstream/incognito/occultismfixes-26.3-0.7.1-c2c65e7f.jar'
-        filename: 'occultismfixes-26.3-0.7.1.jar'
+        location: 'https://madoka.brage.info/upstream/incognito/occultismfixes-26.3-0.7.2-a7e75fcc.jar'
+        filename: 'occultismfixes-26.3-0.7.2.jar'
         side: both
       # Rooms (LabAssistant, 2026-11-23; Baughn msg 1574538438986703071, board #76): finds the room a block is in, for
       # Megumin later and EA. Ops: /rooms show (HUD panel). rooms.git 9c52653. Server and pack. Rollback: remove.
