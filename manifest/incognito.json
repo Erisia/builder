@@ -735,10 +735,10 @@
     "default": true,
     "filename": "megumin-26.3-0.1.0.jar",
     "encoded": "megumin-26.3-0.1.0.jar",
-    "src": "https://madoka.brage.info/upstream/incognito/megumin-26.3-0.1.0-f368a1c6.jar",
-    "size": 430099,
-    "md5": "934dd51171102b345239c18ff300034b",
-    "sha256": "f368a1c6801ab4cfd34c3f48d1d859d1ec0e52f6855ba7da464bddeb7c6ff4f9"
+    "src": "https://madoka.brage.info/upstream/incognito/megumin-26.3-0.1.0-de2d9a50.jar",
+    "size": 430440,
+    "md5": "d696d1e5bb137f67dbdff2296ce43963",
+    "sha256": "de2d9a50b9221fa310c1175176b6d1dfeaa10ddf8867767c20615935fab19d98"
   },
   {
     "name": "mezzconfig",
