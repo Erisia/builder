@@ -34,9 +34,11 @@ SERVER_NAME = "@serverName@".lower() # Placeholder
 STOP_SCRIPT_PATH = APP_ROOT_DIR / "stop.sh" # stop.sh should be in the runtime dir if it's called
 LAZY_SKIP_EXIT = 75 # control stop --lazy: server too young, not stopping
 # Touch this file to restart the server the next time it is empty (two checks 45 s apart).
+# AFK players (view direction unchanged for 10 minutes) don't count; they get a 60 s countdown.
 # Any restart clears it. Front end: control.sh restart-when-empty [--cancel].
 RESTART_WHEN_EMPTY_FLAG = APP_ROOT_DIR / "restart-when-empty"
 CONTROL_SCRIPT_PATH = APP_ROOT_DIR / "control.sh"
+PLAYER_ACTIVITY_FILE = APP_ROOT_DIR / "player-activity.tsv" # control active-players' AFK memory
 USER_JVM_ARGS_FILE = APP_ROOT_DIR / "user_jvm_args.txt" # JVM args also in runtime dir
 SERVER_PROPERTIES_FILE = APP_ROOT_DIR / "server.properties"
 RCON_PORT = int("@rconPort@") # Placeholder; control.sh talks to the server over RCON
@@ -296,10 +298,11 @@ def configure_rcon():
     console.print(f"[green]RCON enabled on port {RCON_PORT} with a fresh password.[/]")
 
 
-def player_count():
-    """Players online via control.sh, or None if the server can't be asked (e.g. still booting)."""
+def player_count(subcommand="players"):
+    """Players online via control.sh, or None if the server can't be asked (e.g. still booting).
+    subcommand "active-players" counts only players who are not AFK (see control's help)."""
     try:
-        result = subprocess.run([str(CONTROL_SCRIPT_PATH), "players"], cwd=APP_ROOT_DIR,
+        result = subprocess.run([str(CONTROL_SCRIPT_PATH), subcommand], cwd=APP_ROOT_DIR,
                                 capture_output=True, text=True, timeout=30)
         if result.returncode == 0:
             return int(result.stdout.strip())
@@ -317,21 +320,31 @@ def daily_restart_task():
     if RESTART_WHEN_EMPTY_FLAG.exists():
         console.print("[green]Clearing restart-when-empty request: the server just restarted.[/]")
         RESTART_WHEN_EMPTY_FLAG.unlink(missing_ok=True)
+    # Players rejoin with their saved view direction, so AFK memory starts fresh each start.
+    PLAYER_ACTIVITY_FILE.unlink(missing_ok=True)
     empty_checks = 0
     while not daily_restart_stop_event.wait(45): # Wait 45s, check event
         if RESTART_WHEN_EMPTY_FLAG.exists():
-            if player_count() == 0:
+            # AFK players (view unchanged for 10 min) don't count; control remembers views between polls.
+            if player_count("active-players") == 0:
                 empty_checks += 1
             else:
                 empty_checks = 0
             if empty_checks >= 2: # empty for ~45 s, so a quick relog doesn't count
-                console.print("[bold yellow]Server is empty and a restart-when-empty was requested: restarting.[/]")
+                online = player_count()
                 RESTART_WHEN_EMPTY_FLAG.unlink(missing_ok=True)
                 stop_requested = True
-                run_command([str(CONTROL_SCRIPT_PATH), "stop", "-t", "0"], check=False, cwd=APP_ROOT_DIR)
+                if online == 0:
+                    console.print("[bold yellow]Server is empty and a restart-when-empty was requested: restarting.[/]")
+                    run_command([str(CONTROL_SCRIPT_PATH), "stop", "-t", "0"], check=False, cwd=APP_ROOT_DIR)
+                else:
+                    # Only AFK players left: the usual chat countdown, in case one is only reading.
+                    console.print("[bold yellow]Only AFK players online and a restart-when-empty was requested: restarting in 60 s.[/]")
+                    run_command([str(CONTROL_SCRIPT_PATH), "stop", "-t", "60"], check=False, cwd=APP_ROOT_DIR)
                 break
         else:
             empty_checks = 0
+            PLAYER_ACTIVITY_FILE.unlink(missing_ok=True)
         moment = datetime.datetime.now()
         now = moment.strftime("%H:%M")
         if now in ["06:00", "18:00"] and moment.strftime("%Y-%m-%d %H:%M") != last_trigger:

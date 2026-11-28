@@ -13,8 +13,11 @@ the extras. `control.sh` talks to the server over RCON only.
 
 Restart when empty: `control.sh restart-when-empty` (`--status`, `--cancel`) leaves a
 `restart-when-empty` file in the world directory. The daily-restart thread polls
-it every 45 s and restarts once two polls in a row see 0 players (RCON down
-counts as not empty). Any restart clears the request. Needs the extras (the unit).
+it every 45 s and restarts once two polls in a row see 0 active players (RCON down
+counts as not empty). AFK players don't count: `control.sh active-players` treats a
+player whose view direction hasn't changed for 10 minutes (as seen by these polls,
+remembered in `player-activity.tsv`) as AFK; if only AFK players are online, the
+restart gets the usual 60 s chat countdown. Any restart clears the request. Needs the extras (the unit).
 
 Host shutdown uses `python3 ~/builder/shutdown.py`, run as the Minecraft user.
 It discovers live `*/server.pid` launchers under that user's home, runs each

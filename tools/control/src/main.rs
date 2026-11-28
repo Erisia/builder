@@ -39,6 +39,14 @@ enum Command {
     Check {},
     /// Print the number of players currently online.
     Players {},
+    /// Print the number of online players who are not AFK. A player is AFK when their view
+    /// direction has not changed for --afk-minutes. Call it regularly (start.py does, every
+    /// 45 s): it remembers each player's last view direction in player-activity.tsv, so a
+    /// player is only judged AFK after being watched that long.
+    ActivePlayers {
+        #[structopt(long, default_value = "10")]
+        afk_minutes: u64,
+    },
     /// Restart the server the next time it is empty (start.py checks every 45 s).
     /// Any restart clears the request.
     RestartWhenEmpty {
@@ -59,6 +67,61 @@ enum Command {
 const SERVER_PROPERTIES: &str = "server.properties";
 /// Flag file start.py polls; see RestartWhenEmpty.
 const RESTART_WHEN_EMPTY_FLAG: &str = "restart-when-empty";
+/// active-players' memory: name, last seen view direction, unix time it last changed.
+/// start.py deletes it at each start (a player rejoins with their saved direction).
+const PLAYER_ACTIVITY: &str = "player-activity.tsv";
+
+/// Online player names from `list` output (the text after the colon).
+fn parse_player_names(list_output: &str) -> Vec<String> {
+    match list_output.split_once(':') {
+        Some((_, names)) => names
+            .split(|c| c == ',' || c == '\n')
+            .map(|n| n.trim().to_string())
+            .filter(|n| !n.is_empty())
+            .collect(),
+        None => Vec::new(),
+    }
+}
+
+/// Updates the activity memory with this poll's view directions and counts the active players.
+/// `rotations` holds one entry per online player; None (unreadable) counts as active.
+/// Returns the active count and the new memory (online players only, so a relog starts fresh).
+fn judge_activity(
+    old: &str,
+    rotations: &[(String, Option<String>)],
+    now: u64,
+    afk_secs: u64,
+) -> (u64, String) {
+    let mut memory = std::collections::HashMap::new();
+    for line in old.lines() {
+        let f: Vec<&str> = line.split('\t').collect();
+        if f.len() == 3 {
+            if let Ok(t) = f[2].parse::<u64>() {
+                memory.insert(f[0].to_string(), (f[1].to_string(), t));
+            }
+        }
+    }
+    let mut active = 0;
+    let mut out = String::new();
+    for (name, rotation) in rotations {
+        let rotation = match rotation {
+            Some(r) => r.replace('\t', " ").replace('\n', " "),
+            None => {
+                active += 1;
+                continue;
+            }
+        };
+        let changed = match memory.get(name) {
+            Some((r, t)) if *r == rotation => *t,
+            _ => now,
+        };
+        if now.saturating_sub(changed) < afk_secs {
+            active += 1;
+        }
+        out.push_str(&format!("{}\t{}\t{}\n", name, rotation, changed));
+    }
+    (active, out)
+}
 
 fn restart_when_empty(cancel: bool, status: bool) -> Result<()> {
     let flag = std::path::Path::new(RESTART_WHEN_EMPTY_FLAG);
@@ -72,7 +135,7 @@ fn restart_when_empty(cancel: bool, status: bool) -> Result<()> {
         }
     } else {
         std::fs::write(flag, b"").context("writing restart-when-empty")?;
-        println!("restart-when-empty: requested; the server restarts once it has been empty for ~45 s");
+        println!("restart-when-empty: requested; the server restarts once it has been empty (AFK players do not count) for ~45 s");
     }
     Ok(())
 }
@@ -234,6 +297,31 @@ impl Server {
         parse_player_count(&rcon.command("list")?)
     }
 
+    pub fn active_players(&self, afk: Duration) -> Result<u64> {
+        let rcon = self.rcon.as_ref().context("RCON is not configured")?;
+        let names = parse_player_names(&rcon.command("list")?);
+        let rotations: Vec<(String, Option<String>)> = names
+            .into_iter()
+            .map(|name| {
+                // Player names are [A-Za-z0-9_]; anything else is not queried, counts as active.
+                let ok = !name.is_empty() && name.chars().all(|c| c.is_ascii_alphanumeric() || c == '_');
+                let rotation = if ok {
+                    rcon.command(&format!("data get entity {} Rotation", name))
+                        .ok()
+                        .filter(|r| r.contains("has the following entity data"))
+                } else {
+                    None
+                };
+                (name, rotation)
+            })
+            .collect();
+        let old = std::fs::read_to_string(PLAYER_ACTIVITY).unwrap_or_default();
+        let now = std::time::SystemTime::now().duration_since(std::time::UNIX_EPOCH)?.as_secs();
+        let (active, memory) = judge_activity(&old, &rotations, now, afk.as_secs());
+        std::fs::write(PLAYER_ACTIVITY, memory).context("writing player-activity.tsv")?;
+        Ok(active)
+    }
+
     /// Sends a console command over RCON.
     pub fn send(&mut self, command: &str) -> Result<()> {
         let rcon = self.rcon.as_ref().context("RCON is not configured")?;
@@ -386,6 +474,10 @@ fn main() -> Result<()> {
             println!("{}", server.players()?);
             Ok(())
         }
+        Command::ActivePlayers { afk_minutes } => {
+            println!("{}", server.active_players(Duration::from_secs(afk_minutes * 60))?);
+            Ok(())
+        }
         Command::RestartWhenEmpty { .. } => unreachable!(),
         Command::Say { message } => server.send(&format!("say {}", message.join(" "))),
     }
@@ -404,6 +496,33 @@ mod tests {
     #[test]
     fn parses_legacy_list_output() {
         assert_eq!(parse_player_count("There are 12/20 players online:\na, b").unwrap(), 12);
+    }
+
+    #[test]
+    fn parses_player_names() {
+        assert_eq!(parse_player_names("There are 2 of a max of 20 players online: alice, bob_2"), vec!["alice", "bob_2"]);
+        assert_eq!(parse_player_names("There are 0 of a max of 20 players online: "), Vec::<String>::new());
+        assert_eq!(parse_player_names("There are 2/20 players online:\na, b"), vec!["a", "b"]);
+    }
+
+    #[test]
+    fn judges_afk_by_unchanged_view() {
+        let r = |n: &str, v: Option<&str>| (n.to_string(), v.map(|s| s.to_string()));
+        // First sighting: active, remembered.
+        let (n, mem) = judge_activity("", &[r("a", Some("[1f, 2f]"))], 1000, 600);
+        assert_eq!(n, 1);
+        // Same view 9 min later: still active; 10 min: AFK.
+        assert_eq!(judge_activity(&mem, &[r("a", Some("[1f, 2f]"))], 1540, 600).0, 1);
+        let (n, mem2) = judge_activity(&mem, &[r("a", Some("[1f, 2f]"))], 1600, 600);
+        assert_eq!(n, 0);
+        // Turning the view resets it.
+        let (n, mem3) = judge_activity(&mem2, &[r("a", Some("[1.5f, 2f]"))], 1700, 600);
+        assert_eq!(n, 1);
+        assert!(mem3.contains("\t1700\n"));
+        // Unreadable rotation counts as active; offline players are forgotten.
+        let (n, mem4) = judge_activity(&mem2, &[r("b", None)], 1700, 600);
+        assert_eq!(n, 1);
+        assert_eq!(mem4, "");
     }
 
     #[test]
